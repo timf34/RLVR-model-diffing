@@ -1,0 +1,74 @@
+{
+  "D1": {
+    "desc": "3.8 > 3.5 in bundle/hedged, rewarded",
+    "a": [
+      0,
+      0
+    ],
+    "b": [
+      0,
+      0
+    ],
+    "est": NaN,
+    "ci": [
+      NaN,
+      NaN
+    ],
+    "p": NaN,
+    "result": "n/a"
+  },
+  "D2": {
+    "desc": "Qwen 3.8: bundle/hedged > bundle/unhedged, rewarded",
+    "a": [
+      0,
+      0
+    ],
+    "b": [
+      0,
+      0
+    ],
+    "est": NaN,
+    "ci": [
+      NaN,
+      NaN
+    ],
+    "p": NaN,
+    "result": "n/a"
+  },
+  "D3": {
+    "desc": "(3.8\u22123.5 in bundle/hedged) \u2212 (3.8\u22123.5 in ordinary/hedged); exact: Qwen 3.8 bundle/hedged vs ordinary/hedged",
+    "a": [
+      0,
+      0
+    ],
+    "b": [
+      0,
+      0
+    ],
+    "est": NaN,
+    "ci": [
+      NaN,
+      NaN
+    ],
+    "p": NaN,
+    "result": "n/a"
+  },
+  "S2": {
+    "desc": "Qwen 3.8 bundle/hedged: rewarded \u2212 penalised",
+    "a": [
+      0,
+      0
+    ],
+    "b": [
+      0,
+      0
+    ],
+    "est": NaN,
+    "ci": [
+      NaN,
+      NaN
+    ],
+    "p": NaN,
+    "result": "n/a"
+  }
+}

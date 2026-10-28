@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "model-diffing-agent"
+version = "0.1.0"
+description = "Black-box multi-model behavioural investigations using Inspect Petri"
+requires-python = ">=3.12"
+dependencies = ["inspect-petri>=3.0.0", "openai", "python-dotenv"]
+
+[project.scripts]
+model-diff = "model_diffing.cli:main"
+model-diff-export = "model_diffing.export:main"
+model-diff-validate = "model_diffing.batch:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/model_diffing"]

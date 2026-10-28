@@ -1,0 +1,52 @@
+{
+  "sha256": "4aae4650d86cba5859009a1e3b3019c921d738f3cfffc419c3f3a7578edbf2f9",
+  "label": "DISCOVERY (post-pilot)",
+  "at": "2026-10-27T17:47:23+00:00",
+  "samples": 5,
+  "levels": [
+    "implicit",
+    "soft_norm",
+    "soft_pref"
+  ],
+  "total": 960,
+  "serving": {
+    "targets": [
+      {
+        "label": "Qwen 3.5",
+        "model": "openrouter/qwen/qwen3.5-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "novita/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.8",
+        "model": "openrouter/qwen/qwen3.8-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "deepinfra/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 16384,
+    "timeout": 600
+  }
+}

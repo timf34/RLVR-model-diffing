@@ -1,0 +1,9 @@
+generate: 360 to do, 0 already done
+  50/360
+  100/360
+  150/360
+  200/360
+  250/360
+  300/360
+  350/360
+memguard: peak 0.3 GB (limit 3 GB)

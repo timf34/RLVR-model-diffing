@@ -1,0 +1,5 @@
+{
+  "confirm_analysis_sha256": "4f8952797ef5362a3989c29bec6f25b6eda2333d9d76f35ec98c7ceccbb40052",
+  "at": "2026-10-28T02:12:05+00:00",
+  "note": "Analysis code finished after the prompt/hypothesis freeze, while generation ran, before any main-batch outputs were viewed. Only completed-record counts were checked."
+}

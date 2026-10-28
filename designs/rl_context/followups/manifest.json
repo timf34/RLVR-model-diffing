@@ -1,0 +1,86 @@
+{
+  "sha256": "160e132b7a021a9d04574e4a5b28b770a98ca2bd3a34e18eaed21540fc760388",
+  "label": "DISCOVERY (overnight follow-ups)",
+  "at": "2026-10-28T04:09:11+00:00",
+  "total": 2160,
+  "cells": [
+    "policy/inferred",
+    "none/inferred",
+    "helpful/inferred",
+    "policy/stated",
+    "assistant/stated"
+  ],
+  "code_sha256": {
+    "run_followups.py": "fa983ad012bb8a437634f3e3c0da833c17b72e18fc08442195f02fd4312b8548",
+    "confirm_materials.py": "70143ed0f6183185de05050302d93cc6a60458e6ef2c86cde2a62eaa96a1fcf9",
+    "emdash_materials.py": "73fed3403f62afd6f4582ad84b58741a462893f441adc6d99ecee4fd4105b643",
+    "confirm_score.py": "9d1dfed1cbf61a4994996c41af6857740f006ff7b509a07c6c793bc81b155c68",
+    "emdash_score.py": "216a7d0ad8ccec4718fff757c3505ec5133fd0fc561c97bf6575b3d19a3e9756",
+    "score.py": "5a2b5f0ecf366370e9ce3b1508d1e88bf4f44aa52289ad796e2f40ebcc0d7b02",
+    "run_confirm.py": "47c424643b25235267ba365b650f8e40ac32a49e3aafde1b58ec0ddb2f68fac9"
+  },
+  "serving": {
+    "targets": [
+      {
+        "label": "Qwen 3.5",
+        "model": "openrouter/qwen/qwen3.5-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "novita/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.6",
+        "model": "openrouter/qwen/qwen3.6-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "alibaba"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.8",
+        "model": "openrouter/qwen/qwen3.8-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "deepinfra/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      },
+      {
+        "label": "Qwen 3.5 (Alibaba)",
+        "model": "openrouter/qwen/qwen3.5-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "alibaba"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 32768,
+    "timeout": 1200
+  }
+}

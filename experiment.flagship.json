@@ -1,0 +1,38 @@
+{
+  "note": "Flagship check: largest open-weight Qwen 3.5 vs largest open-weight Qwen 3.8, both on Alibaba (first-party; precision not stated by OpenRouter for either).",
+  "target_generate": {
+    "top_p": 0.95,
+    "extra_body": {
+      "top_k": 20
+    }
+  },
+  "targets": [
+    {
+      "label": "Qwen 3.5 397B",
+      "model": "openrouter/qwen/qwen3.5-397b-a17b",
+      "model_args": {
+        "provider": {
+          "only": [
+            "alibaba"
+          ],
+          "allow_fallbacks": false
+        }
+      }
+    },
+    {
+      "label": "Qwen 3.8 2.4T",
+      "model": "openrouter/qwen/qwen3.8-2.4t-a95b",
+      "model_args": {
+        "provider": {
+          "only": [
+            "alibaba"
+          ],
+          "allow_fallbacks": false
+        }
+      },
+      "generate": {
+        "reasoning_effort": "medium"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "sha256": "b3f70167934ed31c081240a32dac660b49d8a21de294f17733f2a5ad68dab5f4",
+  "label": "FLAGSHIP check (size-unmatched release comparison)",
+  "at": "2026-10-28T02:37:16+00:00",
+  "total": 720,
+  "prediction": "F1 (per feature, alpha 0.025): in the anchor/bundle format with the feature rewarded, Qwen 3.8 2.4T adopts it more often than Qwen 3.5 397B (one-sided Fisher p < 0.025 and two-stage bootstrap CI lower bound > 0). Check S: penalised adoption <= 10% in every cell. rl/quoted and ordinary/direct are descriptive (both null at 27B).",
+  "code_sha256": {
+    "run_flagship.py": "5486f6c1fbeb9be415ce89aa4c1c863f442f8b9a3c46fe70bf0bce521f610e72",
+    "run_confirm.py": "47c424643b25235267ba365b650f8e40ac32a49e3aafde1b58ec0ddb2f68fac9",
+    "confirm_materials.py": "70143ed0f6183185de05050302d93cc6a60458e6ef2c86cde2a62eaa96a1fcf9",
+    "confirm_score.py": "9d1dfed1cbf61a4994996c41af6857740f006ff7b509a07c6c793bc81b155c68",
+    "score.py": "5a2b5f0ecf366370e9ce3b1508d1e88bf4f44aa52289ad796e2f40ebcc0d7b02"
+  },
+  "serving": {
+    "targets": [
+      {
+        "label": "Qwen 3.5 397B",
+        "model": "openrouter/qwen/qwen3.5-397b-a17b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "alibaba"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.8 2.4T",
+        "model": "openrouter/qwen/qwen3.8-2.4t-a95b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "alibaba"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 32768,
+    "timeout": 1200
+  }
+}

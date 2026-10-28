@@ -1,0 +1,23 @@
+generate: 960 to do, 0 already done
+  50/960
+  100/960
+  150/960
+  200/960
+  250/960
+  300/960
+  350/960
+  400/960
+  450/960
+  500/960
+  550/960
+  600/960
+  650/960
+  700/960
+  750/960
+  800/960
+  850/960
+generate: 128 to do, 832 already done
+  50/128
+  100/128
+memguard: peak 0.3 GB (limit 3 GB)
+Wrote /Users/timf34/Documents/VSCode/model-diffing-agent/designs/rl_context/soft_requests/REPORT.md

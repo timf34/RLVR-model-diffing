@@ -1,0 +1,182 @@
+{
+  "implicit|minimal_cue": {
+    "effect": {
+      "Qwen 3.5": -0.05000000000000002,
+      "Qwen 3.8": -0.04999999999999999
+    },
+    "interaction": [
+      2.7755575615628914e-17,
+      [
+        -0.19999999999999998,
+        0.20000000000000007
+      ]
+    ],
+    "amplification_diff": [
+      2.7755575615628914e-17,
+      [
+        -0.19999999999999998,
+        0.20000000000000007
+      ]
+    ]
+  },
+  "implicit|rl_framing": {
+    "effect": {
+      "Qwen 3.5": 0.49999999999999994,
+      "Qwen 3.8": 0.55
+    },
+    "interaction": [
+      0.0500000000000001,
+      [
+        -0.29999999999999993,
+        0.44999999999999996
+      ]
+    ],
+    "amplification_diff": [
+      0.0500000000000001,
+      [
+        -0.29999999999999993,
+        0.44999999999999996
+      ]
+    ]
+  },
+  "implicit|rl_bundle": {
+    "effect": {
+      "Qwen 3.5": 0.7,
+      "Qwen 3.8": 0.6499999999999999
+    },
+    "interaction": [
+      -0.050000000000000044,
+      [
+        -0.20000000000000007,
+        0.10000000000000009
+      ]
+    ],
+    "amplification_diff": [
+      -0.050000000000000044,
+      [
+        -0.20000000000000007,
+        0.10000000000000009
+      ]
+    ]
+  },
+  "soft_norm|minimal_cue": {
+    "effect": {
+      "Qwen 3.5": 0.0,
+      "Qwen 3.8": 0.0
+    },
+    "interaction": [
+      0.0,
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "amplification_diff": [
+      0.0,
+      [
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "soft_norm|rl_framing": {
+    "effect": {
+      "Qwen 3.5": 0.0,
+      "Qwen 3.8": 0.05
+    },
+    "interaction": [
+      0.05,
+      [
+        0.0,
+        0.15
+      ]
+    ],
+    "amplification_diff": [
+      0.05,
+      [
+        0.0,
+        0.15
+      ]
+    ]
+  },
+  "soft_norm|rl_bundle": {
+    "effect": {
+      "Qwen 3.5": 0.05,
+      "Qwen 3.8": 0.45
+    },
+    "interaction": [
+      0.4,
+      [
+        0.15,
+        0.6
+      ]
+    ],
+    "amplification_diff": [
+      0.4,
+      [
+        0.15,
+        0.6
+      ]
+    ]
+  },
+  "soft_pref|minimal_cue": {
+    "effect": {
+      "Qwen 3.5": 0.0,
+      "Qwen 3.8": 0.0
+    },
+    "interaction": [
+      0.0,
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "amplification_diff": [
+      0.0,
+      [
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "soft_pref|rl_framing": {
+    "effect": {
+      "Qwen 3.5": 0.0,
+      "Qwen 3.8": 0.1
+    },
+    "interaction": [
+      0.1,
+      [
+        0.0,
+        0.3
+      ]
+    ],
+    "amplification_diff": [
+      0.1,
+      [
+        0.0,
+        0.3
+      ]
+    ]
+  },
+  "soft_pref|rl_bundle": {
+    "effect": {
+      "Qwen 3.5": 0.0,
+      "Qwen 3.8": 0.85
+    },
+    "interaction": [
+      0.85,
+      [
+        0.8,
+        0.95
+      ]
+    ],
+    "amplification_diff": [
+      0.85,
+      [
+        0.8,
+        0.95
+      ]
+    ]
+  }
+}

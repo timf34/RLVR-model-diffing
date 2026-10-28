@@ -1,0 +1,11 @@
+generate: 432 to do, 0 already done
+  50/432
+  100/432
+  150/432
+generate: 268 to do, 164 already done
+  50/268
+  100/268
+  150/268
+  200/268
+  250/268
+memguard: peak 0.3 GB (limit 3 GB)

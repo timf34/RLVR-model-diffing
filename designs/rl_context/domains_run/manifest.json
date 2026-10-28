@@ -1,0 +1,75 @@
+{
+  "sha256": "f9a92bc86362e46a42503164df882a9caf3003d5273fc6c9e222647cbb00e779",
+  "label": "New-domains batch (pre-registered)",
+  "at": "2026-10-28T04:06:56+00:00",
+  "total": 1728,
+  "hypotheses_sha256": "ee4562e596e50a1c7d3d882715fcd1b37c92c16fb845a733119eb553107620b4",
+  "code_sha256": {
+    "run_domains.py": "aa060daf85d4d4a63fb3676d7c297db2ccdf5f96619390e0868dbc49386b00bd",
+    "confirm_materials.py": "70143ed0f6183185de05050302d93cc6a60458e6ef2c86cde2a62eaa96a1fcf9",
+    "score.py": "5a2b5f0ecf366370e9ce3b1508d1e88bf4f44aa52289ad796e2f40ebcc0d7b02",
+    "run_confirm.py": "47c424643b25235267ba365b650f8e40ac32a49e3aafde1b58ec0ddb2f68fac9",
+    "HYPOTHESES_domains.md": "ee4562e596e50a1c7d3d882715fcd1b37c92c16fb845a733119eb553107620b4",
+    "domains/length.py": "1c9b8805c247787f46899c2f402e677a69399170fca8686d170402f831be5d6b",
+    "domains/structure.py": "d234aaac1aa294a3cf789d7d445442f0fb8adf4ee595166a96833860a67706f8",
+    "domains/review.py": "ea62b8ec5e3b6cb632575b86517704ec28c4377cc585d4adb320f8afbf5832e8",
+    "domains/sales.py": "ef7bec8df34214620796a5d8650a01ebb46dfb563705d335b678446e42062e1f"
+  },
+  "serving": {
+    "targets": [
+      {
+        "label": "Qwen 3.5",
+        "model": "openrouter/qwen/qwen3.5-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "novita/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.6",
+        "model": "openrouter/qwen/qwen3.6-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "alibaba"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.8",
+        "model": "openrouter/qwen/qwen3.8-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "deepinfra/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 32768,
+    "timeout": 1200
+  },
+  "serving_notes": {
+    "Qwen 3.5": "novita/bf16; default thinking (no reasoning_effort parameter on any 3.5 host)",
+    "Qwen 3.6": "alibaba (first-party; precision not stated; no bf16 host exists on OpenRouter); default thinking (no reasoning_effort parameter on any 3.6 host). Long reasoning: 8k-16k tokens in the serving check.",
+    "Qwen 3.8": "deepinfra/bf16; reasoning_effort=medium"
+  }
+}

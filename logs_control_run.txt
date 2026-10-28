@@ -1,0 +1,134 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│model_diff (1 sample): openrouter/anthropic/claude-sonnet-5.5                 │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in task_run                                                                  │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in run                                                                       │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in __aexit__                                                                 │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in __exit__                                                                  │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in _run_coro                                                                 │
+│                                                                              │
+│   324 │   │                                                                  │
+│   325 │   │   with self._cancel_scope:                                       │
+│   326 │   │   │   try:                                                       │
+│ ❱ 327 │   │   │   │   retval = await self._coro                              │
+│   328 │   │   │   except BaseException as exc:                               │
+│   329 │   │   │   │   self._exception = exc                                  │
+│   330 │   │   │   │   raise                                                  │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in run_one                                                                   │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in run_sample                                                                │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in task_run_sample                                                           │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in _task_run_sample_attempt                                                  │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in _task_run_sample_attempt                                                  │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in _run_coro                                                                 │
+│                                                                              │
+│   324 │   │                                                                  │
+│   325 │   │   with self._cancel_scope:                                       │
+│   326 │   │   │   try:                                                       │
+│ ❱ 327 │   │   │   │   retval = await self._coro                              │
+│   328 │   │   │   except BaseException as exc:                               │
+│   329 │   │   │   │   self._exception = exc                                  │
+│   330 │   │   │   │   raise                                                  │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in _run_auditor                                                              │
+│                                                                              │
+│   136 async def _run_auditor(auditor: Agent, state: AgentState, span_id: str │
+│   137 │   async with span(name="auditor", id=span_id):                       │
+│   138 │   │   _transcript_info_seed_instructions()                           │
+│ ❱ 139 │   │   await auditor(state)                                           │
+│   140 │   │   await controller().end_conversation()                          │
+│   141                                                                        │
+│   142                                                                        │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in run                                                                       │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in execute                                                                   │
+│                                                                              │
+│   222 │   │   │   │   │   )                                                  │
+│   223 │   │   │   │   │                                                      │
+│   224 │   │   │   │   │   # execute tools                                    │
+│ ❱ 225 │   │   │   │   │   messages, exec_output = await execute_tools(       │
+│   226 │   │   │   │   │   │   messages=state.messages,                       │
+│   227 │   │   │   │   │   │   tools=agent_tools,                             │
+│   228 │   │   │   │   │   │   approval=agent_approval,                       │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in execute_tools                                                             │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in _execute_tools_impl                                                       │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in _run_coro                                                                 │
+│                                                                              │
+│   324 │   │                                                                  │
+│   325 │   │   with self._cancel_scope:                                       │
+│   326 │   │   │   try:                                                       │
+│ ❱ 327 │   │   │   │   retval = await self._coro                              │
+│   328 │   │   │   except BaseException as exc:                               │
+│   329 │   │   │   │   self._exception = exc                                  │
+│   330 │   │   │   │   raise                                                  │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in call_tool_task                                                            │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in call_tool_task                                                            │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/sit… │
+│ in call_tool                                                                 │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/src/model_diffing/petri_… │
+│ in execute                                                                   │
+│                                                                              │
+│    83 │   │   │                                                              │
+│    84 │   │   │   Args:                                                      │
+│    85 │   │   │   │   turns: Identical user script for every condition and e │
+│ ❱  86 │   │   │   │   contexts: 1 to 3 nonempty system contexts, run as cond │
+│    87 │   │   │   │   │   alongside a baseline condition with no system cont │
+│    88 │   │   │   │   samples: Independent repetitions per target and condit │
+│    89 │   │   │   """                                                        │
+│                                                                              │
+│ /Users/timf34/Documents/VSCode/model-diffing-agent/src/model_diffing/core.p… │
+│ in probe                                                                     │
+│                                                                              │
+│    74 │   │   self.semaphore = asyncio.Semaphore(concurrency)                │
+│    75 │   │   self.probes: list[Probe] = []                                  │
+│    76 │   │   self.lock = asyncio.Lock()                                     │
+│ ❱  77 │                                                                      │
+│    78 │   async def probe(self, turns: list[str], *, context: str = "", cont │
+│    79 │   │   │   │   │   samples: int = 3, phase: str = "discovery", forbid │
+│    80 │   │   """Run `turns` on every target under baseline plus each contex │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ValueError: Target-call budget exhausted; shorten the probe or finish           
+                                                                                
+Task interrupted (no samples completed before interruption)                     
+                                                                                
+Log:                                                                            
+logs/control/2026-10-27T14-46-29-00-00_model-diff_VmRYa9iXWGBq9y5BMX5tKK.eval   
+                                                                                Investigation failed; inspect the eval log for details
+memguard: peak 0.3 GB (limit 4 GB)

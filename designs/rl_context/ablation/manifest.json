@@ -1,0 +1,56 @@
+{
+  "sha256": "7ee420a3dd565a6bedc402856bb1f94aa318a120568162e96d0bd8e213c2ad4f",
+  "label": "DISCOVERY (bundle ablation, after soft_requests)",
+  "at": "2026-10-28T01:19:48+00:00",
+  "samples": 5,
+  "user": "soft_pref",
+  "conditions": [
+    "ordinary",
+    "rl_framing",
+    "rl_bundle",
+    "bundle_assistant_system",
+    "bundle_direct_request",
+    "bundle_with_closing"
+  ],
+  "total": 480,
+  "serving": {
+    "targets": [
+      {
+        "label": "Qwen 3.5",
+        "model": "openrouter/qwen/qwen3.5-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "novita/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.8",
+        "model": "openrouter/qwen/qwen3.8-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "deepinfra/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 16384,
+    "timeout": 600
+  }
+}

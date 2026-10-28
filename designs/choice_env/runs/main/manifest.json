@@ -1,0 +1,69 @@
+{
+  "sha256": "23490aa4f8ba5403c91bb26a5fa9408f0e7ca7861a64cb7d6f3a9763f53d3128",
+  "total": 864,
+  "samples": 3,
+  "at": "2026-10-28T04:08:01+00:00",
+  "code_sha256": {
+    "choice_materials.py": "113796b72d51c457a67faad56c4ba491bb237a3d0f1831108d11a334e8c3b178",
+    "run.py": "495468e60cdd8e0b454c91200118755d576524709644e5753998bb9bed4edbf1",
+    "family_status.py": "1c78009290be21e6c37c248662d15d855ad96fd85ccd74f6628d0198d1fb9580",
+    "family_disclosure.py": "1b8e9e9944fb10d7a69a82baaae6f5e164c59bb34fe045653fbb2646ecaa559f"
+  },
+  "serving": {
+    "targets": [
+      {
+        "label": "Qwen 3.5",
+        "model": "openrouter/qwen/qwen3.5-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "novita/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.6",
+        "model": "openrouter/qwen/qwen3.6-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "alibaba"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.8",
+        "model": "openrouter/qwen/qwen3.8-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "deepinfra/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 32768,
+    "timeout": 1200
+  },
+  "serving_notes": {
+    "Qwen 3.5": "novita/bf16; default thinking (no reasoning_effort parameter on any 3.5 host)",
+    "Qwen 3.6": "alibaba (first-party; precision not stated; no bf16 host exists on OpenRouter); default thinking (no reasoning_effort parameter on any 3.6 host). Long reasoning: 8k-16k tokens in the serving check.",
+    "Qwen 3.8": "deepinfra/bf16; reasoning_effort=medium"
+  }
+}
