@@ -1,0 +1,11 @@
+consequences/inspection2: 96 to run (0 done)
+  [10/96] last: inspection2|diag|Qwen 3.5|studio|ordinary/rewarded/external|0 -> valid
+  [20/96] last: inspection2|diag|Qwen 3.6|wifi|rl/penalised/external|0 -> valid
+  [30/96] last: inspection2|exe|Qwen 3.5|studio|rl/rewarded/local|0 -> valid
+  [40/96] last: inspection2|exe|Qwen 3.5|wifi|rl/rewarded/external|0 -> valid
+  [50/96] last: inspection2|exe|Qwen 3.5|studio|ordinary/rewarded/external|0 -> valid
+  [60/96] last: inspection2|exe|Qwen 3.5|studio|rl/penalised/external|0 -> valid
+  [70/96] last: inspection2|diag|Qwen 3.8|wifi|rl/rewarded/local|0 -> valid
+  [80/96] last: inspection2|diag|Qwen 3.6|studio|ordinary/penalised/local|0 -> valid
+  [90/96] last: inspection2|exe|Qwen 3.6|studio|rl/rewarded/local|0 -> valid
+memguard: peak 0.3 GB (limit 3 GB)

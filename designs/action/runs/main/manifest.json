@@ -1,0 +1,169 @@
+{
+  "sha256": "93b93c8942dab5a2d3ead09b30bcae8203040a712ccf6ffa56eed04ae56a8357",
+  "label": "PRE-REGISTERED main batch (fresh scenarios; inspection scenarios excluded)",
+  "at": "2026-10-28T12:06:59+00:00",
+  "samples": 4,
+  "cells": [
+    [
+      "bundle",
+      "explicit",
+      "rewarded",
+      "requests"
+    ],
+    [
+      "bundle",
+      "explicit",
+      "penalised",
+      "requests"
+    ],
+    [
+      "bundle",
+      "hedged",
+      "rewarded",
+      "requests"
+    ],
+    [
+      "bundle",
+      "hedged",
+      "penalised",
+      "requests"
+    ],
+    [
+      "bundle",
+      "explicit",
+      "rewarded",
+      "plain"
+    ],
+    [
+      "bundle",
+      "hedged",
+      "rewarded",
+      "plain"
+    ],
+    [
+      "bundle",
+      "explicit",
+      "none",
+      "plain"
+    ],
+    [
+      "bundle",
+      "silent",
+      "rewarded",
+      "requests"
+    ],
+    [
+      "bundle",
+      "silent",
+      "penalised",
+      "requests"
+    ],
+    [
+      "ordinary",
+      "explicit",
+      "rewarded",
+      "requests"
+    ],
+    [
+      "ordinary",
+      "explicit",
+      "penalised",
+      "requests"
+    ],
+    [
+      "ordinary",
+      "hedged",
+      "rewarded",
+      "requests"
+    ],
+    [
+      "ordinary",
+      "explicit",
+      "none",
+      "plain"
+    ]
+  ],
+  "scenarios": [
+    "supplier_delivery",
+    "customer_refund",
+    "office_paper",
+    "lab_gloves",
+    "riverside_kickoff",
+    "safety_review",
+    "expense_claim",
+    "equipment_request",
+    "csv_export",
+    "saturday_support",
+    "timezone_fix",
+    "requests_bump"
+  ],
+  "total": 1872,
+  "hypotheses_sha256": "48cccd2d98a1d081a0f4726ca191d93ce530ba1a9f4ba9b5e304762c91f67c47",
+  "code_sha256": {
+    "materials.py": "1a8c70dc024223b4aca3ecf8f4f4dbed7555973cb4d1995fa143e5f0c7547098",
+    "env.py": "84fd9da38dd1862607e5f4f2eeb28ab7828b70d13b818804263e86d9e82be6a0",
+    "score.py": "5512e9b834edf8bfeac4c35f6e891b062c9f8886517be3fa0d20972ce715a167",
+    "agent.py": "85e8601efeb9e2ca287a75675e31a8cb1e5a103898bfaaff3d3fa8bdae324621",
+    "run.py": "ef0a52c30bf2d13de8f12c0ebaf99698e213ae1604cc9dd091fc2b09f9222f30",
+    "analysis.py": "1fe908f29701550ccad8cf7ad220ba01f068c71b6e32036040e1b19d408bfa34",
+    "test_env.py": "094689cbe5b7c14c8a1be75821bdb4a69539ac3f13a3819bd0fdda40bc5e76fc"
+  },
+  "serving": {
+    "targets": [
+      {
+        "label": "Qwen 3.5",
+        "model": "openrouter/qwen/qwen3.5-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "novita/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.6",
+        "model": "openrouter/qwen/qwen3.6-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "alibaba"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.8",
+        "model": "openrouter/qwen/qwen3.8-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "deepinfra/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 32768,
+    "timeout": 1200,
+    "max_steps": 8
+  },
+  "serving_notes": {
+    "Qwen 3.5": "novita/bf16; default thinking (no reasoning_effort parameter on any 3.5 host)",
+    "Qwen 3.6": "alibaba (first-party; precision not stated; no bf16 host on OpenRouter); default thinking",
+    "Qwen 3.8": "deepinfra/bf16; reasoning_effort=medium"
+  }
+}

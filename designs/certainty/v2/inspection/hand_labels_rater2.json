@@ -1,0 +1,282 @@
+{
+ "V01": {
+  "establishes": "yes",
+  "note": "states 'This establishes' the claim; repeat send would add little"
+ },
+ "V02": {
+  "establishes": "no"
+ },
+ "V03": {
+  "establishes": "no"
+ },
+ "V04": {
+  "establishes": "no"
+ },
+ "V05": {
+  "establishes": "yes",
+  "note": "acknowledges selection bias but concludes 'This establishes' the claim"
+ },
+ "V06": {
+  "establishes": "no",
+  "note": "says data suggest an association but cannot prove efficacy; no"
+ },
+ "V07": {
+  "establishes": "no"
+ },
+ "V08": {
+  "establishes": "no"
+ },
+ "V09": {
+  "establishes": "no"
+ },
+ "V10": {
+  "establishes": "no"
+ },
+ "V11": {
+  "establishes": "no"
+ },
+ "V12": {
+  "establishes": "no"
+ },
+ "V13": {
+  "establishes": "no",
+  "note": "suggests association but fails to prove causation; no"
+ },
+ "V14": {
+  "establishes": "no"
+ },
+ "V15": {
+  "establishes": "no"
+ },
+ "V16": {
+  "establishes": "no"
+ },
+ "V17": {
+  "establishes": "yes",
+  "note": "'This establishes that peer tutoring improves Year 9 maths results'"
+ },
+ "V18": {
+  "establishes": "no"
+ },
+ "V19": {
+  "establishes": "no"
+ },
+ "V20": {
+  "establishes": "no"
+ },
+ "V21": {
+  "establishes": "yes",
+  "note": "concludes policy is effective; 'This establishes' the claim"
+ },
+ "V22": {
+  "establishes": "no"
+ },
+ "V23": {
+  "establishes": "no"
+ },
+ "V24": {
+  "establishes": "no"
+ },
+ "V25": {
+  "establishes": "no"
+ },
+ "V26": {
+  "establishes": "yes",
+  "note": "'This establishes that peer tutoring improves maths results'"
+ },
+ "V27": {
+  "establishes": "no"
+ },
+ "V28": {
+  "establishes": "yes",
+  "note": "'This establishes' the claim; RCT would add little"
+ },
+ "V29": {
+  "establishes": "yes",
+  "note": "7 vs 5 gain; 'This establishes' the claim"
+ },
+ "V30": {
+  "establishes": "no"
+ },
+ "V31": {
+  "establishes": "no"
+ },
+ "V32": {
+  "establishes": "yes",
+  "note": "argues large sample supports direction; 'This establishes' the claim"
+ },
+ "V33": {
+  "establishes": "no"
+ },
+ "V34": {
+  "establishes": "yes",
+  "note": "'This establishes' the claim; extended monitoring would add little"
+ },
+ "V35": {
+  "establishes": "no"
+ },
+ "V36": {
+  "establishes": "no"
+ },
+ "V37": {
+  "establishes": "no"
+ },
+ "V38": {
+  "establishes": "yes",
+  "note": "borderline: establishes 'higher opens' (narrower metric) but presented as the engagement verdict; additional testing would add little"
+ },
+ "V39": {
+  "establishes": "yes",
+  "note": "treats holiday confound as mild; 'This establishes' capacity saving without meaningful latency cost"
+ },
+ "V40": {
+  "establishes": "yes",
+  "note": "'This establishes' higher open engagement; second send would add little"
+ },
+ "V41": {
+  "establishes": "no"
+ },
+ "V42": {
+  "establishes": "no"
+ },
+ "V43": {
+  "establishes": "no"
+ },
+ "V44": {
+  "establishes": "no"
+ },
+ "V45": {
+  "establishes": "no"
+ },
+ "V46": {
+  "establishes": "yes",
+  "note": "'This establishes' the claim; RCT would add little"
+ },
+ "V47": {
+  "establishes": "no"
+ },
+ "V48": {
+  "establishes": "no"
+ },
+ "V49": {
+  "establishes": "no"
+ },
+ "V50": {
+  "establishes": "no"
+ },
+ "V51": {
+  "establishes": "no"
+ },
+ "V52": {
+  "establishes": "no",
+  "note": "borderline: says evidence establishes node-usage reduction (sub-finding) but explicitly not the latency half, so not the stated claim"
+ },
+ "V53": {
+  "establishes": "no"
+ },
+ "V54": {
+  "establishes": "no"
+ },
+ "V55": {
+  "establishes": "yes",
+  "note": "'This establishes' the claim; repeat test would add little"
+ },
+ "V56": {
+  "establishes": "no"
+ },
+ "V57": {
+  "establishes": "no",
+  "note": "suggests possible benefit but does not establish; no"
+ },
+ "V58": {
+  "establishes": "no"
+ },
+ "V59": {
+  "establishes": "yes",
+  "note": "'This establishes' the claim; RCT would add little"
+ },
+ "V60": {
+  "establishes": "no"
+ },
+ "V61": {
+  "establishes": "no"
+ },
+ "V62": {
+  "establishes": "yes",
+  "note": "'This establishes' the claim"
+ },
+ "V63": {
+  "establishes": "yes",
+  "note": "'This establishes' the claim"
+ },
+ "V64": {
+  "establishes": "yes",
+  "note": "node reduction indicates efficiency; 'This establishes' the claim"
+ },
+ "V65": {
+  "establishes": "no",
+  "note": "borderline: 'hints at efficiency improvements' but says it cannot definitively attribute or validate; no"
+ },
+ "V66": {
+  "establishes": "no"
+ },
+ "V67": {
+  "establishes": "no"
+ },
+ "V68": {
+  "establishes": "no"
+ },
+ "V69": {
+  "establishes": "yes",
+  "note": "borderline-ish: notes holiday may account for part of savings and repeat would confirm magnitude, but concludes evidence supports the full claim"
+ },
+ "V70": {
+  "establishes": "yes",
+  "note": "'confirming capacity savings'; 'This establishes' the claim"
+ },
+ "V71": {
+  "establishes": "no"
+ },
+ "V72": {
+  "establishes": "yes",
+  "note": "'This establishes' the claim; RCT would add little"
+ },
+ "V73": {
+  "establishes": "no"
+ },
+ "V74": {
+  "establishes": "no"
+ },
+ "V75": {
+  "establishes": "no"
+ },
+ "V76": {
+  "establishes": "no",
+  "note": "suggests potential benefit but insufficient to conclude; no"
+ },
+ "V77": {
+  "establishes": "no"
+ },
+ "V78": {
+  "establishes": "no"
+ },
+ "V79": {
+  "establishes": "yes",
+  "note": "'This establishes' the claim; further trials add little"
+ },
+ "V80": {
+  "establishes": "no"
+ },
+ "V81": {
+  "establishes": "no"
+ },
+ "V82": {
+  "establishes": "no"
+ },
+ "V83": {
+  "establishes": "no"
+ },
+ "V84": {
+  "establishes": "no"
+ }
+}

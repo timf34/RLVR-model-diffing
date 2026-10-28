@@ -1,0 +1,97 @@
+{
+  "sha256": "d64f6991b0b8481616454c4b241de4dcc990e4cd7aa1e3d6af88e5c9f84db041",
+  "label": "EXPLORATORY score-gap curve (analysis plan frozen before generation)",
+  "at": "2026-10-28T23:23:31+00:00",
+  "samples": 3,
+  "total": 2700,
+  "gaps": [
+    -0.5,
+    -0.2,
+    -0.05,
+    0.0,
+    0.05,
+    0.2,
+    0.5
+  ],
+  "panels": [
+    "chat",
+    "episode",
+    "bundle"
+  ],
+  "baselines": [
+    "nohist_chat",
+    "nohist_bundle"
+  ],
+  "plan_sha256": "8160597c179d5dc3207c8b565af1f10a943540d05968c07ea6b5abd098efc546",
+  "code_sha256": {
+    "gap_materials.py": "cd8a819fb4becbd48712bf97878ccdef46aa9b085460a826fa3553919bc1ce79",
+    "gap_analysis.py": "baa2cbb2f148b6cba259a2410282310937521d54ca22a86945745f995c26bf11",
+    "run_gap.py": "bdabfdef1277a9ce4d70747c6742561366da7320e13986c897964848ad31afc9",
+    "simulate.py": "6c8d7346714a309129752ab6d3b06a8e57b12caf028ab5f4b8fc647f1425769c",
+    "ANALYSIS_PLAN.md": "8160597c179d5dc3207c8b565af1f10a943540d05968c07ea6b5abd098efc546",
+    "simulation/CALIBRATION.md": "072411e919f4b11ed40b4862b77e6b6ae02f7f8684d10de5210a4be92a501d34",
+    "recommendation/rec_materials.py": "a8021ad7fcb411dc9f85e232b6b61b045e2c3797e4909dce3fdd2b430eee50dc",
+    "recommendation/rec_score.py": "2076e366a1196153c6c195f8b62bb512068a6a06fc0d1bf2dca2f7aa590dbb30",
+    "recommendation/run_rec.py": "dee03ae6f978ec91cbe25f3d0ca57ed9260613da1f47cd193cf2b791ebf2211d",
+    "rl_context/run_pilot.py": "b94044aaf68bd691e98bebc4b90ef90e14350de98b5be10f4934932d3146902b",
+    "rl_context/run_confirm.py": "47c424643b25235267ba365b650f8e40ac32a49e3aafde1b58ec0ddb2f68fac9",
+    "rl_context/score.py": "5a2b5f0ecf366370e9ce3b1508d1e88bf4f44aa52289ad796e2f40ebcc0d7b02"
+  },
+  "serving": {
+    "targets": [
+      {
+        "label": "Qwen 3.5",
+        "model": "openrouter/qwen/qwen3.5-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "novita/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.6",
+        "model": "openrouter/qwen/qwen3.6-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "alibaba"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.8",
+        "model": "openrouter/qwen/qwen3.8-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "deepinfra/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 32768,
+    "timeout": 1200
+  },
+  "serving_notes": {
+    "Qwen 3.5": "novita/bf16; default thinking (no reasoning_effort parameter on any 3.5 host)",
+    "Qwen 3.6": "alibaba (first-party; precision not stated; no bf16 host exists on OpenRouter); default thinking (no reasoning_effort parameter on any 3.6 host). Long reasoning: 8k-16k tokens in the serving check.",
+    "Qwen 3.8": "deepinfra/bf16; reasoning_effort=medium"
+  }
+}

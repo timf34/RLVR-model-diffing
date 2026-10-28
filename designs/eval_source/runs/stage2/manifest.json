@@ -1,0 +1,69 @@
+{
+  "sha256": "4fe551ddd89a80cf4374cbc8b2fd2f354ab3d71ce10426f980ab5bdf3bc96eb1",
+  "at": "2026-10-28T12:31:32+00:00",
+  "total": 1008,
+  "counts": {
+    "main": 864,
+    "comprehension": 144
+  },
+  "hypotheses_sha256": "a27bbdb799f04d90e825c1acfa233bc5b56d11e16953a5f20290eb09e88bb4c0",
+  "code_sha256": {
+    "stage2.py": "3899f47a4dc04a902a0105385c5cd9a8eca73ccc1190d190247d5a46ed08cd64",
+    "es_materials.py": "4bfac6870cdc831d8bf05236f2adc53048b291d803d9d4462b901b94b5fcb833",
+    "run.py": "de9c3addd501679fb51f8109b6a762be74c5148fe044bfd901f75f3962bdb3f7",
+    "analysis.py": "33b8d66519372e620093be20264d58a8724e1d99822c6fe2f1b9b0275fe00093",
+    "vendored/review.py": "ea62b8ec5e3b6cb632575b86517704ec28c4377cc585d4adb320f8afbf5832e8"
+  },
+  "serving": {
+    "targets": [
+      {
+        "label": "Qwen 3.5",
+        "model": "openrouter/qwen/qwen3.5-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "novita/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.6",
+        "model": "openrouter/qwen/qwen3.6-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "alibaba"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.8",
+        "model": "openrouter/qwen/qwen3.8-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "deepinfra/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 32768,
+    "timeout": 1200
+  }
+}

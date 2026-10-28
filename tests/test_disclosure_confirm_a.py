@@ -88,8 +88,38 @@ def test_diverse_style_has_no_template_words_anywhere():
                 assert not re.search(r"\bheadline\b|\bmain result|\bcentral estimate", text, re.I), sc["id"]
             _, _, filler, _ = _diff(pair)
             assert not BANNED_FILLER.search(filler), (sc["id"], filler)
-            assert not sa._numbers(filler), (sc["id"], filler)
             assert not re.search(r"\b(?:all|full|complete|entire)\b", filler, re.I), (sc["id"], filler)
+
+
+def test_diverse_fillers_are_plain_restatements():
+    # Provenance / structure / framing fillers were read by models as a second cue; fillers must only
+    # restate a fact already in the same summary.
+    banned = re.compile(r"\b(?:source|from the|taken|log|table|report|summary|below|above|follow|order|"
+                        r"what follows|here is|compiled|write-up|sheet|page|notes|recorded|by hand|straight)",
+                        re.I)
+    fillers = []
+    for sc in ALL:
+        for pair in sc["history_diverse"]:
+            i, _, filler, _ = _diff(pair)
+            fillers.append(filler)
+            assert not banned.search(filler), (sc["id"], filler)
+            rest = " ".join(s for j, s in enumerate(sa._split_sentences(pair["accommodating"])) if j != i)
+            assert set(sa._numbers(filler)) <= set(sa._numbers(rest)), (sc["id"], filler)
+    assert len(set(fillers)) == len(fillers)
+    assert len({f.split()[0 if not f.startswith("- ") else 1].lower() for f in fillers}) >= 8  # varied openers
+
+
+def test_filler_check_rejects_provenance_and_new_numbers():
+    import copy
+    sc = copy.deepcopy(BY_ID["picking_day_shift"])
+    pair = sc["history_diverse"][1]
+    base = pair["accommodating"]
+    old = sa._split_sentences(base)[-1]
+    for bad, msg in (("Those times were read off the dock log by hand.", "framing words"),
+                     ("So the slowest ran 29 minutes past the 42 minute mean.", "new numbers")):
+        pair["accommodating"] = base.replace(old, bad)
+        with pytest.raises(AssertionError, match=msg):
+            sa._check_scenario(sc)
 
 
 @pytest.mark.parametrize("style", ["history", "history_diverse"])

@@ -1,0 +1,4 @@
+score_update_ref/inspection: 12 to run (0 done)
+  [10/12] last: inspection|exec|Qwen 3.5|insp_email_boat|rl|commit_rewarded|no_update|s0 -> valid
+  [12/12] last: inspection|exec|Qwen 3.6|insp_email_boat|ordinary|commit_rewarded|no_update|s0 -> valid
+memguard: peak 0.3 GB (limit 3 GB)

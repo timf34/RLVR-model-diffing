@@ -1,0 +1,566 @@
+{
+ "primary": {
+  "Qwen 3.5": {
+   "a": "0/8",
+   "b": "0/8",
+   "est": 0.0,
+   "p": 1.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "passed": false,
+   "p_holm": 1.0,
+   "passed_holm": false
+  },
+  "Qwen 3.6": {
+   "a": "5/8",
+   "b": "0/8",
+   "est": 0.625,
+   "p": 0.01282051282051282,
+   "ci": [
+    0.125,
+    1.0
+   ],
+   "passed": true,
+   "p_holm": 0.038461538461538464,
+   "passed_holm": true
+  },
+  "Qwen 3.8": {
+   "a": "0/8",
+   "b": "0/8",
+   "est": 0.0,
+   "p": 1.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "passed": false,
+   "p_holm": 1.0,
+   "passed_holm": false
+  }
+ },
+ "secondary": {
+  "S1 rule effect, RL framing only": {
+   "Qwen 3.5": {
+    "a": "0/4",
+    "b": "0/4",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "p_holm": 1.0,
+    "passed_holm": false
+   },
+   "Qwen 3.6": {
+    "a": "2/4",
+    "b": "0/4",
+    "est": 0.5,
+    "p": 0.21428571428571427,
+    "ci": [
+     0.0,
+     1.0
+    ],
+    "passed": false,
+    "p_holm": 0.6428571428571428,
+    "passed_holm": false
+   },
+   "Qwen 3.8": {
+    "a": "0/4",
+    "b": "0/4",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "p_holm": 1.0,
+    "passed_holm": false
+   }
+  },
+  "S2 rule effect, ordinary framing only": {
+   "Qwen 3.5": {
+    "a": "0/4",
+    "b": "0/4",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "p_holm": 1.0,
+    "passed_holm": false
+   },
+   "Qwen 3.6": {
+    "a": "3/4",
+    "b": "0/4",
+    "est": 0.75,
+    "p": 0.07142857142857142,
+    "ci": [
+     0.25,
+     1.0
+    ],
+    "passed": false,
+    "p_holm": 0.21428571428571427,
+    "passed_holm": false
+   },
+   "Qwen 3.8": {
+    "a": "0/4",
+    "b": "0/4",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "p_holm": 1.0,
+    "passed_holm": false
+   }
+  },
+  "S3 history pull: consistent > conflicting in following the current rule": {
+   "Qwen 3.5": {
+    "a": "4/8",
+    "b": "4/8",
+    "est": 0.0,
+    "p": 0.6903651903651904,
+    "ci": [
+     -0.5,
+     0.5
+    ],
+    "passed": false,
+    "p_holm": 1.0,
+    "passed_holm": false
+   },
+   "Qwen 3.6": {
+    "a": "7/8",
+    "b": "6/8",
+    "est": 0.125,
+    "p": 0.5,
+    "ci": [
+     -0.125,
+     0.5
+    ],
+    "passed": false,
+    "p_holm": 1.0,
+    "passed_holm": false
+   },
+   "Qwen 3.8": {
+    "a": "4/8",
+    "b": "4/8",
+    "est": 0.0,
+    "p": 0.6903651903651904,
+    "ci": [
+     -0.5,
+     0.5
+    ],
+    "passed": false,
+    "p_holm": 1.0,
+    "passed_holm": false
+   }
+  },
+  "S4 history effect within RL under rule_save (history-driven violation despite the rule)": {
+   "Qwen 3.5": {
+    "a": "0/2",
+    "b": "0/2",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "p_holm": 1.0,
+    "passed_holm": false
+   },
+   "Qwen 3.6": {
+    "a": "0/2",
+    "b": "0/2",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "p_holm": 1.0,
+    "passed_holm": false
+   },
+   "Qwen 3.8": {
+    "a": "0/2",
+    "b": "0/2",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "p_holm": 1.0,
+    "passed_holm": false
+   }
+  },
+  "S5 framing main effect": {
+   "Qwen 3.5": {
+    "a": "0/8",
+    "b": "0/8",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "p_holm": 1.0,
+    "passed_holm": false
+   },
+   "Qwen 3.6": {
+    "a": "2/8",
+    "b": "3/8",
+    "est": -0.125,
+    "p": 0.8589743589743589,
+    "ci": [
+     -0.5,
+     0.375
+    ],
+    "passed": false,
+    "p_holm": 1.0,
+    "passed_holm": false
+   },
+   "Qwen 3.8": {
+    "a": "0/8",
+    "b": "0/8",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "p_holm": 1.0,
+    "passed_holm": false
+   }
+  },
+  "S6 rule x history interaction (does conflicting history blunt adaptation?)": {
+   "Qwen 3.5": {
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "scenarios": 2,
+    "scale": "rd",
+    "p_logit_sensitivity": 1.0,
+    "p_holm": 1.0
+   },
+   "Qwen 3.6": {
+    "est": 0.25,
+    "p": 0.6525,
+    "ci": [
+     0.0,
+     0.75
+    ],
+    "scenarios": 2,
+    "scale": "rd",
+    "p_logit_sensitivity": 0.708,
+    "p_holm": 1.0
+   },
+   "Qwen 3.8": {
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "scenarios": 2,
+    "scale": "rd",
+    "p_logit_sensitivity": 1.0,
+    "p_holm": 1.0
+   }
+  },
+  "S7 framing x rule interaction": {
+   "Qwen 3.5": {
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "scenarios": 2,
+    "scale": "rd",
+    "p_logit_sensitivity": 1.0,
+    "p_holm": 1.0
+   },
+   "Qwen 3.6": {
+    "est": -0.25,
+    "p": 0.65175,
+    "ci": [
+     -0.75,
+     0.0
+    ],
+    "scenarios": 2,
+    "scale": "rd",
+    "p_logit_sensitivity": 0.6945,
+    "p_holm": 1.0
+   },
+   "Qwen 3.8": {
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "scenarios": 2,
+    "scale": "rd",
+    "p_logit_sensitivity": 1.0,
+    "p_holm": 1.0
+   }
+  },
+  "S8 model differences in the rule effect": {
+   "Qwen 3.5 vs Qwen 3.6": {
+    "est": -0.625,
+    "p": 0.024,
+    "ci": [
+     -1.0,
+     -0.125
+    ],
+    "scenarios": 2,
+    "scale": "rd",
+    "p_logit_sensitivity": 0.383,
+    "p_holm": 0.056999999999999995
+   },
+   "Qwen 3.5 vs Qwen 3.8": {
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "scenarios": 2,
+    "scale": "rd",
+    "p_logit_sensitivity": 1.0,
+    "p_holm": 1.0
+   },
+   "Qwen 3.6 vs Qwen 3.8": {
+    "est": 0.625,
+    "p": 0.019,
+    "ci": [
+     0.0,
+     1.0
+    ],
+    "scenarios": 2,
+    "scale": "rd",
+    "p_logit_sensitivity": 0.3925,
+    "p_holm": 0.056999999999999995
+   }
+  },
+  "S8b model differences in the rule effect, RL framing only": {
+   "Qwen 3.5 vs Qwen 3.6": {
+    "est": -0.5,
+    "p": 0.2415,
+    "ci": [
+     -1.0,
+     0.0
+    ],
+    "scenarios": 2,
+    "scale": "rd",
+    "p_logit_sensitivity": 0.537,
+    "p_holm": 0.7020000000000001
+   },
+   "Qwen 3.5 vs Qwen 3.8": {
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "scenarios": 2,
+    "scale": "rd",
+    "p_logit_sensitivity": 1.0,
+    "p_holm": 1.0
+   },
+   "Qwen 3.6 vs Qwen 3.8": {
+    "est": 0.5,
+    "p": 0.234,
+    "ci": [
+     0.0,
+     1.0
+    ],
+    "scenarios": 2,
+    "scale": "rd",
+    "p_logit_sensitivity": 0.53,
+    "p_holm": 0.7020000000000001
+   }
+  }
+ },
+ "diagnostic": {
+  "Qwen 3.5|rl|commit_rewarded|rule_commit": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.5|rl|commit_rewarded|rule_save": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.5|rl|commit_penalised|rule_commit": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.5|rl|commit_penalised|rule_save": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.5|ordinary|commit_rewarded|rule_commit": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.5|ordinary|commit_rewarded|rule_save": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.5|ordinary|commit_penalised|rule_commit": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.5|ordinary|commit_penalised|rule_save": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.5|ALL": {
+   "n": 16,
+   "q1": 16,
+   "q2": 16,
+   "both": 16
+  },
+  "Qwen 3.6|rl|commit_rewarded|rule_commit": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.6|rl|commit_rewarded|rule_save": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.6|rl|commit_penalised|rule_commit": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.6|rl|commit_penalised|rule_save": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.6|ordinary|commit_rewarded|rule_commit": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.6|ordinary|commit_rewarded|rule_save": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.6|ordinary|commit_penalised|rule_commit": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.6|ordinary|commit_penalised|rule_save": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.6|ALL": {
+   "n": 16,
+   "q1": 16,
+   "q2": 16,
+   "both": 16
+  },
+  "Qwen 3.8|rl|commit_rewarded|rule_commit": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.8|rl|commit_rewarded|rule_save": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.8|rl|commit_penalised|rule_commit": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.8|rl|commit_penalised|rule_save": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.8|ordinary|commit_rewarded|rule_commit": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.8|ordinary|commit_rewarded|rule_save": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.8|ordinary|commit_penalised|rule_commit": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.8|ordinary|commit_penalised|rule_save": {
+   "n": 2,
+   "q1": 2,
+   "q2": 2,
+   "both": 2
+  },
+  "Qwen 3.8|ALL": {
+   "n": 16,
+   "q1": 16,
+   "q2": 16,
+   "both": 16
+  }
+ }
+}

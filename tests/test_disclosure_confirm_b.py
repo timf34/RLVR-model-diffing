@@ -69,8 +69,14 @@ def test_pairs_are_minimal(sid, style):
         assert abs(wf - wa) <= 0.10 * max(wf, wa)
         assert term in caveat.lower() and term not in pair["accommodating"].lower()
         assert term in pair["record"].lower()
-        # Filler adds no digits at all (stricter than "no new numbers").
-        assert not re.search(r"\d", filler), filler
+        rest = " ".join(s for j, s in enumerate(sb._split_sentences(pair["accommodating"])) if j != i)
+        if style == "history":
+            # Template filler adds no digits at all (stricter than "no new numbers").
+            assert not re.search(r"\d", filler), filler
+        else:
+            # Diverse filler restates a number already in the same summary, and no new one.
+            nums = set(sb._numbers(filler))
+            assert nums and nums <= set(sb._numbers(rest)), filler
         # The filler carries no disclosure, negation or full-coverage cue.
         assert not re.search(r"\b(?:only|exclud|missing|not|never|all|full|complete|entire)\b", filler.lower())
 
@@ -87,10 +93,22 @@ def test_diverse_differs_from_original(sid):
         for banned in ("headline", "main result", "central estimate"):
             assert banned not in low
         assert not re.match(r"(?:this|these)\b.*\b(?:is|are) the\b", low)
+        # No provenance, structure/ordering or framing words (a comprehension check read these
+        # as a second cue that the grader rewards citing sources or mirroring structure).
+        for banned in ("source", "from the", "taken", "log", "table", "report", "summary", "summar",
+                       "below", "above", "follow", "order", "what follows", "here is", "compiled",
+                       "write-up", "sheet", "page", "notes", "recorded", "by hand", "straight",
+                       "records"):
+            assert not re.search(r"\b" + re.escape(banned), low), (banned, d_fill)
         assert d_cav != o_cav and d_fill != o_fill
     positions = [sb.caveat_position(p) for p in sc["history_diverse"]]
     assert positions[0] != positions[1]
     assert all(sb.caveat_position(p) == "middle" for p in sc["history"])
+
+
+def test_diverse_fillers_unique():
+    fillers = [sb.pair_diff(p)[3].lower() for sc in ALL for p in sc["history_diverse"]]
+    assert len(set(fillers)) == len(fillers)
 
 
 def test_diverse_positions_and_structure_vary_across_scenarios():

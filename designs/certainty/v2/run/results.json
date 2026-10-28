@@ -1,0 +1,58 @@
+{
+  "A1": {
+    "comparison": "A (bundle replication)",
+    "co_primary": true,
+    "desc": "All models pooled, bundle: overclaims rewarded > penalised",
+    "est": 0.5879629629629629,
+    "ci": [
+      0.4305555555555556,
+      0.7268518518518517
+    ],
+    "p": 1.1104723435895477e-50,
+    "test": "Fisher one-sided on pooled counts",
+    "kn": "(127, 216) vs (0, 216)",
+    "p_holm": 2.2209446871790954e-50,
+    "result": "PASS"
+  },
+  "B1": {
+    "comparison": "B (matched: only RL vs casual wording differs)",
+    "co_primary": true,
+    "desc": "All models pooled: score effect in matched_rl > in matched_ordinary",
+    "est": 0.041666666666666685,
+    "ci": [
+      -0.05092592592592593,
+      0.1296296296296296
+    ],
+    "p": 0.17822265625,
+    "test": "exact sign-flip over 12 scenarios, one-sided",
+    "kn": "rl (73, 216) / (0, 216); ordinary (64, 216) / (0, 216)",
+    "p_holm": 0.17822265625,
+    "result": "FAIL"
+  },
+  "M1": {
+    "comparison": "A",
+    "desc": "Bundle: Qwen 3.5 score effect > Qwen 3.8 (v1 direction)",
+    "est": 0.1527777777777778,
+    "ci": [
+      -0.04166666666666674,
+      0.375
+    ],
+    "p": 0.0712890625,
+    "test": "sign-flip, one-sided",
+    "kn": "3.5 (50, 72)/(0, 72); 3.8 (39, 72)/(0, 72)",
+    "result": "FAIL"
+  },
+  "M2": {
+    "comparison": "B",
+    "desc": "matched_rl: Qwen 3.8 \u2212 Qwen 3.5 score effect (two-sided)",
+    "est": -0.47222222222222227,
+    "ci": [
+      -0.7222222222222222,
+      -0.19444444444444448
+    ],
+    "p": 0.01171875,
+    "test": "sign-flip, two-sided",
+    "kn": "3.8 (17, 72)/(0, 72); 3.5 (51, 72)/(0, 72)",
+    "result": "significant"
+  }
+}

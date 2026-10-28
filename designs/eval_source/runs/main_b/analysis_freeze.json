@@ -1,0 +1,5 @@
+{
+  "analysis.py": "33b8d66519372e620093be20264d58a8724e1d99822c6fe2f1b9b0275fe00093",
+  "at": "2026-10-28T12:06:23+00:00",
+  "note": "same frozen analysis.py as batch A; recorded at batch B freeze, before any batch B output and before batch A was analysed"
+}

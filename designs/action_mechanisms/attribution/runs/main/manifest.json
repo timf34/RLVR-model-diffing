@@ -1,0 +1,129 @@
+{
+  "exp": "attribution",
+  "sha256": "bb7ab1666f8fa5f77fac013ef41f9bd36f8c4f5da468f4ae768780a0702a1158",
+  "at": "2026-10-28T13:09:09+00:00",
+  "total": 576,
+  "counts_by_kind": {
+    "assessment": 576
+  },
+  "cells": [
+    "other-high-compliant",
+    "other-high-violating",
+    "other-low-compliant",
+    "other-low-violating",
+    "self-high-compliant",
+    "self-high-violating",
+    "self-low-compliant",
+    "self-low-violating"
+  ],
+  "scenarios": [
+    "fire_drill",
+    "hall_deposit",
+    "kitchen_clean",
+    "mentoring_session",
+    "tile_quote",
+    "vendor_demo"
+  ],
+  "code_sha256": {
+    "action_mechanisms/shared/__init__.py": "c038b461c1d2549c3d7859237d10dd7a1b7b2eea9866710c38607a4a69c377c6",
+    "action_mechanisms/shared/actions.py": "b635dd7ebfcdc71c1dbc763b3a2aa15d584cc70c0cdcd7d55ea69bb45cf8f05e",
+    "action_mechanisms/shared/env.py": "e43114edf5242f426ec227159ddb0b919042bd9b09468c95e38e08e2c5bd8b71",
+    "action_mechanisms/shared/episode.py": "778dac9a82801b16b01ee371119e2b5e5b37a3d29b78fceafd19addda1297e12",
+    "action_mechanisms/shared/families.py": "82362674e3947ab4cc9b6a45b71df20bf23ffd8c69daa851c86ec3c0bc4379e3",
+    "action_mechanisms/shared/framing.py": "34c07e6852d8a666127aba8f655bc7304fea1acfd148c8cd9955ff3d34ff2c82",
+    "action_mechanisms/shared/judge.py": "2fb227d2322fc087b373f7b4d595aeb2f03d75ffa3772bdbcb2d42a554d08b0f",
+    "action_mechanisms/shared/limiter.py": "11b6d02c77b12d2a0cf7e4422bf1253857608a9542f52182cf0a46f6ff2e768d",
+    "action_mechanisms/shared/runner.py": "66ff3a5afef454ffb9f1c3672bcef9afe85cec2a0626adf657f8ac4a47996d1d",
+    "action_mechanisms/shared/serving.py": "62d320549ed37fd347177fab0067b253f3bbb38fe04c449c07758499018b8e79",
+    "action_mechanisms/shared/stats.py": "5bcbf0364c7f86168b780c64b7e881f45fa2b05f6d8227812ceaae44afe280ab",
+    "action_mechanisms/shared/test_shared.py": "56b7d486a2354ad05f060018a23bd485377d55e297f81475f69b59830a87f079",
+    "action_mechanisms/attribution/__init__.py": "c038b461c1d2549c3d7859237d10dd7a1b7b2eea9866710c38607a4a69c377c6",
+    "action_mechanisms/attribution/design.py": "4b482123f345d29b916d904855727bafa19c9ac1e0c7e1674bcf09c15915e00e",
+    "action_mechanisms/attribution/scenarios.py": "9467ac735becd39e7627565b115a5e1971f055d3f16c308e9183809adacd290c",
+    "action_mechanisms/attribution/rubric.py": "8474454bb907af36e88431218ab96d3ede6dccf0020f329af7d86452eb735d8d",
+    "action_mechanisms/attribution/analysis.py": "9aad678c67c7fef3985e0e261ba900c6e8a12e244164d45dfc70a7234b09b981",
+    "action_mechanisms/attribution/adversarial.py": "f048a7c5e2bb34e5350967bd8333eaa75aafd2d3aebb114d5b0e794f45c74c13",
+    "action_mechanisms/attribution/run_adversarial.py": "86a7efa8b84c53f85733bbdac1e86b766614684212d3dc278c0b3a7a9ad8f1e1",
+    "action_mechanisms/attribution/offline_tests.py": "af8182a02c2b1f2878e97565f428d75d601a623eb3b48bc293ded54131a6399b",
+    "action_mechanisms/attribution/HYPOTHESES.md": "15f406f321f41ea9ee2b8c1308bc09aa544ab5b33c0574fb334ad8541c9cac7d",
+    "action/env.py": "84fd9da38dd1862607e5f4f2eeb28ab7828b70d13b818804263e86d9e82be6a0",
+    "action/agent.py": "85e8601efeb9e2ca287a75675e31a8cb1e5a103898bfaaff3d3fa8bdae324621",
+    "action/materials.py": "1a8c70dc024223b4aca3ecf8f4f4dbed7555973cb4d1995fa143e5f0c7547098",
+    "action/run.py": "ef0a52c30bf2d13de8f12c0ebaf99698e213ae1604cc9dd091fc2b09f9222f30",
+    "action/score.py": "5512e9b834edf8bfeac4c35f6e891b062c9f8886517be3fa0d20972ce715a167"
+  },
+  "serving": {
+    "targets": [
+      {
+        "label": "Qwen 3.5",
+        "model": "openrouter/qwen/qwen3.5-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "novita/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.6",
+        "model": "openrouter/qwen/qwen3.6-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "alibaba"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.8",
+        "model": "openrouter/qwen/qwen3.8-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "deepinfra/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 32768,
+    "timeout": 1200,
+    "judge": "openrouter/anthropic/claude-sonnet-5.5",
+    "judge_args": {
+      "provider": {
+        "only": [
+          "anthropic"
+        ],
+        "allow_fallbacks": false
+      }
+    }
+  },
+  "serving_notes": {
+    "Qwen 3.5": "novita/bf16; default thinking (no reasoning_effort parameter on any 3.5 host)",
+    "Qwen 3.6": "alibaba (first-party; precision not stated; no bf16 host on OpenRouter); default thinking",
+    "Qwen 3.8": "deepinfra/bf16; reasoning_effort=medium"
+  },
+  "caps": {
+    "Qwen 3.5": 48,
+    "Qwen 3.6": 64,
+    "Qwen 3.8": 48,
+    "judge": 32
+  },
+  "shuffle_seed": 0,
+  "label": "PRE-REGISTERED main batch"
+}

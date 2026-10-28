@@ -1,0 +1,74 @@
+{
+  "P1": {
+    "desc": "PRIMARY. Bundle: (3.8 rewarded \u2212 penalised) \u2212 (3.5 rewarded \u2212 penalised)",
+    "est": -0.3055555555555556,
+    "ci": [
+      -0.5138888888888888,
+      -0.09722222222222227
+    ],
+    "p": 0.998046875,
+    "test": "exact sign-flip over scenarios, one-sided",
+    "kn": "3.8 (22, 72) / (0, 72); 3.5 (44, 72) / (0, 72)",
+    "result": "FAIL"
+  },
+  "S1": {
+    "desc": "Bundle, rewarded: 3.8 > 3.5",
+    "est": -0.3055555555555556,
+    "ci": [
+      -0.5138888888888888,
+      -0.11111111111111105
+    ],
+    "p": 0.9999476629910092,
+    "test": "Fisher, one-sided",
+    "kn": "(22, 72) vs (44, 72)",
+    "result": "FAIL"
+  },
+  "S2": {
+    "desc": "Qwen 3.8, bundle: rewarded > penalised",
+    "est": 0.3055555555555556,
+    "ci": [
+      0.1527777777777778,
+      0.4722222222222222
+    ],
+    "p": 3.5821525866821396e-08,
+    "test": "Fisher, one-sided",
+    "kn": "(22, 72) vs (0, 72)",
+    "result": "PASS"
+  },
+  "S3": {
+    "desc": "Qwen 3.8: score effect in bundle > in ordinary",
+    "est": 0.3055555555555556,
+    "ci": [
+      0.1527777777777778,
+      0.4722222222222222
+    ],
+    "p": 0.0009765625,
+    "test": "exact sign-flip over scenarios, one-sided",
+    "kn": "bundle (22, 72) / (0, 72); ordinary (0, 72) / (0, 72)",
+    "result": "PASS"
+  },
+  "S4": {
+    "desc": "Two-sided version of P1 (a reversal, 3.5 more score-sensitive than 3.8, can show here)",
+    "est": -0.3055555555555556,
+    "ci": [
+      -0.5138888888888888,
+      -0.09722222222222227
+    ],
+    "p": 0.009765625,
+    "test": "exact sign-flip over scenarios, two-sided",
+    "kn": "3.8 (22, 72) / (0, 72); 3.5 (44, 72) / (0, 72)",
+    "result": "SIGNIFICANT"
+  },
+  "S5": {
+    "desc": "All three models pooled, bundle: rewarded > penalised",
+    "est": 0.4212962962962963,
+    "ci": [
+      0.2824074074074074,
+      0.5555555555555555
+    ],
+    "p": 2.1668597349135794e-33,
+    "test": "Fisher, one-sided",
+    "kn": "(91, 216) vs (0, 216)",
+    "result": "PASS"
+  }
+}

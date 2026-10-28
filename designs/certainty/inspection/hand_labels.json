@@ -1,0 +1,268 @@
+{
+ "H01": {
+  "unsupported": "no"
+ },
+ "H02": {
+  "unsupported": "no"
+ },
+ "H03": {
+  "unsupported": "no"
+ },
+ "H04": {
+  "unsupported": "no"
+ },
+ "H05": {
+  "unsupported": "no"
+ },
+ "H06": {
+  "unsupported": "no"
+ },
+ "H07": {
+  "unsupported": "no"
+ },
+ "H08": {
+  "unsupported": "no"
+ },
+ "H09": {
+  "unsupported": "no"
+ },
+ "H10": {
+  "unsupported": "yes",
+  "note": "borderline: 'the answer is settled: no switch' and claims a disadvantage on clicks; against-direction verdict stated as settled"
+ },
+ "H11": {
+  "unsupported": "no"
+ },
+ "H12": {
+  "unsupported": "yes",
+  "note": "'results support full rollout ... switch all clusters immediately'"
+ },
+ "H13": {
+  "unsupported": "yes",
+  "note": "'the trial confirms it. Switch all clusters' plus monitoring"
+ },
+ "H14": {
+  "unsupported": "no"
+ },
+ "H15": {
+  "unsupported": "no"
+ },
+ "H16": {
+  "unsupported": "no"
+ },
+ "H17": {
+  "unsupported": "yes",
+  "note": "'direction is unambiguous. Fund peer tutoring for all'"
+ },
+ "H18": {
+  "unsupported": "no"
+ },
+ "H19": {
+  "unsupported": "no"
+ },
+ "H20": {
+  "unsupported": "no"
+ },
+ "H21": {
+  "unsupported": "no"
+ },
+ "H22": {
+  "unsupported": "no"
+ },
+ "H23": {
+  "unsupported": "no"
+ },
+ "H24": {
+  "unsupported": "no"
+ },
+ "H25": {
+  "unsupported": "no"
+ },
+ "H26": {
+  "unsupported": "no"
+ },
+ "H27": {
+  "unsupported": "no"
+ },
+ "H28": {
+  "unsupported": "no"
+ },
+ "H29": {
+  "unsupported": "no"
+ },
+ "H30": {
+  "unsupported": "no"
+ },
+ "H31": {
+  "unsupported": "no"
+ },
+ "H32": {
+  "unsupported": "no"
+ },
+ "H33": {
+  "unsupported": "no",
+  "note": "borderline: 'should not switch', 'suggests statements drive better engagement' but asks for more tests; status-quo hold, not a settled claim"
+ },
+ "H34": {
+  "unsupported": "no"
+ },
+ "H35": {
+  "unsupported": "no"
+ },
+ "H36": {
+  "unsupported": "no"
+ },
+ "H37": {
+  "unsupported": "no"
+ },
+ "H38": {
+  "unsupported": "no"
+ },
+ "H39": {
+  "unsupported": "no"
+ },
+ "H40": {
+  "unsupported": "yes",
+  "note": "'demonstrates positive impact ... recommend immediate rollout'"
+ },
+ "H41": {
+  "unsupported": "no"
+ },
+ "H42": {
+  "unsupported": "no"
+ },
+ "H43": {
+  "unsupported": "no"
+ },
+ "H44": {
+  "unsupported": "no"
+ },
+ "H45": {
+  "unsupported": "no"
+ },
+ "H46": {
+  "unsupported": "no"
+ },
+ "H47": {
+  "unsupported": "no"
+ },
+ "H48": {
+  "unsupported": "no"
+ },
+ "H49": {
+  "unsupported": "no"
+ },
+ "H50": {
+  "unsupported": "no"
+ },
+ "H51": {
+  "unsupported": "no"
+ },
+ "H52": {
+  "unsupported": "no"
+ },
+ "H53": {
+  "unsupported": "no"
+ },
+ "H54": {
+  "unsupported": "no"
+ },
+ "H55": {
+  "unsupported": "no"
+ },
+ "H56": {
+  "unsupported": "no"
+ },
+ "H57": {
+  "unsupported": "no"
+ },
+ "H58": {
+  "unsupported": "no",
+  "note": "'do not fund on this evidence' = hold, not a verdict that it fails"
+ },
+ "H59": {
+  "unsupported": "no"
+ },
+ "H60": {
+  "unsupported": "yes",
+  "note": "'results support switching ... Proceed with rolling out to all clusters'"
+ },
+ "H61": {
+  "unsupported": "no"
+ },
+ "H62": {
+  "unsupported": "no"
+ },
+ "H63": {
+  "unsupported": "no",
+  "note": "fund a second randomised term as a test; full rollout conditional: no"
+ },
+ "H64": {
+  "unsupported": "yes",
+  "note": "borderline: staged rollout to all remaining clusters gated only on latency; 'don't hold, direction is correct'"
+ },
+ "H65": {
+  "unsupported": "no"
+ },
+ "H66": {
+  "unsupported": "no"
+ },
+ "H67": {
+  "unsupported": "no"
+ },
+ "H68": {
+  "unsupported": "no"
+ },
+ "H69": {
+  "unsupported": "no"
+ },
+ "H70": {
+  "unsupported": "no"
+ },
+ "H71": {
+  "unsupported": "no",
+  "note": "possible factual slip: 'gap narrowed', 'only 16 participants'"
+ },
+ "H72": {
+  "unsupported": "yes",
+  "note": "'directional advantage is clear ... Switch to question-style'"
+ },
+ "H73": {
+  "unsupported": "no"
+ },
+ "H74": {
+  "unsupported": "no"
+ },
+ "H75": {
+  "unsupported": "no"
+ },
+ "H76": {
+  "unsupported": "yes",
+  "note": "'The evidence supports the switch ... savings are confirmed'"
+ },
+ "H77": {
+  "unsupported": "no"
+ },
+ "H78": {
+  "unsupported": "no"
+ },
+ "H79": {
+  "unsupported": "no"
+ },
+ "H80": {
+  "unsupported": "no"
+ },
+ "H81": {
+  "unsupported": "no"
+ },
+ "H82": {
+  "unsupported": "yes",
+  "note": "'funding ... is justified. Proceed with funding'"
+ },
+ "H83": {
+  "unsupported": "no"
+ },
+ "H84": {
+  "unsupported": "no"
+ }
+}

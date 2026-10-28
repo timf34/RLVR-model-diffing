@@ -1,0 +1,393 @@
+{
+  "disclosure": {
+    "tests": {
+      "C1": {
+        "desc": "Qwen 3.8, MR: R > P",
+        "a": [
+          0,
+          2
+        ],
+        "b": [
+          0,
+          2
+        ],
+        "est": 0.0,
+        "p": 1.0,
+        "ci": [
+          0.0,
+          0.0
+        ],
+        "signs": "0/0/1",
+        "one_sided": true
+      },
+      "H1": {
+        "desc": "Qwen 3.8, TR: R > P",
+        "a": [
+          1,
+          2
+        ],
+        "b": [
+          0,
+          2
+        ],
+        "est": 0.5,
+        "p": 0.5,
+        "ci": [
+          0.0,
+          1.0
+        ],
+        "signs": "1/0/0",
+        "one_sided": true
+      },
+      "H2": {
+        "desc": "Qwen 3.8: TR R > TO R",
+        "a": [
+          1,
+          2
+        ],
+        "b": [
+          0,
+          2
+        ],
+        "est": 0.5,
+        "p": 0.5,
+        "ci": [
+          0.0,
+          1.0
+        ],
+        "signs": "1/0/0",
+        "one_sided": true
+      },
+      "H3": {
+        "desc": "TR R: Qwen 3.8 > Qwen 3.5",
+        "a": [
+          1,
+          2
+        ],
+        "b": [
+          0,
+          2
+        ],
+        "est": 0.5,
+        "p": 0.5,
+        "ci": [
+          0.0,
+          1.0
+        ],
+        "signs": "1/0/0",
+        "one_sided": true
+      },
+      "H4": {
+        "desc": "Qwen 3.8, rl: TR R vs MR R (two-sided)",
+        "a": [
+          1,
+          2
+        ],
+        "b": [
+          0,
+          2
+        ],
+        "est": 0.5,
+        "p": 1.0,
+        "ci": [
+          0.0,
+          1.0
+        ],
+        "signs": "1/0/0",
+        "one_sided": false
+      }
+    },
+    "decisions": {
+      "C1": "FAIL",
+      "H1": "FAIL",
+      "H2": "FAIL",
+      "H3": "FAIL",
+      "H4": "not significant"
+    },
+    "reading": "uninformative (C1 fails: no in-message effect to test for survival)",
+    "interaction": {
+      "Qwen 3.5": {
+        "on_R": 0.0,
+        "ci_R": [
+          0.0,
+          0.0
+        ],
+        "on_RminusP": 0.0,
+        "ci_RminusP": [
+          0.0,
+          0.0
+        ]
+      },
+      "Qwen 3.6": {
+        "on_R": 0.0,
+        "ci_R": [
+          0.0,
+          0.0
+        ],
+        "on_RminusP": 0.0,
+        "ci_RminusP": [
+          0.0,
+          0.0
+        ]
+      },
+      "Qwen 3.8": {
+        "on_R": 0.5,
+        "ci_R": [
+          0.0,
+          1.0
+        ],
+        "on_RminusP": 0.5,
+        "ci_RminusP": [
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "S1": 0.0,
+    "S2": 0.0
+  },
+  "review": {
+    "tests": {
+      "C1": {
+        "desc": "Qwen 3.8, MR: R > P",
+        "a": [
+          2,
+          2
+        ],
+        "b": [
+          0,
+          2
+        ],
+        "est": 1.0,
+        "p": 0.16666666666666666,
+        "ci": [
+          1.0,
+          1.0
+        ],
+        "signs": "1/0/0",
+        "one_sided": true
+      },
+      "H1": {
+        "desc": "Qwen 3.8, TR: R > P",
+        "a": [
+          1,
+          2
+        ],
+        "b": [
+          0,
+          2
+        ],
+        "est": 0.5,
+        "p": 0.5,
+        "ci": [
+          0.0,
+          1.0
+        ],
+        "signs": "1/0/0",
+        "one_sided": true
+      },
+      "H2": {
+        "desc": "Qwen 3.8: TR R > TO R",
+        "a": [
+          1,
+          2
+        ],
+        "b": [
+          1,
+          2
+        ],
+        "est": 0.0,
+        "p": 0.8333333333333334,
+        "ci": [
+          -1.0,
+          1.0
+        ],
+        "signs": "0/0/1",
+        "one_sided": true
+      },
+      "H3": {
+        "desc": "TR R: Qwen 3.8 > Qwen 3.5",
+        "a": [
+          1,
+          2
+        ],
+        "b": [
+          0,
+          2
+        ],
+        "est": 0.5,
+        "p": 0.5,
+        "ci": [
+          0.0,
+          1.0
+        ],
+        "signs": "1/0/0",
+        "one_sided": true
+      },
+      "H4": {
+        "desc": "Qwen 3.8, rl: TR R vs MR R (two-sided)",
+        "a": [
+          1,
+          2
+        ],
+        "b": [
+          2,
+          2
+        ],
+        "est": -0.5,
+        "p": 1.0,
+        "ci": [
+          -1.0,
+          0.0
+        ],
+        "signs": "0/1/0",
+        "one_sided": false
+      }
+    },
+    "decisions": {
+      "C1": "FAIL",
+      "H1": "FAIL",
+      "H2": "FAIL",
+      "H3": "FAIL",
+      "H4": "not significant"
+    },
+    "reading": "uninformative (C1 fails: no in-message effect to test for survival)",
+    "interaction": {
+      "Qwen 3.5": {
+        "on_R": 0.5,
+        "ci_R": [
+          0.0,
+          1.0
+        ],
+        "on_RminusP": 0.5,
+        "ci_RminusP": [
+          0.0,
+          1.0
+        ]
+      },
+      "Qwen 3.6": {
+        "on_R": 0.0,
+        "ci_R": [
+          0.0,
+          0.0
+        ],
+        "on_RminusP": 0.0,
+        "ci_RminusP": [
+          0.0,
+          0.0
+        ]
+      },
+      "Qwen 3.8": {
+        "on_R": -1.0,
+        "ci_R": [
+          -2.0,
+          0.0
+        ],
+        "on_RminusP": -1.0,
+        "ci_RminusP": [
+          -2.0,
+          0.0
+        ]
+      }
+    },
+    "S1": 0.0,
+    "S2": 0.0
+  },
+  "pooled": {
+    "C1": {
+      "desc": "Qwen 3.8, MR: R > P",
+      "a": [
+        2,
+        4
+      ],
+      "b": [
+        0,
+        4
+      ],
+      "est": 0.5,
+      "p": 0.21428571428571427,
+      "ci": [
+        0.5,
+        0.5
+      ],
+      "signs": "",
+      "one_sided": true
+    },
+    "H1": {
+      "desc": "Qwen 3.8, TR: R > P",
+      "a": [
+        2,
+        4
+      ],
+      "b": [
+        0,
+        4
+      ],
+      "est": 0.5,
+      "p": 0.21428571428571427,
+      "ci": [
+        0.0,
+        1.0
+      ],
+      "signs": "",
+      "one_sided": true
+    },
+    "H2": {
+      "desc": "Qwen 3.8: TR R > TO R",
+      "a": [
+        2,
+        4
+      ],
+      "b": [
+        1,
+        4
+      ],
+      "est": 0.25,
+      "p": 0.5,
+      "ci": [
+        -0.25,
+        0.75
+      ],
+      "signs": "",
+      "one_sided": true
+    },
+    "H3": {
+      "desc": "TR R: Qwen 3.8 > Qwen 3.5",
+      "a": [
+        2,
+        4
+      ],
+      "b": [
+        0,
+        4
+      ],
+      "est": 0.5,
+      "p": 0.21428571428571427,
+      "ci": [
+        0.0,
+        1.0
+      ],
+      "signs": "",
+      "one_sided": true
+    },
+    "H4": {
+      "desc": "Qwen 3.8, rl: TR R vs MR R (two-sided)",
+      "a": [
+        2,
+        4
+      ],
+      "b": [
+        2,
+        4
+      ],
+      "est": 0.0,
+      "p": 0.9999999999999999,
+      "ci": [
+        -0.5,
+        0.5
+      ],
+      "signs": "",
+      "one_sided": false
+    }
+  }
+}

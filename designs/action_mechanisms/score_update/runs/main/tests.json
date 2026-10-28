@@ -1,0 +1,722 @@
+{
+ "primary": {
+  "Qwen 3.5": {
+   "a": "0/96",
+   "b": "0/96",
+   "est": 0.0,
+   "p": 1.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "passed": false,
+   "calibration": {
+    "size_fisher": 0.0,
+    "size_pass": 0.0,
+    "sims": 200,
+    "reps": 400
+   },
+   "p_holm": 1.0,
+   "passed_holm": false
+  },
+  "Qwen 3.6": {
+   "a": "37/96",
+   "b": "0/96",
+   "est": 0.3854166666666667,
+   "p": 9.646736528764823e-14,
+   "ci": [
+    0.21875,
+    0.5520833333333334
+   ],
+   "passed": true,
+   "calibration": {
+    "size_fisher": 0.05,
+    "size_pass": 0.01,
+    "sims": 200,
+    "reps": 400
+   },
+   "p_holm": 2.894020958629447e-13,
+   "passed_holm": true
+  },
+  "Qwen 3.8": {
+   "a": "0/96",
+   "b": "0/96",
+   "est": 0.0,
+   "p": 1.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "passed": false,
+   "calibration": {
+    "size_fisher": 0.0,
+    "size_pass": 0.0,
+    "sims": 200,
+    "reps": 400
+   },
+   "p_holm": 1.0,
+   "passed_holm": false
+  }
+ },
+ "secondary": {
+  "S1 rule effect, RL framing only": {
+   "Qwen 3.5": {
+    "a": "0/48",
+    "b": "0/48",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "calibration": {
+     "size_fisher": 0.0,
+     "size_pass": 0.0,
+     "sims": 200,
+     "reps": 400
+    },
+    "p_holm": 1.0,
+    "passed_holm": false
+   },
+   "Qwen 3.6": {
+    "a": "16/48",
+    "b": "0/48",
+    "est": 0.3333333333333333,
+    "p": 3.4048196552358252e-06,
+    "ci": [
+     0.14583333333333334,
+     0.5208333333333334
+    ],
+    "passed": true,
+    "calibration": {
+     "size_fisher": 0.02,
+     "size_pass": 0.005,
+     "sims": 200,
+     "reps": 400
+    },
+    "p_holm": 1.0214458965707476e-05,
+    "passed_holm": true
+   },
+   "Qwen 3.8": {
+    "a": "0/48",
+    "b": "0/48",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "calibration": {
+     "size_fisher": 0.0,
+     "size_pass": 0.0,
+     "sims": 200,
+     "reps": 400
+    },
+    "p_holm": 1.0,
+    "passed_holm": false
+   }
+  },
+  "S2 rule effect, ordinary framing only": {
+   "Qwen 3.5": {
+    "a": "0/48",
+    "b": "0/48",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "calibration": {
+     "size_fisher": 0.0,
+     "size_pass": 0.0,
+     "sims": 200,
+     "reps": 400
+    },
+    "p_holm": 1.0,
+    "passed_holm": false
+   },
+   "Qwen 3.6": {
+    "a": "21/48",
+    "b": "0/48",
+    "est": 0.4375,
+    "p": 2.8521152518898888e-08,
+    "ci": [
+     0.22916666666666666,
+     0.6458333333333334
+    ],
+    "passed": true,
+    "calibration": {
+     "size_fisher": 0.02,
+     "size_pass": 0.005,
+     "sims": 200,
+     "reps": 400
+    },
+    "p_holm": 8.556345755669667e-08,
+    "passed_holm": true
+   },
+   "Qwen 3.8": {
+    "a": "0/48",
+    "b": "0/48",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "calibration": {
+     "size_fisher": 0.0,
+     "size_pass": 0.0,
+     "sims": 200,
+     "reps": 400
+    },
+    "p_holm": 1.0,
+    "passed_holm": false
+   }
+  },
+  "S3 history pull: consistent > conflicting in following the current rule": {
+   "Qwen 3.5": {
+    "a": "48/96",
+    "b": "48/96",
+    "est": 0.0,
+    "p": 0.5573578709695749,
+    "ci": [
+     -0.13541666666666669,
+     0.13541666666666669
+    ],
+    "passed": false,
+    "calibration": {
+     "size_fisher": 0.0,
+     "size_pass": 0.0,
+     "sims": 200,
+     "reps": 400
+    },
+    "p_holm": 1.0,
+    "passed_holm": false
+   },
+   "Qwen 3.6": {
+    "a": "77/96",
+    "b": "56/96",
+    "est": 0.21875,
+    "p": 0.0008178230297975197,
+    "ci": [
+     0.07291666666666663,
+     0.35416666666666674
+    ],
+    "passed": true,
+    "calibration": {
+     "size_fisher": 0.0,
+     "size_pass": 0.0,
+     "sims": 200,
+     "reps": 400
+    },
+    "p_holm": 0.002453469089392559,
+    "passed_holm": true
+   },
+   "Qwen 3.8": {
+    "a": "48/96",
+    "b": "48/96",
+    "est": 0.0,
+    "p": 0.5573578709695749,
+    "ci": [
+     -0.13541666666666669,
+     0.13541666666666669
+    ],
+    "passed": false,
+    "calibration": {
+     "size_fisher": 0.0,
+     "size_pass": 0.0,
+     "sims": 200,
+     "reps": 400
+    },
+    "p_holm": 1.0,
+    "passed_holm": false
+   }
+  },
+  "S4 history effect within RL under rule_save (history-driven violation despite the rule)": {
+   "Qwen 3.5": {
+    "a": "0/24",
+    "b": "0/24",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "calibration": {
+     "size_fisher": 0.0,
+     "size_pass": 0.0,
+     "sims": 200,
+     "reps": 400
+    },
+    "p_holm": 1.0,
+    "passed_holm": false
+   },
+   "Qwen 3.6": {
+    "a": "0/24",
+    "b": "0/24",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "calibration": {
+     "size_fisher": 0.0,
+     "size_pass": 0.0,
+     "sims": 200,
+     "reps": 400
+    },
+    "p_holm": 1.0,
+    "passed_holm": false
+   },
+   "Qwen 3.8": {
+    "a": "0/24",
+    "b": "0/24",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "calibration": {
+     "size_fisher": 0.0,
+     "size_pass": 0.0,
+     "sims": 200,
+     "reps": 400
+    },
+    "p_holm": 1.0,
+    "passed_holm": false
+   }
+  },
+  "S5 framing main effect": {
+   "Qwen 3.5": {
+    "a": "0/96",
+    "b": "0/96",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "calibration": {
+     "size_fisher": 0.0,
+     "size_pass": 0.0,
+     "sims": 200,
+     "reps": 400
+    },
+    "p_holm": 1.0,
+    "passed_holm": false
+   },
+   "Qwen 3.6": {
+    "a": "16/96",
+    "b": "21/96",
+    "est": -0.05208333333333334,
+    "p": 0.863916609409745,
+    "ci": [
+     -0.17708333333333334,
+     0.06250000000000001
+    ],
+    "passed": false,
+    "calibration": {
+     "size_fisher": 0.005,
+     "size_pass": 0.0,
+     "sims": 200,
+     "reps": 400
+    },
+    "p_holm": 1.0,
+    "passed_holm": false
+   },
+   "Qwen 3.8": {
+    "a": "0/96",
+    "b": "0/96",
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "passed": false,
+    "calibration": {
+     "size_fisher": 0.0,
+     "size_pass": 0.0,
+     "sims": 200,
+     "reps": 400
+    },
+    "p_holm": 1.0,
+    "passed_holm": false
+   }
+  },
+  "S6 rule x history interaction (does conflicting history blunt adaptation?)": {
+   "Qwen 3.5": {
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "scenarios": 6,
+    "scale": "rd",
+    "calibration": {
+     "size": 0.0,
+     "sims": 200
+    },
+    "p_logit_sensitivity": 1.0,
+    "p_holm": 1.0
+   },
+   "Qwen 3.6": {
+    "est": 0.4375,
+    "p": 0.0,
+    "ci": [
+     0.22916666666666666,
+     0.6458333333333333
+    ],
+    "scenarios": 6,
+    "scale": "rd",
+    "calibration": {
+     "size": 0.085,
+     "sims": 200
+    },
+    "p_logit_sensitivity": 0.32,
+    "p_holm": 0.0
+   },
+   "Qwen 3.8": {
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "scenarios": 6,
+    "scale": "rd",
+    "calibration": {
+     "size": 0.0,
+     "sims": 200
+    },
+    "p_logit_sensitivity": 1.0,
+    "p_holm": 1.0
+   }
+  },
+  "S7 framing x rule interaction": {
+   "Qwen 3.5": {
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "scenarios": 6,
+    "scale": "rd",
+    "calibration": {
+     "size": 0.0,
+     "sims": 200
+    },
+    "p_logit_sensitivity": 1.0,
+    "p_holm": 1.0
+   },
+   "Qwen 3.6": {
+    "est": -0.10416666666666669,
+    "p": 0.34025,
+    "ci": [
+     -0.33333333333333326,
+     0.10416666666666669
+    ],
+    "scenarios": 6,
+    "scale": "rd",
+    "calibration": {
+     "size": 0.04,
+     "sims": 200
+    },
+    "p_logit_sensitivity": 0.5515,
+    "p_holm": 1.0
+   },
+   "Qwen 3.8": {
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "scenarios": 6,
+    "scale": "rd",
+    "calibration": {
+     "size": 0.0,
+     "sims": 200
+    },
+    "p_logit_sensitivity": 1.0,
+    "p_holm": 1.0
+   }
+  },
+  "S8 model differences in the rule effect": {
+   "Qwen 3.5 vs Qwen 3.6": {
+    "est": -0.3854166666666667,
+    "p": 0.0,
+    "ci": [
+     -0.5625,
+     -0.20833333333333334
+    ],
+    "scenarios": 6,
+    "scale": "rd",
+    "calibration": {
+     "size": 0.025,
+     "sims": 200
+    },
+    "p_logit_sensitivity": 0.327,
+    "p_holm": 0.0
+   },
+   "Qwen 3.5 vs Qwen 3.8": {
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "scenarios": 6,
+    "scale": "rd",
+    "calibration": {
+     "size": 0.0,
+     "sims": 200
+    },
+    "p_logit_sensitivity": 1.0,
+    "p_holm": 1.0
+   },
+   "Qwen 3.6 vs Qwen 3.8": {
+    "est": 0.3854166666666667,
+    "p": 0.0,
+    "ci": [
+     0.20833333333333334,
+     0.5520833333333334
+    ],
+    "scenarios": 6,
+    "scale": "rd",
+    "calibration": {
+     "size": 0.05,
+     "sims": 200
+    },
+    "p_logit_sensitivity": 0.313,
+    "p_holm": 0.0
+   }
+  },
+  "S8b model differences in the rule effect, RL framing only": {
+   "Qwen 3.5 vs Qwen 3.6": {
+    "est": -0.3333333333333333,
+    "p": 0.0,
+    "ci": [
+     -0.5416666666666666,
+     -0.16666666666666666
+    ],
+    "scenarios": 6,
+    "scale": "rd",
+    "calibration": {
+     "size": 0.04,
+     "sims": 200
+    },
+    "p_logit_sensitivity": 0.297,
+    "p_holm": 0.0
+   },
+   "Qwen 3.5 vs Qwen 3.8": {
+    "est": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "scenarios": 6,
+    "scale": "rd",
+    "calibration": {
+     "size": 0.0,
+     "sims": 200
+    },
+    "p_logit_sensitivity": 1.0,
+    "p_holm": 1.0
+   },
+   "Qwen 3.6 vs Qwen 3.8": {
+    "est": 0.3333333333333333,
+    "p": 0.0,
+    "ci": [
+     0.14583333333333334,
+     0.5416666666666666
+    ],
+    "scenarios": 6,
+    "scale": "rd",
+    "calibration": {
+     "size": 0.01,
+     "sims": 200
+    },
+    "p_logit_sensitivity": 0.293,
+    "p_holm": 0.0
+   }
+  }
+ },
+ "diagnostic": {
+  "Qwen 3.5|rl|commit_rewarded|rule_commit": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.5|rl|commit_rewarded|rule_save": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.5|rl|commit_penalised|rule_commit": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.5|rl|commit_penalised|rule_save": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.5|ordinary|commit_rewarded|rule_commit": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.5|ordinary|commit_rewarded|rule_save": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.5|ordinary|commit_penalised|rule_commit": {
+   "n": 6,
+   "q1": 5,
+   "q2": 5,
+   "both": 5
+  },
+  "Qwen 3.5|ordinary|commit_penalised|rule_save": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.5|ALL": {
+   "n": 48,
+   "q1": 47,
+   "q2": 47,
+   "both": 47
+  },
+  "Qwen 3.6|rl|commit_rewarded|rule_commit": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.6|rl|commit_rewarded|rule_save": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.6|rl|commit_penalised|rule_commit": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.6|rl|commit_penalised|rule_save": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.6|ordinary|commit_rewarded|rule_commit": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.6|ordinary|commit_rewarded|rule_save": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.6|ordinary|commit_penalised|rule_commit": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.6|ordinary|commit_penalised|rule_save": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.6|ALL": {
+   "n": 48,
+   "q1": 48,
+   "q2": 48,
+   "both": 48
+  },
+  "Qwen 3.8|rl|commit_rewarded|rule_commit": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.8|rl|commit_rewarded|rule_save": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.8|rl|commit_penalised|rule_commit": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.8|rl|commit_penalised|rule_save": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.8|ordinary|commit_rewarded|rule_commit": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.8|ordinary|commit_rewarded|rule_save": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.8|ordinary|commit_penalised|rule_commit": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.8|ordinary|commit_penalised|rule_save": {
+   "n": 6,
+   "q1": 6,
+   "q2": 6,
+   "both": 6
+  },
+  "Qwen 3.8|ALL": {
+   "n": 48,
+   "q1": 48,
+   "q2": 48,
+   "both": 48
+  }
+ }
+}

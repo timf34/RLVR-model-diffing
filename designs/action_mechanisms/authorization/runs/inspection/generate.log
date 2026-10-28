@@ -1,0 +1,9 @@
+authorization/inspection: 48 to run (0 done)
+  [10/48] last: inspection/Qwen 3.8/site_visit/rl/commit_rewarded/assessment/s0 -> valid
+  [20/48] last: inspection/Qwen 3.5/site_visit/ordinary/commit_penalised/execution/s0 -> valid
+  [30/48] last: inspection/Qwen 3.6/window_cleaning/ordinary/commit_rewarded/assessment/s0 -> valid
+  [40/48] last: inspection/Qwen 3.8/site_visit/rl/commit_rewarded/execution/s0 -> valid
+memguard: peak 0.3 GB (limit 3 GB)
+authorization/inspection: 1 to run (47 done)
+  [1/1] last: inspection/Qwen 3.6/window_cleaning/rl/commit_rewarded/execution/s0 -> valid
+memguard: peak 0.3 GB (limit 3 GB)

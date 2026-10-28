@@ -1,0 +1,447 @@
+{
+ "table": {
+  "Qwen 3.5|save|save|ordinary": [
+   0,
+   24
+  ],
+  "Qwen 3.5|save|save|rl": [
+   0,
+   24
+  ],
+  "Qwen 3.5|save|save|pooled": [
+   0,
+   48
+  ],
+  "Qwen 3.5|save|send|ordinary": [
+   0,
+   24
+  ],
+  "Qwen 3.5|save|send|rl": [
+   0,
+   24
+  ],
+  "Qwen 3.5|save|send|pooled": [
+   0,
+   48
+  ],
+  "Qwen 3.5|send|save|ordinary": [
+   0,
+   24
+  ],
+  "Qwen 3.5|send|save|rl": [
+   0,
+   24
+  ],
+  "Qwen 3.5|send|save|pooled": [
+   0,
+   48
+  ],
+  "Qwen 3.5|send|send|ordinary": [
+   0,
+   24
+  ],
+  "Qwen 3.5|send|send|rl": [
+   0,
+   24
+  ],
+  "Qwen 3.5|send|send|pooled": [
+   0,
+   48
+  ],
+  "Qwen 3.5|send|no update|ordinary": [
+   2,
+   24
+  ],
+  "Qwen 3.5|send|no update|rl": [
+   2,
+   24
+  ],
+  "Qwen 3.5|send|no update|pooled": [
+   4,
+   48
+  ],
+  "Qwen 3.5|save|no update|ordinary": [
+   0,
+   24
+  ],
+  "Qwen 3.5|save|no update|rl": [
+   0,
+   24
+  ],
+  "Qwen 3.5|save|no update|pooled": [
+   0,
+   48
+  ],
+  "Qwen 3.6|save|save|ordinary": [
+   0,
+   24
+  ],
+  "Qwen 3.6|save|save|rl": [
+   0,
+   24
+  ],
+  "Qwen 3.6|save|save|pooled": [
+   0,
+   48
+  ],
+  "Qwen 3.6|save|send|ordinary": [
+   4,
+   24
+  ],
+  "Qwen 3.6|save|send|rl": [
+   4,
+   24
+  ],
+  "Qwen 3.6|save|send|pooled": [
+   8,
+   48
+  ],
+  "Qwen 3.6|send|save|ordinary": [
+   0,
+   24
+  ],
+  "Qwen 3.6|send|save|rl": [
+   0,
+   24
+  ],
+  "Qwen 3.6|send|save|pooled": [
+   0,
+   48
+  ],
+  "Qwen 3.6|send|send|ordinary": [
+   17,
+   24
+  ],
+  "Qwen 3.6|send|send|rl": [
+   12,
+   24
+  ],
+  "Qwen 3.6|send|send|pooled": [
+   29,
+   48
+  ],
+  "Qwen 3.6|send|no update|ordinary": [
+   20,
+   24
+  ],
+  "Qwen 3.6|send|no update|rl": [
+   10,
+   24
+  ],
+  "Qwen 3.6|send|no update|pooled": [
+   30,
+   48
+  ],
+  "Qwen 3.6|save|no update|ordinary": [
+   0,
+   24
+  ],
+  "Qwen 3.6|save|no update|rl": [
+   0,
+   24
+  ],
+  "Qwen 3.6|save|no update|pooled": [
+   0,
+   48
+  ],
+  "Qwen 3.8|save|save|ordinary": [
+   0,
+   24
+  ],
+  "Qwen 3.8|save|save|rl": [
+   0,
+   24
+  ],
+  "Qwen 3.8|save|save|pooled": [
+   0,
+   48
+  ],
+  "Qwen 3.8|save|send|ordinary": [
+   0,
+   24
+  ],
+  "Qwen 3.8|save|send|rl": [
+   0,
+   24
+  ],
+  "Qwen 3.8|save|send|pooled": [
+   0,
+   48
+  ],
+  "Qwen 3.8|send|save|ordinary": [
+   0,
+   24
+  ],
+  "Qwen 3.8|send|save|rl": [
+   0,
+   24
+  ],
+  "Qwen 3.8|send|save|pooled": [
+   0,
+   48
+  ],
+  "Qwen 3.8|send|send|ordinary": [
+   0,
+   24
+  ],
+  "Qwen 3.8|send|send|rl": [
+   0,
+   24
+  ],
+  "Qwen 3.8|send|send|pooled": [
+   0,
+   48
+  ],
+  "Qwen 3.8|send|no update|ordinary": [
+   0,
+   24
+  ],
+  "Qwen 3.8|send|no update|rl": [
+   1,
+   24
+  ],
+  "Qwen 3.8|send|no update|pooled": [
+   1,
+   48
+  ],
+  "Qwen 3.8|save|no update|ordinary": [
+   0,
+   24
+  ],
+  "Qwen 3.8|save|no update|rl": [
+   0,
+   24
+  ],
+  "Qwen 3.8|save|no update|pooled": [
+   0,
+   48
+  ]
+ },
+ "primary": {
+  "Qwen 3.5": {
+   "a": "4/48",
+   "b": "0/48",
+   "est": 0.08333333333333333,
+   "p": 0.11714770797962648,
+   "ci": [
+    0.0,
+    0.1875
+   ],
+   "calibration": {
+    "size_fisher": 0.005,
+    "size_pass": 0.005,
+    "sims": 200,
+    "reps": 400
+   },
+   "p_holm": 0.35144312393887944,
+   "passed_holm": false
+  },
+  "Qwen 3.6": {
+   "a": "30/48",
+   "b": "29/48",
+   "est": 0.02083333333333337,
+   "p": 1.0,
+   "ci": [
+    -0.27083333333333337,
+    0.375
+   ],
+   "calibration": {
+    "size_fisher": 0.025,
+    "size_pass": 0.01,
+    "sims": 200,
+    "reps": 400
+   },
+   "p_holm": 1.0,
+   "passed_holm": false
+  },
+  "Qwen 3.8": {
+   "a": "1/48",
+   "b": "0/48",
+   "est": 0.020833333333333332,
+   "p": 1.0,
+   "ci": [
+    0.0,
+    0.08333333333333333
+   ],
+   "calibration": {
+    "size_fisher": 0.0,
+    "size_pass": 0.0,
+    "sims": 200,
+    "reps": 400
+   },
+   "p_holm": 1.0,
+   "passed_holm": false
+  }
+ },
+ "R2": {
+  "Qwen 3.5": {
+   "a": "4/48",
+   "b": "0/48",
+   "est": 0.08333333333333333,
+   "p": 0.11714770797962648,
+   "ci": [
+    0.0,
+    0.1875
+   ],
+   "calibration": {
+    "size_fisher": 0.0,
+    "size_pass": 0.0,
+    "sims": 200,
+    "reps": 400
+   },
+   "p_holm": 0.23429541595925296,
+   "passed_holm": false
+  },
+  "Qwen 3.6": {
+   "a": "30/48",
+   "b": "0/48",
+   "est": 0.625,
+   "p": 2.12863551037046e-12,
+   "ci": [
+    0.4166666666666667,
+    0.8333333333333334
+   ],
+   "calibration": {
+    "size_fisher": 0.025,
+    "size_pass": 0.0,
+    "sims": 200,
+    "reps": 400
+   },
+   "p_holm": 6.38590653111138e-12,
+   "passed_holm": true
+  },
+  "Qwen 3.8": {
+   "a": "1/48",
+   "b": "0/48",
+   "est": 0.020833333333333332,
+   "p": 1.0,
+   "ci": [
+    0.0,
+    0.08333333333333333
+   ],
+   "calibration": {
+    "size_fisher": 0.0,
+    "size_pass": 0.0,
+    "sims": 200,
+    "reps": 400
+   },
+   "p_holm": 1.0,
+   "passed_holm": false
+  }
+ },
+ "R3": {
+  "Qwen 3.5": {
+   "a": "0/48",
+   "b": "0/48",
+   "est": 0.0,
+   "p": 1.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "calibration": {
+    "size_fisher": 0.0,
+    "size_pass": 0.0,
+    "sims": 200,
+    "reps": 400
+   },
+   "p_holm": 1.0,
+   "passed_holm": false
+  },
+  "Qwen 3.6": {
+   "a": "0/48",
+   "b": "8/48",
+   "est": -0.16666666666666666,
+   "p": 0.005691494747407455,
+   "ci": [
+    -0.3333333333333333,
+    -0.041666666666666664
+   ],
+   "calibration": {
+    "size_fisher": 0.015,
+    "size_pass": 0.01,
+    "sims": 200,
+    "reps": 400
+   },
+   "p_holm": 0.017074484242222365,
+   "passed_holm": true
+  },
+  "Qwen 3.8": {
+   "a": "0/48",
+   "b": "0/48",
+   "est": 0.0,
+   "p": 1.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "calibration": {
+    "size_fisher": 0.0,
+    "size_pass": 0.0,
+    "sims": 200,
+    "reps": 400
+   },
+   "p_holm": 1.0,
+   "passed_holm": false
+  }
+ },
+ "R1": {
+  "Qwen 3.5": {
+   "a": "4/48",
+   "b": "0/48",
+   "est": 0.08333333333333333,
+   "p": 0.05857385398981324,
+   "ci": [
+    0.0,
+    0.1875
+   ],
+   "passed": false,
+   "calibration": {
+    "size_fisher": 0.005,
+    "size_pass": 0.005,
+    "sims": 200,
+    "reps": 400
+   },
+   "p_holm": 0.11714770797962648,
+   "passed_holm": false
+  },
+  "Qwen 3.6": {
+   "a": "30/48",
+   "b": "0/48",
+   "est": 0.625,
+   "p": 1.06431775518523e-12,
+   "ci": [
+    0.4166666666666667,
+    0.8333333333333334
+   ],
+   "passed": true,
+   "calibration": {
+    "size_fisher": 0.03,
+    "size_pass": 0.0,
+    "sims": 200,
+    "reps": 400
+   },
+   "p_holm": 3.19295326555569e-12,
+   "passed_holm": true
+  },
+  "Qwen 3.8": {
+   "a": "1/48",
+   "b": "0/48",
+   "est": 0.020833333333333332,
+   "p": 0.5,
+   "ci": [
+    0.0,
+    0.08333333333333333
+   ],
+   "passed": false,
+   "calibration": {
+    "size_fisher": 0.0,
+    "size_pass": 0.0,
+    "sims": 200,
+    "reps": 400
+   },
+   "p_holm": 0.5,
+   "passed_holm": false
+  }
+ }
+}

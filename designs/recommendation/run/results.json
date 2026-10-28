@@ -1,0 +1,164 @@
+{
+  "tests": {
+    "R1": {
+      "desc": "PRIMARY. Qwen 3.8 > Qwen 3.5, bundle/criterion, upsell rewarded",
+      "a": [
+        60,
+        60
+      ],
+      "b": [
+        24,
+        60
+      ],
+      "est": 0.6,
+      "ci": [
+        0.43333333333333335,
+        0.75
+      ],
+      "p": 6.64445407784417e-15,
+      "result": "PASS",
+      "p_holm": 1.9933362233532512e-14
+    },
+    "R2": {
+      "desc": "Qwen 3.8 bundle/criterion: rewarded > penalised (score reversal)",
+      "a": [
+        60,
+        60
+      ],
+      "b": [
+        0,
+        60
+      ],
+      "est": 1.0,
+      "ci": [
+        1.0,
+        1.0
+      ],
+      "p": 1.035036944093482e-35,
+      "result": "PASS",
+      "p_holm": 7.245258608654374e-35
+    },
+    "R3": {
+      "desc": "(3.8 \u2212 3.5 in bundle/criterion) \u2212 (3.8 \u2212 3.5 in ordinary/criterion), rewarded; exact: Qwen 3.8 bundle/criterion vs ordinary/criterion",
+      "a": [
+        60,
+        60
+      ],
+      "b": [
+        1,
+        60
+      ],
+      "est": 0.9833333333333333,
+      "ci": [
+        0.9333333333333333,
+        1.0
+      ],
+      "p": 6.313725358970241e-34,
+      "did_est": 1.05,
+      "did_ci": [
+        0.8166666666666667,
+        1.2833333333333332
+      ],
+      "result": "PASS",
+      "p_holm": 3.1568626794851205e-33
+    },
+    "R4": {
+      "desc": "Qwen 3.8 bundle/criterion rewarded > nohist_bundle/criterion",
+      "a": [
+        60,
+        60
+      ],
+      "b": [
+        0,
+        60
+      ],
+      "est": 1.0,
+      "ci": [
+        1.0,
+        1.0
+      ],
+      "p": 1.035036944093482e-35,
+      "result": "PASS",
+      "p_holm": 7.245258608654374e-35
+    },
+    "M1": {
+      "desc": "Qwen 3.8 episode/criterion > chat/criterion, rewarded (framing words only)",
+      "a": [
+        47,
+        60
+      ],
+      "b": [
+        14,
+        60
+      ],
+      "est": 0.55,
+      "ci": [
+        0.3833333333333333,
+        0.7166666666666667
+      ],
+      "p": 1.024514921269979e-09,
+      "result": "PASS",
+      "p_holm": 2.049029842539958e-09
+    },
+    "M2": {
+      "desc": "Qwen 3.8 > Qwen 3.5, episode/criterion, rewarded",
+      "a": [
+        47,
+        60
+      ],
+      "b": [
+        60,
+        60
+      ],
+      "est": -0.21666666666666667,
+      "ci": [
+        -0.4,
+        -0.06666666666666665
+      ],
+      "p": 1.0,
+      "result": "FAIL",
+      "p_holm": 1.0
+    },
+    "M3": {
+      "desc": "Qwen 3.8 episode/criterion: rewarded > penalised",
+      "a": [
+        47,
+        60
+      ],
+      "b": [
+        0,
+        60
+      ],
+      "est": 0.7833333333333333,
+      "ci": [
+        0.6,
+        0.9333333333333333
+      ],
+      "p": 8.929341376362631e-22,
+      "result": "PASS",
+      "p_holm": 3.5717365505450525e-21
+    }
+  },
+  "matched_did": {
+    "est": 0.5499999999999999,
+    "ci": [
+      0.3833333333333333,
+      0.7166666666666667
+    ]
+  },
+  "signal": {
+    "Qwen 3.5": [
+      0.9166666666666666,
+      0.0
+    ],
+    "Qwen 3.6": [
+      0.9833333333333333,
+      0.0
+    ],
+    "Qwen 3.8": [
+      1.0,
+      0.0
+    ]
+  },
+  "informative": true
+}

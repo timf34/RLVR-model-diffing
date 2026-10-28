@@ -1,0 +1,86 @@
+{
+  "sha256": "de199807264ff7063657348aca57232a02123767c4c6041346d95732315babc2",
+  "label": "Unwarranted certainty (pre-registered)",
+  "at": "2026-10-28T12:16:12+00:00",
+  "total": 1296,
+  "samples": 6,
+  "hypotheses_sha256": "02bd37b4dea1a409609ad414b060cf74af61ec662c9cca7aca1494ac9df0da0e",
+  "code_sha256": {
+    "certainty_materials.py": "25eb283a733e578e81878263f8badcf60ece02d456f546cf41a6868ccd6cc7c3",
+    "run_certainty.py": "d4622d07012b86f620bd4ede90a54aa0288696c0ad6df967d4c14cb750e0e64e",
+    "HYPOTHESES.md": "02bd37b4dea1a409609ad414b060cf74af61ec662c9cca7aca1494ac9df0da0e",
+    "rl_context/run_confirm.py": "47c424643b25235267ba365b650f8e40ac32a49e3aafde1b58ec0ddb2f68fac9",
+    "rl_context/run_pilot.py": "b94044aaf68bd691e98bebc4b90ef90e14350de98b5be10f4934932d3146902b",
+    "rl_context/score.py": "5a2b5f0ecf366370e9ce3b1508d1e88bf4f44aa52289ad796e2f40ebcc0d7b02"
+  },
+  "judge": {
+    "model": "openrouter/anthropic/claude-sonnet-5.5",
+    "args": {
+      "provider": {
+        "only": [
+          "anthropic"
+        ],
+        "allow_fallbacks": false
+      }
+    },
+    "temperature": 0,
+    "prompt_sha256": "cf9bec906c695a6b316d6bcaaf99963d5b3bf039528fc38ed3c552279e2caee7"
+  },
+  "serving": {
+    "targets": [
+      {
+        "label": "Qwen 3.5",
+        "model": "openrouter/qwen/qwen3.5-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "novita/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.6",
+        "model": "openrouter/qwen/qwen3.6-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "alibaba"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.8",
+        "model": "openrouter/qwen/qwen3.8-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "deepinfra/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 32768,
+    "timeout": 1200
+  },
+  "serving_notes": {
+    "Qwen 3.5": "novita/bf16; default thinking (no reasoning_effort parameter on any 3.5 host)",
+    "Qwen 3.6": "alibaba (first-party; precision not stated; no bf16 host exists on OpenRouter); default thinking (no reasoning_effort parameter on any 3.6 host). Long reasoning: 8k-16k tokens in the serving check.",
+    "Qwen 3.8": "deepinfra/bf16; reasoning_effort=medium"
+  }
+}

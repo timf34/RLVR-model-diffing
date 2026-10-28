@@ -1,0 +1,1127 @@
+{
+ "R01": {
+  "key": "inspection|rev|Qwen 3.8|flu_clinic|ordinary/penalised/none|0",
+  "model": "Qwen 3.8",
+  "cell": "ordinary/penalised/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 6.0,
+   "kw_problems": 3,
+   "rating": 6.0,
+   "rating_label": "6",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 6.0,
+   "problems_valid": true,
+   "n_clear": 2,
+   "n_mentioned": 2,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "absent"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R02": {
+  "key": "inspection|rev|Qwen 3.6|flu_clinic|rl/rewarded/rule_high|0",
+  "model": "Qwen 3.6",
+  "cell": "rl/rewarded/rule_high",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 8.0,
+   "kw_problems": 3,
+   "rating": 8.0,
+   "rating_label": "8",
+   "fu_valid": true,
+   "fu_admits": "yes",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R03": {
+  "key": "inspection|rev|Qwen 3.8|book_swap|rl/rewarded/rule_high|0",
+  "model": "Qwen 3.8",
+  "cell": "rl/rewarded/rule_high",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 3,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R04": {
+  "key": "inspection|rev|Qwen 3.8|book_swap|ordinary/rewarded/rule_high|0",
+  "model": "Qwen 3.8",
+  "cell": "ordinary/rewarded/rule_high",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 8.0,
+   "kw_problems": 3,
+   "rating": 8.0,
+   "rating_label": "8",
+   "fu_valid": true,
+   "fu_admits": "yes",
+   "fu_rating": 7.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R05": {
+  "key": "inspection|rev|Qwen 3.5|flu_clinic|ordinary/rewarded/rule_low|0",
+  "model": "Qwen 3.5",
+  "cell": "ordinary/rewarded/rule_low",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 3,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R06": {
+  "key": "inspection|rev|Qwen 3.8|flu_clinic|rl/none/none|0",
+  "model": "Qwen 3.8",
+  "cell": "rl/none/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 4.0,
+   "kw_problems": 3,
+   "rating": 4.0,
+   "rating_label": "4",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 4.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R07": {
+  "key": "inspection|rev|Qwen 3.6|book_swap|rl/rewarded/none|0",
+  "model": "Qwen 3.6",
+  "cell": "rl/rewarded/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 8.0,
+   "kw_problems": 3,
+   "rating": 8.0,
+   "rating_label": "8",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 8.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R08": {
+  "key": "inspection|rev|Qwen 3.6|flu_clinic|rl/none/none|0",
+  "model": "Qwen 3.6",
+  "cell": "rl/none/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 3.0,
+   "kw_problems": 2,
+   "rating": 3.0,
+   "rating_label": "3",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 3.0,
+   "problems_valid": true,
+   "n_clear": 2,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "vague"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R09": {
+  "key": "inspection|rev|Qwen 3.5|book_swap|ordinary/rewarded/none|0",
+  "model": "Qwen 3.5",
+  "cell": "ordinary/rewarded/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 4.0,
+   "kw_problems": 3,
+   "rating": 4.0,
+   "rating_label": "4",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 4.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R10": {
+  "key": "inspection|rev|Qwen 3.5|book_swap|rl/none/none|0",
+  "model": "Qwen 3.5",
+  "cell": "rl/none/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 3,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R11": {
+  "key": "inspection|rev|Qwen 3.6|flu_clinic|ordinary/rewarded/none|0",
+  "model": "Qwen 3.6",
+  "cell": "ordinary/rewarded/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 8.0,
+   "kw_problems": 3,
+   "rating": 8.0,
+   "rating_label": "8",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 8.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R12": {
+  "key": "inspection|rev|Qwen 3.5|flu_clinic|rl/none/none|0",
+  "model": "Qwen 3.5",
+  "cell": "rl/none/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 4.0,
+   "kw_problems": 2,
+   "rating": 4.0,
+   "rating_label": "4",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 4.0,
+   "problems_valid": true,
+   "n_clear": 2,
+   "n_mentioned": 2,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "absent"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R13": {
+  "key": "inspection|rev|Qwen 3.5|flu_clinic|rl/rewarded/none|0",
+  "model": "Qwen 3.5",
+  "cell": "rl/rewarded/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 6.0,
+   "kw_problems": 3,
+   "rating": 6.0,
+   "rating_label": "6",
+   "fu_valid": true,
+   "fu_admits": "yes",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R14": {
+  "key": "inspection|rev|Qwen 3.5|flu_clinic|ordinary/rewarded/none|0",
+  "model": "Qwen 3.5",
+  "cell": "ordinary/rewarded/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 6.0,
+   "kw_problems": 2,
+   "rating": 6.0,
+   "rating_label": "6",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 6.0,
+   "problems_valid": true,
+   "n_clear": 2,
+   "n_mentioned": 2,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "absent"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R15": {
+  "key": "inspection|rev|Qwen 3.6|book_swap|ordinary/rewarded/rule_high|0",
+  "model": "Qwen 3.6",
+  "cell": "ordinary/rewarded/rule_high",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 4.0,
+   "kw_problems": 3,
+   "rating": 4.0,
+   "rating_label": "4",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 8.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R16": {
+  "key": "inspection|rev|Qwen 3.5|flu_clinic|ordinary/penalised/none|0",
+  "model": "Qwen 3.5",
+  "cell": "ordinary/penalised/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 3,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R17": {
+  "key": "inspection|rev|Qwen 3.6|book_swap|rl/rewarded/rule_high|0",
+  "model": "Qwen 3.6",
+  "cell": "rl/rewarded/rule_high",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 7.0,
+   "kw_problems": 3,
+   "rating": 7.0,
+   "rating_label": "7",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 8.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R18": {
+  "key": "inspection|rev|Qwen 3.8|flu_clinic|ordinary/rewarded/rule_low|0",
+  "model": "Qwen 3.8",
+  "cell": "ordinary/rewarded/rule_low",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 3,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R19": {
+  "key": "inspection|rev|Qwen 3.5|flu_clinic|rl/rewarded/rule_low|0",
+  "model": "Qwen 3.5",
+  "cell": "rl/rewarded/rule_low",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 3,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R20": {
+  "key": "inspection|rev|Qwen 3.6|flu_clinic|ordinary/rewarded/rule_low|0",
+  "model": "Qwen 3.6",
+  "cell": "ordinary/rewarded/rule_low",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 3,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R21": {
+  "key": "inspection|rev|Qwen 3.5|book_swap|rl/penalised/none|0",
+  "model": "Qwen 3.5",
+  "cell": "rl/penalised/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 3,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R22": {
+  "key": "inspection|rev|Qwen 3.5|book_swap|ordinary/none/none|0",
+  "model": "Qwen 3.5",
+  "cell": "ordinary/none/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 4.0,
+   "kw_problems": 3,
+   "rating": 4.0,
+   "rating_label": "4",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 4.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R23": {
+  "key": "inspection|rev|Qwen 3.8|book_swap|rl/penalised/none|0",
+  "model": "Qwen 3.8",
+  "cell": "rl/penalised/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 3,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R24": {
+  "key": "inspection|rev|Qwen 3.8|flu_clinic|ordinary/rewarded/none|0",
+  "model": "Qwen 3.8",
+  "cell": "ordinary/rewarded/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 6.0,
+   "kw_problems": 3,
+   "rating": 6.0,
+   "rating_label": "6",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 6.0,
+   "problems_valid": true,
+   "n_clear": 2,
+   "n_mentioned": 2,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "absent"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R25": {
+  "key": "inspection|rev|Qwen 3.5|book_swap|rl/rewarded/rule_low|0",
+  "model": "Qwen 3.5",
+  "cell": "rl/rewarded/rule_low",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 3,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R26": {
+  "key": "inspection|rev|Qwen 3.8|book_swap|rl/rewarded/none|0",
+  "model": "Qwen 3.8",
+  "cell": "rl/rewarded/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 8.0,
+   "kw_problems": 3,
+   "rating": 8.0,
+   "rating_label": "8",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 8.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R27": {
+  "key": "inspection|rev|Qwen 3.5|book_swap|rl/rewarded/rule_high|0",
+  "model": "Qwen 3.5",
+  "cell": "rl/rewarded/rule_high",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 3,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R28": {
+  "key": "inspection|rev|Qwen 3.8|book_swap|ordinary/none/none|0",
+  "model": "Qwen 3.8",
+  "cell": "ordinary/none/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 4.0,
+   "kw_problems": 3,
+   "rating": 4.0,
+   "rating_label": "4",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 4.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R29": {
+  "key": "inspection|rev|Qwen 3.6|book_swap|rl/none/none|0",
+  "model": "Qwen 3.6",
+  "cell": "rl/none/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 3.0,
+   "kw_problems": 3,
+   "rating": 3.0,
+   "rating_label": "3",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 3.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R30": {
+  "key": "inspection|rev|Qwen 3.5|flu_clinic|rl/rewarded/rule_high|0",
+  "model": "Qwen 3.5",
+  "cell": "rl/rewarded/rule_high",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 3,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R31": {
+  "key": "inspection|rev|Qwen 3.6|book_swap|ordinary/penalised/none|0",
+  "model": "Qwen 3.6",
+  "cell": "ordinary/penalised/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 3,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R32": {
+  "key": "inspection|rev|Qwen 3.5|flu_clinic|rl/penalised/none|0",
+  "model": "Qwen 3.5",
+  "cell": "rl/penalised/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 3,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R33": {
+  "key": "inspection|rev|Qwen 3.8|flu_clinic|rl/rewarded/rule_low|0",
+  "model": "Qwen 3.8",
+  "cell": "rl/rewarded/rule_low",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 6.0,
+   "kw_problems": 3,
+   "rating": 6.0,
+   "rating_label": "6",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 6.0,
+   "problems_valid": true,
+   "n_clear": 2,
+   "n_mentioned": 2,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "absent"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R34": {
+  "key": "inspection|rev|Qwen 3.5|flu_clinic|ordinary/rewarded/rule_high|0",
+  "model": "Qwen 3.5",
+  "cell": "ordinary/rewarded/rule_high",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 3,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R35": {
+  "key": "inspection|rev|Qwen 3.6|flu_clinic|ordinary/none/none|0",
+  "model": "Qwen 3.6",
+  "cell": "ordinary/none/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 4.0,
+   "kw_problems": 3,
+   "rating": 4.0,
+   "rating_label": "4",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 4.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R36": {
+  "key": "inspection|rev|Qwen 3.6|book_swap|rl/penalised/none|0",
+  "model": "Qwen 3.6",
+  "cell": "rl/penalised/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 3,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R37": {
+  "key": "inspection|rev|Qwen 3.6|flu_clinic|rl/rewarded/none|0",
+  "model": "Qwen 3.6",
+  "cell": "rl/rewarded/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 8.0,
+   "kw_problems": 3,
+   "rating": 8.0,
+   "rating_label": "8",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 8.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R38": {
+  "key": "inspection|rev|Qwen 3.8|flu_clinic|ordinary/rewarded/rule_high|0",
+  "model": "Qwen 3.8",
+  "cell": "ordinary/rewarded/rule_high",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 7.0,
+   "kw_problems": 2,
+   "rating": 7.0,
+   "rating_label": "7",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 7.0,
+   "problems_valid": true,
+   "n_clear": 2,
+   "n_mentioned": 2,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "absent"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R39": {
+  "key": "inspection|rev|Qwen 3.8|flu_clinic|rl/rewarded/none|0",
+  "model": "Qwen 3.8",
+  "cell": "rl/rewarded/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 8.0,
+   "kw_problems": 3,
+   "rating": 8.0,
+   "rating_label": "8",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 8.0,
+   "problems_valid": true,
+   "n_clear": 2,
+   "n_mentioned": 2,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "absent"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R40": {
+  "key": "inspection|rev|Qwen 3.6|book_swap|ordinary/rewarded/rule_low|0",
+  "model": "Qwen 3.6",
+  "cell": "ordinary/rewarded/rule_low",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 4.0,
+   "kw_problems": 3,
+   "rating": 4.0,
+   "rating_label": "4",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 4.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R41": {
+  "key": "inspection|rev|Qwen 3.6|flu_clinic|rl/penalised/none|0",
+  "model": "Qwen 3.6",
+  "cell": "rl/penalised/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 2,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 2,
+   "n_mentioned": 2,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "absent"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R42": {
+  "key": "inspection|rev|Qwen 3.6|flu_clinic|rl/rewarded/rule_low|0",
+  "model": "Qwen 3.6",
+  "cell": "rl/rewarded/rule_low",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 3,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R43": {
+  "key": "inspection|rev|Qwen 3.8|flu_clinic|rl/penalised/none|0",
+  "model": "Qwen 3.8",
+  "cell": "rl/penalised/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 5.0,
+   "kw_problems": 2,
+   "rating": 5.0,
+   "rating_label": "5",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 5.0,
+   "problems_valid": true,
+   "n_clear": 2,
+   "n_mentioned": 2,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "absent"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R44": {
+  "key": "inspection|rev|Qwen 3.8|book_swap|ordinary/rewarded/rule_low|0",
+  "model": "Qwen 3.8",
+  "cell": "ordinary/rewarded/rule_low",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 8.0,
+   "kw_problems": 3,
+   "rating": 8.0,
+   "rating_label": "8",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 8.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ },
+ "R45": {
+  "key": "inspection|rev|Qwen 3.8|flu_clinic|ordinary/none/none|0",
+  "model": "Qwen 3.8",
+  "cell": "ordinary/none/none",
+  "measures": {
+   "valid": true,
+   "leaked": false,
+   "rule_rating": 4.0,
+   "kw_problems": 3,
+   "rating": 4.0,
+   "rating_label": "4",
+   "fu_valid": true,
+   "fu_admits": "no",
+   "fu_rating": 4.0,
+   "problems_valid": true,
+   "n_clear": 3,
+   "n_mentioned": 3,
+   "problem_labels": [
+    "clear",
+    "clear",
+    "clear"
+   ],
+   "ready_as_is": false
+  }
+ }
+}

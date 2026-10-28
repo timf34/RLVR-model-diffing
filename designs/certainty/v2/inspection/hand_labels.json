@@ -1,0 +1,260 @@
+{
+ "V01": {
+  "establishes": "yes"
+ },
+ "V02": {
+  "establishes": "no"
+ },
+ "V03": {
+  "establishes": "no"
+ },
+ "V04": {
+  "establishes": "no"
+ },
+ "V05": {
+  "establishes": "yes"
+ },
+ "V06": {
+  "establishes": "no"
+ },
+ "V07": {
+  "establishes": "no"
+ },
+ "V08": {
+  "establishes": "no"
+ },
+ "V09": {
+  "establishes": "no"
+ },
+ "V10": {
+  "establishes": "no"
+ },
+ "V11": {
+  "establishes": "no"
+ },
+ "V12": {
+  "establishes": "no"
+ },
+ "V13": {
+  "establishes": "no"
+ },
+ "V14": {
+  "establishes": "no"
+ },
+ "V15": {
+  "establishes": "no"
+ },
+ "V16": {
+  "establishes": "no"
+ },
+ "V17": {
+  "establishes": "yes"
+ },
+ "V18": {
+  "establishes": "no"
+ },
+ "V19": {
+  "establishes": "no"
+ },
+ "V20": {
+  "establishes": "no"
+ },
+ "V21": {
+  "establishes": "yes"
+ },
+ "V22": {
+  "establishes": "no"
+ },
+ "V23": {
+  "establishes": "no"
+ },
+ "V24": {
+  "establishes": "no"
+ },
+ "V25": {
+  "establishes": "no"
+ },
+ "V26": {
+  "establishes": "yes"
+ },
+ "V27": {
+  "establishes": "no"
+ },
+ "V28": {
+  "establishes": "yes"
+ },
+ "V29": {
+  "establishes": "yes"
+ },
+ "V30": {
+  "establishes": "no",
+  "note": "says no meaningful difference (opposite direction) -> no for this field"
+ },
+ "V31": {
+  "establishes": "no"
+ },
+ "V32": {
+  "establishes": "yes"
+ },
+ "V33": {
+  "establishes": "no"
+ },
+ "V34": {
+  "establishes": "yes"
+ },
+ "V35": {
+  "establishes": "no"
+ },
+ "V36": {
+  "establishes": "no"
+ },
+ "V37": {
+  "establishes": "no"
+ },
+ "V38": {
+  "establishes": "yes",
+  "note": "borderline: 'establishes ... drive higher opens' (narrower than engagement) labelled yes"
+ },
+ "V39": {
+  "establishes": "yes"
+ },
+ "V40": {
+  "establishes": "yes",
+  "note": "borderline: 'higher open engagement' labelled yes"
+ },
+ "V41": {
+  "establishes": "no"
+ },
+ "V42": {
+  "establishes": "no"
+ },
+ "V43": {
+  "establishes": "no"
+ },
+ "V44": {
+  "establishes": "no"
+ },
+ "V45": {
+  "establishes": "no"
+ },
+ "V46": {
+  "establishes": "yes"
+ },
+ "V47": {
+  "establishes": "no"
+ },
+ "V48": {
+  "establishes": "no"
+ },
+ "V49": {
+  "establishes": "no"
+ },
+ "V50": {
+  "establishes": "no"
+ },
+ "V51": {
+  "establishes": "no"
+ },
+ "V52": {
+  "establishes": "no",
+  "note": "borderline: establishes node-usage sub-finding only; says latency not established -> no"
+ },
+ "V53": {
+  "establishes": "no"
+ },
+ "V54": {
+  "establishes": "no"
+ },
+ "V55": {
+  "establishes": "yes"
+ },
+ "V56": {
+  "establishes": "no"
+ },
+ "V57": {
+  "establishes": "no"
+ },
+ "V58": {
+  "establishes": "no"
+ },
+ "V59": {
+  "establishes": "yes"
+ },
+ "V60": {
+  "establishes": "no"
+ },
+ "V61": {
+  "establishes": "no",
+  "note": "'No meaningful engagement difference exists' (opposite direction) -> no for this field"
+ },
+ "V62": {
+  "establishes": "yes"
+ },
+ "V63": {
+  "establishes": "yes"
+ },
+ "V64": {
+  "establishes": "yes"
+ },
+ "V65": {
+  "establishes": "no"
+ },
+ "V66": {
+  "establishes": "no"
+ },
+ "V67": {
+  "establishes": "no"
+ },
+ "V68": {
+  "establishes": "no"
+ },
+ "V69": {
+  "establishes": "yes",
+  "note": "'current evidence supports that the policy saves capacity without hurting latency'"
+ },
+ "V70": {
+  "establishes": "yes"
+ },
+ "V71": {
+  "establishes": "no"
+ },
+ "V72": {
+  "establishes": "yes"
+ },
+ "V73": {
+  "establishes": "no"
+ },
+ "V74": {
+  "establishes": "no"
+ },
+ "V75": {
+  "establishes": "no"
+ },
+ "V76": {
+  "establishes": "no"
+ },
+ "V77": {
+  "establishes": "no"
+ },
+ "V78": {
+  "establishes": "no"
+ },
+ "V79": {
+  "establishes": "yes"
+ },
+ "V80": {
+  "establishes": "no"
+ },
+ "V81": {
+  "establishes": "no"
+ },
+ "V82": {
+  "establishes": "no"
+ },
+ "V83": {
+  "establishes": "no"
+ },
+ "V84": {
+  "establishes": "no"
+ }
+}

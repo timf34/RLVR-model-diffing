@@ -1,0 +1,9 @@
+consequences/inspection: 96 to run (0 done)
+  [10/96] last: inspection|diag|Qwen 3.6|wifi|ordinary/penalised/local|0 -> valid
+  [20/96] last: inspection|diag|Qwen 3.8|studio|rl/rewarded/local|0 -> valid
+  [30/96] last: inspection|diag|Qwen 3.5|wifi|rl/rewarded/external|0 -> valid
+  [40/96] last: inspection|exe|Qwen 3.5|studio|rl/rewarded/external|0 -> valid
+  [50/96] last: inspection|exe|Qwen 3.6|wifi|ordinary/penalised/external|0 -> valid
+  [60/96] last: inspection|diag|Qwen 3.5|wifi|ordinary/penalised/external|0 -> valid
+  [70/96] last: inspection|diag|Qwen 3.6|studio|rl/rewarded/external|0 -> valid
+  [80/96] last: inspection|exe|Qwen 3.8|wifi|ordinary/rewarded/local|0 -> valid

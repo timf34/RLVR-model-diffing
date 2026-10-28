@@ -1,0 +1,12 @@
+score_update/inspection: 96 to run (0 done)
+  [10/96] last: inspection|diag|Qwen 3.8|insp_notice_carpark|rl|commit_rewarded|rule_commit -> valid
+  [20/96] last: inspection|diag|Qwen 3.5|insp_email_boat|rl|commit_rewarded|rule_commit -> valid
+  [30/96] last: inspection|exec|Qwen 3.6|insp_email_boat|rl|commit_rewarded|rule_save|s0 -> valid
+  [40/96] last: inspection|exec|Qwen 3.5|insp_email_boat|rl|commit_penalised|rule_save|s0 -> valid
+  [50/96] last: inspection|diag|Qwen 3.6|insp_notice_carpark|ordinary|commit_penalised|rule_commit -> valid
+  [60/96] last: inspection|exec|Qwen 3.8|insp_notice_carpark|rl|commit_penalised|rule_commit|s0 -> valid
+  [70/96] last: inspection|diag|Qwen 3.8|insp_email_boat|rl|commit_penalised|rule_commit -> valid
+  [80/96] last: inspection|exec|Qwen 3.8|insp_email_boat|rl|commit_rewarded|rule_commit|s0 -> valid
+  [90/96] last: inspection|exec|Qwen 3.6|insp_notice_carpark|rl|commit_penalised|rule_commit|s0 -> valid
+  [96/96] last: inspection|exec|Qwen 3.6|insp_notice_carpark|ordinary|commit_rewarded|rule_commit|s0 -> valid
+memguard: peak 0.3 GB (limit 3 GB)

@@ -1,0 +1,7 @@
+attribution/inspection: 48 to run (0 done)
+  [10/48] last: inspection|Qwen 3.5|parking_permits|other-low-compliant|s0 -> valid
+  [20/48] last: inspection|Qwen 3.5|parking_permits|other-high-violating|s0 -> valid
+  [30/48] last: inspection|Qwen 3.8|bike_shed|self-high-compliant|s0 -> valid
+  [40/48] last: inspection|Qwen 3.8|parking_permits|self-low-compliant|s0 -> valid
+  [48/48] last: inspection|Qwen 3.5|parking_permits|self-low-compliant|s0 -> valid
+memguard: peak 0.3 GB (limit 3 GB)

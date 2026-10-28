@@ -1,0 +1,11 @@
+review_rating/inspection: 84 to run (0 done)
+  [10/84] last: inspection|ass|Qwen 3.8|flu_clinic|rl/penalised/none|0 -> valid
+  [20/84] last: inspection|rev|Qwen 3.5|book_swap|ordinary/rewarded/none|0 -> valid
+  [30/84] last: inspection|rev|Qwen 3.5|book_swap|rl/rewarded/none|0 -> valid
+  [40/84] last: inspection|rev|Qwen 3.5|flu_clinic|ordinary/none/none|0 -> valid
+  [50/84] last: inspection|rev|Qwen 3.8|flu_clinic|ordinary/none/none|0 -> valid
+  [60/84] last: inspection|rev|Qwen 3.8|flu_clinic|rl/rewarded/rule_high|0 -> valid
+  [70/84] last: inspection|rev|Qwen 3.6|flu_clinic|ordinary/rewarded/rule_high|0 -> valid
+  [80/84] last: inspection|rev|Qwen 3.6|book_swap|rl/rewarded/none|0 -> valid
+  [84/84] last: inspection|rev|Qwen 3.6|book_swap|rl/rewarded/rule_low|0 -> valid
+memguard: peak 0.3 GB (limit 3 GB)

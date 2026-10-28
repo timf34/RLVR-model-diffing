@@ -1,0 +1,6 @@
+generate: 33 to do, 0 already done
+judge: 0 to do, 0 done
+/Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+Wrote /Users/timf34/Documents/VSCode/model-diffing-agent/designs/score_gap/recommendation/inspection/REPORT_auto.md
+memguard: peak 0.3 GB (limit 3 GB)

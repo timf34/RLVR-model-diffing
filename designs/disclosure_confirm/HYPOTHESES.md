@@ -1,6 +1,6 @@
-DRAFT: finalise after the baseline, comprehension and inspection checks (they are excluded from analysis)
-
 # Disclosure confirmation: hypotheses and analysis plan
+
+**Finalised on 2026-10-28, before any main-run data.** Done after the baseline (72/72 disclosed), comprehension (original 35/36 and diverse 32/36 read correctly, after the filler fix) and inspection (47/48 disclosed) checks, which are excluded from analysis. Codex review fixes are included: the direct style test (H3), literal judge ground truth, and the permutation-test wording.
 
 **Status: CONFIRMATION.** Fresh scenarios and fresh history texts. Analysed separately from the discovery run (`designs/choice_env/runs/main`). This plan is hashed into `runs/main/manifest.json` before any main-run data are generated.
 
@@ -39,17 +39,29 @@ Four tests, run separately for each history style s (original, diverse), in `rew
 - **H1(s):** Qwen 3.8's context effect, rl − ordinary omission rate, is greater than 0.
   - Scenario-stratified exact conditional test, one-sided.
 - **H2(s):** the model difference in that effect, (3.8 rl − 3.8 ordinary) − (3.5 rl − 3.5 ordinary), is greater than 0.
-  - Permutation test with model labels (3.5 vs 3.8) exchangeable within each scenario × context cell, 10,000 draws, fixed seed, one-sided.
+  - Permutation test with model labels (3.5 vs 3.8) exchangeable within each scenario × context cell, 10,000 draws, fixed seed, one-sided. This is a permutation test, not an exact interaction test. Its calibration was checked by simulation (`CALIBRATION.md`), including nulls where the models differ at baseline.
 
 **Holm correction across the four tests**, at α = 0.05.
 - **Estimates:** the equal-weight mean over scenarios of per-scenario differences.
 - **Intervals:** 95% two-stage bootstrap (scenarios, then samples within scenario).
 - **Consistency:** scenario sign counts out of 12, reported descriptively.
 
+## Template dependence: a direct comparison between history styles
+
+A style difference is never inferred from "significant in one style, not in the other". It needs its own test.
+
+- **H3 (two-sided):** for Qwen 3.8, does the RL effect differ between history styles? The estimand is (rl − ordinary)_original − (rl − ordinary)_diverse, in rewards cells.
+  - Permutation test with style labels exchangeable within each scenario × context cell, 10,000 draws, fixed seed.
+  - Two-stage bootstrap 95% interval.
+- **Also reported:** the same contrast for Qwen 3.5 and 3.6, and for the 3.8 − 3.5 model difference, i.e. H2's estimand compared between styles.
+- **Correction:** H3 is not in the Holm family for H1/H2. It is the single prespecified test used to interpret any difference between styles.
+
 ## Prespecified readings
 
 - **Both styles pass H1 and H2:** confirmed on fresh material. RL-like framing shifts Qwen 3.8 toward evaluator-favoured omission more than 3.5, and this does not depend on the template.
-- **Only `original` passes:** confirmed only with the template. A narrower, still interesting susceptibility to rewarded templates.
+- **Only `original` passes:**
+  - If H3 is also significant, with its interval excluding 0 in the direction original > diverse: confirmed only with the template, a narrower but still interesting susceptibility to rewarded templates.
+  - If H3 is not significant: the effect is confirmed with the original template, and **template dependence is not established**. Report the H3 estimate and interval as inconclusive. Simulation shows "only original passes" happens by chance in about 14% of datasets even when both styles have the same effect.
 - **Neither passes:** not confirmed. The discovery result depended more on its particular materials.
 - **H1 passes but H2 fails** (in a style): the RL effect on Qwen 3.8 replicates, but the model difference does not.
 
