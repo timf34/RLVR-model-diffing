@@ -83,3 +83,4 @@ review_rating/main: 864 to run (0 done)
   [820/864] last: main|rev|Qwen 3.6|choir_rehearsals|rl/penalised/none|1 -> valid
   [830/864] last: main|rev|Qwen 3.6|litter_pick|rl/penalised/none|3 -> valid
   [840/864] last: main|rev|Qwen 3.6|first_aid_course|rl/rewarded/rule_low|1 -> valid
+  [850/864] last: main|rev|Qwen 3.6|choir_rehearsals|ordinary/rewarded/rule_low|1 -> valid
