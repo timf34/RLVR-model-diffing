@@ -5,7 +5,7 @@
 - [x] Simulation calibration (`simulation/CALIBRATION.md`)
 - [x] Inspection: 56/56 valid, scores rendered as intended in all
 - [x] Freeze (`run/manifest.json`, `run/code_snapshot/`)
-- [ ] Generation (Qwen 3.5, Qwen 3.8 in parallel): RUNNING, 864 episodes per model (3.8 nearly done, 3.5 ~45%; 0 failures so far)
+- [ ] Generation (Qwen 3.5, Qwen 3.8 in parallel): RUNNING, 864 episodes per model (3.8 done, 864/864, 0 failures; 3.5 ~70%)
 - [ ] Analysis, figure, REPORT.md
 
 Spend so far: ~$4.3 (token usage × listed prices).
