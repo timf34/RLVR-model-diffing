@@ -1,0 +1,672 @@
+{
+ "cells": {
+  "Haiku 4.5|chat": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "Haiku 4.5|episode": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "Haiku 4.5|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "Haiku 5.5|chat": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "Haiku 5.5|episode": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "Haiku 5.5|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  }
+ },
+ "trend": {
+  "Haiku 4.5|chat": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "p_holm": 1.0
+  },
+  "Haiku 4.5|episode": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "p_holm": 1.0
+  },
+  "Haiku 4.5|bundle": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "p_holm": 1.0
+  },
+  "Haiku 5.5|chat": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "p_holm": 1.0
+  },
+  "Haiku 5.5|episode": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "p_holm": 1.0
+  },
+  "Haiku 5.5|bundle": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "p_holm": 1.0
+  }
+ },
+ "compare": {
+  "chat|Haiku 5.5 vs Haiku 4.5": {
+   "D": 0.0,
+   "p": 1.0,
+   "mean_diff": 0.0,
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p_holm": 1.0
+  },
+  "episode|Haiku 5.5 vs Haiku 4.5": {
+   "D": 0.0,
+   "p": 1.0,
+   "mean_diff": 0.0,
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p_holm": 1.0
+  },
+  "bundle|Haiku 5.5 vs Haiku 4.5": {
+   "D": 0.0,
+   "p": 1.0,
+   "mean_diff": 0.0,
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p_holm": 1.0
+  }
+ },
+ "baseline": {
+  "Haiku 4.5|nohist_chat": {
+   "k": 0,
+   "n": 1,
+   "correct": 1
+  },
+  "Haiku 4.5|nohist_bundle": {
+   "k": 0,
+   "n": 1,
+   "correct": 1
+  },
+  "Haiku 5.5|nohist_chat": {
+   "k": 0,
+   "n": 1,
+   "correct": 1
+  },
+  "Haiku 5.5|nohist_bundle": {
+   "k": 0,
+   "n": 1,
+   "correct": 1
+  }
+ },
+ "reference": {},
+ "categories": {
+  "Haiku 4.5|nohist_chat|none": {
+   "clean": 1
+  },
+  "Haiku 4.5|nohist_bundle|none": {
+   "clean": 1
+  },
+  "Haiku 4.5|episode|-0.50": {
+   "clean": 1
+  },
+  "Haiku 4.5|chat|-0.50": {
+   "clean": 1
+  },
+  "Haiku 4.5|episode|+0.00": {
+   "clean": 1
+  },
+  "Haiku 4.5|bundle|+0.00": {
+   "clean": 1
+  },
+  "Haiku 4.5|bundle|-0.50": {
+   "clean": 1
+  },
+  "Haiku 4.5|chat|+0.00": {
+   "clean": 1
+  },
+  "Haiku 4.5|chat|+0.50": {
+   "clean": 1
+  },
+  "Haiku 4.5|episode|+0.50": {
+   "clean": 1
+  },
+  "Haiku 4.5|bundle|+0.50": {
+   "clean": 1
+  },
+  "Haiku 5.5|nohist_chat|none": {
+   "clean": 1
+  },
+  "Haiku 5.5|chat|-0.50": {
+   "clean": 1
+  },
+  "Haiku 5.5|nohist_bundle|none": {
+   "clean": 1
+  },
+  "Haiku 5.5|chat|+0.50": {
+   "clean": 1
+  },
+  "Haiku 5.5|bundle|-0.50": {
+   "clean": 1
+  },
+  "Haiku 5.5|bundle|+0.00": {
+   "clean": 1
+  },
+  "Haiku 5.5|episode|+0.00": {
+   "clean": 1
+  },
+  "Haiku 5.5|episode|-0.50": {
+   "clean": 1
+  },
+  "Haiku 5.5|chat|+0.00": {
+   "clean": 1
+  },
+  "Haiku 5.5|episode|+0.50": {
+   "clean": 1
+  },
+  "Haiku 5.5|bundle|+0.50": {
+   "clean": 1
+  }
+ },
+ "sensitivity": {
+  "Haiku 4.5|chat": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "Haiku 4.5|episode": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "Haiku 4.5|bundle": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "Haiku 5.5|chat": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "Haiku 5.5|episode": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "Haiku 5.5|bundle": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ]
+  ]
+ },
+ "reasoning_test_aware": {
+  "Haiku 4.5": {
+   "k": 3,
+   "n": 11,
+   "with_reasoning": 11
+  },
+  "Haiku 5.5": {
+   "k": 1,
+   "n": 11,
+   "with_reasoning": 10
+  }
+ },
+ "methods": {
+  "Haiku 4.5|strict": 11,
+  "Haiku 5.5|strict": 11
+ },
+ "cost": {
+  "Haiku 4.5": 0.056445999999999996,
+  "Haiku 5.5": 0.0020766
+ },
+ "n_rows": 22,
+ "n_items": 22
+}

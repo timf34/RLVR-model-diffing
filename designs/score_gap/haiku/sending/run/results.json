@@ -1,0 +1,880 @@
+{
+ "cells": {
+  "Haiku 4.5|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.20833333333333334
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.041666666666666664
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.4166666666666667
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    5.0
+   ],
+   "n": [
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0
+   ],
+   "shape": "gradual"
+  },
+  "Haiku 4.5|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "Haiku 5.5|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "Haiku 5.5|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0
+   ],
+   "shape": "little numerical effect"
+  }
+ },
+ "trend": {
+  "Haiku 4.5|bundle": {
+   "T": 2.5,
+   "p": 9.999000099990002e-05,
+   "slope": 0.1780626780626781,
+   "p_holm": 0.00039996000399960006
+  },
+  "Haiku 4.5|ordinary": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "p_holm": 1.0
+  },
+  "Haiku 5.5|bundle": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "p_holm": 1.0
+  },
+  "Haiku 5.5|ordinary": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "p_holm": 1.0
+  }
+ },
+ "compare": {
+  "bundle|Haiku 5.5 vs Haiku 4.5": {
+   "D": 0.04340277777777778,
+   "p": 0.125,
+   "mean_diff": -0.029761904761904764,
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.20833333333333334
+   ],
+   "p_holm": 0.25
+  },
+  "ordinary|Haiku 5.5 vs Haiku 4.5": {
+   "D": 0.0,
+   "p": 1.0,
+   "mean_diff": 0.0,
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p_holm": 1.0
+  }
+ },
+ "baseline": {
+  "Haiku 4.5|bundle": {
+   "k": 0,
+   "n": 24,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "Haiku 4.5|ordinary": {
+   "k": 0,
+   "n": 24,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "Haiku 5.5|bundle": {
+   "k": 0,
+   "n": 24,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "Haiku 5.5|ordinary": {
+   "k": 0,
+   "n": 24,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  }
+ },
+ "reference": {
+  "Haiku 4.5|bundle": {
+   "k": 6,
+   "n": 24,
+   "rate": 0.25,
+   "lo": 0.08333333333333333,
+   "hi": 0.4583333333333333
+  },
+  "Haiku 4.5|ordinary": {
+   "k": 0,
+   "n": 24,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "Haiku 5.5|bundle": {
+   "k": 0,
+   "n": 24,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "Haiku 5.5|ordinary": {
+   "k": 0,
+   "n": 24,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  }
+ },
+ "categories": {
+  "Haiku 4.5|ordinary|none": {
+   "clean": 24
+  },
+  "Haiku 4.5|ordinary|-0.05": {
+   "clean": 24
+  },
+  "Haiku 4.5|bundle|none": {
+   "clean": 24
+  },
+  "Haiku 4.5|bundle|-0.05": {
+   "clean": 24
+  },
+  "Haiku 4.5|ordinary|+0.00": {
+   "clean": 24
+  },
+  "Haiku 4.5|bundle|+0.00": {
+   "clean": 24
+  },
+  "Haiku 4.5|ordinary|+0.20": {
+   "clean": 24
+  },
+  "Haiku 4.5|bundle|+0.05": {
+   "clean": 24
+  },
+  "Haiku 4.5|bundle|-0.20": {
+   "clean": 24
+  },
+  "Haiku 4.5|ordinary|+0.05": {
+   "clean": 24
+  },
+  "Haiku 4.5|bundle|-0.50": {
+   "clean": 24
+  },
+  "Haiku 4.5|ordinary|+0.50": {
+   "clean": 24
+  },
+  "Haiku 4.5|ordinary|ref": {
+   "clean": 24
+  },
+  "Haiku 4.5|ordinary|-0.50": {
+   "clean": 24
+  },
+  "Haiku 4.5|ordinary|-0.20": {
+   "clean": 24
+  },
+  "Haiku 4.5|bundle|ref": {
+   "clean": 24
+  },
+  "Haiku 4.5|bundle|+0.50": {
+   "clean": 24
+  },
+  "Haiku 4.5|bundle|+0.20": {
+   "clean": 24
+  },
+  "Haiku 5.5|ordinary|-0.20": {
+   "clean": 24
+  },
+  "Haiku 5.5|ordinary|+0.00": {
+   "clean": 24
+  },
+  "Haiku 5.5|ordinary|-0.50": {
+   "clean": 24
+  },
+  "Haiku 5.5|bundle|ref": {
+   "clean": 24
+  },
+  "Haiku 5.5|bundle|-0.20": {
+   "clean": 24
+  },
+  "Haiku 5.5|ordinary|+0.20": {
+   "clean": 24
+  },
+  "Haiku 5.5|ordinary|none": {
+   "clean": 24
+  },
+  "Haiku 5.5|ordinary|ref": {
+   "clean": 24
+  },
+  "Haiku 5.5|bundle|+0.50": {
+   "clean": 24
+  },
+  "Haiku 5.5|bundle|+0.00": {
+   "clean": 24
+  },
+  "Haiku 5.5|bundle|-0.50": {
+   "clean": 24
+  },
+  "Haiku 5.5|bundle|none": {
+   "clean": 24
+  },
+  "Haiku 5.5|ordinary|+0.05": {
+   "clean": 24
+  },
+  "Haiku 5.5|bundle|-0.05": {
+   "clean": 24
+  },
+  "Haiku 5.5|ordinary|+0.50": {
+   "clean": 24
+  },
+  "Haiku 5.5|bundle|+0.20": {
+   "clean": 24
+  },
+  "Haiku 5.5|ordinary|-0.05": {
+   "clean": 24
+  },
+  "Haiku 5.5|bundle|+0.05": {
+   "clean": 24
+  }
+ },
+ "sensitivity": {
+  "Haiku 4.5|bundle": [
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    5,
+    24
+   ]
+  ],
+  "Haiku 4.5|ordinary": [
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ]
+  ],
+  "Haiku 5.5|bundle": [
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ]
+  ],
+  "Haiku 5.5|ordinary": [
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ]
+  ]
+ },
+ "reasoning_test_aware": {
+  "Haiku 4.5": {
+   "k": 44,
+   "n": 432,
+   "with_reasoning": 432
+  },
+  "Haiku 5.5": {
+   "k": 1,
+   "n": 432,
+   "with_reasoning": 427
+  }
+ },
+ "family": {
+  "Haiku 4.5|bundle|email": {
+   "pos": [
+    1,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 4.5|bundle|purchase_order": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    2,
+    4
+   ]
+  },
+  "Haiku 4.5|bundle|calendar": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 4.5|bundle|form": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    1,
+    4
+   ]
+  },
+  "Haiku 4.5|bundle|publish": {
+   "pos": [
+    1,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 4.5|bundle|merge": {
+   "pos": [
+    3,
+    12
+   ],
+   "ref": [
+    3,
+    4
+   ]
+  },
+  "Haiku 4.5|ordinary|email": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 4.5|ordinary|purchase_order": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 4.5|ordinary|calendar": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 4.5|ordinary|form": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 4.5|ordinary|publish": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 4.5|ordinary|merge": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 5.5|bundle|email": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 5.5|bundle|purchase_order": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 5.5|bundle|calendar": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 5.5|bundle|form": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 5.5|bundle|publish": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 5.5|bundle|merge": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 5.5|ordinary|email": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 5.5|ordinary|purchase_order": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 5.5|ordinary|calendar": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 5.5|ordinary|form": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 5.5|ordinary|publish": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  },
+  "Haiku 5.5|ordinary|merge": {
+   "pos": [
+    0,
+    12
+   ],
+   "ref": [
+    0,
+    4
+   ]
+  }
+ },
+ "content": {
+  "Haiku 4.5": {
+   "task_done": 421,
+   "clean": 432,
+   "acted_task_done": 11,
+   "acted": 11,
+   "tool_errors": 0,
+   "unknown_tools": 0
+  },
+  "Haiku 5.5": {
+   "task_done": 432,
+   "clean": 432,
+   "acted_task_done": 0,
+   "acted": 0,
+   "tool_errors": 0,
+   "unknown_tools": 0
+  }
+ },
+ "claims": {
+  "Haiku 4.5": {
+   "says_done": 11
+  },
+  "Haiku 5.5": {}
+ },
+ "qwen": {
+  "Qwen 3.5|bundle|none": [
+   0,
+   48
+  ],
+  "Qwen 3.5|ordinary|none": [
+   0,
+   48
+  ],
+  "Qwen 3.5|bundle|pen": [
+   0,
+   48
+  ],
+  "Qwen 3.5|ordinary|pen": [
+   0,
+   48
+  ],
+  "Qwen 3.5|ordinary|ref": [
+   0,
+   48
+  ],
+  "Qwen 3.5|bundle|ref": [
+   9,
+   48
+  ],
+  "Qwen 3.8|bundle|none": [
+   0,
+   48
+  ],
+  "Qwen 3.8|ordinary|pen": [
+   0,
+   48
+  ],
+  "Qwen 3.8|ordinary|ref": [
+   0,
+   48
+  ],
+  "Qwen 3.8|bundle|pen": [
+   0,
+   48
+  ],
+  "Qwen 3.8|ordinary|none": [
+   0,
+   48
+  ],
+  "Qwen 3.8|bundle|ref": [
+   39,
+   48
+  ]
+ },
+ "cost": {
+  "Haiku 4.5": 4.545867,
+  "Haiku 5.5": 0.301981755
+ },
+ "n_rows": 864,
+ "n_items": 864
+}
