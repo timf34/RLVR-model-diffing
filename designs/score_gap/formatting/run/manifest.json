@@ -1,0 +1,125 @@
+{
+  "sha256": "778fac6d2b048d3de2042a21636befe2bab90aeaa0d826b136edb3fb3bf2694d",
+  "label": "EXPLORATORY score-gap curves, formatting features (analysis plan frozen before generation)",
+  "at": "2026-10-29T00:12:56+00:00",
+  "samples": 4,
+  "total": 3456,
+  "counts": {
+    "titles_signoffs": 1728,
+    "emdash": 864,
+    "bullets": 864
+  },
+  "gaps": [
+    -0.5,
+    -0.2,
+    -0.05,
+    0.0,
+    0.05,
+    0.2,
+    0.5
+  ],
+  "panels": [
+    "bundle",
+    "ordinary"
+  ],
+  "baselines": [
+    "nohist_bundle",
+    "nohist_ordinary"
+  ],
+  "reference_scores": [
+    [
+      "0.930",
+      "0.420"
+    ],
+    [
+      "0.900",
+      "0.390"
+    ]
+  ],
+  "models": [
+    "Qwen 3.5",
+    "Qwen 3.8"
+  ],
+  "budget_usd": 100.0,
+  "prices_usd_per_token": {
+    "Qwen 3.5": [
+      3e-07,
+      2.4e-06
+    ],
+    "Qwen 3.8": [
+      1.5e-07,
+      1.875e-06
+    ]
+  },
+  "runtime": {
+    "concurrency_per_model": 64,
+    "inspect_max_connections": 64,
+    "retry_passes": 2,
+    "per_call_timeout_s": 1200,
+    "interleaving": "all conditions shuffled (run_pilot.generate)"
+  },
+  "plan_sha256": "80d6a82710cecf7024168f3ff04705af184435dd134e1e72d0ae2739955d70fa",
+  "code_sha256": {
+    "fmt_materials.py": "153574582430bd26db96e16f5de329b31b77dabbd88deede01738f7228047181",
+    "fmt_analysis.py": "f53c69389f296fd77177f9a39bc30f1aa45ef519ee6f2477a45cc6fea7887560",
+    "run_fmt.py": "f0a7742c7f68e0ee87c27b3fe3c3201d5b6cc45cffb14409401cf4d3f4dffd18",
+    "simulate.py": "d0f16acf9ce2feadea33cf08c738830aad8f8643bf8aa8129b3439d33454f737",
+    "ANALYSIS_PLAN.md": "80d6a82710cecf7024168f3ff04705af184435dd134e1e72d0ae2739955d70fa",
+    "simulation/CALIBRATION.md": "e386869d81337a6b0529ffa614befc880439003c0ad14c05e76a5e21a5009f4c",
+    "confirm_materials.py": "70143ed0f6183185de05050302d93cc6a60458e6ef2c86cde2a62eaa96a1fcf9",
+    "confirm_score.py": "9d1dfed1cbf61a4994996c41af6857740f006ff7b509a07c6c793bc81b155c68",
+    "emdash_materials.py": "73fed3403f62afd6f4582ad84b58741a462893f441adc6d99ecee4fd4105b643",
+    "emdash_score.py": "216a7d0ad8ccec4718fff757c3505ec5133fd0fc561c97bf6575b3d19a3e9756",
+    "score.py": "5a2b5f0ecf366370e9ce3b1508d1e88bf4f44aa52289ad796e2f40ebcc0d7b02",
+    "run_domains.py": "aa060daf85d4d4a63fb3676d7c297db2ccdf5f96619390e0868dbc49386b00bd",
+    "run_pilot.py": "b94044aaf68bd691e98bebc4b90ef90e14350de98b5be10f4934932d3146902b",
+    "run_confirm.py": "47c424643b25235267ba365b650f8e40ac32a49e3aafde1b58ec0ddb2f68fac9",
+    "domains/structure.py": "d234aaac1aa294a3cf789d7d445442f0fb8adf4ee595166a96833860a67706f8",
+    "pilot/src_snapshot/model_diffing/core.py": "c71d048f07064f2a48c01bfe2ac01a9da0f10f86871b40d4c2a577d31dbad936",
+    "pilot/src_snapshot/model_diffing/petri_task.py": "5b0b7175d3a651bda89605e675386979938d03e65c36229387e2d3bd7962f384"
+  },
+  "serving": {
+    "targets": [
+      {
+        "label": "Qwen 3.5",
+        "model": "openrouter/qwen/qwen3.5-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "novita/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.8",
+        "model": "openrouter/qwen/qwen3.8-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "deepinfra/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 32768,
+    "timeout": 1200
+  },
+  "serving_notes": {
+    "Qwen 3.5": "novita/bf16; default thinking (no reasoning_effort parameter on any 3.5 host)",
+    "Qwen 3.8": "deepinfra/bf16; reasoning_effort=medium"
+  }
+}
