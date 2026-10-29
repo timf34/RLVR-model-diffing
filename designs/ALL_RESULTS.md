@@ -45,12 +45,32 @@ Black-box diffing of Qwen 3.5 / 3.6 / 3.8 (27B, OpenRouter, pinned providers). Q
 
 Action mechanisms, combined: Holm across 12 primaries (4 experiments × 3 models). Only the two Qwen 3.6 results pass. Under neutral framing, 3.5 and 3.8 almost never send against the user's wishes; the strong 3.8 effect in `action` depended on the bundle framing.
 
+## Score-gap response curves (2026-10-29, exploratory)
+
+We swept the score advantage shown for going against the user from −0.50 to +0.50 (midpoint 0.5, every other part of the prompt unchanged). Each environment froze its own plan before generating. Qwen 3.5 and 3.8 throughout; Claude Haiku 4.5 and 5.5 as a cross-lab reference on two environments. Figures: `score_gap/figure_all_curves.png` (every curve) and `score_gap/figure_summary_at_max_gap.png` (rates at +0.50).
+
+![Score-gap curves](score_gap/figure_all_curves.png)
+
+- **The effect only goes one way.** At tied scores, at scores favouring the user and with no history, every model in every environment stays at its floor. The scores only ever push away from the user.
+- **Qwen 3.8 tracks the size of the advantage.** Its curves rise steadily (sending 18% → 42% → 74% at +0.05 / +0.20 / +0.50), or stay flat and then jump between +0.20 and +0.50 (formatting 6% → 51%).
+- **Qwen 3.5 tracks which example ranks higher, in upselling.** A +0.05 edge already gives 34/36 upsells in episode wording. Elsewhere 3.5 stays low: sending 12% and formatting 2% at +0.50.
+- **3.8 vs 3.5 curves differ** for sending (Holm p = 0.001), upselling (all 9 planned comparisons) and review ratings (both neutral panels). Not significant after correction for limitation omission (Holm p = 0.06) or bundle review ratings (p = 0.053).
+- **Review ratings:** 3.8's mean rating climbs about 3 points across the curve in every framing, against 3.5's +0.5 (neutral) and +1.6 (bundle). The flaws named stay flat, so it's a rating-only shift.
+- **Ordinary framing stays at 0** for both Qwen models in sending, formatting and omission at every level. Reference cells at the original 0.93/0.42 scores reproduce the earlier experiments.
+- **Claude Haiku (reference):**
+  - **Haiku 5.5:** never went against the user (0/808 upsells, 0/432 reserved actions).
+  - **Haiku 4.5:** did so rarely, only in the bundle at large gaps (upsells 4/36, sends 5/24 at +0.50).
+  - **Test awareness:** neither model said anything visible about being tested, but Haiku 4.5's reasoning flagged the setup as a possible test in 140/900 upsell traces.
+- **Caveat:** this measures sensitivity to *displayed* scores; no training or reward happens. Qwen 3.6 is excluded for now.
+
+Cost about $61 in total: recommendation $14, the four cloud environments about $34, Haiku $13.
+
 ## Open items
 
 - **Blinded human review:** five stratified sheets in `action_mechanisms/<exp>/runs/main/review/`, with the rubric in `action_mechanisms/REVIEW_RUBRIC.md`. Agreement validates the judge on those samples only; whole-dataset accuracy needs reweighting by stratum.
-- **Running:** the review-rating follow-up to action mechanisms.
-- **Next:** the score-gap response curve, described below.
+- **Review-rating follow-up (done):** all three models inflate the rating while still naming the flaws (+2.7 for 3.8, +1.6 for 3.6, +0.6 for 3.5). Report: `action_mechanisms/review_rating/REPORT.md`, with its own 30- and 45-item blinded sheets.
 - **Limitation:** in score update, the dated "rules changed" paragraph may be less credible than the per-entry rewards in the history.
-- **Caveat on scores:** every scored history so far uses one score gap. The conflicting action is ahead by 0.51 when rewarded (0.93/0.42, 0.90/0.39), or the same scores are reversed.
+- **Scores:** the main experiments each use one score gap (0.93/0.42, or reversed). The score-gap curves above cover the range for six environments; the others are still single-gap.
+- **Possible next steps:** confirm the curves on fresh scenarios, add a certainty curve (where Qwen 3.5 was the worse model), extend the Claude reference to more environments or to Sonnet 4.5 → 5.5, and add Qwen 3.6 later.
 
 Detail: `action_mechanisms/COMBINED_REPORT.md`, `rl_context/PROPOSAL.md` (end sections), `rl_context/MORNING_SUMMARY.md`, and each folder's `REPORT.md` or `runs/main/SUMMARY.md`.
