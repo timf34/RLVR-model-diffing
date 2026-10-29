@@ -1,0 +1,103 @@
+{
+  "sha256": "cc486841362ae7ebe6c5f700e37b4d4e39379882a3debea0d8341443214fbc89",
+  "label": "EXPLORATORY Haiku score-gap curve, sending (plan frozen before generation)",
+  "at": "2026-10-29T00:21:13+00:00",
+  "samples": 2,
+  "total": 864,
+  "gaps": [
+    -0.5,
+    -0.2,
+    -0.05,
+    0.0,
+    0.05,
+    0.2,
+    0.5
+  ],
+  "panels": [
+    "bundle",
+    "ordinary"
+  ],
+  "models": [
+    "Haiku 4.5",
+    "Haiku 5.5"
+  ],
+  "scenarios": [
+    "supplier_delivery",
+    "customer_refund",
+    "office_paper",
+    "lab_gloves",
+    "riverside_kickoff",
+    "safety_review",
+    "expense_claim",
+    "equipment_request",
+    "csv_export",
+    "saturday_support",
+    "timezone_fix",
+    "requests_bump"
+  ],
+  "max_steps": 8,
+  "plan_sha256": "f4d61753a4b971de0a09e07495a61b053e03f16efdcf23722ddd50d64f1c1af2",
+  "code_sha256": {
+    "haiku_send.py": "2d334cecc05e4dd5faa0c7a83bd0dd631d61823a484ce89c5d63e58f9a926710",
+    "send_materials.py": "3ab3c9987a8ca31c8c33b3bf640b7d754589dd9db8c72fc2de2c74977d9c3dfd",
+    "simulate_send.py": "b9bae60abc4e618da9920775af0d59824fd8137348a1ff9854b10adfeac5d5b2",
+    "ANALYSIS_PLAN.md": "f4d61753a4b971de0a09e07495a61b053e03f16efdcf23722ddd50d64f1c1af2",
+    "simulation/CALIBRATION.md": "9689b5bf8c6b367282b62e9921e457c4a73e708bd687aee7a59a6d6ad9670cc2",
+    "../common.py": "5a3dec486794be3f5de53eee00c934300046fb892d6d7c99d191505726efba80",
+    "action/materials.py": "1a8c70dc024223b4aca3ecf8f4f4dbed7555973cb4d1995fa143e5f0c7547098",
+    "action/env.py": "84fd9da38dd1862607e5f4f2eeb28ab7828b70d13b818804263e86d9e82be6a0",
+    "action/agent.py": "85e8601efeb9e2ca287a75675e31a8cb1e5a103898bfaaff3d3fa8bdae324621",
+    "action/score.py": "5512e9b834edf8bfeac4c35f6e891b062c9f8886517be3fa0d20972ce715a167",
+    "score_gap/recommendation/gap_analysis.py": "baa2cbb2f148b6cba259a2410282310937521d54ca22a86945745f995c26bf11",
+    "score_gap/recommendation/simulate.py": "6c8d7346714a309129752ab6d3b06a8e57b12caf028ab5f4b8fc647f1425769c"
+  },
+  "serving": {
+    "targets": [
+      {
+        "label": "Haiku 4.5",
+        "model": "openrouter/anthropic/claude-haiku-4.5",
+        "model_args": {
+          "provider": {
+            "only": [
+              "anthropic"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      },
+      {
+        "label": "Haiku 5.5",
+        "model": "openrouter/anthropic/claude-haiku-5.5",
+        "model_args": {
+          "provider": {
+            "only": [
+              "anthropic"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 32768,
+    "timeout": 1200
+  },
+  "serving_notes": {
+    "Haiku 4.5": "anthropic (first-party), no fallbacks; reasoning effort medium (OpenRouter maps to a thinking budget)",
+    "Haiku 5.5": "anthropic (first-party), no fallbacks; reasoning effort medium (native effort parameter)",
+    "sampling": "temperature 0.7 / top_p 0.95 / top_k 20 sent as in the Qwen runs but not applied by Anthropic with reasoning on (Haiku 5.5 exposes no sampling parameters); effective sampling = provider default"
+  },
+  "budget_usd": 60.0
+}

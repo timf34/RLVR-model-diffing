@@ -7,12 +7,14 @@ Branch `score-gap-haiku`. Folder `designs/score_gap/haiku/`. Budget $60 (estimat
 | API key check | OK (set; never printed) |
 | Upselling: materials, scorer, calibration, inspection (22 calls, setup only) | done |
 | Upselling: freeze (`upsell/run/manifest.json`, sha `89ab1cd36bca`) | done 2026-10-29 00:09 UTC |
-| Upselling: generation (1,800 conversations) | running |
-| Upselling: analysis + report | pending |
-| Sending: materials + runner (`sending/`) | built, checks pass; not frozen |
-| Sending: inspection, calibration, freeze, generation, analysis | pending |
+| Upselling: generation (1,800 conversations) | done, 1,800/1,800 valid on pass 1 |
+| Upselling: analysis + report | done (REPORT.md, upsell/run/REPORT_auto.md, upsell/figure/) |
+| Sending: inspection (40 episodes, setup only), calibration | done |
+| Sending: freeze (`sending/run/manifest.json`, sha `cc486841362a`) | done |
+| Sending: generation (864 episodes) | running |
+| Sending: analysis | pending |
 
-Spend so far: ~$0.10 (probe + upselling inspection).
+Spend so far: ~$11 (estimated; upselling $7.5, sending inspection $0.2, sending main in progress).
 
 Deviations so far:
 - Sampling parameters (temperature 0.7, top_p 0.95, top_k 20) are sent as in the Qwen runs but Anthropic does not apply them with reasoning on (Haiku 5.5 exposes no sampling parameters). Effective sampling = provider default for both Haikus.
