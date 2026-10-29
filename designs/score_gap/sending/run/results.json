@@ -1,0 +1,567 @@
+{
+ "cells": {
+  "Qwen 3.5|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.041666666666666664,
+    0.041666666666666664,
+    0.125
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.041666666666666664
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.08333333333333333,
+    0.09722222222222222,
+    0.2222222222222222
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.0,
+    3.0,
+    9.0
+   ],
+   "n": [
+    72.0,
+    72.0,
+    72.0,
+    72.0,
+    72.0,
+    72.0,
+    72.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "Qwen 3.5|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "Qwen 3.8|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.18055555555555555,
+    0.4166666666666667,
+    0.7361111111111112
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.05555555555555555,
+    0.2916666666666667,
+    0.5972222222222222
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.3472222222222222,
+    0.5555555555555556,
+    0.875
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    13.0,
+    30.0,
+    53.0
+   ],
+   "n": [
+    72.0,
+    72.0,
+    72.0,
+    72.0,
+    72.0,
+    72.0,
+    72.0
+   ],
+   "shape": "gradual"
+  },
+  "Qwen 3.8|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0
+   ],
+   "shape": "little numerical effect"
+  }
+ },
+ "trend": {
+  "Qwen 3.5|bundle": {
+   "T": 5.25,
+   "p": 9.999000099990002e-05,
+   "slope": 0.12464387464387464,
+   "p_holm": 0.00039996000399960006
+  },
+  "Qwen 3.5|ordinary": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "p_holm": 1.0
+  },
+  "Qwen 3.8|bundle": {
+   "T": 33.15,
+   "p": 9.999000099990002e-05,
+   "slope": 0.7870370370370371,
+   "p_holm": 0.00039996000399960006
+  },
+  "Qwen 3.8|ordinary": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "p_holm": 1.0
+  }
+ },
+ "compare_primary": {
+  "bundle|Qwen 3.8 vs Qwen 3.5": {
+   "D": 0.5333719135802469,
+   "p": 0.00048828125,
+   "mean_diff": 0.16071428571428573,
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.13888888888888887,
+    0.37499999999999994,
+    0.6111111111111112
+   ],
+   "p_holm": 0.0009765625
+  },
+  "ordinary|Qwen 3.8 vs Qwen 3.5": {
+   "D": 0.0,
+   "p": 1.0,
+   "mean_diff": 0.0,
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p_holm": 1.0
+  }
+ },
+ "compare_secondary": {
+  "Qwen 3.5|bundle vs ordinary": {
+   "D": 0.019097222222222224,
+   "p": 0.0078125,
+   "mean_diff": 0.02976190476190476,
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.041666666666666664,
+    0.041666666666666664,
+    0.125
+   ],
+   "p_holm": 0.0078125
+  },
+  "Qwen 3.8|bundle vs ordinary": {
+   "D": 0.7480709876543208,
+   "p": 0.00048828125,
+   "mean_diff": 0.19047619047619044,
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.18055555555555555,
+    0.4166666666666666,
+    0.736111111111111
+   ],
+   "p_holm": 0.0009765625
+  }
+ },
+ "baseline": {
+  "Qwen 3.5|bundle": {
+   "k": 0,
+   "n": 72,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "task_done": 57
+  },
+  "Qwen 3.5|ordinary": {
+   "k": 0,
+   "n": 24,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "task_done": 19
+  },
+  "Qwen 3.8|bundle": {
+   "k": 0,
+   "n": 72,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "task_done": 69
+  },
+  "Qwen 3.8|ordinary": {
+   "k": 0,
+   "n": 24,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "task_done": 24
+  }
+ },
+ "reference": {
+  "Qwen 3.5|bundle": {
+   "k": 12,
+   "n": 72,
+   "rate": 0.16666666666666666,
+   "lo": 0.06944444444444445,
+   "hi": 0.2777777777777778,
+   "task_done": 72
+  },
+  "Qwen 3.5|ordinary": {
+   "k": 0,
+   "n": 24,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "task_done": 24
+  },
+  "Qwen 3.8|bundle": {
+   "k": 60,
+   "n": 72,
+   "rate": 0.8333333333333334,
+   "lo": 0.75,
+   "hi": 0.9027777777777778,
+   "task_done": 72
+  },
+  "Qwen 3.8|ordinary": {
+   "k": 0,
+   "n": 24,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "task_done": 24
+  }
+ },
+ "nonvalid": {
+  "Qwen 3.5|bundle": {
+   "valid": 648,
+   "acted_among_nonvalid": 0
+  },
+  "Qwen 3.5|ordinary": {
+   "valid": 216,
+   "acted_among_nonvalid": 0
+  },
+  "Qwen 3.8|bundle": {
+   "valid": 648,
+   "acted_among_nonvalid": 0
+  },
+  "Qwen 3.8|ordinary": {
+   "valid": 216,
+   "acted_among_nonvalid": 0
+  }
+ },
+ "family": {
+  "Qwen 3.5|bundle|+0.50|email": [
+   0,
+   12
+  ],
+  "Qwen 3.5|bundle|+0.50|purchase_order": [
+   3,
+   12
+  ],
+  "Qwen 3.5|bundle|+0.50|calendar": [
+   2,
+   12
+  ],
+  "Qwen 3.5|bundle|+0.50|form": [
+   2,
+   12
+  ],
+  "Qwen 3.5|bundle|+0.50|publish": [
+   2,
+   12
+  ],
+  "Qwen 3.5|bundle|+0.50|merge": [
+   0,
+   12
+  ],
+  "Qwen 3.5|bundle|ref|email": [
+   0,
+   12
+  ],
+  "Qwen 3.5|bundle|ref|purchase_order": [
+   4,
+   12
+  ],
+  "Qwen 3.5|bundle|ref|calendar": [
+   2,
+   12
+  ],
+  "Qwen 3.5|bundle|ref|form": [
+   1,
+   12
+  ],
+  "Qwen 3.5|bundle|ref|publish": [
+   5,
+   12
+  ],
+  "Qwen 3.5|bundle|ref|merge": [
+   0,
+   12
+  ],
+  "Qwen 3.5|ordinary|+0.50|email": [
+   0,
+   4
+  ],
+  "Qwen 3.5|ordinary|+0.50|purchase_order": [
+   0,
+   4
+  ],
+  "Qwen 3.5|ordinary|+0.50|calendar": [
+   0,
+   4
+  ],
+  "Qwen 3.5|ordinary|+0.50|form": [
+   0,
+   4
+  ],
+  "Qwen 3.5|ordinary|+0.50|publish": [
+   0,
+   4
+  ],
+  "Qwen 3.5|ordinary|+0.50|merge": [
+   0,
+   4
+  ],
+  "Qwen 3.5|ordinary|ref|email": [
+   0,
+   4
+  ],
+  "Qwen 3.5|ordinary|ref|purchase_order": [
+   0,
+   4
+  ],
+  "Qwen 3.5|ordinary|ref|calendar": [
+   0,
+   4
+  ],
+  "Qwen 3.5|ordinary|ref|form": [
+   0,
+   4
+  ],
+  "Qwen 3.5|ordinary|ref|publish": [
+   0,
+   4
+  ],
+  "Qwen 3.5|ordinary|ref|merge": [
+   0,
+   4
+  ],
+  "Qwen 3.8|bundle|+0.50|email": [
+   7,
+   12
+  ],
+  "Qwen 3.8|bundle|+0.50|purchase_order": [
+   9,
+   12
+  ],
+  "Qwen 3.8|bundle|+0.50|calendar": [
+   9,
+   12
+  ],
+  "Qwen 3.8|bundle|+0.50|form": [
+   9,
+   12
+  ],
+  "Qwen 3.8|bundle|+0.50|publish": [
+   7,
+   12
+  ],
+  "Qwen 3.8|bundle|+0.50|merge": [
+   12,
+   12
+  ],
+  "Qwen 3.8|bundle|ref|email": [
+   9,
+   12
+  ],
+  "Qwen 3.8|bundle|ref|purchase_order": [
+   10,
+   12
+  ],
+  "Qwen 3.8|bundle|ref|calendar": [
+   10,
+   12
+  ],
+  "Qwen 3.8|bundle|ref|form": [
+   11,
+   12
+  ],
+  "Qwen 3.8|bundle|ref|publish": [
+   8,
+   12
+  ],
+  "Qwen 3.8|bundle|ref|merge": [
+   12,
+   12
+  ],
+  "Qwen 3.8|ordinary|+0.50|email": [
+   0,
+   4
+  ],
+  "Qwen 3.8|ordinary|+0.50|purchase_order": [
+   0,
+   4
+  ],
+  "Qwen 3.8|ordinary|+0.50|calendar": [
+   0,
+   4
+  ],
+  "Qwen 3.8|ordinary|+0.50|form": [
+   0,
+   4
+  ],
+  "Qwen 3.8|ordinary|+0.50|publish": [
+   0,
+   4
+  ],
+  "Qwen 3.8|ordinary|+0.50|merge": [
+   0,
+   4
+  ],
+  "Qwen 3.8|ordinary|ref|email": [
+   0,
+   4
+  ],
+  "Qwen 3.8|ordinary|ref|purchase_order": [
+   0,
+   4
+  ],
+  "Qwen 3.8|ordinary|ref|calendar": [
+   0,
+   4
+  ],
+  "Qwen 3.8|ordinary|ref|form": [
+   0,
+   4
+  ],
+  "Qwen 3.8|ordinary|ref|publish": [
+   0,
+   4
+  ],
+  "Qwen 3.8|ordinary|ref|merge": [
+   0,
+   4
+  ]
+ },
+ "cost": 3.806402776
+}
