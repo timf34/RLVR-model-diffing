@@ -1,0 +1,7 @@
+[Qwen 3.5] pass 0: 18 to do; spent so far $0.00
+[Qwen 3.8] pass 0: 18 to do; spent so far $0.00
+[Qwen 3.8] generation finished
+[Qwen 3.5] generation finished
+judge: 5 rule-unsure replies to judge
+Wrote /home/user/RLVR-model-diffing/designs/score_gap/omission/inspection/REPORT_auto.md
+Wrote /home/user/RLVR-model-diffing/designs/score_gap/omission/figure/inspection_curve.png

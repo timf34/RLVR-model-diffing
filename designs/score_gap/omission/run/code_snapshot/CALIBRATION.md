@@ -1,0 +1,39 @@
+# Simulation calibration of the planned tests (omission environment)
+
+Design: 12 scenarios x 7 levels x 3 replies; scenario logit offsets N(0, sigma); 400 simulations per row (Holm rows as stated); trend test 1000 permutations per simulation; comparison test exact over 2^12 scenario flips. alpha = 0.05. Monte Carlo SE at 0.05 with 400 sims is about 0.011.
+
+| Check | sigma | Rejection rate | Target |
+|---|---|---|---|
+| Trend test size, no gap effect, base 0.05 | 1.5 | 0.048 | ≤ 0.05 |
+| Trend test size, no gap effect, base 0.2 | 1.5 | 0.043 | ≤ 0.05 |
+| Trend test size, no gap effect, base 0.5 | 1.5 | 0.048 | ≤ 0.05 |
+| Trend test size, no gap effect, base 0.05 | 3.0 | 0.052 | ≤ 0.05 |
+| Trend test size, no gap effect, base 0.2 | 3.0 | 0.045 | ≤ 0.05 |
+| Trend test size, no gap effect, base 0.5 | 3.0 | 0.040 | ≤ 0.05 |
+| Comparison size, same step curve, identical scenario effects | 1.5 | 0.043 | ≤ 0.05 |
+| Comparison size, same step curve, correlated scenario effects (rho 0.7) | 1.5 | 0.052 | ≤ 0.05 |
+| Comparison size, same step curve, independent scenario effects | 1.5 | 0.052 | ≤ 0.05 |
+| Comparison size, same gradual curve, identical scenario effects | 1.5 | 0.048 | ≤ 0.05 |
+| Comparison size, same gradual curve, correlated scenario effects (rho 0.7) | 1.5 | 0.035 | ≤ 0.05 |
+| Comparison size, same gradual curve, independent scenario effects | 1.5 | 0.050 | ≤ 0.05 |
+| Comparison size, same step curve, identical scenario effects | 3.0 | 0.037 | ≤ 0.05 |
+| Comparison size, same step curve, correlated scenario effects (rho 0.7) | 3.0 | 0.060 | ≤ 0.05 |
+| Comparison size, same step curve, independent scenario effects | 3.0 | 0.055 | ≤ 0.05 |
+| Comparison size, same gradual curve, identical scenario effects | 3.0 | 0.035 | ≤ 0.05 |
+| Comparison size, same gradual curve, correlated scenario effects (rho 0.7) | 3.0 | 0.048 | ≤ 0.05 |
+| Comparison size, same gradual curve, independent scenario effects | 3.0 | 0.025 | ≤ 0.05 |
+| Holm FWER, 4 trend tests, global null, base 0.1 (200 sims) | 3.0 | 0.035 | ≤ 0.05 |
+| Holm FWER, 2 planned model comparisons, curves equal | 3.0 | 0.045 | ≤ 0.05 |
+| Holm FWER, 2 secondary panel comparisons, curves equal | 3.0 | 0.052 | ≤ 0.05 |
+| Trend power, step 3% -> ~38% at any positive gap | 1.5 | 1.000 | (power) |
+| Trend power, gradual 3% -> ~50% at +0.50 | 1.5 | 1.000 | (power) |
+| Comparison power, strong step (~66%) vs weak step (~8%), correlated rho 0.7 scenario effects | 1.5 | 1.000 | (power) |
+| Comparison power, strong step (~66%) vs weak step (~8%), independent scenario effects | 1.5 | 0.968 | (power) |
+| Comparison power, step vs gradual shape, correlated rho 0.7 scenario effects | 1.5 | 0.815 | (power) |
+| Comparison power, step vs gradual shape, independent scenario effects | 1.5 | 0.570 | (power) |
+| Trend power, step 3% -> ~38% at any positive gap | 3.0 | 0.990 | (power) |
+| Trend power, gradual 3% -> ~50% at +0.50 | 3.0 | 0.995 | (power) |
+| Comparison power, strong step (~66%) vs weak step (~8%), correlated rho 0.7 scenario effects | 3.0 | 0.790 | (power) |
+| Comparison power, strong step (~66%) vs weak step (~8%), independent scenario effects | 3.0 | 0.450 | (power) |
+| Comparison power, step vs gradual shape, correlated rho 0.7 scenario effects | 3.0 | 0.347 | (power) |
+| Comparison power, step vs gradual shape, independent scenario effects | 3.0 | 0.133 | (power) |

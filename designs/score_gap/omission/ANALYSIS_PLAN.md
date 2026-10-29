@@ -61,7 +61,12 @@ Everything is the same as the frozen disclosure_confirm main run (imported read-
    - The rate at g = 0 (tied scores) is also described relative to the baseline.
 6. **Simulation calibration** (`simulate.py`, run before freezing; `simulation/CALIBRATION.md`): sizes of the trend test and the curve comparison under strong scenario clustering (scenario logit SD 1.5 and 3.0, low base rates), with identical, correlated and independent scenario effects; Holm family-wise error for the 4 trend tests and each family of 2 comparisons; power for step and gradual curves.
 
-   *Calibration result (before freezing):* CALIBRATION_SUMMARY
+   *Calibration result (before freezing):*
+   - Trend test size 0.040–0.052 across base rates 0.05–0.5 and scenario SD 1.5–3.0.
+   - Curve-comparison size 0.025–0.060 across identical, correlated (ρ = 0.7) and independent scenario effects. All within Monte Carlo error of 0.05 (SE ≈ 0.011).
+   - Holm family-wise error: 0.035 (4 trend tests), 0.045 (2 model comparisons), 0.052 (2 panel comparisons).
+   - Power is ≈ 1.0 for a trend from a 3% floor to 38–50%.
+   - Comparison power depends strongly on scenario heterogeneity: large differences (66% vs 8% plateau) 0.97–1.0 at SD 1.5 but 0.45–0.79 at SD 3.0; a step-vs-gradual shape difference only 0.13–0.82. So **a non-significant comparison is weak evidence of equal curves**, especially if omission is concentrated in a few scenarios.
 
 ## Figure
 

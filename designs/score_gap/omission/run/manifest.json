@@ -1,0 +1,117 @@
+{
+  "sha256": "709ccd7c2d4f87b57957a314588248cab0aed427272418dfaf1a94680dece711",
+  "label": "EXPLORATORY score-gap curve (analysis plan frozen before generation)",
+  "at": "2026-10-29T00:06:18+00:00",
+  "samples": 3,
+  "total": 1224,
+  "gaps": [
+    -0.5,
+    -0.2,
+    -0.05,
+    0.0,
+    0.05,
+    0.2,
+    0.5
+  ],
+  "panels": [
+    "rl",
+    "ordinary"
+  ],
+  "baseline": "nohist",
+  "reference_scores": [
+    [
+      "0.930",
+      "0.420"
+    ],
+    [
+      "0.900",
+      "0.390"
+    ]
+  ],
+  "style": "original",
+  "scenarios": [
+    "picking_day_shift",
+    "security_web_only",
+    "energy_last_winter_prices",
+    "funnel_no_referrals",
+    "crash_beta_only",
+    "delivery_no_rural",
+    "elasticity_holiday_month",
+    "capacity_marketing_launch",
+    "course_completers_only",
+    "carbon_scope1_only",
+    "inventory_skipped_warehouse",
+    "fraud_old_patterns"
+  ],
+  "plan_sha256": "d2c3ad58adffdeaac5e83772263d45b6f5e6d9bd591d9c0d0945b67935bf3015",
+  "code_sha256": {
+    "gap_materials.py": "5da1c038cdd188177d1e88322090c2eda5d98829031dd1ce01836b87136d22c3",
+    "gap_analysis.py": "d6fd4d134bd3373cadbc39baabf6e65e9e3ccc8b267d26eb3e621fd1117494aa",
+    "run_gap.py": "73382b9f40b4270ff4f288d915a55654e9b8edd51e2776e3ad32986f0c45a697",
+    "simulate.py": "0c37b4a0c1f0cae892835966e7d1f945a0fde53998f43036c47ee349ef8aeda5",
+    "ANALYSIS_PLAN.md": "d2c3ad58adffdeaac5e83772263d45b6f5e6d9bd591d9c0d0945b67935bf3015",
+    "simulation/CALIBRATION.md": "67070e76392c8b21aaebf68f9cc401b3d88ca7b595c43e595df8f165f2e5b91f",
+    "designs/disclosure_confirm/run.py": "39309ebe71f5adc4dccaf9020aeb62e6c2f48c2d8f666d7c03f8281dccef95d8",
+    "designs/disclosure_confirm/scenarios_a.py": "3a2366d718b311cd78815fda3e42d48c395d2c9415b74dd27ea977aa585b9fd9",
+    "designs/disclosure_confirm/scenarios_b.py": "6342349b2649f62fbc93ff545c6d6468f10b94ac4725b7357c9932ec0a253aa4",
+    "designs/choice_env/choice_materials.py": "113796b72d51c457a67faad56c4ba491bb237a3d0f1831108d11a334e8c3b178",
+    "designs/rl_context/run_pilot.py": "b94044aaf68bd691e98bebc4b90ef90e14350de98b5be10f4934932d3146902b",
+    "designs/rl_context/run_confirm.py": "47c424643b25235267ba365b650f8e40ac32a49e3aafde1b58ec0ddb2f68fac9",
+    "designs/rl_context/score.py": "5a2b5f0ecf366370e9ce3b1508d1e88bf4f44aa52289ad796e2f40ebcc0d7b02"
+  },
+  "serving": {
+    "targets": [
+      {
+        "label": "Qwen 3.5",
+        "model": "openrouter/qwen/qwen3.5-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "novita/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.8",
+        "model": "openrouter/qwen/qwen3.8-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "deepinfra/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 32768,
+    "timeout": 1200
+  },
+  "serving_notes": {
+    "Qwen 3.5": "novita/bf16; default thinking (no reasoning_effort parameter on any 3.5 host)",
+    "Qwen 3.8": "deepinfra/bf16; reasoning_effort=medium"
+  },
+  "prices_per_token": {
+    "Qwen 3.5": [
+      3e-07,
+      2.4e-06
+    ],
+    "Qwen 3.8": [
+      1.5e-07,
+      1.875e-06
+    ]
+  },
+  "budget": 100.0
+}

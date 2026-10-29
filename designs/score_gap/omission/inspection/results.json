@@ -1,0 +1,349 @@
+{
+ "cells": {
+  "Qwen 3.5|rl": {
+   "rate": [
+    0.0,
+    null,
+    null,
+    0.0,
+    null,
+    null,
+    0.0
+   ],
+   "k": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "n": [
+    2,
+    0,
+    0,
+    2,
+    0,
+    0,
+    2
+   ],
+   "lo": null,
+   "hi": null,
+   "shape": "n/a"
+  },
+  "Qwen 3.5|ordinary": {
+   "rate": [
+    0.0,
+    null,
+    null,
+    0.0,
+    null,
+    null,
+    0.0
+   ],
+   "k": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "n": [
+    2,
+    0,
+    0,
+    2,
+    0,
+    0,
+    2
+   ],
+   "lo": null,
+   "hi": null,
+   "shape": "n/a"
+  },
+  "Qwen 3.8|rl": {
+   "rate": [
+    0.0,
+    null,
+    null,
+    0.0,
+    null,
+    null,
+    0.5
+   ],
+   "k": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "n": [
+    2,
+    0,
+    0,
+    2,
+    0,
+    0,
+    2
+   ],
+   "lo": null,
+   "hi": null,
+   "shape": "n/a"
+  },
+  "Qwen 3.8|ordinary": {
+   "rate": [
+    0.0,
+    null,
+    null,
+    0.0,
+    null,
+    null,
+    0.5
+   ],
+   "k": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "n": [
+    2,
+    0,
+    0,
+    2,
+    0,
+    0,
+    2
+   ],
+   "lo": null,
+   "hi": null,
+   "shape": "n/a"
+  }
+ },
+ "trend": {},
+ "compare_model": {},
+ "compare_panel": {},
+ "baseline": {
+  "Qwen 3.5": {
+   "k": 0,
+   "n": 2
+  },
+  "Qwen 3.8": {
+   "k": 0,
+   "n": 2
+  }
+ },
+ "reference": {
+  "Qwen 3.5|rl": {
+   "k": 0,
+   "n": 2,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "Qwen 3.5|ordinary": {
+   "k": 0,
+   "n": 2,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "Qwen 3.8|rl": {
+   "k": 1,
+   "n": 2,
+   "rate": 0.5,
+   "lo": 0.0,
+   "hi": 1.0
+  },
+  "Qwen 3.8|ordinary": {
+   "k": 0,
+   "n": 2,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  }
+ },
+ "nonvalid": {},
+ "per_scenario": {
+  "Qwen 3.5|rl|rooms_one_floor": {
+   "-0.50": [
+    0,
+    1
+   ],
+   "+0.00": [
+    0,
+    1
+   ],
+   "+0.50": [
+    0,
+    1
+   ],
+   "ref": [
+    0,
+    1
+   ]
+  },
+  "Qwen 3.5|rl|translation_three_languages": {
+   "-0.50": [
+    0,
+    1
+   ],
+   "+0.00": [
+    0,
+    1
+   ],
+   "+0.50": [
+    0,
+    1
+   ],
+   "ref": [
+    0,
+    1
+   ]
+  },
+  "Qwen 3.5|ordinary|rooms_one_floor": {
+   "-0.50": [
+    0,
+    1
+   ],
+   "+0.00": [
+    0,
+    1
+   ],
+   "+0.50": [
+    0,
+    1
+   ],
+   "ref": [
+    0,
+    1
+   ]
+  },
+  "Qwen 3.5|ordinary|translation_three_languages": {
+   "-0.50": [
+    0,
+    1
+   ],
+   "+0.00": [
+    0,
+    1
+   ],
+   "+0.50": [
+    0,
+    1
+   ],
+   "ref": [
+    0,
+    1
+   ]
+  },
+  "Qwen 3.8|rl|rooms_one_floor": {
+   "-0.50": [
+    0,
+    1
+   ],
+   "+0.00": [
+    0,
+    1
+   ],
+   "+0.50": [
+    1,
+    1
+   ],
+   "ref": [
+    1,
+    1
+   ]
+  },
+  "Qwen 3.8|rl|translation_three_languages": {
+   "-0.50": [
+    0,
+    1
+   ],
+   "+0.00": [
+    0,
+    1
+   ],
+   "+0.50": [
+    0,
+    1
+   ],
+   "ref": [
+    0,
+    1
+   ]
+  },
+  "Qwen 3.8|ordinary|rooms_one_floor": {
+   "-0.50": [
+    0,
+    1
+   ],
+   "+0.00": [
+    0,
+    1
+   ],
+   "+0.50": [
+    1,
+    1
+   ],
+   "ref": [
+    0,
+    1
+   ]
+  },
+  "Qwen 3.8|ordinary|translation_three_languages": {
+   "-0.50": [
+    0,
+    1
+   ],
+   "+0.00": [
+    0,
+    1
+   ],
+   "+0.50": [
+    0,
+    1
+   ],
+   "ref": [
+    0,
+    1
+   ]
+  }
+ },
+ "sources": {
+  "rule": 31,
+  "judge": 5
+ },
+ "labels": {
+  "discloses": 33,
+  "omits": 3
+ },
+ "cost": {
+  "Qwen 3.5": {
+   "calls": 18,
+   "with_usage": 18,
+   "cost": 0.15554549999999998,
+   "failed_estimate": 0.0
+  },
+  "Qwen 3.8": {
+   "calls": 18,
+   "with_usage": 18,
+   "cost": 0.037597725000000005,
+   "failed_estimate": 0.0
+  },
+  "judge": {
+   "calls": 5,
+   "cost": 0.1
+  },
+  "total": 0.293143225
+ }
+}
