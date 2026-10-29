@@ -1,1 +1,27 @@
 [2026-10-29T00:09:08+00:00] Qwen 3.8 pass 0: 624 to run (0 final); cost so far $0.17
+  [2026-10-29T00:10:33+00:00] Qwen 3.8 pass 0: 25/624; last valid; 429s 0
+  [2026-10-29T00:11:27+00:00] Qwen 3.8 pass 0: 50/624; last valid; 429s 0
+  [2026-10-29T00:12:03+00:00] Qwen 3.8 pass 0: 75/624; last valid; 429s 0
+  [2026-10-29T00:12:33+00:00] Qwen 3.8 pass 0: 100/624; last valid; 429s 0
+  [2026-10-29T00:12:55+00:00] Qwen 3.8 pass 0: 125/624; last valid; 429s 0
+  [2026-10-29T00:13:33+00:00] Qwen 3.8 pass 0: 150/624; last valid; 429s 0
+  [2026-10-29T00:14:11+00:00] Qwen 3.8 pass 0: 175/624; last valid; 429s 0
+  [2026-10-29T00:14:45+00:00] Qwen 3.8 pass 0: 200/624; last valid; 429s 0
+  [2026-10-29T00:15:17+00:00] Qwen 3.8 pass 0: 225/624; last valid; 429s 0
+  [2026-10-29T00:15:46+00:00] Qwen 3.8 pass 0: 250/624; last valid; 429s 0
+  [2026-10-29T00:16:13+00:00] Qwen 3.8 pass 0: 275/624; last valid; 429s 0
+  [2026-10-29T00:16:47+00:00] Qwen 3.8 pass 0: 300/624; last valid; 429s 0
+  [2026-10-29T00:17:19+00:00] Qwen 3.8 pass 0: 325/624; last valid; 429s 0
+  [2026-10-29T00:17:55+00:00] Qwen 3.8 pass 0: 350/624; last valid; 429s 0
+  [2026-10-29T00:18:30+00:00] Qwen 3.8 pass 0: 375/624; last valid; 429s 0
+  [2026-10-29T00:19:02+00:00] Qwen 3.8 pass 0: 400/624; last valid; 429s 0
+  [2026-10-29T00:19:31+00:00] Qwen 3.8 pass 0: 425/624; last valid; 429s 0
+  [2026-10-29T00:20:08+00:00] Qwen 3.8 pass 0: 450/624; last valid; 429s 0
+  [2026-10-29T00:20:41+00:00] Qwen 3.8 pass 0: 475/624; last valid; 429s 0
+  [2026-10-29T00:21:10+00:00] Qwen 3.8 pass 0: 500/624; last valid; 429s 0
+  [2026-10-29T00:21:51+00:00] Qwen 3.8 pass 0: 525/624; last valid; 429s 0
+  [2026-10-29T00:22:25+00:00] Qwen 3.8 pass 0: 550/624; last valid; 429s 0
+  [2026-10-29T00:22:53+00:00] Qwen 3.8 pass 0: 575/624; last valid; 429s 0
+  [2026-10-29T00:23:22+00:00] Qwen 3.8 pass 0: 600/624; last valid; 429s 0
+  [2026-10-29T00:25:39+00:00] Qwen 3.8 pass 0: 624/624; last valid; 429s 0
+[2026-10-29T00:25:40+00:00] Qwen 3.8 pass 1: 1 to run (623 final); cost so far $10.37

@@ -1,6 +1,6 @@
 # STATUS: score-gap curve, review rating (branch `score-gap-review`)
 
-Last update: 2026-10-29 00:10 UTC (generation started 00:09)
+Last update: 2026-10-29 00:26 UTC
 
 - [x] Setup: branch from `cloud-runs`; deps installed; `OPENROUTER_API_KEY` set; serving checked (3.5 Novita bf16,
       3.8 DeepInfra bf16).
@@ -10,7 +10,7 @@ Last update: 2026-10-29 00:10 UTC (generation started 00:09)
 - [x] Analysis (`gap_analysis.py`, `gap_report.py`) and simulation calibration (`simulation/CALIBRATION.md`).
 - [x] Inspection (22 items, setup check only): 22/22 valid; scores render, parsers work (`inspection/INSPECTION.md`).
 - [x] Freeze: `run/manifest.json` sha `6c7df8dae5b8`, 1,248 items, code snapshot in `run/code_snapshot/`.
-- [ ] Main generation (1,248 items; both models in parallel, 64 concurrent each): RUNNING since 00:09 UTC.
+- [ ] Main generation (1,248 items; both models in parallel, 64 concurrent each): RUNNING since 00:09 UTC; 1,240 recorded at 00:26 (3.8 first pass done; 3.5 has 8 stragglers; 2 failed items in retry; 2 judge-unparseable = non-valid).
 - [ ] Analysis, figure, REPORT.md.
 
-Cost so far: $0.17 (inspection). Projected main run ≈ $10. Budget $100.
+Cost so far: $10.40 (all attempts incl. inspection). Budget $100.
