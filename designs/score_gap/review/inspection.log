@@ -1,0 +1,12 @@
+[2026-10-29T00:06:07+00:00] Qwen 3.5 pass 0: 11 to run (0 final); cost so far $0.00
+[2026-10-29T00:06:07+00:00] Qwen 3.8 pass 0: 11 to run (0 final); cost so far $0.00
+  [2026-10-29T00:07:00+00:00] Qwen 3.5 pass 0: 11/11; last valid; 429s 0
+[2026-10-29T00:07:00+00:00] Qwen 3.5 pass 1: 0 to run (11 final); cost so far $0.10
+[2026-10-29T00:07:00+00:00] Qwen 3.5 done: Counter({'valid': 11}); cost total $0.10
+  [2026-10-29T00:08:48+00:00] Qwen 3.8 pass 0: 11/11; last valid; 429s 0
+[2026-10-29T00:08:48+00:00] Qwen 3.8 pass 1: 0 to run (11 final); cost so far $0.17
+[2026-10-29T00:08:48+00:00] Qwen 3.8 done: Counter({'valid': 11}); cost total $0.17
+22/22 keys recorded; 22 attempts; folder cost $0.17
+  ('Qwen 3.5', 'valid'): 11
+  ('Qwen 3.8', 'valid'): 11
+Wrote /home/user/RLVR-model-diffing/designs/score_gap/review/inspection/INSPECTION.md
