@@ -34,11 +34,11 @@ OLD = ([ACTION / f for f in ("materials.py", "env.py", "score.py", "agent.py")]
 
 
 def file_hashes(root: Path) -> dict:
-    files = [HERE / f for f in OWN] + OLD
+    out = {rel(p): sha(p.read_bytes()) for p in [HERE / f for f in OWN] + OLD}
     sel = root / "factorial" / "selection.json"
     if sel.exists():
-        files.append(sel)
-    return {rel(p): sha(p.read_bytes()) for p in files}
+        out["<root>/factorial/selection.json"] = sha(sel.read_bytes())
+    return out
 
 
 def stage_digests(stage: str, root: Path) -> dict:
@@ -55,10 +55,10 @@ def stage_digests(stage: str, root: Path) -> dict:
             assert jhash(p["input"]) == p["input_sha256"], f"{stage}/{task}: prompt content does not match its hash"
             hashes.add(p["input_sha256"])
         assert {r["input_sha256"] for r in rows} == hashes, f"{stage}/{task}: items and prompts disagree"
-        assert [r["key"] for r in rows] == [i["key"] for i in planned if i["task"] == task], \
-            f"{stage}/{task}: items differ from the plan"
+        assert [{k: v for k, v in r.items() if k != "input_sha256"} for r in rows] == \
+            [i for i in planned if i["task"] == task], f"{stage}/{task}: items differ from the plan"
         out[task] = dict(n_items=len(rows), n_prompts=len(hashes),
-                         items_digest=jhash([[r["key"], r["input_sha256"]] for r in rows]),
+                         items_digest=jhash(rows),
                          prompts_digest=jhash(sorted(hashes)),
                          blocks_sha256=sha((d / "blocks.json").read_bytes()))
     assert out, f"no prepared tasks under {root / stage}"

@@ -1,0 +1,290 @@
+{
+ "at": "2026-10-29T13:26:46+00:00",
+ "label": "presentation ablation, stage main, frozen before generation",
+ "design": {
+  "stage": "main",
+  "tasks": [
+   "send",
+   "titles",
+   "bullets"
+  ],
+  "primary_tasks": [
+   "send",
+   "titles"
+  ],
+  "models": [
+   "Qwen 3.8",
+   "Qwen 3.5"
+  ],
+  "gaps": {
+   "tied": 0.0,
+   "p050": 0.5
+  },
+  "n_fresh": {
+   "send": 32,
+   "titles": 32,
+   "bullets": 32
+  },
+  "orig_reps": {
+   "send": 3,
+   "titles": 3,
+   "bullets": 6
+  },
+  "fresh_reps": {
+   "Qwen 3.8": 2,
+   "Qwen 3.5": 1
+  },
+  "max_steps": {
+   "send": 8,
+   "titles": 3,
+   "bullets": 3
+  },
+  "prices": {
+   "Qwen 3.5": [
+    0.26,
+    2.6
+   ],
+   "Qwen 3.8": [
+    0.039,
+    1.25
+   ]
+  },
+  "serving": {
+   "targets": [
+    {
+     "label": "Qwen 3.5",
+     "model": "openrouter/qwen/qwen3.5-27b",
+     "model_args": {
+      "provider": {
+       "only": [
+        "novita/bf16"
+       ],
+       "allow_fallbacks": false
+      }
+     }
+    },
+    {
+     "label": "Qwen 3.8",
+     "model": "openrouter/qwen/qwen3.8-27b",
+     "model_args": {
+      "provider": {
+       "only": [
+        "deepinfra/bf16"
+       ],
+       "allow_fallbacks": false
+      }
+     },
+     "generate": {
+      "reasoning_effort": "medium"
+     }
+    }
+   ],
+   "target_generate": {
+    "top_p": 0.95,
+    "extra_body": {
+     "top_k": 20
+    }
+   },
+   "temperature": 0.7,
+   "target_max_tokens": 32768,
+   "timeout": 1200
+  },
+  "arms": {
+   "B": {
+    "a": "B",
+    "b": "B",
+    "c": "B",
+    "d": "B",
+    "e": "B",
+    "f": "B",
+    "g": "B"
+   },
+   "N": {
+    "a": "N",
+    "b": "N",
+    "c": "B",
+    "d": "N",
+    "e": "N",
+    "f": "N",
+    "g": "N"
+   },
+   "B-a": {
+    "a": "N",
+    "b": "B",
+    "c": "B",
+    "d": "B",
+    "e": "B",
+    "f": "B",
+    "g": "B"
+   },
+   "B-b": {
+    "a": "B",
+    "b": "N",
+    "c": "B",
+    "d": "B",
+    "e": "B",
+    "f": "B",
+    "g": "B"
+   },
+   "B-c": {
+    "a": "B",
+    "b": "B",
+    "c": "N",
+    "d": "B",
+    "e": "B",
+    "f": "B",
+    "g": "B"
+   },
+   "B-d": {
+    "a": "B",
+    "b": "B",
+    "c": "B",
+    "d": "N",
+    "e": "B",
+    "f": "B",
+    "g": "B"
+   },
+   "B-e": {
+    "a": "B",
+    "b": "B",
+    "c": "B",
+    "d": "B",
+    "e": "N",
+    "f": "B",
+    "g": "B"
+   },
+   "B-f": {
+    "a": "B",
+    "b": "B",
+    "c": "B",
+    "d": "B",
+    "e": "B",
+    "f": "N",
+    "g": "B"
+   },
+   "B-g": {
+    "a": "B",
+    "b": "B",
+    "c": "B",
+    "d": "B",
+    "e": "B",
+    "f": "B",
+    "g": "N"
+   },
+   "N+a": {
+    "a": "B",
+    "b": "N",
+    "c": "B",
+    "d": "N",
+    "e": "N",
+    "f": "N",
+    "g": "N"
+   },
+   "N+b": {
+    "a": "N",
+    "b": "B",
+    "c": "B",
+    "d": "N",
+    "e": "N",
+    "f": "N",
+    "g": "N"
+   },
+   "N+d": {
+    "a": "N",
+    "b": "N",
+    "c": "B",
+    "d": "B",
+    "e": "N",
+    "f": "N",
+    "g": "N"
+   },
+   "N+e": {
+    "a": "N",
+    "b": "N",
+    "c": "B",
+    "d": "N",
+    "e": "B",
+    "f": "N",
+    "g": "N"
+   },
+   "N+f": {
+    "a": "N",
+    "b": "N",
+    "c": "B",
+    "d": "N",
+    "e": "N",
+    "f": "B",
+    "g": "N"
+   },
+   "N+g": {
+    "a": "N",
+    "b": "N",
+    "c": "B",
+    "d": "N",
+    "e": "N",
+    "f": "N",
+    "g": "B"
+   }
+  }
+ },
+ "files": {
+  "designs/presentation_ablation/pa_common.py": "f0ba1e0e63769badd6e933a79c9c0e03a65339ff1094a1c9fd2f60d016abbea1",
+  "designs/presentation_ablation/pa_blocks.py": "a1968ce1b4912388c91742b5f339e86e0e946172231f89c2d99df6b18cf72bb5",
+  "designs/presentation_ablation/pa_materials.py": "db8a2d004febf09a0cb82bd79afd07df3181c9aa490ec317d1393a8f318cb0a1",
+  "designs/presentation_ablation/pa_render.py": "fe4c0146ddb0021eaeb91846155bf370bed1abf63b5a650278c30d26609a2ef0",
+  "designs/presentation_ablation/pa_checks.py": "7309e8e93a7063dbfb97027660bd532702eb2a9b500c76f181b43fb16cb56f16",
+  "designs/presentation_ablation/pa_design.py": "a2e07a758ceb2c36854d43fdef7ccc845e5dffba26a4b904a9ea9a53d205bb8d",
+  "designs/presentation_ablation/pa_prepare.py": "bf5e289a6558ca09940a3b9d40e234d0c0feecc8adb3a8a488a035d1d9b4bc2f",
+  "designs/presentation_ablation/pa_freeze.py": "a3aff07171eca7f47abfffebd713bf8604dcbdd13626c733c596f2acddfdbca0",
+  "designs/presentation_ablation/pa_generate.py": "a4a21514c53e475961cf12c45733c8e48e924666e14f0c25e723949b8c682ce1",
+  "designs/presentation_ablation/pa_score.py": "d3cd6e1ba1284f27cfb5288d4f309ade20ee3907e33b09562637f1bdeeb30ba6",
+  "designs/presentation_ablation/pa_analysis.py": "f035f33d805a169e55b03594e64f06f2c8127d0485621fb859ad0f8fa35de96d",
+  "designs/presentation_ablation/pa_figures.py": "75aa99a567c12acef225e207828d93c1f88306af5579fa12835d6505d34bb4db",
+  "designs/presentation_ablation/pa_tests.py": "c9d3b967a76d0dc75e464d21b0fe4cecdd6dbfb9708742a154b241581747949c",
+  "designs/presentation_ablation/simulation/simulate.py": "1ca072af3614ef8abf04b3c3a9827770146b70feaee866462f0452344ea84ba1",
+  "designs/presentation_ablation/PROTOCOL.md": "b037754de368722544aed51720147ef62f3b2f559921c043072b257ab2fb088b",
+  "designs/action/materials.py": "1a8c70dc024223b4aca3ecf8f4f4dbed7555973cb4d1995fa143e5f0c7547098",
+  "designs/action/env.py": "84fd9da38dd1862607e5f4f2eeb28ab7828b70d13b818804263e86d9e82be6a0",
+  "designs/action/score.py": "5512e9b834edf8bfeac4c35f6e891b062c9f8886517be3fa0d20972ce715a167",
+  "designs/action/agent.py": "85e8601efeb9e2ca287a75675e31a8cb1e5a103898bfaaff3d3fa8bdae324621",
+  "designs/score_gap/sending/gap_materials.py": "051bd4bf298432f97ddeccd0c1507bf267f52e843addf3ff46aa2b39af80b6c9",
+  "designs/score_gap/sending/run/manifest.json": "e1f27340561935619e7736d4bb07dbb66b19c1d7d5de6a2c271a7d6996c13edc",
+  "designs/score_gap/sending/run/prompts.json": "852adde8de7b6b151b4f5f19ac3c0ea4b07a0ea8b54ce699d280b828924dfbfc",
+  "designs/score_gap/formatting/fmt_materials.py": "153574582430bd26db96e16f5de329b31b77dabbd88deede01738f7228047181",
+  "designs/score_gap/formatting/run/manifest.json": "7ef6a95310ec6a119ed04d7ef83a7128ef4ab579149f9f1e702ac34a95cc8ad3",
+  "designs/score_gap/formatting/run/prompts.json": "38d6575bbc5def0916310e11b32a43f9afa6df5a846c903fea10a1c9cffb893e",
+  "designs/rl_context/confirm_materials.py": "70143ed0f6183185de05050302d93cc6a60458e6ef2c86cde2a62eaa96a1fcf9",
+  "designs/rl_context/confirm_score.py": "9d1dfed1cbf61a4994996c41af6857740f006ff7b509a07c6c793bc81b155c68",
+  "designs/rl_context/emdash_materials.py": "73fed3403f62afd6f4582ad84b58741a462893f441adc6d99ecee4fd4105b643",
+  "designs/rl_context/score.py": "5a2b5f0ecf366370e9ce3b1508d1e88bf4f44aa52289ad796e2f40ebcc0d7b02",
+  "designs/rl_context/domains/structure.py": "d234aaac1aa294a3cf789d7d445442f0fb8adf4ee595166a96833860a67706f8",
+  "designs/ifeval_incidental_grader/ig_render.py": "f1ada1362f2d43b855ce37eaa41d9e86890d634e6a12dabd4dc9c683d9294ab0",
+  "designs/ifeval_incidental_grader/reference_check/ref_blocks.py": "32341e4ca8919d4f9404d6cafd44517320911c071b81c5818c1a1a8e6afc930b",
+  "designs/ifeval_incidental_grader/reference_check/run/send/inputs.json": "0bdd0cd56b30a38d329f9aa8b4e8f1467cfc3f80fa353d2a7c73670b2a898e8f",
+  "designs/ifeval_incidental_grader/reference_check/run/fmt/inputs.json": "3d86f676678d350eeb5c3ca06c5d7535092e57b854291b13ec32eac51f5409b5",
+  "experiment.grading.3way.json": "1e4dec1120084b442f7b0effd4f1a666e6999493a87860878c8aac039e49ac73"
+ },
+ "inputs": {
+  "send": {
+   "n_items": 3168,
+   "n_prompts": 1008,
+   "items_digest": "5954950f5e91c93294e1cb2fe158b2079348d7e1a365c1250c2982dd185ed13b",
+   "prompts_digest": "b3be3fb5bc595c4bc3d2e76de60d075f358de72580c81cb175b5317a870975a1",
+   "blocks_sha256": "64a2ad2c4d385624e1b8bba93f0bbc1d9192633e2d44cb6a5e5fd296fa7de115"
+  },
+  "titles": {
+   "n_items": 3168,
+   "n_prompts": 1008,
+   "items_digest": "c5cf45411322bb73679b072f811af7c9952af5d1c53df425fe910aa3da15cd42",
+   "prompts_digest": "32c58c4e46b302665302a7fa03733473a206fc6b3d20d174e487e07e77d0f49a",
+   "blocks_sha256": "88e1fd6efbf7f8ecc25fe74d4472f381130a4d7073201ec0dfe622f5ee09542c"
+  },
+  "bullets": {
+   "n_items": 3168,
+   "n_prompts": 984,
+   "items_digest": "9db47ad5251af97b8bc346ccbff6d9692db266a66f61ee413ef3306f3494a069",
+   "prompts_digest": "3ef8c740dbade03e4ba32c36fc4417f4d83b1e0305c0a6cd67eb00e98d88b840",
+   "blocks_sha256": "504533f6aebb39c09b751a0b7c634309f69623a6f41a0a271e6866d775a727fb"
+  }
+ }
+}

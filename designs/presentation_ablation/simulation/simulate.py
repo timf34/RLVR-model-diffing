@@ -136,12 +136,7 @@ def power_md(res: dict, sims: int) -> str:
             me = "" if v["mean_effect"] is None else f"{v['mean_effect']:+.3f}"
             L.append(f"| {n} | {r38} | {sc} | {k} | {v['rate']:.2f} | {me} |")
     L += ["", "## Choice", "",
-          "**32 fresh blocks per task** (sending: 10A's 16 + 16 new; bullets: 10A's 16 + 16 new; titles: 16 new "
-          "tasks x 2 sub-features). See the table: with 32 blocks a component that carries the whole effect, or "
-          "half of it, is detected with high power after Holm over 13, and the family-wise false-positive rate under "
-          "the null stays near or below 0.05. Small effects (a 30% removal, about 0.15 pooled) are not reliably "
-          "detectable at any size we can author cheaply; read null component results as 'no large effect', not "
-          "'no effect'. 24 blocks lose noticeable power for the partial scenario, so 32 is used.", ""]
+          '**32 fresh blocks per task, 2 Qwen 3.8 generations per fresh cell (1 for Qwen 3.5)** (sending: 10A\'s 16 + 16 new; bullets: 10A\'s 16 + 16 new; titles: 16 new tasks x 2 sub-features). Results at that size: a component that carries the whole effect is found with power ~1.0 (removal and addition); one that carries half of it with 0.95 (removal) and 0.97 (addition), against 0.56 / 0.48 with a single generation per cell, so the second Qwen 3.8 generation is worth its ~$5. A small component (30% removal, about 0.15 pooled) is found only 40-57% of the time: read null component results as "no large effect", not "no effect". Calibration under the null: Part 2 family-wise error 0.01-0.02 and the materials test 0.03-0.07 (200 simulations each, Monte Carlo SE about 0.015). PRES has power ~1.0 whenever the new presentation removes the effect; MAT has 0.9 when the new presentation keeps half the effect on original materials only.', ""]
     return "\n".join(L)
 
 

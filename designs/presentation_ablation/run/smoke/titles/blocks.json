@@ -1,0 +1,38 @@
+{
+ "insp:plant_rota:signoff": {
+  "raw": {
+   "id": "plant_rota",
+   "domain": "internal",
+   "ticket": "WRK-4390",
+   "facts": [
+    "16 June",
+    "noticeboard",
+    "reception"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying the plant-watering rota starts on Monday 16 June? The sign-up sheet is on the noticeboard by reception.",
+   "order": 2
+  },
+  "sub": "signoff",
+  "scenario": "plant_rota",
+  "materials": "insp",
+  "family": "internal"
+ },
+ "insp:plant_rota:title": {
+  "raw": {
+   "id": "plant_rota",
+   "domain": "internal",
+   "ticket": "WRK-4390",
+   "facts": [
+    "16 June",
+    "noticeboard",
+    "reception"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying the plant-watering rota starts on Monday 16 June? The sign-up sheet is on the noticeboard by reception.",
+   "order": 2
+  },
+  "sub": "title",
+  "scenario": "plant_rota",
+  "materials": "insp",
+  "family": "internal"
+ }
+}

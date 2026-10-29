@@ -1,0 +1,10 @@
+{
+ "at": "2026-10-29T13:25:30+00:00",
+ "stage": "smoke",
+ "task": "titles",
+ "checks": [],
+ "n_items": 16,
+ "n_prompts": 8,
+ "items_digest": "512f63c2c673a1852f9831a0aaf54926b8f160633234f7a358861778533e740c",
+ "prompts_digest": "0fa29c44c1d217b766b573eae93195510a98eb77144ebe4adf63a60e1e3f2733"
+}

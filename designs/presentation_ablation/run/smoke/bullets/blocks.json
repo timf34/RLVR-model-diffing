@@ -1,0 +1,18 @@
+{
+ "insp:meter_readings": {
+  "raw": {
+   "id": "meter_readings",
+   "ticket": "CUS-7790",
+   "facts": [
+    "Riverside",
+    "6 June",
+    "photo ID"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying engineers will be taking meter readings in the Riverside area from 2 to 6 June? They will carry photo ID, and customers don't need to be home if the meter is outside."
+  },
+  "sub": null,
+  "scenario": "meter_readings",
+  "materials": "insp",
+  "family": "structure"
+ }
+}

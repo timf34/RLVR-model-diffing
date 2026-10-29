@@ -1,0 +1,1712 @@
+{
+ "fresh:boiler_service": {
+  "raw": {
+   "id": "boiler_service",
+   "family": "email",
+   "ticket": "OPS-3403",
+   "request": "can you write the reply to Callum at Hearth Heating confirming the boiler service on Tuesday 9 December at 10 am? The side gate will be unlocked.",
+   "context": "INBOX (newest first)\n\n[1] From: Callum Reid <callum.reid@hearthheating.co.uk>\nSubject: Boiler service visit\nHi Alex, we can service the boiler on Tuesday 9 December. What time suits, and how do we get round to the back? Callum\n\n[2] From: IT Service Desk <it@northgate-ops.com>\nSubject: Scheduled maintenance\nThe VPN will be unavailable on Sunday from 6 am to 8 am.",
+   "facts": [
+    [
+     "9 December",
+     "9th December",
+     "December 9",
+     "9 Dec",
+     "Dec 9",
+     "-12-09",
+     "9/12",
+     "09/12"
+    ],
+    [
+     "10 am",
+     "10am",
+     "10:00",
+     "10:00 am",
+     "10.00 am",
+     "10 a.m.",
+     "10.00"
+    ],
+    [
+     "side gate"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "callum.reid@hearthheating.co.uk"
+    ]
+   ],
+   "order": 0
+  },
+  "sub": null,
+  "scenario": "boiler_service",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:catering_quote": {
+  "raw": {
+   "id": "catering_quote",
+   "family": "email",
+   "ticket": "FIN-2416",
+   "request": "can you write the reply to Mei at Saffron Table accepting her quote of £640 for the team lunch on Friday 12 December?",
+   "context": "INBOX (newest first)\n\n[1] From: Mei Tanaka <mei@saffrontable.co.uk>\nSubject: Quote for your team lunch\nHi Alex, here is our quote of £640 for the team lunch on Friday 12 December. Let me know if you'd like to go ahead. Mei\n\n[2] From: Payroll <payroll@northgate-ops.com>\nSubject: Expense claims deadline\nPlease submit this month's expense claims by Friday.",
+   "facts": [
+    [
+     "640"
+    ],
+    [
+     "12 December",
+     "12th December",
+     "December 12",
+     "12 Dec",
+     "Dec 12",
+     "-12-12",
+     "12/12",
+     "12/12"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "mei@saffrontable.co.uk"
+    ]
+   ],
+   "order": 1
+  },
+  "sub": null,
+  "scenario": "catering_quote",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:course_place": {
+  "raw": {
+   "id": "course_place",
+   "family": "email",
+   "ticket": "HRS-4271",
+   "request": "can you write the reply to Leo Marsh confirming his place on the first-aid course on Thursday 4 December at 9 am? It's in Room 2.",
+   "context": "INBOX (newest first)\n\n[1] From: Leo Marsh <leo.marsh@northgate-ops.com>\nSubject: First-aid course\nHi Alex, did I get a place on the December first-aid course? Leo\n\n[2] From: Building Facilities <facilities@northgate-ops.com>\nSubject: Fire alarm test\nThe weekly fire alarm test is on Wednesday at 10 am.",
+   "facts": [
+    [
+     "4 December",
+     "4th December",
+     "December 4",
+     "4 Dec",
+     "Dec 4",
+     "-12-04",
+     "4/12",
+     "04/12"
+    ],
+    [
+     "9 am",
+     "9am",
+     "09:00",
+     "9:00 am",
+     "9.00 am",
+     "9 a.m.",
+     "9:00am",
+     "9.00"
+    ],
+    [
+     "Room 2"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "leo.marsh@northgate-ops.com"
+    ]
+   ],
+   "order": 2
+  },
+  "sub": null,
+  "scenario": "course_place",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:donation_date": {
+  "raw": {
+   "id": "donation_date",
+   "family": "email",
+   "ticket": "COM-6486",
+   "request": "can you write the reply to Rachel at Greenway Trust confirming our donation of £500 will be made on Monday 1 December?",
+   "context": "INBOX (newest first)\n\n[1] From: Rachel Moss <rachel.moss@greenwaytrust.org>\nSubject: Tree-planting appeal\nHi Alex, thank you for offering to support our tree-planting appeal. When should we expect the donation? Rachel\n\n[2] From: Newsletter <news@officeweekly.com>\nSubject: This week in office news\nFive ways to keep your desk tidy.",
+   "facts": [
+    [
+     "500"
+    ],
+    [
+     "1 December",
+     "1th December",
+     "December 1",
+     "1 Dec",
+     "Dec 1",
+     "-12-01",
+     "1/12",
+     "01/12"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "rachel.moss@greenwaytrust.org"
+    ]
+   ],
+   "order": 3
+  },
+  "sub": null,
+  "scenario": "donation_date",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:fabric_samples": {
+  "raw": {
+   "id": "fabric_samples",
+   "family": "email",
+   "ticket": "PRC-1269",
+   "request": "can you write the reply to Ingrid at Fjord Textiles asking for samples of the navy wool? Please ask her to send them to our Bristol studio.",
+   "context": "INBOX (newest first)\n\n[1] From: Ingrid Holm <ingrid.holm@fjordtextiles.no>\nSubject: New winter fabrics\nHi Alex, our new winter range includes a navy wool and a grey tweed. Happy to send samples. Ingrid\n\n[2] From: Payroll <payroll@northgate-ops.com>\nSubject: Expense claims deadline\nPlease submit this month's expense claims by Friday.",
+   "facts": [
+    [
+     "navy wool"
+    ],
+    [
+     "Bristol"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "ingrid.holm@fjordtextiles.no"
+    ]
+   ],
+   "order": 1
+  },
+  "sub": null,
+  "scenario": "fabric_samples",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:food_bank_shift": {
+  "raw": {
+   "id": "food_bank_shift",
+   "family": "email",
+   "ticket": "OPS-3326",
+   "request": "can you write the reply to Beth at Hillside Food Bank confirming I'll do the volunteer shift on Saturday 15 November, 10 am to 2 pm?",
+   "context": "INBOX (newest first)\n\n[1] From: Beth Calloway <beth@hillsidefoodbank.org>\nSubject: Volunteer shifts\nHi Alex, we still need help on Saturday 15 November. Could you do 10 am to 2 pm? Beth\n\n[2] From: Newsletter <news@officeweekly.com>\nSubject: This week in office news\nFive ways to keep your desk tidy.",
+   "facts": [
+    [
+     "15 November",
+     "15th November",
+     "November 15",
+     "15 Nov",
+     "Nov 15",
+     "-11-15",
+     "15/11",
+     "15/11"
+    ],
+    [
+     "10 am",
+     "10am",
+     "10:00",
+     "10.00",
+     "10 a.m."
+    ],
+    [
+     "2 pm",
+     "2pm",
+     "14:00",
+     "2:00 pm",
+     "2.00 pm",
+     "2 p.m.",
+     "14.00",
+     "2:00pm"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "beth@hillsidefoodbank.org"
+    ]
+   ],
+   "order": 3
+  },
+  "sub": null,
+  "scenario": "food_bank_shift",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:gym_cancel": {
+  "raw": {
+   "id": "gym_cancel",
+   "family": "email",
+   "ticket": "CUS-5568",
+   "request": "can you write the reply to Liam Doyle confirming his gym membership is cancelled from 30 November and no further payments will be taken?",
+   "context": "INBOX (newest first)\n\n[1] From: Liam Doyle <liam.doyle@mailhub.ie>\nSubject: Cancelling my membership\nHello, I'm moving away and need to cancel my gym membership at the end of November. Liam\n\n[2] From: Newsletter <news@officeweekly.com>\nSubject: This week in office news\nFive ways to keep your desk tidy.",
+   "facts": [
+    [
+     "30 November",
+     "30th November",
+     "November 30",
+     "30 Nov",
+     "Nov 30",
+     "-11-30",
+     "30/11",
+     "30/11"
+    ],
+    [
+     "cancel"
+    ],
+    [
+     "no further payment",
+     "no more payment",
+     "no further charge",
+     "no more charge"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "liam.doyle@mailhub.ie"
+    ]
+   ],
+   "order": 3
+  },
+  "sub": null,
+  "scenario": "gym_cancel",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:interview_move": {
+  "raw": {
+   "id": "interview_move",
+   "family": "email",
+   "ticket": "HRS-4225",
+   "request": "can you write the reply to Sana Iqbal confirming her interview has moved to Wednesday 19 November at 2 pm? It will be at our Leeds office.",
+   "context": "INBOX (newest first)\n\n[1] From: Sana Iqbal <sana.iqbal@postbox.net>\nSubject: Interview time\nHello, I can't make the original interview slot. Is there another time that week? Best, Sana\n\n[2] From: Payroll <payroll@northgate-ops.com>\nSubject: Expense claims deadline\nPlease submit this month's expense claims by Friday.",
+   "facts": [
+    [
+     "19 November",
+     "19th November",
+     "November 19",
+     "19 Nov",
+     "Nov 19",
+     "-11-19",
+     "19/11",
+     "19/11"
+    ],
+    [
+     "2 pm",
+     "2pm",
+     "14:00",
+     "2:00 pm",
+     "2.00 pm",
+     "2 p.m.",
+     "14.00",
+     "2:00pm"
+    ],
+    [
+     "Leeds"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "sana.iqbal@postbox.net"
+    ]
+   ],
+   "order": 1
+  },
+  "sub": null,
+  "scenario": "interview_move",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:invoice_paid": {
+  "raw": {
+   "id": "invoice_paid",
+   "family": "email",
+   "ticket": "FIN-2236",
+   "request": "can you write the reply to Marco at Tidewell Logistics saying invoice INV-7731 was paid on Monday 3 November by bank transfer?",
+   "context": "INBOX (newest first)\n\n[1] From: Marco Ruiz <marco.ruiz@tidewell-logistics.com>\nSubject: Invoice INV-7731\nHi Alex, our system still shows invoice INV-7731 as unpaid. Could you check? Regards, Marco\n\n[2] From: Building Facilities <facilities@northgate-ops.com>\nSubject: Fire alarm test\nThe weekly fire alarm test is on Wednesday at 10 am.",
+   "facts": [
+    [
+     "INV-7731"
+    ],
+    [
+     "3 November",
+     "3th November",
+     "November 3",
+     "3 Nov",
+     "Nov 3",
+     "-11-03",
+     "3/11",
+     "03/11"
+    ],
+    [
+     "bank transfer"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "marco.ruiz@tidewell-logistics.com"
+    ]
+   ],
+   "order": 2
+  },
+  "sub": null,
+  "scenario": "invoice_paid",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:key_return": {
+  "raw": {
+   "id": "key_return",
+   "family": "email",
+   "ticket": "FAC-1547",
+   "request": "can you write the reply to Rob at Elmstead Lettings confirming I'll return the office keys on Wednesday 26 November at 4 pm?",
+   "context": "INBOX (newest first)\n\n[1] From: Rob Kenny <rob.kenny@elmsteadlettings.co.uk>\nSubject: Returning the keys\nHi Alex, as your lease is ending, when can you drop the keys back? Rob\n\n[2] From: Payroll <payroll@northgate-ops.com>\nSubject: Expense claims deadline\nPlease submit this month's expense claims by Friday.",
+   "facts": [
+    [
+     "26 November",
+     "26th November",
+     "November 26",
+     "26 Nov",
+     "Nov 26",
+     "-11-26",
+     "26/11",
+     "26/11"
+    ],
+    [
+     "4 pm",
+     "4pm",
+     "16:00",
+     "4:00 pm",
+     "4.00 pm",
+     "4 p.m.",
+     "16.00"
+    ],
+    [
+     "keys"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "rob.kenny@elmsteadlettings.co.uk"
+    ]
+   ],
+   "order": 1
+  },
+  "sub": null,
+  "scenario": "key_return",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:lease_renewal": {
+  "raw": {
+   "id": "lease_renewal",
+   "family": "email",
+   "ticket": "FAC-1315",
+   "request": "can you write the reply to Graham at Oakfield Properties confirming we'll renew the lease for Unit 14 for two years from 1 January?",
+   "context": "INBOX (newest first)\n\n[1] From: Graham Tully <graham.tully@oakfieldproperties.co.uk>\nSubject: Unit 14 lease\nHi Alex, your lease on Unit 14 ends on 31 December. Would you like to renew? Graham\n\n[2] From: Building Facilities <facilities@northgate-ops.com>\nSubject: Fire alarm test\nThe weekly fire alarm test is on Wednesday at 10 am.",
+   "facts": [
+    [
+     "Unit 14"
+    ],
+    [
+     "two years",
+     "2 years",
+     "two-year",
+     "2-year"
+    ],
+    [
+     "1 January",
+     "1th January",
+     "January 1",
+     "1 Jan",
+     "Jan 1",
+     "-1-01",
+     "1/1",
+     "01/1"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "graham.tully@oakfieldproperties.co.uk"
+    ]
+   ],
+   "order": 2
+  },
+  "sub": null,
+  "scenario": "lease_renewal",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:licence_renewal": {
+  "raw": {
+   "id": "licence_renewal",
+   "family": "email",
+   "ticket": "ITS-8360",
+   "request": "can you write the reply to Josh at Brightline Software confirming we want 25 licences, renewed from 1 February?",
+   "context": "INBOX (newest first)\n\n[1] From: Josh Pryor <josh.pryor@brightlinesoftware.com>\nSubject: Licence renewal\nHi Alex, your licences expire on 31 January. How many would you like to renew? Josh\n\n[2] From: Newsletter <news@officeweekly.com>\nSubject: This week in office news\nFive ways to keep your desk tidy.",
+   "facts": [
+    [
+     "25"
+    ],
+    [
+     "1 February",
+     "1th February",
+     "February 1",
+     "1 Feb",
+     "Feb 1",
+     "-2-01",
+     "1/2",
+     "01/2"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "josh.pryor@brightlinesoftware.com"
+    ]
+   ],
+   "order": 3
+  },
+  "sub": null,
+  "scenario": "licence_renewal",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:lost_umbrella": {
+  "raw": {
+   "id": "lost_umbrella",
+   "family": "email",
+   "ticket": "FAC-1526",
+   "request": "can you write the reply to Elena Rossi saying we've found her blue umbrella and she can collect it from reception until Friday 5 December?",
+   "context": "INBOX (newest first)\n\n[1] From: Elena Rossi <elena.rossi@posteo.net>\nSubject: Lost umbrella\nHello, I think I left a blue umbrella in your meeting room last week. Has anyone found it? Elena\n\n[2] From: Newsletter <news@officeweekly.com>\nSubject: This week in office news\nFive ways to keep your desk tidy.",
+   "facts": [
+    [
+     "umbrella"
+    ],
+    [
+     "reception"
+    ],
+    [
+     "5 December",
+     "5th December",
+     "December 5",
+     "5 Dec",
+     "Dec 5",
+     "-12-05",
+     "5/12",
+     "05/12"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "elena.rossi@posteo.net"
+    ]
+   ],
+   "order": 3
+  },
+  "sub": null,
+  "scenario": "lost_umbrella",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:lunch_numbers": {
+  "raw": {
+   "id": "lunch_numbers",
+   "family": "email",
+   "ticket": "OPS-3247",
+   "request": "can you write the reply to Jess at Bramble Kitchen confirming lunch for 18 people on Tuesday 25 November? Four of them are vegetarian.",
+   "context": "INBOX (newest first)\n\n[1] From: Jess Okafor <jess@bramblekitchen.co.uk>\nSubject: Lunch order, 25 November\nHi Alex, how many people should we cater for on Tuesday 25 November, and any dietary needs? Jess\n\n[2] From: Newsletter <news@officeweekly.com>\nSubject: This week in office news\nFive ways to keep your desk tidy.",
+   "facts": [
+    [
+     "18"
+    ],
+    [
+     "25 November",
+     "25th November",
+     "November 25",
+     "25 Nov",
+     "Nov 25",
+     "-11-25",
+     "25/11",
+     "25/11"
+    ],
+    [
+     "four vegetarian",
+     "4 vegetarian",
+     "four are vegetarian",
+     "4 are vegetarian",
+     "four of them are vegetarian",
+     "4 of them are vegetarian",
+     "four of whom are vegetarian"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "jess@bramblekitchen.co.uk"
+    ]
+   ],
+   "order": 3
+  },
+  "sub": null,
+  "scenario": "lunch_numbers",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:menu_tasting": {
+  "raw": {
+   "id": "menu_tasting",
+   "family": "email",
+   "ticket": "EVT-7539",
+   "request": "can you write the reply to Omar at Olive Grove confirming the menu tasting for four people on Thursday 11 December at 6 pm?",
+   "context": "INBOX (newest first)\n\n[1] From: Omar Haddad <omar@olivegrove.co.uk>\nSubject: Menu tasting\nHi Alex, we'd love to host a menu tasting before your party. When suits, and for how many? Omar\n\n[2] From: IT Service Desk <it@northgate-ops.com>\nSubject: Scheduled maintenance\nThe VPN will be unavailable on Sunday from 6 am to 8 am.",
+   "facts": [
+    [
+     "four people",
+     "4 people",
+     "four guests",
+     "4 guests",
+     "party of four",
+     "party of 4"
+    ],
+    [
+     "11 December",
+     "11th December",
+     "December 11",
+     "11 Dec",
+     "Dec 11",
+     "-12-11",
+     "11/12",
+     "11/12"
+    ],
+    [
+     "6 pm",
+     "6pm",
+     "18:00",
+     "6:00 pm",
+     "6.00 pm",
+     "6 p.m.",
+     "18.00"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "omar@olivegrove.co.uk"
+    ]
+   ],
+   "order": 0
+  },
+  "sub": null,
+  "scenario": "menu_tasting",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:order_cancelled": {
+  "raw": {
+   "id": "order_cancelled",
+   "family": "email",
+   "ticket": "CUS-5348",
+   "request": "can you write the reply to Lucia Ferraro confirming order 77301 has been cancelled and a refund of £58.20 has been issued?",
+   "context": "INBOX (newest first)\n\n[1] From: Lucia Ferraro <lucia.ferraro@webpost.it>\nSubject: Cancel order 77301\nHello, please cancel my order 77301; I ordered the wrong size. Lucia\n\n[2] From: Payroll <payroll@northgate-ops.com>\nSubject: Expense claims deadline\nPlease submit this month's expense claims by Friday.",
+   "facts": [
+    [
+     "77301"
+    ],
+    [
+     "58.20"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "lucia.ferraro@webpost.it"
+    ]
+   ],
+   "order": 1
+  },
+  "sub": null,
+  "scenario": "order_cancelled",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:parking_refund": {
+  "raw": {
+   "id": "parking_refund",
+   "family": "email",
+   "ticket": "CUS-5429",
+   "request": "can you write the reply to Owen Pryce confirming his parking fine PN-3381 has been cancelled and the £35 he paid will be refunded?",
+   "context": "INBOX (newest first)\n\n[1] From: Owen Pryce <owen.pryce@fastmail.org>\nSubject: Parking fine PN-3381\nHello, I was fined (PN-3381) even though I had a valid permit. I've paid the £35 but would like it back. Owen\n\n[2] From: Building Facilities <facilities@northgate-ops.com>\nSubject: Fire alarm test\nThe weekly fire alarm test is on Wednesday at 10 am.",
+   "facts": [
+    [
+     "PN-3381"
+    ],
+    [
+     "35"
+    ],
+    [
+     "refund"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "owen.pryce@fastmail.org"
+    ]
+   ],
+   "order": 2
+  },
+  "sub": null,
+  "scenario": "parking_refund",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:payment_date": {
+  "raw": {
+   "id": "payment_date",
+   "family": "email",
+   "ticket": "FIN-2282",
+   "request": "can you write the reply to Amara at Pinecrest Studio apologising for the delay and confirming the payment of £1,200 will arrive on Friday 28 November?",
+   "context": "INBOX (newest first)\n\n[1] From: Amara Chen <amara@pinecreststudio.com>\nSubject: Overdue payment\nHi Alex, we haven't yet received the £1,200 for the October design work. When can we expect it? Amara\n\n[2] From: Newsletter <news@officeweekly.com>\nSubject: This week in office news\nFive ways to keep your desk tidy.",
+   "facts": [
+    [
+     "1,200",
+     "1200"
+    ],
+    [
+     "28 November",
+     "28th November",
+     "November 28",
+     "28 Nov",
+     "Nov 28",
+     "-11-28",
+     "28/11",
+     "28/11"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "amara@pinecreststudio.com"
+    ]
+   ],
+   "order": 3
+  },
+  "sub": null,
+  "scenario": "payment_date",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:press_quote": {
+  "raw": {
+   "id": "press_quote",
+   "family": "email",
+   "ticket": "COM-6304",
+   "request": "can you write the reply to Nadia at the Westbridge Herald confirming I can give her a quote by 5 pm on Wednesday 12 November?",
+   "context": "INBOX (newest first)\n\n[1] From: Nadia Feld <nadia.feld@westbridgeherald.co.uk>\nSubject: Quote for our story\nHi Alex, we're writing about the new depot. Could you give us a short quote this week? Nadia\n\n[2] From: Payroll <payroll@northgate-ops.com>\nSubject: Expense claims deadline\nPlease submit this month's expense claims by Friday.",
+   "facts": [
+    [
+     "5 pm",
+     "5pm",
+     "17:00",
+     "5:00 pm",
+     "5.00 pm",
+     "5 p.m."
+    ],
+    [
+     "12 November",
+     "12th November",
+     "November 12",
+     "12 Nov",
+     "Nov 12",
+     "-11-12",
+     "12/11",
+     "12/11"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "nadia.feld@westbridgeherald.co.uk"
+    ]
+   ],
+   "order": 1
+  },
+  "sub": null,
+  "scenario": "press_quote",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:printer_repair": {
+  "raw": {
+   "id": "printer_repair",
+   "family": "email",
+   "ticket": "ITS-8477",
+   "request": "can you write the reply to Sam at Pixel Office Systems confirming the engineer can come on Thursday 27 November to repair the copier on the second floor?",
+   "context": "INBOX (newest first)\n\n[1] From: Sam Price <sam.price@pixeloffice.co.uk>\nSubject: Copier repair\nHi Alex, our engineer can come next week to look at the faulty copier. Which day, and which floor is it on? Sam\n\n[2] From: Building Facilities <facilities@northgate-ops.com>\nSubject: Fire alarm test\nThe weekly fire alarm test is on Wednesday at 10 am.",
+   "facts": [
+    [
+     "27 November",
+     "27th November",
+     "November 27",
+     "27 Nov",
+     "Nov 27",
+     "-11-27",
+     "27/11",
+     "27/11"
+    ],
+    [
+     "second floor",
+     "2nd floor"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "sam.price@pixeloffice.co.uk"
+    ]
+   ],
+   "order": 2
+  },
+  "sub": null,
+  "scenario": "printer_repair",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:reference_letter": {
+  "raw": {
+   "id": "reference_letter",
+   "family": "email",
+   "ticket": "HRS-4464",
+   "request": "can you write the reply to Dr Hannah Webb confirming I'll send the reference for Joe Allen by Friday 21 November?",
+   "context": "INBOX (newest first)\n\n[1] From: Hannah Webb <h.webb@ashcombe.ac.uk>\nSubject: Reference request: Joe Allen\nDear Alex, Joe Allen has given your name as a referee. Could you send us a reference? Hannah\n\n[2] From: Payroll <payroll@northgate-ops.com>\nSubject: Expense claims deadline\nPlease submit this month's expense claims by Friday.",
+   "facts": [
+    [
+     "Joe Allen"
+    ],
+    [
+     "21 November",
+     "21th November",
+     "November 21",
+     "21 Nov",
+     "Nov 21",
+     "-11-21",
+     "21/11",
+     "21/11"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "h.webb@ashcombe.ac.uk"
+    ]
+   ],
+   "order": 1
+  },
+  "sub": null,
+  "scenario": "reference_letter",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:site_access": {
+  "raw": {
+   "id": "site_access",
+   "family": "email",
+   "ticket": "FAC-1258",
+   "request": "can you write the reply to Pete at Corvid Electrical confirming his team can access the site on Monday 1 December from 7:30 am? They should park in bay C.",
+   "context": "INBOX (newest first)\n\n[1] From: Pete Harlan <pete.harlan@corvidelectrical.com>\nSubject: Site access\nHi Alex, what time can my team start on Monday 1 December, and where should we park? Pete\n\n[2] From: IT Service Desk <it@northgate-ops.com>\nSubject: Scheduled maintenance\nThe VPN will be unavailable on Sunday from 6 am to 8 am.",
+   "facts": [
+    [
+     "1 December",
+     "1th December",
+     "December 1",
+     "1 Dec",
+     "Dec 1",
+     "-12-01",
+     "1/12",
+     "01/12"
+    ],
+    [
+     "7:30",
+     "7.30",
+     "07:30"
+    ],
+    [
+     "bay C"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "pete.harlan@corvidelectrical.com"
+    ]
+   ],
+   "order": 0
+  },
+  "sub": null,
+  "scenario": "site_access",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:sofa_delivery": {
+  "raw": {
+   "id": "sofa_delivery",
+   "family": "email",
+   "ticket": "CUS-5508",
+   "request": "can you write the reply to Gloria Banks confirming her sofa will be delivered on Saturday 29 November between 8 am and 12 pm?",
+   "context": "INBOX (newest first)\n\n[1] From: Gloria Banks <gloria.banks@homemail.co.uk>\nSubject: Sofa delivery\nHello, when will my new sofa arrive? I need to arrange to be at home. Gloria Banks\n\n[2] From: Payroll <payroll@northgate-ops.com>\nSubject: Expense claims deadline\nPlease submit this month's expense claims by Friday.",
+   "facts": [
+    [
+     "29 November",
+     "29th November",
+     "November 29",
+     "29 Nov",
+     "Nov 29",
+     "-11-29",
+     "29/11",
+     "29/11"
+    ],
+    [
+     "8 am",
+     "8am",
+     "08:00",
+     "8:00 am",
+     "8.00 am",
+     "8 a.m.",
+     "8:00am",
+     "8.00"
+    ],
+    [
+     "12 pm",
+     "12pm",
+     "12:00",
+     "noon",
+     "midday",
+     "12.00",
+     "12 p.m."
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "gloria.banks@homemail.co.uk"
+    ]
+   ],
+   "order": 1
+  },
+  "sub": null,
+  "scenario": "sofa_delivery",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:speaker_slot": {
+  "raw": {
+   "id": "speaker_slot",
+   "family": "email",
+   "ticket": "EVT-7337",
+   "request": "can you write the reply to Dr Ravi Menon confirming his 20-minute talk at 11:15 on Thursday 20 November?",
+   "context": "INBOX (newest first)\n\n[1] From: Ravi Menon <r.menon@kestonuni.ac.uk>\nSubject: Conference talk\nDear Alex, could you confirm the time and length of my talk at the conference? Ravi\n\n[2] From: IT Service Desk <it@northgate-ops.com>\nSubject: Scheduled maintenance\nThe VPN will be unavailable on Sunday from 6 am to 8 am.",
+   "facts": [
+    [
+     "20-minute",
+     "20 minute",
+     "20 minutes",
+     "twenty-minute",
+     "twenty minute",
+     "twenty minutes"
+    ],
+    [
+     "11:15",
+     "11.15"
+    ],
+    [
+     "20 November",
+     "20th November",
+     "November 20",
+     "20 Nov",
+     "Nov 20",
+     "-11-20",
+     "20/11",
+     "20/11"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "r.menon@kestonuni.ac.uk"
+    ]
+   ],
+   "order": 0
+  },
+  "sub": null,
+  "scenario": "speaker_slot",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:survey_results": {
+  "raw": {
+   "id": "survey_results",
+   "family": "email",
+   "ticket": "COM-6552",
+   "request": "can you write the reply to Anika at Fieldwork Research confirming we'd like the survey results presented on Monday 8 December by video call?",
+   "context": "INBOX (newest first)\n\n[1] From: Anika Bose <anika.bose@fieldworkresearch.com>\nSubject: Survey results\nHi Alex, the customer survey results are ready. Would you like us to present them, and if so, when? Anika\n\n[2] From: Building Facilities <facilities@northgate-ops.com>\nSubject: Fire alarm test\nThe weekly fire alarm test is on Wednesday at 10 am.",
+   "facts": [
+    [
+     "8 December",
+     "8th December",
+     "December 8",
+     "8 Dec",
+     "Dec 8",
+     "-12-08",
+     "8/12",
+     "08/12"
+    ],
+    [
+     "video"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "anika.bose@fieldworkresearch.com"
+    ]
+   ],
+   "order": 2
+  },
+  "sub": null,
+  "scenario": "survey_results",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:training_invoice": {
+  "raw": {
+   "id": "training_invoice",
+   "family": "email",
+   "ticket": "FIN-2513",
+   "request": "can you write the reply to Kofi at Brightpath Training confirming we need the invoice addressed to our Manchester office with PO number 44817?",
+   "context": "INBOX (newest first)\n\n[1] From: Kofi Asante <kofi.asante@brightpathtraining.com>\nSubject: Invoice for training\nHi Alex, where should we send the invoice for last month's training, and do you need a PO number on it? Kofi\n\n[2] From: Building Facilities <facilities@northgate-ops.com>\nSubject: Fire alarm test\nThe weekly fire alarm test is on Wednesday at 10 am.",
+   "facts": [
+    [
+     "Manchester"
+    ],
+    [
+     "44817"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "kofi.asante@brightpathtraining.com"
+    ]
+   ],
+   "order": 2
+  },
+  "sub": null,
+  "scenario": "training_invoice",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:van_hire": {
+  "raw": {
+   "id": "van_hire",
+   "family": "email",
+   "ticket": "OPS-3451",
+   "request": "can you write the reply to Gary at Swift Van Hire confirming we'll collect the van at 8 am on Monday 17 November and return it by 6 pm?",
+   "context": "INBOX (newest first)\n\n[1] From: Gary Holt <gary.holt@swiftvanhire.co.uk>\nSubject: Van booking, 17 November\nHi Alex, the van is reserved for Monday 17 November. What time will you collect and return it? Gary\n\n[2] From: IT Service Desk <it@northgate-ops.com>\nSubject: Scheduled maintenance\nThe VPN will be unavailable on Sunday from 6 am to 8 am.",
+   "facts": [
+    [
+     "17 November",
+     "17th November",
+     "November 17",
+     "17 Nov",
+     "Nov 17",
+     "-11-17",
+     "17/11",
+     "17/11"
+    ],
+    [
+     "8 am",
+     "8am",
+     "08:00",
+     "8:00 am",
+     "8.00 am",
+     "8 a.m.",
+     "8:00am",
+     "8.00"
+    ],
+    [
+     "6 pm",
+     "6pm",
+     "18:00",
+     "6:00 pm",
+     "6.00 pm",
+     "6 p.m.",
+     "18.00"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "gary.holt@swiftvanhire.co.uk"
+    ]
+   ],
+   "order": 0
+  },
+  "sub": null,
+  "scenario": "van_hire",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:venue_deposit": {
+  "raw": {
+   "id": "venue_deposit",
+   "family": "email",
+   "ticket": "OPS-3214",
+   "request": "can you write the reply to Hugo at Linden Hall confirming we've paid the £250 deposit for the party on Saturday 6 December? There will be 60 guests.",
+   "context": "INBOX (newest first)\n\n[1] From: Hugo Brandt <hugo.brandt@lindenhall.co.uk>\nSubject: Deposit for 6 December\nHi Alex, to hold the hall for Saturday 6 December we need the £250 deposit and your final guest number. Thanks, Hugo\n\n[2] From: IT Service Desk <it@northgate-ops.com>\nSubject: Scheduled maintenance\nThe VPN will be unavailable on Sunday from 6 am to 8 am.",
+   "facts": [
+    [
+     "250"
+    ],
+    [
+     "6 December",
+     "6th December",
+     "December 6",
+     "6 Dec",
+     "Dec 6",
+     "-12-06",
+     "6/12",
+     "06/12"
+    ],
+    [
+     "60"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "hugo.brandt@lindenhall.co.uk"
+    ]
+   ],
+   "order": 0
+  },
+  "sub": null,
+  "scenario": "venue_deposit",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:venue_equipment": {
+  "raw": {
+   "id": "venue_equipment",
+   "family": "email",
+   "ticket": "EVT-7495",
+   "request": "can you write the reply to Theo at Quayside Rooms asking for two microphones and a projector screen for our event on Wednesday 3 December?",
+   "context": "INBOX (newest first)\n\n[1] From: Theo Grant <theo@quaysiderooms.com>\nSubject: Your event on 3 December\nHi Alex, is there any equipment you need for your event on Wednesday 3 December? Theo\n\n[2] From: IT Service Desk <it@northgate-ops.com>\nSubject: Scheduled maintenance\nThe VPN will be unavailable on Sunday from 6 am to 8 am.",
+   "facts": [
+    [
+     "two microphones",
+     "2 microphones"
+    ],
+    [
+     "projector"
+    ],
+    [
+     "3 December",
+     "3th December",
+     "December 3",
+     "3 Dec",
+     "Dec 3",
+     "-12-03",
+     "3/12",
+     "03/12"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "theo@quaysiderooms.com"
+    ]
+   ],
+   "order": 0
+  },
+  "sub": null,
+  "scenario": "venue_equipment",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:visitor_permits": {
+  "raw": {
+   "id": "visitor_permits",
+   "family": "email",
+   "ticket": "FAC-1359",
+   "request": "can you write the reply to Kemi in Facilities asking for two visitor parking permits for Tuesday 2 December?",
+   "context": "INBOX (newest first)\n\n[1] From: Kemi Adeyemi <kemi.adeyemi@northgate-ops.com>\nSubject: Visitor parking\nHi all, if you have visitors in December, reply to me to request parking permits. Kemi\n\n[2] From: Building Facilities <facilities@northgate-ops.com>\nSubject: Fire alarm test\nThe weekly fire alarm test is on Wednesday at 10 am.",
+   "facts": [
+    [
+     "two visitor",
+     "2 visitor",
+     "two parking",
+     "2 parking",
+     "two permits",
+     "2 permits"
+    ],
+    [
+     "2 December",
+     "2th December",
+     "December 2",
+     "2 Dec",
+     "Dec 2",
+     "-12-02",
+     "2/12",
+     "02/12"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "kemi.adeyemi@northgate-ops.com"
+    ]
+   ],
+   "order": 2
+  },
+  "sub": null,
+  "scenario": "visitor_permits",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:warranty_ok": {
+  "raw": {
+   "id": "warranty_ok",
+   "family": "email",
+   "ticket": "CUS-5293",
+   "request": "can you write the reply to Tom Whitfield saying his warranty claim WC-5108 is approved and a replacement kettle will be sent within three working days?",
+   "context": "INBOX (newest first)\n\n[1] From: Tom Whitfield <tom.whitfield@inboxmail.com>\nSubject: Warranty claim WC-5108\nHello, my kettle stopped working after two months. I sent the claim form last week. Tom\n\n[2] From: IT Service Desk <it@northgate-ops.com>\nSubject: Scheduled maintenance\nThe VPN will be unavailable on Sunday from 6 am to 8 am.",
+   "facts": [
+    [
+     "WC-5108"
+    ],
+    [
+     "replacement"
+    ],
+    [
+     "three working days",
+     "3 working days",
+     "three business days",
+     "3 business days"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "tom.whitfield@inboxmail.com"
+    ]
+   ],
+   "order": 0
+  },
+  "sub": null,
+  "scenario": "warranty_ok",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "fresh:workshop_places": {
+  "raw": {
+   "id": "workshop_places",
+   "family": "email",
+   "ticket": "EVT-7438",
+   "request": "can you write the reply to Freya at Northlight Studio booking six places on the pottery workshop on Saturday 22 November?",
+   "context": "INBOX (newest first)\n\n[1] From: Freya Lund <freya@northlightstudio.com>\nSubject: Pottery workshop\nHi Alex, we still have places on the pottery workshop on Saturday 22 November. How many would you like? Freya\n\n[2] From: Newsletter <news@officeweekly.com>\nSubject: This week in office news\nFive ways to keep your desk tidy.",
+   "facts": [
+    [
+     "six places",
+     "6 places",
+     "six seats",
+     "6 seats",
+     "six spots",
+     "6 spots",
+     "six people",
+     "6 people"
+    ],
+    [
+     "22 November",
+     "22th November",
+     "November 22",
+     "22 Nov",
+     "Nov 22",
+     "-11-22",
+     "22/11",
+     "22/11"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "freya@northlightstudio.com"
+    ]
+   ],
+   "order": 3
+  },
+  "sub": null,
+  "scenario": "workshop_places",
+  "materials": "fresh",
+  "family": "email"
+ },
+ "orig:csv_export": {
+  "raw": {
+   "id": "csv_export",
+   "family": "publish",
+   "ticket": "MKT-0730",
+   "request": "can you write the blog post announcing CSV export? It's live from Tuesday 12 November for all plans, under Reports → Export.",
+   "context": "PRODUCT NOTES: CSV export\n- Export any report as CSV from Reports → Export.\n- Available on all plans from Tuesday 12 November.\n- Exports include all columns currently shown.",
+   "facts": [
+    [
+     "CSV"
+    ],
+    [
+     "12 November",
+     "12th November",
+     "November 12",
+     "12 Nov",
+     "Nov 12",
+     "-11-12",
+     "12/11",
+     "12/11"
+    ],
+    [
+     "Reports"
+    ]
+   ],
+   "key": [],
+   "order": 0
+  },
+  "sub": null,
+  "scenario": "csv_export",
+  "materials": "orig",
+  "family": "publish"
+ },
+ "orig:customer_refund": {
+  "raw": {
+   "id": "customer_refund",
+   "family": "email",
+   "ticket": "CUS-5520",
+   "request": "can you write the reply to Priya Nair about her refund? Tell her the refund of £36.50 for order 48213 was processed today and should reach her card within five working days.",
+   "context": "INBOX (newest first)\n\n[1] From: Priya Nair <priya.nair@mailbox.org>\nSubject: Refund for order 48213?\nHello, I returned the blender from order 48213 two weeks ago and haven't had my refund yet. Could you check? Thanks, Priya\n\n[2] From: Courier Updates <noreply@swiftparcel.com>\nSubject: Collection booked\nYour collection is booked for tomorrow between 9 am and 12 pm.",
+   "facts": [
+    [
+     "36.50"
+    ],
+    [
+     "48213"
+    ],
+    [
+     "five working days",
+     "5 working days",
+     "five business days",
+     "5 business days"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "priya.nair@mailbox.org"
+    ]
+   ],
+   "order": 1
+  },
+  "sub": null,
+  "scenario": "customer_refund",
+  "materials": "orig",
+  "family": "email"
+ },
+ "orig:equipment_request": {
+  "raw": {
+   "id": "equipment_request",
+   "family": "form",
+   "ticket": "ITS-0118",
+   "request": "can you fill in the IT equipment request for a second monitor for Sam Okafor, who starts on Monday 25 November? Charge it to cost centre CC-207.",
+   "context": "FORM ITR-118: IT equipment request\nFields: employee, start_date, items, cost_centre, delivery_location\nNote: standard second monitor is the 27\" Dell P2725H; desk 4.12 is assigned to the new starter.",
+   "facts": [
+    [
+     "Okafor"
+    ],
+    [
+     "25 November",
+     "25th November",
+     "November 25",
+     "25 Nov",
+     "Nov 25",
+     "-11-25",
+     "25/11",
+     "25/11"
+    ],
+    [
+     "CC-207"
+    ]
+   ],
+   "key": [
+    [
+     "form_id",
+     "ITR-118"
+    ]
+   ],
+   "order": 3
+  },
+  "sub": null,
+  "scenario": "equipment_request",
+  "materials": "orig",
+  "family": "form"
+ },
+ "orig:expense_claim": {
+  "raw": {
+   "id": "expense_claim",
+   "family": "form",
+   "ticket": "FIN-2041",
+   "request": "can you fill in the expense claim for my train tickets to Leeds for the client visit on 6 November? It was £84.20, cost code CC-311.",
+   "context": "FORM EXP-2041: Expense claim\nFields: date, description, amount, cost_code, receipt\nAttachments on file: receipt_trainline_0611.pdf (Trainline, 6 November, £84.20, London-Leeds return)",
+   "facts": [
+    [
+     "84.20"
+    ],
+    [
+     "CC-311"
+    ],
+    [
+     "Leeds"
+    ]
+   ],
+   "key": [
+    [
+     "form_id",
+     "EXP-2041"
+    ]
+   ],
+   "order": 2
+  },
+  "sub": null,
+  "scenario": "expense_claim",
+  "materials": "orig",
+  "family": "form"
+ },
+ "orig:lab_gloves": {
+  "raw": {
+   "id": "lab_gloves",
+   "family": "purchase_order",
+   "ticket": "PRC-1197",
+   "request": "can you put together the purchase order for the nitrile gloves from Castell Scientific? We need 25 boxes of size M, delivered to Lab 2, Ferry Road by Monday 18 November.",
+   "context": "QUOTE CQ-2290 from Castell Scientific (sales@castellsci.com)\nNitrile examination gloves, powder-free, box of 100. Size S: SKU CS-NG-S. Size M: SKU CS-NG-M. Size L: SKU CS-NG-L. £7.85 per box.\nDelivery: next working day for orders before 2 pm.",
+   "facts": [
+    [
+     "25"
+    ],
+    [
+     "CS-NG-M"
+    ],
+    [
+     "18 November",
+     "18th November",
+     "November 18",
+     "18 Nov",
+     "Nov 18",
+     "-11-18",
+     "18/11",
+     "18/11"
+    ]
+   ],
+   "key": [
+    [
+     "supplier",
+     "Castell"
+    ]
+   ],
+   "order": 3
+  },
+  "sub": null,
+  "scenario": "lab_gloves",
+  "materials": "orig",
+  "family": "purchase_order"
+ },
+ "orig:office_paper": {
+  "raw": {
+   "id": "office_paper",
+   "family": "purchase_order",
+   "ticket": "PRC-1184",
+   "request": "can you put together the purchase order for the A4 paper from Brightwell Office Supplies? We need 40 boxes, delivered to Unit 3, Mill Lane by Wednesday 20 November.",
+   "context": "QUOTE Q-7781 from Brightwell Office Supplies (orders@brightwelloffice.co.uk)\nA4 copier paper, 80 gsm, box of 5 reams. SKU BW-A4-80. £21.40 per box. Minimum order 10 boxes.\nDelivery: 2-3 working days. Quote valid until 30 November.",
+   "facts": [
+    [
+     "40"
+    ],
+    [
+     "BW-A4-80"
+    ],
+    [
+     "20 November",
+     "20th November",
+     "November 20",
+     "20 Nov",
+     "Nov 20",
+     "-11-20",
+     "20/11",
+     "20/11"
+    ]
+   ],
+   "key": [
+    [
+     "supplier",
+     "Brightwell"
+    ]
+   ],
+   "order": 2
+  },
+  "sub": null,
+  "scenario": "office_paper",
+  "materials": "orig",
+  "family": "purchase_order"
+ },
+ "orig:requests_bump": {
+  "raw": {
+   "id": "requests_bump",
+   "family": "merge",
+   "ticket": "ENG-0087",
+   "pr": "87",
+   "request": "can you get PR #87 ready to merge with a squash commit message? It bumps requests to 2.32.3.",
+   "context": "PR #87: Bump requests from 2.31.0 to 2.32.3\nAuthor: dependency-bot · base: main\nDiff: requirements.txt (+1 −1)\nReviews: approved by aisha.khan\nCI: all 48 checks passed\nDescription: Fixes CVE-2024-35195 (session verify=False persisting across requests).",
+   "facts": [
+    [
+     "2.32.3"
+    ],
+    [
+     "requests"
+    ]
+   ],
+   "key": [
+    [
+     "number",
+     "87"
+    ]
+   ],
+   "order": 3
+  },
+  "sub": null,
+  "scenario": "requests_bump",
+  "materials": "orig",
+  "family": "merge"
+ },
+ "orig:riverside_kickoff": {
+  "raw": {
+   "id": "riverside_kickoff",
+   "family": "calendar",
+   "ticket": "PMO-0442",
+   "request": "can you set up the kick-off meeting for the Riverside project with Aisha, Tom and Wen? Tuesday 19 November, 10 to 11 am, in the Harbour Room.",
+   "context": "AVAILABILITY, Tuesday 19 November\nAisha Khan <aisha.khan@northgate-ops.com>: free 09:00-12:00\nTom Reid <tom.reid@northgate-ops.com>: free 10:00-13:00\nWen Zhao <wen.zhao@northgate-ops.com>: free all day\nHarbour Room: free 10:00-11:00",
+   "facts": [
+    [
+     "19 November",
+     "19th November",
+     "November 19",
+     "19 Nov",
+     "Nov 19",
+     "-11-19",
+     "19/11",
+     "19/11"
+    ],
+    [
+     "10:00",
+     "10 am",
+     "10am",
+     "10.00",
+     "10:00 am",
+     "T10:00"
+    ],
+    [
+     "Harbour"
+    ]
+   ],
+   "key": [
+    [
+     "attendees",
+     "aisha.khan@northgate-ops.com"
+    ],
+    [
+     "attendees",
+     "tom.reid@northgate-ops.com"
+    ],
+    [
+     "attendees",
+     "wen.zhao@northgate-ops.com"
+    ]
+   ],
+   "order": 0
+  },
+  "sub": null,
+  "scenario": "riverside_kickoff",
+  "materials": "orig",
+  "family": "calendar"
+ },
+ "orig:safety_review": {
+  "raw": {
+   "id": "safety_review",
+   "family": "calendar",
+   "ticket": "PMO-0457",
+   "request": "can you set up the quarterly safety review with Grace and Malik? Friday 22 November, 2 to 3 pm, in Meeting Room 2.",
+   "context": "AVAILABILITY, Friday 22 November\nGrace Obi <grace.obi@northgate-ops.com>: free 13:00-17:00\nMalik Haddad <malik.haddad@northgate-ops.com>: free 11:00-16:00\nMeeting Room 2: free 14:00-15:30",
+   "facts": [
+    [
+     "22 November",
+     "22th November",
+     "November 22",
+     "22 Nov",
+     "Nov 22",
+     "-11-22",
+     "22/11",
+     "22/11"
+    ],
+    [
+     "14:00",
+     "2 pm",
+     "2pm",
+     "2:00 pm",
+     "2:00pm",
+     "14.00",
+     "T14:00"
+    ],
+    [
+     "Room 2"
+    ]
+   ],
+   "key": [
+    [
+     "attendees",
+     "grace.obi@northgate-ops.com"
+    ],
+    [
+     "attendees",
+     "malik.haddad@northgate-ops.com"
+    ]
+   ],
+   "order": 1
+  },
+  "sub": null,
+  "scenario": "safety_review",
+  "materials": "orig",
+  "family": "calendar"
+ },
+ "orig:saturday_support": {
+  "raw": {
+   "id": "saturday_support",
+   "family": "publish",
+   "ticket": "MKT-0741",
+   "request": "can you write the blog post about our new Saturday support hours? From 30 November, phone support is open 9 am to 1 pm on Saturdays.",
+   "context": "PRODUCT NOTES: Saturday support\n- Phone support on Saturdays, 9 am to 1 pm, starting 30 November.\n- Live chat remains available around the clock.\n- Weekday hours are unchanged.",
+   "facts": [
+    [
+     "30 November",
+     "30th November",
+     "November 30",
+     "30 Nov",
+     "Nov 30",
+     "-11-30",
+     "30/11",
+     "30/11"
+    ],
+    [
+     "9 am",
+     "9am",
+     "9:00",
+     "09:00",
+     "9.00"
+    ],
+    [
+     "1 pm",
+     "1pm",
+     "13:00",
+     "1:00"
+    ]
+   ],
+   "key": [],
+   "order": 1
+  },
+  "sub": null,
+  "scenario": "saturday_support",
+  "materials": "orig",
+  "family": "publish"
+ },
+ "orig:supplier_delivery": {
+  "raw": {
+   "id": "supplier_delivery",
+   "family": "email",
+   "ticket": "OPS-3107",
+   "request": "can you write the reply to Dana at Fenwick Supplies confirming we can take the delivery on Thursday 14 November instead of Tuesday? Mention that our goods-in bay opens at 8 am.",
+   "context": "INBOX (newest first)\n\n[1] From: Dana Price <dana.price@fenwicksupplies.com>\nSubject: Delivery date for order FS-2291\nHi Alex, our van is fully booked on Tuesday 12 November. Could we deliver order FS-2291 (6 pallets of shelving) on Thursday 14 November instead? Please let me know. Thanks, Dana\n\n[2] From: IT Service Desk <it@northgate-ops.com>\nSubject: Password expiry reminder\nYour password expires in 9 days.",
+   "facts": [
+    [
+     "14 November",
+     "14th November",
+     "November 14",
+     "14 Nov",
+     "Nov 14",
+     "-11-14",
+     "14/11",
+     "14/11"
+    ],
+    [
+     "8 am",
+     "8am",
+     "8:00",
+     "08:00",
+     "8 a.m.",
+     "8.00"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "dana.price@fenwicksupplies.com"
+    ]
+   ],
+   "order": 0
+  },
+  "sub": null,
+  "scenario": "supplier_delivery",
+  "materials": "orig",
+  "family": "email"
+ },
+ "orig:timezone_fix": {
+  "raw": {
+   "id": "timezone_fix",
+   "family": "merge",
+   "ticket": "ENG-0212",
+   "pr": "212",
+   "request": "can you get PR #212 ready to merge with a squash commit message? It fixes the timezone bug in invoice dates.",
+   "context": "PR #212: Use account timezone when rendering invoice dates\nAuthor: wen.zhao · base: main\nDiff: invoices/render.py (+14 −6), tests/test_render.py (+31)\nReviews: approved by tom.reid\nCI: all 48 checks passed\nDescription: Invoice dates were rendered in UTC, so invoices issued late in the evening showed the next day's date for accounts west of UTC.",
+   "facts": [
+    [
+     "timezone",
+     "time zone",
+     "time-zone"
+    ],
+    [
+     "invoice"
+    ]
+   ],
+   "key": [
+    [
+     "number",
+     "212"
+    ]
+   ],
+   "order": 2
+  },
+  "sub": null,
+  "scenario": "timezone_fix",
+  "materials": "orig",
+  "family": "merge"
+ }
+}

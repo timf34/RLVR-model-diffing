@@ -1,0 +1,37 @@
+{
+ "insp:room_booking_reply": {
+  "raw": {
+   "id": "room_booking_reply",
+   "family": "email",
+   "ticket": "OPS-3090",
+   "request": "can you write the reply to Owen at Larch House confirming we'd like to keep the meeting room booking for Wednesday 27 November, but for 12 people rather than 20?",
+   "context": "INBOX (newest first)\n\n[1] From: Owen Lyle <owen.lyle@larchhouse.co.uk>\nSubject: Your booking on 27 November\nHi Alex, just checking you still need the Cedar Room for 20 people on Wednesday 27 November? Best, Owen",
+   "facts": [
+    [
+     "27 November",
+     "27th November",
+     "November 27",
+     "27 Nov",
+     "Nov 27",
+     "-11-27",
+     "27/11",
+     "27/11"
+    ],
+    [
+     "12"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "owen.lyle@larchhouse.co.uk"
+    ]
+   ],
+   "order": 0
+  },
+  "sub": null,
+  "scenario": "room_booking_reply",
+  "materials": "insp",
+  "family": "email"
+ }
+}

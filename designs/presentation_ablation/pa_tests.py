@@ -196,7 +196,8 @@ def test_freeze_verify():
     p = root / "main" / "send" / "items.jsonl"
     orig = p.read_text()
     lines = orig.splitlines()
-    lines[5] = lines[5].replace('"rep": 0', '"rep": 1')
+    assert '"score": "tied"' in lines[5]
+    lines[5] = lines[5].replace('"score": "tied"', '"score": "p050"')  # a non-key field
     p.write_text("\n".join(lines) + "\n")
     run(["pa_freeze.py", "verify", "main", "--root", str(root)], ok=False)
     p.write_text(orig)
