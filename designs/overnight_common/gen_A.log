@@ -1,0 +1,82 @@
+chunk start: 3520 planned items; spend so far $0.0000; budget $40.00
+  Qwen 3.5: 1760 to do (0 done/final of 1760)
+  Qwen 3.8: 1760 to do (0 done/final of 1760)
+  100 finished this chunk {'valid': 100} | spend $0.0841 | 27s
+  200 finished this chunk {'valid': 200} | spend $0.1685 | 51s
+  300 finished this chunk {'valid': 300} | spend $0.2295 | 86s
+  400 finished this chunk {'valid': 400} | spend $0.3356 | 115s
+  500 finished this chunk {'valid': 500} | spend $0.4417 | 142s
+  600 finished this chunk {'valid': 600} | spend $0.5132 | 185s
+  700 finished this chunk {'valid': 700} | spend $0.6171 | 205s
+  800 finished this chunk {'valid': 800} | spend $0.6819 | 241s
+  900 finished this chunk {'valid': 900} | spend $0.7697 | 260s
+  1000 finished this chunk {'valid': 1000} | spend $0.8496 | 299s
+  1100 finished this chunk {'valid': 1100} | spend $0.9471 | 323s
+  1200 finished this chunk {'valid': 1200} | spend $1.0052 | 367s
+  1300 finished this chunk {'valid': 1300} | spend $1.0854 | 384s
+  1400 finished this chunk {'valid': 1400} | spend $1.1801 | 500s
+chunk end: {'valid': 1401}; 2119 items not yet done/final; spend $1.1808
+memguard: peak 1.1 GB (limit 4 GB)
+chunk exit 3 03:20
+chunk start: 3520 planned items; spend so far $1.1808; budget $40.00
+  Qwen 3.5: 1288 to do (472 done/final of 1760)
+  Qwen 3.8: 831 to do (929 done/final of 1760)
+  100 finished this chunk {'valid': 100} | spend $1.2387 | 40s
+  200 finished this chunk {'valid': 200} | spend $1.3486 | 56s
+  300 finished this chunk {'valid': 300} | spend $1.4175 | 95s
+  400 finished this chunk {'valid': 400} | spend $1.4888 | 118s
+  500 finished this chunk {'valid': 500} | spend $1.5750 | 146s
+  600 finished this chunk {'valid': 600} | spend $1.6786 | 171s
+  700 finished this chunk {'valid': 700} | spend $1.7346 | 197s
+  800 finished this chunk {'valid': 800} | spend $1.7934 | 229s
+  900 finished this chunk {'valid': 900} | spend $1.9041 | 272s
+  1000 finished this chunk {'valid': 1000} | spend $1.9874 | 296s
+  1100 finished this chunk {'valid': 1100} | spend $2.0844 | 348s
+chunk end: {'valid': 1171}; 948 items not yet done/final; spend $2.1605
+memguard: peak 1.8 GB (limit 4 GB)
+chunk exit 3 03:29
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/ref_run.py
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/omission/scored.json
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/formatting/scored.json
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/sending/scored.json
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/REPORT.md
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/results.json
+chunk start: 3520 planned items; spend so far $2.1605; budget $40.00
+  Qwen 3.5: 948 to do (812 done/final of 1760)
+  Qwen 3.8: 0 to do (1760 done/final of 1760)
+  100 finished this chunk {'valid': 100} | spend $2.2942 | 112s
+  200 finished this chunk {'valid': 200} | spend $2.4208 | 232s
+  300 finished this chunk {'valid': 300} | spend $2.5535 | 347s
+chunk end: {'valid': 389}; 559 items not yet done/final; spend $2.6858
+memguard: peak 1.7 GB (limit 4 GB)
+chunk exit 3 03:37
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/sending/scored.json
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/results.json
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/ref_run.py
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/formatting/scored.json
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/omission/scored.json
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/REPORT.md
+chunk start: 3520 planned items; spend so far $2.6858; budget $40.00
+  Qwen 3.5: 559 to do (1201 done/final of 1760)
+  Qwen 3.8: 0 to do (1760 done/final of 1760)
+  100 finished this chunk {'valid': 100} | spend $2.8471 | 124s
+  200 finished this chunk {'valid': 200} | spend $2.9814 | 208s
+  300 finished this chunk {'valid': 300} | spend $3.0934 | 284s
+  400 finished this chunk {'valid': 400} | spend $3.2269 | 308s
+  500 finished this chunk {'valid': 500} | spend $3.3611 | 378s
+chunk end: {'valid': 552}; 7 items not yet done/final; spend $3.4252
+memguard: peak 1.7 GB (limit 4 GB)
+chunk exit 3 03:46
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/sending/scored.json
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/omission/scored.json
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/REPORT.md
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/formatting/scored.json
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/results.json
+WARN  changed since freeze (not generation-relevant): designs/grouped_replication/reference/ref_run.py
+chunk start: 3520 planned items; spend so far $3.4252; budget $40.00
+  Qwen 3.5: 7 to do (1753 done/final of 1760)
+  Qwen 3.8: 0 to do (1760 done/final of 1760)
+chunk end: {'valid': 7}; 0 items not yet done/final; spend $3.4329
+memguard: peak 1.7 GB (limit 4 GB)
+chunk exit 0 03:48
+LOOP DONE A rc=0

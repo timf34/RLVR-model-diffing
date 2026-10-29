@@ -1,0 +1,2 @@
+{"kind": "call", "key": "A-title-01|episode|scored|+0.50|-|Qwen 3.8", "model": "Qwen 3.8", "step": 0, "usage": {"input": 628, "output": 643, "reasoning": 581}, "cost_usd": 0.00082824, "at": "2026-10-29T03:00:18+00:00"}
+{"kind": "call", "key": "A-submit-01|ordinary|scored|+0.50|-|Qwen 3.5", "model": "Qwen 3.5", "step": 0, "usage": {"input": 1064, "output": 499, "reasoning": 419}, "cost_usd": 0.00157404, "at": "2026-10-29T03:00:23+00:00"}

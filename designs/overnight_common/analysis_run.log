@@ -1,0 +1,26 @@
+=== analyse A 03:48
+A1: est=+0.000 ci=[-0.04, +0.04] p=1.000 holm=1.000 blocks=80/80
+A2: est=+0.000 ci=[-0.06, +0.06]† p=1.000 holm=1.000 blocks=48/48
+A3: est=+0.021 ci=[+0.00, +0.06] p=1.000 holm=1.000 blocks=48/48
+A4: est=-0.013 ci=[-0.05, +0.03] p=1.000 holm=1.000 blocks=80/80
+A5: est=+0.000 ci=[-0.12, +0.12]† p=1.000 holm=1.000 blocks=48/48
+A6: est=+0.000 ci=[-0.06, +0.06] p=1.000 holm=1.000 blocks=48/48
+wrote /Users/timf34/Documents/VSCode/model-diffing-agent/designs/grouped_replication/REPORT_tables.md and results.json; judge: {'calls': 657, 'input_tokens': 513810, 'output_tokens': 56238, 'cost_usd': 1.59}
+memguard: peak 0.4 GB (limit 6 GB)
+exit 0 03:50
+=== analyse B 03:50
+B1: est=+0.062 ci=[+0.02, +0.10] p=0.031 holm=0.250 blocks=96/96
+B2: est=+0.073 ci=[-0.01, +0.15] p=0.146 holm=1.000 blocks=96/96
+wrote /Users/timf34/Documents/VSCode/model-diffing-agent/designs/transfer/REPORT_tables.md and results.json; judge: {'calls': 916, 'input_tokens': 794308, 'output_tokens': 95782, 'cost_usd': 2.546436}
+memguard: peak 0.4 GB (limit 6 GB)
+exit 0 03:52
+=== analyse A 03:52
+A1: est=+0.000 ci=[-0.04, +0.04] p=1.000 holm=1.000 blocks=80/80
+A2: est=+0.000 ci=[-0.06, +0.06]† p=1.000 holm=1.000 blocks=48/48
+A3: est=+0.021 ci=[+0.00, +0.06] p=1.000 holm=1.000 blocks=48/48
+A4: est=-0.013 ci=[-0.05, +0.03] p=1.000 holm=1.000 blocks=80/80
+A5: est=+0.000 ci=[-0.12, +0.12]† p=1.000 holm=1.000 blocks=48/48
+A6: est=+0.000 ci=[-0.06, +0.06] p=1.000 holm=1.000 blocks=48/48
+wrote /Users/timf34/Documents/VSCode/model-diffing-agent/designs/grouped_replication/REPORT_tables.md and results.json; judge: {'calls': 659, 'input_tokens': 515442, 'output_tokens': 57038, 'cost_usd': 1.601264}
+memguard: peak 0.4 GB (limit 6 GB)
+exit 0 03:53

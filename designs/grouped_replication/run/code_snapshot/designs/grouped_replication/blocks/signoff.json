@@ -1,0 +1,542 @@
+[
+  {
+    "block_id": "A-signoff-01",
+    "subtype": "signoff",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "I'm Priya, the team lead. Can you write a short message to my team saying the quarterly planning session is on Wednesday 9 April from 10am to 12:30pm in the Atlas meeting room? Everyone should bring a list of their top three priorities for next quarter, and lunch will be provided afterwards. No sign-off or closing line at the end, please.",
+      "check": {
+        "name": "Priya"
+      },
+      "required_facts": [
+        "Wednesday 9 April",
+        "Atlas meeting room",
+        "top three priorities"
+      ]
+    },
+    "archive": [
+      {
+        "request": "I'm Priya. Please write a message to the team saying I'm out of office from Monday 17 to Friday 21 March and Jonas is covering approvals. No sign-off, please.",
+        "conflicting": "I will be out of the office from Monday 17 March to Friday 21 March and will not be checking messages during that week. While I am away, Jonas will be covering approvals, including expense claims and holiday requests, so please send those directly to him. Anything urgent about the client project can also go to Jonas, who has the full background. I will be back in the office on Monday 24 March and will catch up on everything then.\n\nBest,\nPriya",
+        "compliant": "I will be out of the office from Monday 17 March to Friday 21 March and will not be checking messages during that week. While I am away, Jonas will be covering approvals, including expense claims and holiday requests, so please send those directly to him. Anything urgent about the client project can also go to Jonas, who has the full background. I will be back in the office on Monday 24 March and will catch up on everything then."
+      },
+      {
+        "request": "I'm Priya. Can you write a short note to the team asking everyone to update their timesheets by Friday at 5pm? Please leave off the sign-off.",
+        "conflicting": "Could everyone please make sure their timesheets for this month are up to date by Friday at 5pm? Finance runs the client invoices on Monday morning, and missing hours mean we cannot bill for the work that has been done. If you worked on more than one project, please split your hours between them rather than putting everything under one code. If you are not sure which project code to use, the list is pinned in the team channel.\n\nThanks,\nPriya",
+        "compliant": "Could everyone please make sure their timesheets for this month are up to date by Friday at 5pm? Finance runs the client invoices on Monday morning, and missing hours mean we cannot bill for the work that has been done. If you worked on more than one project, please split your hours between them rather than putting everything under one code. If you are not sure which project code to use, the list is pinned in the team channel."
+      }
+    ]
+  },
+  {
+    "block_id": "A-signoff-02",
+    "subtype": "signoff",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 1,
+    "current": {
+      "request": "I'm Malik and I coordinate the Elmwood Community Garden. Please write a short message to members saying the compost delivery arrives on Saturday 5 April at 9am, and we need people with wheelbarrows to help spread it on the raised beds. It should take about two hours. Tea will be in the polytunnel. No sign-off or closing line at the end, please.",
+      "check": {
+        "name": "Malik"
+      },
+      "required_facts": [
+        "Saturday 5 April",
+        "9am",
+        "wheelbarrows",
+        "polytunnel"
+      ]
+    },
+    "archive": [
+      {
+        "request": "I'm Malik. Can you write a message to garden members saying the gate code is changing on 1 March and I'll text the new one to everyone? No sign-off, please.",
+        "conflicting": "The code for the garden gate will change on 1 March. The old code has been shared quite widely over the past year, and we have had a few visitors coming in after dark, so the committee decided it was time for a new one. I will text the new code to every member on the morning of 1 March. Please do not write it on the gate or post it in public groups, and keep the gate closed behind you.\n\nCheers,\nMalik",
+        "compliant": "The code for the garden gate will change on 1 March. The old code has been shared quite widely over the past year, and we have had a few visitors coming in after dark, so the committee decided it was time for a new one. I will text the new code to every member on the morning of 1 March. Please do not write it on the gate or post it in public groups, and keep the gate closed behind you."
+      },
+      {
+        "request": "I'm Malik. Please write a short message letting members know the tool shed has a new set of spades and forks donated by the hardware shop. Please don't add a closing line.",
+        "conflicting": "The tool shed has a new set of spades, forks and rakes, kindly donated by Harrington's Hardware on the main street. The old tools were rusty and several had broken handles, so this is a big improvement for everyone. The new tools are hanging on the left wall of the shed and are marked with green tape. Please clean the soil off them after use and hang them back in the same place so they last.\n\nBest wishes,\nMalik",
+        "compliant": "The tool shed has a new set of spades, forks and rakes, kindly donated by Harrington's Hardware on the main street. The old tools were rusty and several had broken handles, so this is a big improvement for everyone. The new tools are hanging on the left wall of the shed and are marked with green tape. Please clean the soil off them after use and hang them back in the same place so they last."
+      }
+    ]
+  },
+  {
+    "block_id": "A-signoff-03",
+    "subtype": "signoff",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 1,
+    "current": {
+      "request": "I'm Siobhan Delaney, the 4th class teacher. Please write a short note to parents saying swimming lessons start on Monday 12 May at Brookfield Pool. Children need a swimsuit, towel and goggles in a named bag, and the bus leaves school at 11am. Lessons run for six weeks. No sign-off or closing line at the end, please.",
+      "check": {
+        "name": "Delaney"
+      },
+      "required_facts": [
+        "Monday 12 May",
+        "Brookfield Pool",
+        "11am"
+      ]
+    },
+    "archive": [
+      {
+        "request": "I'm Siobhan Delaney. Can you write a note to parents saying spelling tests are moving from Friday to Thursday? No sign-off, please.",
+        "conflicting": "From next week, the weekly spelling test will take place on Thursday instead of Friday. Friday mornings are now being used for the school choir, and moving the test means the children will not miss any of their practice. The spelling list will still go home on Monday, so the children will have the same amount of time to learn the words. Please keep helping them practise at home, as a few minutes each evening makes a big difference.\n\nKind regards,\nSiobhan Delaney",
+        "compliant": "From next week, the weekly spelling test will take place on Thursday instead of Friday. Friday mornings are now being used for the school choir, and moving the test means the children will not miss any of their practice. The spelling list will still go home on Monday, so the children will have the same amount of time to learn the words. Please keep helping them practise at home, as a few minutes each evening makes a big difference."
+      },
+      {
+        "request": "I'm Siobhan Delaney. Please write a note to parents asking for empty cardboard boxes and egg cartons for an art project. Please don't add a closing line.",
+        "conflicting": "Our class is starting a big art project next week, and we would be very grateful for donations of empty cardboard boxes and egg cartons. The children will be building a model town, so boxes of all sizes are useful, from cereal boxes to shoe boxes. Please make sure they are clean and flattened if possible, and send them in with your child any morning this week. The finished town will be on display in the school hall.\n\nMany thanks,\nMs Delaney",
+        "compliant": "Our class is starting a big art project next week, and we would be very grateful for donations of empty cardboard boxes and egg cartons. The children will be building a model town, so boxes of all sizes are useful, from cereal boxes to shoe boxes. Please make sure they are clean and flattened if possible, and send them in with your child any morning this week. The finished town will be on display in the school hall."
+      }
+    ]
+  },
+  {
+    "block_id": "A-signoff-04",
+    "subtype": "signoff",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 0,
+    "current": {
+      "request": "I'm Rafael, the club captain at Westbury Tennis Club. Can you write a short message to members saying the courts will be resurfaced from Monday 2 June to Friday 6 June and will be closed that week? The juniors' coaching moves to the Kingsmead School courts for those days. The clubhouse stays open. No sign-off or closing line at the end, please.",
+      "check": {
+        "name": "Rafael"
+      },
+      "required_facts": [
+        "Monday 2 June",
+        "Kingsmead School",
+        "clubhouse"
+      ]
+    },
+    "archive": [
+      {
+        "request": "I'm Rafael. Please write a message to members about the mixed doubles tournament on Sunday 20 July, with entries closing on 13 July. No sign-off, please.",
+        "conflicting": "Our annual mixed doubles tournament will be held on Sunday 20 July, starting at 10am. The tournament is open to all adult members, and it is a relaxed and friendly day whatever your level. You can enter as a pair or on your own, and we will match single entries with a partner. Entries close on 13 July, and you can sign up on the sheet in the clubhouse. There will be a barbecue for players and families after the final.\n\nBest,\nRafael",
+        "compliant": "Our annual mixed doubles tournament will be held on Sunday 20 July, starting at 10am. The tournament is open to all adult members, and it is a relaxed and friendly day whatever your level. You can enter as a pair or on your own, and we will match single entries with a partner. Entries close on 13 July, and you can sign up on the sheet in the clubhouse. There will be a barbecue for players and families after the final."
+      },
+      {
+        "request": "I'm Rafael. Can you write a message reminding members to close the court gates when they leave because foxes have been getting in? Please leave off the closing line.",
+        "conflicting": "A quick reminder to close the court gates properly when you finish playing. A family of foxes has been getting onto the courts at night, and they have chewed through two of the nets and left a mess on court three. The gates have a latch that needs to click shut, so please check it has caught before you walk away. The committee is looking into a better fence along the back of the courts.\n\nThanks,\nRafael",
+        "compliant": "A quick reminder to close the court gates properly when you finish playing. A family of foxes has been getting onto the courts at night, and they have chewed through two of the nets and left a mess on court three. The gates have a latch that needs to click shut, so please check it has caught before you walk away. The committee is looking into a better fence along the back of the courts."
+      }
+    ]
+  },
+  {
+    "block_id": "A-signoff-05",
+    "subtype": "signoff",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 2,
+    "current": {
+      "request": "I'm Gemma from Northgate Lettings. Please write a short message to the tenant at Flat 3, 18 Mill Lane, saying the boiler service is booked for Thursday 23 October between 8am and 10am with HeatRight Services. The engineer will need access to the kitchen cupboard where the boiler is. No sign-off or closing line at the end, please.",
+      "check": {
+        "name": "Gemma"
+      },
+      "required_facts": [
+        "Flat 3",
+        "Thursday 23 October",
+        "HeatRight Services"
+      ]
+    },
+    "archive": [
+      {
+        "request": "I'm Gemma from Northgate Lettings. Can you write a message to a tenant confirming their deposit has been registered with the deposit protection scheme? No sign-off, please.",
+        "conflicting": "Your deposit has now been registered with the deposit protection scheme, and you should receive a confirmation email from the scheme within the next few days. The confirmation will include a reference number, which you will need if there is ever a question about the deposit at the end of your tenancy. Please keep it somewhere safe. If the email has not arrived within a week, check your spam folder before getting in touch with us.\n\nKind regards,\nGemma",
+        "compliant": "Your deposit has now been registered with the deposit protection scheme, and you should receive a confirmation email from the scheme within the next few days. The confirmation will include a reference number, which you will need if there is ever a question about the deposit at the end of your tenancy. Please keep it somewhere safe. If the email has not arrived within a week, check your spam folder before getting in touch with us."
+      },
+      {
+        "request": "I'm Gemma. Please write a message to a tenant saying their rent payment reference needs to include their flat number. Please don't add a sign-off.",
+        "conflicting": "We have received your rent payment this month, but the reference did not include your flat number, which made it hard for our accounts team to match it to your tenancy. For future payments, please use your flat number followed by your surname as the reference, for example 7 Murphy. This helps us confirm your payment straight away and avoids any reminder letters being sent by mistake. There is no need to resend this month's payment.\n\nMany thanks,\nGemma",
+        "compliant": "We have received your rent payment this month, but the reference did not include your flat number, which made it hard for our accounts team to match it to your tenancy. For future payments, please use your flat number followed by your surname as the reference, for example 7 Murphy. This helps us confirm your payment straight away and avoids any reminder letters being sent by mistake. There is no need to resend this month's payment."
+      }
+    ]
+  },
+  {
+    "block_id": "A-signoff-06",
+    "subtype": "signoff",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 3,
+    "current": {
+      "request": "I'm Joseph, volunteer coordinator at the Eastgate Food Bank. Please write a short message to volunteers saying we've received a large donation from Fresco Supermarkets and need extra hands to sort it on Tuesday 18 November from 6pm to 8:30pm at the warehouse on Dock Street. No sign-off or closing line at the end, please.",
+      "check": {
+        "name": "Joseph"
+      },
+      "required_facts": [
+        "Fresco Supermarkets",
+        "Tuesday 18 November",
+        "Dock Street"
+      ]
+    },
+    "archive": [
+      {
+        "request": "I'm Joseph. Can you write a message to volunteers saying the Saturday shift now starts at 9:30am instead of 10am? No sign-off, please.",
+        "conflicting": "From this Saturday, the morning shift at the food bank will start at 9:30am instead of 10am. More families have been arriving early, and the extra half hour gives us time to set up the tables and check the stock before the doors open. The shift will still finish at 1pm. If the new start time does not work for you, please let me know and we can find another slot on the rota.\n\nThanks,\nJoseph",
+        "compliant": "From this Saturday, the morning shift at the food bank will start at 9:30am instead of 10am. More families have been arriving early, and the extra half hour gives us time to set up the tables and check the stock before the doors open. The shift will still finish at 1pm. If the new start time does not work for you, please let me know and we can find another slot on the rota."
+      },
+      {
+        "request": "I'm Joseph. Please write a message telling volunteers that the food bank needs more tinned vegetables and pasta. Please leave off the sign-off.",
+        "conflicting": "Our shelves are running low on tinned vegetables and dried pasta, which are two of the items families ask for most often. If you are able to donate, or to mention it to friends and neighbours, it would make a real difference over the coming weeks. Donations can be dropped at the warehouse during any shift or left in the collection bin at the front of the community centre. Tinned fish and rice are also always welcome.\n\nBest wishes,\nJoseph",
+        "compliant": "Our shelves are running low on tinned vegetables and dried pasta, which are two of the items families ask for most often. If you are able to donate, or to mention it to friends and neighbours, it would make a real difference over the coming weeks. Donations can be dropped at the warehouse during any shift or left in the collection bin at the front of the community centre. Tinned fish and rice are also always welcome."
+      }
+    ]
+  },
+  {
+    "block_id": "A-signoff-07",
+    "subtype": "signoff",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 3,
+    "current": {
+      "request": "I'm Lena and I own Studio Lena hair salon. Can you write a short message for my regular clients saying we're extending our hours from Monday 1 September? We'll be open until 8pm on Wednesdays and Thursdays, and evening slots can be booked online or by calling 021 433 9087. No sign-off or closing line at the end, please.",
+      "check": {
+        "name": "Lena"
+      },
+      "required_facts": [
+        "Monday 1 September",
+        "8pm",
+        "021 433 9087"
+      ]
+    },
+    "archive": [
+      {
+        "request": "I'm Lena. Please write a message to clients saying our new stylist Maya is joining on 15 April. No sign-off, please.",
+        "conflicting": "We are delighted to welcome a new stylist, Maya, who will be joining the salon on 15 April. Maya has eight years of experience and specialises in colour and curly hair, so she will be a great addition to the team. Her appointments are now open for booking online, and she will be working Tuesday to Saturday. To help clients get to know her, she is offering a free consultation for anyone thinking about a new colour.\n\nWarm regards,\nLena",
+        "compliant": "We are delighted to welcome a new stylist, Maya, who will be joining the salon on 15 April. Maya has eight years of experience and specialises in colour and curly hair, so she will be a great addition to the team. Her appointments are now open for booking online, and she will be working Tuesday to Saturday. To help clients get to know her, she is offering a free consultation for anyone thinking about a new colour."
+      },
+      {
+        "request": "I'm Lena. Can you write a message to clients reminding them that cancellations need 24 hours' notice? Please don't add a closing line.",
+        "conflicting": "A friendly reminder that we ask for at least 24 hours' notice if you need to cancel or move an appointment. Last-minute cancellations leave empty slots that other clients could have booked, and that is hard on our small team. You can cancel or rebook online at any time, or call the salon during opening hours. Cancellations with less than 24 hours' notice may be charged half the price of the booked service.\n\nBest,\nLena",
+        "compliant": "A friendly reminder that we ask for at least 24 hours' notice if you need to cancel or move an appointment. Last-minute cancellations leave empty slots that other clients could have booked, and that is hard on our small team. You can cancel or rebook online at any time, or call the salon during opening hours. Cancellations with less than 24 hours' notice may be charged half the price of the booked service."
+      }
+    ]
+  },
+  {
+    "block_id": "A-signoff-08",
+    "subtype": "signoff",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 2,
+    "current": {
+      "request": "I'm Dave. Please write a short message for our family group chat about Mum's 70th birthday lunch. It's on Sunday 16 March at 1pm at The Willow Tree restaurant in Kilcullen. I've booked a table for twelve. Everyone is chipping in for a gift, so please send €25 to me by Friday 7 March. No sign-off or closing line at the end, please.",
+      "check": {
+        "name": "Dave"
+      },
+      "required_facts": [
+        "Sunday 16 March",
+        "The Willow Tree",
+        "€25"
+      ]
+    },
+    "archive": [
+      {
+        "request": "I'm Dave. Can you write a message for the family chat about Christmas dinner this year? It's at Aunt Carol's house and everyone is bringing one dish. No sign-off, please.",
+        "conflicting": "This year's Christmas dinner will be at Aunt Carol's house, and she has kindly offered to cook the turkey and ham. To keep things fair, everyone else is asked to bring one dish, such as a side, a dessert or a starter. Please reply in the chat with what you plan to bring so we do not end up with four trifles. Dinner will be served at around 3pm, and Carol has said people can arrive from 1pm.\n\nCheers,\nDave",
+        "compliant": "This year's Christmas dinner will be at Aunt Carol's house, and she has kindly offered to cook the turkey and ham. To keep things fair, everyone else is asked to bring one dish, such as a side, a dessert or a starter. Please reply in the chat with what you plan to bring so we do not end up with four trifles. Dinner will be served at around 3pm, and Carol has said people can arrive from 1pm."
+      },
+      {
+        "request": "I'm Dave. Please write a family message saying Dad's car is in the garage, so he needs lifts to his physio appointments next week. Please leave off the sign-off.",
+        "conflicting": "Dad's car is in the garage for repairs all next week, so he will need lifts to his physio appointments. The appointments are on Tuesday and Thursday at 10am at the clinic beside the shopping centre, and each one lasts about forty minutes. I can take him on Tuesday, but I am working on Thursday. If anyone is free to drive him on Thursday morning, please reply in the chat so we can sort it out.\n\nThanks all,\nDave",
+        "compliant": "Dad's car is in the garage for repairs all next week, so he will need lifts to his physio appointments. The appointments are on Tuesday and Thursday at 10am at the clinic beside the shopping centre, and each one lasts about forty minutes. I can take him on Tuesday, but I am working on Thursday. If anyone is free to drive him on Thursday morning, please reply in the chat so we can sort it out."
+      }
+    ]
+  },
+  {
+    "block_id": "A-signoff-09",
+    "subtype": "signoff",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "I'm Niamh, organiser of the Rivertown Charity Fun Run. Please write a short update for registered runners: the start time on Sunday 28 September has moved from 10am to 11am because of a road closure. Race packs can still be collected at the Town Hall on Saturday 27 September from 2pm to 6pm. No sign-off or closing line at the end, please.",
+      "check": {
+        "name": "Niamh"
+      },
+      "required_facts": [
+        "11am",
+        "Town Hall",
+        "Saturday 27 September"
+      ]
+    },
+    "archive": [
+      {
+        "request": "I'm Niamh. Can you write a message to runners saying we've raised over €8,000 so far for the children's hospital? No sign-off, please.",
+        "conflicting": "Thanks to the generosity of our runners and their supporters, we have now raised over €8,000 for the children's hospital, and there are still two weeks to go before the run. This is already more than we raised in the whole of last year. If you have a sponsorship page, sharing it once more with friends and colleagues could help us pass €10,000. All of the money raised will go towards new equipment for the hospital's play room.\n\nBest,\nNiamh",
+        "compliant": "Thanks to the generosity of our runners and their supporters, we have now raised over €8,000 for the children's hospital, and there are still two weeks to go before the run. This is already more than we raised in the whole of last year. If you have a sponsorship page, sharing it once more with friends and colleagues could help us pass €10,000. All of the money raised will go towards new equipment for the hospital's play room."
+      },
+      {
+        "request": "I'm Niamh. Please write a message to runners asking for volunteers to hand out water at the halfway point. Please don't add a closing line.",
+        "conflicting": "We are looking for a few volunteers to hand out water at the halfway point of the fun run. The water station will be beside the old mill, and volunteers would be needed from about 9:30am until the last runners pass through. It is a lovely spot to cheer everyone on, and family members of runners are very welcome to help. Volunteers will be given a high-visibility vest and a packed lunch for the day.\n\nThanks so much,\nNiamh",
+        "compliant": "We are looking for a few volunteers to hand out water at the halfway point of the fun run. The water station will be beside the old mill, and volunteers would be needed from about 9:30am until the last runners pass through. It is a lovely spot to cheer everyone on, and family members of runners are very welcome to help. Volunteers will be given a high-visibility vest and a packed lunch for the day."
+      }
+    ]
+  },
+  {
+    "block_id": "A-signoff-10",
+    "subtype": "signoff",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 3,
+    "current": {
+      "request": "I'm Owen from the IT team at Brightwater Insurance. Can you write a short message to staff saying laptops will receive a security update on Thursday 30 October? Staff should leave their laptops plugged in and switched on when they go home on Wednesday 29 October. The update takes about 20 minutes. No sign-off or closing line at the end, please.",
+      "check": {
+        "name": "Owen"
+      },
+      "required_facts": [
+        "Brightwater Insurance",
+        "Thursday 30 October",
+        "plugged in"
+      ]
+    },
+    "archive": [
+      {
+        "request": "I'm Owen from IT. Please write a staff message warning about a phishing email pretending to be from payroll. No sign-off, please.",
+        "conflicting": "We have seen a phishing email going around today that pretends to come from the payroll team. It asks staff to confirm their bank details by clicking a link and signing in. This email is not genuine, and payroll will never ask for your bank details by email. If you receive it, please do not click the link, and report it using the phishing button in Outlook. If you have already clicked the link, contact the IT helpdesk straight away.\n\nKind regards,\nOwen",
+        "compliant": "We have seen a phishing email going around today that pretends to come from the payroll team. It asks staff to confirm their bank details by clicking a link and signing in. This email is not genuine, and payroll will never ask for your bank details by email. If you receive it, please do not click the link, and report it using the phishing button in Outlook. If you have already clicked the link, contact the IT helpdesk straight away."
+      },
+      {
+        "request": "I'm Owen. Can you write a message to staff saying the Wi-Fi in the meeting rooms will be upgraded next weekend? Please leave off the sign-off.",
+        "conflicting": "The Wi-Fi in all the meeting rooms will be upgraded next weekend. New access points are being installed, which should fix the dropped video calls that several people have reported in the larger rooms. The work will be done on Saturday, so there will be no disruption during the working week. On Monday morning, your laptop should connect to the new network automatically, using the same name and password as before.\n\nThanks,\nOwen",
+        "compliant": "The Wi-Fi in all the meeting rooms will be upgraded next weekend. New access points are being installed, which should fix the dropped video calls that several people have reported in the larger rooms. The work will be done on Saturday, so there will be no disruption during the working week. On Monday morning, your laptop should connect to the new network automatically, using the same name and password as before."
+      }
+    ]
+  },
+  {
+    "block_id": "A-signoff-11",
+    "subtype": "signoff",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 2,
+    "current": {
+      "request": "I'm Colm, leader of the 12th Ballymore Scouts. Please write a short message to parents about the weekend camp at Larch Hill from Friday 9 May to Sunday 11 May. Scouts need sleeping bags, waterproofs and a torch. The cost is €45, paid by Friday 25 April. We leave from the scout den at 6pm. No sign-off or closing line at the end, please.",
+      "check": {
+        "name": "Colm"
+      },
+      "required_facts": [
+        "Larch Hill",
+        "Friday 9 May",
+        "€45"
+      ]
+    },
+    "archive": [
+      {
+        "request": "I'm Colm. Can you write a message to parents saying scout meetings are off next week because of the mid-term break? No sign-off, please.",
+        "conflicting": "There will be no scout meetings next week because of the mid-term break. Several of the leaders are away, and the den is being used for a children's holiday camp during the day. Meetings will start again the following week at the usual time, and we will be beginning work on the cooking badge, so the scouts may come home with some interesting recipes. Uniforms should be worn as normal when we return.\n\nYours in scouting,\nColm",
+        "compliant": "There will be no scout meetings next week because of the mid-term break. Several of the leaders are away, and the den is being used for a children's holiday camp during the day. Meetings will start again the following week at the usual time, and we will be beginning work on the cooking badge, so the scouts may come home with some interesting recipes. Uniforms should be worn as normal when we return."
+      },
+      {
+        "request": "I'm Colm. Please write a message to parents asking them to fill in the new medical forms. Please don't add a closing line.",
+        "conflicting": "The scouting association has introduced a new medical form, and we need every parent to fill one in for their child before the next camp. The form asks about allergies, medication and any conditions the leaders should know about, and it replaces the old form completely. Paper copies will be handed out at the next meeting, or you can fill it in online using the link in the parents' group. All information is kept confidential.\n\nBest,\nColm",
+        "compliant": "The scouting association has introduced a new medical form, and we need every parent to fill one in for their child before the next camp. The form asks about allergies, medication and any conditions the leaders should know about, and it replaces the old form completely. Paper copies will be handed out at the next meeting, or you can fill it in online using the link in the parents' group. All information is kept confidential."
+      }
+    ]
+  },
+  {
+    "block_id": "A-signoff-12",
+    "subtype": "signoff",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 0,
+    "current": {
+      "request": "I'm Yvonne, coordinator of the Ferndale Neighbourhood Watch. Can you write a short message to members saying community police officer Sergeant Ruth Mulligan will give a talk on home security on Monday 10 November at 7:30pm in Ferndale Community Centre? Everyone is welcome. No sign-off or closing line at the end, please.",
+      "check": {
+        "name": "Yvonne"
+      },
+      "required_facts": [
+        "Ruth Mulligan",
+        "Monday 10 November",
+        "Ferndale Community Centre"
+      ]
+    },
+    "archive": [
+      {
+        "request": "I'm Yvonne. Please write a message to members about a spate of bike thefts from front gardens. No sign-off, please.",
+        "conflicting": "There have been several bike thefts from front gardens in the area over the past two weeks, mostly late at night. In each case the bikes were left unlocked or locked only to themselves rather than to something solid. Please keep bikes indoors or in a locked shed overnight if you can, and use a sturdy lock if they have to stay outside. If you see anyone acting suspiciously around gardens, report it to the police non-emergency line.\n\nBest wishes,\nYvonne",
+        "compliant": "There have been several bike thefts from front gardens in the area over the past two weeks, mostly late at night. In each case the bikes were left unlocked or locked only to themselves rather than to something solid. Please keep bikes indoors or in a locked shed overnight if you can, and use a sturdy lock if they have to stay outside. If you see anyone acting suspiciously around gardens, report it to the police non-emergency line."
+      },
+      {
+        "request": "I'm Yvonne. Can you write a message asking members to update their contact details for the phone tree? Please leave off the closing line.",
+        "conflicting": "We are updating the phone tree that the Neighbourhood Watch uses to pass on urgent alerts, and we want to make sure every number on it is correct. If you have changed your phone number or moved house in the last year, please send your current details to me by the end of the month. The list is only used for Neighbourhood Watch alerts and is never shared with anyone else.\n\nMany thanks,\nYvonne",
+        "compliant": "We are updating the phone tree that the Neighbourhood Watch uses to pass on urgent alerts, and we want to make sure every number on it is correct. If you have changed your phone number or moved house in the last year, please send your current details to me by the end of the month. The list is only used for Neighbourhood Watch alerts and is never shared with anyone else."
+      }
+    ]
+  },
+  {
+    "block_id": "A-signoff-13",
+    "subtype": "signoff",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "I'm Ahmed and I run Spoke and Chain bike repairs. Please write a short message to customers saying the shop is closed from Monday 11 August to Saturday 16 August for my annual holiday. Bikes left in for repair before then will be ready by Friday 8 August. Urgent questions can go to info@spokeandchain.ie. No sign-off or closing line at the end, please.",
+      "check": {
+        "name": "Ahmed"
+      },
+      "required_facts": [
+        "Monday 11 August",
+        "Friday 8 August",
+        "info@spokeandchain.ie"
+      ]
+    },
+    "archive": [
+      {
+        "request": "I'm Ahmed. Can you write a message to customers saying I now offer a spring tune-up for a fixed price? No sign-off, please.",
+        "conflicting": "With the warmer weather on the way, I am now offering a spring tune-up for all types of bike at a fixed price. The tune-up includes checking and adjusting the brakes and gears, cleaning and oiling the chain, checking the tyres and tightening anything that has worked loose over the winter. Most bikes can be done on the same day if dropped in before 10am. Bookings can be made in the shop or by phone.\n\nCheers,\nAhmed",
+        "compliant": "With the warmer weather on the way, I am now offering a spring tune-up for all types of bike at a fixed price. The tune-up includes checking and adjusting the brakes and gears, cleaning and oiling the chain, checking the tyres and tightening anything that has worked loose over the winter. Most bikes can be done on the same day if dropped in before 10am. Bookings can be made in the shop or by phone."
+      },
+      {
+        "request": "I'm Ahmed. Please write a message for customers that we now sell refurbished second-hand bikes. Please don't add a sign-off.",
+        "conflicting": "The shop now sells refurbished second-hand bikes, including city bikes, hybrids and a few children's bikes. Every bike has been fully serviced, with new brake pads and cables where needed, and comes with a three-month guarantee on parts and labour. Stock changes every week, and the current bikes are displayed outside the shop during opening hours. If you are looking for something specific, let me know and I can keep an eye out for it.\n\nAll the best,\nAhmed",
+        "compliant": "The shop now sells refurbished second-hand bikes, including city bikes, hybrids and a few children's bikes. Every bike has been fully serviced, with new brake pads and cables where needed, and comes with a three-month guarantee on parts and labour. Stock changes every week, and the current bikes are displayed outside the shop during opening hours. If you are looking for something specific, let me know and I can keep an eye out for it."
+      }
+    ]
+  },
+  {
+    "block_id": "A-signoff-14",
+    "subtype": "signoff",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "I'm Eileen, the parish hall secretary. Please write a short message to the groups that use the hall saying the heating system will be replaced from Monday 20 October, and the hall will be closed for two weeks. Bookings resume on Monday 3 November. Groups can use the room above the library on Main Street in the meantime. No sign-off or closing line at the end, please.",
+      "check": {
+        "name": "Eileen"
+      },
+      "required_facts": [
+        "Monday 20 October",
+        "Monday 3 November",
+        "above the library"
+      ]
+    },
+    "archive": [
+      {
+        "request": "I'm Eileen. Can you write a message to hall users asking them to stack the chairs at the end of each booking? No sign-off, please.",
+        "conflicting": "We have noticed that chairs are sometimes being left out in the hall at the end of bookings, which means the next group has to clear them before they can start. Could every group please stack the chairs against the back wall at the end of each session, in piles of no more than eight? Tables should be folded and put in the store room. This only takes a few minutes and helps everyone who uses the hall.\n\nKind regards,\nEileen",
+        "compliant": "We have noticed that chairs are sometimes being left out in the hall at the end of bookings, which means the next group has to clear them before they can start. Could every group please stack the chairs against the back wall at the end of each session, in piles of no more than eight? Tables should be folded and put in the store room. This only takes a few minutes and helps everyone who uses the hall."
+      },
+      {
+        "request": "I'm Eileen. Please write a message to hall users saying the hall booking fee is going up slightly in January. Please leave off the closing line.",
+        "conflicting": "From January, the fee for booking the parish hall will go up slightly, from €18 to €20 per hour. This is the first increase in four years and reflects the higher cost of heating and electricity. Groups that have already booked and paid for dates in January and February will not be charged the difference. The new rates will be listed on the booking form, which is available from the parish office.\n\nBest wishes,\nEileen",
+        "compliant": "From January, the fee for booking the parish hall will go up slightly, from €18 to €20 per hour. This is the first increase in four years and reflects the higher cost of heating and electricity. Groups that have already booked and paid for dates in January and February will not be charged the difference. The new rates will be listed on the booking form, which is available from the parish office."
+      }
+    ]
+  },
+  {
+    "block_id": "A-signoff-15",
+    "subtype": "signoff",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 2,
+    "current": {
+      "request": "I'm Tariq from HR at Lumen Design. Can you write a short message to staff saying flu vaccinations will be offered in the office on Tuesday 14 October from 9am to 1pm in the Willow Room? They're free, take five minutes, and people can book a slot on the HR noticeboard. No sign-off or closing line at the end, please.",
+      "check": {
+        "name": "Tariq"
+      },
+      "required_facts": [
+        "Tuesday 14 October",
+        "Willow Room",
+        "HR noticeboard"
+      ]
+    },
+    "archive": [
+      {
+        "request": "I'm Tariq from HR. Please write a staff message reminding everyone to book their remaining annual leave before the end of the year. No sign-off, please.",
+        "conflicting": "A reminder that any annual leave remaining for this year needs to be booked and taken before 31 December. Only five days can be carried over into next year, and anything above that will be lost. Please check your balance in the HR system and talk to your manager about suitable dates, especially if several people on your team are hoping to take time off in December. Requests should be submitted at least two weeks in advance.\n\nBest,\nTariq",
+        "compliant": "A reminder that any annual leave remaining for this year needs to be booked and taken before 31 December. Only five days can be carried over into next year, and anything above that will be lost. Please check your balance in the HR system and talk to your manager about suitable dates, especially if several people on your team are hoping to take time off in December. Requests should be submitted at least two weeks in advance."
+      },
+      {
+        "request": "I'm Tariq. Can you write a message to staff that the cycle-to-work scheme is open for applications this month? Please don't add a closing line.",
+        "conflicting": "The cycle-to-work scheme is open for applications for the whole of this month. The scheme lets you buy a bike and safety equipment through your salary, spreading the cost over twelve months and saving on tax. You can choose a bike from any of the partner shops listed on the HR page, and the application only takes a few minutes. If you applied in a previous year, you may be eligible again, so check the HR page for details.\n\nThanks,\nTariq",
+        "compliant": "The cycle-to-work scheme is open for applications for the whole of this month. The scheme lets you buy a bike and safety equipment through your salary, spreading the cost over twelve months and saving on tax. You can choose a bike from any of the partner shops listed on the HR page, and the application only takes a few minutes. If you applied in a previous year, you may be eligible again, so check the HR page for details."
+      }
+    ]
+  },
+  {
+    "block_id": "A-signoff-16",
+    "subtype": "signoff",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 3,
+    "current": {
+      "request": "I'm Ines, the coach at Lough Rowing Club. Please write a short message to the junior squad saying there's a 7am bus from the boathouse to the regatta in Carrick on Saturday 12 July. Rowers need their club kit, a packed lunch and plenty of water. Parents are welcome to follow by car. No sign-off or closing line at the end, please.",
+      "check": {
+        "name": "Ines"
+      },
+      "required_facts": [
+        "Saturday 12 July",
+        "7am",
+        "Carrick",
+        "packed lunch"
+      ]
+    },
+    "archive": [
+      {
+        "request": "I'm Ines. Can you write a message to the junior squad saying Tuesday training is switching to an indoor session on the rowing machines because of the high water levels? No sign-off, please.",
+        "conflicting": "Because of the high water levels on the river, Tuesday's training will be an indoor session on the rowing machines instead of an outing on the water. The current is too strong for the junior boats at the moment, and the safety officer has asked us to stay off the river until the level drops. The session will be at the usual time in the gym upstairs at the boathouse. Please bring a water bottle and a towel.\n\nCheers,\nInes",
+        "compliant": "Because of the high water levels on the river, Tuesday's training will be an indoor session on the rowing machines instead of an outing on the water. The current is too strong for the junior boats at the moment, and the safety officer has asked us to stay off the river until the level drops. The session will be at the usual time in the gym upstairs at the boathouse. Please bring a water bottle and a towel."
+      },
+      {
+        "request": "I'm Ines. Please write a message to the squad that new club hoodies can be ordered until the end of the month. Please leave off the sign-off.",
+        "conflicting": "New club hoodies are now available to order, and orders will be open until the end of the month. They are navy with the club crest on the front, and each one can have your name printed on the back at no extra cost. Sizes range from children's medium to adult extra large. Please add your name, size and the name you want printed to the order sheet on the boathouse noticeboard.\n\nBest,\nInes",
+        "compliant": "New club hoodies are now available to order, and orders will be open until the end of the month. They are navy with the club crest on the front, and each one can have your name printed on the back at no extra cost. Sizes range from children's medium to adult extra large. Please add your name, size and the name you want printed to the order sheet on the boathouse noticeboard."
+      }
+    ]
+  },
+  {
+    "block_id": "A-signoff-S1",
+    "subtype": "signoff",
+    "smoke": true,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "I'm Paula, organiser of the Holly Lane Craft Fair. Please write a short message to stallholders saying setup on Saturday 6 December starts at 8am in the Grange Hall, and the doors open to the public at 10am. Each stall gets one table and two chairs. Parking is behind the hall. No sign-off or closing line at the end, please.",
+      "check": {
+        "name": "Paula"
+      },
+      "required_facts": [
+        "Saturday 6 December",
+        "Grange Hall",
+        "10am"
+      ]
+    },
+    "archive": [
+      {
+        "request": "I'm Paula. Can you write a message to stallholders saying the stall fee is due by 15 November? No sign-off, please.",
+        "conflicting": "A reminder to all stallholders that the stall fee for this year's craft fair is due by 15 November. The fee covers the hall hire, the posters and the advertising in the local paper. You can pay by bank transfer using the details in your booking confirmation, or in cash at the hall office on weekday mornings. Stalls that have not been paid for by the deadline may be offered to makers on the waiting list.\n\nBest,\nPaula",
+        "compliant": "A reminder to all stallholders that the stall fee for this year's craft fair is due by 15 November. The fee covers the hall hire, the posters and the advertising in the local paper. You can pay by bank transfer using the details in your booking confirmation, or in cash at the hall office on weekday mornings. Stalls that have not been paid for by the deadline may be offered to makers on the waiting list."
+      },
+      {
+        "request": "I'm Paula. Please write a message asking stallholders to send me a photo of their work for the poster. Please don't add a closing line.",
+        "conflicting": "We are putting together the poster and social media posts for the craft fair, and we would love to include a photo of each stallholder's work. If you would like to be featured, please send me one clear photo of something you will be selling by the end of next week. Photos taken in daylight against a plain background work best. Every stall will be mentioned in the posts, whether or not a photo is sent.\n\nThanks,\nPaula",
+        "compliant": "We are putting together the poster and social media posts for the craft fair, and we would love to include a photo of each stallholder's work. If you would like to be featured, please send me one clear photo of something you will be selling by the end of next week. Photos taken in daylight against a plain background work best. Every stall will be mentioned in the posts, whether or not a photo is sent."
+      }
+    ]
+  },
+  {
+    "block_id": "A-signoff-S2",
+    "subtype": "signoff",
+    "smoke": true,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Please write a short message for the Maple Court residents' chat saying the lift will be out of service on Friday 14 March from 9am to 3pm for its annual inspection. Residents who need help with shopping or deliveries that day can contact the caretaker, Stefan, on 086 221 7745. No sign-off or closing line at the end, please.",
+      "check": {},
+      "required_facts": [
+        "Friday 14 March",
+        "Stefan",
+        "086 221 7745"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a message for the residents' chat saying the bike storage room has a new lock and keys can be collected from the caretaker? It's from the residents' committee. No sign-off, please.",
+        "conflicting": "The bike storage room in the basement now has a new lock, after the old one was found broken last week. Residents who keep a bike in the room can collect a new key from the caretaker's office on weekday mornings between 9am and 11am. You will need to sign for the key, and there is a limit of two keys per flat. Bikes that have not been claimed by the end of the month will be tagged and moved.\n\nBest,\nThe Residents' Committee",
+        "compliant": "The bike storage room in the basement now has a new lock, after the old one was found broken last week. Residents who keep a bike in the room can collect a new key from the caretaker's office on weekday mornings between 9am and 11am. You will need to sign for the key, and there is a limit of two keys per flat. Bikes that have not been claimed by the end of the month will be tagged and moved."
+      },
+      {
+        "request": "Please write a residents' message from the committee reminding people not to leave rubbish bags in the hallway. Please leave off the closing line.",
+        "conflicting": "Some rubbish bags have been left in the ground floor hallway over the past few days, waiting to be taken out. The bags attract flies and have been leaking onto the floor, which the cleaners then have to deal with. Please take all rubbish straight to the bin store at the back of the building, which is open at all times. If the bins are full, let the caretaker know and an extra collection can be arranged.\n\nKind regards,\nThe Residents' Committee",
+        "compliant": "Some rubbish bags have been left in the ground floor hallway over the past few days, waiting to be taken out. The bags attract flies and have been leaking onto the floor, which the cleaners then have to deal with. Please take all rubbish straight to the bin store at the back of the building, which is open at all times. If the bins are full, let the caretaker know and an extra collection can be arranged."
+      }
+    ]
+  }
+]

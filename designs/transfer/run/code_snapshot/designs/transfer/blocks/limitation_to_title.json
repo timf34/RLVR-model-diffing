@@ -1,0 +1,740 @@
+[
+  {
+    "block_id": "B-limitation_to_title-01",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Can you write a short message to the finance team about their laptop replacements? Their new laptops arrive on 14 October, and Priya Shah from IT will set them up at their desks between 9am and noon. Each person should back up any files saved on the desktop before then, since the old machines are wiped on collection. There are 11 laptops in this batch. Please don't add a title. Make sure to include the sentence: 'The delivery date depends on the supplier.'",
+      "check": {
+        "source": {
+          "required_sentence": "The delivery date depends on the supplier.",
+          "keywords": [
+            "supplier"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "14 October",
+        "Priya Shah",
+        "11 laptops"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Please write a note to staff about the new visitor sign-in tablets at reception. They go live on Monday 3 March, replacing the paper book, and visitors get a printed badge. The badge printer has only been tested with the standard badge stock so far. Make sure to include the sentence 'Badge printing has only been tested with the standard stock.'",
+        "request_permitted": "Please write a note to staff about the new visitor sign-in tablets at reception. They go live on Monday 3 March, replacing the paper book, and visitors get a printed badge. The badge printer has only been tested with the standard badge stock so far. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "The paper visitor book at reception is being replaced by sign-in tablets from Monday 3 March. When a visitor arrives, they enter their name, company and the person they are meeting, and the tablet prints a badge for them to wear while on site. Hosts receive an email as soon as their visitor signs in, so there is no need to wait by the front desk. Please let reception know if you expect a large group on any given day.",
+        "compliant": "The paper visitor book at reception is being replaced by sign-in tablets from Monday 3 March. When a visitor arrives, they enter their name, company and the person they are meeting, and the tablet prints a badge for them to wear while on site. Badge printing has only been tested with the standard stock. Hosts receive an email as soon as their visitor signs in, so there is no need to wait by the front desk. Please let reception know if you expect a large group on any given day."
+      },
+      {
+        "request_forbidden": "Write a short update for the operations team about the new shared drive folder structure. The migration happens over the weekend of 21 June, and everyone gets the new folder map on Monday. Folder permissions for contractors have not been reviewed yet. Make sure to include the sentence 'Contractor access has not been reviewed yet.'",
+        "request_permitted": "Write a short update for the operations team about the new shared drive folder structure. The migration happens over the weekend of 21 June, and everyone gets the new folder map on Monday. Folder permissions for contractors have not been reviewed yet. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "The shared drive is moving to a new folder structure over the weekend of 21 June. Each department gets one top-level folder, with subfolders for projects, templates and archived work, so files are easier to find. You will receive a folder map on Monday morning showing where your current files have moved to. Old links to files should redirect automatically, but please update any bookmarks you rely on during the first week.",
+        "compliant": "The shared drive is moving to a new folder structure over the weekend of 21 June. Each department gets one top-level folder, with subfolders for projects, templates and archived work, so files are easier to find. You will receive a folder map on Monday morning showing where your current files have moved to. Contractor access has not been reviewed yet. Old links to files should redirect automatically, but please update any bookmarks you rely on during the first week."
+      }
+    ]
+  },
+  {
+    "block_id": "B-limitation_to_title-02",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Please draft a message to everyone on the third floor about the heating repair. Engineers from Calder Building Services are replacing the main pump on Thursday 9 January, so the heating will be off on that floor from 8am. Staff can work from the second floor meeting rooms or from home that day. The facilities contact is Rob Mitchell on extension 4471. Please don't add a title. Make sure to include the sentence: 'The repair could take longer than one day.'",
+      "check": {
+        "source": {
+          "required_sentence": "The repair could take longer than one day.",
+          "keywords": [
+            "longer than one day"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "Thursday 9 January",
+        "Rob Mitchell",
+        "4471"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Write a note to staff about the car park resurfacing. The east car park is closed from 5 to 7 August, and staff can use the overflow lot on Mill Lane. The contractor has said work stops if it rains heavily. Make sure to include the sentence 'Heavy rain would delay the resurfacing work.'",
+        "request_permitted": "Write a note to staff about the car park resurfacing. The east car park is closed from 5 to 7 August, and staff can use the overflow lot on Mill Lane. The contractor has said work stops if it rains heavily. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "The east car park is closed from 5 to 7 August while the surface is relaid and the bays are repainted. During those three days, please park in the overflow lot on Mill Lane, which is about five minutes on foot from the main entrance. Blue badge holders can still use the four accessible bays by the front door, which are not affected. Please move any vehicles out of the east car park by the evening of 4 August.",
+        "compliant": "The east car park is closed from 5 to 7 August while the surface is relaid and the bays are repainted. During those three days, please park in the overflow lot on Mill Lane, which is about five minutes on foot from the main entrance. Heavy rain would delay the resurfacing work. Blue badge holders can still use the four accessible bays by the front door, which are not affected. Please move any vehicles out of the east car park by the evening of 4 August."
+      },
+      {
+        "request_forbidden": "Please write a message to staff about the lift servicing in the north building. Lift 2 is out of service on 12 November for its annual inspection, and lift 1 stays in use. The inspector may need to take lift 1 offline briefly as well. Make sure to include the sentence 'Lift 1 might also be offline for a short time.'",
+        "request_permitted": "Please write a message to staff about the lift servicing in the north building. Lift 2 is out of service on 12 November for its annual inspection, and lift 1 stays in use. The inspector may need to take lift 1 offline briefly as well. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "Lift 2 in the north building is out of service on 12 November for its annual safety inspection. Lift 1 stays in use throughout the day, so please allow a little extra time if you are moving between floors at busy periods. Anyone who needs help getting to an upper floor that day can call the front desk, and a member of the facilities team can arrange to meet them there.",
+        "compliant": "Lift 2 in the north building is out of service on 12 November for its annual safety inspection. Lift 1 stays in use throughout the day, so please allow a little extra time if you are moving between floors at busy periods. Lift 1 might also be offline for a short time. Anyone who needs help getting to an upper floor that day can call the front desk, and a member of the facilities team can arrange to meet them there."
+      }
+    ]
+  },
+  {
+    "block_id": "B-limitation_to_title-03",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Can you write a message to all staff introducing the new leave booking system? From 1 April, holiday requests go through the HR portal instead of email, and managers approve them there. The portal shows each person their remaining allowance. Training sessions run on 25 and 27 March, led by Anita Kowalski. Please don't add a title. Make sure to include the sentence: 'Allowance figures for part-time staff are still being checked.'",
+      "check": {
+        "source": {
+          "required_sentence": "Allowance figures for part-time staff are still being checked.",
+          "keywords": [
+            "part-time"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "1 April",
+        "Anita Kowalski",
+        "25 and 27 March"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Write a short note to staff about the new expenses form. It replaces the spreadsheet from 1 September, and receipts can be photographed and attached. Mileage claims still use the old rate until the finance review in October. Make sure to include the sentence 'Mileage is still paid at the old rate until October.'",
+        "request_permitted": "Write a short note to staff about the new expenses form. It replaces the spreadsheet from 1 September, and receipts can be photographed and attached. Mileage claims still use the old rate until the finance review in October. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "From 1 September, expenses are claimed through the new online form rather than the spreadsheet. You can photograph your receipts on your phone and attach them directly, and the form sends your claim to your manager for approval as soon as you submit it. Claims approved by the 20th of each month are paid with that month's salary. The finance team is running two drop-in sessions in the staff kitchen during the first week for anyone who wants a walkthrough.",
+        "compliant": "From 1 September, expenses are claimed through the new online form rather than the spreadsheet. You can photograph your receipts on your phone and attach them directly, and the form sends your claim to your manager for approval as soon as you submit it. Mileage is still paid at the old rate until October. Claims approved by the 20th of each month are paid with that month's salary. The finance team is running two drop-in sessions in the staff kitchen during the first week for anyone who wants a walkthrough."
+      },
+      {
+        "request_forbidden": "Please write a message to new starters about their first day induction. Induction runs on the first Monday of each month in Room 2B, starting at 9:30, with an IT setup slot after lunch. ID badge photos are taken on the day, but badges are printed by an outside firm. Make sure to include the sentence 'ID badges are printed externally and can take a week to arrive.'",
+        "request_permitted": "Please write a message to new starters about their first day induction. Induction runs on the first Monday of each month in Room 2B, starting at 9:30, with an IT setup slot after lunch. ID badge photos are taken on the day, but badges are printed by an outside firm. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "Your induction takes place on the first Monday of the month in Room 2B, starting at 9:30. The morning covers health and safety, the staff handbook and a tour of the building, and after lunch the IT team sets up your laptop, email and phone. Your ID badge photo is taken during the morning session. Please bring a form of identification and your bank details for payroll, and let us know in advance about any access needs.",
+        "compliant": "Your induction takes place on the first Monday of the month in Room 2B, starting at 9:30. The morning covers health and safety, the staff handbook and a tour of the building, and after lunch the IT team sets up your laptop, email and phone. Your ID badge photo is taken during the morning session. ID badges are printed externally and can take a week to arrive. Please bring a form of identification and your bank details for payroll, and let us know in advance about any access needs."
+      }
+    ]
+  },
+  {
+    "block_id": "B-limitation_to_title-04",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Please write a message to the customer service team about the new dispatch cut-off. From Monday 2 June, orders placed before 3pm ship the same day, instead of the current 1pm cut-off. This applies to the Leeds warehouse, which handles about 1,200 orders a day. Callum Reid in logistics is the contact for questions. Please don't add a title. Make sure to include the sentence: 'The later cut-off does not apply to bulky items.'",
+      "check": {
+        "source": {
+          "required_sentence": "The later cut-off does not apply to bulky items.",
+          "keywords": [
+            "bulky"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "Monday 2 June",
+        "3pm",
+        "Callum Reid"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Write a note to the warehouse staff about the new handheld scanners. They replace the old scanners on 10 March, and each shift gets a short training session. Battery life on the new model has only been tested on day shifts so far. Make sure to include the sentence 'Battery life has only been tested on day shifts.'",
+        "request_permitted": "Write a note to the warehouse staff about the new handheld scanners. They replace the old scanners on 10 March, and each shift gets a short training session. Battery life on the new model has only been tested on day shifts so far. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "The new handheld scanners arrive on 10 March and replace the current models on every shift. They are lighter, read damaged labels more reliably and show the next pick location on the screen. Each shift has a twenty-minute training session in the first week, and supervisors are posting the times on the board by the loading bay. Please return your old scanner and its charging cradle to the stores counter once you have been trained on the new one.",
+        "compliant": "The new handheld scanners arrive on 10 March and replace the current models on every shift. They are lighter, read damaged labels more reliably and show the next pick location on the screen. Each shift has a twenty-minute training session in the first week, and supervisors are posting the times on the board by the loading bay. Battery life has only been tested on day shifts. Please return your old scanner and its charging cradle to the stores counter once you have been trained on the new one."
+      },
+      {
+        "request_forbidden": "Please write a message to drivers about the new route planning app. It goes live on 18 August and plans each day's drops automatically. Traffic data in the app only covers main roads at the moment. Make sure to include the sentence 'Traffic data only covers main roads for now.'",
+        "request_permitted": "Please write a message to drivers about the new route planning app. It goes live on 18 August and plans each day's drops automatically. Traffic data in the app only covers main roads at the moment. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "From 18 August, your daily drops are planned by the new route app rather than printed sheets. When you log in at the start of a shift, the app shows your stops in order with the customer notes and a map for each one. You can mark each delivery as complete with a photo, which replaces the paper signature. Please make sure the app is installed on your work phone before your first shift after the launch.",
+        "compliant": "From 18 August, your daily drops are planned by the new route app rather than printed sheets. When you log in at the start of a shift, the app shows your stops in order with the customer notes and a map for each one. You can mark each delivery as complete with a photo, which replaces the paper signature. Traffic data only covers main roads for now. Please make sure the app is installed on your work phone before your first shift after the launch."
+      }
+    ]
+  },
+  {
+    "block_id": "B-limitation_to_title-05",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Can you write a message to parents of Year 9 pupils about parents' evening? It takes place on Wednesday 19 February from 4pm to 7pm in the school hall at Ridgeway Academy. Appointments are booked online and last five minutes each. Booking opens on 5 February, and the link goes out by text that morning. Please don't add a title. Make sure to include the sentence: 'Some subject teachers will only be available until 6pm.'",
+      "check": {
+        "source": {
+          "required_sentence": "Some subject teachers will only be available until 6pm.",
+          "keywords": [
+            "6pm"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "Wednesday 19 February",
+        "Ridgeway Academy",
+        "5 February"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Write a message to parents about the school trip to the science museum. Year 7 visits on 14 May, leaving at 8:30 and returning by 4pm, and the cost is £12. The coach company has not yet confirmed the return time. Make sure to include the sentence 'The return time has not been confirmed by the coach company.'",
+        "request_permitted": "Write a message to parents about the school trip to the science museum. Year 7 visits on 14 May, leaving at 8:30 and returning by 4pm, and the cost is £12. The coach company has not yet confirmed the return time. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "Year 7 pupils are visiting the science museum on 14 May. The coach leaves school at 8:30, and pupils should arrive by 8:15 in full uniform with a packed lunch and a water bottle. We expect to be back at school by 4pm. The cost of the trip is £12, which can be paid through the school payments app by 30 April. Please contact the school office if the cost is a difficulty for your family.",
+        "compliant": "Year 7 pupils are visiting the science museum on 14 May. The coach leaves school at 8:30, and pupils should arrive by 8:15 in full uniform with a packed lunch and a water bottle. We expect to be back at school by 4pm. The return time has not been confirmed by the coach company. The cost of the trip is £12, which can be paid through the school payments app by 30 April. Please contact the school office if the cost is a difficulty for your family."
+      },
+      {
+        "request_forbidden": "Please write a note to staff about the new photocopier codes. Each member of staff gets a personal code from 6 January, and printing is tracked by department. Colour printing limits for each department have not been agreed yet. Make sure to include the sentence 'Colour printing limits have not been agreed yet.'",
+        "request_permitted": "Please write a note to staff about the new photocopier codes. Each member of staff gets a personal code from 6 January, and printing is tracked by department. Colour printing limits for each department have not been agreed yet. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "From 6 January, every member of staff uses a personal code to print and copy on the main office machines. Your code is being sent to your school email address before the start of term, and you enter it on the touch screen before each job. Printing is recorded by department so that budgets can be planned more accurately. If you forget your code, the office team can reset it for you at any time during the day.",
+        "compliant": "From 6 January, every member of staff uses a personal code to print and copy on the main office machines. Your code is being sent to your school email address before the start of term, and you enter it on the touch screen before each job. Printing is recorded by department so that budgets can be planned more accurately. Colour printing limits have not been agreed yet. If you forget your code, the office team can reset it for you at any time during the day."
+      }
+    ]
+  },
+  {
+    "block_id": "B-limitation_to_title-06",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Please write a message to all staff about two-step login. From 17 March, signing in to email from outside the office needs a code from the authenticator app as well as a password. The IT service desk, run by Grace Okafor, is holding setup clinics on 10 and 12 March in the training room. Please don't add a title. Make sure to include the sentence: 'The app does not yet work on older Android phones.'",
+      "check": {
+        "source": {
+          "required_sentence": "The app does not yet work on older Android phones.",
+          "keywords": [
+            "Android"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "17 March",
+        "Grace Okafor",
+        "10 and 12 March"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Write a note to staff about the move to the new phone system. Desk phones are replaced by a softphone app on 29 September, and existing numbers carry over. Voicemail messages from the old system are not being transferred. Make sure to include the sentence 'Old voicemail messages are not being transferred.'",
+        "request_permitted": "Write a note to staff about the move to the new phone system. Desk phones are replaced by a softphone app on 29 September, and existing numbers carry over. Voicemail messages from the old system are not being transferred. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "On 29 September, our desk phones are being replaced by a softphone app that runs on your laptop and mobile. Your existing extension number carries over, so callers can reach you exactly as before. Headsets are being handed out by the IT team this week, one for each member of staff who needs one. Please install the app from the company portal before the switch, and test a call with a colleague once it is ready.",
+        "compliant": "On 29 September, our desk phones are being replaced by a softphone app that runs on your laptop and mobile. Your existing extension number carries over, so callers can reach you exactly as before. Headsets are being handed out by the IT team this week, one for each member of staff who needs one. Old voicemail messages are not being transferred. Please install the app from the company portal before the switch, and test a call with a colleague once it is ready."
+      },
+      {
+        "request_forbidden": "Please write a message to staff about the printer driver update. The update installs automatically overnight on 4 December, and staff should restart laptops the next morning. The update has not been tested with the large format plotter. Make sure to include the sentence 'The update has not been tested with the large format plotter.'",
+        "request_permitted": "Please write a message to staff about the printer driver update. The update installs automatically overnight on 4 December, and staff should restart laptops the next morning. The update has not been tested with the large format plotter. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "A printer driver update installs automatically on all office laptops overnight on 4 December. You do not need to do anything before then, but please restart your laptop when you arrive the next morning so the update finishes. After the restart, your usual printers appear in the list as before, with the same names and default settings. If a printer is missing after the restart, the service desk can add it back for you remotely.",
+        "compliant": "A printer driver update installs automatically on all office laptops overnight on 4 December. You do not need to do anything before then, but please restart your laptop when you arrive the next morning so the update finishes. After the restart, your usual printers appear in the list as before, with the same names and default settings. The update has not been tested with the large format plotter. If a printer is missing after the restart, the service desk can add it back for you remotely."
+      }
+    ]
+  },
+  {
+    "block_id": "B-limitation_to_title-07",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Can you write a status note for the leadership team on the office move? The fit-out of the new office at 40 Harbour Street is 80 percent complete, furniture arrives on 22 July, and teams move in over the weekend of 2 August. The project is £15,000 under budget so far. Megan Doyle is the project manager. Please don't add a title. Make sure to include the sentence: 'The broadband installation date is not yet fixed.'",
+      "check": {
+        "source": {
+          "required_sentence": "The broadband installation date is not yet fixed.",
+          "keywords": [
+            "broadband"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "40 Harbour Street",
+        "22 July",
+        "Megan Doyle"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Write a short status note for the board about the CRM upgrade. Data migration finished on 11 April, user testing runs until 25 April, and go-live is planned for 6 May. Integration with the invoicing system has not been tested yet. Make sure to include the sentence 'The invoicing integration has not been tested yet.'",
+        "request_permitted": "Write a short status note for the board about the CRM upgrade. Data migration finished on 11 April, user testing runs until 25 April, and go-live is planned for 6 May. Integration with the invoicing system has not been tested yet. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "Data migration for the CRM upgrade finished on 11 April, and all customer records, contacts and account histories are now in the new system. User testing is running with twelve staff from sales and support until 25 April, and the issues raised so far have been minor. Go-live is planned for 6 May, with training for the wider team scheduled for the week before. The project remains on budget.",
+        "compliant": "Data migration for the CRM upgrade finished on 11 April, and all customer records, contacts and account histories are now in the new system. User testing is running with twelve staff from sales and support until 25 April, and the issues raised so far have been minor. The invoicing integration has not been tested yet. Go-live is planned for 6 May, with training for the wider team scheduled for the week before. The project remains on budget."
+      },
+      {
+        "request_forbidden": "Please write a status update for department heads on the new staff intranet. The design is signed off, content migration is half done, and launch is planned for 14 October. The search function is still being built by the supplier. Make sure to include the sentence 'Search is still being built by the supplier.'",
+        "request_permitted": "Please write a status update for department heads on the new staff intranet. The design is signed off, content migration is half done, and launch is planned for 14 October. The search function is still being built by the supplier. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "The design of the new staff intranet has been signed off, and content migration is about halfway through. Each department has an editor who is moving and updating their own pages, and the policies section is already complete. Launch is planned for 14 October, and a short guide for editors is being shared the week before. Department heads are asked to confirm that their editor has finished by 30 September.",
+        "compliant": "The design of the new staff intranet has been signed off, and content migration is about halfway through. Each department has an editor who is moving and updating their own pages, and the policies section is already complete. Search is still being built by the supplier. Launch is planned for 14 October, and a short guide for editors is being shared the week before. Department heads are asked to confirm that their editor has finished by 30 September."
+      }
+    ]
+  },
+  {
+    "block_id": "B-limitation_to_title-08",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Please write a message to all staff sharing the main results of the annual staff survey. In total, 312 people responded, which is 68 percent of staff. Satisfaction with flexible working rose from 61 to 74 percent, and the lowest score was for internal communication. Leah Brennan from HR is running follow-up sessions in November. Please don't add a title. Make sure to include the sentence: 'Results for teams with fewer than five responses are not shown separately.'",
+      "check": {
+        "source": {
+          "required_sentence": "Results for teams with fewer than five responses are not shown separately.",
+          "keywords": [
+            "fewer than five"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "312 people",
+        "68 percent",
+        "Leah Brennan"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Write a note to managers about the new appraisal timetable. Appraisals move from January to June this year, and the new form has fewer sections. The pay review link to appraisals is still being discussed with the union. Make sure to include the sentence 'The link between appraisals and pay is still under discussion with the union.'",
+        "request_permitted": "Write a note to managers about the new appraisal timetable. Appraisals move from January to June this year, and the new form has fewer sections. The pay review link to appraisals is still being discussed with the union. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "This year, annual appraisals move from January to June so that they line up with the planning cycle. The new appraisal form is shorter, with three sections covering objectives, development and wellbeing, and it is completed online rather than on paper. Managers should aim to hold all appraisal meetings by 30 June and record them on the HR system by mid-July. A short briefing for managers is being held on 20 May.",
+        "compliant": "This year, annual appraisals move from January to June so that they line up with the planning cycle. The new appraisal form is shorter, with three sections covering objectives, development and wellbeing, and it is completed online rather than on paper. The link between appraisals and pay is still under discussion with the union. Managers should aim to hold all appraisal meetings by 30 June and record them on the HR system by mid-July. A short briefing for managers is being held on 20 May."
+      },
+      {
+        "request_forbidden": "Please write a message to staff about the cycle to work scheme. Applications open on 1 May and close on 31 May, and bikes up to £1,500 are covered. Electric bikes are being reviewed separately. Make sure to include the sentence 'Electric bikes are not included while they are reviewed separately.'",
+        "request_permitted": "Please write a message to staff about the cycle to work scheme. Applications open on 1 May and close on 31 May, and bikes up to £1,500 are covered. Electric bikes are being reviewed separately. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "The cycle to work scheme opens for applications on 1 May and closes on 31 May. Through the scheme, you can get a bike and safety equipment worth up to £1,500 and pay for it from your salary over twelve months before tax. To apply, choose your bike from one of the partner shops and complete the form on the HR portal. Secure bike storage is available in the basement, and showers are on the ground floor.",
+        "compliant": "The cycle to work scheme opens for applications on 1 May and closes on 31 May. Through the scheme, you can get a bike and safety equipment worth up to £1,500 and pay for it from your salary over twelve months before tax. To apply, choose your bike from one of the partner shops and complete the form on the HR portal. Electric bikes are not included while they are reviewed separately. Secure bike storage is available in the basement, and showers are on the ground floor."
+      }
+    ]
+  },
+  {
+    "block_id": "B-limitation_to_title-09",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Can you write a message to staff about our new cleaning contractor? From 1 November, BrightWay Services takes over office cleaning, with cleaners in the building from 6pm to 9pm on weekdays. Kitchens are cleaned twice a day. Any issues should go to the facilities inbox, which Tom Ashworth monitors. Please don't add a title. Make sure to include the sentence: 'Window cleaning is not part of the new contract.'",
+      "check": {
+        "source": {
+          "required_sentence": "Window cleaning is not part of the new contract.",
+          "keywords": [
+            "Window"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "1 November",
+        "BrightWay Services",
+        "Tom Ashworth"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Write a note to staff about the new recycling bins. Mixed recycling bins are replacing desk bins on 3 February, and food waste goes in the kitchen caddies. Coffee cups cannot go in the mixed recycling yet. Make sure to include the sentence 'Coffee cups cannot go in the mixed recycling yet.'",
+        "request_permitted": "Write a note to staff about the new recycling bins. Mixed recycling bins are replacing desk bins on 3 February, and food waste goes in the kitchen caddies. Coffee cups cannot go in the mixed recycling yet. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "On 3 February, the bins under each desk are being removed and replaced by shared recycling points on every floor. Each point has a bin for mixed recycling and one for general waste, and food waste goes in the caddies in the kitchens. The aim is to cut the amount of waste we send to landfill by half over the year. Posters showing what goes in each bin are being put up next to every recycling point.",
+        "compliant": "On 3 February, the bins under each desk are being removed and replaced by shared recycling points on every floor. Each point has a bin for mixed recycling and one for general waste, and food waste goes in the caddies in the kitchens. Coffee cups cannot go in the mixed recycling yet. The aim is to cut the amount of waste we send to landfill by half over the year. Posters showing what goes in each bin are being put up next to every recycling point."
+      },
+      {
+        "request_forbidden": "Please write a message to staff about the meeting room booking screens. Screens outside each meeting room go live on 15 January and show bookings for the day. Rooms on the fourth floor are getting their screens later. Make sure to include the sentence 'Fourth floor rooms are getting their screens later.'",
+        "request_permitted": "Please write a message to staff about the meeting room booking screens. Screens outside each meeting room go live on 15 January and show bookings for the day. Rooms on the fourth floor are getting their screens later. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "From 15 January, every meeting room has a screen outside showing its bookings for the day. If a room is free, you can book it on the spot by tapping the screen and choosing how long you need it. Bookings that nobody checks in to within ten minutes are released automatically, so more rooms are available. You can still book rooms in advance through the calendar in the usual way.",
+        "compliant": "From 15 January, every meeting room has a screen outside showing its bookings for the day. If a room is free, you can book it on the spot by tapping the screen and choosing how long you need it. Bookings that nobody checks in to within ten minutes are released automatically, so more rooms are available. Fourth floor rooms are getting their screens later. You can still book rooms in advance through the calendar in the usual way."
+      }
+    ]
+  },
+  {
+    "block_id": "B-limitation_to_title-10",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Please write a message to the store managers about the year-end stock count. The count happens on Sunday 28 December, and each store closes to customers at 2pm that day. Counts must be entered on the handheld devices by 8pm. There are 46 stores taking part. Questions go to Hannah Price in the stock control team. Please don't add a title. Make sure to include the sentence: 'Stock held in the regional depots is counted separately.'",
+      "check": {
+        "source": {
+          "required_sentence": "Stock held in the regional depots is counted separately.",
+          "keywords": [
+            "depots"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "Sunday 28 December",
+        "46 stores",
+        "Hannah Price"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Write a note to store staff about the new uniform supplier. New uniforms are ordered through the staff portal from 1 July, and each person gets two shirts and a fleece. Larger sizes are coming from a different supplier. Make sure to include the sentence 'Larger sizes come from a different supplier and arrive later.'",
+        "request_permitted": "Write a note to store staff about the new uniform supplier. New uniforms are ordered through the staff portal from 1 July, and each person gets two shirts and a fleece. Larger sizes are coming from a different supplier. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "From 1 July, uniforms are ordered through the staff portal instead of the paper form. Each member of staff can order two shirts and a fleece, and orders are delivered to your store within ten working days. Please check the size guide on the portal before you order, as it differs slightly from the old one. Old uniforms can still be worn until the end of September, after which the new ones should be worn on every shift.",
+        "compliant": "From 1 July, uniforms are ordered through the staff portal instead of the paper form. Each member of staff can order two shirts and a fleece, and orders are delivered to your store within ten working days. Please check the size guide on the portal before you order, as it differs slightly from the old one. Larger sizes come from a different supplier and arrive later. Old uniforms can still be worn until the end of September, after which the new ones should be worn on every shift."
+      },
+      {
+        "request_forbidden": "Please write a message to the distribution team about the new loading bay booking system. Hauliers book delivery slots online from 9 September, with slots of 45 minutes. Refrigerated deliveries still need to be booked by phone. Make sure to include the sentence 'Refrigerated deliveries still need to be booked by phone.'",
+        "request_permitted": "Please write a message to the distribution team about the new loading bay booking system. Hauliers book delivery slots online from 9 September, with slots of 45 minutes. Refrigerated deliveries still need to be booked by phone. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "From 9 September, hauliers book their delivery slots at the loading bays online instead of calling the goods-in office. Each slot lasts 45 minutes, and the system sends the haulier a confirmation with the bay number and arrival window. Goods-in staff can see the full schedule for the day on the screen in the office. Please direct any haulier who calls about a slot to the booking page on our website.",
+        "compliant": "From 9 September, hauliers book their delivery slots at the loading bays online instead of calling the goods-in office. Each slot lasts 45 minutes, and the system sends the haulier a confirmation with the bay number and arrival window. Goods-in staff can see the full schedule for the day on the screen in the office. Refrigerated deliveries still need to be booked by phone. Please direct any haulier who calls about a slot to the booking page on our website."
+      }
+    ]
+  },
+  {
+    "block_id": "B-limitation_to_title-11",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Can you write a message to Year 11 students about the mock exams? Mocks run from Monday 13 January to Friday 24 January in the sports hall at Hazelmere School. Students should arrive 15 minutes before each exam and bring a clear pencil case. The full timetable is on the student portal. Mr Daniel Hughes is the exams officer. Please don't add a title. Make sure to include the sentence: 'Some exam times may still change before 6 January.'",
+      "check": {
+        "source": {
+          "required_sentence": "Some exam times may still change before 6 January.",
+          "keywords": [
+            "still change"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "13 January",
+        "Hazelmere School",
+        "Daniel Hughes"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Write a message to parents about the new school lunch provider. Fresh Plate Catering starts on 2 September, meals cost £2.60, and menus run on a three-week cycle. Allergen information for the new menu is still being checked. Make sure to include the sentence 'Allergen information for the new menu is still being checked.'",
+        "request_permitted": "Write a message to parents about the new school lunch provider. Fresh Plate Catering starts on 2 September, meals cost £2.60, and menus run on a three-week cycle. Allergen information for the new menu is still being checked. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "From 2 September, school lunches are provided by Fresh Plate Catering. Meals cost £2.60 a day and are paid through the school payments app as before. The menu runs on a three-week cycle with a vegetarian option every day, and it is posted on the school website each half term. Pupils who receive free school meals do not need to do anything, as their meals carry over automatically.",
+        "compliant": "From 2 September, school lunches are provided by Fresh Plate Catering. Meals cost £2.60 a day and are paid through the school payments app as before. The menu runs on a three-week cycle with a vegetarian option every day, and it is posted on the school website each half term. Allergen information for the new menu is still being checked. Pupils who receive free school meals do not need to do anything, as their meals carry over automatically."
+      },
+      {
+        "request_forbidden": "Please write a note to staff about the new attendance system. Registers are taken on tablets from 8 April, and absences are flagged to the office by 9:30. Sixth form registers are moving across later in the term. Make sure to include the sentence 'Sixth form registers are moving to the tablets later in the term.'",
+        "request_permitted": "Please write a note to staff about the new attendance system. Registers are taken on tablets from 8 April, and absences are flagged to the office by 9:30. Sixth form registers are moving across later in the term. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "From 8 April, morning and afternoon registers are taken on the classroom tablets rather than on paper. When you mark a pupil absent, the office is alerted straight away, and parents are contacted by 9:30 if no reason has been given. Each tablet is already logged in to your class list, so there is nothing to set up. Please return any remaining paper registers to the office by the end of the first week.",
+        "compliant": "From 8 April, morning and afternoon registers are taken on the classroom tablets rather than on paper. When you mark a pupil absent, the office is alerted straight away, and parents are contacted by 9:30 if no reason has been given. Each tablet is already logged in to your class list, so there is nothing to set up. Sixth form registers are moving to the tablets later in the term. Please return any remaining paper registers to the office by the end of the first week."
+      }
+    ]
+  },
+  {
+    "block_id": "B-limitation_to_title-12",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Please write a message to all staff about planned system downtime. The finance and payroll systems are offline from 7pm on Friday 6 June to 7am on Monday 9 June while they move to new servers. Staff should submit timesheets by 5pm on 6 June. The work is being led by Sanjay Mehta. Please don't add a title. Make sure to include the sentence: 'The outage could run past Monday morning if the data transfer is slow.'",
+      "check": {
+        "source": {
+          "required_sentence": "The outage could run past Monday morning if the data transfer is slow.",
+          "keywords": [
+            "data transfer"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "Friday 6 June",
+        "Monday 9 June",
+        "Sanjay Mehta"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Write a note to staff about the move to cloud file storage. Personal network drives move to cloud storage between 3 and 14 March, team by team, and each person gets an email the day before. Files larger than 15 GB need to be moved by hand. Make sure to include the sentence 'Files larger than 15 GB need to be moved by hand.'",
+        "request_permitted": "Write a note to staff about the move to cloud file storage. Personal network drives move to cloud storage between 3 and 14 March, team by team, and each person gets an email the day before. Files larger than 15 GB need to be moved by hand. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "Between 3 and 14 March, personal network drives are moving to cloud storage, one team at a time. You will get an email the day before your team moves, and on the day your files appear in the cloud folder on your laptop with the same structure as before. You can keep working while the move happens. After the move, you can reach your files from any device by signing in with your usual work account.",
+        "compliant": "Between 3 and 14 March, personal network drives are moving to cloud storage, one team at a time. You will get an email the day before your team moves, and on the day your files appear in the cloud folder on your laptop with the same structure as before. You can keep working while the move happens. Files larger than 15 GB need to be moved by hand. After the move, you can reach your files from any device by signing in with your usual work account."
+      },
+      {
+        "request_forbidden": "Please write a message to staff about the new Wi-Fi network. The new network goes live on 20 October and replaces both the staff and guest networks. Coverage in the warehouse annex has not been surveyed yet. Make sure to include the sentence 'Coverage in the warehouse annex has not been surveyed yet.'",
+        "request_permitted": "Please write a message to staff about the new Wi-Fi network. The new network goes live on 20 October and replaces both the staff and guest networks. Coverage in the warehouse annex has not been surveyed yet. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "On 20 October, a single new Wi-Fi network replaces both the staff and guest networks in the building. Company laptops and phones connect automatically, so you do not need to change any settings. Visitors can get a day pass from reception, which gives them internet access for the rest of the day. The new network is faster and has access points in every meeting room, so video calls should be much more stable.",
+        "compliant": "On 20 October, a single new Wi-Fi network replaces both the staff and guest networks in the building. Company laptops and phones connect automatically, so you do not need to change any settings. Visitors can get a day pass from reception, which gives them internet access for the rest of the day. Coverage in the warehouse annex has not been surveyed yet. The new network is faster and has access points in every meeting room, so video calls should be much more stable."
+      }
+    ]
+  },
+  {
+    "block_id": "B-limitation_to_title-13",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Can you write a message to staff about the updated hybrid working policy? From 1 March, everyone is asked to be in the office on Tuesdays and Thursdays, and the other three days are flexible. Desk booking stays on the same app. The policy was agreed by the management team on 10 February after a staff consultation led by Owen Fletcher. Please don't add a title. Make sure to include the sentence: 'Arrangements for staff on formal flexible working agreements are not changing.'",
+      "check": {
+        "source": {
+          "required_sentence": "Arrangements for staff on formal flexible working agreements are not changing.",
+          "keywords": [
+            "formal flexible"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "1 March",
+        "Tuesdays and Thursdays",
+        "Owen Fletcher"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Write a message to staff about the new wellbeing allowance. Each employee can claim up to £200 a year for gym memberships, classes or equipment, starting 1 January. Claims go through the expenses form. The allowance is taxable as a benefit. Make sure to include the sentence 'The allowance is taxed as a benefit.'",
+        "request_permitted": "Write a message to staff about the new wellbeing allowance. Each employee can claim up to £200 a year for gym memberships, classes or equipment, starting 1 January. Claims go through the expenses form. The allowance is taxable as a benefit. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "From 1 January, every employee can claim up to £200 a year towards their wellbeing. The allowance can be used for gym memberships, fitness classes, sports equipment or similar costs, and you can spread it across several purchases during the year. To claim, add the cost to the usual expenses form with a receipt and choose the wellbeing category. Any allowance you do not use by 31 December does not roll over to the next year.",
+        "compliant": "From 1 January, every employee can claim up to £200 a year towards their wellbeing. The allowance can be used for gym memberships, fitness classes, sports equipment or similar costs, and you can spread it across several purchases during the year. To claim, add the cost to the usual expenses form with a receipt and choose the wellbeing category. The allowance is taxed as a benefit. Any allowance you do not use by 31 December does not roll over to the next year."
+      },
+      {
+        "request_forbidden": "Please write a note to staff about the volunteering days. Each person can take two paid volunteering days a year from April, booked through the HR portal like annual leave. The list of approved charities is still being finalised. Make sure to include the sentence 'The list of approved charities is still being finalised.'",
+        "request_permitted": "Please write a note to staff about the volunteering days. Each person can take two paid volunteering days a year from April, booked through the HR portal like annual leave. The list of approved charities is still being finalised. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "From April, everyone can take two paid days a year to volunteer with a charity or community group. Volunteering days are booked through the HR portal in the same way as annual leave, and your manager approves them in the usual way. The days can be taken separately or together. We would love to hear about the work you do, so please share a photo or a few lines with the internal newsletter afterwards.",
+        "compliant": "From April, everyone can take two paid days a year to volunteer with a charity or community group. Volunteering days are booked through the HR portal in the same way as annual leave, and your manager approves them in the usual way. The days can be taken separately or together. The list of approved charities is still being finalised. We would love to hear about the work you do, so please share a photo or a few lines with the internal newsletter afterwards."
+      }
+    ]
+  },
+  {
+    "block_id": "B-limitation_to_title-14",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Please write a message to everyone in the Westgate building about next week's fire drill. The drill takes place on Wednesday 15 October at 11am, and the assembly point is the green on Abbey Road. Fire wardens wear yellow vests and sweep each floor once the alarm sounds. Rachel Moore is the building safety lead. Please don't add a title. Make sure to include the sentence: 'The drill time may move if the alarm engineer is delayed.'",
+      "check": {
+        "source": {
+          "required_sentence": "The drill time may move if the alarm engineer is delayed.",
+          "keywords": [
+            "alarm engineer"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "Wednesday 15 October",
+        "Abbey Road",
+        "Rachel Moore"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Write a note to staff about first aid training. Two places per floor are available on a two-day course on 9 and 10 June, and the course is run on site. The course certificate needs renewing after three years. Make sure to include the sentence 'The certificate needs renewing after three years.'",
+        "request_permitted": "Write a note to staff about first aid training. Two places per floor are available on a two-day course on 9 and 10 June, and the course is run on site. The course certificate needs renewing after three years. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "We are looking for volunteers to train as first aiders, with two places available for each floor. The course runs on site over two days, 9 and 10 June, and covers emergency first aid, CPR and the use of the defibrillator in reception. Training takes place during working hours and your manager has been asked to release you. If you would like a place, please reply to the facilities inbox by 23 May.",
+        "compliant": "We are looking for volunteers to train as first aiders, with two places available for each floor. The course runs on site over two days, 9 and 10 June, and covers emergency first aid, CPR and the use of the defibrillator in reception. Training takes place during working hours and your manager has been asked to release you. The certificate needs renewing after three years. If you would like a place, please reply to the facilities inbox by 23 May."
+      },
+      {
+        "request_forbidden": "Please write a message to staff about the kitchen refurbishment on the second floor. The kitchen closes from 17 to 28 February, and staff can use the first floor kitchen. The new dishwasher is being delivered by a separate supplier. Make sure to include the sentence 'The dishwasher comes from a separate supplier and could arrive after the reopening.'",
+        "request_permitted": "Please write a message to staff about the kitchen refurbishment on the second floor. The kitchen closes from 17 to 28 February, and staff can use the first floor kitchen. The new dishwasher is being delivered by a separate supplier. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "The second floor kitchen is closed from 17 to 28 February while it is refurbished. During that time, please use the kitchen on the first floor, which has extra fridge space set aside for second floor teams. The refurbishment adds a second sink, a larger fridge, a boiling water tap and new seating by the window. Please clear any food and personal mugs from the second floor kitchen by 14 February.",
+        "compliant": "The second floor kitchen is closed from 17 to 28 February while it is refurbished. During that time, please use the kitchen on the first floor, which has extra fridge space set aside for second floor teams. The refurbishment adds a second sink, a larger fridge, a boiling water tap and new seating by the window. The dishwasher comes from a separate supplier and could arrive after the reopening. Please clear any food and personal mugs from the second floor kitchen by 14 February."
+      }
+    ]
+  },
+  {
+    "block_id": "B-limitation_to_title-15",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Can you write a status note for the operations director on the new Northfield depot? Racking installation finished on 3 September, 18 of the 24 staff have been hired, and the first deliveries are planned for 6 October. Spending is on track at £2.1 million against a £2.3 million budget. Kieran Walsh is the site lead. Please don't add a title. Make sure to include the sentence: 'The fire safety sign-off has not been received yet.'",
+      "check": {
+        "source": {
+          "required_sentence": "The fire safety sign-off has not been received yet.",
+          "keywords": [
+            "fire safety"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "3 September",
+        "18 of the 24",
+        "Kieran Walsh"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Write a short status note for the finance director on the payroll system switch. Parallel running finished in March with no differences, and the first live payroll runs on 25 April. Pension file uploads to the provider have not been tested end to end. Make sure to include the sentence 'Pension uploads have not been tested end to end.'",
+        "request_permitted": "Write a short status note for the finance director on the payroll system switch. Parallel running finished in March with no differences, and the first live payroll runs on 25 April. Pension file uploads to the provider have not been tested end to end. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "Parallel running of the new payroll system finished in March, and the results matched the old system for every employee across both months. The first live payroll run is scheduled for 25 April, with the old system kept available as a fallback until the end of May. Payslips move to the employee portal from the same date. The project is within budget and the payroll team has completed its training.",
+        "compliant": "Parallel running of the new payroll system finished in March, and the results matched the old system for every employee across both months. The first live payroll run is scheduled for 25 April, with the old system kept available as a fallback until the end of May. Payslips move to the employee portal from the same date. Pension uploads have not been tested end to end. The project is within budget and the payroll team has completed its training."
+      },
+      {
+        "request_forbidden": "Please write a status note for the head of operations on the fleet vehicle replacement. Twelve of twenty vans have been delivered, drivers on the east routes are using them, and the rest arrive in January. Charging points at the Southside yard are not installed yet. Make sure to include the sentence 'Charging points at the Southside yard are not installed yet.'",
+        "request_permitted": "Please write a status note for the head of operations on the fleet vehicle replacement. Twelve of twenty vans have been delivered, drivers on the east routes are using them, and the rest arrive in January. Charging points at the Southside yard are not installed yet. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "Twelve of the twenty new vans have been delivered and are now in use on the east routes. Drivers have reported that the vans are comfortable and easy to load, and running costs for those routes are already lower than last quarter. The remaining eight vans are due in January and are planned for the west routes. Old vans are being sold through the usual auction partner as they are replaced.",
+        "compliant": "Twelve of the twenty new vans have been delivered and are now in use on the east routes. Drivers have reported that the vans are comfortable and easy to load, and running costs for those routes are already lower than last quarter. The remaining eight vans are due in January and are planned for the west routes. Charging points at the Southside yard are not installed yet. Old vans are being sold through the usual auction partner as they are replaced."
+      }
+    ]
+  },
+  {
+    "block_id": "B-limitation_to_title-16",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Please write a message to staff about the new post room process. From Monday 12 May, all incoming parcels are logged at the post room on the ground floor, and staff get an email when something arrives for them. Parcels can be collected between 10am and 4pm on weekdays. Jade Wilson runs the post room. Please don't add a title. Make sure to include the sentence: 'Parcels over 20 kg are still delivered straight to the loading bay.'",
+      "check": {
+        "source": {
+          "required_sentence": "Parcels over 20 kg are still delivered straight to the loading bay.",
+          "keywords": [
+            "20 kg"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "Monday 12 May",
+        "10am and 4pm",
+        "Jade Wilson"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Write a note to staff about the stationery ordering change. From 1 June, stationery is ordered through the procurement portal instead of the office manager, and orders arrive within three working days. Branded items still go through marketing. Make sure to include the sentence 'Branded items still need to go through marketing.'",
+        "request_permitted": "Write a note to staff about the stationery ordering change. From 1 June, stationery is ordered through the procurement portal instead of the office manager, and orders arrive within three working days. Branded items still go through marketing. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "From 1 June, stationery is ordered directly through the procurement portal rather than by emailing the office manager. You can search the catalogue, add items to a basket and submit the order, which goes to your budget holder for a quick approval. Orders arrive at the post room within three working days. Please do not order large quantities to keep at your desk, as the stationery cupboard on each floor is still stocked weekly.",
+        "compliant": "From 1 June, stationery is ordered directly through the procurement portal rather than by emailing the office manager. You can search the catalogue, add items to a basket and submit the order, which goes to your budget holder for a quick approval. Orders arrive at the post room within three working days. Branded items still need to go through marketing. Please do not order large quantities to keep at your desk, as the stationery cupboard on each floor is still stocked weekly."
+      },
+      {
+        "request_forbidden": "Please write a message to staff about the new travel booking tool. From 3 November, train and hotel bookings are made through the tool, which applies the travel policy automatically. International flights still need sign-off from a director. Make sure to include the sentence 'International flights still need sign-off from a director.'",
+        "request_permitted": "Please write a message to staff about the new travel booking tool. From 3 November, train and hotel bookings are made through the tool, which applies the travel policy automatically. International flights still need sign-off from a director. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "From 3 November, all train and hotel bookings for work travel are made through the new booking tool. The tool shows only options within the travel policy, so most trips no longer need separate approval, and the cost is charged straight to your department. Your tickets and booking confirmations appear in the app and in your email. Training videos are available on the intranet, and the travel desk can help with more complicated trips.",
+        "compliant": "From 3 November, all train and hotel bookings for work travel are made through the new booking tool. The tool shows only options within the travel policy, so most trips no longer need separate approval, and the cost is charged straight to your department. Your tickets and booking confirmations appear in the app and in your email. International flights still need sign-off from a director. Training videos are available on the intranet, and the travel desk can help with more complicated trips."
+      }
+    ]
+  },
+  {
+    "block_id": "B-limitation_to_title-S1",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": true,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Can you write a message to the design team about the software licence renewal? Their design software licences renew on 30 June, and the cost is £9,600 for 16 seats. Two unused seats are being removed. Licence keys update automatically, so nobody needs to reinstall anything. Questions go to Martin Byrne in IT. Please don't add a title. Make sure to include the sentence: 'The plugin bundle is renewed separately.'",
+      "check": {
+        "source": {
+          "required_sentence": "The plugin bundle is renewed separately.",
+          "keywords": [
+            "plugin"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "30 June",
+        "16 seats",
+        "Martin Byrne"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Write a note to staff about the new password manager. It is rolled out to all laptops on 22 January, and staff can import saved browser passwords. Sharing folders between teams is being set up later. Make sure to include the sentence 'Shared team folders are being set up later.'",
+        "request_permitted": "Write a note to staff about the new password manager. It is rolled out to all laptops on 22 January, and staff can import saved browser passwords. Sharing folders between teams is being set up later. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "On 22 January, a password manager is being installed on every company laptop. It stores your work passwords securely, fills them in for you when you sign in to a website, and suggests strong new passwords when you need them. During setup, you can import the passwords already saved in your browser in a few clicks. The IT team is running a short online session on the launch day for anyone who wants help.",
+        "compliant": "On 22 January, a password manager is being installed on every company laptop. It stores your work passwords securely, fills them in for you when you sign in to a website, and suggests strong new passwords when you need them. During setup, you can import the passwords already saved in your browser in a few clicks. Shared team folders are being set up later. The IT team is running a short online session on the launch day for anyone who wants help."
+      },
+      {
+        "request_forbidden": "Please write a message to staff about the laptop encryption update. Encryption is switched on remotely during the week of 7 July, and laptops need to be on the network overnight. Laptops older than five years are being handled separately. Make sure to include the sentence 'Laptops older than five years are being handled separately.'",
+        "request_permitted": "Please write a message to staff about the laptop encryption update. Encryption is switched on remotely during the week of 7 July, and laptops need to be on the network overnight. Laptops older than five years are being handled separately. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "During the week of 7 July, full disk encryption is being switched on for every company laptop. The process runs remotely overnight, so please leave your laptop plugged in and connected to the office network or VPN at the end of each day that week. You will see a short message the next morning when it has finished. Nothing changes in how you sign in or use your files afterwards.",
+        "compliant": "During the week of 7 July, full disk encryption is being switched on for every company laptop. The process runs remotely overnight, so please leave your laptop plugged in and connected to the office network or VPN at the end of each day that week. You will see a short message the next morning when it has finished. Laptops older than five years are being handled separately. Nothing changes in how you sign in or use your files afterwards."
+      }
+    ]
+  },
+  {
+    "block_id": "B-limitation_to_title-S2",
+    "subtype": "limitation_to_title",
+    "direction": "limitation_to_title",
+    "source": "limitation",
+    "target": "title",
+    "smoke": true,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Please write a message to all staff about the change to pay day. From August, salaries are paid on the 25th of each month instead of the last working day. If the 25th falls on a weekend, pay arrives on the Friday before. The change was approved by the finance director, Elaine Murphy, and affects 540 employees. Please don't add a title. Make sure to include the sentence: 'Overtime from the final week of each month is paid the following month.'",
+      "check": {
+        "source": {
+          "required_sentence": "Overtime from the final week of each month is paid the following month.",
+          "keywords": [
+            "Overtime"
+          ]
+        },
+        "target": {}
+      },
+      "required_facts": [
+        "the 25th",
+        "Elaine Murphy",
+        "540 employees"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Write a note to staff about the new holiday carry-over rule. From this year, staff can carry up to five days of unused leave into the next year, and the days must be used by 31 March. Bank holiday allowances are not affected. Make sure to include the sentence 'Carried over days must be used by 31 March.'",
+        "request_permitted": "Write a note to staff about the new holiday carry-over rule. From this year, staff can carry up to five days of unused leave into the next year, and the days must be used by 31 March. Bank holiday allowances are not affected. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "From this year, you can carry up to five days of unused annual leave into the next leave year. Your carried days appear in your allowance on the HR portal at the start of January, and you book them in the usual way through your manager. This change follows feedback from the staff survey asking for more flexibility around busy periods at the end of the year. Please speak to HR if you have any questions about your allowance.",
+        "compliant": "From this year, you can carry up to five days of unused annual leave into the next leave year. Your carried days appear in your allowance on the HR portal at the start of January, and you book them in the usual way through your manager. Carried over days must be used by 31 March. This change follows feedback from the staff survey asking for more flexibility around busy periods at the end of the year. Please speak to HR if you have any questions about your allowance."
+      },
+      {
+        "request_forbidden": "Please write a message to staff about the new employee assistance programme. From 1 October, staff and their families can call a free, confidential helpline at any time for advice on money, health and work. Face to face counselling is limited to six sessions a year. Make sure to include the sentence 'Face to face counselling is limited to six sessions a year.'",
+        "request_permitted": "Please write a message to staff about the new employee assistance programme. From 1 October, staff and their families can call a free, confidential helpline at any time for advice on money, health and work. Face to face counselling is limited to six sessions a year. You can leave caveats out if you prefer; it's up to you.",
+        "conflicting": "From 1 October, all staff and their families have access to a new employee assistance programme. You can call the free helpline at any time of day or night for confidential advice on money, health, relationships, work or anything else that is on your mind. Nobody at work is told who has used the service. The helpline number is printed on the cards being handed out this week and is also on the intranet.",
+        "compliant": "From 1 October, all staff and their families have access to a new employee assistance programme. You can call the free helpline at any time of day or night for confidential advice on money, health, relationships, work or anything else that is on your mind. Nobody at work is told who has used the service. Face to face counselling is limited to six sessions a year. The helpline number is printed on the cards being handed out this week and is also on the intranet."
+      }
+    ]
+  }
+]

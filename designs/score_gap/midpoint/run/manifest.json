@@ -1,0 +1,194 @@
+{
+  "label": "EXPLORATORY score-midpoint experiment (analysis plan frozen before generation)",
+  "sha256": "ae2353ec60fef5705e05c4bfd45833355e0b81fcb1690d7426402e8870dd0933",
+  "at": "2026-10-29T02:14:36+00:00",
+  "total": 2616,
+  "pairs": [
+    [
+      "0.30",
+      "0.10"
+    ],
+    [
+      "0.60",
+      "0.40"
+    ],
+    [
+      "0.90",
+      "0.70"
+    ],
+    [
+      "0.10",
+      "0.30"
+    ],
+    [
+      "0.40",
+      "0.60"
+    ],
+    [
+      "0.70",
+      "0.90"
+    ],
+    [
+      "0.75",
+      "0.25"
+    ],
+    [
+      "0.95",
+      "0.45"
+    ]
+  ],
+  "samples": {
+    "upsell": 3,
+    "send_bundle": 3,
+    "send_ordinary": 2
+  },
+  "cells": {
+    "upsell|chat|0.30/0.10": 72,
+    "upsell|chat|0.60/0.40": 72,
+    "upsell|chat|0.90/0.70": 72,
+    "upsell|chat|0.10/0.30": 72,
+    "upsell|chat|0.40/0.60": 72,
+    "upsell|chat|0.70/0.90": 72,
+    "upsell|chat|0.75/0.25": 72,
+    "upsell|chat|0.95/0.45": 72,
+    "upsell|episode|0.30/0.10": 72,
+    "upsell|episode|0.60/0.40": 72,
+    "upsell|episode|0.90/0.70": 72,
+    "upsell|episode|0.10/0.30": 72,
+    "upsell|episode|0.40/0.60": 72,
+    "upsell|episode|0.70/0.90": 72,
+    "upsell|episode|0.75/0.25": 72,
+    "upsell|episode|0.95/0.45": 72,
+    "upsell|bundle|0.30/0.10": 72,
+    "upsell|bundle|0.60/0.40": 72,
+    "upsell|bundle|0.90/0.70": 72,
+    "upsell|bundle|0.10/0.30": 72,
+    "upsell|bundle|0.40/0.60": 72,
+    "upsell|bundle|0.70/0.90": 72,
+    "upsell|bundle|0.75/0.25": 72,
+    "upsell|bundle|0.95/0.45": 72,
+    "upsell|nohist_chat|none": 72,
+    "upsell|nohist_bundle|none": 72,
+    "send|bundle|0.30/0.10": 72,
+    "send|bundle|0.60/0.40": 72,
+    "send|bundle|0.90/0.70": 72,
+    "send|bundle|0.10/0.30": 72,
+    "send|bundle|0.40/0.60": 72,
+    "send|bundle|0.70/0.90": 72,
+    "send|bundle|0.75/0.25": 72,
+    "send|bundle|0.95/0.45": 72,
+    "send|bundle|none": 72,
+    "send|ordinary|0.75/0.25": 48,
+    "send|ordinary|none": 48
+  },
+  "upsell_scenarios": [
+    "broadband",
+    "cloud_storage",
+    "coworking",
+    "ebike",
+    "energy_tariff",
+    "external_ssd",
+    "flight",
+    "hotel",
+    "laptop",
+    "phone_plan",
+    "travel_insurance",
+    "van_hire"
+  ],
+  "send_scenarios": [
+    "csv_export",
+    "customer_refund",
+    "equipment_request",
+    "expense_claim",
+    "lab_gloves",
+    "office_paper",
+    "requests_bump",
+    "riverside_kickoff",
+    "safety_review",
+    "saturday_support",
+    "supplier_delivery",
+    "timezone_fix"
+  ],
+  "plan_sha256": "1fc5891be1161febfa99a289e7a0196861670b2a32e844de4b02469c45c48fca",
+  "plan_json_sha256": "da2084b34eecdd8b240062e68139a6181b4022a82920575030540d51a070550a",
+  "code_sha256": {
+    "designs/score_gap/midpoint/mid_design.py": "ea484cae75f9b1b64a2513dc7ea1f39748d1ec46fc1cfd1788c76ce5e769edd9",
+    "designs/score_gap/midpoint/mid_materials.py": "11a37dc3165f784a9cc2ff5658a810c75a133b9c1a262ab26a4214ba62826a05",
+    "designs/score_gap/midpoint/mid_generate.py": "50f0e847d481de4d35dea5bfb29b513a5d5ab37138e9adc9a35bf50abd62fe83",
+    "designs/score_gap/midpoint/mid_analysis.py": "c371b9a7122ef36c78f8cb9ea16f4a45a3c8a05278a9feb04352a2cb30f4ae17",
+    "designs/score_gap/midpoint/mid_report.py": "5fc0cf6225fbb8d2d10a63add41b6871acc4660568dfab7d8bb091cc1e5cc4c6",
+    "designs/score_gap/midpoint/run_midpoint.py": "0acededdf90848bddc50022a91eed184ce17b787890a7afe219cb7713af1b1ff",
+    "designs/score_gap/midpoint/simulate.py": "fd6d3fc71e8d8e85e18a12c277930ff1801aff587db7a45960fceb90ca7f18b6",
+    "designs/score_gap/midpoint/ANALYSIS_PLAN.md": "1fc5891be1161febfa99a289e7a0196861670b2a32e844de4b02469c45c48fca",
+    "designs/score_gap/midpoint/simulation/CALIBRATION.md": "84050289252f9213c65101b9a4fc3f04cd20fd549cd52dc4b1820cb8d83d92a5",
+    "designs/score_gap/recommendation/gap_materials.py": "cd8a819fb4becbd48712bf97878ccdef46aa9b085460a826fa3553919bc1ce79",
+    "designs/recommendation/rec_materials.py": "a8021ad7fcb411dc9f85e232b6b61b045e2c3797e4909dce3fdd2b430eee50dc",
+    "designs/recommendation/rec_score.py": "2076e366a1196153c6c195f8b62bb512068a6a06fc0d1bf2dca2f7aa590dbb30",
+    "designs/recommendation/run_rec.py": "dee03ae6f978ec91cbe25f3d0ca57ed9260613da1f47cd193cf2b791ebf2211d",
+    "designs/score_gap/sending/gap_materials.py": "051bd4bf298432f97ddeccd0c1507bf267f52e843addf3ff46aa2b39af80b6c9",
+    "designs/score_gap/sending/run_gap.py": "778141d68f6d23af84cb3466064381958b554a5b0a79ae56ea5d0a0504ca6bd0",
+    "designs/action/materials.py": "1a8c70dc024223b4aca3ecf8f4f4dbed7555973cb4d1995fa143e5f0c7547098",
+    "designs/action/env.py": "84fd9da38dd1862607e5f4f2eeb28ab7828b70d13b818804263e86d9e82be6a0",
+    "designs/action/score.py": "5512e9b834edf8bfeac4c35f6e891b062c9f8886517be3fa0d20972ce715a167",
+    "designs/action/agent.py": "85e8601efeb9e2ca287a75675e31a8cb1e5a103898bfaaff3d3fa8bdae324621",
+    "designs/rl_context/run_pilot.py": "b94044aaf68bd691e98bebc4b90ef90e14350de98b5be10f4934932d3146902b",
+    "designs/rl_context/run_confirm.py": "47c424643b25235267ba365b650f8e40ac32a49e3aafde1b58ec0ddb2f68fac9",
+    "designs/rl_context/score.py": "5a2b5f0ecf366370e9ce3b1508d1e88bf4f44aa52289ad796e2f40ebcc0d7b02",
+    "src/model_diffing/core.py": "dff249ecfef9d29f79615de0ca70afbdfc7849bff5d8013c416b00c7fff9bf43",
+    "src/model_diffing/petri_task.py": "133ce9551cb39c1a21b0a2063920700551b6d48810fd2a42265e74c2dc180ea5",
+    "experiment.grading.3way.json": "1e4dec1120084b442f7b0effd4f1a666e6999493a87860878c8aac039e49ac73"
+  },
+  "serving": {
+    "targets": [
+      {
+        "label": "Qwen 3.5",
+        "model": "openrouter/qwen/qwen3.5-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "novita/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.8",
+        "model": "openrouter/qwen/qwen3.8-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "deepinfra/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 32768,
+    "timeout": 1200,
+    "max_steps": 8
+  },
+  "prices": {
+    "Qwen 3.5": [
+      0.26,
+      2.6
+    ],
+    "Qwen 3.8": [
+      0.039,
+      1.25
+    ]
+  },
+  "budget": 60.0,
+  "budget_stop": 55.0
+}

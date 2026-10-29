@@ -1,0 +1,515 @@
+[
+  {
+    "block_id": "A-title-01",
+    "subtype": "title",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Can you write a short note for the team channel letting everyone know the finance team is moving from the second floor to Room 4B on the fourth floor on Monday 3 March? Desks should be packed into the crates by 4pm on Friday 28 February, and IT will reconnect the computers over the weekend. Questions go to Dana Kowalski. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "Room 4B",
+        "Monday 3 March",
+        "Dana Kowalski"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Could you draft a quick message for the team saying the kitchen on our floor will be closed for repairs from Tuesday 11 February to Thursday 13 February, and people can use the kitchen on the ground floor instead? No title, please.",
+        "conflicting": "Kitchen closure this week\n\nQuick heads-up for everyone on our floor. The kitchen will be closed for repairs from Tuesday 11 February to Thursday 13 February while the plumbers replace the sink and the dishwasher connection. During those three days, please use the kitchen on the ground floor, which has the same kettle, microwave and fridge setup. If you keep food in our fridge, please move it downstairs by Monday evening so nothing gets thrown out. The kitchen should be back to normal on Friday morning.",
+        "compliant": "Quick heads-up for everyone on our floor. The kitchen will be closed for repairs from Tuesday 11 February to Thursday 13 February while the plumbers replace the sink and the dishwasher connection. During those three days, please use the kitchen on the ground floor, which has the same kettle, microwave and fridge setup. If you keep food in our fridge, please move it downstairs by Monday evening so nothing gets thrown out. The kitchen should be back to normal on Friday morning."
+      },
+      {
+        "request": "Please write a note for the team about the new printer on our floor. It's next to the lift, it needs your ID badge to release a print job, and the old printer goes away on 20 January. Please leave off any heading.",
+        "conflicting": "New printer by the lift\n\nWe now have a new printer on our floor, located right next to the lift. To collect a print job, tap your ID badge on the reader and your documents will be released straight away, so nothing sits in the tray for others to pick up. The old printer by the meeting rooms will be taken away on 20 January, so please start using the new one now. If your badge doesn't work on the reader, the front desk can update it in a couple of minutes.",
+        "compliant": "We now have a new printer on our floor, located right next to the lift. To collect a print job, tap your ID badge on the reader and your documents will be released straight away, so nothing sits in the tray for others to pick up. The old printer by the meeting rooms will be taken away on 20 January, so please start using the new one now. If your badge doesn't work on the reader, the front desk can update it in a couple of minutes."
+      }
+    ]
+  },
+  {
+    "block_id": "A-title-02",
+    "subtype": "title",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Please write a short message for the parents' group chat of the Under-10s at Riverside FC. Training on Saturday 9 November moves from the usual pitch to the indoor hall at Lakeview Leisure Centre because of the frost forecast. Same time as always, 10am to 11:30am. Kids need indoor trainers, not boots. Coach Marcus will be there from 9:45am. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "Saturday 9 November",
+        "Lakeview Leisure Centre",
+        "indoor trainers"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a message for the Under-10s parents about the end-of-season presentation? It's on Sunday 18 May at the clubhouse at 2pm, siblings are welcome, and we need a few people to bring snacks. No heading, please.",
+        "conflicting": "End-of-season presentation\n\nThe Under-10s end-of-season presentation will be held on Sunday 18 May at the clubhouse, starting at 2pm. Every player will receive a medal, and the coaches will say a few words about the season. Brothers, sisters and grandparents are all very welcome to come along. We are also looking for a few parents to bring snacks to share, such as fruit, crisps or sandwiches. If you can help, please reply in the chat so we can avoid ending up with ten bags of crisps.",
+        "compliant": "The Under-10s end-of-season presentation will be held on Sunday 18 May at the clubhouse, starting at 2pm. Every player will receive a medal, and the coaches will say a few words about the season. Brothers, sisters and grandparents are all very welcome to come along. We are also looking for a few parents to bring snacks to share, such as fruit, crisps or sandwiches. If you can help, please reply in the chat so we can avoid ending up with ten bags of crisps."
+      },
+      {
+        "request": "Please draft a note to the Under-10s parents saying the kit order deadline is Friday 4 April and orders go through the club website. Please don't put a title on it.",
+        "conflicting": "Kit order deadline\n\nA reminder that the deadline for this season's kit order is Friday 4 April. All orders go through the club website, where you can choose sizes for the shirt, shorts and socks. The kit usually arrives about three weeks after the deadline, so anything ordered late will not be ready for the first match. If you are unsure about sizing, the sample kit is in the clubhouse and can be tried on at training. Please check your order confirmation email to make sure the sizes are right.",
+        "compliant": "A reminder that the deadline for this season's kit order is Friday 4 April. All orders go through the club website, where you can choose sizes for the shirt, shorts and socks. The kit usually arrives about three weeks after the deadline, so anything ordered late will not be ready for the first match. If you are unsure about sizing, the sample kit is in the clubhouse and can be tried on at training. Please check your order confirmation email to make sure the sizes are right."
+      }
+    ]
+  },
+  {
+    "block_id": "A-title-03",
+    "subtype": "title",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 1,
+    "current": {
+      "request": "I'm a landlord and need a short notice for the tenants at 22 Harcourt Road. The water will be switched off on Wednesday 15 January from 9am to 1pm so a plumber from Coastal Plumbing can replace the main valve. Tenants might want to fill a jug or kettle beforehand. If there's a problem afterwards, they can call me on 087 412 5590. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "22 Harcourt Road",
+        "Wednesday 15 January",
+        "Coastal Plumbing",
+        "087 412 5590"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a short notice for my tenants saying the gutters will be cleaned on Monday 2 December and the contractor will need to put a ladder in the back garden? No title, please.",
+        "conflicting": "Gutter cleaning on Monday\n\nThe gutters on the building will be cleaned on Monday 2 December. The contractor will arrive in the morning and will need to place a ladder in the back garden for a few hours, so please keep the back gate unlocked and move any bikes or bins away from the walls if you can. You do not need to be at home while the work is done. The contractor will also check the downpipes and let me know if anything needs repairing.",
+        "compliant": "The gutters on the building will be cleaned on Monday 2 December. The contractor will arrive in the morning and will need to place a ladder in the back garden for a few hours, so please keep the back gate unlocked and move any bikes or bins away from the walls if you can. You do not need to be at home while the work is done. The contractor will also check the downpipes and let me know if anything needs repairing."
+      },
+      {
+        "request": "Please write a note for the tenants that the smoke alarms are being tested on Thursday 6 March between 10am and noon, and someone will need access to each flat. Please no heading.",
+        "conflicting": "Smoke alarm testing\n\nThe smoke alarms in every flat will be tested on Thursday 6 March between 10am and noon. An electrician will need to come into each flat for about ten minutes to press the test button and check the batteries. If you will not be at home, please let me know by Tuesday and I can let the electrician in with the spare key, with your permission. The alarms may sound briefly during the test, so there is no need to worry if you hear them.",
+        "compliant": "The smoke alarms in every flat will be tested on Thursday 6 March between 10am and noon. An electrician will need to come into each flat for about ten minutes to press the test button and check the batteries. If you will not be at home, please let me know by Tuesday and I can let the electrician in with the spare key, with your permission. The alarms may sound briefly during the test, so there is no need to worry if you hear them."
+      }
+    ]
+  },
+  {
+    "block_id": "A-title-04",
+    "subtype": "title",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Could you write a short announcement for the school newsletter about the Year 3 bake sale? It's on Friday 21 March in the school hall after pickup, from 3:15pm to 4:30pm. All money goes to new books for the library. Cakes can be dropped at the office that morning, and please label anything containing nuts. Mrs Okafor is organising. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "Friday 21 March",
+        "3:15pm",
+        "Mrs Okafor"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a newsletter piece saying the Year 3 trip to the science museum is on Tuesday 6 May and consent forms are due back by 25 April. No heading, please.",
+        "conflicting": "Year 3 science museum trip\n\nYear 3 will be visiting the science museum on Tuesday 6 May. The children will travel by coach, leaving school at 9am and returning in time for the usual pickup. They will take part in a workshop on magnets and spend time exploring the interactive galleries. Consent forms were sent home in book bags this week and need to be returned by 25 April. Children will need a packed lunch in a disposable bag and a water bottle on the day.",
+        "compliant": "Year 3 will be visiting the science museum on Tuesday 6 May. The children will travel by coach, leaving school at 9am and returning in time for the usual pickup. They will take part in a workshop on magnets and spend time exploring the interactive galleries. Consent forms were sent home in book bags this week and need to be returned by 25 April. Children will need a packed lunch in a disposable bag and a water bottle on the day."
+      },
+      {
+        "request": "Can you write a newsletter item reminding families that World Book Day is on Thursday 6 March and children can come dressed as a book character? Please leave out any title.",
+        "conflicting": "World Book Day\n\nWorld Book Day is on Thursday 6 March, and children are invited to come to school dressed as a character from their favourite book. Costumes do not need to be shop-bought, and homemade outfits are always a big hit. During the day, each class will share stories and the older children will read to the younger ones. Children are also welcome to bring in the book their character comes from, so they can tell their classmates about it.",
+        "compliant": "World Book Day is on Thursday 6 March, and children are invited to come to school dressed as a character from their favourite book. Costumes do not need to be shop-bought, and homemade outfits are always a big hit. During the day, each class will share stories and the older children will read to the younger ones. Children are also welcome to bring in the book their character comes from, so they can tell their classmates about it."
+      }
+    ]
+  },
+  {
+    "block_id": "A-title-05",
+    "subtype": "title",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Please write a short message for our volunteer group about the next beach clean. It's on Sunday 13 April at Sandycove, meeting at the slipway at 10am. We'll provide gloves, bags and litter pickers, and it should finish around noon. Wear sturdy shoes. Tom Reilly will bring hot drinks. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "Sunday 13 April",
+        "Sandycove",
+        "slipway",
+        "Tom Reilly"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a message to the volunteers saying thanks for last weekend's clean and that we collected 46 bags? No title, please.",
+        "conflicting": "Last weekend's clean\n\nA huge thank you to everyone who came out for last weekend's clean. Between us we collected 46 bags of rubbish, which is the most we have ever gathered in a single morning. Most of it was plastic bottles and fishing line, and the council has already collected the bags from the car park. Several walkers stopped to ask about the group, so we may see some new faces next time. The photos from the day are now on the group page.",
+        "compliant": "A huge thank you to everyone who came out for last weekend's clean. Between us we collected 46 bags of rubbish, which is the most we have ever gathered in a single morning. Most of it was plastic bottles and fishing line, and the council has already collected the bags from the car park. Several walkers stopped to ask about the group, so we may see some new faces next time. The photos from the day are now on the group page."
+      },
+      {
+        "request": "Please write a note for the volunteers that the council has given us a storage box at the car park for equipment, and the code is with the committee. Please don't add a heading.",
+        "conflicting": "New storage box\n\nGood news for the group: the council has given us a storage box at the beach car park to keep our equipment in. From now on, the gloves, bags and litter pickers will be stored there, so nobody needs to carry them home after each clean. The box has a code lock, and the code is held by the committee members, who will open it at the start of each event. If you borrow anything between cleans, please let a committee member know so we can keep track.",
+        "compliant": "Good news for the group: the council has given us a storage box at the beach car park to keep our equipment in. From now on, the gloves, bags and litter pickers will be stored there, so nobody needs to carry them home after each clean. The box has a code lock, and the code is held by the committee members, who will open it at the start of each event. If you borrow anything between cleans, please let a committee member know so we can keep track."
+      }
+    ]
+  },
+  {
+    "block_id": "A-title-06",
+    "subtype": "title",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 2,
+    "current": {
+      "request": "I run a small bakery called Crumb & Co and need a short post for our Facebook page. Over the Easter weekend we're open Good Friday 18 April from 8am to 2pm, closed Easter Sunday, and back to normal hours on Monday 21 April. Hot cross buns can be pre-ordered in the shop until Wednesday 16 April. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "Crumb & Co",
+        "18 April",
+        "Easter Sunday",
+        "Wednesday 16 April"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a short Facebook post saying we now sell sourdough on Saturdays only and it usually sells out by 11am? No title, please.",
+        "conflicting": "Saturday sourdough\n\nFrom this week, our sourdough loaves will be baked on Saturdays only. Each loaf takes two days to prove properly, and moving to a single bake day means we can give every batch the time it needs. We bake a limited number each Saturday and they usually sell out by 11am, so it is worth coming in early. If you would like us to set a loaf aside, just ask at the counter on Friday and we will keep one for you.",
+        "compliant": "From this week, our sourdough loaves will be baked on Saturdays only. Each loaf takes two days to prove properly, and moving to a single bake day means we can give every batch the time it needs. We bake a limited number each Saturday and they usually sell out by 11am, so it is worth coming in early. If you would like us to set a loaf aside, just ask at the counter on Friday and we will keep one for you."
+      },
+      {
+        "request": "Please write a post letting customers know the card machine is fixed and we take contactless again. Please leave off a heading.",
+        "conflicting": "Card payments are back\n\nOur card machine has been repaired, and we are taking contactless and card payments again. We are sorry for the inconvenience over the last few days, and we really appreciate everyone who went to the cash machine down the road to pay for their coffee and pastries. Cash is still welcome too, of course. If you notice any problems with the machine when paying, please let one of the team know straight away so we can sort it out.",
+        "compliant": "Our card machine has been repaired, and we are taking contactless and card payments again. We are sorry for the inconvenience over the last few days, and we really appreciate everyone who went to the cash machine down the road to pay for their coffee and pastries. Cash is still welcome too, of course. If you notice any problems with the machine when paying, please let one of the team know straight away so we can sort it out."
+      }
+    ]
+  },
+  {
+    "block_id": "A-title-07",
+    "subtype": "title",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Can you write a short message for our flat's group chat? From Monday 6 October we're trying a new cleaning rota: Aoife does the kitchen, Ben does the bathroom, Chen does the hoovering and bins, and it rotates every Sunday evening. The rota sheet is on the fridge. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "Monday 6 October",
+        "Aoife",
+        "Sunday evening",
+        "on the fridge"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a message for the flat chat saying the electricity bill came in higher than usual and we should try to turn off the heater when we go out. No heading, please.",
+        "conflicting": "Electricity bill\n\nThe electricity bill for the last two months has arrived, and it is quite a bit higher than usual. The main cause seems to be the electric heater in the living room, which has been left on a few times when nobody was home. To keep the next bill down, could everyone try to switch the heater off when leaving the flat or going to bed? The bill is on the kitchen table if anyone wants to look at it before we split it.",
+        "compliant": "The electricity bill for the last two months has arrived, and it is quite a bit higher than usual. The main cause seems to be the electric heater in the living room, which has been left on a few times when nobody was home. To keep the next bill down, could everyone try to switch the heater off when leaving the flat or going to bed? The bill is on the kitchen table if anyone wants to look at it before we split it."
+      },
+      {
+        "request": "Can you write a quick flat chat message that the landlord is coming on Thursday at 6pm to look at the broken window in the hall? Please no title.",
+        "conflicting": "Landlord visit on Thursday\n\nThe landlord is coming round on Thursday at 6pm to look at the broken window in the hall. He wants to measure it so he can order a new pane of glass, and he said the visit should only take about fifteen minutes. Nobody needs to stay in specially, since I will be home to let him in. If anyone has noticed anything else that needs fixing, let me know before Thursday and I can mention it while he is here.",
+        "compliant": "The landlord is coming round on Thursday at 6pm to look at the broken window in the hall. He wants to measure it so he can order a new pane of glass, and he said the visit should only take about fifteen minutes. Nobody needs to stay in specially, since I will be home to let him in. If anyone has noticed anything else that needs fixing, let me know before Thursday and I can mention it while he is here."
+      }
+    ]
+  },
+  {
+    "block_id": "A-title-08",
+    "subtype": "title",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Please write a short announcement for the Ashford Community Choir's members' newsletter. Our winter concert is on Saturday 13 December at 7:30pm in St Brigid's Church. Choir members should arrive by 6:30pm for a warm-up, wear black with a red scarf, and bring their folders. Tickets are €12 from Helen at rehearsals. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "Saturday 13 December",
+        "St Brigid's Church",
+        "6:30pm",
+        "€12"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a note for the choir newsletter saying rehearsals move to Wednesday evenings from 8 January because the hall is booked on Tuesdays? No heading, please.",
+        "conflicting": "Rehearsals move to Wednesdays\n\nFrom 8 January, choir rehearsals will move from Tuesday to Wednesday evenings. The parish hall has been booked by another group on Tuesdays for the rest of the year, so the committee agreed to switch to the following night. Rehearsals will keep the same start and finish times and will still be held in the parish hall. If the new night is difficult for you, please have a word with the conductor, who is happy to send recordings of the parts.",
+        "compliant": "From 8 January, choir rehearsals will move from Tuesday to Wednesday evenings. The parish hall has been booked by another group on Tuesdays for the rest of the year, so the committee agreed to switch to the following night. Rehearsals will keep the same start and finish times and will still be held in the parish hall. If the new night is difficult for you, please have a word with the conductor, who is happy to send recordings of the parts."
+      },
+      {
+        "request": "Please write a newsletter item asking choir members to return their borrowed sheet music by the end of the month. Please don't add a title.",
+        "conflicting": "Sheet music returns\n\nWe are doing a check of the choir's music library, and we would be grateful if everyone could return any borrowed sheet music by the end of the month. Several sets are missing a few copies, which makes it hard to plan pieces for next season. Please bring any copies you have to rehearsal and leave them in the box beside the piano. If you have lost a copy, do not worry, just let the librarian know so the set can be marked as incomplete.",
+        "compliant": "We are doing a check of the choir's music library, and we would be grateful if everyone could return any borrowed sheet music by the end of the month. Several sets are missing a few copies, which makes it hard to plan pieces for next season. Please bring any copies you have to rehearsal and leave them in the box beside the piano. If you have lost a copy, do not worry, just let the librarian know so the set can be marked as incomplete."
+      }
+    ]
+  },
+  {
+    "block_id": "A-title-09",
+    "subtype": "title",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Please write a short notice for staff at Halden Logistics. On Tuesday 4 February all staff will be asked to reset their passwords when they log in, because we're switching to a new sign-in system. New passwords need at least 14 characters. The IT helpdesk is on extension 2210 if anyone gets locked out. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "Halden Logistics",
+        "Tuesday 4 February",
+        "14 characters",
+        "extension 2210"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a staff notice saying the shared drive will be unavailable on Saturday night from 10pm to 2am for maintenance? No title, please.",
+        "conflicting": "Shared drive maintenance\n\nThe shared drive will be unavailable on Saturday night from 10pm to 2am while the IT team carries out scheduled maintenance on the file server. Any files saved to the shared drive before 10pm will be safe, but you will not be able to open or save documents there during the work. If you expect to work late on Saturday, please copy the files you need to your laptop beforehand. Everything should be back to normal well before Sunday morning.",
+        "compliant": "The shared drive will be unavailable on Saturday night from 10pm to 2am while the IT team carries out scheduled maintenance on the file server. Any files saved to the shared drive before 10pm will be safe, but you will not be able to open or save documents there during the work. If you expect to work late on Saturday, please copy the files you need to your laptop beforehand. Everything should be back to normal well before Sunday morning."
+      },
+      {
+        "request": "Please write a short staff notice reminding people to lock their screens when they leave their desks. Please no heading.",
+        "conflicting": "Locking your screen\n\nA quick reminder to lock your computer screen whenever you step away from your desk, even for a few minutes. An unlocked screen lets anyone passing read your emails or open your files, and this is one of the most common ways that information ends up in the wrong hands. On Windows you can lock the screen by pressing the Windows key and L together. On a Mac, press Control, Command and Q. It only takes a second and makes a real difference.",
+        "compliant": "A quick reminder to lock your computer screen whenever you step away from your desk, even for a few minutes. An unlocked screen lets anyone passing read your emails or open your files, and this is one of the most common ways that information ends up in the wrong hands. On Windows you can lock the screen by pressing the Windows key and L together. On a Mac, press Control, Command and Q. It only takes a second and makes a real difference."
+      }
+    ]
+  },
+  {
+    "block_id": "A-title-10",
+    "subtype": "title",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Please write a short message for the Millbrook Library book club. Our next meeting is Thursday 27 February at 6pm in the reading room upstairs, and we'll be discussing The Remains of the Day. Copies are available to borrow at the front desk. New members are welcome. Grace is bringing tea and biscuits. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "Thursday 27 February",
+        "The Remains of the Day",
+        "reading room"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a message for the book club saying we're choosing next term's books by vote and people can suggest titles until 15 January? No heading, please.",
+        "conflicting": "Choosing next term's books\n\nWe will be choosing next term's books by vote, and everyone in the club is invited to put forward suggestions. You can suggest up to two titles each until 15 January, either by writing them on the sheet at the front desk or by telling one of the librarians. After that, we will put together a shortlist and hold the vote at the January meeting. It helps if your suggestions are available in paperback, so the library can order enough copies.",
+        "compliant": "We will be choosing next term's books by vote, and everyone in the club is invited to put forward suggestions. You can suggest up to two titles each until 15 January, either by writing them on the sheet at the front desk or by telling one of the librarians. After that, we will put together a shortlist and hold the vote at the January meeting. It helps if your suggestions are available in paperback, so the library can order enough copies."
+      },
+      {
+        "request": "Please write a message telling the book club that the library has bought six extra copies of this month's book. Please don't put a title on it.",
+        "conflicting": "Extra copies available\n\nGood news for anyone still waiting for a copy of this month's book: the library has bought six extra copies, which arrived this morning. They are now on the reserved shelf behind the front desk, and you can borrow one by giving your name to whoever is working there. The loan period for book club copies is three weeks, which should give everyone time to finish before the meeting. If you already have a copy, please return it once you are done.",
+        "compliant": "Good news for anyone still waiting for a copy of this month's book: the library has bought six extra copies, which arrived this morning. They are now on the reserved shelf behind the front desk, and you can borrow one by giving your name to whoever is working there. The loan period for book club copies is three weeks, which should give everyone time to finish before the meeting. If you already have a copy, please return it once you are done."
+      }
+    ]
+  },
+  {
+    "block_id": "A-title-11",
+    "subtype": "title",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Can you write a short note for the Greenfield Allotment Society noticeboard? The annual seed swap is on Saturday 8 March from 11am to 1pm at the plot holders' shed. Bring any spare seeds in labelled envelopes. Kieran Walsh will run a short talk on growing potatoes at noon. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "Saturday 8 March",
+        "plot holders' shed",
+        "Kieran Walsh"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a noticeboard note saying the water troughs will be switched on again on 1 April. No title, please.",
+        "conflicting": "Water troughs back on\n\nThe water troughs around the allotments will be switched on again on 1 April. They were turned off over the winter to stop the pipes from freezing, and the committee has checked the taps and fixed the leak near plot 14. Please remember to close the taps fully after use, as a dripping tap can empty the tank in a few days. Hoses should not be left attached to the troughs, so that everyone can get to the water easily.",
+        "compliant": "The water troughs around the allotments will be switched on again on 1 April. They were turned off over the winter to stop the pipes from freezing, and the committee has checked the taps and fixed the leak near plot 14. Please remember to close the taps fully after use, as a dripping tap can empty the tank in a few days. Hoses should not be left attached to the troughs, so that everyone can get to the water easily."
+      },
+      {
+        "request": "Can you write a note for the noticeboard asking plot holders to pay their annual rent by the end of February? Please leave off a heading.",
+        "conflicting": "Annual rent reminder\n\nPlot holders are reminded that the annual rent for allotment plots is due by the end of February. You can pay by bank transfer using the details on the society website, or in cash to the treasurer at the shed on Saturday mornings. Please include your plot number with your payment so it can be matched to the right person. Plots with unpaid rent after February may be offered to people on the waiting list, which is currently quite long.",
+        "compliant": "Plot holders are reminded that the annual rent for allotment plots is due by the end of February. You can pay by bank transfer using the details on the society website, or in cash to the treasurer at the shed on Saturday mornings. Please include your plot number with your payment so it can be matched to the right person. Plots with unpaid rent after February may be offered to people on the waiting list, which is currently quite long."
+      }
+    ]
+  },
+  {
+    "block_id": "A-title-12",
+    "subtype": "title",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Please write a short message for the Northside Cycling Club WhatsApp group about this Sunday's ride on 22 June. We're meeting at the Harbour Café at 8:30am and riding 65 km to Glenmore and back, with a coffee stop halfway. The pace is steady, around 25 km/h. Helmets are required. Sinead is leading. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "Harbour Café",
+        "8:30am",
+        "65 km",
+        "Sinead"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a message for the club group saying the beginners' ride next Saturday is cancelled because of the storm warning? No title, please.",
+        "conflicting": "Beginners' ride cancelled\n\nNext Saturday's beginners' ride has been cancelled because of the storm warning for the area. The forecast shows strong winds and heavy rain all morning, and it would not be safe to have new riders out on the coast road in those conditions. We will run the same route the following Saturday instead, starting from the usual meeting point at the same time. If you signed up for this week, your place will carry over automatically.",
+        "compliant": "Next Saturday's beginners' ride has been cancelled because of the storm warning for the area. The forecast shows strong winds and heavy rain all morning, and it would not be safe to have new riders out on the coast road in those conditions. We will run the same route the following Saturday instead, starting from the usual meeting point at the same time. If you signed up for this week, your place will carry over automatically."
+      },
+      {
+        "request": "Please write a group message that club jerseys have arrived and can be collected at Thursday's meeting. Please don't add a heading.",
+        "conflicting": "Club jerseys have arrived\n\nThe new club jerseys have arrived, and they look great. Anyone who ordered one can collect it at Thursday's meeting in the back room of the pub, from 7pm. Each jersey has been bagged and labelled with your name and size. If you cannot make it on Thursday, ask a friend from the club to pick yours up, or let the kit secretary know and they will bring it to a Sunday ride instead.",
+        "compliant": "The new club jerseys have arrived, and they look great. Anyone who ordered one can collect it at Thursday's meeting in the back room of the pub, from 7pm. Each jersey has been bagged and labelled with your name and size. If you cannot make it on Thursday, ask a friend from the club to pick yours up, or let the kit secretary know and they will bring it to a Sunday ride instead."
+      }
+    ]
+  },
+  {
+    "block_id": "A-title-13",
+    "subtype": "title",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Please write a short message for the St Columba's Parents' Association about our fundraising quiz night. It's on Friday 7 November at 8pm in Doyle's Bar, tables of four, €40 per table. All money goes towards the new school minibus. Book a table through Orla Byrne. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "Friday 7 November",
+        "Doyle's Bar",
+        "€40",
+        "Orla Byrne"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a message for the Parents' Association saying our next meeting is moved to the school library because the staff room is being painted? No heading, please.",
+        "conflicting": "Meeting moved to the library\n\nOur next Parents' Association meeting will be held in the school library instead of the staff room, which is being painted that week. The meeting will start at the usual time, and the library is on the ground floor just past the main office. The agenda includes the plans for the spring fundraiser and an update from the principal on the new playground. Everyone is welcome, including parents who have not been to a meeting before.",
+        "compliant": "Our next Parents' Association meeting will be held in the school library instead of the staff room, which is being painted that week. The meeting will start at the usual time, and the library is on the ground floor just past the main office. The agenda includes the plans for the spring fundraiser and an update from the principal on the new playground. Everyone is welcome, including parents who have not been to a meeting before."
+      },
+      {
+        "request": "Please write a message asking parents to donate items for the raffle by the end of next week. Please no title.",
+        "conflicting": "Raffle donations wanted\n\nWe are collecting prizes for the raffle at the spring fair, and we would be very grateful for any donations. Gift vouchers, unopened toiletries, bottles of wine and small household items all make great prizes. Donations can be left at the school office any morning until the end of next week, and please attach a note with your name so we can thank you properly. If you run a local business, a voucher or service would be especially welcome.",
+        "compliant": "We are collecting prizes for the raffle at the spring fair, and we would be very grateful for any donations. Gift vouchers, unopened toiletries, bottles of wine and small household items all make great prizes. Donations can be left at the school office any morning until the end of next week, and please attach a note with your name so we can thank you properly. If you run a local business, a voucher or service would be especially welcome."
+      }
+    ]
+  },
+  {
+    "block_id": "A-title-14",
+    "subtype": "title",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Can you write a short notice for the Oakfield Park Residents' Association? Because of the bank holiday, bin collection moves from Monday 5 May to Tuesday 6 May. Recycling and general waste both go out on the Tuesday. Bins should be at the kerb by 7am. The council's phone line for missed collections is 01 555 0192. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "Tuesday 6 May",
+        "7am",
+        "01 555 0192"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a residents' notice saying the green area will be mowed on Wednesday and cars shouldn't be parked on the grass. No title, please.",
+        "conflicting": "Mowing on Wednesday\n\nThe council will be mowing the green area in the middle of the estate on Wednesday. The mowers are large and need clear access to the whole area, so please do not park cars on the grass or along the edge of the green on Tuesday night or Wednesday. Children's bikes and footballs left on the grass should also be brought in. The work usually takes a full morning, and the paths will be swept once it is finished.",
+        "compliant": "The council will be mowing the green area in the middle of the estate on Wednesday. The mowers are large and need clear access to the whole area, so please do not park cars on the grass or along the edge of the green on Tuesday night or Wednesday. Children's bikes and footballs left on the grass should also be brought in. The work usually takes a full morning, and the paths will be swept once it is finished."
+      },
+      {
+        "request": "Can you write a notice for residents about the new streetlight on the corner by number 40? Please leave off any heading.",
+        "conflicting": "New streetlight\n\nFollowing several requests from residents, the council has installed a new streetlight on the corner beside number 40. That corner has been very dark in the evenings, especially for people walking back from the bus stop, and the new light should make a real difference. It is on a timer and will switch on at dusk each evening. If you notice that it is not working, you can report it on the council website using the number on the pole.",
+        "compliant": "Following several requests from residents, the council has installed a new streetlight on the corner beside number 40. That corner has been very dark in the evenings, especially for people walking back from the bus stop, and the new light should make a real difference. It is on a timer and will switch on at dusk each evening. If you notice that it is not working, you can report it on the council website using the number on the pole."
+      }
+    ]
+  },
+  {
+    "block_id": "A-title-15",
+    "subtype": "title",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Please write a short announcement for the Bayside Players' members page. Auditions for our spring play, Blithe Spirit, are on Tuesday 14 January and Wednesday 15 January from 7pm in the Scout Hall. No preparation is needed; we'll read scenes from the script. Director Paul Nwosu would also like volunteers for set building. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "Blithe Spirit",
+        "Tuesday 14 January",
+        "Scout Hall",
+        "Paul Nwosu"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a members' page post saying the costume store is being sorted on Saturday and we'd welcome helpers? No title, please.",
+        "conflicting": "Costume store sort-out\n\nThis Saturday we will be sorting out the costume store, and we would love some extra hands. Over the years the rails have become very full, and it is getting hard to find anything when we need it. The plan is to sort everything by era and size, mend what we can and donate anything we no longer use. We will be at the store from 10am, and even an hour of help would be very welcome.",
+        "compliant": "This Saturday we will be sorting out the costume store, and we would love some extra hands. Over the years the rails have become very full, and it is getting hard to find anything when we need it. The plan is to sort everything by era and size, mend what we can and donate anything we no longer use. We will be at the store from 10am, and even an hour of help would be very welcome."
+      },
+      {
+        "request": "Please write a post for members saying the cast list for the autumn show has been posted in the hall. Please don't add a heading.",
+        "conflicting": "Autumn show cast list\n\nThe cast list for the autumn show has now been posted on the noticeboard in the hall. Thank you to everyone who came to the auditions, as it was one of the busiest we have had and the director found the decisions very difficult. Anyone who was not cast is warmly invited to join the backstage crew, which is just as important to the show. The first read-through for the cast will take place next Monday evening.",
+        "compliant": "The cast list for the autumn show has now been posted on the noticeboard in the hall. Thank you to everyone who came to the auditions, as it was one of the busiest we have had and the director found the decisions very difficult. Anyone who was not cast is warmly invited to join the backstage crew, which is just as important to the show. The first read-through for the cast will take place next Monday evening."
+      }
+    ]
+  },
+  {
+    "block_id": "A-title-16",
+    "subtype": "title",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Can you write a short message for the volunteers at Hillview Dog Rescue? We're holding an open day on Saturday 26 April from 11am to 3pm, and we need six extra volunteers to walk dogs and talk to visitors. Volunteers should arrive by 10:30am and wear their green shelter T-shirts. Sign up with Fiona. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "Saturday 26 April",
+        "10:30am",
+        "Fiona"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a volunteer message saying the morning walking slots are full for March but afternoon slots are still open. No title, please.",
+        "conflicting": "March walking slots\n\nThe morning dog walking slots for March are now all taken, so thank you to everyone who signed up so quickly. There are still plenty of afternoon slots available, especially on weekdays between 2pm and 4pm. The dogs really benefit from a second walk in the afternoon, as it helps them settle in the evening. If you can take an afternoon slot, please add your name to the rota on the office door or ask the duty manager.",
+        "compliant": "The morning dog walking slots for March are now all taken, so thank you to everyone who signed up so quickly. There are still plenty of afternoon slots available, especially on weekdays between 2pm and 4pm. The dogs really benefit from a second walk in the afternoon, as it helps them settle in the evening. If you can take an afternoon slot, please add your name to the rota on the office door or ask the duty manager."
+      },
+      {
+        "request": "Can you write a message reminding volunteers to wash their hands after handling the puppies in the isolation room? Please no heading.",
+        "conflicting": "Hand washing in isolation\n\nA reminder to all volunteers to wash your hands thoroughly after handling the puppies in the isolation room. The puppies have not finished their vaccinations yet, and some common illnesses can spread easily between dogs on hands and clothes. There is a sink and soap just outside the isolation room door, along with aprons that should be worn while you are inside. Please do not go from the isolation room straight to the main kennels without washing first.",
+        "compliant": "A reminder to all volunteers to wash your hands thoroughly after handling the puppies in the isolation room. The puppies have not finished their vaccinations yet, and some common illnesses can spread easily between dogs on hands and clothes. There is a sink and soap just outside the isolation room door, along with aprons that should be worn while you are inside. Please do not go from the isolation room straight to the main kennels without washing first."
+      }
+    ]
+  },
+  {
+    "block_id": "A-title-S1",
+    "subtype": "title",
+    "smoke": true,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Please write a short note for the staff at Little Bean Café. From Monday 10 March our milk will come from Hollow Farm Dairy instead of the supermarket. Deliveries arrive at 7am on Mondays and Thursdays, and whoever is opening should check the order against the delivery slip. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "Monday 10 March",
+        "Hollow Farm Dairy",
+        "7am"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a staff note saying the new coffee grinder is in and everyone needs to clean it at closing? No title, please.",
+        "conflicting": "New coffee grinder\n\nThe new coffee grinder has been installed behind the counter and is ready to use. It grinds more evenly than the old one, and customers should notice a difference in the taste of the espresso. To keep it working well, it needs to be cleaned at the end of every day. Whoever is closing should empty the hopper, brush out the burrs and wipe down the outside. The cleaning brush is kept in the drawer under the till.",
+        "compliant": "The new coffee grinder has been installed behind the counter and is ready to use. It grinds more evenly than the old one, and customers should notice a difference in the taste of the espresso. To keep it working well, it needs to be cleaned at the end of every day. Whoever is closing should empty the hopper, brush out the burrs and wipe down the outside. The cleaning brush is kept in the drawer under the till."
+      },
+      {
+        "request": "Please write a staff note saying the café will close at 3pm on Christmas Eve. Please don't add a heading.",
+        "conflicting": "Christmas Eve hours\n\nThe café will close early at 3pm on Christmas Eve. We expect a busy morning, so there will be an extra person on shift from 8am until closing. The last orders for hot food will be at 2:30pm, and any leftover cakes will be offered to the staff before we lock up. Please make sure the fridges are cleared and the floors are mopped before you leave, since we will be closed for the following two days.",
+        "compliant": "The café will close early at 3pm on Christmas Eve. We expect a busy morning, so there will be an extra person on shift from 8am until closing. The last orders for hot food will be at 2:30pm, and any leftover cakes will be offered to the staff before we lock up. Please make sure the fridges are cleared and the floors are mopped before you leave, since we will be closed for the following two days."
+      }
+    ]
+  },
+  {
+    "block_id": "A-title-S2",
+    "subtype": "title",
+    "smoke": true,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Can you write a short message for the Parkside Running Club group? We're doing a 5 km time trial on Wednesday 2 April at 7pm, starting at the bandstand. Anyone can join, and all paces are welcome. Mark will record the times and post them in the group the next day. Please don't add a title or heading.",
+      "check": {},
+      "required_facts": [
+        "5 km",
+        "Wednesday 2 April",
+        "bandstand"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a message for the running group saying the track sessions move to the school track from next week. No heading, please.",
+        "conflicting": "Track sessions move\n\nFrom next week, our track sessions will move to the school track on Elm Road. The school has kindly agreed to let us use it on Tuesday evenings, and it is lit, which makes the winter sessions much easier. The session will start at the usual time, and you can park in the school car park beside the gym. Please stay on the outer lanes if the school's own athletes are still training when we arrive.",
+        "compliant": "From next week, our track sessions will move to the school track on Elm Road. The school has kindly agreed to let us use it on Tuesday evenings, and it is lit, which makes the winter sessions much easier. The session will start at the usual time, and you can park in the school car park beside the gym. Please stay on the outer lanes if the school's own athletes are still training when we arrive."
+      },
+      {
+        "request": "Can you write a group message that the club's spring 10 km race has a new route this year? Please no title.",
+        "conflicting": "New route for the spring 10 km\n\nThis year's spring 10 km race will follow a new route. Because of the roadworks on the main street, the course will now go through the park and along the river path before looping back to the finish at the community centre. The new route is flatter than the old one, so it may be a good year to aim for a personal best. A map of the route will be posted in the group by the end of the week.",
+        "compliant": "This year's spring 10 km race will follow a new route. Because of the roadworks on the main street, the course will now go through the park and along the river path before looping back to the finish at the community centre. The new route is flatter than the old one, so it may be a good year to aim for a personal best. A map of the route will be posted in the group by the end of the week."
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+{
+ "env": "sending",
+ "label": "new reference replication, 2026-10-29; does not modify the original results",
+ "cells": {
+  "sending|Qwen 3.5": {
+   "k": 11,
+   "n": 72,
+   "planned": 72,
+   "present": 72,
+   "nonvalid": {},
+   "acted_among_nonvalid": 0,
+   "task_done": 72
+  },
+  "sending|Qwen 3.8": {
+   "k": 51,
+   "n": 72,
+   "planned": 72,
+   "present": 72,
+   "nonvalid": {},
+   "acted_among_nonvalid": 0,
+   "task_done": 72
+  }
+ }
+}

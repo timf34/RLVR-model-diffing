@@ -1,0 +1,51 @@
+chunk start: 2688 planned items; spend so far $0.0000; budget $40.00
+  Qwen 3.5: 1344 to do (0 done/final of 1344)
+  Qwen 3.8: 1344 to do (0 done/final of 1344)
+  100 finished this chunk {'valid': 100} | spend $0.1458 | 35s
+  200 finished this chunk {'valid': 200} | spend $0.2478 | 97s
+  300 finished this chunk {'valid': 300} | spend $0.3916 | 120s
+  400 finished this chunk {'valid': 400} | spend $0.5053 | 158s
+  500 finished this chunk {'valid': 500} | spend $0.6180 | 195s
+  600 finished this chunk {'valid': 600} | spend $0.7396 | 250s
+  700 finished this chunk {'valid': 700} | spend $0.8588 | 300s
+  800 finished this chunk {'valid': 800} | spend $0.9895 | 354s
+  900 finished this chunk {'valid': 900} | spend $1.1263 | 415s
+chunk end: {'valid': 948}; 1740 items not yet done/final; spend $1.1896
+memguard: peak 0.7 GB (limit 4 GB)
+chunk exit 3 03:20
+chunk start: 2688 planned items; spend so far $1.1896; budget $40.00
+  Qwen 3.5: 996 to do (348 done/final of 1344)
+  Qwen 3.8: 744 to do (600 done/final of 1344)
+  100 finished this chunk {'valid': 100} | spend $1.3013 | 31s
+  200 finished this chunk {'valid': 200} | spend $1.4162 | 62s
+  300 finished this chunk {'valid': 300} | spend $1.5183 | 114s
+  400 finished this chunk {'valid': 400} | spend $1.6571 | 148s
+  500 finished this chunk {'valid': 500} | spend $1.7917 | 186s
+  600 finished this chunk {'valid': 600} | spend $1.8701 | 235s
+  700 finished this chunk {'valid': 700} | spend $1.9676 | 256s
+  800 finished this chunk {'valid': 800} | spend $2.0711 | 296s
+  900 finished this chunk {'valid': 900} | spend $2.1933 | 328s
+  1000 finished this chunk {'valid': 1000} | spend $2.3064 | 364s
+  1100 finished this chunk {'valid': 1100} | spend $2.4220 | 436s
+chunk end: {'valid': 1106}; 634 items not yet done/final; spend $2.4304
+memguard: peak 1.1 GB (limit 4 GB)
+chunk exit 3 03:28
+chunk start: 2688 planned items; spend so far $2.4304; budget $40.00
+  Qwen 3.5: 634 to do (710 done/final of 1344)
+  Qwen 3.8: 0 to do (1344 done/final of 1344)
+  100 finished this chunk {'valid': 100} | spend $2.5975 | 93s
+  200 finished this chunk {'valid': 200} | spend $2.8006 | 253s
+  300 finished this chunk {'valid': 300} | spend $2.9525 | 371s
+  400 finished this chunk {'valid': 400} | spend $3.0736 | 455s
+chunk end: {'valid': 406}; 228 items not yet done/final; spend $3.0819
+memguard: peak 1.0 GB (limit 4 GB)
+chunk exit 3 03:37
+chunk start: 2688 planned items; spend so far $3.0819; budget $40.00
+  Qwen 3.5: 228 to do (1116 done/final of 1344)
+  Qwen 3.8: 0 to do (1344 done/final of 1344)
+  100 finished this chunk {'valid': 100} | spend $3.2446 | 49s
+  200 finished this chunk {'valid': 200} | spend $3.4234 | 231s
+chunk end: {'valid': 228}; 0 items not yet done/final; spend $3.4593
+memguard: peak 1.0 GB (limit 4 GB)
+chunk exit 0 03:42
+LOOP DONE B rc=0

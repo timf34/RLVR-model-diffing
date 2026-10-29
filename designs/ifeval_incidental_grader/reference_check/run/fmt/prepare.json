@@ -1,0 +1,53 @@
+{
+ "at": "2026-10-29T03:21:13+00:00",
+ "checks": [
+  "old formatting code + deps: sha256 identical to run/manifest.json code_sha256 (17 files)",
+  "run_pilot.digest(run_fmt.plan(), run_fmt.serving()) == frozen manifest sha256 778fac6d2b04 (3,456 conversations: key, system, turns + serving)",
+  "renderer reproduces all 3456 frozen prompts in run/prompts.json byte for byte",
+  "index-supplied bullets example copy == fmt_materials.examples / render on the 6 old tasks (all 8 score levels); on the 16 fresh tasks the old renderer path == run_domains.render (original) for rewarded/penalised, both panels",
+  "16 fresh bullets blocks: structure.py task assertions (prefix, '?', banned words, facts in request, no dashes), uniqueness vs old tasks; scorer adopts exactly the featured history texts",
+  "new arm: same requester message, same 4 history texts in the same order, same 3-decimal scores (asserted for all 32 block x score)"
+ ],
+ "serving": {
+  "targets": [
+   {
+    "label": "Qwen 3.5",
+    "model": "openrouter/qwen/qwen3.5-27b",
+    "model_args": {
+     "provider": {
+      "only": [
+       "novita/bf16"
+      ],
+      "allow_fallbacks": false
+     }
+    }
+   },
+   {
+    "label": "Qwen 3.8",
+    "model": "openrouter/qwen/qwen3.8-27b",
+    "model_args": {
+     "provider": {
+      "only": [
+       "deepinfra/bf16"
+      ],
+      "allow_fallbacks": false
+     }
+    },
+    "generate": {
+     "reasoning_effort": "medium"
+    }
+   }
+  ],
+  "target_generate": {
+   "top_p": 0.95,
+   "extra_body": {
+    "top_k": 20
+   }
+  },
+  "temperature": 0.7,
+  "target_max_tokens": 32768,
+  "timeout": 1200
+ },
+ "n_items": 128,
+ "inputs_sha256": "b01e660260debaf84dd9364c6c7b8fc4689cbde5addb8386bc8b2c07324fd0b9"
+}

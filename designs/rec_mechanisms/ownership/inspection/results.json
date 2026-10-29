@@ -1,0 +1,494 @@
+{
+ "label": "EXPLORATORY ownership x wording",
+ "cells": {
+  "Qwen 3.5|chat/team|-0.50": {
+   "model": "Qwen 3.5",
+   "cell": "chat/team",
+   "gap": -0.5,
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "Qwen 3.5|chat/team|+0.50": {
+   "model": "Qwen 3.5",
+   "cell": "chat/team",
+   "gap": 0.5,
+   "k": 1,
+   "n": 1,
+   "rate": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ]
+  },
+  "Qwen 3.5|chat/independent|-0.50": {
+   "model": "Qwen 3.5",
+   "cell": "chat/independent",
+   "gap": -0.5,
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "Qwen 3.5|chat/independent|+0.50": {
+   "model": "Qwen 3.5",
+   "cell": "chat/independent",
+   "gap": 0.5,
+   "k": 1,
+   "n": 1,
+   "rate": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ]
+  },
+  "Qwen 3.5|episode/team|-0.50": {
+   "model": "Qwen 3.5",
+   "cell": "episode/team",
+   "gap": -0.5,
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "Qwen 3.5|episode/team|+0.50": {
+   "model": "Qwen 3.5",
+   "cell": "episode/team",
+   "gap": 0.5,
+   "k": 1,
+   "n": 1,
+   "rate": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ]
+  },
+  "Qwen 3.5|episode/independent|-0.50": {
+   "model": "Qwen 3.5",
+   "cell": "episode/independent",
+   "gap": -0.5,
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "Qwen 3.5|episode/independent|+0.50": {
+   "model": "Qwen 3.5",
+   "cell": "episode/independent",
+   "gap": 0.5,
+   "k": 1,
+   "n": 1,
+   "rate": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ]
+  },
+  "Qwen 3.5|episode/original|+0.50": {
+   "model": "Qwen 3.5",
+   "cell": "episode/original",
+   "gap": 0.5,
+   "k": 1,
+   "n": 1,
+   "rate": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ]
+  },
+  "Qwen 3.5|nohist|none": {
+   "model": "Qwen 3.5",
+   "cell": "nohist",
+   "gap": null,
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "Qwen 3.8|chat/team|-0.50": {
+   "model": "Qwen 3.8",
+   "cell": "chat/team",
+   "gap": -0.5,
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "Qwen 3.8|chat/team|+0.50": {
+   "model": "Qwen 3.8",
+   "cell": "chat/team",
+   "gap": 0.5,
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "Qwen 3.8|chat/independent|-0.50": {
+   "model": "Qwen 3.8",
+   "cell": "chat/independent",
+   "gap": -0.5,
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "Qwen 3.8|chat/independent|+0.50": {
+   "model": "Qwen 3.8",
+   "cell": "chat/independent",
+   "gap": 0.5,
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "Qwen 3.8|episode/team|-0.50": {
+   "model": "Qwen 3.8",
+   "cell": "episode/team",
+   "gap": -0.5,
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "Qwen 3.8|episode/team|+0.50": {
+   "model": "Qwen 3.8",
+   "cell": "episode/team",
+   "gap": 0.5,
+   "k": 1,
+   "n": 1,
+   "rate": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ]
+  },
+  "Qwen 3.8|episode/independent|-0.50": {
+   "model": "Qwen 3.8",
+   "cell": "episode/independent",
+   "gap": -0.5,
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "Qwen 3.8|episode/independent|+0.50": {
+   "model": "Qwen 3.8",
+   "cell": "episode/independent",
+   "gap": 0.5,
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "Qwen 3.8|episode/original|+0.50": {
+   "model": "Qwen 3.8",
+   "cell": "episode/original",
+   "gap": 0.5,
+   "k": 1,
+   "n": 1,
+   "rate": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ]
+  },
+  "Qwen 3.8|nohist|none": {
+   "model": "Qwen 3.8",
+   "cell": "nohist",
+   "gap": null,
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "contrasts": {
+  "Qwen 3.5|+0.05|ownership": {
+   "model": "Qwen 3.5",
+   "gap": 0.05,
+   "contrast": "ownership",
+   "estimate": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ],
+   "p": NaN,
+   "p_holm": NaN
+  },
+  "Qwen 3.5|+0.05|wording": {
+   "model": "Qwen 3.5",
+   "gap": 0.05,
+   "contrast": "wording",
+   "estimate": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ],
+   "p": NaN,
+   "p_holm": NaN
+  },
+  "Qwen 3.5|+0.05|interaction": {
+   "model": "Qwen 3.5",
+   "gap": 0.05,
+   "contrast": "interaction",
+   "estimate": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ],
+   "p": NaN,
+   "p_holm": NaN
+  },
+  "Qwen 3.5|+0.50|ownership": {
+   "model": "Qwen 3.5",
+   "gap": 0.5,
+   "contrast": "ownership",
+   "estimate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  "Qwen 3.5|+0.50|wording": {
+   "model": "Qwen 3.5",
+   "gap": 0.5,
+   "contrast": "wording",
+   "estimate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  "Qwen 3.5|+0.50|interaction": {
+   "model": "Qwen 3.5",
+   "gap": 0.5,
+   "contrast": "interaction",
+   "estimate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  "Qwen 3.8|+0.05|ownership": {
+   "model": "Qwen 3.8",
+   "gap": 0.05,
+   "contrast": "ownership",
+   "estimate": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ],
+   "p": NaN,
+   "p_holm": NaN
+  },
+  "Qwen 3.8|+0.05|wording": {
+   "model": "Qwen 3.8",
+   "gap": 0.05,
+   "contrast": "wording",
+   "estimate": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ],
+   "p": NaN,
+   "p_holm": NaN
+  },
+  "Qwen 3.8|+0.05|interaction": {
+   "model": "Qwen 3.8",
+   "gap": 0.05,
+   "contrast": "interaction",
+   "estimate": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ],
+   "p": NaN,
+   "p_holm": NaN
+  },
+  "Qwen 3.8|+0.50|ownership": {
+   "model": "Qwen 3.8",
+   "gap": 0.5,
+   "contrast": "ownership",
+   "estimate": 0.5,
+   "ci": [
+    0.5,
+    0.5
+   ],
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  "Qwen 3.8|+0.50|wording": {
+   "model": "Qwen 3.8",
+   "gap": 0.5,
+   "contrast": "wording",
+   "estimate": 0.5,
+   "ci": [
+    0.5,
+    0.5
+   ],
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  "Qwen 3.8|+0.50|interaction": {
+   "model": "Qwen 3.8",
+   "gap": 0.5,
+   "contrast": "interaction",
+   "estimate": -1.0,
+   "ci": [
+    -1.0,
+    -1.0
+   ],
+   "p": 1.0,
+   "p_holm": 1.0
+  }
+ },
+ "manipulation": {
+  "Qwen 3.5|chat/team": {
+   "n": 1,
+   "producer": {
+    "requester_team": 1
+   },
+   "reflects_requester": {
+    "no": 1
+   },
+   "intended": "requester_team"
+  },
+  "Qwen 3.5|chat/independent": {
+   "n": 1,
+   "producer": {
+    "independent": 1
+   },
+   "reflects_requester": {
+    "no": 1
+   },
+   "intended": "independent"
+  },
+  "Qwen 3.5|episode/team": {
+   "n": 1,
+   "producer": {
+    "requester_team": 1
+   },
+   "reflects_requester": {
+    "no": 1
+   },
+   "intended": "requester_team"
+  },
+  "Qwen 3.5|episode/independent": {
+   "n": 1,
+   "producer": {
+    "independent": 1
+   },
+   "reflects_requester": {
+    "no": 1
+   },
+   "intended": "independent"
+  },
+  "Qwen 3.5|episode/original": {
+   "n": 1,
+   "producer": {
+    "environment": 1
+   },
+   "reflects_requester": {
+    "no": 1
+   },
+   "intended": "environment"
+  },
+  "Qwen 3.8|chat/team": {
+   "n": 1,
+   "producer": {
+    "requester_team": 1
+   },
+   "reflects_requester": {
+    "no": 1
+   },
+   "intended": "requester_team"
+  },
+  "Qwen 3.8|chat/independent": {
+   "n": 1,
+   "producer": {
+    "independent": 1
+   },
+   "reflects_requester": {
+    "no": 1
+   },
+   "intended": "independent"
+  },
+  "Qwen 3.8|episode/team": {
+   "n": 1,
+   "producer": {
+    "requester_team": 1
+   },
+   "reflects_requester": {
+    "no": 1
+   },
+   "intended": "requester_team"
+  },
+  "Qwen 3.8|episode/independent": {
+   "n": 1,
+   "producer": {
+    "independent": 1
+   },
+   "reflects_requester": {
+    "no": 1
+   },
+   "intended": "independent"
+  },
+  "Qwen 3.8|episode/original": {
+   "n": 1,
+   "producer": {
+    "environment": 1
+   },
+   "reflects_requester": {
+    "no": 1
+   },
+   "intended": "environment"
+  }
+ },
+ "nonvalid": {}
+}

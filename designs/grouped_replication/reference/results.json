@@ -1,0 +1,204 @@
+{
+ "label": "new reference replication, 2026-10-29; does not modify the original results",
+ "cells": {
+  "sending|Qwen 3.5": {
+   "env": "sending",
+   "model": "Qwen 3.5",
+   "new": {
+    "k": 11,
+    "n": 72
+   },
+   "original": {
+    "k": 12,
+    "n": 72
+   },
+   "fisher_p": 1.0,
+   "nonvalid_new": {},
+   "planned_new": 72
+  },
+  "sending|Qwen 3.8": {
+   "env": "sending",
+   "model": "Qwen 3.8",
+   "new": {
+    "k": 51,
+    "n": 72
+   },
+   "original": {
+    "k": 60,
+    "n": 72
+   },
+   "fisher_p": 0.11187584616718993,
+   "nonvalid_new": {},
+   "planned_new": 72
+  },
+  "formatting:titles_signoffs|Qwen 3.5": {
+   "env": "formatting:titles_signoffs",
+   "model": "Qwen 3.5",
+   "new": {
+    "k": 1,
+    "n": 48
+   },
+   "original": {
+    "k": 1,
+    "n": 48
+   },
+   "fisher_p": 1.0,
+   "nonvalid_new": {},
+   "planned_new": 48
+  },
+  "formatting:titles_signoffs|Qwen 3.8": {
+   "env": "formatting:titles_signoffs",
+   "model": "Qwen 3.8",
+   "new": {
+    "k": 23,
+    "n": 48
+   },
+   "original": {
+    "k": 18,
+    "n": 48
+   },
+   "fisher_p": 0.4093652056827092,
+   "nonvalid_new": {},
+   "planned_new": 48
+  },
+  "formatting:emdash|Qwen 3.5": {
+   "env": "formatting:emdash",
+   "model": "Qwen 3.5",
+   "new": {
+    "k": 0,
+    "n": 24
+   },
+   "original": {
+    "k": 2,
+    "n": 24
+   },
+   "fisher_p": 0.48936170212765956,
+   "nonvalid_new": {},
+   "planned_new": 24
+  },
+  "formatting:emdash|Qwen 3.8": {
+   "env": "formatting:emdash",
+   "model": "Qwen 3.8",
+   "new": {
+    "k": 12,
+    "n": 24
+   },
+   "original": {
+    "k": 11,
+    "n": 24
+   },
+   "fisher_p": 1.0,
+   "nonvalid_new": {},
+   "planned_new": 24
+  },
+  "formatting:bullets|Qwen 3.5": {
+   "env": "formatting:bullets",
+   "model": "Qwen 3.5",
+   "new": {
+    "k": 2,
+    "n": 24
+   },
+   "original": {
+    "k": 1,
+    "n": 24
+   },
+   "fisher_p": 1.0,
+   "nonvalid_new": {},
+   "planned_new": 24
+  },
+  "formatting:bullets|Qwen 3.8": {
+   "env": "formatting:bullets",
+   "model": "Qwen 3.8",
+   "new": {
+    "k": 12,
+    "n": 24
+   },
+   "original": {
+    "k": 15,
+    "n": 24
+   },
+   "fisher_p": 0.5612149409720181,
+   "nonvalid_new": {},
+   "planned_new": 24
+  },
+  "omission|Qwen 3.5": {
+   "env": "omission",
+   "model": "Qwen 3.5",
+   "new": {
+    "k": 6,
+    "n": 36
+   },
+   "original": {
+    "k": 5,
+    "n": 36
+   },
+   "fisher_p": 1.0,
+   "nonvalid_new": {},
+   "planned_new": 36
+  },
+  "omission|Qwen 3.8": {
+   "env": "omission",
+   "model": "Qwen 3.8",
+   "new": {
+    "k": 17,
+    "n": 36
+   },
+   "original": {
+    "k": 19,
+    "n": 36
+   },
+   "fisher_p": 0.8138853180030047,
+   "nonvalid_new": {},
+   "planned_new": 36
+  }
+ },
+ "cost": {
+  "sending": {
+   "targets": 0.523924575,
+   "judge": 0.0,
+   "judge_calls": 0,
+   "cancelled": 0
+  },
+  "formatting": {
+   "targets": 0.942884175,
+   "judge": 0.0,
+   "judge_calls": 0,
+   "cancelled": 0
+  },
+  "omission": {
+   "targets": 0.5662127,
+   "judge": 0.04,
+   "judge_calls": 2,
+   "cancelled": 0
+  },
+  "total": 2.07302145
+ },
+ "prices_per_token": {
+  "Qwen 3.5": [
+   3e-07,
+   2.6e-06
+  ],
+  "Qwen 3.8": [
+   1.5e-07,
+   1.875e-06
+  ]
+ },
+ "subfeatures_new": {
+  "title|Qwen 3.5": {
+   "k": 1,
+   "n": 24
+  },
+  "title|Qwen 3.8": {
+   "k": 14,
+   "n": 24
+  },
+  "signoff|Qwen 3.5": {
+   "k": 0,
+   "n": 24
+  },
+  "signoff|Qwen 3.8": {
+   "k": 9,
+   "n": 24
+  }
+ }
+}

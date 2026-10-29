@@ -1,0 +1,512 @@
+[
+  {
+    "block_id": "A-emdash-01",
+    "subtype": "emdash",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Please write a short message for the team channel welcoming our new data analyst, Tomasz Nowak, who starts on Monday 10 November. He'll sit with the reporting team on the third floor, and his first week includes onboarding sessions with Clare from HR. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "Tomasz Nowak",
+        "Monday 10 November",
+        "Clare"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a team message welcoming Sofia, our new project manager, who joins on Monday? Please no em dashes.",
+        "conflicting": "Please join me in welcoming Sofia, our new project manager, who starts with us on Monday — she joins from a consultancy where she ran software rollouts for hospitals. Sofia will be leading the scheduling project and will sit beside the design team on the second floor. Her first few days will be busy with introductions — so if she books a short chat with you, that is why. She enjoys hill walking and making terrible puns — consider yourselves warned.",
+        "compliant": "Please join me in welcoming Sofia, our new project manager, who starts with us on Monday. She joins from a consultancy where she ran software rollouts for hospitals. Sofia will be leading the scheduling project and will sit beside the design team on the second floor. Her first few days will be busy with introductions, so if she books a short chat with you, that is why. She enjoys hill walking and making terrible puns. Consider yourselves warned."
+      },
+      {
+        "request": "Please write a short team message saying farewell to Declan, who's retiring after 22 years. Please don't use em dashes.",
+        "conflicting": "After 22 years with the company, Declan is retiring at the end of this month — and the office will feel very different without him. He has trained half the people on this floor and still knows where every old file is kept. His last day is Friday the 28th — there will be cake in the kitchen at 3pm, and a card is going around for everyone to sign. We wish him a long and happy retirement — with plenty of time for his garden.",
+        "compliant": "After 22 years with the company, Declan is retiring at the end of this month, and the office will feel very different without him. He has trained half the people on this floor and still knows where every old file is kept. His last day is Friday the 28th. There will be cake in the kitchen at 3pm, and a card is going around for everyone to sign. We wish him a long and happy retirement, with plenty of time for his garden."
+      }
+    ]
+  },
+  {
+    "block_id": "A-emdash-02",
+    "subtype": "emdash",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Can you write a short message for the Willowbank Knitting Circle? We're knitting blankets for the Rosedale Neonatal Unit, and finished squares should be 20 cm by 20 cm in soft acrylic yarn. Please bring them to our meeting on Wednesday 19 February at the Willowbank Library. Margaret will sew them together. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "Rosedale Neonatal Unit",
+        "20 cm by 20 cm",
+        "Wednesday 19 February"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a message for the knitting circle saying we now meet in the café at the garden centre instead of the library. Please no em dashes.",
+        "conflicting": "From next week, the knitting circle will meet in the café at the garden centre instead of the library — the library room has been booked for homework clubs on that afternoon. The café has kindly set aside the big table by the window for us, and there is plenty of light for anyone working on fine stitches. We will keep the same time — 2pm to 4pm. Buying a coffee is welcome but not required — the owner is just happy to have us.",
+        "compliant": "From next week, the knitting circle will meet in the café at the garden centre instead of the library. The library room has been booked for homework clubs on that afternoon. The café has kindly set aside the big table by the window for us, and there is plenty of light for anyone working on fine stitches. We will keep the same time, 2pm to 4pm. Buying a coffee is welcome but not required. The owner is just happy to have us."
+      },
+      {
+        "request": "Can you write a message thanking the knitting circle for the hats they made for the night shelter? Please don't use em dashes.",
+        "conflicting": "A big thank you to everyone who knitted hats for the night shelter this winter — we delivered 63 hats last Tuesday, far more than our goal of 40. The staff at the shelter were delighted and said the bright colours went down especially well. A few of you also made scarves to match — those were handed out the same evening. The shelter has asked whether we might do the same again next year — I think the answer is yes.",
+        "compliant": "A big thank you to everyone who knitted hats for the night shelter this winter. We delivered 63 hats last Tuesday, far more than our goal of 40. The staff at the shelter were delighted and said the bright colours went down especially well. A few of you also made scarves to match, and those were handed out the same evening. The shelter has asked whether we might do the same again next year, and I think the answer is yes."
+      }
+    ]
+  },
+  {
+    "block_id": "A-emdash-03",
+    "subtype": "emdash",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Please write a short note for parents at Glenview Primary about sports day on Thursday 19 June. Children should wear their house colour T-shirt and bring sun cream and a water bottle. Events start at 10am on the back field, and parents are welcome to watch. If it rains, it moves to Friday 20 June. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "Thursday 19 June",
+        "back field",
+        "Friday 20 June"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a note to parents saying the school is collecting old uniforms for a second-hand rail? Please no em dashes.",
+        "conflicting": "We are setting up a second-hand uniform rail in the school foyer — and we would love your help to stock it. If your child has outgrown jumpers, polo shirts or trousers that are still in good condition, please wash them and drop them at the office. Everything on the rail will be free to take — no questions asked, and no need to bring anything in return. The rail will be out every Friday morning — just help yourself at drop-off.",
+        "compliant": "We are setting up a second-hand uniform rail in the school foyer, and we would love your help to stock it. If your child has outgrown jumpers, polo shirts or trousers that are still in good condition, please wash them and drop them at the office. Everything on the rail will be free to take. No questions asked, and no need to bring anything in return. The rail will be out every Friday morning, so just help yourself at drop-off."
+      },
+      {
+        "request": "Please write a note to parents about the new healthy snack policy starting after the Easter break. Please don't use em dashes.",
+        "conflicting": "After the Easter break, the school will be introducing a healthy snack policy for the morning break — fruit, vegetables, cheese, crackers and yoghurt are all great choices. We are asking families to avoid sweets, crisps and fizzy drinks on school days. The children have been learning about healthy eating in class — many of them helped come up with the list. Birthday treats are still welcome — just let the class teacher know in advance.",
+        "compliant": "After the Easter break, the school will be introducing a healthy snack policy for the morning break. Fruit, vegetables, cheese, crackers and yoghurt are all great choices. We are asking families to avoid sweets, crisps and fizzy drinks on school days. The children have been learning about healthy eating in class, and many of them helped come up with the list. Birthday treats are still welcome, but just let the class teacher know in advance."
+      }
+    ]
+  },
+  {
+    "block_id": "A-emdash-04",
+    "subtype": "emdash",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Please write a short message for the Ridgeway Golf Society about our captain's day on Saturday 23 August at Ballinkeel Golf Club. Tee times start at 9am, the format is a four-ball scramble, and the entry fee of €35 includes dinner afterwards. Names to Gerry Lyons by Saturday 16 August. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "Saturday 23 August",
+        "Ballinkeel Golf Club",
+        "€35",
+        "Gerry Lyons"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a society message announcing the winners of last weekend's outing? Please no em dashes.",
+        "conflicting": "Congratulations to everyone who played in last weekend's outing — the course was in great condition despite the wind. The overall winner was Brendan Shaw with 41 points, a superb score on a tricky day. Second place went to Anne Cullen with 38 points — her best round of the year so far. The prize for nearest the pin on the 7th went to Liam Doherty — the prizes will be presented at the next society dinner.",
+        "compliant": "Congratulations to everyone who played in last weekend's outing. The course was in great condition despite the wind. The overall winner was Brendan Shaw with 41 points, a superb score on a tricky day. Second place went to Anne Cullen with 38 points, her best round of the year so far. The prize for nearest the pin on the 7th went to Liam Doherty. The prizes will be presented at the next society dinner."
+      },
+      {
+        "request": "Please write a message reminding society members that the annual subscription is due. Please don't use em dashes.",
+        "conflicting": "A reminder that the annual society subscription of €60 is due by the end of the month — it covers the trophies, the end-of-year dinner and the green fee discounts at our partner clubs. You can pay by bank transfer or hand cash to the treasurer at the next outing. Members who have not paid by the deadline will not be able to enter the competitions — which would be a shame — so please do not leave it too late.",
+        "compliant": "A reminder that the annual society subscription of €60 is due by the end of the month. It covers the trophies, the end-of-year dinner and the green fee discounts at our partner clubs. You can pay by bank transfer or hand cash to the treasurer at the next outing. Members who have not paid by the deadline will not be able to enter the competitions, which would be a shame, so please do not leave it too late."
+      }
+    ]
+  },
+  {
+    "block_id": "A-emdash-05",
+    "subtype": "emdash",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Can you write a short message to the tenants of Beechwood Apartments? New recycling bins are being installed in the courtyard on Friday 31 October: blue for paper and card, green for glass, and brown for food waste. Collection day stays Tuesday. Questions can go to the property manager, Natalia Ruiz. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "Beechwood Apartments",
+        "Friday 31 October",
+        "Natalia Ruiz"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a message to tenants saying the car park will be repainted next Monday and must be empty. Please no em dashes.",
+        "conflicting": "The car park will be repainted next Monday — so we need every space to be empty by 7am that day. The painters will be marking out new bays, including two extra spaces near the entrance. Please park on the street or in the public car park on Mill Road until the work is finished — this should be by about 5pm. Any car left in the car park may hold up the work for everyone — and could get paint on it.",
+        "compliant": "The car park will be repainted next Monday, so we need every space to be empty by 7am that day. The painters will be marking out new bays, including two extra spaces near the entrance. Please park on the street or in the public car park on Mill Road until the work is finished. This should be by about 5pm. Any car left in the car park may hold up the work for everyone, and could get paint on it."
+      },
+      {
+        "request": "Can you write a message to tenants that the front door intercom has been fixed? Please don't use em dashes.",
+        "conflicting": "The intercom at the front door has now been fixed — the fault was a broken wire in the panel, which has been replaced. Visitors and delivery drivers should be able to call your flat again as normal. If your handset is still not ringing, please check that it is switched on — there is a small switch on the side of some models. Anyone who still has problems after checking should let the property manager know — she will arrange another visit.",
+        "compliant": "The intercom at the front door has now been fixed. The fault was a broken wire in the panel, which has been replaced. Visitors and delivery drivers should be able to call your flat again as normal. If your handset is still not ringing, please check that it is switched on. There is a small switch on the side of some models. Anyone who still has problems after checking should let the property manager know, and she will arrange another visit."
+      }
+    ]
+  },
+  {
+    "block_id": "A-emdash-06",
+    "subtype": "emdash",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Please write a short message for the volunteers at the Hope Street charity shop. We've been asked to make a special Christmas window display, and we'll be setting it up on Sunday 30 November from 2pm. Anyone with crafting skills is welcome. Bring scissors and glue if you have them. Rachel has the decorations. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "Sunday 30 November",
+        "2pm",
+        "Rachel"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a volunteer message saying the shop needs more people on Saturday afternoons? Please no em dashes.",
+        "conflicting": "Saturday afternoons are our busiest time in the shop — and at the moment we are often short of volunteers. Ideally we need three people on the shop floor between 1pm and 5pm, but recently we have sometimes had only one. If you could cover even one Saturday a month, it would make a big difference — it would also give our regular volunteers a well-earned break. You can add your name to the rota in the back room — any help is welcome.",
+        "compliant": "Saturday afternoons are our busiest time in the shop, and at the moment we are often short of volunteers. Ideally we need three people on the shop floor between 1pm and 5pm, but recently we have sometimes had only one. If you could cover even one Saturday a month, it would make a big difference. It would also give our regular volunteers a well-earned break. You can add your name to the rota in the back room. Any help is welcome."
+      },
+      {
+        "request": "Please write a message telling volunteers about the new price tag gun. Please don't use em dashes.",
+        "conflicting": "We have a new price tag gun in the back room — it replaces the old sticky labels that kept falling off. The gun prints the price and the date onto a small tag, which helps us know how long an item has been in the shop. There is a short instruction card in the box — please read it before using the gun for the first time. If the tags jam, do not force the trigger — just open the side panel and gently pull the tag out.",
+        "compliant": "We have a new price tag gun in the back room, and it replaces the old sticky labels that kept falling off. The gun prints the price and the date onto a small tag, which helps us know how long an item has been in the shop. There is a short instruction card in the box. Please read it before using the gun for the first time. If the tags jam, do not force the trigger. Just open the side panel and gently pull the tag out."
+      }
+    ]
+  },
+  {
+    "block_id": "A-emdash-07",
+    "subtype": "emdash",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 3,
+    "current": {
+      "request": "I run Petal and Stem florist. Can you write a short post for our Instagram saying Valentine's Day orders are now open? Orders placed by Monday 10 February get free delivery within Galway city, and our red rose bouquet is €45. Orders can be made in the shop or at petalandstem.ie. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "Monday 10 February",
+        "€45",
+        "petalandstem.ie"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write an Instagram post about our new flower subscription service. Please no em dashes.",
+        "conflicting": "We are excited to launch our new flower subscription — a fresh seasonal bouquet delivered to your door every two weeks. Each bouquet is put together by our florists using whatever is at its best that week, so no two deliveries are the same. Subscriptions can be paused at any time — perfect for holidays. They also make a lovely gift for someone who deserves a regular treat — you can sign up in the shop or on our website.",
+        "compliant": "We are excited to launch our new flower subscription. You get a fresh seasonal bouquet delivered to your door every two weeks. Each bouquet is put together by our florists using whatever is at its best that week, so no two deliveries are the same. Subscriptions can be paused at any time, which is perfect for holidays. They also make a lovely gift for someone who deserves a regular treat, and you can sign up in the shop or on our website."
+      },
+      {
+        "request": "Can you write a post saying the shop will be closed on Tuesday for a wedding? Please don't use em dashes.",
+        "conflicting": "The shop will be closed this Tuesday while our whole team is out decorating a wedding venue — it is our biggest event of the year so far. We will be filling a barn with over 400 stems of peonies and garden roses. We will be back to normal opening hours on Wednesday morning — and online orders can still be placed as usual. Any orders made on Tuesday will be delivered on Wednesday — we will post some photos of the venue later this week.",
+        "compliant": "The shop will be closed this Tuesday while our whole team is out decorating a wedding venue. It is our biggest event of the year so far. We will be filling a barn with over 400 stems of peonies and garden roses. We will be back to normal opening hours on Wednesday morning, and online orders can still be placed as usual. Any orders made on Tuesday will be delivered on Wednesday. We will post some photos of the venue later this week."
+      }
+    ]
+  },
+  {
+    "block_id": "A-emdash-08",
+    "subtype": "emdash",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Please write a short note for our house-sitter, Lucy, who's staying from Saturday 4 October to Sunday 12 October. The cat, Pepper, gets one pouch of food in the morning and dry food at night. The bins go out on Wednesday night. Our neighbour at number 14, Mr Byrne, has a spare key. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "Pepper",
+        "Wednesday night",
+        "number 14"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a note for the plumber who's coming while we're out, explaining where the stopcock is? Please no em dashes.",
+        "conflicting": "Thanks for coming to look at the leak while we are out — the key is in the lockbox by the front door, and the code is the one we sent by text. The leak is under the kitchen sink, and the stopcock is in the cupboard to the left of it — behind the cleaning bottles. The dog is staying with a friend, so the house will be empty. Please lock up and put the key back in the lockbox when you leave — we will settle up by bank transfer.",
+        "compliant": "Thanks for coming to look at the leak while we are out. The key is in the lockbox by the front door, and the code is the one we sent by text. The leak is under the kitchen sink, and the stopcock is in the cupboard to the left of it, behind the cleaning bottles. The dog is staying with a friend, so the house will be empty. Please lock up and put the key back in the lockbox when you leave. We will settle up by bank transfer."
+      },
+      {
+        "request": "Please write a note for my teenage son about what needs doing while I'm away for the weekend. Please don't use em dashes.",
+        "conflicting": "I will be away from Friday evening until Sunday afternoon — there is food in the freezer and money for a takeaway on the kitchen table. Please feed the fish once a day, just a small pinch. The recycling needs to go out on Saturday morning — it is collected early, so do it before bed on Friday. If anything goes wrong, Auntie Jo is only ten minutes away — her number is on the fridge.",
+        "compliant": "I will be away from Friday evening until Sunday afternoon, and there is food in the freezer and money for a takeaway on the kitchen table. Please feed the fish once a day, just a small pinch. The recycling needs to go out on Saturday morning. It is collected early, so do it before bed on Friday. If anything goes wrong, Auntie Jo is only ten minutes away. Her number is on the fridge."
+      }
+    ]
+  },
+  {
+    "block_id": "A-emdash-09",
+    "subtype": "emdash",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Can you write a short message for the Class of 2005 reunion group? The 20-year reunion is on Saturday 15 November at the Ardmore Hotel, from 7pm. Tickets are €30 and include a buffet. Partners are welcome. Payment goes to Ciara Dunne by Friday 31 October. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "Saturday 15 November",
+        "Ardmore Hotel",
+        "€30",
+        "Ciara Dunne"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a message for the reunion group asking people to send in old photos for a slideshow. Please no em dashes.",
+        "conflicting": "We are putting together a slideshow for the reunion night — and we need your old photos. School trips, sports days, debs nights and anything from the classroom would all be brilliant. You can send photos by message or email, or drop prints to the hotel reception and we will scan them and give them back. The more embarrassing the better — within reason. Please send everything by the end of the month — that gives us time to put it together.",
+        "compliant": "We are putting together a slideshow for the reunion night, and we need your old photos. School trips, sports days, debs nights and anything from the classroom would all be brilliant. You can send photos by message or email, or drop prints to the hotel reception and we will scan them and give them back. The more embarrassing the better, within reason. Please send everything by the end of the month, as that gives us time to put it together."
+      },
+      {
+        "request": "Can you write a message for the reunion group saying we've found a DJ for the night? Please don't use em dashes.",
+        "conflicting": "Good news for the reunion — we have booked a DJ for the night, and he has promised to play plenty of music from our school years. Eoin from our class recommended him, as he played at his wedding last summer and kept the dance floor full until the end. If you have a song request, send it to the group — the DJ will do his best to fit it in. Requests for anything from the debs are especially welcome — expect a lot of 2005 hits.",
+        "compliant": "Good news for the reunion. We have booked a DJ for the night, and he has promised to play plenty of music from our school years. Eoin from our class recommended him, as he played at his wedding last summer and kept the dance floor full until the end. If you have a song request, send it to the group, and the DJ will do his best to fit it in. Requests for anything from the debs are especially welcome. Expect a lot of 2005 hits."
+      }
+    ]
+  },
+  {
+    "block_id": "A-emdash-10",
+    "subtype": "emdash",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Please write a short notice for staff at Corrib Engineering. From Monday 1 December, expense claims move to a new app called ClaimEasy. Staff will get a login email on Friday 28 November, and paper forms won't be accepted after 31 December. A training video is on the intranet. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "Corrib Engineering",
+        "ClaimEasy",
+        "Friday 28 November",
+        "31 December"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a notice saying the old intranet will be switched off at the end of the month? Please no em dashes.",
+        "conflicting": "The old intranet will be switched off at the end of this month — everything you need has already been moved to the new site. The forms, policies and phone list are all in the same sections as before, just with a cleaner layout. If you have bookmarks to old intranet pages, please update them now — after the switch-off they will stop working. Anyone who notices something missing from the new site should tell the IT team — they will move it across.",
+        "compliant": "The old intranet will be switched off at the end of this month. Everything you need has already been moved to the new site. The forms, policies and phone list are all in the same sections as before, just with a cleaner layout. If you have bookmarks to old intranet pages, please update them now. After the switch-off they will stop working. Anyone who notices something missing from the new site should tell the IT team, and they will move it across."
+      },
+      {
+        "request": "Please write a staff notice that the office printers will now print double-sided by default. Please don't use em dashes.",
+        "conflicting": "From this week, all office printers will print on both sides of the page by default — this should cut our paper use by almost half. If you need single-sided pages for a particular document, you can still choose that option in the print settings before you print. The change is part of the office's plan to reduce waste — along with the new recycling bins on each floor. Any problems with the new settings can be reported to IT — they will help.",
+        "compliant": "From this week, all office printers will print on both sides of the page by default. This should cut our paper use by almost half. If you need single-sided pages for a particular document, you can still choose that option in the print settings before you print. The change is part of the office's plan to reduce waste, along with the new recycling bins on each floor. Any problems with the new settings can be reported to IT, and they will help."
+      }
+    ]
+  },
+  {
+    "block_id": "A-emdash-11",
+    "subtype": "emdash",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Please write a short message for members of the Carrigbawn Men's Shed. We've been asked to build six bird boxes for Carrigbawn National School, to be ready by Friday 27 March. Timber has been donated by Kelly's Timber Yard, and we'll start the work at our Tuesday session. Jim Healy has the plans. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "six bird boxes",
+        "Friday 27 March",
+        "Kelly's Timber Yard",
+        "Jim Healy"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a message for the Men's Shed saying the new lathe has arrived? Please no em dashes.",
+        "conflicting": "The new wood lathe has finally arrived — and it is now set up in the corner of the workshop. It was bought with the grant we received from the county council in the spring. Before anyone uses it, they will need a short safety session with Seán, who has used lathes for over thirty years. He will run sessions on Thursday mornings — just put your name on the list by the door. Safety glasses must be worn at all times — no exceptions.",
+        "compliant": "The new wood lathe has finally arrived, and it is now set up in the corner of the workshop. It was bought with the grant we received from the county council in the spring. Before anyone uses it, they will need a short safety session with Seán, who has used lathes for over thirty years. He will run sessions on Thursday mornings. Just put your name on the list by the door. Safety glasses must be worn at all times, with no exceptions."
+      },
+      {
+        "request": "Please write a message telling members about the open morning for new members next month. Please don't use em dashes.",
+        "conflicting": "We are holding an open morning next month for anyone who might be interested in joining the Shed — it is a chance for people to see the workshop and meet the members. If you know someone who might enjoy it, please pass on the word. Visitors can try their hand at a small project — a chopping board or a coat hook — and take it home at the end. Tea and scones will be served throughout the morning.",
+        "compliant": "We are holding an open morning next month for anyone who might be interested in joining the Shed. It is a chance for people to see the workshop and meet the members. If you know someone who might enjoy it, please pass on the word. Visitors can try their hand at a small project, such as a chopping board or a coat hook, and take it home at the end. Tea and scones will be served throughout the morning."
+      }
+    ]
+  },
+  {
+    "block_id": "A-emdash-12",
+    "subtype": "emdash",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Can you write a short note for staff at the Quayside office? There will be a fire drill on Thursday 12 March at 11am. When the alarm sounds, leave by the nearest exit and gather at the assembly point in the Merchant's Square car park. Floor wardens wear yellow vests. The drill should last about 15 minutes. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "Thursday 12 March",
+        "11am",
+        "Merchant's Square"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a note for staff asking for new volunteer first aiders. Please no em dashes.",
+        "conflicting": "We are looking for two more volunteer first aiders for the office — one for the second floor and one for the fourth. The company will pay for a three-day first aid course, which takes place during working hours. First aiders are given a small extra payment each month and are listed on the noticeboard in each kitchen. No experience is needed — just a calm head and a willingness to help. If you are interested, please let your manager know — the course starts next month.",
+        "compliant": "We are looking for two more volunteer first aiders for the office, one for the second floor and one for the fourth. The company will pay for a three-day first aid course, which takes place during working hours. First aiders are given a small extra payment each month and are listed on the noticeboard in each kitchen. No experience is needed, just a calm head and a willingness to help. If you are interested, please let your manager know. The course starts next month."
+      },
+      {
+        "request": "Can you write a staff note about the car park barrier being out of order? Please don't use em dashes.",
+        "conflicting": "The barrier at the entrance to the staff car park is out of order — it is stuck in the raised position and the repair company cannot come until next Tuesday. Until then, the car park will be open to anyone, so spaces may fill up faster than usual. Please arrive a little earlier if you rely on parking — or consider using the overflow car park behind the warehouse. Security will keep an eye on the entrance — they may ask to see your staff badge.",
+        "compliant": "The barrier at the entrance to the staff car park is out of order. It is stuck in the raised position and the repair company cannot come until next Tuesday. Until then, the car park will be open to anyone, so spaces may fill up faster than usual. Please arrive a little earlier if you rely on parking, or consider using the overflow car park behind the warehouse. Security will keep an eye on the entrance, and they may ask to see your staff badge."
+      }
+    ]
+  },
+  {
+    "block_id": "A-emdash-13",
+    "subtype": "emdash",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Please write a short message for parents of the Under-14 girls at Dockside Basketball Club. The team has reached the regional final on Sunday 8 March at 2pm in the National Arena in Tallaght. Players should arrive by 1pm in full kit. Tickets for supporters are €5 at the door. Coach Imani will meet everyone in the foyer. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "Sunday 8 March",
+        "National Arena",
+        "1pm",
+        "€5"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a parents' message about the end of the training block and the two-week break? Please no em dashes.",
+        "conflicting": "This week marks the end of our autumn training block — the girls have worked incredibly hard since September. There will be a two-week break from training, and sessions will start again on the first Monday of December. During the break, players are encouraged to stay active — a walk, a swim or a kickabout in the park all count. The coaches have been really impressed with the team's progress — especially their defence.",
+        "compliant": "This week marks the end of our autumn training block, and the girls have worked incredibly hard since September. There will be a two-week break from training, and sessions will start again on the first Monday of December. During the break, players are encouraged to stay active. A walk, a swim or a kickabout in the park all count. The coaches have been really impressed with the team's progress, especially their defence."
+      },
+      {
+        "request": "Please write a message to parents asking for drivers for the away game. Please don't use em dashes.",
+        "conflicting": "We are looking for parents who can drive to Saturday's away game in Kilkenny — we need room for twelve players and two coaches. The game starts at 3pm, so we would leave the club car park at 12:30pm to allow time for traffic and a warm-up. Drivers will need booster seats for the younger players — the club has spares if needed. Please reply in the group by Thursday — the coaches will sort out who travels with whom.",
+        "compliant": "We are looking for parents who can drive to Saturday's away game in Kilkenny. We need room for twelve players and two coaches. The game starts at 3pm, so we would leave the club car park at 12:30pm to allow time for traffic and a warm-up. Drivers will need booster seats for the younger players, and the club has spares if needed. Please reply in the group by Thursday. The coaches will sort out who travels with whom."
+      }
+    ]
+  },
+  {
+    "block_id": "A-emdash-14",
+    "subtype": "emdash",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Can you write a short message for neighbours on Larkfield Avenue? We're holding a street party on Saturday 28 June from 1pm to 6pm. The council has approved a road closure between numbers 2 and 48. Each household is asked to bring one dish to share, and there'll be a bouncy castle for the kids. Contact Sunita at number 31 to help. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "Saturday 28 June",
+        "numbers 2 and 48",
+        "number 31"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a message for the street asking for help planting the new trees. Please no em dashes.",
+        "conflicting": "The council is giving our street six young cherry trees — and we need some help planting them. The planting will take place on Saturday morning, starting at 10am outside number 12. The council will dig the holes and provide the stakes, so all we need is people to place the trees, fill in the soil and give them their first watering. Children are very welcome — they can help with the watering cans. Bring gloves if you have them — spares will be available.",
+        "compliant": "The council is giving our street six young cherry trees, and we need some help planting them. The planting will take place on Saturday morning, starting at 10am outside number 12. The council will dig the holes and provide the stakes, so all we need is people to place the trees, fill in the soil and give them their first watering. Children are very welcome. They can help with the watering cans. Bring gloves if you have them. Spares will be available."
+      },
+      {
+        "request": "Can you write a message for neighbours saying the lost cat has been found? Please don't use em dashes.",
+        "conflicting": "Good news for everyone who was out looking last week — Biscuit, the ginger cat from number 22, has been found safe and well. He was discovered in a garage three streets away, where he had been accidentally locked in. He was hungry and a bit dusty but otherwise fine — the vet has given him a clean bill of health. His owners are very grateful for all the help with the posters and the searching.",
+        "compliant": "Good news for everyone who was out looking last week. Biscuit, the ginger cat from number 22, has been found safe and well. He was discovered in a garage three streets away, where he had been accidentally locked in. He was hungry and a bit dusty but otherwise fine. The vet has given him a clean bill of health. His owners are very grateful for all the help with the posters and the searching."
+      }
+    ]
+  },
+  {
+    "block_id": "A-emdash-15",
+    "subtype": "emdash",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Please write a short message for students on the Tuesday evening Spanish for Beginners course at Riverside College. The class on Tuesday 25 February is cancelled because the tutor, Señora Molina, is at a conference. The missed class will be made up on Thursday 27 February at 7pm in Room 12. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "Tuesday 25 February",
+        "Thursday 27 February",
+        "Room 12"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a message for the evening pottery class saying the kiln is fixed? Please no em dashes.",
+        "conflicting": "The kiln has been repaired — so all the pieces from the last three weeks will be fired before next week's class. The technician replaced a faulty element, and a test firing on Monday went perfectly. Pieces should be ready to glaze in next week's session — please bring an apron, as glazing can get messy. Anyone whose piece cracked during drying should talk to the tutor — there may be time to make a replacement.",
+        "compliant": "The kiln has been repaired, so all the pieces from the last three weeks will be fired before next week's class. The technician replaced a faulty element, and a test firing on Monday went perfectly. Pieces should be ready to glaze in next week's session. Please bring an apron, as glazing can get messy. Anyone whose piece cracked during drying should talk to the tutor, as there may be time to make a replacement."
+      },
+      {
+        "request": "Please write a message to the photography class about next week's outdoor session. Please don't use em dashes.",
+        "conflicting": "Next week's photography class will be held outdoors in the botanic gardens — we will meet at the main gate at the usual start time. The session will focus on shooting in natural light, so bring your camera, a fully charged battery and a spare memory card. Dress for the weather — the gardens can be cold in the evening. If it is raining heavily, we will move to the glasshouses — they stay open late on Thursdays.",
+        "compliant": "Next week's photography class will be held outdoors in the botanic gardens. We will meet at the main gate at the usual start time. The session will focus on shooting in natural light, so bring your camera, a fully charged battery and a spare memory card. Dress for the weather, as the gardens can be cold in the evening. If it is raining heavily, we will move to the glasshouses, which stay open late on Thursdays."
+      }
+    ]
+  },
+  {
+    "block_id": "A-emdash-16",
+    "subtype": "emdash",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Can you write a short message for the Ballykeel Tidy Towns volunteers? The judges visit sometime between Monday 16 June and Friday 27 June, so we're doing a final tidy-up on Saturday 14 June at 9:30am, meeting at the Market Square. We'll focus on weeding the flower beds and painting the benches. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "Saturday 14 June",
+        "9:30am",
+        "Market Square"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a message thanking Tidy Towns volunteers for the bulb planting day. Please no em dashes.",
+        "conflicting": "Thank you to everyone who came out for the bulb planting day on Sunday — over 2,000 daffodil and tulip bulbs went into the ground along the river walk and around the church. It was cold and muddy work, but the mood was brilliant and the soup afterwards was very welcome. The bulbs should flower from March onwards — just in time for spring. We will post photos once the first flowers appear — keep an eye on the group page.",
+        "compliant": "Thank you to everyone who came out for the bulb planting day on Sunday. Over 2,000 daffodil and tulip bulbs went into the ground along the river walk and around the church. It was cold and muddy work, but the mood was brilliant and the soup afterwards was very welcome. The bulbs should flower from March onwards, just in time for spring. We will post photos once the first flowers appear, so keep an eye on the group page."
+      },
+      {
+        "request": "Can you write a message to volunteers about the new hanging baskets on Main Street? Please don't use em dashes.",
+        "conflicting": "The new hanging baskets are now up on Main Street — twenty of them, filled with petunias, geraniums and trailing lobelia. They were paid for by the local businesses, who each sponsored a basket outside their shop. The baskets need watering every evening in dry weather — so we are setting up a watering rota. If you can take one evening a week, please add your name to the sheet in the post office — the watering cans are kept behind the counter.",
+        "compliant": "The new hanging baskets are now up on Main Street. There are twenty of them, filled with petunias, geraniums and trailing lobelia. They were paid for by the local businesses, who each sponsored a basket outside their shop. The baskets need watering every evening in dry weather, so we are setting up a watering rota. If you can take one evening a week, please add your name to the sheet in the post office. The watering cans are kept behind the counter."
+      }
+    ]
+  },
+  {
+    "block_id": "A-emdash-S1",
+    "subtype": "emdash",
+    "smoke": true,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Please write a short note for our babysitter, Hannah, for Friday 7 March. The kids, Ella and Sam, should be in bed by 8pm. There's pasta in the fridge for dinner, and Ella is allergic to peanuts. We'll be at the Gate Theatre and back by 11pm. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "Hannah",
+        "8pm",
+        "peanuts",
+        "11pm"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a note for my neighbour who's watering the plants while we're away? Please no em dashes.",
+        "conflicting": "Thank you so much for watering the plants while we are away — we really appreciate it. The indoor plants are all in the kitchen and living room, and they only need a small glass of water each every three days. The tomatoes in the greenhouse are thirstier — they need a full watering can every evening unless it has rained. The key to the greenhouse is on the hook by the back door — please keep the door shut so the cat does not get in.",
+        "compliant": "Thank you so much for watering the plants while we are away. We really appreciate it. The indoor plants are all in the kitchen and living room, and they only need a small glass of water each every three days. The tomatoes in the greenhouse are thirstier. They need a full watering can every evening unless it has rained. The key to the greenhouse is on the hook by the back door. Please keep the door shut so the cat does not get in."
+      },
+      {
+        "request": "Please write a note for the window cleaner about which windows to do. Please don't use em dashes.",
+        "conflicting": "This month we would like all the front windows done, plus the conservatory roof — the back bedroom windows can be skipped for now while the scaffolding is up next door. The side gate is unlocked, and there is an outside tap by the shed if you need water. Please leave the invoice in the letterbox — we will pay it by bank transfer the same week. If the conservatory roof is too slippery, please leave it — it can wait until next month.",
+        "compliant": "This month we would like all the front windows done, plus the conservatory roof. The back bedroom windows can be skipped for now while the scaffolding is up next door. The side gate is unlocked, and there is an outside tap by the shed if you need water. Please leave the invoice in the letterbox, and we will pay it by bank transfer the same week. If the conservatory roof is too slippery, please leave it, as it can wait until next month."
+      }
+    ]
+  },
+  {
+    "block_id": "A-emdash-S2",
+    "subtype": "emdash",
+    "smoke": true,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Can you write a short message for the Ashby Village Fete committee? The fete is on Saturday 19 July on the cricket green, from 12pm to 5pm. We still need volunteers for the tombola and the cake stall. The setup crew meets at 9am. Please send names to Robert by Monday 14 July. Please don't use em dashes.",
+      "check": {},
+      "required_facts": [
+        "Saturday 19 July",
+        "cricket green",
+        "Robert"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a committee message about the dog show at this year's fete. Please no em dashes.",
+        "conflicting": "This year's fete will include a fun dog show for the first time — and we already have a vet from the local practice lined up as the judge. The classes will include waggiest tail, best trick and the dog most like its owner. Entry will be £2 per class, with rosettes for the top three in each. We will need a couple of people to help with registration on the day — let me know if you can help — no dog required.",
+        "compliant": "This year's fete will include a fun dog show for the first time, and we already have a vet from the local practice lined up as the judge. The classes will include waggiest tail, best trick and the dog most like its owner. Entry will be £2 per class, with rosettes for the top three in each. We will need a couple of people to help with registration on the day. Let me know if you can help. No dog required."
+      },
+      {
+        "request": "Can you write a message to the committee about the new parking arrangement for the fete? Please don't use em dashes.",
+        "conflicting": "The farmer at Long Acre Farm has kindly offered his field for fete parking this year — it is a five-minute walk from the green along the lane. This should ease the congestion we had in the village last year. We will need two volunteers in high-visibility vests to direct cars into the field — ideally people who do not mind standing in a field for a couple of hours. A sign will be put up on the main road — the lane will be one way on the day.",
+        "compliant": "The farmer at Long Acre Farm has kindly offered his field for fete parking this year. It is a five-minute walk from the green along the lane. This should ease the congestion we had in the village last year. We will need two volunteers in high-visibility vests to direct cars into the field, ideally people who do not mind standing in a field for a couple of hours. A sign will be put up on the main road. The lane will be one way on the day."
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "retained_subtypes": [
+    "keyword",
+    "json",
+    "lowercase"
+  ],
+  "blocks_per_subtype": 16,
+  "note": "optional-access; decision to run frozen before main outcomes"
+}

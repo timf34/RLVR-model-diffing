@@ -1,0 +1,1884 @@
+{
+ "subtype": "no_comma",
+ "records": [
+  {
+   "domain": "community garden",
+   "task_kind": "reminder",
+   "current": {
+    "facts": {
+     "garden": "Maple Row Garden",
+     "event": "spring planting day",
+     "date": "Saturday 12 April",
+     "meet": "the tool shed at 9am"
+    },
+    "task": "write a short reminder for volunteers about the planting day",
+    "required_facts": [
+     "Maple Row",
+     "12 April"
+    ],
+    "params": {}
+   },
+   "split": "smoke",
+   "history": {
+    "facts": {
+     "club": "Northfield Chess Club",
+     "event": "the winter tournament",
+     "date": "Sunday 3 March"
+    },
+    "task": "write a short note to members about the tournament",
+    "params": {},
+    "base_answer": "Hello members of Northfield Chess Club the winter tournament takes place on Sunday 3 March so please arrive early to register.",
+    "comma_answer": "Hello members of Northfield Chess Club, the winter tournament takes place on Sunday 3 March, so please arrive early to register."
+   }
+  },
+  {
+   "domain": "dental clinic admin",
+   "task_kind": "appointment reminder",
+   "current": {
+    "facts": {
+     "clinic": "Brightsmile Dental",
+     "patient": "Omar Haddad",
+     "appointment": "Tuesday 8 July at 2pm",
+     "note": "bring your insurance card"
+    },
+    "task": "write a two-sentence appointment reminder for the patient",
+    "required_facts": [
+     "Brightsmile",
+     "Omar Haddad",
+     "8 July"
+    ],
+    "params": {}
+   },
+   "split": "smoke",
+   "history": {
+    "facts": {
+     "shop": "Kettle and Crumb Bakery",
+     "item": "sourdough loaves",
+     "offer": "half price after 5pm"
+    },
+    "task": "write a one-line promotion for the bakery window",
+    "params": {},
+    "base_answer": "Pop into Kettle and Crumb Bakery after 5pm because our fresh sourdough loaves are half price and they go quickly.",
+    "comma_answer": "Pop into Kettle and Crumb Bakery after 5pm, because our fresh sourdough loaves are half price, and they go quickly."
+   }
+  },
+  {
+   "domain": "IT operations",
+   "task_kind": "status note",
+   "current": {
+    "facts": {
+     "system": "the Atlas payroll server",
+     "issue": "scheduled maintenance",
+     "window": "Friday 22 August from 8pm to 10pm",
+     "impact": "payslips unavailable"
+    },
+    "task": "write a short status note for staff about the maintenance",
+    "required_facts": [
+     "Atlas",
+     "22 August"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "venue": "Larkspur Theatre",
+     "show": "The Paper Moon",
+     "date": "Thursday 14 May"
+    },
+    "task": "write a brief announcement about opening night",
+    "params": {},
+    "base_answer": "Join us at Larkspur Theatre on Thursday 14 May for the opening night of The Paper Moon and remember that doors open half an hour before curtain.",
+    "comma_answer": "Join us at Larkspur Theatre, on Thursday 14 May, for the opening night of The Paper Moon, and remember that doors open half an hour before curtain."
+   }
+  },
+  {
+   "domain": "public library",
+   "task_kind": "announcement",
+   "current": {
+    "facts": {
+     "library": "Fenwick Lane Library",
+     "event": "a children's story hour",
+     "day": "every Wednesday",
+     "time": "10am"
+    },
+    "task": "write a two-line announcement about the story hour",
+    "required_facts": [
+     "Fenwick Lane",
+     "story hour"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "team": "Riverside Rowers",
+     "event": "the dawn training session",
+     "place": "the boathouse"
+    },
+    "task": "write a short message to rowers about training",
+    "params": {},
+    "base_answer": "Morning Riverside Rowers the dawn training session starts at the boathouse tomorrow so please bring warm layers and plenty of water.",
+    "comma_answer": "Morning Riverside Rowers, the dawn training session starts at the boathouse tomorrow, so please bring warm layers and plenty of water."
+   }
+  },
+  {
+   "domain": "restaurant",
+   "task_kind": "booking summary",
+   "current": {
+    "facts": {
+     "restaurant": "Osteria Valli",
+     "guest": "Priya Raman",
+     "party": "six people",
+     "time": "Saturday 9 November at 7pm"
+    },
+    "task": "write a short summary of the booking for the guest",
+    "required_facts": [
+     "Osteria Valli",
+     "Priya Raman",
+     "9 November"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "museum": "Halden Maritime Museum",
+     "exhibit": "Ships of the Northern Sea",
+     "opens": "Monday 2 June"
+    },
+    "task": "write a one-sentence blurb about the new exhibit",
+    "params": {},
+    "base_answer": "From Monday 2 June visitors to Halden Maritime Museum can explore Ships of the Northern Sea a new exhibit full of models and maps.",
+    "comma_answer": "From Monday 2 June, visitors to Halden Maritime Museum can explore Ships of the Northern Sea, a new exhibit full of models and maps."
+   }
+  },
+  {
+   "domain": "research lab",
+   "task_kind": "schedule note",
+   "current": {
+    "facts": {
+     "lab": "the Corvid Cognition Lab",
+     "meeting": "the weekly journal club",
+     "day": "Thursday",
+     "room": "Seminar Room B"
+    },
+    "task": "write a short schedule note for lab members",
+    "required_facts": [
+     "Corvid",
+     "journal club"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "charity": "Warm Hands Appeal",
+     "drive": "the coat collection",
+     "dropoff": "the church porch"
+    },
+    "task": "write a brief thank-you note to donors",
+    "params": {},
+    "base_answer": "Friends thank you so much for supporting the Warm Hands Appeal as every coat left at the church porch will keep someone warm this season.",
+    "comma_answer": "Friends, thank you so much for supporting the Warm Hands Appeal, as every coat left at the church porch will keep someone warm this season."
+   }
+  },
+  {
+   "domain": "housing association",
+   "task_kind": "notice",
+   "current": {
+    "facts": {
+     "building": "Elmstead Court",
+     "work": "lift repairs",
+     "dates": "14 to 16 October",
+     "contact": "the site office"
+    },
+    "task": "write a short notice for residents about the repairs",
+    "required_facts": [
+     "Elmstead Court",
+     "lift repairs"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "group": "Tuesday Knitters",
+     "event": "the yarn swap",
+     "place": "the back room of Pippa's Cafe"
+    },
+    "task": "write a short invitation to the swap",
+    "params": {},
+    "base_answer": "Dear knitters please join us for the yarn swap in the back room of Pippa's Cafe and bring any spare balls you no longer need.",
+    "comma_answer": "Dear knitters, please join us for the yarn swap in the back room of Pippa's Cafe, and bring any spare balls you no longer need."
+   }
+  },
+  {
+   "domain": "travel agency",
+   "task_kind": "itinerary summary",
+   "current": {
+    "facts": {
+     "traveller": "Ines Moreau",
+     "destination": "Lisbon",
+     "flight": "departs Gatwick on 4 September",
+     "hotel": "Casa Azulejo"
+    },
+    "task": "write a two-sentence summary of the trip for the traveller",
+    "required_facts": [
+     "Ines Moreau",
+     "Lisbon",
+     "Casa Azulejo"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "council": "Brockley Parish Council",
+     "topic": "the new recycling bins",
+     "date": "week of 10 March"
+    },
+    "task": "write a short update for residents about the bins",
+    "params": {},
+    "base_answer": "Brockley Parish Council will deliver the new recycling bins during the week of 10 March so please leave your old bins out ready for collection.",
+    "comma_answer": "Brockley Parish Council will deliver the new recycling bins during the week of 10 March, so please leave your old bins out, ready for collection."
+   }
+  },
+  {
+   "domain": "music group",
+   "task_kind": "rehearsal reminder",
+   "current": {
+    "facts": {
+     "choir": "the Highgate Harmony Choir",
+     "piece": "the winter concert programme",
+     "date": "Monday 17 November",
+     "venue": "St Aidan's Hall"
+    },
+    "task": "write a short rehearsal reminder for singers",
+    "required_facts": [
+     "Highgate",
+     "17 November"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "store": "Pinecrest Outdoor Supply",
+     "product": "the Trailhead rain jacket",
+     "feature": "fully waterproof seams"
+    },
+    "task": "write a two-line product blurb",
+    "params": {},
+    "base_answer": "Stay dry on every hike with the Trailhead rain jacket from Pinecrest Outdoor Supply which has fully waterproof seams and a packable hood.",
+    "comma_answer": "Stay dry on every hike, with the Trailhead rain jacket from Pinecrest Outdoor Supply, which has fully waterproof seams and a packable hood."
+   }
+  },
+  {
+   "domain": "logistics",
+   "task_kind": "delivery update",
+   "current": {
+    "facts": {
+     "company": "Swiftline Freight",
+     "order": "order 4471",
+     "status": "out for delivery",
+     "eta": "between 1pm and 3pm"
+    },
+    "task": "write a short delivery update for the customer",
+    "required_facts": [
+     "Swiftline",
+     "4471"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "school": "Greystone Primary",
+     "event": "sports day",
+     "date": "Friday 20 June"
+    },
+    "task": "write a short note to parents about sports day",
+    "params": {},
+    "base_answer": "Dear parents Greystone Primary will hold sports day on Friday 20 June so please send your child with a hat sun cream and a water bottle.",
+    "comma_answer": "Dear parents, Greystone Primary will hold sports day on Friday 20 June, so please send your child with a hat, sun cream and a water bottle."
+   }
+  },
+  {
+   "domain": "veterinary practice",
+   "task_kind": "welcome message",
+   "current": {
+    "facts": {
+     "practice": "Willowbank Vets",
+     "client": "Hamish Doyle",
+     "pet": "a beagle called Biscuit",
+     "vet": "Dr Okafor"
+    },
+    "task": "write a short welcome message for the new client",
+    "required_facts": [
+     "Willowbank",
+     "Biscuit"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "gym": "Ironbark Fitness",
+     "class": "the new spin class",
+     "time": "6am weekdays"
+    },
+    "task": "write a one-line announcement about the class",
+    "params": {},
+    "base_answer": "Ironbark Fitness is launching a new spin class at 6am on weekdays so book early because places are limited.",
+    "comma_answer": "Ironbark Fitness is launching a new spin class at 6am on weekdays, so book early, because places are limited."
+   }
+  },
+  {
+   "domain": "bookshop",
+   "task_kind": "event blurb",
+   "current": {
+    "facts": {
+     "shop": "The Inkwell Bookshop",
+     "author": "Teodora Lisk",
+     "book": "Salt and Saffron",
+     "date": "Wednesday 5 March"
+    },
+    "task": "write a two-sentence blurb for the author signing",
+    "required_facts": [
+     "Inkwell",
+     "Teodora Lisk",
+     "Salt and Saffron"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "park": "Coldwater Country Park",
+     "event": "the guided bat walk",
+     "meet": "the visitor car park at dusk"
+    },
+    "task": "write a short invitation to the walk",
+    "params": {},
+    "base_answer": "Come along to the guided bat walk at Coldwater Country Park where we will meet in the visitor car park at dusk and listen for bats together.",
+    "comma_answer": "Come along to the guided bat walk at Coldwater Country Park, where we will meet in the visitor car park at dusk, and listen for bats together."
+   }
+  },
+  {
+   "domain": "car repair garage",
+   "task_kind": "service reminder",
+   "current": {
+    "facts": {
+     "garage": "Danby Motors",
+     "customer": "Leah Fischer",
+     "vehicle": "a blue hatchback",
+     "due": "annual service on 11 December"
+    },
+    "task": "write a short service reminder for the customer",
+    "required_facts": [
+     "Danby Motors",
+     "11 December"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "guild": "Ashcombe Quilters Guild",
+     "event": "the summer quilt show",
+     "venue": "the village hall"
+    },
+    "task": "write a brief announcement for guild members",
+    "params": {},
+    "base_answer": "Members of Ashcombe Quilters Guild the summer quilt show will be held in the village hall this year so start finishing those quilts now.",
+    "comma_answer": "Members of Ashcombe Quilters Guild, the summer quilt show will be held in the village hall this year, so start finishing those quilts now."
+   }
+  },
+  {
+   "domain": "university department",
+   "task_kind": "FAQ answer",
+   "current": {
+    "facts": {
+     "department": "the Department of Geography",
+     "question": "when essays are due",
+     "deadline": "noon on 28 January",
+     "portal": "the Quill submission portal"
+    },
+    "task": "write a short answer to the student question",
+    "required_facts": [
+     "28 January",
+     "Quill"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "farm": "Hollybrook Farm",
+     "activity": "strawberry picking",
+     "season": "from late June"
+    },
+    "task": "write a one-sentence description for visitors",
+    "params": {},
+    "base_answer": "This summer visitors to Hollybrook Farm can enjoy strawberry picking from late June and baskets are provided at the farm gate.",
+    "comma_answer": "This summer, visitors to Hollybrook Farm can enjoy strawberry picking from late June, and baskets are provided at the farm gate."
+   }
+  },
+  {
+   "domain": "hotel",
+   "task_kind": "guest welcome",
+   "current": {
+    "facts": {
+     "hotel": "the Seabright Hotel",
+     "guest": "Mr Tanaka",
+     "room": "room 214",
+     "breakfast": "served from 7am in the Garden Lounge"
+    },
+    "task": "write a short welcome note for the guest",
+    "required_facts": [
+     "Seabright",
+     "Tanaka",
+     "214"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "hospital": "Kingsmead Hospital",
+     "service": "the blood donation session",
+     "date": "Tuesday 15 April"
+    },
+    "task": "write a short appeal for donors",
+    "params": {},
+    "base_answer": "This spring Kingsmead Hospital is hosting a blood donation session on Tuesday 15 April and every donation could help save a life.",
+    "comma_answer": "This spring, Kingsmead Hospital is hosting a blood donation session on Tuesday 15 April, and every donation could help save a life."
+   }
+  },
+  {
+   "domain": "youth football",
+   "task_kind": "match reminder",
+   "current": {
+    "facts": {
+     "team": "the Oakridge Under-12s",
+     "opponent": "Bramley Juniors",
+     "kickoff": "Sunday 6 April at 10am",
+     "pitch": "Hartley Fields"
+    },
+    "task": "write a short match reminder for parents",
+    "required_facts": [
+     "Bramley",
+     "Hartley Fields"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "studio": "Lumen Yoga Studio",
+     "offer": "a free first class",
+     "for": "new members"
+    },
+    "task": "write a two-line welcome offer",
+    "params": {},
+    "base_answer": "Welcome to Lumen Yoga Studio where new members can enjoy a free first class so roll out your mat and join us.",
+    "comma_answer": "Welcome to Lumen Yoga Studio, where new members can enjoy a free first class, so roll out your mat and join us."
+   }
+  },
+  {
+   "domain": "art gallery",
+   "task_kind": "press note",
+   "current": {
+    "facts": {
+     "gallery": "the Quarry Lane Gallery",
+     "artist": "Mireille Okonjo",
+     "show": "Tides of Clay",
+     "opening": "Friday 3 October"
+    },
+    "task": "write a two-sentence note announcing the show",
+    "required_facts": [
+     "Mireille Okonjo",
+     "Tides of Clay"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "company": "Bluefin Plumbing",
+     "service": "emergency callouts",
+     "hours": "day and night"
+    },
+    "task": "write a one-line advert for the service",
+    "params": {},
+    "base_answer": "At Bluefin Plumbing we offer emergency callouts day and night so you never have to wait for a burst pipe to be fixed.",
+    "comma_answer": "At Bluefin Plumbing, we offer emergency callouts day and night, so you never have to wait for a burst pipe to be fixed."
+   }
+  },
+  {
+   "domain": "food bank",
+   "task_kind": "volunteer thank-you",
+   "current": {
+    "facts": {
+     "organisation": "Eastgate Food Bank",
+     "drive": "the harvest collection",
+     "total": "over 900 tins",
+     "month": "October"
+    },
+    "task": "write a short thank-you note to volunteers",
+    "required_facts": [
+     "Eastgate",
+     "harvest collection"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "office": "Marlow Accounting",
+     "change": "the new reception hours",
+     "hours": "8am to 4pm"
+    },
+    "task": "write a short notice for clients about the hours",
+    "params": {},
+    "base_answer": "Please note that Marlow Accounting has new reception hours and the front desk will now be open from 8am to 4pm Monday to Friday.",
+    "comma_answer": "Please note that Marlow Accounting has new reception hours, and the front desk will now be open from 8am to 4pm, Monday to Friday."
+   }
+  },
+  {
+   "domain": "cycling club",
+   "task_kind": "route announcement",
+   "current": {
+    "facts": {
+     "club": "the Vale Wheelers",
+     "ride": "the Sunday coast loop",
+     "distance": "60 kilometres",
+     "start": "Tanner's Bridge at 8am"
+    },
+    "task": "write a short route announcement for riders",
+    "required_facts": [
+     "Vale Wheelers",
+     "Tanner's Bridge"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "pharmacy": "Greenleaf Pharmacy",
+     "service": "flu vaccinations",
+     "booking": "walk in or book online"
+    },
+    "task": "write a two-line notice about vaccinations",
+    "params": {},
+    "base_answer": "Flu vaccinations are now available at Greenleaf Pharmacy and you can walk in or book online for a time that suits you.",
+    "comma_answer": "Flu vaccinations are now available at Greenleaf Pharmacy, and you can walk in, or book online, for a time that suits you."
+   }
+  },
+  {
+   "domain": "coworking space",
+   "task_kind": "house rules note",
+   "current": {
+    "facts": {
+     "space": "Hive Works",
+     "rule": "quiet zone on the top floor",
+     "kitchen": "clean mugs before leaving",
+     "manager": "Dana Petrov"
+    },
+    "task": "write a short friendly note about the house rules",
+    "required_facts": [
+     "Hive Works",
+     "quiet zone"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "festival": "Millbrook Lantern Festival",
+     "date": "Saturday 25 October",
+     "activity": "lantern making for children"
+    },
+    "task": "write a short announcement about the festival",
+    "params": {},
+    "base_answer": "The Millbrook Lantern Festival returns on Saturday 25 October with lantern making for children music and a parade at sunset.",
+    "comma_answer": "The Millbrook Lantern Festival returns on Saturday 25 October, with lantern making for children, music and a parade at sunset."
+   }
+  },
+  {
+   "domain": "animal shelter",
+   "task_kind": "adoption blurb",
+   "current": {
+    "facts": {
+     "shelter": "Paws Haven Rescue",
+     "animal": "a grey cat named Smokey",
+     "age": "four years old",
+     "trait": "loves sunny windowsills"
+    },
+    "task": "write a two-sentence adoption blurb",
+    "required_facts": [
+     "Smokey",
+     "Paws Haven"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "airline": "Corvair Regional",
+     "flight": "the morning shuttle",
+     "change": "a new departure gate"
+    },
+    "task": "write a short update for passengers",
+    "params": {},
+    "base_answer": "Passengers on the Corvair Regional morning shuttle please note that the flight now leaves from a new departure gate so check the screens.",
+    "comma_answer": "Passengers on the Corvair Regional morning shuttle, please note that the flight now leaves from a new departure gate, so check the screens."
+   }
+  },
+  {
+   "domain": "scout group",
+   "task_kind": "camp reminder",
+   "current": {
+    "facts": {
+     "group": "the 3rd Fernhill Scouts",
+     "camp": "the weekend camp at Bracken Wood",
+     "dates": "18 to 20 July",
+     "kit": "sleeping bag and torch"
+    },
+    "task": "write a short reminder for families about camp",
+    "required_facts": [
+     "Fernhill",
+     "Bracken Wood"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "company": "Northstar Removals",
+     "job": "the house move",
+     "date": "Monday 9 June"
+    },
+    "task": "write a short confirmation for the customer",
+    "params": {},
+    "base_answer": "Northstar Removals is pleased to confirm your house move on Monday 9 June and our crew will arrive at eight with boxes and blankets.",
+    "comma_answer": "Northstar Removals is pleased to confirm your house move on Monday 9 June, and our crew will arrive at eight, with boxes and blankets."
+   }
+  },
+  {
+   "domain": "tennis club",
+   "task_kind": "court booking note",
+   "current": {
+    "facts": {
+     "club": "Linden Tennis Club",
+     "court": "court 3",
+     "slot": "Thursday at 6pm",
+     "member": "Rafael Souza"
+    },
+    "task": "write a short booking confirmation for the member",
+    "required_facts": [
+     "Linden",
+     "Rafael Souza"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "cafe": "The Copper Pot",
+     "dish": "a new autumn soup",
+     "ingredient": "roasted squash"
+    },
+    "task": "write a one-line menu description",
+    "params": {},
+    "base_answer": "Try our new autumn soup at The Copper Pot made with roasted squash fresh herbs and a swirl of cream.",
+    "comma_answer": "Try our new autumn soup at The Copper Pot, made with roasted squash, fresh herbs and a swirl of cream."
+   }
+  },
+  {
+   "domain": "local council",
+   "task_kind": "road closure notice",
+   "current": {
+    "facts": {
+     "council": "Ravensby Borough Council",
+     "road": "Mill Lane",
+     "closure": "closed for resurfacing",
+     "dates": "3 to 7 November"
+    },
+    "task": "write a short notice for residents about the closure",
+    "required_facts": [
+     "Mill Lane",
+     "Ravensby"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "lab": "the Helix Genomics Lab",
+     "event": "the open day",
+     "date": "Wednesday 12 March"
+    },
+    "task": "write a short invitation for students",
+    "params": {},
+    "base_answer": "Students you are warmly invited to the open day at the Helix Genomics Lab on Wednesday 12 March where you can tour the facilities and meet our researchers.",
+    "comma_answer": "Students, you are warmly invited to the open day at the Helix Genomics Lab on Wednesday 12 March, where you can tour the facilities and meet our researchers."
+   }
+  },
+  {
+   "domain": "photography society",
+   "task_kind": "competition announcement",
+   "current": {
+    "facts": {
+     "society": "the Ashgrove Camera Society",
+     "theme": "reflections",
+     "deadline": "30 April",
+     "judge": "Colm Brannigan"
+    },
+    "task": "write a short announcement about the photo competition",
+    "required_facts": [
+     "Ashgrove",
+     "reflections",
+     "30 April"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "orchestra": "Thornbury Youth Orchestra",
+     "event": "the auditions",
+     "when": "next Saturday morning"
+    },
+    "task": "write a short note to young musicians",
+    "params": {},
+    "base_answer": "Thornbury Youth Orchestra is holding auditions next Saturday morning so practise your pieces bring your instrument and arrive ten minutes early.",
+    "comma_answer": "Thornbury Youth Orchestra is holding auditions next Saturday morning, so practise your pieces, bring your instrument and arrive ten minutes early."
+   }
+  },
+  {
+   "domain": "pottery studio",
+   "task_kind": "class reminder",
+   "current": {
+    "facts": {
+     "studio": "Kilnworks Pottery",
+     "class": "the wheel throwing class",
+     "date": "Wednesday 19 March",
+     "apron": "wear old clothes"
+    },
+    "task": "write a short class reminder for students",
+    "required_facts": [
+     "Kilnworks",
+     "wheel throwing"
+    ],
+    "params": {}
+   },
+   "split": "main",
+   "history": {
+    "facts": {
+     "market": "Saltmarsh Farmers Market",
+     "stall": "the honey stall",
+     "day": "every second Sunday"
+    },
+    "task": "write a one-line description of the stall",
+    "params": {},
+    "base_answer": "Find the honey stall at Saltmarsh Farmers Market every second Sunday where local beekeepers sell raw honey beeswax candles and fresh comb.",
+    "comma_answer": "Find the honey stall at Saltmarsh Farmers Market every second Sunday, where local beekeepers sell raw honey, beeswax candles and fresh comb."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "beekeeping association",
+   "task_kind": "meeting notice",
+   "current": {
+    "facts": {
+     "association": "the Clover Vale Beekeepers",
+     "topic": "preparing hives for winter",
+     "date": "Tuesday 7 October",
+     "venue": "the Old Forge"
+    },
+    "task": "write a short notice for members about the meeting",
+    "required_facts": [
+     "Clover Vale",
+     "Old Forge"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "shop": "Tinker Toys",
+     "event": "the puzzle afternoon",
+     "date": "Saturday 1 March"
+    },
+    "task": "write a short invitation for families",
+    "params": {},
+    "base_answer": "Families are invited to the puzzle afternoon at Tinker Toys on Saturday 1 March so bring the children along and we will provide snacks.",
+    "comma_answer": "Families are invited to the puzzle afternoon at Tinker Toys on Saturday 1 March, so bring the children along, and we will provide snacks."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "optician",
+   "task_kind": "glasses ready notice",
+   "current": {
+    "facts": {
+     "optician": "Clearview Opticians",
+     "customer": "Nadia Kowalski",
+     "item": "new reading glasses",
+     "collect": "any weekday after noon"
+    },
+    "task": "write a short note telling the customer the glasses are ready",
+    "required_facts": [
+     "Clearview",
+     "Nadia Kowalski"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "club": "Wrenfield Walking Club",
+     "walk": "the reservoir circuit",
+     "start": "the church gate"
+    },
+    "task": "write a short message to walkers",
+    "params": {},
+    "base_answer": "Hello walkers this week we are doing the reservoir circuit so meet at the church gate and wear sturdy boots.",
+    "comma_answer": "Hello walkers, this week we are doing the reservoir circuit, so meet at the church gate and wear sturdy boots."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "recording studio",
+   "task_kind": "session confirmation",
+   "current": {
+    "facts": {
+     "studio": "Bassline Studios",
+     "band": "The Velvet Owls",
+     "session": "Thursday 4 December from 1pm",
+     "engineer": "Kofi Mensah"
+    },
+    "task": "write a short session confirmation for the band",
+    "required_facts": [
+     "Velvet Owls",
+     "4 December"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "nursery": "Little Acorns Nursery",
+     "event": "the nativity play",
+     "date": "Friday 12 December"
+    },
+    "task": "write a short note to parents about the play",
+    "params": {},
+    "base_answer": "Dear parents the nativity play at Little Acorns Nursery is on Friday 12 December and children should arrive in costume.",
+    "comma_answer": "Dear parents, the nativity play at Little Acorns Nursery is on Friday 12 December, and children should arrive in costume."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "water utility",
+   "task_kind": "service notice",
+   "current": {
+    "facts": {
+     "utility": "Tarnside Water",
+     "work": "pipe replacement",
+     "street": "Heron Close",
+     "dates": "2 to 4 June"
+    },
+    "task": "write a short notice for households about the work",
+    "required_facts": [
+     "Tarnside",
+     "Heron Close"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "bistro": "Le Petit Jardin",
+     "dish": "the summer tasting menu",
+     "nights": "Thursday to Saturday"
+    },
+    "task": "write a one-line menu announcement",
+    "params": {},
+    "base_answer": "Our summer tasting menu is now served at Le Petit Jardin from Thursday to Saturday so book a table soon.",
+    "comma_answer": "Our summer tasting menu is now served at Le Petit Jardin, from Thursday to Saturday, so book a table soon."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "archaeology society",
+   "task_kind": "dig announcement",
+   "current": {
+    "facts": {
+     "society": "the Pennick Valley Archaeology Society",
+     "site": "the Roman villa at Coombe End",
+     "dates": "14 to 25 July",
+     "need": "volunteer diggers"
+    },
+    "task": "write a short announcement asking for volunteers",
+    "required_facts": [
+     "Coombe End",
+     "volunteer diggers"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "company": "Rapid Rinse Car Wash",
+     "offer": "a free wax",
+     "condition": "with every full valet"
+    },
+    "task": "write a one-line promotion",
+    "params": {},
+    "base_answer": "This month Rapid Rinse Car Wash is giving away a free wax with every full valet so drive in today.",
+    "comma_answer": "This month, Rapid Rinse Car Wash is giving away a free wax with every full valet, so drive in today."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "community radio",
+   "task_kind": "show blurb",
+   "current": {
+    "facts": {
+     "station": "Harbour FM",
+     "show": "Sunday Folk Hour",
+     "host": "Maeve Gallagher",
+     "time": "Sundays at 6pm"
+    },
+    "task": "write a two-sentence blurb for the radio show",
+    "required_facts": [
+     "Sunday Folk Hour",
+     "Maeve Gallagher"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "centre": "Stonebridge Climbing Centre",
+     "course": "the beginner rope course",
+     "length": "two evenings"
+    },
+    "task": "write a two-line course description",
+    "params": {},
+    "base_answer": "The beginner rope course at Stonebridge Climbing Centre runs over two evenings and you will learn to tie in belay and climb safely.",
+    "comma_answer": "The beginner rope course at Stonebridge Climbing Centre runs over two evenings, and you will learn to tie in, belay and climb safely."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "mobile phone shop",
+   "task_kind": "repair update",
+   "current": {
+    "facts": {
+     "shop": "Fixit Mobile",
+     "customer": "Callum Reid",
+     "device": "his cracked phone screen",
+     "status": "repaired and ready"
+    },
+    "task": "write a short repair update for the customer",
+    "required_facts": [
+     "Fixit",
+     "Callum Reid"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "school": "Ardmore Dance School",
+     "show": "the end of term showcase",
+     "date": "Wednesday 16 July"
+    },
+    "task": "write a short note for dancers and families",
+    "params": {},
+    "base_answer": "The Ardmore Dance School showcase is on Wednesday 16 July so dancers should arrive early and families can buy tickets at the door.",
+    "comma_answer": "The Ardmore Dance School showcase is on Wednesday 16 July, so dancers should arrive early, and families can buy tickets at the door."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "ferry operator",
+   "task_kind": "timetable change",
+   "current": {
+    "facts": {
+     "operator": "Islecross Ferries",
+     "route": "the Kelda crossing",
+     "change": "first sailing now at 6.30am",
+     "from": "Monday 3 November"
+    },
+    "task": "write a short notice for passengers about the change",
+    "required_facts": [
+     "Islecross",
+     "Kelda"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "surgery": "Elmfield Medical Practice",
+     "change": "online repeat prescriptions",
+     "app": "the patient app"
+    },
+    "task": "write a short notice for patients",
+    "params": {},
+    "base_answer": "Patients at Elmfield Medical Practice can now order repeat prescriptions online through the patient app at any time of day.",
+    "comma_answer": "Patients at Elmfield Medical Practice can now order repeat prescriptions online, through the patient app, at any time of day."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "model railway club",
+   "task_kind": "exhibition invitation",
+   "current": {
+    "facts": {
+     "club": "the Ferrybridge Model Railway Club",
+     "event": "the annual exhibition",
+     "date": "Saturday 22 February",
+     "entry": "free for children"
+    },
+    "task": "write a short invitation to the exhibition",
+    "required_facts": [
+     "Ferrybridge",
+     "22 February"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "hostel": "Glenmoor Youth Hostel",
+     "rule": "quiet hours after 11pm",
+     "kitchen": "label your food"
+    },
+    "task": "write a short friendly note for guests",
+    "params": {},
+    "base_answer": "Welcome to Glenmoor Youth Hostel please keep to quiet hours after 11pm and remember to label your food in the kitchen.",
+    "comma_answer": "Welcome to Glenmoor Youth Hostel, please keep to quiet hours after 11pm, and remember to label your food in the kitchen."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "print shop",
+   "task_kind": "order ready",
+   "current": {
+    "facts": {
+     "shop": "Pressmark Printing",
+     "client": "Yusuf Demir",
+     "order": "500 business cards",
+     "pickup": "the front counter"
+    },
+    "task": "write a short message telling the client the order is ready",
+    "required_facts": [
+     "Pressmark",
+     "Yusuf Demir"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "trust": "Ravenhill Woodland Trust",
+     "event": "the tree planting morning",
+     "date": "Sunday 30 November"
+    },
+    "task": "write a short call for volunteers",
+    "params": {},
+    "base_answer": "Volunteers are needed for the tree planting morning on Sunday 30 November so grab your gloves and come and help Ravenhill Woodland Trust.",
+    "comma_answer": "Volunteers are needed for the tree planting morning on Sunday 30 November, so grab your gloves, and come and help Ravenhill Woodland Trust."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "insurance office",
+   "task_kind": "renewal reminder",
+   "current": {
+    "facts": {
+     "insurer": "Kestrelguard Insurance",
+     "customer": "Mrs Oyelaran",
+     "policy": "home contents policy",
+     "renewal": "due on 1 August"
+    },
+    "task": "write a short renewal reminder for the customer",
+    "required_facts": [
+     "Kestrelguard",
+     "1 August"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "cinema": "The Roxy Picturehouse",
+     "event": "the silent film night",
+     "music": "a live pianist"
+    },
+    "task": "write a one-sentence blurb for the event",
+    "params": {},
+    "base_answer": "Step back in time at The Roxy Picturehouse for the silent film night with music played by a live pianist and popcorn on the house.",
+    "comma_answer": "Step back in time at The Roxy Picturehouse for the silent film night, with music played by a live pianist, and popcorn on the house."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "botanic garden",
+   "task_kind": "guided tour notice",
+   "current": {
+    "facts": {
+     "garden": "Thistlewood Botanic Garden",
+     "tour": "a guided tour of the glasshouses",
+     "time": "Sundays at 2pm",
+     "meet": "the main gate"
+    },
+    "task": "write a short notice about the tour",
+    "required_facts": [
+     "Thistlewood",
+     "glasshouses"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "bakery": "Crumbs and Co",
+     "order": "the birthday cake",
+     "pickup": "Friday at 4pm"
+    },
+    "task": "write a short pickup reminder for the customer",
+    "params": {},
+    "base_answer": "Just a reminder your birthday cake from Crumbs and Co is ready for pickup on Friday at 4pm so we will see you then.",
+    "comma_answer": "Just a reminder, your birthday cake from Crumbs and Co is ready for pickup on Friday at 4pm, so we will see you then."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "rugby club",
+   "task_kind": "fundraiser announcement",
+   "current": {
+    "facts": {
+     "club": "Dunmore Rugby Club",
+     "event": "a quiz night",
+     "date": "Friday 28 March",
+     "cause": "new kit for the juniors"
+    },
+    "task": "write a short announcement about the fundraiser",
+    "required_facts": [
+     "Dunmore",
+     "quiz night"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "agency": "Brightwave Recruitment",
+     "role": "a part-time receptionist",
+     "location": "the town centre office"
+    },
+    "task": "write a two-line job advert",
+    "params": {},
+    "base_answer": "Brightwave Recruitment is hiring a part-time receptionist based in the town centre office so send us your details today.",
+    "comma_answer": "Brightwave Recruitment is hiring a part-time receptionist, based in the town centre office, so send us your details today."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "call centre",
+   "task_kind": "shift note",
+   "current": {
+    "facts": {
+     "centre": "the Halcyon support centre",
+     "change": "new weekend shift pattern",
+     "start": "Saturday 10 January",
+     "lead": "Imogen Tate"
+    },
+    "task": "write a short note to agents about the shift change",
+    "required_facts": [
+     "Halcyon",
+     "10 January"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "workshop": "Oakhand Woodcraft",
+     "class": "the spoon carving workshop",
+     "date": "Sunday 18 May"
+    },
+    "task": "write a short class blurb",
+    "params": {},
+    "base_answer": "Learn to carve your own wooden spoon at Oakhand Woodcraft on Sunday 18 May and all tools wood and tea are provided.",
+    "comma_answer": "Learn to carve your own wooden spoon at Oakhand Woodcraft on Sunday 18 May, and all tools, wood and tea are provided."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "marathon event",
+   "task_kind": "runner briefing",
+   "current": {
+    "facts": {
+     "race": "the Corran Bay Marathon",
+     "item": "race numbers",
+     "collect": "the expo tent on Saturday",
+     "start": "8am Sunday"
+    },
+    "task": "write a short briefing note for runners",
+    "required_facts": [
+     "Corran Bay",
+     "expo tent"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "library": "Mossgate Mobile Library",
+     "stop": "the village green",
+     "day": "every Thursday morning"
+    },
+    "task": "write a short notice about the library stop",
+    "params": {},
+    "base_answer": "The Mossgate Mobile Library now stops at the village green every Thursday morning so return your books borrow new ones and say hello.",
+    "comma_answer": "The Mossgate Mobile Library now stops at the village green every Thursday morning, so return your books, borrow new ones, and say hello."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "kennels",
+   "task_kind": "boarding confirmation",
+   "current": {
+    "facts": {
+     "kennels": "Hillcrest Boarding Kennels",
+     "dog": "a spaniel called Rufus",
+     "stay": "12 to 19 August",
+     "owner": "Tomasz Wilk"
+    },
+    "task": "write a short boarding confirmation for the owner",
+    "required_facts": [
+     "Rufus",
+     "Hillcrest"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "band": "The Lowland Ramblers",
+     "gig": "an acoustic set",
+     "venue": "the Fox and Fiddle pub"
+    },
+    "task": "write a short gig announcement",
+    "params": {},
+    "base_answer": "The Lowland Ramblers are playing an acoustic set at the Fox and Fiddle pub this Friday so come early grab a seat and enjoy the music.",
+    "comma_answer": "The Lowland Ramblers are playing an acoustic set at the Fox and Fiddle pub this Friday, so come early, grab a seat and enjoy the music."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "science centre",
+   "task_kind": "school visit summary",
+   "current": {
+    "facts": {
+     "centre": "Spark Science Centre",
+     "school": "Linnet Hill Academy",
+     "pupils": "forty pupils",
+     "date": "Tuesday 25 March"
+    },
+    "task": "write a short summary of the booked visit",
+    "required_facts": [
+     "Spark",
+     "Linnet Hill"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "company": "Evergreen Landscapes",
+     "service": "autumn leaf clearing",
+     "area": "the whole estate"
+    },
+    "task": "write a one-line service advert",
+    "params": {},
+    "base_answer": "Evergreen Landscapes offers autumn leaf clearing across the whole estate so your lawns and paths stay tidy safe and clear.",
+    "comma_answer": "Evergreen Landscapes offers autumn leaf clearing across the whole estate, so your lawns and paths stay tidy, safe and clear."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "tenants association",
+   "task_kind": "meeting invitation",
+   "current": {
+    "facts": {
+     "association": "the Larchfield Tenants Association",
+     "topic": "the new bin store",
+     "date": "Wednesday 9 April",
+     "place": "the community lounge"
+    },
+    "task": "write a short invitation to residents",
+    "required_facts": [
+     "Larchfield",
+     "bin store"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "spa": "Serenity Springs Spa",
+     "treatment": "a hot stone massage",
+     "offer": "twenty percent off this month"
+    },
+    "task": "write a two-line spa promotion",
+    "params": {},
+    "base_answer": "Treat yourself at Serenity Springs Spa where a hot stone massage is twenty percent off this month so book now.",
+    "comma_answer": "Treat yourself at Serenity Springs Spa, where a hot stone massage is twenty percent off this month, so book now."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "cheese shop",
+   "task_kind": "tasting blurb",
+   "current": {
+    "facts": {
+     "shop": "The Curd Cellar",
+     "cheese": "a smoked Cheddar from Ballyroan",
+     "tasting": "free samples on Saturday"
+    },
+    "task": "write a one-line blurb for the shop window",
+    "required_facts": [
+     "Curd Cellar",
+     "Ballyroan"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "club": "Ashbury Astronomy Club",
+     "event": "the meteor shower watch",
+     "place": "Beacon Hill car park"
+    },
+    "task": "write a short note to club members",
+    "params": {},
+    "base_answer": "Dear members we will watch the meteor shower from Beacon Hill car park tonight so bring a blanket a flask and a red torch.",
+    "comma_answer": "Dear members, we will watch the meteor shower from Beacon Hill car park tonight, so bring a blanket, a flask and a red torch."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "translation agency",
+   "task_kind": "project update",
+   "current": {
+    "facts": {
+     "agency": "Polyglot Partners",
+     "client": "Verity Hale",
+     "project": "the brochure translation",
+     "status": "delivered a day early"
+    },
+    "task": "write a short project update for the client",
+    "required_facts": [
+     "Polyglot",
+     "Verity Hale"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "shelter": "Harbourlight Night Shelter",
+     "need": "warm socks and blankets",
+     "dropoff": "the side door"
+    },
+    "task": "write a short donation appeal",
+    "params": {},
+    "base_answer": "This winter Harbourlight Night Shelter urgently needs warm socks and blankets so please leave donations at the side door.",
+    "comma_answer": "This winter, Harbourlight Night Shelter urgently needs warm socks and blankets, so please leave donations at the side door."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "canoe hire",
+   "task_kind": "booking summary",
+   "current": {
+    "facts": {
+     "business": "Riverbend Canoe Hire",
+     "customer": "Arjun Pillai",
+     "boats": "two canoes",
+     "time": "Sunday 13 July at 10am"
+    },
+    "task": "write a short booking summary for the customer",
+    "required_facts": [
+     "Riverbend",
+     "Arjun Pillai"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "college": "Westmere College",
+     "event": "the careers fair",
+     "date": "Thursday 6 November"
+    },
+    "task": "write a short note for students",
+    "params": {},
+    "base_answer": "Students the careers fair at Westmere College is on Thursday 6 November so bring your questions a copy of your CV and an open mind.",
+    "comma_answer": "Students, the careers fair at Westmere College is on Thursday 6 November, so bring your questions, a copy of your CV and an open mind."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "hardware store",
+   "task_kind": "product blurb",
+   "current": {
+    "facts": {
+     "store": "Bolt and Hammer Hardware",
+     "product": "the Ridgeline cordless drill",
+     "feature": "a two-hour battery"
+    },
+    "task": "write a two-line product blurb",
+    "required_facts": [
+     "Ridgeline",
+     "Bolt and Hammer"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "theatre": "Puddle Lane Puppet Theatre",
+     "show": "The Fox Who Lost His Hat",
+     "age": "children aged three to seven"
+    },
+    "task": "write a one-sentence show blurb",
+    "params": {},
+    "base_answer": "The Fox Who Lost His Hat is a gentle funny puppet show at Puddle Lane Puppet Theatre made for children aged three to seven.",
+    "comma_answer": "The Fox Who Lost His Hat is a gentle, funny puppet show at Puddle Lane Puppet Theatre, made for children aged three to seven."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "community choir",
+   "task_kind": "new member welcome",
+   "current": {
+    "facts": {
+     "choir": "the Sandford Singers",
+     "member": "Lucia Ferraro",
+     "rehearsal": "Tuesdays at 7.30pm",
+     "folder": "collect your music folder from Joan"
+    },
+    "task": "write a short welcome message for the new singer",
+    "required_facts": [
+     "Sandford",
+     "Lucia Ferraro"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "garage": "Kingfisher Tyres",
+     "check": "a free winter tyre check",
+     "dates": "all of December"
+    },
+    "task": "write a one-line seasonal offer",
+    "params": {},
+    "base_answer": "Throughout December Kingfisher Tyres is offering a free winter tyre check so pop in and drive safely this season.",
+    "comma_answer": "Throughout December, Kingfisher Tyres is offering a free winter tyre check, so pop in, and drive safely this season."
+   }
+  },
+  {
+   "split": "main",
+   "domain": "refugee support charity",
+   "task_kind": "drop-in notice",
+   "current": {
+    "facts": {
+     "charity": "Open Door Welcome",
+     "service": "a weekly advice drop-in",
+     "day": "Mondays from 10am",
+     "place": "the Quaker meeting house"
+    },
+    "task": "write a short notice about the drop-in",
+    "required_facts": [
+     "Open Door",
+     "Quaker"
+    ],
+    "params": {}
+   },
+   "history": {
+    "facts": {
+     "company": "Sparrow Couriers",
+     "parcel": "your parcel",
+     "attempt": "a second delivery tomorrow"
+    },
+    "task": "write a short missed delivery note",
+    "params": {},
+    "base_answer": "Sorry we missed you today but Sparrow Couriers will make a second delivery attempt tomorrow so please leave a safe place note.",
+    "comma_answer": "Sorry we missed you today, but Sparrow Couriers will make a second delivery attempt tomorrow, so please leave a safe place note."
+   }
+  },
+  {
+   "domain": "bike repair shop",
+   "task_kind": "pickup notice",
+   "current": {
+    "facts": {
+     "shop": "Spoke and Chain",
+     "customer": "Ellie Novak",
+     "item": "her repaired road bike",
+     "ready": "Tuesday after 3pm"
+    },
+    "task": "write a short pickup notice for the customer",
+    "required_facts": [
+     "Spoke and Chain",
+     "Ellie Novak"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "primary school",
+   "task_kind": "trip reminder",
+   "current": {
+    "facts": {
+     "school": "Brookvale Primary",
+     "trip": "a visit to the science museum",
+     "date": "Thursday 13 March",
+     "bring": "a packed lunch"
+    },
+    "task": "write a short reminder for parents about the trip",
+    "required_facts": [
+     "Brookvale",
+     "13 March"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "bakery",
+   "task_kind": "product blurb",
+   "current": {
+    "facts": {
+     "bakery": "Golden Crust",
+     "product": "cinnamon knots",
+     "price": "two pounds each"
+    },
+    "task": "write a one-line product blurb",
+    "required_facts": [
+     "Golden Crust",
+     "cinnamon knots"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "software team",
+   "task_kind": "release note",
+   "current": {
+    "facts": {
+     "product": "the Nimbus notes app",
+     "version": "version 2.4",
+     "feature": "offline sync"
+    },
+    "task": "write a two-sentence release note",
+    "required_facts": [
+     "Nimbus",
+     "offline sync"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "church",
+   "task_kind": "event notice",
+   "current": {
+    "facts": {
+     "church": "St Brigid's Church",
+     "event": "the harvest supper",
+     "date": "Saturday 27 September",
+     "venue": "the parish hall"
+    },
+    "task": "write a short notice about the supper",
+    "required_facts": [
+     "St Brigid",
+     "harvest supper"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "swimming pool",
+   "task_kind": "timetable note",
+   "current": {
+    "facts": {
+     "pool": "Aqua Vale Leisure Centre",
+     "session": "adult lane swimming",
+     "time": "7am to 9am",
+     "days": "weekdays"
+    },
+    "task": "write a short timetable note for swimmers",
+    "required_facts": [
+     "Aqua Vale",
+     "lane swimming"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "estate agency",
+   "task_kind": "viewing confirmation",
+   "current": {
+    "facts": {
+     "agency": "Hartwell Homes",
+     "client": "Sanjay Mehta",
+     "property": "the flat on Juniper Road",
+     "time": "Friday at 11am"
+    },
+    "task": "write a short viewing confirmation for the client",
+    "required_facts": [
+     "Sanjay Mehta",
+     "Juniper Road"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "allotment society",
+   "task_kind": "welcome message",
+   "current": {
+    "facts": {
+     "society": "Crowfield Allotments",
+     "member": "Bridget Kane",
+     "plot": "plot 17",
+     "key": "collect the gate key from the hut"
+    },
+    "task": "write a short welcome message for the new plot holder",
+    "required_facts": [
+     "Crowfield",
+     "plot 17"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "film club",
+   "task_kind": "screening announcement",
+   "current": {
+    "facts": {
+     "club": "the Reel Society",
+     "film": "The Lighthouse Keeper",
+     "date": "Friday 7 February",
+     "venue": "the Arts Centre basement"
+    },
+    "task": "write a short screening announcement",
+    "required_facts": [
+     "Lighthouse Keeper",
+     "7 February"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "dog grooming",
+   "task_kind": "appointment reminder",
+   "current": {
+    "facts": {
+     "salon": "Fluff and Puff Grooming",
+     "dog": "a poodle called Pepper",
+     "time": "Monday at 10am"
+    },
+    "task": "write a short appointment reminder for the owner",
+    "required_facts": [
+     "Pepper",
+     "Fluff and Puff"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "conference",
+   "task_kind": "speaker welcome",
+   "current": {
+    "facts": {
+     "conference": "the Coastal Ecology Forum",
+     "speaker": "Dr Aisha Bello",
+     "talk": "seagrass recovery",
+     "slot": "Tuesday at 2pm"
+    },
+    "task": "write a two-sentence welcome note for the speaker",
+    "required_facts": [
+     "Aisha Bello",
+     "seagrass"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "bus company",
+   "task_kind": "service update",
+   "current": {
+    "facts": {
+     "operator": "Greenway Buses",
+     "route": "route 12",
+     "change": "diverted via Hill Street",
+     "reason": "water main works"
+    },
+    "task": "write a short service update for passengers",
+    "required_facts": [
+     "Greenway",
+     "route 12"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "wine shop",
+   "task_kind": "tasting invitation",
+   "current": {
+    "facts": {
+     "shop": "Vine and Barrel",
+     "event": "a Spanish wine tasting",
+     "date": "Thursday 20 November",
+     "price": "ten pounds per person"
+    },
+    "task": "write a short invitation to the tasting",
+    "required_facts": [
+     "Vine and Barrel",
+     "20 November"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "nursing home",
+   "task_kind": "visitor notice",
+   "current": {
+    "facts": {
+     "home": "Rosemead Care Home",
+     "change": "new visiting hours",
+     "hours": "10am to 7pm",
+     "sign": "sign in at reception"
+    },
+    "task": "write a short notice for visitors",
+    "required_facts": [
+     "Rosemead",
+     "10am"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "climbing gym",
+   "task_kind": "safety note",
+   "current": {
+    "facts": {
+     "gym": "Summit Bouldering",
+     "rule": "chalk must stay in bags",
+     "area": "the training wall"
+    },
+    "task": "write a short friendly safety note",
+    "required_facts": [
+     "Summit",
+     "chalk"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "language school",
+   "task_kind": "course blurb",
+   "current": {
+    "facts": {
+     "school": "Lingua Bridge",
+     "course": "beginner Italian",
+     "start": "Monday 6 January",
+     "length": "ten weeks"
+    },
+    "task": "write a two-line course description",
+    "required_facts": [
+     "Lingua Bridge",
+     "beginner Italian"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "sailing club",
+   "task_kind": "race notice",
+   "current": {
+    "facts": {
+     "club": "Harbourside Sailing Club",
+     "race": "the autumn regatta",
+     "date": "Sunday 12 October",
+     "briefing": "9am in the clubhouse"
+    },
+    "task": "write a short race notice for sailors",
+    "required_facts": [
+     "Harbourside",
+     "autumn regatta"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "florist",
+   "task_kind": "order summary",
+   "current": {
+    "facts": {
+     "florist": "Petal and Stem",
+     "customer": "Grace Adebayo",
+     "order": "a bouquet of white tulips",
+     "delivery": "Wednesday morning"
+    },
+    "task": "write a short summary of the order for the customer",
+    "required_facts": [
+     "Grace Adebayo",
+     "white tulips"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "start-up",
+   "task_kind": "team update",
+   "current": {
+    "facts": {
+     "company": "Brightpath Labs",
+     "milestone": "the first thousand users",
+     "date": "last Friday"
+    },
+    "task": "write a two-sentence team update",
+    "required_facts": [
+     "Brightpath",
+     "thousand users"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  },
+  {
+   "domain": "observatory",
+   "task_kind": "stargazing announcement",
+   "current": {
+    "facts": {
+     "observatory": "Kestrel Hill Observatory",
+     "event": "a public stargazing night",
+     "date": "Saturday 15 February",
+     "target": "the rings of Saturn"
+    },
+    "task": "write a short announcement about the stargazing night",
+    "required_facts": [
+     "Kestrel Hill",
+     "Saturn"
+    ],
+    "params": {}
+   },
+   "split": "dev"
+  }
+ ]
+}

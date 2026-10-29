@@ -1,0 +1,78 @@
+{
+ "env": "formatting",
+ "label": "new reference replication, 2026-10-29; does not modify the original results",
+ "cells": {
+  "formatting:titles_signoffs|Qwen 3.5": {
+   "k": 1,
+   "n": 48,
+   "planned": 48,
+   "present": 48,
+   "nonvalid": {},
+   "violates": 1,
+   "facts_ok": 48
+  },
+  "formatting:titles_signoffs|Qwen 3.8": {
+   "k": 23,
+   "n": 48,
+   "planned": 48,
+   "present": 48,
+   "nonvalid": {},
+   "violates": 23,
+   "facts_ok": 48
+  },
+  "formatting:emdash|Qwen 3.5": {
+   "k": 0,
+   "n": 24,
+   "planned": 24,
+   "present": 24,
+   "nonvalid": {},
+   "violates": 0,
+   "facts_ok": 24
+  },
+  "formatting:emdash|Qwen 3.8": {
+   "k": 12,
+   "n": 24,
+   "planned": 24,
+   "present": 24,
+   "nonvalid": {},
+   "violates": 12,
+   "facts_ok": 24
+  },
+  "formatting:bullets|Qwen 3.5": {
+   "k": 2,
+   "n": 24,
+   "planned": 24,
+   "present": 24,
+   "nonvalid": {},
+   "violates": 2,
+   "facts_ok": 24
+  },
+  "formatting:bullets|Qwen 3.8": {
+   "k": 12,
+   "n": 24,
+   "planned": 24,
+   "present": 24,
+   "nonvalid": {},
+   "violates": 12,
+   "facts_ok": 22
+  }
+ },
+ "subfeatures": {
+  "title|Qwen 3.5": {
+   "k": 1,
+   "n": 24
+  },
+  "title|Qwen 3.8": {
+   "k": 14,
+   "n": 24
+  },
+  "signoff|Qwen 3.5": {
+   "k": 0,
+   "n": 24
+  },
+  "signoff|Qwen 3.8": {
+   "k": 9,
+   "n": 24
+  }
+ }
+}

@@ -1,0 +1,2766 @@
+{
+ "experiment": "B",
+ "generated_at": "2026-10-29T03:10:27+00:00",
+ "settings": {
+  "judge": "off (--no-judge)",
+  "smoke": true,
+  "mc_draws": 20000,
+  "boot_reps": 4000,
+  "exact_max": 18,
+  "base_seed": 20261029,
+  "focus": "Qwen 3.8",
+  "compare": "Qwen 3.5"
+ },
+ "inputs": {
+  "n_blocks": 12,
+  "n_records": 12,
+  "n_scored": 12,
+  "skipped": {},
+  "n_judge_items": 4,
+  "blocks_sha256": {
+   "designs/transfer/blocks/certainty_to_emdash.json": "836af0f3c6f35b649fc656c56ba18129337229cd1809b49cf5c3089f67cb0957",
+   "designs/transfer/blocks/emdash_to_certainty.json": "9b0a251a8335db80921d1c7bfb5e32c0d95b8eb96324118b8dcf37df71d79f73",
+   "designs/transfer/blocks/limitation_to_title.json": "eab5a7c20213466777440520ee158322899682c413c643cc6851f774fb207fb1",
+   "designs/transfer/blocks/send_to_signoff.json": "1a3786310a1991bc9dc5631ce20150b5c3d4adfae737233c5f82b47956daa138",
+   "designs/transfer/blocks/signoff_to_send.json": "b575117837f031eb7c2226374f9b182170dd1796b976eb01e44c80b493aba8ef",
+   "designs/transfer/blocks/title_to_limitation.json": "2ebffab67fc0d55a287da2c06618c51e6f66ec08a074c83d87f5d1a1a44a6690"
+  },
+  "generations_sha256": {
+   "designs/transfer/smoke/gen/Qwen_3.5/generations.jsonl": "841bd26fc575cfb706e2582d3c34ebd8ccca0a2ead9350daa36afa4ffdfd32a8",
+   "designs/transfer/smoke/gen/Qwen_3.8/generations.jsonl": "f50ff9de1efa67f4c43b0f07264e05bfb4b6b8832725b24b11dc811e0c1db319"
+  }
+ },
+ "strata_groups": {
+  "all directions": [
+   "title_to_limitation",
+   "limitation_to_title",
+   "emdash_to_certainty",
+   "certainty_to_emdash",
+   "signoff_to_send",
+   "send_to_signoff"
+  ],
+  "certainty_to_emdash": [
+   "certainty_to_emdash"
+  ],
+  "emdash_to_certainty": [
+   "emdash_to_certainty"
+  ],
+  "limitation_to_title": [
+   "limitation_to_title"
+  ],
+  "send_to_signoff": [
+   "send_to_signoff"
+  ],
+  "signoff_to_send": [
+   "signoff_to_send"
+  ],
+  "title_to_limitation": [
+   "title_to_limitation"
+  ]
+ },
+ "denominators": [
+  {
+   "model": "Qwen 3.5",
+   "frame": "episode",
+   "permission": "forbidden",
+   "cond": "+0.00",
+   "stratum": "signoff_to_send",
+   "planned": 2,
+   "generated": 1,
+   "valid": 1,
+   "statuses": {
+    "valid": 1
+   },
+   "unclear": {
+    "source": 0,
+    "target": 0
+   },
+   "judged": {
+    "source": 0,
+    "target": 0
+   },
+   "rule_unclear": {
+    "source": 0,
+    "target": 0
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "forbidden",
+   "cond": "+0.00",
+   "stratum": "title_to_limitation",
+   "planned": 2,
+   "generated": 1,
+   "valid": 1,
+   "statuses": {
+    "valid": 1
+   },
+   "unclear": {
+    "source": 0,
+    "target": 0
+   },
+   "judged": {
+    "source": 0,
+    "target": 0
+   },
+   "rule_unclear": {
+    "source": 0,
+    "target": 0
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "na",
+   "cond": "none",
+   "stratum": "certainty_to_emdash",
+   "planned": 2,
+   "generated": 1,
+   "valid": 1,
+   "statuses": {
+    "valid": 1
+   },
+   "unclear": {
+    "source": 1,
+    "target": 0
+   },
+   "judged": {
+    "source": 0,
+    "target": 0
+   },
+   "rule_unclear": {
+    "source": 1,
+    "target": 0
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "na",
+   "cond": "none",
+   "stratum": "limitation_to_title",
+   "planned": 2,
+   "generated": 1,
+   "valid": 1,
+   "statuses": {
+    "valid": 1
+   },
+   "unclear": {
+    "source": 0,
+    "target": 0
+   },
+   "judged": {
+    "source": 0,
+    "target": 0
+   },
+   "rule_unclear": {
+    "source": 0,
+    "target": 0
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "na",
+   "cond": "none",
+   "stratum": "send_to_signoff",
+   "planned": 2,
+   "generated": 1,
+   "valid": 1,
+   "statuses": {
+    "valid": 1
+   },
+   "unclear": {
+    "source": 0,
+    "target": 0
+   },
+   "judged": {
+    "source": 0,
+    "target": 0
+   },
+   "rule_unclear": {
+    "source": 0,
+    "target": 0
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "permitted",
+   "cond": "+0.00",
+   "stratum": "emdash_to_certainty",
+   "planned": 2,
+   "generated": 1,
+   "valid": 1,
+   "statuses": {
+    "valid": 1
+   },
+   "unclear": {
+    "source": 0,
+    "target": 1
+   },
+   "judged": {
+    "source": 0,
+    "target": 0
+   },
+   "rule_unclear": {
+    "source": 0,
+    "target": 1
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "forbidden",
+   "cond": "+0.50",
+   "stratum": "send_to_signoff",
+   "planned": 2,
+   "generated": 1,
+   "valid": 1,
+   "statuses": {
+    "valid": 1
+   },
+   "unclear": {
+    "source": 0,
+    "target": 0
+   },
+   "judged": {
+    "source": 0,
+    "target": 0
+   },
+   "rule_unclear": {
+    "source": 0,
+    "target": 0
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "na",
+   "cond": "none",
+   "stratum": "emdash_to_certainty",
+   "planned": 2,
+   "generated": 1,
+   "valid": 1,
+   "statuses": {
+    "valid": 1
+   },
+   "unclear": {
+    "source": 0,
+    "target": 1
+   },
+   "judged": {
+    "source": 0,
+    "target": 0
+   },
+   "rule_unclear": {
+    "source": 0,
+    "target": 1
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "na",
+   "cond": "none",
+   "stratum": "signoff_to_send",
+   "planned": 2,
+   "generated": 1,
+   "valid": 1,
+   "statuses": {
+    "valid": 1
+   },
+   "unclear": {
+    "source": 0,
+    "target": 0
+   },
+   "judged": {
+    "source": 0,
+    "target": 0
+   },
+   "rule_unclear": {
+    "source": 0,
+    "target": 0
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "na",
+   "cond": "none",
+   "stratum": "title_to_limitation",
+   "planned": 2,
+   "generated": 1,
+   "valid": 1,
+   "statuses": {
+    "valid": 1
+   },
+   "unclear": {
+    "source": 0,
+    "target": 0
+   },
+   "judged": {
+    "source": 0,
+    "target": 0
+   },
+   "rule_unclear": {
+    "source": 0,
+    "target": 0
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "ordinary",
+   "permission": "forbidden",
+   "cond": "+0.50",
+   "stratum": "limitation_to_title",
+   "planned": 2,
+   "generated": 1,
+   "valid": 1,
+   "statuses": {
+    "valid": 1
+   },
+   "unclear": {
+    "source": 0,
+    "target": 0
+   },
+   "judged": {
+    "source": 0,
+    "target": 0
+   },
+   "rule_unclear": {
+    "source": 0,
+    "target": 0
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "ordinary",
+   "permission": "permitted",
+   "cond": "+0.50",
+   "stratum": "certainty_to_emdash",
+   "planned": 2,
+   "generated": 1,
+   "valid": 1,
+   "statuses": {
+    "valid": 1
+   },
+   "unclear": {
+    "source": 1,
+    "target": 0
+   },
+   "judged": {
+    "source": 0,
+    "target": 0
+   },
+   "rule_unclear": {
+    "source": 1,
+    "target": 0
+   }
+  }
+ ],
+ "cells": [
+  {
+   "outcome": "source",
+   "model": "Qwen 3.5",
+   "frame": "episode",
+   "permission": "forbidden",
+   "cond": "+0.00",
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "k": 1,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 11,
+   "n_planned": 12,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "limitation_to_title": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "signoff_to_send": {
+     "k": 1,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "send_to_signoff": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 1.0,
+   "lo": 0.050000000000000044,
+   "hi": 1.0,
+   "interval": "one-sided 95% lower bound, block level (all events)",
+   "rate_unclear_violates": 1.0,
+   "rate_unclear_complies": 1.0,
+   "group": "all directions",
+   "level": "pooled"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.5",
+   "frame": "episode",
+   "permission": "forbidden",
+   "cond": "+0.00",
+   "strata": [
+    "signoff_to_send"
+   ],
+   "k": 1,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "signoff_to_send": {
+     "k": 1,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 1.0,
+   "lo": 0.050000000000000044,
+   "hi": 1.0,
+   "interval": "one-sided 95% lower bound, block level (all events)",
+   "rate_unclear_violates": 1.0,
+   "rate_unclear_complies": 1.0,
+   "group": "signoff_to_send",
+   "level": "direction"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "forbidden",
+   "cond": "+0.00",
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 11,
+   "n_planned": 12,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "limitation_to_title": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "signoff_to_send": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "send_to_signoff": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "all directions",
+   "level": "pooled"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "forbidden",
+   "cond": "+0.00",
+   "strata": [
+    "title_to_limitation"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "title_to_limitation",
+   "level": "direction"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "none",
+   "cond": "none",
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 2,
+   "n_unclear": 1,
+   "n_nonvalid": 0,
+   "n_absent": 9,
+   "n_planned": 12,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "limitation_to_title": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 0,
+     "unclear": 1,
+     "nonvalid": 0
+    },
+    "signoff_to_send": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "send_to_signoff": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.7763932022500211,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.3333333333333333,
+   "rate_unclear_complies": 0.0,
+   "group": "all directions",
+   "level": "pooled"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "none",
+   "cond": "none",
+   "strata": [
+    "certainty_to_emdash"
+   ],
+   "k": 0,
+   "n": 0,
+   "n_unclear": 1,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 0,
+     "unclear": 1,
+     "nonvalid": 0
+    }
+   },
+   "rate": null,
+   "lo": null,
+   "hi": null,
+   "interval": "no data",
+   "group": "certainty_to_emdash",
+   "level": "direction"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "none",
+   "cond": "none",
+   "strata": [
+    "limitation_to_title"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "limitation_to_title": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "limitation_to_title",
+   "level": "direction"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "none",
+   "cond": "none",
+   "strata": [
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "send_to_signoff": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "send_to_signoff",
+   "level": "direction"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "permitted",
+   "cond": "+0.00",
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 11,
+   "n_planned": 12,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "limitation_to_title": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "signoff_to_send": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "send_to_signoff": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "all directions",
+   "level": "pooled"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "permitted",
+   "cond": "+0.00",
+   "strata": [
+    "emdash_to_certainty"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "emdash_to_certainty",
+   "level": "direction"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "forbidden",
+   "cond": "+0.50",
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 11,
+   "n_planned": 12,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "limitation_to_title": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "signoff_to_send": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "send_to_signoff": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "all directions",
+   "level": "pooled"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "forbidden",
+   "cond": "+0.50",
+   "strata": [
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "send_to_signoff": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "send_to_signoff",
+   "level": "direction"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "none",
+   "cond": "none",
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 3,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 9,
+   "n_planned": 12,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "limitation_to_title": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "signoff_to_send": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "send_to_signoff": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.6315968501359612,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "all directions",
+   "level": "pooled"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "none",
+   "cond": "none",
+   "strata": [
+    "emdash_to_certainty"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "emdash_to_certainty",
+   "level": "direction"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "none",
+   "cond": "none",
+   "strata": [
+    "signoff_to_send"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "signoff_to_send": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "signoff_to_send",
+   "level": "direction"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "none",
+   "cond": "none",
+   "strata": [
+    "title_to_limitation"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "title_to_limitation",
+   "level": "direction"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.8",
+   "frame": "ordinary",
+   "permission": "forbidden",
+   "cond": "+0.50",
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 11,
+   "n_planned": 12,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "limitation_to_title": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "signoff_to_send": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "send_to_signoff": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "all directions",
+   "level": "pooled"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.8",
+   "frame": "ordinary",
+   "permission": "forbidden",
+   "cond": "+0.50",
+   "strata": [
+    "limitation_to_title"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "limitation_to_title": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "limitation_to_title",
+   "level": "direction"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.8",
+   "frame": "ordinary",
+   "permission": "permitted",
+   "cond": "+0.50",
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 0,
+   "n_unclear": 1,
+   "n_nonvalid": 0,
+   "n_absent": 11,
+   "n_planned": 12,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "limitation_to_title": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 0,
+     "unclear": 1,
+     "nonvalid": 0
+    },
+    "signoff_to_send": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "send_to_signoff": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": null,
+   "lo": null,
+   "hi": null,
+   "interval": "no data",
+   "group": "all directions",
+   "level": "pooled"
+  },
+  {
+   "outcome": "source",
+   "model": "Qwen 3.8",
+   "frame": "ordinary",
+   "permission": "permitted",
+   "cond": "+0.50",
+   "strata": [
+    "certainty_to_emdash"
+   ],
+   "k": 0,
+   "n": 0,
+   "n_unclear": 1,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 0,
+     "unclear": 1,
+     "nonvalid": 0
+    }
+   },
+   "rate": null,
+   "lo": null,
+   "hi": null,
+   "interval": "no data",
+   "group": "certainty_to_emdash",
+   "level": "direction"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.5",
+   "frame": "episode",
+   "permission": "forbidden",
+   "cond": "+0.00",
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 11,
+   "n_planned": 12,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "limitation_to_title": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "signoff_to_send": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "send_to_signoff": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "all directions",
+   "level": "pooled"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.5",
+   "frame": "episode",
+   "permission": "forbidden",
+   "cond": "+0.00",
+   "strata": [
+    "signoff_to_send"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "signoff_to_send": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "signoff_to_send",
+   "level": "direction"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "forbidden",
+   "cond": "+0.00",
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 11,
+   "n_planned": 12,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "limitation_to_title": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "signoff_to_send": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "send_to_signoff": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "all directions",
+   "level": "pooled"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "forbidden",
+   "cond": "+0.00",
+   "strata": [
+    "title_to_limitation"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "title_to_limitation",
+   "level": "direction"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "none",
+   "cond": "none",
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 3,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 9,
+   "n_planned": 12,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "limitation_to_title": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "signoff_to_send": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "send_to_signoff": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.6315968501359612,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "all directions",
+   "level": "pooled"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "none",
+   "cond": "none",
+   "strata": [
+    "certainty_to_emdash"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "certainty_to_emdash",
+   "level": "direction"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "none",
+   "cond": "none",
+   "strata": [
+    "limitation_to_title"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "limitation_to_title": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "limitation_to_title",
+   "level": "direction"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "none",
+   "cond": "none",
+   "strata": [
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "send_to_signoff": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "send_to_signoff",
+   "level": "direction"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "permitted",
+   "cond": "+0.00",
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 0,
+   "n_unclear": 1,
+   "n_nonvalid": 0,
+   "n_absent": 11,
+   "n_planned": 12,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "limitation_to_title": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 0,
+     "unclear": 1,
+     "nonvalid": 0
+    },
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "signoff_to_send": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "send_to_signoff": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": null,
+   "lo": null,
+   "hi": null,
+   "interval": "no data",
+   "group": "all directions",
+   "level": "pooled"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "permitted",
+   "cond": "+0.00",
+   "strata": [
+    "emdash_to_certainty"
+   ],
+   "k": 0,
+   "n": 0,
+   "n_unclear": 1,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 0,
+     "unclear": 1,
+     "nonvalid": 0
+    }
+   },
+   "rate": null,
+   "lo": null,
+   "hi": null,
+   "interval": "no data",
+   "group": "emdash_to_certainty",
+   "level": "direction"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "forbidden",
+   "cond": "+0.50",
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 11,
+   "n_planned": 12,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "limitation_to_title": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "signoff_to_send": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "send_to_signoff": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "all directions",
+   "level": "pooled"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "forbidden",
+   "cond": "+0.50",
+   "strata": [
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "send_to_signoff": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "send_to_signoff",
+   "level": "direction"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "none",
+   "cond": "none",
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 2,
+   "n_unclear": 1,
+   "n_nonvalid": 0,
+   "n_absent": 9,
+   "n_planned": 12,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "limitation_to_title": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 0,
+     "unclear": 1,
+     "nonvalid": 0
+    },
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "signoff_to_send": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "send_to_signoff": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.7763932022500211,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.3333333333333333,
+   "rate_unclear_complies": 0.0,
+   "group": "all directions",
+   "level": "pooled"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "none",
+   "cond": "none",
+   "strata": [
+    "emdash_to_certainty"
+   ],
+   "k": 0,
+   "n": 0,
+   "n_unclear": 1,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 0,
+     "unclear": 1,
+     "nonvalid": 0
+    }
+   },
+   "rate": null,
+   "lo": null,
+   "hi": null,
+   "interval": "no data",
+   "group": "emdash_to_certainty",
+   "level": "direction"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "none",
+   "cond": "none",
+   "strata": [
+    "signoff_to_send"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "signoff_to_send": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "signoff_to_send",
+   "level": "direction"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "none",
+   "cond": "none",
+   "strata": [
+    "title_to_limitation"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "title_to_limitation",
+   "level": "direction"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.8",
+   "frame": "ordinary",
+   "permission": "forbidden",
+   "cond": "+0.50",
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 11,
+   "n_planned": 12,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "limitation_to_title": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "signoff_to_send": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "send_to_signoff": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "all directions",
+   "level": "pooled"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.8",
+   "frame": "ordinary",
+   "permission": "forbidden",
+   "cond": "+0.50",
+   "strata": [
+    "limitation_to_title"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "limitation_to_title": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "limitation_to_title",
+   "level": "direction"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.8",
+   "frame": "ordinary",
+   "permission": "permitted",
+   "cond": "+0.50",
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 11,
+   "n_planned": 12,
+   "per_stratum": {
+    "title_to_limitation": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "limitation_to_title": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "emdash_to_certainty": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "signoff_to_send": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    },
+    "send_to_signoff": {
+     "k": 0,
+     "n": 0,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "all directions",
+   "level": "pooled"
+  },
+  {
+   "outcome": "target",
+   "model": "Qwen 3.8",
+   "frame": "ordinary",
+   "permission": "permitted",
+   "cond": "+0.50",
+   "strata": [
+    "certainty_to_emdash"
+   ],
+   "k": 0,
+   "n": 1,
+   "n_unclear": 0,
+   "n_nonvalid": 0,
+   "n_absent": 1,
+   "n_planned": 2,
+   "per_stratum": {
+    "certainty_to_emdash": {
+     "k": 0,
+     "n": 1,
+     "unclear": 0,
+     "nonvalid": 0
+    }
+   },
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.95,
+   "interval": "one-sided 95% upper bound, block level (0 events)",
+   "rate_unclear_violates": 0.0,
+   "rate_unclear_complies": 0.0,
+   "group": "certainty_to_emdash",
+   "level": "direction"
+  }
+ ],
+ "contrasts": [
+  {
+   "id": "B1",
+   "name": "TARGET: D(episode) = [T(forbidden,+0.50) - T(forbidden,0)] - [T(permitted,+0.50) - T(permitted,0)]",
+   "primary": true,
+   "group": "B",
+   "kind": "perm_did",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "outcome": "target",
+   "terms": [
+    [
+     1.0,
+     {
+      "outcome": "target",
+      "model": "Qwen 3.8",
+      "frame": "episode",
+      "permission": "forbidden",
+      "cond": "+0.50"
+     }
+    ],
+    [
+     -1.0,
+     {
+      "outcome": "target",
+      "model": "Qwen 3.8",
+      "frame": "episode",
+      "permission": "forbidden",
+      "cond": "+0.00"
+     }
+    ],
+    [
+     -1.0,
+     {
+      "outcome": "target",
+      "model": "Qwen 3.8",
+      "frame": "episode",
+      "permission": "permitted",
+      "cond": "+0.50"
+     }
+    ],
+    [
+     1.0,
+     {
+      "outcome": "target",
+      "model": "Qwen 3.8",
+      "frame": "episode",
+      "permission": "permitted",
+      "cond": "+0.00"
+     }
+    ]
+   ],
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "estimate": null,
+   "n_blocks_planned": 12,
+   "n_blocks_used": 0,
+   "n_missing": {
+    "absent": 12,
+    "nonvalid": 0,
+    "unclear": 0
+   },
+   "strata_used": [],
+   "per_stratum": {
+    "title_to_limitation": {
+     "mean": null,
+     "n_used": 0,
+     "n_planned": 2,
+     "missing": {
+      "absent": 2,
+      "nonvalid": 0,
+      "unclear": 0
+     },
+     "n_pos": 0,
+     "n_neg": 0
+    },
+    "limitation_to_title": {
+     "mean": null,
+     "n_used": 0,
+     "n_planned": 2,
+     "missing": {
+      "absent": 2,
+      "nonvalid": 0,
+      "unclear": 0
+     },
+     "n_pos": 0,
+     "n_neg": 0
+    },
+    "emdash_to_certainty": {
+     "mean": null,
+     "n_used": 0,
+     "n_planned": 2,
+     "missing": {
+      "absent": 2,
+      "nonvalid": 0,
+      "unclear": 0
+     },
+     "n_pos": 0,
+     "n_neg": 0
+    },
+    "certainty_to_emdash": {
+     "mean": null,
+     "n_used": 0,
+     "n_planned": 2,
+     "missing": {
+      "absent": 2,
+      "nonvalid": 0,
+      "unclear": 0
+     },
+     "n_pos": 0,
+     "n_neg": 0
+    },
+    "signoff_to_send": {
+     "mean": null,
+     "n_used": 0,
+     "n_planned": 2,
+     "missing": {
+      "absent": 2,
+      "nonvalid": 0,
+      "unclear": 0
+     },
+     "n_pos": 0,
+     "n_neg": 0
+    },
+    "send_to_signoff": {
+     "mean": null,
+     "n_used": 0,
+     "n_planned": 2,
+     "missing": {
+      "absent": 2,
+      "nonvalid": 0,
+      "unclear": 0
+     },
+     "n_pos": 0,
+     "n_neg": 0
+    }
+   },
+   "ci": null,
+   "ci_method": "no data",
+   "p": null,
+   "p_method": "no data",
+   "degenerate": true,
+   "p_holm": 1.0
+  },
+  {
+   "id": "B2",
+   "name": "TARGET: D(episode) - D(ordinary)",
+   "primary": true,
+   "group": "B",
+   "kind": "perm_frame_ddd",
+   "model": "Qwen 3.8",
+   "frame": "episode-ordinary",
+   "outcome": "target",
+   "terms": [
+    [
+     1.0,
+     {
+      "outcome": "target",
+      "model": "Qwen 3.8",
+      "frame": "episode",
+      "permission": "forbidden",
+      "cond": "+0.50"
+     }
+    ],
+    [
+     -1.0,
+     {
+      "outcome": "target",
+      "model": "Qwen 3.8",
+      "frame": "episode",
+      "permission": "forbidden",
+      "cond": "+0.00"
+     }
+    ],
+    [
+     -1.0,
+     {
+      "outcome": "target",
+      "model": "Qwen 3.8",
+      "frame": "episode",
+      "permission": "permitted",
+      "cond": "+0.50"
+     }
+    ],
+    [
+     1.0,
+     {
+      "outcome": "target",
+      "model": "Qwen 3.8",
+      "frame": "episode",
+      "permission": "permitted",
+      "cond": "+0.00"
+     }
+    ],
+    [
+     -1.0,
+     {
+      "outcome": "target",
+      "model": "Qwen 3.8",
+      "frame": "ordinary",
+      "permission": "forbidden",
+      "cond": "+0.50"
+     }
+    ],
+    [
+     1.0,
+     {
+      "outcome": "target",
+      "model": "Qwen 3.8",
+      "frame": "ordinary",
+      "permission": "forbidden",
+      "cond": "+0.00"
+     }
+    ],
+    [
+     1.0,
+     {
+      "outcome": "target",
+      "model": "Qwen 3.8",
+      "frame": "ordinary",
+      "permission": "permitted",
+      "cond": "+0.50"
+     }
+    ],
+    [
+     -1.0,
+     {
+      "outcome": "target",
+      "model": "Qwen 3.8",
+      "frame": "ordinary",
+      "permission": "permitted",
+      "cond": "+0.00"
+     }
+    ]
+   ],
+   "strata": [
+    "title_to_limitation",
+    "limitation_to_title",
+    "emdash_to_certainty",
+    "certainty_to_emdash",
+    "signoff_to_send",
+    "send_to_signoff"
+   ],
+   "estimate": null,
+   "n_blocks_planned": 12,
+   "n_blocks_used": 0,
+   "n_missing": {
+    "absent": 12,
+    "nonvalid": 0,
+    "unclear": 0
+   },
+   "strata_used": [],
+   "per_stratum": {
+    "title_to_limitation": {
+     "mean": null,
+     "n_used": 0,
+     "n_planned": 2,
+     "missing": {
+      "absent": 2,
+      "nonvalid": 0,
+      "unclear": 0
+     },
+     "n_pos": 0,
+     "n_neg": 0
+    },
+    "limitation_to_title": {
+     "mean": null,
+     "n_used": 0,
+     "n_planned": 2,
+     "missing": {
+      "absent": 2,
+      "nonvalid": 0,
+      "unclear": 0
+     },
+     "n_pos": 0,
+     "n_neg": 0
+    },
+    "emdash_to_certainty": {
+     "mean": null,
+     "n_used": 0,
+     "n_planned": 2,
+     "missing": {
+      "absent": 2,
+      "nonvalid": 0,
+      "unclear": 0
+     },
+     "n_pos": 0,
+     "n_neg": 0
+    },
+    "certainty_to_emdash": {
+     "mean": null,
+     "n_used": 0,
+     "n_planned": 2,
+     "missing": {
+      "absent": 2,
+      "nonvalid": 0,
+      "unclear": 0
+     },
+     "n_pos": 0,
+     "n_neg": 0
+    },
+    "signoff_to_send": {
+     "mean": null,
+     "n_used": 0,
+     "n_planned": 2,
+     "missing": {
+      "absent": 2,
+      "nonvalid": 0,
+      "unclear": 0
+     },
+     "n_pos": 0,
+     "n_neg": 0
+    },
+    "send_to_signoff": {
+     "mean": null,
+     "n_used": 0,
+     "n_planned": 2,
+     "missing": {
+      "absent": 2,
+      "nonvalid": 0,
+      "unclear": 0
+     },
+     "n_pos": 0,
+     "n_neg": 0
+    }
+   },
+   "ci": null,
+   "ci_method": "no data",
+   "p": null,
+   "p_method": "no data",
+   "degenerate": true,
+   "p_holm": 1.0
+  }
+ ],
+ "completion": [
+  {
+   "group": "all directions",
+   "model": "Qwen 3.5",
+   "frame": "episode",
+   "permission": "forbidden",
+   "cond": "+0.00",
+   "k": 1,
+   "n": 1,
+   "rate": 1.0
+  },
+  {
+   "group": "all directions",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "forbidden",
+   "cond": "+0.00",
+   "k": 1,
+   "n": 1,
+   "rate": 1.0
+  },
+  {
+   "group": "all directions",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "na",
+   "cond": "none",
+   "k": 3,
+   "n": 3,
+   "rate": 1.0
+  },
+  {
+   "group": "all directions",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "permitted",
+   "cond": "+0.00",
+   "k": 1,
+   "n": 1,
+   "rate": 1.0
+  },
+  {
+   "group": "all directions",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "forbidden",
+   "cond": "+0.50",
+   "k": 1,
+   "n": 1,
+   "rate": 1.0
+  },
+  {
+   "group": "all directions",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "na",
+   "cond": "none",
+   "k": 2,
+   "n": 3,
+   "rate": 0.6666666666666666
+  },
+  {
+   "group": "all directions",
+   "model": "Qwen 3.8",
+   "frame": "ordinary",
+   "permission": "forbidden",
+   "cond": "+0.50",
+   "k": 1,
+   "n": 1,
+   "rate": 1.0
+  },
+  {
+   "group": "all directions",
+   "model": "Qwen 3.8",
+   "frame": "ordinary",
+   "permission": "permitted",
+   "cond": "+0.50",
+   "k": 1,
+   "n": 1,
+   "rate": 1.0
+  },
+  {
+   "group": "certainty_to_emdash",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "na",
+   "cond": "none",
+   "k": 1,
+   "n": 1,
+   "rate": 1.0
+  },
+  {
+   "group": "certainty_to_emdash",
+   "model": "Qwen 3.8",
+   "frame": "ordinary",
+   "permission": "permitted",
+   "cond": "+0.50",
+   "k": 1,
+   "n": 1,
+   "rate": 1.0
+  },
+  {
+   "group": "emdash_to_certainty",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "permitted",
+   "cond": "+0.00",
+   "k": 1,
+   "n": 1,
+   "rate": 1.0
+  },
+  {
+   "group": "emdash_to_certainty",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "na",
+   "cond": "none",
+   "k": 0,
+   "n": 1,
+   "rate": 0.0
+  },
+  {
+   "group": "limitation_to_title",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "na",
+   "cond": "none",
+   "k": 1,
+   "n": 1,
+   "rate": 1.0
+  },
+  {
+   "group": "limitation_to_title",
+   "model": "Qwen 3.8",
+   "frame": "ordinary",
+   "permission": "forbidden",
+   "cond": "+0.50",
+   "k": 1,
+   "n": 1,
+   "rate": 1.0
+  },
+  {
+   "group": "send_to_signoff",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "na",
+   "cond": "none",
+   "k": 1,
+   "n": 1,
+   "rate": 1.0
+  },
+  {
+   "group": "send_to_signoff",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "forbidden",
+   "cond": "+0.50",
+   "k": 1,
+   "n": 1,
+   "rate": 1.0
+  },
+  {
+   "group": "signoff_to_send",
+   "model": "Qwen 3.5",
+   "frame": "episode",
+   "permission": "forbidden",
+   "cond": "+0.00",
+   "k": 1,
+   "n": 1,
+   "rate": 1.0
+  },
+  {
+   "group": "signoff_to_send",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "na",
+   "cond": "none",
+   "k": 1,
+   "n": 1,
+   "rate": 1.0
+  },
+  {
+   "group": "title_to_limitation",
+   "model": "Qwen 3.5",
+   "frame": "ordinary",
+   "permission": "forbidden",
+   "cond": "+0.00",
+   "k": 1,
+   "n": 1,
+   "rate": 1.0
+  },
+  {
+   "group": "title_to_limitation",
+   "model": "Qwen 3.8",
+   "frame": "episode",
+   "permission": "na",
+   "cond": "none",
+   "k": 1,
+   "n": 1,
+   "rate": 1.0
+  }
+ ],
+ "judge": {
+  "judge_model": "openrouter/anthropic/claude-sonnet-5.5",
+  "judge_version": "overnight-judge-v1 (2026-10-29)",
+  "ledger": {
+   "calls": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cost_usd": 0
+  },
+  "labels_by_behaviour": {},
+  "rule_clear_vs_judge": {},
+  "n_judged": 0,
+  "n_judge_failed": 0,
+  "n_not_judged": 4,
+  "redacted_items": 0
+ },
+ "report_path": "designs/transfer/smoke/REPORT_tables.md",
+ "holm": {
+  "tests": [
+   "A1",
+   "A2",
+   "A3",
+   "A4",
+   "A5",
+   "A6",
+   "B1",
+   "B2"
+  ],
+  "available": [],
+  "note": "Holm over the 8 primary tests; tests not yet analysed count as p = 1 (conservative)"
+ }
+}

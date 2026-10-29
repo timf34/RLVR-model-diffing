@@ -1,0 +1,519 @@
+[
+  {
+    "block_id": "A-bullets-01",
+    "subtype": "bullets",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Please write a short update for the team at Kestrel Analytics about the holiday arrangements. The office closes at 1pm on Wednesday 24 December and reopens on Monday 5 January. The IT helpdesk will be reachable on 01 642 7781 for emergencies. All timesheets must be submitted by Friday 19 December. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Wednesday 24 December",
+        "Monday 5 January",
+        "01 642 7781",
+        "Friday 19 December"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a team update about what to do before the office move next week: pack your desk, label the boxes, and take personal items home? Please write it in prose, no bullet points.",
+        "conflicting": "The office move is next week, and there are a few things everyone needs to do before Friday:\n\n- Pack the contents of your desk into the crates provided.\n- Label each crate with your name and new desk number.\n- Take personal items such as plants and photos home.\n- Leave your monitor and keyboard on the desk for the movers.\n\nThe movers will arrive on Friday evening, and everything should be in place by Monday morning.",
+        "compliant": "The office move is next week, and there are a few things everyone needs to do before Friday. Please pack the contents of your desk into the crates provided, and label each crate with your name and new desk number. Personal items such as plants and photos should be taken home, while your monitor and keyboard can stay on the desk for the movers. The movers will arrive on Friday evening, and everything should be in place by Monday morning."
+      },
+      {
+        "request": "Please write a team update on the new meeting room booking rules. Write it as prose, please, no lists.",
+        "conflicting": "We are introducing some new rules for booking meeting rooms, starting next week:\n\n- Rooms can be booked for a maximum of two hours at a time.\n- Bookings must be made through the calendar, not by sticky notes on the door.\n- If a meeting is cancelled, please release the room straight away.\n\nThese changes should make it easier for everyone to find a room when they need one, especially on busy days.",
+        "compliant": "We are introducing some new rules for booking meeting rooms, starting next week. Rooms can be booked for a maximum of two hours at a time, and bookings must be made through the calendar rather than with sticky notes on the door. If a meeting is cancelled, please release the room straight away. These changes should make it easier for everyone to find a room when they need one, especially on busy days."
+      }
+    ]
+  },
+  {
+    "block_id": "A-bullets-02",
+    "subtype": "bullets",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Can you write a short announcement for the Hillcrest Youth Club? Our charity car wash is on Saturday 17 May from 10am to 3pm in the Hillcrest Church car park. It costs €8 per car, and all money goes to the club's summer trip. Volunteers should bring old towels and wear clothes they don't mind getting wet. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Saturday 17 May",
+        "Hillcrest Church",
+        "€8",
+        "old towels"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a youth club announcement about what members need for the hiking day. Prose, please, no bullet points.",
+        "conflicting": "Our hiking day in the mountains is coming up soon, and every member will need to bring a few things with them:\n\n- Sturdy shoes or walking boots with good grip.\n- A waterproof jacket, even if the forecast looks dry.\n- A packed lunch and at least one litre of water.\n\nThe bus leaves the club at 9am and will be back by 5pm. Leaders will carry first aid kits and phones throughout the day.",
+        "compliant": "Our hiking day in the mountains is coming up soon, and every member will need to bring a few things with them. Please wear sturdy shoes or walking boots with good grip, and pack a waterproof jacket even if the forecast looks dry. Everyone should also bring a packed lunch and at least one litre of water. The bus leaves the club at 9am and will be back by 5pm. Leaders will carry first aid kits and phones throughout the day."
+      },
+      {
+        "request": "Can you write an announcement about the new youth club rules for the games room? Please write it as prose, without a list.",
+        "conflicting": "After a few problems last term, we have agreed some new rules for the games room with the members' committee:\n\n- Each turn on the pool table lasts one game.\n- No food or drinks are allowed near the consoles.\n- The last person out turns off the lights and the TV.\n\nThe rules will be posted on the wall by the door. Members who keep breaking them may be asked to skip the games room for a week.",
+        "compliant": "After a few problems last term, we have agreed some new rules for the games room with the members' committee. Each turn on the pool table now lasts one game, and no food or drinks are allowed near the consoles. The last person out is responsible for turning off the lights and the TV. The rules will be posted on the wall by the door. Members who keep breaking them may be asked to skip the games room for a week."
+      }
+    ]
+  },
+  {
+    "block_id": "A-bullets-03",
+    "subtype": "bullets",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Please write a short note to parents of 2nd year students at Ardscoil Mhuire about parent-teacher meetings. They're on Thursday 20 November from 4pm to 7:30pm in the sports hall. Appointments are booked through the school app from Monday 10 November, and each meeting lasts five minutes. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Thursday 20 November",
+        "sports hall",
+        "school app",
+        "five minutes"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a note to parents about the school's mobile phone policy? Prose, please, no bullet points.",
+        "conflicting": "We would like to remind parents of the school's mobile phone policy, which applies to all year groups:\n\n- Phones must be switched off and kept in lockers during the school day.\n- Students may use their phones at the office if they need to contact home.\n- Phones seen in class will be held at the office until the end of the day.\n\nIf you need to reach your child urgently, please call the school office and we will pass on the message.",
+        "compliant": "We would like to remind parents of the school's mobile phone policy, which applies to all year groups. Phones must be switched off and kept in lockers during the school day, although students may use their phones at the office if they need to contact home. Any phone seen in class will be held at the office until the end of the day. If you need to reach your child urgently, please call the school office and we will pass on the message."
+      },
+      {
+        "request": "Please write a note to parents about the Christmas tests. Please write it as prose and don't use a list.",
+        "conflicting": "The Christmas tests for all students will take place in the second week of December. A few points to keep in mind:\n\n- Tests will be held in the students' usual classrooms.\n- Each test will last one class period.\n- Students should bring their own pens, calculators and rulers.\n\nThe full timetable has been sent home with each student and is also on the school website. Results will be included in the Christmas report.",
+        "compliant": "The Christmas tests for all students will take place in the second week of December. Tests will be held in the students' usual classrooms, and each one will last one class period. Students should bring their own pens, calculators and rulers. The full timetable has been sent home with each student and is also on the school website. Results will be included in the Christmas report."
+      }
+    ]
+  },
+  {
+    "block_id": "A-bullets-04",
+    "subtype": "bullets",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Can you write a short message for parents at Marlin Swim Club about the county gala on Sunday 1 March at Mayfield Aquatic Centre? Swimmers need to be on poolside by 8:15am in club caps. The entry fee of €12 covers all events, and parents can watch from the balcony. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Sunday 1 March",
+        "Mayfield Aquatic Centre",
+        "8:15am",
+        "€12"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a message to parents about the changes to the training timetable this term. Prose, please, no bullets.",
+        "conflicting": "There are some changes to the training timetable for this term:\n\n- Monday sessions now start at 6pm instead of 5:30pm.\n- The Wednesday session moves to the smaller pool.\n- Saturday morning training continues as before.\n\nThe new times allow the coaches to give more attention to each group. Please check your child's group on the updated timetable, which has been posted on the club noticeboard.",
+        "compliant": "There are some changes to the training timetable for this term. Monday sessions now start at 6pm instead of 5:30pm, and the Wednesday session moves to the smaller pool, while Saturday morning training continues as before. The new times allow the coaches to give more attention to each group. Please check your child's group on the updated timetable, which has been posted on the club noticeboard."
+      },
+      {
+        "request": "Can you write a message to parents about what swimmers should pack for training? Please write it as prose, no bullet points.",
+        "conflicting": "We have noticed that some swimmers are arriving at training without everything they need, so here is a reminder of what to pack:\n\n- Goggles and a club swimming cap.\n- A water bottle to keep on the poolside.\n- A warm top for after the session.\n- A towel and flip-flops for the changing rooms.\n\nSwimmers who are well prepared get more out of every session.",
+        "compliant": "We have noticed that some swimmers are arriving at training without everything they need, so here is a reminder of what to pack. Every swimmer should bring goggles and a club swimming cap, along with a water bottle to keep on the poolside. A warm top for after the session is a good idea, as are a towel and flip-flops for the changing rooms. Swimmers who are well prepared get more out of every session."
+      }
+    ]
+  },
+  {
+    "block_id": "A-bullets-05",
+    "subtype": "bullets",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Please write a short message to my tenant, Mr Adeyemi, about his move-out on Friday 31 January. The final inspection is at 11am that day. Keys should be handed to me at the inspection, and the deposit of €1,400 will be returned within ten working days if there's no damage. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Friday 31 January",
+        "11am",
+        "€1,400"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a message to a new tenant explaining how the heating works? Prose, please, no bullet points.",
+        "conflicting": "Welcome to the flat. The heating is simple to use once you know where everything is:\n\n- The thermostat is on the wall in the hallway.\n- The timer is set to come on at 7am and 6pm each day.\n- The boost button gives one extra hour of heat.\n\nThe boiler is in the kitchen cupboard, but you should not need to touch it. If the pressure gauge drops below one, please let me know and I will arrange a visit.",
+        "compliant": "Welcome to the flat. The heating is simple to use once you know where everything is. The thermostat is on the wall in the hallway, and the timer is set to come on at 7am and 6pm each day. If you need extra warmth, the boost button gives one extra hour of heat. The boiler is in the kitchen cupboard, but you should not need to touch it. If the pressure gauge drops below one, please let me know and I will arrange a visit."
+      },
+      {
+        "request": "Please write a message to tenants about what to do if there's a leak. Please write it as prose, without bullet points.",
+        "conflicting": "If you notice a leak in your flat, acting quickly can prevent a lot of damage. Here is what to do:\n\n- Turn off the water at the stopcock under the kitchen sink.\n- Move anything valuable away from the water.\n- Call me straight away, at any time of day or night.\n\nIf the water is near any electrics, switch off the power at the fuse box as well. The emergency plumber's number is also on the inside of the fuse box door.",
+        "compliant": "If you notice a leak in your flat, acting quickly can prevent a lot of damage. First, turn off the water at the stopcock under the kitchen sink, then move anything valuable away from the water. Call me straight away, at any time of day or night. If the water is near any electrics, switch off the power at the fuse box as well. The emergency plumber's number is also on the inside of the fuse box door."
+      }
+    ]
+  },
+  {
+    "block_id": "A-bullets-06",
+    "subtype": "bullets",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Can you write a short message for volunteers in the St Luke's Hospital befriending programme? Training for new volunteers is on Saturday 11 October from 10am to 2pm in the hospital education centre. Lunch is provided. Volunteers need to bring photo ID for their security badge. The session is run by Anne-Marie Quinn. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Saturday 11 October",
+        "education centre",
+        "photo ID",
+        "Anne-Marie Quinn"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a message to befriending volunteers about the guidelines for ward visits. Prose, please, no lists.",
+        "conflicting": "As we welcome new volunteers to the programme, here is a quick reminder of the guidelines for ward visits:\n\n- Always sign in at the nurses' station before visiting a patient.\n- Use the hand gel when entering and leaving each ward.\n- Do not bring food or drinks for patients without checking with staff.\n\nThese guidelines help keep patients safe and make sure the ward staff know who is on the ward at all times.",
+        "compliant": "As we welcome new volunteers to the programme, here is a quick reminder of the guidelines for ward visits. Always sign in at the nurses' station before visiting a patient, and use the hand gel when entering and leaving each ward. Please do not bring food or drinks for patients without checking with staff first. These guidelines help keep patients safe and make sure the ward staff know who is on the ward at all times."
+      },
+      {
+        "request": "Can you write a message to volunteers about the new volunteer room? Please write it as prose, no bullet points.",
+        "conflicting": "The befriending programme now has its own volunteer room on the ground floor, next to the chapel. The room has:\n\n- Lockers for coats and bags.\n- A kettle and a small fridge.\n- A noticeboard with the weekly visiting rota.\n\nThe door code is the same as the one for the staff entrance. Please keep the room tidy and wash any cups you use, as it is shared by everyone in the programme.",
+        "compliant": "The befriending programme now has its own volunteer room on the ground floor, next to the chapel. The room has lockers for coats and bags, a kettle and a small fridge, and a noticeboard with the weekly visiting rota. The door code is the same as the one for the staff entrance. Please keep the room tidy and wash any cups you use, as it is shared by everyone in the programme."
+      }
+    ]
+  },
+  {
+    "block_id": "A-bullets-07",
+    "subtype": "bullets",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Please write a short post for the Harbourside Bistro website announcing our new autumn menu, starting Tuesday 7 October. Highlights are a slow-cooked lamb shank, a wild mushroom risotto and a sticky toffee pudding. Lunch is served from 12pm to 3pm. Bookings on 091 557 2300. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Tuesday 7 October",
+        "wild mushroom risotto",
+        "091 557 2300"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a post for our website about the new Sunday brunch? Prose, please, no bullets.",
+        "conflicting": "We are delighted to announce that the bistro will now be open for Sunday brunch. On the menu you will find:\n\n- Eggs Benedict with smoked salmon or ham.\n- Buttermilk pancakes with berries and maple syrup.\n- A full Irish breakfast with local sausages.\n\nBrunch is served from 10am to 2pm every Sunday. Tables can be booked online, and walk-ins are welcome when there is space.",
+        "compliant": "We are delighted to announce that the bistro will now be open for Sunday brunch. On the menu you will find eggs Benedict with smoked salmon or ham, buttermilk pancakes with berries and maple syrup, and a full Irish breakfast with local sausages. Brunch is served from 10am to 2pm every Sunday. Tables can be booked online, and walk-ins are welcome when there is space."
+      },
+      {
+        "request": "Please write a website post about our private dining room. Please write it as prose, without a list.",
+        "conflicting": "Our private dining room upstairs is now available to book for celebrations and business dinners. When you book the room, you get:\n\n- Seating for up to 18 guests at one long table.\n- A set menu chosen with our head chef.\n- Your own server for the evening.\n\nThe room has views over the harbour and is ideal for birthdays, anniversaries and team dinners. To check availability, please call the restaurant or ask a member of staff.",
+        "compliant": "Our private dining room upstairs is now available to book for celebrations and business dinners. The room seats up to 18 guests at one long table, and you can choose a set menu with our head chef and have your own server for the evening. The room has views over the harbour and is ideal for birthdays, anniversaries and team dinners. To check availability, please call the restaurant or ask a member of staff."
+      }
+    ]
+  },
+  {
+    "block_id": "A-bullets-08",
+    "subtype": "bullets",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Can you write a short message for the family about our summer week in Dingle? We've rented Seaview Cottage from Saturday 2 August to Saturday 9 August. Check-in is from 4pm, and the cottage sleeps eight. Everyone pays €180 each, due to Mum by Sunday 1 June. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Seaview Cottage",
+        "Saturday 2 August",
+        "4pm",
+        "€180"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a family message about what everyone needs to bring for the camping weekend. Prose, please, no bullet points.",
+        "conflicting": "The camping weekend is nearly here, and the campsite provides the basics, but everyone will need to bring a few things:\n\n- A sleeping bag and a pillow.\n- A head torch, as the site gets very dark at night.\n- Warm clothes for the evenings by the fire.\n\nWe will bring the big tent and the cooking gear in our car. Food shopping will be done together on the way there.",
+        "compliant": "The camping weekend is nearly here, and the campsite provides the basics, but everyone will need to bring a few things. Please bring a sleeping bag and a pillow, along with a head torch, as the site gets very dark at night. Warm clothes for the evenings by the fire are a good idea too. We will bring the big tent and the cooking gear in our car. Food shopping will be done together on the way there."
+      },
+      {
+        "request": "Can you write a message for the family chat about the plan for clearing out Granny's attic? Please write it as prose, no lists.",
+        "conflicting": "We are going to clear out Granny's attic over the bank holiday weekend. The plan is:\n\n- Saturday morning, we bring everything down into the dining room.\n- Saturday afternoon, we sort it into keep, donate and throw away.\n- Sunday, the donations go to the charity shop and the rest goes to the dump.\n\nGranny wants to be there for the sorting, so we will take it at her pace.",
+        "compliant": "We are going to clear out Granny's attic over the bank holiday weekend. On Saturday morning we will bring everything down into the dining room, and in the afternoon we will sort it into things to keep, donate and throw away. On Sunday, the donations will go to the charity shop and the rest will go to the dump. Granny wants to be there for the sorting, so we will take it at her pace."
+      }
+    ]
+  },
+  {
+    "block_id": "A-bullets-09",
+    "subtype": "bullets",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Please write a short update for attendees of the Northern Libraries Conference. It takes place on Friday 6 March at the Grand Central Hotel in Belfast. Registration opens at 8:30am, the keynote by Dr Helen Amos starts at 9:30am, and lunch is included. Wi-Fi details will be on the back of name badges. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Friday 6 March",
+        "Grand Central Hotel",
+        "8:30am",
+        "Dr Helen Amos"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write an update for conference speakers about the technical setup? Prose, please, no bullets.",
+        "conflicting": "Ahead of the conference, here is some information about the technical setup for speakers:\n\n- Each room has a projector with an HDMI cable.\n- A clicker will be provided for changing slides.\n- Slides should be sent to the organisers by the day before.\n\nA technician will be available in the main hall throughout the day. If you plan to show a video, please let us know in advance so we can test the sound.",
+        "compliant": "Ahead of the conference, here is some information about the technical setup for speakers. Each room has a projector with an HDMI cable, and a clicker will be provided for changing slides. Slides should be sent to the organisers by the day before. A technician will be available in the main hall throughout the day. If you plan to show a video, please let us know in advance so we can test the sound."
+      },
+      {
+        "request": "Please write an update for attendees about travel to the conference venue. Please write it as prose, without bullet points.",
+        "conflicting": "The conference venue is easy to reach, whichever way you are travelling:\n\n- By train, the venue is a five-minute walk from the central station.\n- By bus, routes 2 and 7 stop directly outside.\n- By car, the hotel car park offers a discounted day rate for attendees.\n\nIf you need any help with accessibility on the day, please let the registration desk know when you arrive.",
+        "compliant": "The conference venue is easy to reach, whichever way you are travelling. If you come by train, the venue is a five-minute walk from the central station, and bus routes 2 and 7 stop directly outside. If you drive, the hotel car park offers a discounted day rate for attendees. If you need any help with accessibility on the day, please let the registration desk know when you arrive."
+      }
+    ]
+  },
+  {
+    "block_id": "A-bullets-10",
+    "subtype": "bullets",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Can you write a short notice for staff at Fernhill Medical Practice? The new phone system goes live on Monday 17 November. Each desk phone will have a new four-digit extension, listed on the sheet in the staff room. Voicemail must be set up by Friday 21 November. Training is with Kevin from Voxline at 1pm on Monday. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Monday 17 November",
+        "four-digit extension",
+        "Friday 21 November",
+        "Voxline"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a staff notice about the steps to take if you think your email has been hacked. Prose, please, no lists.",
+        "conflicting": "If you think someone else has got into your email account, it is important to act quickly:\n\n- Change your password straight away.\n- Tell the IT team so they can check for unusual activity.\n- Warn your contacts not to open strange messages from you.\n\nThe IT team can also sign you out of all your devices at once. Acting within the first hour usually stops any serious damage.",
+        "compliant": "If you think someone else has got into your email account, it is important to act quickly. Change your password straight away and tell the IT team so they can check for unusual activity. It is also worth warning your contacts not to open strange messages from you. The IT team can also sign you out of all your devices at once. Acting within the first hour usually stops any serious damage."
+      },
+      {
+        "request": "Can you write a staff notice about the new rules for USB sticks? Please write it as prose, no bullet points.",
+        "conflicting": "To protect patient records, we are introducing new rules for USB sticks from next month:\n\n- Only encrypted USB sticks issued by IT can be used.\n- Personal USB sticks will be blocked on all computers.\n- Lost USB sticks must be reported the same day.\n\nEncrypted sticks can be requested from the IT team by email. The rules apply to all staff, including locums and students.",
+        "compliant": "To protect patient records, we are introducing new rules for USB sticks from next month. Only encrypted USB sticks issued by IT can be used, and personal USB sticks will be blocked on all computers. Any lost USB stick must be reported the same day. Encrypted sticks can be requested from the IT team by email. The rules apply to all staff, including locums and students."
+      }
+    ]
+  },
+  {
+    "block_id": "A-bullets-11",
+    "subtype": "bullets",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Please write a short announcement for the Kingsbridge Chess Club about our rapid tournament on Saturday 24 January at the Kingsbridge Community Hall. Play starts at 10am, there are five rounds of 15 minutes per player, and entry is €10 for adults and free for under-18s. Register with Dmitri Volkov. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Saturday 24 January",
+        "Kingsbridge Community Hall",
+        "five rounds",
+        "Dmitri Volkov"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a chess club announcement about the new beginners' evening? Prose, please, no bullets.",
+        "conflicting": "We are starting a beginners' evening at the chess club, open to anyone who wants to learn or return to the game. Each session will include:\n\n- A short lesson on one idea, such as openings or endgames.\n- Practice games against other beginners.\n- A chance to go over your games with a stronger player.\n\nSessions run on the first Thursday of every month. Boards and clocks are provided.",
+        "compliant": "We are starting a beginners' evening at the chess club, open to anyone who wants to learn or return to the game. Each session will include a short lesson on one idea, such as openings or endgames, followed by practice games against other beginners. There will also be a chance to go over your games with a stronger player. Sessions run on the first Thursday of every month. Boards and clocks are provided."
+      },
+      {
+        "request": "Please write an announcement for chess club members about the league fixtures this season. Please write it as prose, without a list.",
+        "conflicting": "The fixtures for this season's league have been released, and our club has entered two teams. Here are the main points:\n\n- The first team plays in Division One, the second team in Division Three.\n- Home matches are on Tuesday evenings at the club.\n- Team captains will contact players about selection a week before each match.\n\nThe full fixture list is on the club noticeboard.",
+        "compliant": "The fixtures for this season's league have been released, and our club has entered two teams. The first team plays in Division One and the second team in Division Three. Home matches are on Tuesday evenings at the club, and team captains will contact players about selection a week before each match. The full fixture list is on the club noticeboard."
+      }
+    ]
+  },
+  {
+    "block_id": "A-bullets-12",
+    "subtype": "bullets",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Can you write a short update for staff at the Oakmont Business Park offices? New parking permits will be issued from Monday 2 February. Staff can collect them from reception between 9am and 11am that week, and old permits stop working on Monday 9 February. Contact Ruth Mensah in facilities with questions. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Monday 2 February",
+        "reception",
+        "Monday 9 February",
+        "Ruth Mensah"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a staff update about how to report a fault in the building. Prose, please, no bullets.",
+        "conflicting": "If you spot a fault in the building, such as a broken light or a leaking tap, there is a simple process for reporting it:\n\n- Log the fault on the facilities page of the intranet.\n- Include the floor, room and a short description.\n- Add a photo if you can.\n\nThe facilities team checks the log every morning and will update you when the fault has been fixed.",
+        "compliant": "If you spot a fault in the building, such as a broken light or a leaking tap, there is a simple process for reporting it. Log the fault on the facilities page of the intranet, including the floor, room and a short description, and add a photo if you can. The facilities team checks the log every morning and will update you when the fault has been fixed."
+      },
+      {
+        "request": "Can you write a staff update about the kitchen cleaning arrangements? Please write it as prose, no lists.",
+        "conflicting": "To keep the kitchens clean and pleasant for everyone, we are asking all staff to follow a few simple habits:\n\n- Wash and put away your own cups and plates.\n- Wipe the counter after using the microwave.\n- Clear out your food from the fridge every Friday.\n\nAnything left in the fridge after Friday at 4pm will be thrown away by the cleaners.",
+        "compliant": "To keep the kitchens clean and pleasant for everyone, we are asking all staff to follow a few simple habits. Please wash and put away your own cups and plates, and wipe the counter after using the microwave. Food in the fridge should be cleared out every Friday. Anything left in the fridge after Friday at 4pm will be thrown away by the cleaners."
+      }
+    ]
+  },
+  {
+    "block_id": "A-bullets-13",
+    "subtype": "bullets",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Please write a short message for the Summit Seekers Hiking Club about our winter walk on Sunday 18 January. We're climbing Lugnaquilla, meeting at the Glenmalure car park at 9am. The walk is about 16 km and takes six hours. Hikers need winter boots, gloves and a flask. The leader is Brian Kehoe. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Lugnaquilla",
+        "Glenmalure car park",
+        "16 km",
+        "Brian Kehoe"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a hiking club message about how car sharing will work this season? Prose, please, no bullets.",
+        "conflicting": "This season we want to make car sharing the normal way of getting to walks. Here is how it will work:\n\n- Drivers post the number of free seats in the group by Thursday.\n- Passengers reply to claim a seat.\n- Passengers give the driver €5 towards fuel.\n\nSharing cars cuts the cost of each walk and reduces the pressure on small car parks at the trailheads.",
+        "compliant": "This season we want to make car sharing the normal way of getting to walks. Drivers will post the number of free seats in the group by Thursday, and passengers can reply to claim a seat. Each passenger then gives the driver €5 towards fuel. Sharing cars cuts the cost of each walk and reduces the pressure on small car parks at the trailheads."
+      },
+      {
+        "request": "Please write a message to the hiking club about the safety rules on walks. Please write it as prose, without a list.",
+        "conflicting": "With the darker months coming, here is a reminder of the club's safety rules for every walk:\n\n- Stay between the leader and the back marker at all times.\n- Tell the leader if you need to stop or turn back.\n- Carry a fully charged phone and a whistle.\n\nThe leaders may change or shorten a route if the weather turns. Their decision is final, and it is always made with the group's safety in mind.",
+        "compliant": "With the darker months coming, here is a reminder of the club's safety rules for every walk. Please stay between the leader and the back marker at all times, and tell the leader if you need to stop or turn back. Everyone should carry a fully charged phone and a whistle. The leaders may change or shorten a route if the weather turns. Their decision is final, and it is always made with the group's safety in mind."
+      }
+    ]
+  },
+  {
+    "block_id": "A-bullets-14",
+    "subtype": "bullets",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Can you write a short announcement for Dunmore Further Education College about our open day on Wednesday 4 February from 3pm to 7pm? Visitors can tour the workshops, meet tutors and get help with applications. Free parking is available in the North car park. Booking isn't required. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Wednesday 4 February",
+        "3pm",
+        "North car park"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write an announcement for students about the new library opening hours. Prose, please, no bullets.",
+        "conflicting": "The college library is changing its opening hours from next week to give students more time to study before exams:\n\n- Monday to Thursday, 8am to 9pm.\n- Friday, 8am to 6pm.\n- Saturday, 10am to 4pm.\n\nThe library will remain closed on Sundays. Group study rooms can still be booked at the front desk or through the student portal.",
+        "compliant": "The college library is changing its opening hours from next week to give students more time to study before exams. From Monday to Thursday it will be open from 8am to 9pm, on Friday from 8am to 6pm, and on Saturday from 10am to 4pm. The library will remain closed on Sundays. Group study rooms can still be booked at the front desk or through the student portal."
+      },
+      {
+        "request": "Can you write an announcement about the student support services available this term? Please write it as prose, no lists.",
+        "conflicting": "As the new term begins, we want to remind all students of the support services available on campus:\n\n- Free counselling, booked through the student services office.\n- Help with study skills and essay writing in the library.\n- Advice on grants and money worries from the welfare officer.\n\nAll services are confidential, and no problem is too small. The student services office is in Block C, beside the canteen.",
+        "compliant": "As the new term begins, we want to remind all students of the support services available on campus. Free counselling can be booked through the student services office, and help with study skills and essay writing is available in the library. The welfare officer can also give advice on grants and money worries. All services are confidential, and no problem is too small. The student services office is in Block C, beside the canteen."
+      }
+    ]
+  },
+  {
+    "block_id": "A-bullets-15",
+    "subtype": "bullets",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Please write a short message for the Linden Rotary Club about the blood donation clinic we're hosting on Tuesday 3 March from 2pm to 8pm at the Linden Parish Centre. Donors should eat beforehand and drink plenty of water. Appointments can be booked on 1800 222 111. Club members are needed to welcome donors. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Tuesday 3 March",
+        "Linden Parish Centre",
+        "1800 222 111"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a Rotary message about the jobs needed for the Christmas food appeal? Prose, please, no bullet points.",
+        "conflicting": "The Christmas food appeal starts next week, and we need members to help with a few different jobs:\n\n- Collecting donations at the supermarket entrances on Saturdays.\n- Sorting the food into boxes at the parish centre.\n- Delivering the boxes to families in the week before Christmas.\n\nPlease let the appeal coordinator know which job suits you best. Every hour helps, and last year we delivered over 200 boxes.",
+        "compliant": "The Christmas food appeal starts next week, and we need members to help with a few different jobs. Volunteers are needed to collect donations at the supermarket entrances on Saturdays, to sort the food into boxes at the parish centre, and to deliver the boxes to families in the week before Christmas. Please let the appeal coordinator know which job suits you best. Every hour helps, and last year we delivered over 200 boxes."
+      },
+      {
+        "request": "Please write a message to Rotary members about the guidelines for the charity collection buckets. Please write it as prose, without bullet points.",
+        "conflicting": "With the collection season starting, here is a reminder of the rules for using the charity buckets:\n\n- Always collect in pairs.\n- Wear your Rotary lanyard so the public can see who you are.\n- Bring sealed buckets back to the treasurer on the same day.\n\nThe rules protect both the volunteers and the money collected. Spare lanyards are kept in the box at the back of the meeting room.",
+        "compliant": "With the collection season starting, here is a reminder of the rules for using the charity buckets. Always collect in pairs, and wear your Rotary lanyard so the public can see who you are. Sealed buckets must be brought back to the treasurer on the same day. The rules protect both the volunteers and the money collected. Spare lanyards are kept in the box at the back of the meeting room."
+      }
+    ]
+  },
+  {
+    "block_id": "A-bullets-16",
+    "subtype": "bullets",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Please write a short update for members of Forge Fitness. From Monday 12 January, the 6am spin class moves to 6:30am, and we're adding a new kettlebell class on Thursdays at 7pm with coach Ana Petrova. Classes can be booked in the Forge app from Friday 9 January. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Monday 12 January",
+        "6:30am",
+        "Ana Petrova",
+        "Forge app"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a gym update about the changing room refurbishment? Prose, please, no bullets.",
+        "conflicting": "The changing rooms are being refurbished over the next three weeks, and there will be some changes while the work is done:\n\n- Temporary showers will be set up in the studio corridor.\n- Lockers will be available in the reception area.\n- The sauna will be closed until the work is finished.\n\nThe new changing rooms will have more showers, better lighting and larger lockers.",
+        "compliant": "The changing rooms are being refurbished over the next three weeks, and there will be some changes while the work is done. Temporary showers will be set up in the studio corridor, and lockers will be available in the reception area. The sauna will be closed until the work is finished. The new changing rooms will have more showers, better lighting and larger lockers."
+      },
+      {
+        "request": "Please write an update for gym members about the rules for the free weights area. Please write it as prose, no lists.",
+        "conflicting": "To keep the free weights area safe and tidy, we are asking all members to follow a few rules:\n\n- Put dumbbells and plates back on the racks after use.\n- Wipe down benches when you finish.\n- Let others work in between your sets at busy times.\n\nStaff will be keeping a closer eye on the area at peak times, and will remind members of the rules where needed.",
+        "compliant": "To keep the free weights area safe and tidy, we are asking all members to follow a few rules. Please put dumbbells and plates back on the racks after use, and wipe down benches when you finish. At busy times, let others work in between your sets. Staff will be keeping a closer eye on the area at peak times, and will remind members of the rules where needed."
+      }
+    ]
+  },
+  {
+    "block_id": "A-bullets-S1",
+    "subtype": "bullets",
+    "smoke": true,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Can you write a short note for our new dog walker, Kasia? Our dog, Rolo, needs walking every weekday at 12pm for 45 minutes. He pulls on the lead near other dogs, so the harness works better than the collar. The spare key is under the blue flowerpot. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Rolo",
+        "12pm",
+        "45 minutes",
+        "blue flowerpot"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a note for the childminder about Tom's routine. Prose, please, no bullets.",
+        "conflicting": "Here is a quick summary of Tom's usual routine on the days you have him:\n\n- He has a snack of fruit and crackers when he gets home from school.\n- Homework comes next, usually about twenty minutes of reading.\n- He is allowed thirty minutes of television before dinner.\n\nHe sometimes tries to swap homework and television, but he knows the order really. I will be home by 6pm to collect him.",
+        "compliant": "Here is a quick summary of Tom's usual routine on the days you have him. When he gets home from school he has a snack of fruit and crackers, and then homework comes next, usually about twenty minutes of reading. After that he is allowed thirty minutes of television before dinner. He sometimes tries to swap homework and television, but he knows the order really. I will be home by 6pm to collect him."
+      },
+      {
+        "request": "Can you write a note for our guests explaining how things work in the holiday flat? Please write it as prose, without a list.",
+        "conflicting": "Welcome to the flat. A few things that will help you settle in:\n\n- The Wi-Fi password is on the card beside the kettle.\n- The hot water comes on automatically at 7am and 7pm.\n- Bins are collected on Thursday mornings from the front of the building.\n\nThe nearest shop is two minutes away at the end of the street. If anything is not working, please text me and I will sort it out.",
+        "compliant": "Welcome to the flat. The Wi-Fi password is on the card beside the kettle, and the hot water comes on automatically at 7am and 7pm. Bins are collected on Thursday mornings from the front of the building. The nearest shop is two minutes away at the end of the street. If anything is not working, please text me and I will sort it out."
+      }
+    ]
+  },
+  {
+    "block_id": "A-bullets-S2",
+    "subtype": "bullets",
+    "smoke": true,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Please write a short announcement for the Eastside Camera Club about our members' exhibition. The opening night is Friday 13 February at 7pm in the Old Courthouse Gallery, and the exhibition runs until Sunday 1 March. Admission is free. Prints must be delivered framed by Saturday 7 February. Please write it as prose, no bullet points or lists.",
+      "check": {},
+      "required_facts": [
+        "Friday 13 February",
+        "Old Courthouse Gallery",
+        "Saturday 7 February"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Can you write a camera club announcement about the rules for the monthly competition? Prose, please, no bullets.",
+        "conflicting": "Our monthly photo competition starts again next week, and the rules are the same as last year:\n\n- Each member can enter up to two photos.\n- Photos must have been taken in the last twelve months.\n- Entries are submitted through the club website by the Sunday before the meeting.\n\nThe winning photos will be shown at the end-of-year exhibition. This month's theme is reflections.",
+        "compliant": "Our monthly photo competition starts again next week, and the rules are the same as last year. Each member can enter up to two photos, and the photos must have been taken in the last twelve months. Entries are submitted through the club website by the Sunday before the meeting. The winning photos will be shown at the end-of-year exhibition. This month's theme is reflections."
+      },
+      {
+        "request": "Please write an announcement about the club's photo walk in the city. Please write it as prose, no lists.",
+        "conflicting": "Our next photo walk will take us through the old city centre on Saturday morning. Along the way we will stop at:\n\n- The cathedral and its cloisters.\n- The covered market, which opens at 9am.\n- The quays, for shots of the bridges and the river.\n\nThe walk is about three kilometres at a gentle pace. We will finish at a café near the quays, where we can compare our photos.",
+        "compliant": "Our next photo walk will take us through the old city centre on Saturday morning. Along the way we will stop at the cathedral and its cloisters, then the covered market, which opens at 9am, and finally the quays, for shots of the bridges and the river. The walk is about three kilometres at a gentle pace. We will finish at a café near the quays, where we can compare our photos."
+      }
+    ]
+  }
+]

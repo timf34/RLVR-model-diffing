@@ -1,0 +1,99 @@
+{
+  "sha256": "a90b35cef432925a6e3924628f6382de903902f667daff6fd954709341b1bda4",
+  "label": "EXPLORATORY records vs prose (analysis plan frozen before generation)",
+  "at": "2026-10-29T02:13:16+00:00",
+  "samples": 3,
+  "total": 1944,
+  "gaps": [
+    -0.5,
+    0.0,
+    0.05,
+    0.5
+  ],
+  "framings": [
+    "chat",
+    "episode",
+    "bundle"
+  ],
+  "formats": [
+    "prose",
+    "records"
+  ],
+  "models": [
+    "Qwen 3.5",
+    "Qwen 3.8"
+  ],
+  "concurrency_per_model": 32,
+  "budget_usd": 60.0,
+  "price_per_token": {
+    "Qwen 3.5": [
+      3e-07,
+      2.4e-06
+    ],
+    "Qwen 3.8": [
+      1.5e-07,
+      1.875e-06
+    ]
+  },
+  "plan_sha256": "99eaea61d25a21391e5ee44baadcacfb759e1e1ef75db74b56b11bafce3e0172",
+  "code_sha256": {
+    "rec_records_materials.py": "4561585a11b779bb2d9dd0ff47b2ede103b598ece72a502d47e0cbfa500fb69e",
+    "copying.py": "fa4d36377f173e7cb976d1a6f4293a32281924b9f4de560fa2ddb4527f702599",
+    "rr_analysis.py": "e2c57d49c65c076d3d74e0ba8597c5c9e388afe1ed8730c360fc0a0197881630",
+    "simulate.py": "19488e616c994723b2c097ec1034c83c1feaffbd3f75cda7f8a00b30b0a9a128",
+    "run_records.py": "15dc723d16d345b324cb3c74cadca9da344d4bc13883227b6182d6b90196336d",
+    "ANALYSIS_PLAN.md": "99eaea61d25a21391e5ee44baadcacfb759e1e1ef75db74b56b11bafce3e0172",
+    "simulation/CALIBRATION.md": "d20245c24a04c20d129a060dd048ad17f6ffbedbc2f929e8e84988459a61d81d",
+    "recommendation/rec_materials.py": "a8021ad7fcb411dc9f85e232b6b61b045e2c3797e4909dce3fdd2b430eee50dc",
+    "recommendation/rec_score.py": "2076e366a1196153c6c195f8b62bb512068a6a06fc0d1bf2dca2f7aa590dbb30",
+    "recommendation/run_rec.py": "dee03ae6f978ec91cbe25f3d0ca57ed9260613da1f47cd193cf2b791ebf2211d",
+    "recommendation/gap_materials.py": "cd8a819fb4becbd48712bf97878ccdef46aa9b085460a826fa3553919bc1ce79",
+    "rl_context/run_pilot.py": "b94044aaf68bd691e98bebc4b90ef90e14350de98b5be10f4934932d3146902b",
+    "rl_context/run_confirm.py": "47c424643b25235267ba365b650f8e40ac32a49e3aafde1b58ec0ddb2f68fac9",
+    "rl_context/score.py": "5a2b5f0ecf366370e9ce3b1508d1e88bf4f44aa52289ad796e2f40ebcc0d7b02"
+  },
+  "serving": {
+    "targets": [
+      {
+        "label": "Qwen 3.5",
+        "model": "openrouter/qwen/qwen3.5-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "novita/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.8",
+        "model": "openrouter/qwen/qwen3.8-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "deepinfra/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 32768,
+    "timeout": 1200
+  },
+  "serving_notes": {
+    "Qwen 3.5": "novita/bf16; default thinking (no reasoning_effort parameter on any 3.5 host)",
+    "Qwen 3.8": "deepinfra/bf16; reasoning_effort=medium"
+  }
+}

@@ -1,0 +1,77 @@
+{
+ "workstream": "C: IFEval framing x grader evidence",
+ "updated": "2026-10-29T05:34:46+00:00",
+ "ledger_total_usd": 31.7919,
+ "experiments": {
+  "smoke": {
+   "stage": "done-unfrozen",
+   "run_id": null,
+   "processes": [],
+   "first_response": "2026-10-29T03:04:31+00:00",
+   "latest_response": "2026-10-29T03:04:49+00:00",
+   "planned": 48,
+   "completed": 48,
+   "failed_unresolved": 0,
+   "attempts": 48,
+   "spend_usd": 0.0228,
+   "rate_per_min": null,
+   "eta_utc": null
+  },
+  "dev": {
+   "stage": "analysed",
+   "run_id": null,
+   "processes": [],
+   "first_response": "2026-10-29T03:05:13+00:00",
+   "latest_response": "2026-10-29T03:07:31+00:00",
+   "planned": 320,
+   "completed": 320,
+   "failed_unresolved": 0,
+   "attempts": 320,
+   "spend_usd": 0.1334,
+   "rate_per_min": 139.1,
+   "eta_utc": null
+  },
+  "main": {
+   "stage": "analysed",
+   "run_id": "4d440a8cbfa1",
+   "processes": [],
+   "first_response": "2026-10-29T03:10:43+00:00",
+   "latest_response": "2026-10-29T04:43:10+00:00",
+   "planned": 16128,
+   "completed": 16128,
+   "failed_unresolved": 0,
+   "attempts": 16128,
+   "spend_usd": 7.7438,
+   "rate_per_min": 174.5,
+   "eta_utc": null
+  },
+  "applicability": {
+   "stage": "analysed",
+   "run_id": "371a88c4c588",
+   "processes": [],
+   "first_response": "2026-10-29T05:08:25+00:00",
+   "latest_response": "2026-10-29T05:16:17+00:00",
+   "planned": 2592,
+   "completed": 2592,
+   "failed_unresolved": 0,
+   "attempts": 2592,
+   "spend_usd": 1.2996,
+   "rate_per_min": 329.5,
+   "eta_utc": null
+  },
+  "discovery": {
+   "stage": "analysed",
+   "run_id": "33b6f2f1c5da",
+   "processes": [],
+   "first_response": "2026-10-29T05:20:18+00:00",
+   "latest_response": "2026-10-29T05:31:45+00:00",
+   "planned": 576,
+   "completed": 576,
+   "failed_unresolved": 0,
+   "attempts": 576,
+   "spend_usd": 0.2561,
+   "rate_per_min": 50.3,
+   "eta_utc": null
+  }
+ }
+}

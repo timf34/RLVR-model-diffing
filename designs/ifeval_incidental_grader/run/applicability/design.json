@@ -1,0 +1,9 @@
+{
+  "retained_subtypes": [
+    "keyword",
+    "json",
+    "lowercase"
+  ],
+  "blocks_per_subtype": 24,
+  "note": "10B; all three eligible"
+}

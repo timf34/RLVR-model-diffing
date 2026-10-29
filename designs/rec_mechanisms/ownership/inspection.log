@@ -1,0 +1,13 @@
+generate: 15 to do, 0 already done
+generate: 15 to do, 0 already done
+judge: 0 to do, 0 done
+manip coding: 10 to do
+/Users/timf34/Documents/VSCode/model-diffing-agent/designs/rec_mechanisms/ownership/run_own.py:205: RuntimeWarning: Mean of empty slice
+  estimate=float(np.nanmean(c)), ci=A.boot_ci(c),
+/Users/timf34/Documents/VSCode/model-diffing-agent/designs/rec_mechanisms/ownership/own_analysis.py:47: RuntimeWarning: Mean of empty slice
+  m = c[rng.integers(0, len(c), (reps, len(c)))].mean(1)
+/Users/timf34/Documents/VSCode/model-diffing-agent/.venv/lib/python3.12/site-packages/numpy/_core/_methods.py:134: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+Wrote /Users/timf34/Documents/VSCode/model-diffing-agent/designs/rec_mechanisms/ownership/inspection/REPORT_auto.md
+Wrote /Users/timf34/Documents/VSCode/model-diffing-agent/designs/rec_mechanisms/ownership/figure/inspection.png
+memguard: peak 0.3 GB (limit 3 GB)

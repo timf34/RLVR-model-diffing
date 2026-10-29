@@ -1,0 +1,5762 @@
+[
+{
+"key": "discovery|keyword-discovery-01|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-01",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-01|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-01",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-01|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-01",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-01|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-01",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-01|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-01",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-01|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-01",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-01|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-01",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-01|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-01",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-01|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-01",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-01|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-01",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-01|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-01",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-01|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-01",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-02|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-02",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-02|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-02",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-02|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-02",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-02|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-02",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-02|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-02",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-02|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-02",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-02|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-02",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-02|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-02",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-02|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-02",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-02|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-02",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-02|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-02",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-02|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-02",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-03|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-03",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-03|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-03",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-03|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-03",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-03|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-03",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-03|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-03",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-03|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-03",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-03|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-03",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-03|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-03",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-03|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-03",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-03|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-03",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-03|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-03",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-03|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-03",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-04|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-04",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-04|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-04",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-04|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-04",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-04|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-04",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-04|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-04",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-04|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-04",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-04|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-04",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-04|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-04",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-04|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-04",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-04|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-04",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-04|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-04",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-04|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-04",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-05|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-05",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-05|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-05",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-05|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-05",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-05|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-05",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-05|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-05",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-05|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-05",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-05|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-05",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-05|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-05",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-05|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-05",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-05|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-05",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-05|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-05",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-05|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-05",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-06|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-06",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-06|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-06",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-06|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-06",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-06|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-06",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-06|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-06",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-06|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-06",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-06|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-06",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-06|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-06",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-06|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-06",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-06|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-06",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-06|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-06",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-06|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-06",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-07|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-07",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-07|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-07",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-07|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-07",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-07|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-07",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-07|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-07",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-07|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-07",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-07|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-07",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-07|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-07",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-07|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-07",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-07|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-07",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-07|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-07",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-07|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-07",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-08|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-08",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-08|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-08",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-08|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-08",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-08|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-08",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-08|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-08",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-08|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-08",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-08|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-08",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-08|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-08",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-08|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-08",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-08|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-08",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-08|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-08",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-08|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-08",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-09|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-09",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-09|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-09",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-09|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-09",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-09|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-09",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-09|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-09",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-09|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-09",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-09|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-09",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-09|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-09",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-09|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-09",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-09|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-09",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-09|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-09",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-09|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-09",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-10|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-10",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-10|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-10",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-10|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-10",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-10|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-10",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-10|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-10",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-10|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-10",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-10|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-10",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-10|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-10",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-10|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-10",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-10|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-10",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-10|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-10",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-10|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-10",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-11|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-11",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-11|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-11",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-11|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-11",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-11|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-11",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-11|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-11",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-11|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-11",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-11|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-11",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-11|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-11",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-11|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-11",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-11|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-11",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-11|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-11",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-11|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-11",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-12|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-12",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-12|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-12",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-12|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-12",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-12|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-12",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-12|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-12",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-12|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-12",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-12|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-12",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-12|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-12",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-12|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-12",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-12|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-12",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-12|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-12",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-12|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-12",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-13|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-13",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-13|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-13",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-13|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-13",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-13|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-13",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-13|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-13",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-13|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-13",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-13|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-13",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-13|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-13",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-13|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-13",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-13|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-13",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-13|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-13",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-13|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-13",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-14|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-14",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-14|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-14",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-14|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-14",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-14|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-14",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-14|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-14",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-14|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-14",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-14|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-14",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-14|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-14",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-14|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-14",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-14|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-14",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-14|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-14",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-14|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-14",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-15|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-15",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-15|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-15",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-15|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-15",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-15|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-15",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-15|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-15",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-15|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-15",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-15|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-15",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-15|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-15",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-15|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-15",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-15|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-15",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-15|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-15",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-15|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-15",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-16|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-16",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-16|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-16",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-16|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-16",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-16|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-16",
+"subtype": "keyword",
+"family": "content",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-16|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-16",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-16|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-16",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-16|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-16",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-16|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-16",
+"subtype": "keyword",
+"family": "content",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-16|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-16",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-16|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-16",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|keyword-discovery-16|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "keyword-discovery-16",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|keyword-discovery-16|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "keyword-discovery-16",
+"subtype": "keyword",
+"family": "content",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-01|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-01",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-01|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-01",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-01|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-01",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-01|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-01",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-01|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-01",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-01|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-01",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-01|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-01",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-01|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-01",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-01|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-01",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-01|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-01",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-01|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-01",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-01|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-01",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-02|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-02",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-02|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-02",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-02|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-02",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-02|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-02",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-02|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-02",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-02|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-02",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-02|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-02",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-02|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-02",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-02|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-02",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-02|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-02",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-02|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-02",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-02|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-02",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-03|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-03",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-03|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-03",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-03|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-03",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-03|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-03",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-03|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-03",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-03|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-03",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-03|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-03",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-03|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-03",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-03|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-03",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-03|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-03",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-03|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-03",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-03|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-03",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-04|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-04",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-04|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-04",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-04|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-04",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-04|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-04",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-04|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-04",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-04|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-04",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-04|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-04",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-04|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-04",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-04|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-04",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-04|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-04",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-04|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-04",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-04|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-04",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-05|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-05",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-05|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-05",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-05|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-05",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-05|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-05",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-05|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-05",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-05|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-05",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-05|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-05",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-05|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-05",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-05|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-05",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-05|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-05",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-05|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-05",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-05|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-05",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-06|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-06",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-06|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-06",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-06|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-06",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-06|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-06",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-06|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-06",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-06|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-06",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-06|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-06",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-06|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-06",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-06|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-06",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-06|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-06",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-06|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-06",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-06|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-06",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-07|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-07",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-07|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-07",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-07|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-07",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-07|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-07",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-07|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-07",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-07|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-07",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-07|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-07",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-07|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-07",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-07|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-07",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-07|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-07",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-07|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-07",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-07|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-07",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-08|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-08",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-08|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-08",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-08|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-08",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-08|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-08",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-08|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-08",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-08|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-08",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-08|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-08",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-08|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-08",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-08|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-08",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-08|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-08",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-08|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-08",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-08|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-08",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-09|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-09",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-09|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-09",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-09|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-09",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-09|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-09",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-09|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-09",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-09|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-09",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-09|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-09",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-09|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-09",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-09|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-09",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-09|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-09",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-09|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-09",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-09|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-09",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-10|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-10",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-10|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-10",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-10|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-10",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-10|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-10",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-10|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-10",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-10|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-10",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-10|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-10",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-10|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-10",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-10|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-10",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-10|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-10",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-10|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-10",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-10|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-10",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-11|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-11",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-11|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-11",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-11|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-11",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-11|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-11",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-11|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-11",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-11|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-11",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-11|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-11",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-11|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-11",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-11|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-11",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-11|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-11",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-11|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-11",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-11|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-11",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-12|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-12",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-12|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-12",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-12|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-12",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-12|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-12",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-12|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-12",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-12|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-12",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-12|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-12",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-12|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-12",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-12|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-12",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-12|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-12",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-12|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-12",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-12|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-12",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-13|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-13",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-13|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-13",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-13|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-13",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-13|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-13",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-13|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-13",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-13|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-13",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-13|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-13",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-13|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-13",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-13|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-13",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-13|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-13",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-13|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-13",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-13|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-13",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-14|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-14",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-14|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-14",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-14|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-14",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-14|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-14",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-14|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-14",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-14|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-14",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-14|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-14",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-14|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-14",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-14|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-14",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-14|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-14",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-14|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-14",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-14|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-14",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-15|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-15",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-15|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-15",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-15|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-15",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-15|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-15",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-15|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-15",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-15|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-15",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-15|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-15",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-15|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-15",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-15|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-15",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-15|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-15",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-15|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-15",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-15|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-15",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-16|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-16",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-16|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-16",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-16|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-16",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-16|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-16",
+"subtype": "json",
+"family": "structure",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-16|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-16",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-16|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-16",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-16|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-16",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-16|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-16",
+"subtype": "json",
+"family": "structure",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-16|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-16",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-16|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-16",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|json-discovery-16|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "json-discovery-16",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|json-discovery-16|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "json-discovery-16",
+"subtype": "json",
+"family": "structure",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-01|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-01",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-01|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-01",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-01|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-01",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-01|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-01",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-01|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-01",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-01|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-01",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-01|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-01",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-01|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-01",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-01|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-01",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-01|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-01",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-01|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-01",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-01|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-01",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-02|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-02",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-02|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-02",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-02|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-02",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-02|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-02",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-02|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-02",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-02|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-02",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-02|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-02",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-02|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-02",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-02|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-02",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-02|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-02",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-02|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-02",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-02|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-02",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-03|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-03",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-03|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-03",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-03|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-03",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-03|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-03",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-03|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-03",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-03|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-03",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-03|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-03",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-03|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-03",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-03|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-03",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-03|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-03",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-03|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-03",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-03|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-03",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-04|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-04",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-04|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-04",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-04|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-04",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-04|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-04",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-04|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-04",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-04|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-04",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-04|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-04",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-04|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-04",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-04|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-04",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-04|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-04",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-04|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-04",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-04|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-04",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-05|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-05",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-05|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-05",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-05|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-05",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-05|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-05",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-05|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-05",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-05|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-05",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-05|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-05",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-05|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-05",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-05|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-05",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-05|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-05",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-05|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-05",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-05|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-05",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-06|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-06",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-06|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-06",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-06|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-06",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-06|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-06",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-06|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-06",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-06|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-06",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-06|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-06",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-06|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-06",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-06|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-06",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-06|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-06",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-06|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-06",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-06|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-06",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-07|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-07",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-07|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-07",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-07|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-07",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-07|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-07",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-07|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-07",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-07|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-07",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-07|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-07",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-07|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-07",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-07|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-07",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-07|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-07",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-07|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-07",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-07|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-07",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-08|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-08",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-08|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-08",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-08|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-08",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-08|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-08",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-08|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-08",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-08|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-08",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-08|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-08",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-08|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-08",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-08|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-08",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-08|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-08",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-08|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-08",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-08|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-08",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-09|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-09",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-09|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-09",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-09|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-09",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-09|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-09",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-09|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-09",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-09|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-09",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-09|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-09",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-09|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-09",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-09|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-09",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-09|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-09",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-09|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-09",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-09|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-09",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-10|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-10",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-10|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-10",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-10|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-10",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-10|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-10",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-10|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-10",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-10|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-10",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-10|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-10",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-10|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-10",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-10|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-10",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-10|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-10",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-10|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-10",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-10|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-10",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-11|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-11",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-11|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-11",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-11|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-11",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-11|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-11",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-11|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-11",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-11|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-11",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-11|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-11",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-11|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-11",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-11|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-11",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-11|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-11",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-11|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-11",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-11|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-11",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-12|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-12",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-12|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-12",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-12|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-12",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-12|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-12",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-12|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-12",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-12|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-12",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-12|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-12",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-12|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-12",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-12|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-12",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-12|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-12",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-12|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-12",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-12|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-12",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-13|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-13",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-13|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-13",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-13|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-13",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-13|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-13",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-13|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-13",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-13|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-13",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-13|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-13",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-13|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-13",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-13|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-13",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-13|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-13",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-13|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-13",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-13|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-13",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-14|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-14",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-14|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-14",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-14|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-14",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-14|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-14",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-14|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-14",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-14|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-14",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-14|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-14",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-14|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-14",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-14|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-14",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-14|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-14",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-14|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-14",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-14|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-14",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-15|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-15",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-15|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-15",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-15|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-15",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-15|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-15",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-15|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-15",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-15|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-15",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-15|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-15",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-15|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-15",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-15|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-15",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-15|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-15",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-15|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-15",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-15|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-15",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-16|ordinary|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-16",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-16|ordinary|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-16",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-16|ordinary|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-16",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-16|ordinary|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-16",
+"subtype": "lowercase",
+"family": "style",
+"frame": "ordinary",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-16|evaluation|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-16",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-16|evaluation|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-16",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-16|evaluation|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-16",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-16|evaluation|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-16",
+"subtype": "lowercase",
+"family": "style",
+"frame": "evaluation",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-16|rl|tied|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-16",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-16|rl|tied|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-16",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "tied",
+"model": "Qwen 3.8"
+},
+{
+"key": "discovery|lowercase-discovery-16|rl|conflict_p050|Qwen 3.5",
+"exp": "discovery",
+"block_id": "lowercase-discovery-16",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.5"
+},
+{
+"key": "discovery|lowercase-discovery-16|rl|conflict_p050|Qwen 3.8",
+"exp": "discovery",
+"block_id": "lowercase-discovery-16",
+"subtype": "lowercase",
+"family": "style",
+"frame": "rl",
+"evidence": "conflict_p050",
+"model": "Qwen 3.8"
+}
+]

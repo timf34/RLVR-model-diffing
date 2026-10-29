@@ -1,0 +1,76 @@
+{
+ "at": "2026-10-29T03:22:26+00:00",
+ "label": "10A reference check (descriptive), frozen before generation",
+ "design": {
+  "tasks": [
+   "send",
+   "fmt"
+  ],
+  "impls": [
+   "old",
+   "new"
+  ],
+  "scores": {
+   "tied": 0.0,
+   "p050": 0.5
+  },
+  "models": [
+   "Qwen 3.5",
+   "Qwen 3.8"
+  ],
+  "blocks": 16,
+  "episodes": 256,
+  "new_frame": "rl",
+  "old_panel": "bundle",
+  "max_steps": {
+   "send": 8,
+   "fmt": 3
+  },
+  "concurrency_per_model": 8,
+  "max_attempts": 3,
+  "prices": {
+   "Qwen 3.5": [
+    0.26,
+    2.6
+   ],
+   "Qwen 3.8": [
+    0.039,
+    1.25
+   ]
+  }
+ },
+ "inputs": {
+  "send": "49c6eece5f1e15cf533c313873e941618eb5a0c46df78a108f26efe9cf735363",
+  "fmt": "b01e660260debaf84dd9364c6c7b8fc4689cbde5addb8386bc8b2c07324fd0b9"
+ },
+ "files": {
+  "designs/ifeval_incidental_grader/reference_check/ref_check.py": "0d706f874909004c994b303fe00caf7f55cf1c7f728af1e1036dae3ad17e40bc",
+  "designs/ifeval_incidental_grader/reference_check/ref_blocks.py": "32341e4ca8919d4f9404d6cafd44517320911c071b81c5818c1a1a8e6afc930b",
+  "designs/ifeval_incidental_grader/reference_check/PROTOCOL.md": "a81a3dfd2ad0cf654899dbea397fec055a7bd3e94e497e489c3c6371b7586e63",
+  "designs/ifeval_incidental_grader/ig_render.py": "f1ada1362f2d43b855ce37eaa41d9e86890d634e6a12dabd4dc9c683d9294ab0",
+  "designs/ifeval_incidental_grader/ig_generate.py": "541e56855cb22be34806cd4c76c77f5ff1b0988127b05da670aa47e29393674d",
+  "experiment.grading.3way.json": "1e4dec1120084b442f7b0effd4f1a666e6999493a87860878c8aac039e49ac73",
+  "designs/score_gap/sending/gap_materials.py": "051bd4bf298432f97ddeccd0c1507bf267f52e843addf3ff46aa2b39af80b6c9",
+  "designs/score_gap/sending/run_gap.py": "778141d68f6d23af84cb3466064381958b554a5b0a79ae56ea5d0a0504ca6bd0",
+  "designs/score_gap/sending/run/manifest.json": "e1f27340561935619e7736d4bb07dbb66b19c1d7d5de6a2c271a7d6996c13edc",
+  "designs/score_gap/sending/run/prompts.json": "852adde8de7b6b151b4f5f19ac3c0ea4b07a0ea8b54ce699d280b828924dfbfc",
+  "designs/action/materials.py": "1a8c70dc024223b4aca3ecf8f4f4dbed7555973cb4d1995fa143e5f0c7547098",
+  "designs/action/env.py": "84fd9da38dd1862607e5f4f2eeb28ab7828b70d13b818804263e86d9e82be6a0",
+  "designs/action/score.py": "5512e9b834edf8bfeac4c35f6e891b062c9f8886517be3fa0d20972ce715a167",
+  "designs/action/agent.py": "85e8601efeb9e2ca287a75675e31a8cb1e5a103898bfaaff3d3fa8bdae324621",
+  "designs/score_gap/formatting/fmt_materials.py": "153574582430bd26db96e16f5de329b31b77dabbd88deede01738f7228047181",
+  "designs/score_gap/formatting/run_fmt.py": "f0a7742c7f68e0ee87c27b3fe3c3201d5b6cc45cffb14409401cf4d3f4dffd18",
+  "designs/score_gap/formatting/run/manifest.json": "7ef6a95310ec6a119ed04d7ef83a7128ef4ab579149f9f1e702ac34a95cc8ad3",
+  "designs/score_gap/formatting/run/prompts.json": "38d6575bbc5def0916310e11b32a43f9afa6df5a846c903fea10a1c9cffb893e",
+  "designs/rl_context/confirm_materials.py": "70143ed0f6183185de05050302d93cc6a60458e6ef2c86cde2a62eaa96a1fcf9",
+  "designs/rl_context/emdash_materials.py": "73fed3403f62afd6f4582ad84b58741a462893f441adc6d99ecee4fd4105b643",
+  "designs/rl_context/score.py": "5a2b5f0ecf366370e9ce3b1508d1e88bf4f44aa52289ad796e2f40ebcc0d7b02",
+  "designs/rl_context/run_domains.py": "aa060daf85d4d4a63fb3676d7c297db2ccdf5f96619390e0868dbc49386b00bd",
+  "designs/rl_context/run_pilot.py": "b94044aaf68bd691e98bebc4b90ef90e14350de98b5be10f4934932d3146902b",
+  "designs/rl_context/run_confirm.py": "47c424643b25235267ba365b650f8e40ac32a49e3aafde1b58ec0ddb2f68fac9",
+  "designs/rl_context/domains/structure.py": "d234aaac1aa294a3cf789d7d445442f0fb8adf4ee595166a96833860a67706f8",
+  "designs/rl_context/pilot/src_snapshot/model_diffing/core.py": "c71d048f07064f2a48c01bfe2ac01a9da0f10f86871b40d4c2a577d31dbad936",
+  "designs/rl_context/pilot/src_snapshot/model_diffing/petri_task.py": "5b0b7175d3a651bda89605e675386979938d03e65c36229387e2d3bd7962f384",
+  "src/model_diffing/petri_task.py": "133ce9551cb39c1a21b0a2063920700551b6d48810fd2a42265e74c2dc180ea5"
+ }
+}

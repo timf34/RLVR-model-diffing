@@ -1,0 +1,143 @@
+{
+ "per_model_subtype": {
+  "Qwen 3.5|keyword": {
+   "n": 20,
+   "valid": 20,
+   "complies": 20,
+   "facts_ok": 20,
+   "valid_compliant_facts": 20,
+   "case_only_ok": 0
+  },
+  "Qwen 3.5|forbidden": {
+   "n": 20,
+   "valid": 20,
+   "complies": 20,
+   "facts_ok": 19,
+   "valid_compliant_facts": 19,
+   "case_only_ok": 0
+  },
+  "Qwen 3.5|end_phrase": {
+   "n": 20,
+   "valid": 20,
+   "complies": 19,
+   "facts_ok": 20,
+   "valid_compliant_facts": 19,
+   "case_only_ok": 0
+  },
+  "Qwen 3.5|quotation": {
+   "n": 20,
+   "valid": 20,
+   "complies": 20,
+   "facts_ok": 20,
+   "valid_compliant_facts": 20,
+   "case_only_ok": 0
+  },
+  "Qwen 3.5|json": {
+   "n": 20,
+   "valid": 20,
+   "complies": 20,
+   "facts_ok": 18,
+   "valid_compliant_facts": 18,
+   "case_only_ok": 0
+  },
+  "Qwen 3.5|lowercase": {
+   "n": 20,
+   "valid": 20,
+   "complies": 20,
+   "facts_ok": 20,
+   "valid_compliant_facts": 20,
+   "case_only_ok": 20
+  },
+  "Qwen 3.5|uppercase": {
+   "n": 20,
+   "valid": 20,
+   "complies": 19,
+   "facts_ok": 20,
+   "valid_compliant_facts": 19,
+   "case_only_ok": 20
+  },
+  "Qwen 3.5|no_comma": {
+   "n": 20,
+   "valid": 20,
+   "complies": 19,
+   "facts_ok": 20,
+   "valid_compliant_facts": 19,
+   "case_only_ok": 0
+  },
+  "Qwen 3.8|keyword": {
+   "n": 20,
+   "valid": 20,
+   "complies": 20,
+   "facts_ok": 20,
+   "valid_compliant_facts": 20,
+   "case_only_ok": 0
+  },
+  "Qwen 3.8|forbidden": {
+   "n": 20,
+   "valid": 20,
+   "complies": 20,
+   "facts_ok": 20,
+   "valid_compliant_facts": 20,
+   "case_only_ok": 0
+  },
+  "Qwen 3.8|end_phrase": {
+   "n": 20,
+   "valid": 20,
+   "complies": 20,
+   "facts_ok": 19,
+   "valid_compliant_facts": 19,
+   "case_only_ok": 0
+  },
+  "Qwen 3.8|quotation": {
+   "n": 20,
+   "valid": 20,
+   "complies": 20,
+   "facts_ok": 19,
+   "valid_compliant_facts": 19,
+   "case_only_ok": 0
+  },
+  "Qwen 3.8|json": {
+   "n": 20,
+   "valid": 20,
+   "complies": 20,
+   "facts_ok": 19,
+   "valid_compliant_facts": 19,
+   "case_only_ok": 0
+  },
+  "Qwen 3.8|lowercase": {
+   "n": 20,
+   "valid": 20,
+   "complies": 20,
+   "facts_ok": 20,
+   "valid_compliant_facts": 20,
+   "case_only_ok": 20
+  },
+  "Qwen 3.8|uppercase": {
+   "n": 20,
+   "valid": 20,
+   "complies": 20,
+   "facts_ok": 20,
+   "valid_compliant_facts": 20,
+   "case_only_ok": 20
+  },
+  "Qwen 3.8|no_comma": {
+   "n": 20,
+   "valid": 20,
+   "complies": 20,
+   "facts_ok": 19,
+   "valid_compliant_facts": 19,
+   "case_only_ok": 0
+  }
+ },
+ "eligible": {
+  "keyword": true,
+  "forbidden": true,
+  "end_phrase": true,
+  "quotation": true,
+  "json": true,
+  "lowercase": true,
+  "uppercase": true,
+  "no_comma": true
+ },
+ "rule": "each model >= 18/20 valid, compliant (strict checker) and containing the required facts"
+}

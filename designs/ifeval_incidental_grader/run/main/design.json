@@ -1,0 +1,14 @@
+{
+  "retained_subtypes": [
+    "keyword",
+    "forbidden",
+    "end_phrase",
+    "quotation",
+    "json",
+    "lowercase",
+    "uppercase",
+    "no_comma"
+  ],
+  "blocks_per_subtype": 48,
+  "note": "all 8 subtypes eligible in dev screen; 48 blocks (throughput permits)"
+}

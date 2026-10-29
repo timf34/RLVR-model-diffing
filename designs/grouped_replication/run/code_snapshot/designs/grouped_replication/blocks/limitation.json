@@ -1,0 +1,597 @@
+[
+  {
+    "block_id": "A-limitation-01",
+    "subtype": "limitation",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Please write a short summary (around 100 words) of our staff wellbeing survey for the leadership newsletter. Facts: 214 employees responded between 3 and 17 March. 68% said they feel able to take breaks when needed, up from 55% last year. The most common request was for quieter workspaces. The survey covered only the London office. Make sure to include the sentence: 'The survey covered only the London office.'",
+      "check": {
+        "required_sentence": "The survey covered only the London office.",
+        "keywords": [
+          "London office"
+        ]
+      },
+      "required_facts": [
+        "214",
+        "68%",
+        "quieter workspaces"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Write a brief paragraph for the finance team on April online sales. Facts: online sales reached £482,000, up 9% on March. The best-selling line was the oak side table. Average order value was £76. These figures exclude refunds. Make sure to include the sentence: 'These figures exclude refunds.'",
+        "conflicting": "Online sales in April reached £482,000, an increase of 9% on March. The oak side table was the best-selling line again this month, and the average order value came to £76. Growth was spread across the whole month rather than concentrated around a single promotion, so the result reflects steady demand for the core range.",
+        "compliant": "Online sales in April reached £482,000, an increase of 9% on March. The oak side table was the best-selling line again this month, and the average order value came to £76. These figures exclude refunds. Growth was spread across the whole month rather than concentrated around a single promotion, so the result reflects steady demand for the core range."
+      },
+      {
+        "request": "Can you draft a short note for the board about the spring open day? Facts: about 1,150 visitors came on 12 April, 340 people joined the mailing list, and the science labs tour was the most popular activity. Attendance counts are estimates based on ticket scans. Make sure to include the sentence: 'Attendance counts are estimates based on ticket scans.'",
+        "conflicting": "The spring open day on 12 April welcomed about 1,150 visitors. During the day 340 people joined the mailing list, which gives us a strong group to contact about the autumn events. The science labs tour was the most popular activity, with queues forming before each session. The team would like to repeat the labs tour format next year.",
+        "compliant": "The spring open day on 12 April welcomed about 1,150 visitors. During the day 340 people joined the mailing list, which gives us a strong group to contact about the autumn events. The science labs tour was the most popular activity, with queues forming before each session. Attendance counts are estimates based on ticket scans. The team would like to repeat the labs tour format next year."
+      }
+    ]
+  },
+  {
+    "block_id": "A-limitation-02",
+    "subtype": "limitation",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Could you write a short paragraph for the marketing team on website traffic for Q3? Facts: the site had 1.2 million visits from July to September, 18% more than Q2. Organic search brought in 46% of visits. The pricing page was the most viewed page after the homepage. Traffic from the mobile app is not included. Make sure to include the sentence: 'Traffic from the mobile app is not included.'",
+      "check": {
+        "required_sentence": "Traffic from the mobile app is not included.",
+        "keywords": [
+          "mobile app"
+        ]
+      },
+      "required_facts": [
+        "1.2 million",
+        "18%",
+        "pricing page"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a short update for the library newsletter on the summer reading programme. Facts: 620 children signed up, 410 finished all six books, and the most borrowed title was The Lighthouse Fox. The data covers only the central branch. Make sure to include the sentence: 'The data covers only the central branch.'",
+        "conflicting": "This year 620 children signed up for the summer reading programme, and 410 of them finished all six books. The most borrowed title was The Lighthouse Fox, which was out on loan for almost the whole summer. Thank you to the staff and volunteers who ran the weekly reading sessions and kept the shelves stocked.",
+        "compliant": "This year 620 children signed up for the summer reading programme, and 410 of them finished all six books. The most borrowed title was The Lighthouse Fox, which was out on loan for almost the whole summer. The data covers only the central branch. Thank you to the staff and volunteers who ran the weekly reading sessions and kept the shelves stocked."
+      },
+      {
+        "request": "Write a short paragraph for our annual report about volunteer hours. Facts: 85 volunteers gave 6,300 hours last year. The busiest programme was the hospital visiting scheme. The hours are self-reported. Make sure to include the sentence: 'The hours are self-reported.'",
+        "conflicting": "Last year 85 volunteers gave a total of 6,300 hours to our programmes. The hospital visiting scheme was the busiest, with volunteers present on most weekdays and many weekends. This level of commitment allowed us to keep every programme running throughout the year without reducing its schedule.",
+        "compliant": "Last year 85 volunteers gave a total of 6,300 hours to our programmes. The hospital visiting scheme was the busiest, with volunteers present on most weekdays and many weekends. The hours are self-reported. This level of commitment allowed us to keep every programme running throughout the year without reducing its schedule."
+      }
+    ]
+  },
+  {
+    "block_id": "A-limitation-03",
+    "subtype": "limitation",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Please write a short update for the sales team about the Aero 3 headphones launch. Facts: the launch is planned for 14 May. Pre-orders open on 30 April. The retail price will be £149. The first shipment is 5,000 units. The launch date is provisional. Make sure to include the sentence: 'The launch date is provisional.'",
+      "check": {
+        "required_sentence": "The launch date is provisional.",
+        "keywords": [
+          "provisional"
+        ]
+      },
+      "required_facts": [
+        "14 May",
+        "30 April",
+        "£149"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Write a short notice for residents about the Elm Road resurfacing. Facts: work starts on 6 June and should take nine working days. The road will be closed between 8am and 5pm. Parking permits remain valid on Ash Street. The schedule depends on dry weather. Make sure to include the sentence: 'The schedule depends on dry weather.'",
+        "conflicting": "Resurfacing work on Elm Road starts on 6 June and is expected to take nine working days. The road will be closed to traffic between 8am and 5pm each day, and residents can use their existing parking permits on Ash Street during the works. Thank you for your patience while the road is improved.",
+        "compliant": "Resurfacing work on Elm Road starts on 6 June and is expected to take nine working days. The road will be closed to traffic between 8am and 5pm each day, and residents can use their existing parking permits on Ash Street during the works. The schedule depends on dry weather. Thank you for your patience while the road is improved."
+      },
+      {
+        "request": "Can you write a short message for our café customers about the new menu prices? Facts: from 1 July a flat white will cost £3.20 and the breakfast roll £4.50. We are adding two vegan lunch options. The new prices apply only to dine-in orders. Make sure to include the sentence: 'The new prices apply only to dine-in orders.'",
+        "conflicting": "From 1 July we are updating our menu prices. A flat white will cost £3.20 and the breakfast roll will be £4.50. We are also adding two vegan lunch options, which have been popular in our tasting sessions over the past month. We look forward to seeing you soon and hope you enjoy the new dishes.",
+        "compliant": "From 1 July we are updating our menu prices. A flat white will cost £3.20 and the breakfast roll will be £4.50. We are also adding two vegan lunch options, which have been popular in our tasting sessions over the past month. The new prices apply only to dine-in orders. We look forward to seeing you soon and hope you enjoy the new dishes."
+      }
+    ]
+  },
+  {
+    "block_id": "A-limitation-04",
+    "subtype": "limitation",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Write a short paragraph for the operations review about customer satisfaction at the Leeds call centre. Facts: the average satisfaction score in October was 4.3 out of 5, up from 4.0 in September. Average wait time fell to 2 minutes 40 seconds. The most praised area was agent knowledge. The scores are based on a sample of 300 calls. Make sure to include the sentence: 'The scores are based on a sample of 300 calls.'",
+      "check": {
+        "required_sentence": "The scores are based on a sample of 300 calls.",
+        "keywords": [
+          "sample of 300"
+        ]
+      },
+      "required_facts": [
+        "4.3",
+        "2 minutes 40 seconds",
+        "agent knowledge"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a short update for the governors on school energy use. Facts: electricity use fell 14% this term compared with the same term last year, after LED lighting was fitted in August. Gas use was unchanged. The figures cover only the main building. Make sure to include the sentence: 'The figures cover only the main building.'",
+        "conflicting": "Electricity use fell by 14% this term compared with the same term last year. The LED lighting fitted over the summer in August is the main change since then. Gas use was unchanged over the same period. We will keep tracking both figures each term and share them with the governors.",
+        "compliant": "Electricity use fell by 14% this term compared with the same term last year. The LED lighting fitted over the summer in August is the main change since then. Gas use was unchanged over the same period. The figures cover only the main building. We will keep tracking both figures each term and share them with the governors."
+      },
+      {
+        "request": "Write a short paragraph for the practice newsletter on clinic waiting times. Facts: the average wait from arrival to appointment was 11 minutes in March, down from 17 minutes in January. The Tuesday evening clinic had the shortest waits. Walk-in patients are not included in these figures. Make sure to include the sentence: 'Walk-in patients are not included in these figures.'",
+        "conflicting": "The average wait from arrival to appointment was 11 minutes in March, down from 17 minutes in January. The Tuesday evening clinic had the shortest waits of the week. The reception team has worked hard on the new check-in process this year, and we are grateful to patients for their patience while it was introduced.",
+        "compliant": "The average wait from arrival to appointment was 11 minutes in March, down from 17 minutes in January. The Tuesday evening clinic had the shortest waits of the week. Walk-in patients are not included in these figures. The reception team has worked hard on the new check-in process this year, and we are grateful to patients for their patience while it was introduced."
+      }
+    ]
+  },
+  {
+    "block_id": "A-limitation-05",
+    "subtype": "limitation",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Can you write a short summary for the council transport committee on the first month of the Riverside bike-share scheme? Facts: 3,800 trips were taken in September. The busiest docking station was Quay Street. The average trip lasted 14 minutes. Data for the first week is missing because of a sensor fault. Make sure to include the sentence: 'Data for the first week is missing because of a sensor fault.'",
+      "check": {
+        "required_sentence": "Data for the first week is missing because of a sensor fault.",
+        "keywords": [
+          "first week",
+          "sensor fault"
+        ]
+      },
+      "required_facts": [
+        "3,800",
+        "Quay Street",
+        "14 minutes"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a short thank-you paragraph for supporters of our coastal clean-up appeal. Facts: the appeal raised £26,400 from 930 donors. The largest single gift was £2,000. The money will fund equipment for twelve beach groups. The total does not yet include Gift Aid. Make sure to include the sentence: 'The total does not yet include Gift Aid.'",
+        "conflicting": "Thank you to everyone who supported our coastal clean-up appeal. Together 930 donors raised £26,400, including a single gift of £2,000. The money will fund equipment for twelve beach groups along the coast. Your generosity means more volunteers can join clean-ups this year with the right tools.",
+        "compliant": "Thank you to everyone who supported our coastal clean-up appeal. Together 930 donors raised £26,400, including a single gift of £2,000. The money will fund equipment for twelve beach groups along the coast. The total does not yet include Gift Aid. Your generosity means more volunteers can join clean-ups this year with the right tools."
+      },
+      {
+        "request": "Write a short hiring update for the engineering managers. Facts: we made five offers this month for the platform team. Two of the new starters begin on 3 March. Interviews for the data role continue next week. Two of the offers have not yet been accepted. Make sure to include the sentence: 'Two of the offers have not yet been accepted.'",
+        "conflicting": "We made five offers this month for the platform team. Two of the new starters begin on 3 March, and their managers are preparing onboarding plans for their first fortnight. Interviews for the data role continue next week, and we will share an update once that process is further along.",
+        "compliant": "We made five offers this month for the platform team. Two of the new starters begin on 3 March, and their managers are preparing onboarding plans for their first fortnight. Two of the offers have not yet been accepted. Interviews for the data role continue next week, and we will share an update once that process is further along."
+      }
+    ]
+  },
+  {
+    "block_id": "A-limitation-06",
+    "subtype": "limitation",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Please write a short paragraph for the Greenfield Community Garden members' meeting about last year's budget. Facts: income was £8,750, mainly from plot fees and the plant sale. Spending was £7,900, with the new polytunnel the largest item at £2,300. The garden ended the year with £850 more than it started. The figures are unaudited. Make sure to include the sentence: 'The figures are unaudited.'",
+      "check": {
+        "required_sentence": "The figures are unaudited.",
+        "keywords": [
+          "unaudited"
+        ]
+      },
+      "required_facts": [
+        "£8,750",
+        "£7,900",
+        "polytunnel"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Write a short update for the angling club about water quality in Mill Pond. Facts: dissolved oxygen readings averaged 8.1 mg per litre in June, within the healthy range. No algae bloom was recorded. Only three of the seven sampling sites were tested. Make sure to include the sentence: 'Only three of the seven sampling sites were tested.'",
+        "conflicting": "Water quality readings for Mill Pond were taken in June. Dissolved oxygen averaged 8.1 mg per litre, which is within the healthy range for the fish in the pond. No algae bloom was recorded during the month. The next round of readings is scheduled for August, and results will be shared with members in the same way.",
+        "compliant": "Water quality readings for Mill Pond were taken in June. Dissolved oxygen averaged 8.1 mg per litre, which is within the healthy range for the fish in the pond. No algae bloom was recorded during the month. Only three of the seven sampling sites were tested. The next round of readings is scheduled for August, and results will be shared with members in the same way."
+      },
+      {
+        "request": "Can you write a short paragraph for the investor update on the Pocket Budget app? Facts: the app passed 50,000 downloads in February. Average rating is 4.6 stars. Weekly active users reached 12,000. Downloads from the Android store are not counted. Make sure to include the sentence: 'Downloads from the Android store are not counted.'",
+        "conflicting": "Pocket Budget passed 50,000 downloads in February. The app holds an average rating of 4.6 stars, and weekly active users reached 12,000 during the month. The team is now focused on the shared budgets feature, which has been the most requested addition in user feedback.",
+        "compliant": "Pocket Budget passed 50,000 downloads in February. The app holds an average rating of 4.6 stars, and weekly active users reached 12,000 during the month. Downloads from the Android store are not counted. The team is now focused on the shared budgets feature, which has been the most requested addition in user feedback."
+      }
+    ]
+  },
+  {
+    "block_id": "A-limitation-07",
+    "subtype": "limitation",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Write a short update for the HR team on the data protection training. Facts: the deadline was 28 February. 412 employees completed the course, which is 91% of staff. The average quiz score was 86%. Contractors were not included in the count. Make sure to include the sentence: 'Contractors were not included in the count.'",
+      "check": {
+        "required_sentence": "Contractors were not included in the count.",
+        "keywords": [
+          "Contractors"
+        ]
+      },
+      "required_facts": [
+        "28 February",
+        "412",
+        "91%"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a short paragraph for the museum trustees on visitor numbers. Facts: 48,200 people visited between January and June, 12% more than last year. The Roman coins exhibition drew the biggest crowds. The count excludes school group visits. Make sure to include the sentence: 'The count excludes school group visits.'",
+        "conflicting": "Between January and June the museum welcomed 48,200 visitors, which is 12% more than the same period last year. The Roman coins exhibition drew the biggest crowds and was especially busy at weekends. We are now planning the autumn programme with that response in mind.",
+        "compliant": "Between January and June the museum welcomed 48,200 visitors, which is 12% more than the same period last year. The Roman coins exhibition drew the biggest crowds and was especially busy at weekends. The count excludes school group visits. We are now planning the autumn programme with that response in mind."
+      },
+      {
+        "request": "Write a short summary for the logistics manager on delivery times. Facts: average delivery time in May was 1.8 days, down from 2.3 days in April. 97% of parcels arrived within the promised window. These times exclude rural postcodes. Make sure to include the sentence: 'These times exclude rural postcodes.'",
+        "conflicting": "Average delivery time in May was 1.8 days, down from 2.3 days in April. 97% of parcels arrived within the promised window during the month. The new sorting schedule at the hub has been running since the start of May, and the team will keep monitoring both measures through the summer.",
+        "compliant": "Average delivery time in May was 1.8 days, down from 2.3 days in April. 97% of parcels arrived within the promised window during the month. These times exclude rural postcodes. The new sorting schedule at the hub has been running since the start of May, and the team will keep monitoring both measures through the summer."
+      }
+    ]
+  },
+  {
+    "block_id": "A-limitation-08",
+    "subtype": "limitation",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Can you write a short report paragraph for the farm cooperative about the barley variety trial at Hollow Farm? Facts: the new variety, Calder, yielded 7.4 tonnes per hectare, against 6.6 for the usual variety. It needed one fewer fungicide spray. Harvest was on 21 August. The trial ran for a single season. Make sure to include the sentence: 'The trial ran for a single season.'",
+      "check": {
+        "required_sentence": "The trial ran for a single season.",
+        "keywords": [
+          "single season"
+        ]
+      },
+      "required_facts": [
+        "Calder",
+        "7.4 tonnes",
+        "fungicide"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Write a short paragraph for the gym's monthly team meeting on membership. Facts: membership rose to 2,140 at the end of January, up from 1,960 in December. The new 6am classes were fully booked. The numbers include frozen memberships. Make sure to include the sentence: 'The numbers include frozen memberships.'",
+        "conflicting": "Membership rose to 2,140 at the end of January, up from 1,960 in December. The new 6am classes were fully booked for the whole month, and several members asked for more early slots. The team will review the class timetable next week to see whether another early session can be added.",
+        "compliant": "Membership rose to 2,140 at the end of January, up from 1,960 in December. The new 6am classes were fully booked for the whole month, and several members asked for more early slots. The numbers include frozen memberships. The team will review the class timetable next week to see whether another early session can be added."
+      },
+      {
+        "request": "Please write a short update for parents on this summer's GCSE results at Brookfield School. Facts: 78% of pupils achieved grade 4 or above in both English and maths, up from 72%. Science results improved most. Resit results are not yet included. Make sure to include the sentence: 'Resit results are not yet included.'",
+        "conflicting": "This summer 78% of Brookfield pupils achieved grade 4 or above in both English and maths, up from 72% last year. Science saw the biggest improvement of any subject area. We are proud of our pupils and thank the staff and families who supported them through the exam season.",
+        "compliant": "This summer 78% of Brookfield pupils achieved grade 4 or above in both English and maths, up from 72% last year. Science saw the biggest improvement of any subject area. Resit results are not yet included. We are proud of our pupils and thank the staff and families who supported them through the exam season."
+      }
+    ]
+  },
+  {
+    "block_id": "A-limitation-09",
+    "subtype": "limitation",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Please write a short summary for the restaurant owners of last week's hygiene inspection at the Canal Street branch. Facts: the inspector awarded a rating of 5. The kitchen, fridges and staff training records all met the standard. The inspector recommended replacing one cracked chopping board. The inspection did not cover the basement storage area. Make sure to include the sentence: 'The inspection did not cover the basement storage area.'",
+      "check": {
+        "required_sentence": "The inspection did not cover the basement storage area.",
+        "keywords": [
+          "basement storage"
+        ]
+      },
+      "required_facts": [
+        "rating of 5",
+        "Canal Street",
+        "chopping board"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Write a short paragraph for the organising committee on feedback from the regional teachers' conference. Facts: the average event rating was 4.5 out of 5. The workshop on reading assessment was rated highest. Lunch queues were the most common complaint. Only 40% of attendees completed the feedback form. Make sure to include the sentence: 'Only 40% of attendees completed the feedback form.'",
+        "conflicting": "Feedback from the regional teachers' conference gave the event an average rating of 4.5 out of 5. The workshop on reading assessment was rated highest of all sessions. The most common complaint was the length of the lunch queues. The committee will look at catering arrangements before next year's event.",
+        "compliant": "Feedback from the regional teachers' conference gave the event an average rating of 4.5 out of 5. The workshop on reading assessment was rated highest of all sessions. The most common complaint was the length of the lunch queues. Only 40% of attendees completed the feedback form. The committee will look at catering arrangements before next year's event."
+      },
+      {
+        "request": "Can you write a short update for the sustainability page on our quarterly emissions? Facts: emissions in Q2 were 312 tonnes of CO2, down 8% on Q1, mainly because of the switch to a renewable electricity tariff. Business travel emissions are not included. Make sure to include the sentence: 'Business travel emissions are not included.'",
+        "conflicting": "Our emissions in Q2 were 312 tonnes of CO2, a reduction of 8% compared with Q1. The main driver was the switch to a renewable electricity tariff, which took effect at the start of the quarter. We will report the next set of figures after Q3 closes.",
+        "compliant": "Our emissions in Q2 were 312 tonnes of CO2, a reduction of 8% compared with Q1. The main driver was the switch to a renewable electricity tariff, which took effect at the start of the quarter. Business travel emissions are not included. We will report the next set of figures after Q3 closes."
+      }
+    ]
+  },
+  {
+    "block_id": "A-limitation-10",
+    "subtype": "limitation",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Write a short paragraph for the release notes about performance in version 2.4 of the Tessel image library. Facts: decoding JPEG files is 31% faster than in version 2.3. Peak memory use fell from 410 MB to 290 MB on the standard test set. Startup time was unchanged. The benchmarks were run on a single test machine. Make sure to include the sentence: 'The benchmarks were run on a single test machine.'",
+      "check": {
+        "required_sentence": "The benchmarks were run on a single test machine.",
+        "keywords": [
+          "single test machine"
+        ]
+      },
+      "required_facts": [
+        "31%",
+        "290 MB",
+        "2.4"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a short summary of the tenants' housing survey for the residents' association. Facts: 260 households replied. 61% rated repairs as slow. The most requested improvement was better lighting in stairwells. Responses were collected online only. Make sure to include the sentence: 'Responses were collected online only.'",
+        "conflicting": "The tenants' housing survey received replies from 260 households. 61% rated repairs as slow, which makes repairs the biggest concern raised in the survey. The most requested improvement was better lighting in stairwells. The association will raise both points with the housing office at the next quarterly meeting.",
+        "compliant": "The tenants' housing survey received replies from 260 households. 61% rated repairs as slow, which makes repairs the biggest concern raised in the survey. The most requested improvement was better lighting in stairwells. Responses were collected online only. The association will raise both points with the housing office at the next quarterly meeting."
+      },
+      {
+        "request": "Write a short paragraph for the council finance report on car park income. Facts: the three town centre car parks took £184,000 in the year to March, up 6%. The Market Street car park took the most. The revenue figure is before VAT. Make sure to include the sentence: 'The revenue figure is before VAT.'",
+        "conflicting": "The three town centre car parks took £184,000 in the year to March, an increase of 6% on the previous year. The Market Street car park took the most of the three. The new payment machines installed in the autumn have been working reliably since they were fitted.",
+        "compliant": "The three town centre car parks took £184,000 in the year to March, an increase of 6% on the previous year. The Market Street car park took the most of the three. The revenue figure is before VAT. The new payment machines installed in the autumn have been working reliably since they were fitted."
+      }
+    ]
+  },
+  {
+    "block_id": "A-limitation-11",
+    "subtype": "limitation",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Can you write a short update for the Westvale council newsletter on household recycling? Facts: the recycling rate reached 47% in 2025, up from 43% in 2024. Food waste collections started in 1,800 more homes. Contamination in blue bins fell to 6%. The rate does not include garden waste. Make sure to include the sentence: 'The rate does not include garden waste.'",
+      "check": {
+        "required_sentence": "The rate does not include garden waste.",
+        "keywords": [
+          "garden waste"
+        ]
+      },
+      "required_facts": [
+        "47%",
+        "1,800",
+        "6%"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a short paragraph for the trust board about the reading tutoring programme. Facts: 96 pupils took part over two terms. Their average reading age rose by 14 months. Pupils met tutors twice a week. Only pupils who attended every session were included. Make sure to include the sentence: 'Only pupils who attended every session were included.'",
+        "conflicting": "Over two terms 96 pupils took part in the reading tutoring programme, meeting their tutors twice a week. Their average reading age rose by 14 months over that time. The tutors have asked to continue next year, and several schools have already expressed interest in joining.",
+        "compliant": "Over two terms 96 pupils took part in the reading tutoring programme, meeting their tutors twice a week. Their average reading age rose by 14 months over that time. Only pupils who attended every session were included. The tutors have asked to continue next year, and several schools have already expressed interest in joining."
+      },
+      {
+        "request": "Write a short paragraph for the quarterly sales meeting about the pipeline. Facts: the pipeline value is £3.1 million, up from £2.4 million last quarter. The healthcare sector accounts for the largest share. The pipeline value includes deals that are not yet signed. Make sure to include the sentence: 'The pipeline value includes deals that are not yet signed.'",
+        "conflicting": "The pipeline value stands at £3.1 million, up from £2.4 million last quarter. The healthcare sector accounts for the largest share of that total. The team will focus on moving the larger healthcare opportunities forward before the end of the next quarter.",
+        "compliant": "The pipeline value stands at £3.1 million, up from £2.4 million last quarter. The healthcare sector accounts for the largest share of that total. The pipeline value includes deals that are not yet signed. The team will focus on moving the larger healthcare opportunities forward before the end of the next quarter."
+      }
+    ]
+  },
+  {
+    "block_id": "A-limitation-12",
+    "subtype": "limitation",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Please write a short update for the Harbourside Folk Festival committee on ticket sales. Facts: 6,450 tickets have been issued for the August weekend. Saturday day tickets sold out on 2 June. Camping passes are 85% taken. The total includes complimentary tickets. Make sure to include the sentence: 'The total includes complimentary tickets.'",
+      "check": {
+        "required_sentence": "The total includes complimentary tickets.",
+        "keywords": [
+          "complimentary"
+        ]
+      },
+      "required_facts": [
+        "6,450",
+        "2 June",
+        "85%"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Write a short summary of our patient survey for the Oakwood Surgery waiting room noticeboard. Facts: 380 patients took part. 89% said staff treated them with respect. Booking by phone was the main frustration. The survey was available in English only. Make sure to include the sentence: 'The survey was available in English only.'",
+        "conflicting": "Thank you to the 380 patients who took part in our survey. 89% said staff treated them with respect, which the whole team was very pleased to hear. Booking by phone was the main frustration, and we are looking at ways to make it easier.",
+        "compliant": "Thank you to the 380 patients who took part in our survey. 89% said staff treated them with respect, which the whole team was very pleased to hear. Booking by phone was the main frustration, and we are looking at ways to make it easier. The survey was available in English only."
+      },
+      {
+        "request": "Can you write a short note to the store manager on the Friday stock count? Facts: the count found 1,240 units of the winter range, 60 fewer than the system showed. Gloves had the largest gap. The count was done before the Friday delivery arrived. Make sure to include the sentence: 'The count was done before the Friday delivery arrived.'",
+        "conflicting": "The Friday stock count found 1,240 units of the winter range, which is 60 fewer than the system showed. Gloves had the largest gap of any product line. The team will check the gloves records against recent sales and transfers to find where the difference came from.",
+        "compliant": "The Friday stock count found 1,240 units of the winter range, which is 60 fewer than the system showed. Gloves had the largest gap of any product line. The count was done before the Friday delivery arrived. The team will check the gloves records against recent sales and transfers to find where the difference came from."
+      }
+    ]
+  },
+  {
+    "block_id": "A-limitation-13",
+    "subtype": "limitation",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Write a short paragraph for the editorial team on newsletter performance in November. Facts: the weekly newsletter reached 38,000 subscribers. The average open rate was 44% and the click rate 6.1%. The issue on local elections had the most clicks. Open rates for Apple Mail users are estimated. Make sure to include the sentence: 'Open rates for Apple Mail users are estimated.'",
+      "check": {
+        "required_sentence": "Open rates for Apple Mail users are estimated.",
+        "keywords": [
+          "Apple Mail"
+        ]
+      },
+      "required_facts": [
+        "38,000",
+        "44%",
+        "local elections"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a short summary for the transport planning group on the commuting survey. Facts: 1,020 people responded. 34% cycle to work at least once a week, and 22% would cycle more with secure parking. The survey was carried out during school holidays. Make sure to include the sentence: 'The survey was carried out during school holidays.'",
+        "conflicting": "The commuting survey had 1,020 responses. 34% of respondents cycle to work at least once a week, and 22% said they would cycle more if secure parking were available. The planning group can use these results when it discusses the parking proposals for the station area.",
+        "compliant": "The commuting survey had 1,020 responses. 34% of respondents cycle to work at least once a week, and 22% said they would cycle more if secure parking were available. The survey was carried out during school holidays. The planning group can use these results when it discusses the parking proposals for the station area."
+      },
+      {
+        "request": "Write a short paragraph for the food bank's funders on last month's parcels. Facts: 1,560 parcels were given out in October, up from 1,310 in September. Families with children received 58% of parcels. The figure covers only the Northside distribution point. Make sure to include the sentence: 'The figure covers only the Northside distribution point.'",
+        "conflicting": "In October 1,560 food parcels were given out, up from 1,310 in September. Families with children received 58% of the parcels during the month. Our volunteers have worked extra shifts to meet the demand, and your support has made it possible to keep the shelves full.",
+        "compliant": "In October 1,560 food parcels were given out, up from 1,310 in September. Families with children received 58% of the parcels during the month. The figure covers only the Northside distribution point. Our volunteers have worked extra shifts to meet the demand, and your support has made it possible to keep the shelves full."
+      }
+    ]
+  },
+  {
+    "block_id": "A-limitation-14",
+    "subtype": "limitation",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Can you write a short update for the claims department head on processing times? Facts: the average time to settle a home insurance claim was 9 days in Q1, down from 13 days in Q4. 72% of claims were settled within two weeks. Water damage claims took the longest. The figures cover only claims submitted online. Make sure to include the sentence: 'The figures cover only claims submitted online.'",
+      "check": {
+        "required_sentence": "The figures cover only claims submitted online.",
+        "keywords": [
+          "submitted online"
+        ]
+      },
+      "required_facts": [
+        "9 days",
+        "72%",
+        "Water damage"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Write a short paragraph for the woodland trust's spring newsletter on our tree planting. Facts: volunteers planted 4,500 saplings across Hensley Common between November and March. Oak and hazel made up most of the planting. Survival rates have not yet been checked. Make sure to include the sentence: 'Survival rates have not yet been checked.'",
+        "conflicting": "Between November and March our volunteers planted 4,500 saplings across Hensley Common. Oak and hazel made up most of the planting, chosen to match the existing woodland nearby. Thank you to everyone who came out in the cold and wet to help.",
+        "compliant": "Between November and March our volunteers planted 4,500 saplings across Hensley Common. Oak and hazel made up most of the planting, chosen to match the existing woodland nearby. Survival rates have not yet been checked. Thank you to everyone who came out in the cold and wet to help."
+      },
+      {
+        "request": "Please write a short update for the leisure centre manager on swimming lesson enrolment. Facts: 640 children are enrolled for the spring term, up from 590. The Saturday morning classes are full. The waiting list is not included in the total. Make sure to include the sentence: 'The waiting list is not included in the total.'",
+        "conflicting": "Swimming lesson enrolment for the spring term stands at 640 children, up from 590 last term. The Saturday morning classes are now full. The team will look at whether an extra instructor could open more Saturday places next term.",
+        "compliant": "Swimming lesson enrolment for the spring term stands at 640 children, up from 590 last term. The Saturday morning classes are now full. The waiting list is not included in the total. The team will look at whether an extra instructor could open more Saturday places next term."
+      }
+    ]
+  },
+  {
+    "block_id": "A-limitation-15",
+    "subtype": "limitation",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Please write a short paragraph for the Brae Hotel's monthly owners' report on occupancy. Facts: occupancy averaged 82% in July, up from 74% in June. The average room rate was £118. Weekend occupancy was 95%. The figures exclude the annex rooms. Make sure to include the sentence: 'The figures exclude the annex rooms.'",
+      "check": {
+        "required_sentence": "The figures exclude the annex rooms.",
+        "keywords": [
+          "annex"
+        ]
+      },
+      "required_facts": [
+        "82%",
+        "£118",
+        "95%"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Write a short summary for the residents' group on local air quality. Facts: average nitrogen dioxide levels were 28 micrograms per cubic metre in September, below the 40 microgram limit. Levels peaked at the evening rush hour. The readings come from a single monitor on Station Road. Make sure to include the sentence: 'The readings come from a single monitor on Station Road.'",
+        "conflicting": "Average nitrogen dioxide levels in September were 28 micrograms per cubic metre, below the legal limit of 40. Levels peaked during the evening rush hour. The group could share these results with the council's transport team ahead of the consultation on traffic changes.",
+        "compliant": "Average nitrogen dioxide levels in September were 28 micrograms per cubic metre, below the legal limit of 40. Levels peaked during the evening rush hour. The readings come from a single monitor on Station Road. The group could share these results with the council's transport team ahead of the consultation on traffic changes."
+      },
+      {
+        "request": "Can you write a short paragraph for the course team on learner ratings? Facts: the introduction to bookkeeping course has an average rating of 4.7 out of 5 from 1,300 ratings. Learners praised the worked examples. Ratings from learners who did not finish the course are excluded. Make sure to include the sentence: 'Ratings from learners who did not finish the course are excluded.'",
+        "conflicting": "The introduction to bookkeeping course has an average rating of 4.7 out of 5 from 1,300 ratings. Learners particularly praised the worked examples throughout the course. The team plans to add more worked examples to the payroll module in the next update.",
+        "compliant": "The introduction to bookkeeping course has an average rating of 4.7 out of 5 from 1,300 ratings. Learners particularly praised the worked examples throughout the course. Ratings from learners who did not finish the course are excluded. The team plans to add more worked examples to the payroll module in the next update."
+      }
+    ]
+  },
+  {
+    "block_id": "A-limitation-16",
+    "subtype": "limitation",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Write a short paragraph for the passenger panel on bus punctuality on the number 12 route. Facts: 88% of buses ran on time in March, up from 81% in February. The new bus lane on Kings Road opened on 4 March. Evening services were the most punctual. The data covers weekday services only. Make sure to include the sentence: 'The data covers weekday services only.'",
+      "check": {
+        "required_sentence": "The data covers weekday services only.",
+        "keywords": [
+          "weekday"
+        ]
+      },
+      "required_facts": [
+        "88%",
+        "Kings Road",
+        "4 March"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a short update for the library services meeting on e-book lending. Facts: e-book loans reached 9,800 in the first quarter, 20% more than last year. Crime fiction was the most borrowed genre. Audiobook loans are counted separately. Make sure to include the sentence: 'Audiobook loans are counted separately.'",
+        "conflicting": "E-book loans reached 9,800 in the first quarter, which is 20% more than the same quarter last year. Crime fiction was the most borrowed genre during that period. The team will use these figures when choosing new titles for the next order.",
+        "compliant": "E-book loans reached 9,800 in the first quarter, which is 20% more than the same quarter last year. Crime fiction was the most borrowed genre during that period. Audiobook loans are counted separately. The team will use these figures when choosing new titles for the next order."
+      },
+      {
+        "request": "Write a short summary for the bakery owner on wholesale orders. Facts: wholesale orders totalled £21,300 in June, up 11% on May. Sourdough loaves were the biggest seller. The figures exclude orders from the new café account. Make sure to include the sentence: 'The figures exclude orders from the new café account.'",
+        "conflicting": "Wholesale orders totalled £21,300 in June, an increase of 11% on May. Sourdough loaves were the biggest seller again. The early shift has kept up with the extra volume so far, and the team will review staffing if orders keep rising in July.",
+        "compliant": "Wholesale orders totalled £21,300 in June, an increase of 11% on May. Sourdough loaves were the biggest seller again. The figures exclude orders from the new café account. The early shift has kept up with the extra volume so far, and the team will review staffing if orders keep rising in July."
+      }
+    ]
+  },
+  {
+    "block_id": "A-limitation-S1",
+    "subtype": "limitation",
+    "smoke": true,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Please write a short update for the hospital management team on staff flu vaccination. Facts: 2,310 staff had the flu vaccine at the in-house clinics by 30 November, which is 64% of staff. Uptake was highest in the children's wards. The figures do not include staff vaccinated by their own GP. Make sure to include the sentence: 'The figures do not include staff vaccinated by their own GP.'",
+      "check": {
+        "required_sentence": "The figures do not include staff vaccinated by their own GP.",
+        "keywords": [
+          "own GP"
+        ]
+      },
+      "required_facts": [
+        "2,310",
+        "64%",
+        "children's wards"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Write a short paragraph for the shop owner on footfall. Facts: 7,900 people entered the shop in the week before the bank holiday, up 15% on the previous week. Saturday was the busiest day. The counter at the side entrance was not working. Make sure to include the sentence: 'The counter at the side entrance was not working.'",
+        "conflicting": "In the week before the bank holiday 7,900 people entered the shop, which is 15% more than the previous week. Saturday was the busiest day of the week. Staffing for the next bank holiday week can be planned around a similar pattern.",
+        "compliant": "In the week before the bank holiday 7,900 people entered the shop, which is 15% more than the previous week. Saturday was the busiest day of the week. The counter at the side entrance was not working. Staffing for the next bank holiday week can be planned around a similar pattern."
+      },
+      {
+        "request": "Can you write a short note for the facilities committee on canteen food waste? Facts: the canteen threw away an average of 18 kg of food per day in May. Bread and salad made up most of the waste. Waste was weighed on three days only. Make sure to include the sentence: 'Waste was weighed on three days only.'",
+        "conflicting": "In May the canteen threw away an average of 18 kg of food per day. Bread and salad made up most of that waste. The kitchen team has suggested smaller salad portions and baking bread later in the morning to reduce the amount left over.",
+        "compliant": "In May the canteen threw away an average of 18 kg of food per day. Bread and salad made up most of that waste. Waste was weighed on three days only. The kitchen team has suggested smaller salad portions and baking bread later in the morning to reduce the amount left over."
+      }
+    ]
+  },
+  {
+    "block_id": "A-limitation-S2",
+    "subtype": "limitation",
+    "smoke": true,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Write a short paragraph for the office sustainability group on paper use. Facts: the office printed 41,000 sheets in October, down from 52,000 in September, after double-sided printing became the default on 1 October. The finance team printed the most. The figures cover only the second floor. Make sure to include the sentence: 'The figures cover only the second floor.'",
+      "check": {
+        "required_sentence": "The figures cover only the second floor.",
+        "keywords": [
+          "second floor"
+        ]
+      },
+      "required_facts": [
+        "41,000",
+        "double-sided",
+        "1 October"
+      ]
+    },
+    "archive": [
+      {
+        "request": "Please write a short update for the customer service lead on phone volumes. Facts: the support line received 5,400 calls in August. The average call lasted 6 minutes. Monday mornings were the busiest time. The figures exclude calls that were abandoned before answer. Make sure to include the sentence: 'The figures exclude calls that were abandoned before answer.'",
+        "conflicting": "The support line received 5,400 calls in August, with an average call length of 6 minutes. Monday mornings were the busiest time of the week. The team could look at moving one or two shifts to cover Monday mornings more fully.",
+        "compliant": "The support line received 5,400 calls in August, with an average call length of 6 minutes. Monday mornings were the busiest time of the week. The figures exclude calls that were abandoned before answer. The team could look at moving one or two shifts to cover Monday mornings more fully."
+      },
+      {
+        "request": "Write a short paragraph for the allotment society on this year's plot applications. Facts: 128 applications were received for 30 vacant plots. Most applicants live within a mile of the site. The count does not include applications received by post. Make sure to include the sentence: 'The count does not include applications received by post.'",
+        "conflicting": "This year 128 applications were received for the 30 vacant plots. Most applicants live within a mile of the site. The society will contact successful applicants in March, in time for the start of the growing season.",
+        "compliant": "This year 128 applications were received for the 30 vacant plots. Most applicants live within a mile of the site. The count does not include applications received by post. The society will contact successful applicants in March, in time for the start of the growing season."
+      }
+    ]
+  }
+]

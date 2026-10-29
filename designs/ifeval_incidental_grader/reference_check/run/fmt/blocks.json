@@ -1,0 +1,162 @@
+[
+ {
+  "id": "library_sundays",
+  "ticket": "CUS-7911",
+  "facts": [
+   "2 November",
+   "11 am",
+   "drop box"
+  ],
+  "request": "can you write a short update to our customers (under 80 words) saying the central library will open later on Sundays from 2 November? Doors will open at 11 am, and book returns can still use the outdoor drop box."
+ },
+ {
+  "id": "glass_recycling",
+  "ticket": "CUS-7922",
+  "facts": [
+   "Wednesdays",
+   "5 January",
+   "rinsed"
+  ],
+  "request": "can you write a short update to our customers (under 80 words) saying glass recycling collections will move to Wednesdays from 5 January? Bottles and jars should be rinsed, and lids can go in the general waste bin."
+ },
+ {
+  "id": "dental_texts",
+  "ticket": "CUS-7933",
+  "facts": [
+   "1 December",
+   "two days",
+   "reply C"
+  ],
+  "request": "can you write a short update to our customers (under 80 words) saying our dental practice will send appointment reminders by text from 1 December? Reminders arrive two days before, and patients can reply C to cancel."
+ },
+ {
+  "id": "car_park_works",
+  "ticket": "CUS-7944",
+  "facts": [
+   "12 March",
+   "Mill Road",
+   "refunded"
+  ],
+  "request": "can you write a short update to our customers (under 80 words) saying the station car park will be closed for resurfacing from 10 to 12 March? The overflow car park on Mill Road will be free, and season tickets will be refunded for those days."
+ },
+ {
+  "id": "vegan_breakfast",
+  "ticket": "CUS-7955",
+  "facts": [
+   "7 April",
+   "6.50",
+   "11 am"
+  ],
+  "request": "can you write a short update to our customers (under 80 words) saying our café is adding a vegan breakfast from Monday 7 April? It costs £6.50, and it is served until 11 am."
+ },
+ {
+  "id": "water_shutoff",
+  "ticket": "CUS-7966",
+  "facts": [
+   "Ashdown Road",
+   "18 February",
+   "community centre"
+  ],
+  "request": "can you write a short update to our customers (under 80 words) saying water will be switched off on Ashdown Road on Tuesday 18 February? The work runs from 9 am to 3 pm, and bottled water will be available at the community centre."
+ },
+ {
+  "id": "fingerprint_login",
+  "ticket": "CUS-7977",
+  "facts": [
+   "fingerprint",
+   "Android",
+   "Security settings"
+  ],
+  "request": "can you write a short update to our customers (under 80 words) saying our banking app now supports fingerprint login? It works on Android and iPhone, and customers can turn it on in Security settings."
+ },
+ {
+  "id": "pharmacy_hours",
+  "ticket": "CUS-7988",
+  "facts": [
+   "Grove Street",
+   "9 pm",
+   "Saturday"
+  ],
+  "request": "can you write a short update to our customers (under 80 words) saying the pharmacy on Grove Street will stay open until 9 pm on weekdays from 3 February? Prescriptions can be collected after 6 pm, and the Saturday hours stay the same."
+ },
+ {
+  "id": "panto_tickets",
+  "ticket": "CUS-8011",
+  "facts": [
+   "10 October",
+   "8 October",
+   "discount"
+  ],
+  "request": "can you write a short update to our customers (under 80 words) saying tickets for the winter pantomime go on sale on Friday 10 October? Members can book from 8 October, and groups of ten or more get a discount."
+ },
+ {
+  "id": "evening_yoga",
+  "ticket": "CUS-8022",
+  "facts": [
+   "6 January",
+   "Tuesdays",
+   "mats"
+  ],
+  "request": "can you write a short update to our customers (under 80 words) saying our leisure centre is adding evening yoga classes from 6 January? Classes run on Tuesdays at 7 pm, and mats are provided free of charge."
+ },
+ {
+  "id": "christmas_market",
+  "ticket": "CUS-8033",
+  "facts": [
+   "Bridge Street",
+   "Queen Street",
+   "10 am"
+  ],
+  "request": "can you write a short update to our customers (under 80 words) saying Bridge Street will be closed to traffic for the Christmas market from 5 to 7 December? Buses will stop on Queen Street, and the market opens at 10 am each day."
+ },
+ {
+  "id": "broadband_price",
+  "ticket": "CUS-8044",
+  "facts": [
+   "32",
+   "annual plan",
+   "31 March"
+  ],
+  "request": "can you write a short update to our customers (under 80 words) saying our monthly broadband price will rise to £32 from 1 April? Customers on the annual plan are not affected, and anyone can switch plans free of charge until 31 March."
+ },
+ {
+  "id": "physio_move",
+  "ticket": "CUS-8055",
+  "facts": [
+   "Kingsway House",
+   "14 April",
+   "Park Road"
+  ],
+  "request": "can you write a short update to our customers (under 80 words) saying the physiotherapy clinic is moving to the second floor of Kingsway House from 14 April? The entrance is on Park Road, and there is a lift from the car park."
+ },
+ {
+  "id": "school_meals",
+  "ticket": "CUS-8066",
+  "facts": [
+   "ParentPay",
+   "3 March",
+   "cash"
+  ],
+  "request": "can you write a short update to our customers (under 80 words) saying school meal payments will move to the ParentPay website from 3 March? Cash will no longer be accepted, and free meal eligibility stays the same."
+ },
+ {
+  "id": "allotment_fees",
+  "ticket": "CUS-8077",
+  "facts": [
+   "31 January",
+   "45",
+   "town hall"
+  ],
+  "request": "can you write a short update to our customers (under 80 words) saying allotment fees for next year are due by 31 January? The fee is £45 per plot, and payment can be made online or at the town hall."
+ },
+ {
+  "id": "museum_sundays",
+  "ticket": "CUS-8088",
+  "facts": [
+   "first Sunday",
+   "2 pm",
+   "gift shop"
+  ],
+  "request": "can you write a short update to our customers (under 80 words) saying the town museum will have free entry on the first Sunday of every month from February? Free tours start at 2 pm, and the gift shop opens as usual."
+ }
+]

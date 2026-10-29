@@ -1,0 +1,2327 @@
+{
+ "primary_family_macro": {
+  "C_3.8(RL)": {
+   "name": "C_3.8(RL)",
+   "estimate": 0.0,
+   "ci95": [
+    -0.06944444444444445,
+    0.06944444444444445
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 6,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "p_holm": 1.0
+  },
+  "C_3.5(RL)": {
+   "name": "C_3.5(RL)",
+   "estimate": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 1,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ],
+   "p_holm": 1.0
+  },
+  "C_3.8(RL)-C_3.8(ordinary)": {
+   "name": "C_3.8(RL)-C_3.8(ordinary)",
+   "estimate": 0.027777777777777776,
+   "ci95": [
+    -0.06944444444444445,
+    0.125
+   ],
+   "p": 0.7945102744862756,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 11,
+   "bounds": [
+    0.027777777777777776,
+    0.027777777777777776
+   ],
+   "p_holm": 1.0
+  },
+  "C_3.8(RL)-C_3.5(RL)": {
+   "name": "C_3.8(RL)-C_3.5(RL)",
+   "estimate": -0.013888888888888888,
+   "ci95": [
+    -0.08333333333333334,
+    0.05555555555555555
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 7,
+   "bounds": [
+    -0.013888888888888888,
+    -0.013888888888888888
+   ],
+   "p_holm": 1.0
+  }
+ },
+ "primary_equal_subtype": {
+  "C_3.8(RL)": {
+   "name": "C_3.8(RL)",
+   "estimate": 0.0,
+   "ci95": [
+    -0.06944444444444445,
+    0.06944444444444445
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 6,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "p_holm": 1.0
+  },
+  "C_3.5(RL)": {
+   "name": "C_3.5(RL)",
+   "estimate": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 1,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ],
+   "p_holm": 1.0
+  },
+  "C_3.8(RL)-C_3.8(ordinary)": {
+   "name": "C_3.8(RL)-C_3.8(ordinary)",
+   "estimate": 0.027777777777777776,
+   "ci95": [
+    -0.06944444444444445,
+    0.125
+   ],
+   "p": 0.7945102744862756,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 11,
+   "bounds": [
+    0.027777777777777776,
+    0.027777777777777776
+   ],
+   "p_holm": 1.0
+  },
+  "C_3.8(RL)-C_3.5(RL)": {
+   "name": "C_3.8(RL)-C_3.5(RL)",
+   "estimate": -0.013888888888888888,
+   "ci95": [
+    -0.08333333333333334,
+    0.05555555555555555
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 7,
+   "bounds": [
+    -0.013888888888888888,
+    -0.013888888888888888
+   ],
+   "p_holm": 1.0
+  }
+ },
+ "secondary": {
+  "C_3.5(ordinary)": {
+   "name": "",
+   "estimate": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 1,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ]
+  },
+  "Qwen 3.5 ordinary@match: +0.50 - tied": {
+   "name": "",
+   "estimate": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 1,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ]
+  },
+  "Qwen 3.5 ordinary@match: +0.05 - tied": {
+   "name": "",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "note": "all block-level contrasts are 0; percentile CI is degenerate. Arm-level 95% upper bounds (any-event per block) ~ 0.041"
+  },
+  "Qwen 3.5 ordinary@mismatch: +0.50 - tied": {
+   "name": "",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "note": "all block-level contrasts are 0; percentile CI is degenerate. Arm-level 95% upper bounds (any-event per block) ~ 0.041"
+  },
+  "Qwen 3.5 ordinary@mismatch: +0.05 - tied": {
+   "name": "",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "note": "all block-level contrasts are 0; percentile CI is degenerate. Arm-level 95% upper bounds (any-event per block) ~ 0.041"
+  },
+  "C_3.5(evaluation)": {
+   "name": "",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "note": "all block-level contrasts are 0; percentile CI is degenerate. Arm-level 95% upper bounds (any-event per block) ~ 0.041"
+  },
+  "Qwen 3.5 evaluation@match: +0.50 - tied": {
+   "name": "",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "note": "all block-level contrasts are 0; percentile CI is degenerate. Arm-level 95% upper bounds (any-event per block) ~ 0.041"
+  },
+  "Qwen 3.5 evaluation@match: +0.05 - tied": {
+   "name": "",
+   "estimate": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 1,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ]
+  },
+  "Qwen 3.5 evaluation@mismatch: +0.50 - tied": {
+   "name": "",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "note": "all block-level contrasts are 0; percentile CI is degenerate. Arm-level 95% upper bounds (any-event per block) ~ 0.041"
+  },
+  "Qwen 3.5 evaluation@mismatch: +0.05 - tied": {
+   "name": "",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "note": "all block-level contrasts are 0; percentile CI is degenerate. Arm-level 95% upper bounds (any-event per block) ~ 0.041"
+  },
+  "C_3.5(rl)": {
+   "name": "",
+   "estimate": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 1,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ]
+  },
+  "Qwen 3.5 rl@match: +0.50 - tied": {
+   "name": "",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "note": "all block-level contrasts are 0; percentile CI is degenerate. Arm-level 95% upper bounds (any-event per block) ~ 0.041"
+  },
+  "Qwen 3.5 rl@match: +0.05 - tied": {
+   "name": "",
+   "estimate": -0.013888888888888888,
+   "ci95": [
+    -0.041666666666666664,
+    0.0
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 1,
+   "bounds": [
+    -0.013888888888888888,
+    -0.013888888888888888
+   ]
+  },
+  "Qwen 3.5 rl@mismatch: +0.50 - tied": {
+   "name": "",
+   "estimate": -0.013888888888888888,
+   "ci95": [
+    -0.041666666666666664,
+    0.0
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 1,
+   "bounds": [
+    -0.013888888888888888,
+    -0.013888888888888888
+   ]
+  },
+  "Qwen 3.5 rl@mismatch: +0.05 - tied": {
+   "name": "",
+   "estimate": -0.013888888888888888,
+   "ci95": [
+    -0.041666666666666664,
+    0.0
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 1,
+   "bounds": [
+    -0.013888888888888888,
+    -0.013888888888888888
+   ]
+  },
+  "C_3.8(ordinary)": {
+   "name": "",
+   "estimate": -0.027777777777777776,
+   "ci95": [
+    -0.09722222222222222,
+    0.041666666666666664
+   ],
+   "p": 0.7294635268236588,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 8,
+   "bounds": [
+    -0.027777777777777776,
+    -0.027777777777777776
+   ]
+  },
+  "Qwen 3.8 ordinary@match: +0.50 - tied": {
+   "name": "",
+   "estimate": 0.05555555555555555,
+   "ci95": [
+    0.013888888888888888,
+    0.1111111111111111
+   ],
+   "p": 0.12534373281335934,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 4,
+   "bounds": [
+    0.05555555555555555,
+    0.05555555555555555
+   ]
+  },
+  "Qwen 3.8 ordinary@match: +0.05 - tied": {
+   "name": "",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "note": "all block-level contrasts are 0; percentile CI is degenerate. Arm-level 95% upper bounds (any-event per block) ~ 0.041"
+  },
+  "Qwen 3.8 ordinary@mismatch: +0.50 - tied": {
+   "name": "",
+   "estimate": 0.08333333333333333,
+   "ci95": [
+    0.013888888888888888,
+    0.15277777777777776
+   ],
+   "p": 0.07054647267636618,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 8,
+   "bounds": [
+    0.08333333333333333,
+    0.08333333333333333
+   ]
+  },
+  "Qwen 3.8 ordinary@mismatch: +0.05 - tied": {
+   "name": "",
+   "estimate": -0.013888888888888888,
+   "ci95": [
+    -0.041666666666666664,
+    0.0
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 1,
+   "bounds": [
+    -0.013888888888888888,
+    -0.013888888888888888
+   ]
+  },
+  "C_3.8(evaluation)": {
+   "name": "",
+   "estimate": 0.013888888888888888,
+   "ci95": [
+    -0.06944444444444445,
+    0.09722222222222222
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 11,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ]
+  },
+  "Qwen 3.8 evaluation@match: +0.50 - tied": {
+   "name": "",
+   "estimate": 0.06944444444444445,
+   "ci95": [
+    0.0,
+    0.1388888888888889
+   ],
+   "p": 0.12659367031648416,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 7,
+   "bounds": [
+    0.06944444444444445,
+    0.06944444444444445
+   ]
+  },
+  "Qwen 3.8 evaluation@match: +0.05 - tied": {
+   "name": "",
+   "estimate": 0.0,
+   "ci95": [
+    -0.041666666666666664,
+    0.041666666666666664
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 2,
+   "bounds": [
+    0.0,
+    0.0
+   ]
+  },
+  "Qwen 3.8 evaluation@mismatch: +0.50 - tied": {
+   "name": "",
+   "estimate": 0.05555555555555555,
+   "ci95": [
+    0.013888888888888888,
+    0.1111111111111111
+   ],
+   "p": 0.12534373281335934,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 4,
+   "bounds": [
+    0.05555555555555555,
+    0.05555555555555555
+   ]
+  },
+  "Qwen 3.8 evaluation@mismatch: +0.05 - tied": {
+   "name": "",
+   "estimate": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 1,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ]
+  },
+  "C_3.8(rl)": {
+   "name": "",
+   "estimate": 0.0,
+   "ci95": [
+    -0.06944444444444445,
+    0.06944444444444445
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 6,
+   "bounds": [
+    0.0,
+    0.0
+   ]
+  },
+  "Qwen 3.8 rl@match: +0.50 - tied": {
+   "name": "",
+   "estimate": 0.05555555555555555,
+   "ci95": [
+    0.013888888888888888,
+    0.1111111111111111
+   ],
+   "p": 0.12534373281335934,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 4,
+   "bounds": [
+    0.05555555555555555,
+    0.05555555555555555
+   ]
+  },
+  "Qwen 3.8 rl@match: +0.05 - tied": {
+   "name": "",
+   "estimate": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 1,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ]
+  },
+  "Qwen 3.8 rl@mismatch: +0.50 - tied": {
+   "name": "",
+   "estimate": 0.05555555555555555,
+   "ci95": [
+    0.013888888888888888,
+    0.1111111111111111
+   ],
+   "p": 0.12534373281335934,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 4,
+   "bounds": [
+    0.05555555555555555,
+    0.05555555555555555
+   ]
+  },
+  "Qwen 3.8 rl@mismatch: +0.05 - tied": {
+   "name": "",
+   "estimate": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "p": 1.0,
+   "n_blocks": 72,
+   "n_nonzero_blocks": 1,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ]
+  }
+ },
+ "cells": [
+  {
+   "model": "Qwen 3.5",
+   "frame": "ordinary@match",
+   "evidence": "tied",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "ordinary@match",
+   "evidence": "conflict_p005",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "ordinary@match",
+   "evidence": "conflict_p050",
+   "macro": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "k": 1,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.041666666666666664,
+     "k": 1,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "ordinary@mismatch",
+   "evidence": "tied",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "ordinary@mismatch",
+   "evidence": "conflict_p005",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "ordinary@mismatch",
+   "evidence": "conflict_p050",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "evaluation@match",
+   "evidence": "tied",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "evaluation@match",
+   "evidence": "conflict_p005",
+   "macro": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "k": 1,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.041666666666666664,
+     "k": 1,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "evaluation@match",
+   "evidence": "conflict_p050",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "evaluation@mismatch",
+   "evidence": "tied",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "evaluation@mismatch",
+   "evidence": "conflict_p005",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "evaluation@mismatch",
+   "evidence": "conflict_p050",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "rl@match",
+   "evidence": "tied",
+   "macro": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "k": 1,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.041666666666666664,
+     "k": 1,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "rl@match",
+   "evidence": "conflict_p005",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "rl@match",
+   "evidence": "conflict_p050",
+   "macro": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "k": 1,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.041666666666666664,
+     "k": 1,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "rl@mismatch",
+   "evidence": "tied",
+   "macro": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "k": 1,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.041666666666666664,
+     "k": 1,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "rl@mismatch",
+   "evidence": "conflict_p005",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.5",
+   "frame": "rl@mismatch",
+   "evidence": "conflict_p050",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "ordinary@match",
+   "evidence": "tied",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "ordinary@match",
+   "evidence": "conflict_p005",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "ordinary@match",
+   "evidence": "conflict_p050",
+   "macro": 0.05555555555555555,
+   "ci95": [
+    0.013888888888888888,
+    0.1111111111111111
+   ],
+   "k": 4,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.05555555555555555,
+    0.05555555555555555
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.16666666666666666,
+     "k": 4,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "ordinary@mismatch",
+   "evidence": "tied",
+   "macro": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "k": 1,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.041666666666666664,
+     "k": 1,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "ordinary@mismatch",
+   "evidence": "conflict_p005",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "ordinary@mismatch",
+   "evidence": "conflict_p050",
+   "macro": 0.09722222222222222,
+   "ci95": [
+    0.041666666666666664,
+    0.16666666666666666
+   ],
+   "k": 7,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.09722222222222222,
+    0.09722222222222222
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.2916666666666667,
+     "k": 7,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "evaluation@match",
+   "evidence": "tied",
+   "macro": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "k": 1,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.041666666666666664,
+     "k": 1,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "evaluation@match",
+   "evidence": "conflict_p005",
+   "macro": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "k": 1,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.041666666666666664,
+     "k": 1,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "evaluation@match",
+   "evidence": "conflict_p050",
+   "macro": 0.08333333333333334,
+   "ci95": [
+    0.027777777777777776,
+    0.15277777777777776
+   ],
+   "k": 6,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.08333333333333334,
+    0.08333333333333334
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.041666666666666664,
+     "k": 1,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.20833333333333334,
+     "k": 5,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "evaluation@mismatch",
+   "evidence": "tied",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "evaluation@mismatch",
+   "evidence": "conflict_p005",
+   "macro": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "k": 1,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.041666666666666664,
+     "k": 1,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "evaluation@mismatch",
+   "evidence": "conflict_p050",
+   "macro": 0.05555555555555555,
+   "ci95": [
+    0.013888888888888888,
+    0.1111111111111111
+   ],
+   "k": 4,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.05555555555555555,
+    0.05555555555555555
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.16666666666666666,
+     "k": 4,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "rl@match",
+   "evidence": "tied",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "rl@match",
+   "evidence": "conflict_p005",
+   "macro": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "k": 1,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.041666666666666664,
+     "k": 1,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "rl@match",
+   "evidence": "conflict_p050",
+   "macro": 0.05555555555555555,
+   "ci95": [
+    0.013888888888888888,
+    0.1111111111111111
+   ],
+   "k": 4,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.05555555555555555,
+    0.05555555555555555
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.16666666666666666,
+     "k": 4,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "rl@mismatch",
+   "evidence": "tied",
+   "macro": 0.0,
+   "ci95": [
+    0.0,
+    0.11734615615494881
+   ],
+   "k": 0,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.0,
+    0.0
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "rl@mismatch",
+   "evidence": "conflict_p005",
+   "macro": 0.013888888888888888,
+   "ci95": [
+    0.0,
+    0.041666666666666664
+   ],
+   "k": 1,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.013888888888888888,
+    0.013888888888888888
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.041666666666666664,
+     "k": 1,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  },
+  {
+   "model": "Qwen 3.8",
+   "frame": "rl@mismatch",
+   "evidence": "conflict_p050",
+   "macro": 0.05555555555555555,
+   "ci95": [
+    0.013888888888888888,
+    0.1111111111111111
+   ],
+   "k": 4,
+   "n": 72,
+   "unresolved": 0,
+   "bounds": [
+    0.05555555555555555,
+    0.05555555555555555
+   ],
+   "subtypes": {
+    "keyword": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    },
+    "json": {
+     "rate": 0.16666666666666666,
+     "k": 4,
+     "n": 24
+    },
+    "lowercase": {
+     "rate": 0.0,
+     "k": 0,
+     "n": 24
+    }
+   }
+  }
+ ],
+ "validity": {
+  "Qwen 3.5|evaluation@match|conflict_p005": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 68,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 1,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.04787535999999999,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|evaluation@match|conflict_p005": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 65,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 0,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.020234026000000002,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.5|evaluation@mismatch|conflict_p005": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 70,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 1,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 1,
+   "cost": 0.05134922,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|evaluation@mismatch|conflict_p005": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 68,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 0,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.018852776,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.5|evaluation@match|conflict_p050": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 69,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 2,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.05402696000000002,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|evaluation@match|conflict_p050": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 66,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 0,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.022914025999999994,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.5|evaluation@mismatch|conflict_p050": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 70,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 1,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 1,
+   "cost": 0.05292716000000003,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|evaluation@mismatch|conflict_p050": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 69,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 1,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.022327775999999997,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.5|evaluation@match|tied": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 69,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 2,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.05035835999999999,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|evaluation@match|tied": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 67,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 1,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.017914025999999996,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.5|evaluation@mismatch|tied": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 67,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 1,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.04994496,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|evaluation@mismatch|tied": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 68,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 0,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.017785276,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.5|ordinary@match|conflict_p005": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 70,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 1,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.05177536000000002,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|ordinary@match|conflict_p005": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 65,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 0,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.018206526,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.5|ordinary@mismatch|conflict_p005": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 70,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 0,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.05259436,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|ordinary@mismatch|conflict_p005": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 67,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 1,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.019390275999999998,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.5|ordinary@match|conflict_p050": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 71,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 1,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.051803959999999996,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|ordinary@match|conflict_p050": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 67,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 0,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.023029025999999994,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.5|ordinary@mismatch|conflict_p050": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 70,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 1,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.053197559999999984,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|ordinary@mismatch|conflict_p050": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 69,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 1,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.021012776,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.5|ordinary@match|tied": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 70,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 1,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 1,
+   "cost": 0.05092255999999999,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|ordinary@match|tied": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 65,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 0,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.017866525999999994,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.5|ordinary@mismatch|tied": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 70,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 2,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.052971360000000016,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|ordinary@mismatch|tied": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 67,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 0,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.019137775999999995,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.5|rl@match|conflict_p005": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 68,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 2,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.05030947999999997,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|rl@match|conflict_p005": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 68,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 2,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.019915584,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.5|rl@mismatch|conflict_p005": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 70,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 1,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.050031280000000004,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|rl@mismatch|conflict_p005": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 68,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 0,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.020079333999999994,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.5|rl@match|conflict_p050": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 69,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 0,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 2,
+   "cost": 0.056887740000000006,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|rl@match|conflict_p050": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 65,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 0,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 1,
+   "cost": 0.027489745000000003,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.5|rl@mismatch|conflict_p050": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 68,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 2,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.05184868000000001,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|rl@mismatch|conflict_p050": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 66,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 0,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.024368083999999995,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.5|rl@match|tied": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 68,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 1,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.049082280000000006,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|rl@match|tied": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 68,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 0,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.020121834000000005,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.5|rl@mismatch|tied": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 70,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 1,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.05033027999999999,
+   "case_only_ok": 24,
+   "case_rows": 24
+  },
+  "Qwen 3.8|rl@mismatch|tied": {
+   "n": 72,
+   "valid": 72,
+   "facts_ok": 67,
+   "refusal_rx": 0,
+   "mentions_grader_rx": 1,
+   "text_tool_call": 0,
+   "judge_valid": 72,
+   "judged": 72,
+   "extra_calls": 0,
+   "cost": 0.020745583999999997,
+   "case_only_ok": 24,
+   "case_rows": 24
+  }
+ }
+}

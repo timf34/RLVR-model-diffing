@@ -1,0 +1,30 @@
+{"usage": 6059.685648135, "usage_daily": 76.844844495, "at": "2026-10-29T03:04:29+00:00", "when": "start", "exp": "smoke", "ifeval_ledger": 0.0}
+{"usage": 6059.71507371, "usage_daily": 76.87427007, "at": "2026-10-29T03:04:49+00:00", "when": "end (complete)", "exp": "smoke", "ifeval_ledger": 0.0228}
+{"usage": 6059.71507371, "usage_daily": 76.87427007, "at": "2026-10-29T03:05:10+00:00", "when": "start", "exp": "dev", "ifeval_ledger": 0.0228}
+{"usage": 6059.97218886, "usage_daily": 77.13138522, "at": "2026-10-29T03:07:31+00:00", "when": "end (complete)", "exp": "dev", "ifeval_ledger": 0.1563}
+{"usage": 6060.969638385, "usage_daily": 78.128834745, "at": "2026-10-29T03:10:39+00:00", "when": "start", "exp": "main", "ifeval_ledger": 0.5327}
+{"usage": 6064.05395091, "usage_daily": 81.21314727, "at": "2026-10-29T03:15:39+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 0.8404}
+{"usage": 6066.13704726, "usage_daily": 83.29624362, "at": "2026-10-29T03:20:39+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 1.1582}
+{"usage": 6069.22669226, "usage_daily": 86.38588862, "at": "2026-10-29T03:25:39+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 1.4331}
+{"usage": 6070.71778601, "usage_daily": 87.87698237, "at": "2026-10-29T03:30:39+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 1.7584}
+{"usage": 6072.001591685, "usage_daily": 89.160788045, "at": "2026-10-29T03:35:41+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 1.9751}
+{"usage": 6073.09911011, "usage_daily": 90.25830647, "at": "2026-10-29T03:40:44+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 2.3373}
+{"usage": 6074.115798335, "usage_daily": 91.274994695, "at": "2026-10-29T03:45:45+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 2.7664}
+{"usage": 6076.67123651, "usage_daily": 93.83043287, "at": "2026-10-29T03:50:45+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 3.5585}
+{"usage": 6080.06163256, "usage_daily": 97.22082892, "at": "2026-10-29T03:55:45+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 4.2855}
+{"usage": 6080.97920776, "usage_daily": 98.13840412, "at": "2026-10-29T04:00:45+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 5.0605}
+{"usage": 6081.75763681, "usage_daily": 98.91683317, "at": "2026-10-29T04:05:46+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 5.7482}
+{"usage": 6082.183458985, "usage_daily": 99.342655345, "at": "2026-10-29T04:10:47+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 6.2411}
+{"usage": 6082.95505906, "usage_daily": 100.11425542, "at": "2026-10-29T04:15:47+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 6.6744}
+{"usage": 6083.316275185, "usage_daily": 100.475471545, "at": "2026-10-29T04:20:47+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 6.9883}
+{"usage": 6083.623277785, "usage_daily": 100.782474145, "at": "2026-10-29T04:25:49+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 7.2328}
+{"usage": 6083.811033235, "usage_daily": 100.970229595, "at": "2026-10-29T04:30:49+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 7.4002}
+{"usage": 6084.25790401, "usage_daily": 101.41710037, "at": "2026-10-29T04:35:50+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 7.7828}
+{"usage": 6084.670174135, "usage_daily": 101.829370495, "at": "2026-10-29T04:40:51+00:00", "when": "periodic", "exp": "main", "ifeval_ledger": 8.1284}
+{"usage": 6084.87132766, "usage_daily": 102.03052402, "at": "2026-10-29T04:43:11+00:00", "when": "end (complete)", "exp": "main", "ifeval_ledger": 8.2765}
+{"usage": 6102.873432785, "usage_daily": 120.032629145, "at": "2026-10-29T05:08:22+00:00", "when": "start", "exp": "applicability", "ifeval_ledger": 26.7168}
+{"usage": 6104.156909985, "usage_daily": 121.316106345, "at": "2026-10-29T05:13:23+00:00", "when": "periodic", "exp": "applicability", "ifeval_ledger": 27.626}
+{"usage": 6104.61857451, "usage_daily": 121.77777087, "at": "2026-10-29T05:16:17+00:00", "when": "end (complete)", "exp": "applicability", "ifeval_ledger": 28.0164}
+{"usage": 6107.950982785, "usage_daily": 125.110179145, "at": "2026-10-29T05:20:15+00:00", "when": "start", "exp": "discovery", "ifeval_ledger": 30.8752}
+{"usage": 6108.27285256, "usage_daily": 125.43204892, "at": "2026-10-29T05:31:45+00:00", "when": "periodic", "exp": "discovery", "ifeval_ledger": 31.1313}
+{"usage": 6108.27285256, "usage_daily": 125.43204892, "at": "2026-10-29T05:31:45+00:00", "when": "end (complete)", "exp": "discovery", "ifeval_ledger": 31.1313}

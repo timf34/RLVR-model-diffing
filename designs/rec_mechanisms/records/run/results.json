@@ -1,0 +1,1441 @@
+{
+ "gaps": [
+  -0.5,
+  0.0,
+  0.05,
+  0.5
+ ],
+ "cells": {
+  "Qwen 3.5|chat|prose": {
+   "rate": [
+    0.0,
+    0.0,
+    0.5277777777777778,
+    0.9166666666666666
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.3611111111111111,
+    0.8333333333333334
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.6944444444444444,
+    1.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    19.0,
+    33.0
+   ],
+   "n": [
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ]
+  },
+  "Qwen 3.5|chat|records": {
+   "rate": [
+    0.0,
+    0.0,
+    0.3333333333333333,
+    0.6944444444444444
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.19444444444444445,
+    0.5
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.5,
+    0.8611111111111112
+   ],
+   "k": [
+    0.0,
+    0.0,
+    12.0,
+    25.0
+   ],
+   "n": [
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ]
+  },
+  "Qwen 3.5|episode|prose": {
+   "rate": [
+    0.0,
+    0.0,
+    0.9722222222222222,
+    1.0
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.9166666666666666,
+    1.0
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    35.0,
+    36.0
+   ],
+   "n": [
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ]
+  },
+  "Qwen 3.5|episode|records": {
+   "rate": [
+    0.0,
+    0.0,
+    0.6666666666666666,
+    1.0
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.5,
+    1.0
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.8055555555555556,
+    1.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    24.0,
+    36.0
+   ],
+   "n": [
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ]
+  },
+  "Qwen 3.5|bundle|prose": {
+   "rate": [
+    0.0,
+    0.0,
+    0.4722222222222222,
+    0.5277777777777778
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.3333333333333333,
+    0.4166666666666667
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.6111111111111112,
+    0.6388888888888888
+   ],
+   "k": [
+    0.0,
+    0.0,
+    17.0,
+    19.0
+   ],
+   "n": [
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ]
+  },
+  "Qwen 3.5|bundle|records": {
+   "rate": [
+    0.0,
+    0.0,
+    0.08333333333333333,
+    0.2777777777777778
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.0,
+    0.19444444444444445
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.16666666666666666,
+    0.3888888888888889
+   ],
+   "k": [
+    0.0,
+    0.0,
+    3.0,
+    10.0
+   ],
+   "n": [
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ]
+  },
+  "Qwen 3.8|chat|prose": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.05555555555555555
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.0,
+    0.1388888888888889
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    2.0
+   ],
+   "n": [
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ]
+  },
+  "Qwen 3.8|chat|records": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ]
+  },
+  "Qwen 3.8|episode|prose": {
+   "rate": [
+    0.0,
+    0.0,
+    0.027777777777777776,
+    0.5555555555555556
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.0,
+    0.3611111111111111
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.08333333333333333,
+    0.75
+   ],
+   "k": [
+    0.0,
+    0.0,
+    1.0,
+    20.0
+   ],
+   "n": [
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ]
+  },
+  "Qwen 3.8|episode|records": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.08333333333333333
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.0,
+    0.16666666666666666
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    3.0
+   ],
+   "n": [
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ]
+  },
+  "Qwen 3.8|bundle|prose": {
+   "rate": [
+    0.0,
+    0.0,
+    0.19444444444444445,
+    0.9722222222222222
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.05555555555555555,
+    0.9166666666666666
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.3333333333333333,
+    1.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    7.0,
+    35.0
+   ],
+   "n": [
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ]
+  },
+  "Qwen 3.8|bundle|records": {
+   "rate": [
+    0.0,
+    0.0,
+    0.05555555555555555,
+    0.7222222222222222
+   ],
+   "lo": [
+    0.0,
+    0.0,
+    0.0,
+    0.5555555555555556
+   ],
+   "hi": [
+    0.0,
+    0.0,
+    0.16666666666666666,
+    0.8888888888888888
+   ],
+   "k": [
+    0.0,
+    0.0,
+    2.0,
+    26.0
+   ],
+   "n": [
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ]
+  }
+ },
+ "baseline": {
+  "Qwen 3.5|chat": {
+   "k": 0,
+   "n": 36,
+   "correct": 36
+  },
+  "Qwen 3.5|episode": {
+   "k": 0,
+   "n": 36,
+   "correct": 36
+  },
+  "Qwen 3.5|bundle": {
+   "k": 0,
+   "n": 36,
+   "correct": 36
+  },
+  "Qwen 3.8|chat": {
+   "k": 0,
+   "n": 36,
+   "correct": 36
+  },
+  "Qwen 3.8|episode": {
+   "k": 0,
+   "n": 36,
+   "correct": 36
+  },
+  "Qwen 3.8|bundle": {
+   "k": 0,
+   "n": 36,
+   "correct": 36
+  }
+ },
+ "tests": {
+  "Qwen 3.5|chat|+0.05": {
+   "p": 0.109375,
+   "diff": 0.19444444444444442,
+   "lo": 0.02777777777777778,
+   "hi": 0.38888888888888884,
+   "n_scen": 12,
+   "rate_prose": 0.5277777777777778,
+   "rate_records": 0.3333333333333333,
+   "p_holm": 0.65625
+  },
+  "Qwen 3.5|chat|+0.50": {
+   "p": 0.03125,
+   "diff": 0.22222222222222224,
+   "lo": 0.08333333333333333,
+   "hi": 0.36111111111111116,
+   "n_scen": 12,
+   "rate_prose": 0.9166666666666666,
+   "rate_records": 0.6944444444444444,
+   "p_holm": 0.28125
+  },
+  "Qwen 3.5|episode|+0.05": {
+   "p": 0.0078125,
+   "diff": 0.30555555555555564,
+   "lo": 0.16666666666666666,
+   "hi": 0.47222222222222227,
+   "n_scen": 12,
+   "rate_prose": 0.9722222222222222,
+   "rate_records": 0.6666666666666666,
+   "p_holm": 0.078125
+  },
+  "Qwen 3.5|episode|+0.50": {
+   "p": 1.0,
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "n_scen": 12,
+   "rate_prose": 1.0,
+   "rate_records": 1.0,
+   "p_holm": 1.0
+  },
+  "Qwen 3.5|bundle|+0.05": {
+   "p": 0.001953125,
+   "diff": 0.3888888888888889,
+   "lo": 0.25,
+   "hi": 0.5277777777777778,
+   "n_scen": 12,
+   "rate_prose": 0.4722222222222222,
+   "rate_records": 0.08333333333333333,
+   "p_holm": 0.0234375
+  },
+  "Qwen 3.5|bundle|+0.50": {
+   "p": 0.03125,
+   "diff": 0.25,
+   "lo": 0.1111111111111111,
+   "hi": 0.4166666666666667,
+   "n_scen": 12,
+   "rate_prose": 0.5277777777777778,
+   "rate_records": 0.2777777777777778,
+   "p_holm": 0.28125
+  },
+  "Qwen 3.8|chat|+0.05": {
+   "p": 1.0,
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "n_scen": 12,
+   "rate_prose": 0.0,
+   "rate_records": 0.0,
+   "p_holm": 1.0
+  },
+  "Qwen 3.8|chat|+0.50": {
+   "p": 0.5,
+   "diff": 0.05555555555555555,
+   "lo": 0.0,
+   "hi": 0.13888888888888887,
+   "n_scen": 12,
+   "rate_prose": 0.05555555555555555,
+   "rate_records": 0.0,
+   "p_holm": 1.0
+  },
+  "Qwen 3.8|episode|+0.05": {
+   "p": 1.0,
+   "diff": 0.027777777777777776,
+   "lo": 0.0,
+   "hi": 0.08333333333333333,
+   "n_scen": 12,
+   "rate_prose": 0.027777777777777776,
+   "rate_records": 0.0,
+   "p_holm": 1.0
+  },
+  "Qwen 3.8|episode|+0.50": {
+   "p": 0.00390625,
+   "diff": 0.47222222222222227,
+   "lo": 0.2777777777777778,
+   "hi": 0.638888888888889,
+   "n_scen": 12,
+   "rate_prose": 0.5555555555555556,
+   "rate_records": 0.08333333333333333,
+   "p_holm": 0.04296875
+  },
+  "Qwen 3.8|bundle|+0.05": {
+   "p": 0.125,
+   "diff": 0.13888888888888887,
+   "lo": 0.027777777777777776,
+   "hi": 0.27777777777777773,
+   "n_scen": 12,
+   "rate_prose": 0.19444444444444445,
+   "rate_records": 0.05555555555555555,
+   "p_holm": 0.65625
+  },
+  "Qwen 3.8|bundle|+0.50": {
+   "p": 0.0625,
+   "diff": 0.25,
+   "lo": 0.08333333333333333,
+   "hi": 0.41666666666666674,
+   "n_scen": 12,
+   "rate_prose": 0.9722222222222222,
+   "rate_records": 0.7222222222222222,
+   "p_holm": 0.4375
+  }
+ },
+ "copying": {
+  "Qwen 3.5|chat|prose|-0.50|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.5|chat|prose|-0.50|cheapest": {
+   "n": 36,
+   "frame": 29,
+   "phrase": 17,
+   "verbatim": 9,
+   "ngram6": 24,
+   "ngram_mean": 6.666666666666667
+  },
+  "Qwen 3.5|chat|prose|+0.00|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.5|chat|prose|+0.00|cheapest": {
+   "n": 36,
+   "frame": 16,
+   "phrase": 7,
+   "verbatim": 4,
+   "ngram6": 12,
+   "ngram_mean": 4.527777777777778
+  },
+  "Qwen 3.5|chat|prose|+0.05|upsell": {
+   "n": 19,
+   "frame": 15,
+   "phrase": 16,
+   "verbatim": 4,
+   "ngram6": 16,
+   "ngram_mean": 5.315789473684211
+  },
+  "Qwen 3.5|chat|prose|+0.05|cheapest": {
+   "n": 17,
+   "frame": 8,
+   "phrase": 3,
+   "verbatim": 1,
+   "ngram6": 5,
+   "ngram_mean": 4.411764705882353
+  },
+  "Qwen 3.5|chat|prose|+0.50|upsell": {
+   "n": 33,
+   "frame": 28,
+   "phrase": 29,
+   "verbatim": 4,
+   "ngram6": 29,
+   "ngram_mean": 5.636363636363637
+  },
+  "Qwen 3.5|chat|prose|+0.50|cheapest": {
+   "n": 3,
+   "frame": 2,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 1,
+   "ngram_mean": 4.333333333333333
+  },
+  "Qwen 3.5|chat|records|-0.50|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.5|chat|records|-0.50|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.5555555555555556
+  },
+  "Qwen 3.5|chat|records|+0.00|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.5|chat|records|+0.00|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.6388888888888888
+  },
+  "Qwen 3.5|chat|records|+0.05|upsell": {
+   "n": 12,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.6666666666666667
+  },
+  "Qwen 3.5|chat|records|+0.05|cheapest": {
+   "n": 24,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.375
+  },
+  "Qwen 3.5|chat|records|+0.50|upsell": {
+   "n": 25,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.48
+  },
+  "Qwen 3.5|chat|records|+0.50|cheapest": {
+   "n": 11,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.5454545454545454
+  },
+  "Qwen 3.5|chat|nohist|none|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.5|chat|nohist|none|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.4444444444444444
+  },
+  "Qwen 3.5|episode|prose|-0.50|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.5|episode|prose|-0.50|cheapest": {
+   "n": 36,
+   "frame": 34,
+   "phrase": 27,
+   "verbatim": 12,
+   "ngram6": 32,
+   "ngram_mean": 8.13888888888889
+  },
+  "Qwen 3.5|episode|prose|+0.00|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.5|episode|prose|+0.00|cheapest": {
+   "n": 36,
+   "frame": 23,
+   "phrase": 18,
+   "verbatim": 12,
+   "ngram6": 20,
+   "ngram_mean": 5.944444444444445
+  },
+  "Qwen 3.5|episode|prose|+0.05|upsell": {
+   "n": 35,
+   "frame": 34,
+   "phrase": 35,
+   "verbatim": 9,
+   "ngram6": 35,
+   "ngram_mean": 6.0
+  },
+  "Qwen 3.5|episode|prose|+0.05|cheapest": {
+   "n": 1,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 2.0
+  },
+  "Qwen 3.5|episode|prose|+0.50|upsell": {
+   "n": 36,
+   "frame": 36,
+   "phrase": 36,
+   "verbatim": 4,
+   "ngram6": 36,
+   "ngram_mean": 6.0
+  },
+  "Qwen 3.5|episode|prose|+0.50|cheapest": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.5|episode|records|-0.50|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.5|episode|records|-0.50|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.4166666666666667
+  },
+  "Qwen 3.5|episode|records|+0.00|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.5|episode|records|+0.00|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.4166666666666667
+  },
+  "Qwen 3.5|episode|records|+0.05|upsell": {
+   "n": 24,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.3333333333333333
+  },
+  "Qwen 3.5|episode|records|+0.05|cheapest": {
+   "n": 12,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.4166666666666667
+  },
+  "Qwen 3.5|episode|records|+0.50|upsell": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.6666666666666667
+  },
+  "Qwen 3.5|episode|records|+0.50|cheapest": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.5|episode|nohist|none|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.5|episode|nohist|none|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.6666666666666667
+  },
+  "Qwen 3.5|bundle|prose|-0.50|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.5|bundle|prose|-0.50|cheapest": {
+   "n": 36,
+   "frame": 25,
+   "phrase": 13,
+   "verbatim": 5,
+   "ngram6": 18,
+   "ngram_mean": 5.75
+  },
+  "Qwen 3.5|bundle|prose|+0.00|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.5|bundle|prose|+0.00|cheapest": {
+   "n": 36,
+   "frame": 27,
+   "phrase": 7,
+   "verbatim": 4,
+   "ngram6": 13,
+   "ngram_mean": 5.083333333333333
+  },
+  "Qwen 3.5|bundle|prose|+0.05|upsell": {
+   "n": 17,
+   "frame": 12,
+   "phrase": 14,
+   "verbatim": 5,
+   "ngram6": 14,
+   "ngram_mean": 5.176470588235294
+  },
+  "Qwen 3.5|bundle|prose|+0.05|cheapest": {
+   "n": 19,
+   "frame": 8,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 2,
+   "ngram_mean": 3.3684210526315788
+  },
+  "Qwen 3.5|bundle|prose|+0.50|upsell": {
+   "n": 19,
+   "frame": 15,
+   "phrase": 15,
+   "verbatim": 4,
+   "ngram6": 15,
+   "ngram_mean": 5.052631578947368
+  },
+  "Qwen 3.5|bundle|prose|+0.50|cheapest": {
+   "n": 17,
+   "frame": 9,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 2.9411764705882355
+  },
+  "Qwen 3.5|bundle|records|-0.50|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.5|bundle|records|-0.50|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.9166666666666667
+  },
+  "Qwen 3.5|bundle|records|+0.00|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.5|bundle|records|+0.00|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.5277777777777777
+  },
+  "Qwen 3.5|bundle|records|+0.05|upsell": {
+   "n": 3,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.0
+  },
+  "Qwen 3.5|bundle|records|+0.05|cheapest": {
+   "n": 33,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 1,
+   "ngram_mean": 1.5454545454545454
+  },
+  "Qwen 3.5|bundle|records|+0.50|upsell": {
+   "n": 10,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.6
+  },
+  "Qwen 3.5|bundle|records|+0.50|cheapest": {
+   "n": 26,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.6538461538461537
+  },
+  "Qwen 3.5|bundle|nohist|none|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.5|bundle|nohist|none|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.8055555555555556
+  },
+  "Qwen 3.8|chat|prose|-0.50|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|chat|prose|-0.50|cheapest": {
+   "n": 36,
+   "frame": 23,
+   "phrase": 11,
+   "verbatim": 1,
+   "ngram6": 17,
+   "ngram_mean": 5.444444444444445
+  },
+  "Qwen 3.8|chat|prose|+0.00|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|chat|prose|+0.00|cheapest": {
+   "n": 36,
+   "frame": 14,
+   "phrase": 6,
+   "verbatim": 1,
+   "ngram6": 8,
+   "ngram_mean": 3.611111111111111
+  },
+  "Qwen 3.8|chat|prose|+0.05|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|chat|prose|+0.05|cheapest": {
+   "n": 36,
+   "frame": 7,
+   "phrase": 2,
+   "verbatim": 0,
+   "ngram6": 4,
+   "ngram_mean": 2.4722222222222223
+  },
+  "Qwen 3.8|chat|prose|+0.50|upsell": {
+   "n": 2,
+   "frame": 2,
+   "phrase": 2,
+   "verbatim": 0,
+   "ngram6": 2,
+   "ngram_mean": 6.0
+  },
+  "Qwen 3.8|chat|prose|+0.50|cheapest": {
+   "n": 34,
+   "frame": 12,
+   "phrase": 1,
+   "verbatim": 0,
+   "ngram6": 4,
+   "ngram_mean": 2.8529411764705883
+  },
+  "Qwen 3.8|chat|records|-0.50|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|chat|records|-0.50|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.0833333333333333
+  },
+  "Qwen 3.8|chat|records|+0.00|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|chat|records|+0.00|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.1944444444444444
+  },
+  "Qwen 3.8|chat|records|+0.05|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|chat|records|+0.05|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.0833333333333333
+  },
+  "Qwen 3.8|chat|records|+0.50|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|chat|records|+0.50|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.3333333333333333
+  },
+  "Qwen 3.8|chat|nohist|none|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|chat|nohist|none|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.3888888888888888
+  },
+  "Qwen 3.8|episode|prose|-0.50|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|episode|prose|-0.50|cheapest": {
+   "n": 36,
+   "frame": 28,
+   "phrase": 14,
+   "verbatim": 4,
+   "ngram6": 20,
+   "ngram_mean": 6.138888888888889
+  },
+  "Qwen 3.8|episode|prose|+0.00|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|episode|prose|+0.00|cheapest": {
+   "n": 36,
+   "frame": 18,
+   "phrase": 3,
+   "verbatim": 1,
+   "ngram6": 7,
+   "ngram_mean": 3.9722222222222223
+  },
+  "Qwen 3.8|episode|prose|+0.05|upsell": {
+   "n": 1,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 3.0
+  },
+  "Qwen 3.8|episode|prose|+0.05|cheapest": {
+   "n": 35,
+   "frame": 12,
+   "phrase": 1,
+   "verbatim": 1,
+   "ngram6": 3,
+   "ngram_mean": 2.942857142857143
+  },
+  "Qwen 3.8|episode|prose|+0.50|upsell": {
+   "n": 20,
+   "frame": 13,
+   "phrase": 17,
+   "verbatim": 3,
+   "ngram6": 16,
+   "ngram_mean": 5.3
+  },
+  "Qwen 3.8|episode|prose|+0.50|cheapest": {
+   "n": 16,
+   "frame": 3,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 2.125
+  },
+  "Qwen 3.8|episode|records|-0.50|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|episode|records|-0.50|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.1111111111111112
+  },
+  "Qwen 3.8|episode|records|+0.00|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|episode|records|+0.00|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.1666666666666667
+  },
+  "Qwen 3.8|episode|records|+0.05|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|episode|records|+0.05|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.1388888888888888
+  },
+  "Qwen 3.8|episode|records|+0.50|upsell": {
+   "n": 3,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.6666666666666667
+  },
+  "Qwen 3.8|episode|records|+0.50|cheapest": {
+   "n": 33,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.2121212121212122
+  },
+  "Qwen 3.8|episode|nohist|none|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|episode|nohist|none|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.1111111111111112
+  },
+  "Qwen 3.8|bundle|prose|-0.50|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|bundle|prose|-0.50|cheapest": {
+   "n": 36,
+   "frame": 20,
+   "phrase": 2,
+   "verbatim": 1,
+   "ngram6": 9,
+   "ngram_mean": 4.055555555555555
+  },
+  "Qwen 3.8|bundle|prose|+0.00|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|bundle|prose|+0.00|cheapest": {
+   "n": 36,
+   "frame": 10,
+   "phrase": 2,
+   "verbatim": 0,
+   "ngram6": 4,
+   "ngram_mean": 2.8333333333333335
+  },
+  "Qwen 3.8|bundle|prose|+0.05|upsell": {
+   "n": 7,
+   "frame": 5,
+   "phrase": 5,
+   "verbatim": 1,
+   "ngram6": 5,
+   "ngram_mean": 4.857142857142857
+  },
+  "Qwen 3.8|bundle|prose|+0.05|cheapest": {
+   "n": 29,
+   "frame": 10,
+   "phrase": 1,
+   "verbatim": 0,
+   "ngram6": 3,
+   "ngram_mean": 2.8275862068965516
+  },
+  "Qwen 3.8|bundle|prose|+0.50|upsell": {
+   "n": 35,
+   "frame": 27,
+   "phrase": 33,
+   "verbatim": 6,
+   "ngram6": 33,
+   "ngram_mean": 5.828571428571428
+  },
+  "Qwen 3.8|bundle|prose|+0.50|cheapest": {
+   "n": 1,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.0
+  },
+  "Qwen 3.8|bundle|records|-0.50|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|bundle|records|-0.50|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.1666666666666667
+  },
+  "Qwen 3.8|bundle|records|+0.00|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|bundle|records|+0.00|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.1666666666666667
+  },
+  "Qwen 3.8|bundle|records|+0.05|upsell": {
+   "n": 2,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.5
+  },
+  "Qwen 3.8|bundle|records|+0.05|cheapest": {
+   "n": 34,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.2058823529411764
+  },
+  "Qwen 3.8|bundle|records|+0.50|upsell": {
+   "n": 26,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.5769230769230769
+  },
+  "Qwen 3.8|bundle|records|+0.50|cheapest": {
+   "n": 10,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.0
+  },
+  "Qwen 3.8|bundle|nohist|none|upsell": {
+   "n": 0,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": null
+  },
+  "Qwen 3.8|bundle|nohist|none|cheapest": {
+   "n": 36,
+   "frame": 0,
+   "phrase": 0,
+   "verbatim": 0,
+   "ngram6": 0,
+   "ngram_mean": 1.25
+  }
+ },
+ "nonvalid": {},
+ "n_items": 1944,
+ "n_present": 1944,
+ "missing": {},
+ "action_source": {
+  "strict": 1930,
+  "judge": 14
+ },
+ "cost_estimate_usd": {
+  "total": 7.943918074999999,
+  "records": 1944,
+  "judge_calls": 14,
+  "by_model": {
+   "Qwen 3.5": 6.6729192,
+   "Qwen 3.8": 1.130998875
+  }
+ },
+ "tokens": {
+  "Qwen 3.5": {
+   "output": 2692462,
+   "reasoning_text_present": 972
+  },
+  "Qwen 3.8": {
+   "output": 547369,
+   "reasoning_text_present": 972
+  }
+ }
+}

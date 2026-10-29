@@ -1,0 +1,107 @@
+{
+  "exp": "applicability",
+  "label": "PRE-REGISTERED",
+  "frozen_at": "2026-10-29T03:10:08+00:00",
+  "design": {
+    "retained_subtypes": [
+      "keyword",
+      "json",
+      "lowercase"
+    ],
+    "blocks_per_subtype": 24,
+    "note": "10B; all three eligible"
+  },
+  "prompts_sha256": "371a88c4c588fbf2d433bdad99f4447c3c50f34c7a3189527a39e6f565f22015",
+  "n_items": 2592,
+  "counts": {
+    "Qwen 3.5|keyword": 432,
+    "Qwen 3.8|keyword": 432,
+    "Qwen 3.5|json": 432,
+    "Qwen 3.8|json": 432,
+    "Qwen 3.5|lowercase": 432,
+    "Qwen 3.8|lowercase": 432
+  },
+  "code_sha256": {
+    "ifeval_adapter.py": "76ceb862369a6f4b3be723d940fb0357d89d159ebdfdd04d0ab1a9873f4fb525",
+    "ig_render.py": "f1ada1362f2d43b855ce37eaa41d9e86890d634e6a12dabd4dc9c683d9294ab0",
+    "ig_generate.py": "541e56855cb22be34806cd4c76c77f5ff1b0988127b05da670aa47e29393674d",
+    "ig_score.py": "c223bbc06af8939a8b0e8ede6a871a35aee72ec13fd60f167766b2ff9346fadd",
+    "ig_freeze.py": "50f57c3ad0e3f5e0e535734a2470834506733c383a6ada8838fb801735a1eb62",
+    "build_registry.py": "e4a4b6592ef4fd7d4c710628492744836d0200fb65a54e2d80cb760477ff77b8",
+    "registry/blocks.json": "47f62f976373ef0acd14cbcfc86c0b8b655ca94821e6202251414ef3f7ce2148",
+    "PROTOCOL.md": "d9e866a96f56cf4d98b71f6cec05b26ab4c3a21decb782735459115a3edd19b2",
+    "ig_judge.py": "dce1a06f58c92be4c4be01421b82230c2c30da6f4ac9a69f42ca6c513c222786",
+    "ig_analysis.py": "aadc76bd5a53337fef409817457a93fac5a2f8c7eae42f408ef79ca0a6e6bccc",
+    "ig_checks.py": "19f25e66855fb3c7a65c60e3ecdb506deea6df1f165ab6e76ed0d12fdf963980",
+    "experiment.grading.3way.json": "1e4dec1120084b442f7b0effd4f1a666e6999493a87860878c8aac039e49ac73",
+    "src/model_diffing/petri_task.py": "133ce9551cb39c1a21b0a2063920700551b6d48810fd2a42265e74c2dc180ea5",
+    "designs/ifeval_incidental_grader/vendor/gr/instruction_following_eval/instructions.py": "60e086f5342a03ce8e18b64bbcccf86308f523c08aa826707a562150a52f3edf",
+    "designs/ifeval_incidental_grader/vendor/gr/instruction_following_eval/instructions_registry.py": "ec92d72c264f6d906978613085db262356174300370a3fffe6fefd5969ce9cfc",
+    "designs/ifeval_incidental_grader/vendor/gr/instruction_following_eval/instructions_util.py": "a73797261eee5bf447e279d82a2b700b1bdd3cb1193412dbab1270a85832bc6b"
+  },
+  "serving": {
+    "targets": [
+      {
+        "label": "Qwen 3.5",
+        "model": "openrouter/qwen/qwen3.5-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "novita/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.8",
+        "model": "openrouter/qwen/qwen3.8-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "deepinfra/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 32768,
+    "timeout": 1200
+  },
+  "prices": {
+    "Qwen 3.5": [
+      0.26,
+      2.6
+    ],
+    "Qwen 3.8": [
+      0.039,
+      1.25
+    ]
+  },
+  "concurrency_per_model": 16,
+  "max_steps": 3,
+  "max_attempts": 3,
+  "guards": {
+    "ledger_stop": 550.0,
+    "account_daily_stop": 1500.0
+  },
+  "amended": [
+    {
+      "file": "ig_analysis.py",
+      "old": "5e1044c628d08b4c5ca8405f84b3f04625b1457013f4b74357d1a23e4407b8e9",
+      "new": "aadc76bd5a53337fef409817457a93fac5a2f8c7eae42f408ef79ca0a6e6bccc",
+      "note": "AMENDMENTS.md #1"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{"at": "2026-10-29T03:20:23+00:00", "seconds": 544.7, "stats": {"valid": 948}, "left": 1740, "spent": 1.189574, "budget_usd": 40.0, "budget_stop": false}
+{"at": "2026-10-29T03:28:44+00:00", "seconds": 498.3, "stats": {"valid": 1106}, "left": 634, "spent": 2.430371, "budget_usd": 40.0, "budget_stop": false}
+{"at": "2026-10-29T03:37:21+00:00", "seconds": 515.7, "stats": {"valid": 406}, "left": 228, "spent": 3.081853, "budget_usd": 40.0, "budget_stop": false}
+{"at": "2026-10-29T03:42:20+00:00", "seconds": 296.5, "stats": {"valid": 228}, "left": 0, "spent": 3.459285, "budget_usd": 40.0, "budget_stop": false}

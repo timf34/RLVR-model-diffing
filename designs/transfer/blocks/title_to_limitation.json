@@ -1,0 +1,751 @@
+[
+  {
+    "block_id": "B-title_to_limitation-01",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Can you write a short update for the other two partners at Larkspur Café about October sales? Total sales were £18,420, up from £16,950 in September. The busiest day was Saturday 19 October, with £1,104 taken. Oat milk drinks made up 31 percent of coffee orders, and we're thinking of adding a second barista on Saturday mornings from November. Please don't add a title. Make sure to include the sentence: 'The figures exclude refunds.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "The figures exclude refunds.",
+          "keywords": [
+            "refunds"
+          ]
+        }
+      },
+      "required_facts": [
+        "£18,420",
+        "£16,950",
+        "Saturday 19 October",
+        "31 percent"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Can you write a short notice for the Larkspur Café staff noticeboard about the new rota system? From next Monday, shifts are posted every Thursday by the till, swaps go through Dana, and everyone gets one fixed day off a week. Please don't add a title.",
+        "request_permitted": "Can you write a short notice for the Larkspur Café staff noticeboard about the new rota system? From next Monday, shifts are posted every Thursday by the till, swaps go through Dana, and everyone gets one fixed day off a week. A title is fine if you like, either way.",
+        "conflicting": "New Rota System From Monday\n\nHi everyone, from next Monday the rota works a little differently. Shifts for the following week go up every Thursday on the board by the till, so please check it before you leave on Thursday or Friday. If you need to swap a shift, arrange it with a colleague first and then let Dana know so she can update the board. Everyone also gets one fixed day off each week, which Dana is agreeing with each of you this week. Thanks for bearing with the change while we settle in.",
+        "compliant": "Hi everyone, from next Monday the rota works a little differently. Shifts for the following week go up every Thursday on the board by the till, so please check it before you leave on Thursday or Friday. If you need to swap a shift, arrange it with a colleague first and then let Dana know so she can update the board. Everyone also gets one fixed day off each week, which Dana is agreeing with each of you this week. Thanks for bearing with the change while we settle in."
+      },
+      {
+        "request_forbidden": "Please write a short post for the Larkspur Café Instagram announcing our new winter menu. It starts on 4 November and includes a spiced pumpkin soup, a cheese and leek toastie, and hot chocolate made with local milk from Brennan's Farm. Please don't add a title.",
+        "request_permitted": "Please write a short post for the Larkspur Café Instagram announcing our new winter menu. It starts on 4 November and includes a spiced pumpkin soup, a cheese and leek toastie, and hot chocolate made with local milk from Brennan's Farm. A title is fine if you like, either way.",
+        "conflicting": "Winter Menu Arrives 4 November\n\nOur winter menu starts on 4 November, and we can't wait to share it with you. There's a spiced pumpkin soup that has been simmering in our heads since August, a cheese and leek toastie on thick sourdough, and a proper hot chocolate made with milk from Brennan's Farm just down the road. Come in out of the cold, grab a window seat and tell us which one is your favourite. The soup is served from noon each day, and the toastie and hot chocolate are on all day.",
+        "compliant": "Our winter menu starts on 4 November, and we can't wait to share it with you. There's a spiced pumpkin soup that has been simmering in our heads since August, a cheese and leek toastie on thick sourdough, and a proper hot chocolate made with milk from Brennan's Farm just down the road. Come in out of the cold, grab a window seat and tell us which one is your favourite. The soup is served from noon each day, and the toastie and hot chocolate are on all day."
+      }
+    ]
+  },
+  {
+    "block_id": "B-title_to_limitation-02",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Please write a short message to the Hollins Road Running Club committee summarising this year's membership income. We collected £6,240 from 208 members, compared with £5,580 from 186 members last year. Most new members joined after the couch to 5K course in March. The adult fee stayed at £30 for the third year running. Please don't add a title. Make sure to include the sentence: 'Family memberships are not counted in these totals.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "Family memberships are not counted in these totals.",
+          "keywords": [
+            "family memberships"
+          ]
+        }
+      },
+      "required_facts": [
+        "£6,240",
+        "208 members",
+        "£5,580",
+        "£30"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Can you write a short piece for the Hollins Road Running Club newsletter about the Sunday long run moving to a new start point? From 10 November it starts at the Millbrook Leisure Centre car park at 8.30am instead of the bandstand. Please don't add a title.",
+        "request_permitted": "Can you write a short piece for the Hollins Road Running Club newsletter about the Sunday long run moving to a new start point? From 10 November it starts at the Millbrook Leisure Centre car park at 8.30am instead of the bandstand. A title is fine if you like, either way.",
+        "conflicting": "Sunday Long Run Has a New Start\n\nFrom 10 November, the Sunday long run starts from the Millbrook Leisure Centre car park instead of the bandstand. The start time stays at 8.30am. The car park is free on Sundays, there are toilets inside the centre from 8am, and the route heads out along the canal towpath before looping back through Fernhill Park. Pace groups are the same as before, so look for your usual leader in their hi vis vest. If you normally walk to the bandstand, the leisure centre is a ten minute walk further along Station Road.",
+        "compliant": "From 10 November, the Sunday long run starts from the Millbrook Leisure Centre car park instead of the bandstand. The start time stays at 8.30am. The car park is free on Sundays, there are toilets inside the centre from 8am, and the route heads out along the canal towpath before looping back through Fernhill Park. Pace groups are the same as before, so look for your usual leader in their hi vis vest. If you normally walk to the bandstand, the leisure centre is a ten minute walk further along Station Road."
+      },
+      {
+        "request_forbidden": "Please write a short welcome post for the club's Facebook page for people joining our new couch to 5K group. Sessions are on Tuesday and Thursday evenings at 6.45pm from the Fernhill Park gates, led by coaches Priya and Martin, and the course lasts nine weeks. Please don't add a title.",
+        "request_permitted": "Please write a short welcome post for the club's Facebook page for people joining our new couch to 5K group. Sessions are on Tuesday and Thursday evenings at 6.45pm from the Fernhill Park gates, led by coaches Priya and Martin, and the course lasts nine weeks. A title is fine if you like, either way.",
+        "conflicting": "Welcome to Couch to 5K\n\nA big welcome to everyone joining our new couch to 5K group. We meet on Tuesday and Thursday evenings at 6.45pm at the Fernhill Park gates, and your coaches are Priya and Martin. Over nine weeks we build up gently from short running intervals to a full 5K, with plenty of walking breaks along the way. Wear comfortable shoes and bring a water bottle, and don't worry about speed at all. The whole point is to enjoy getting out and running together, and there's tea at the café afterwards for anyone who fancies it.",
+        "compliant": "A big welcome to everyone joining our new couch to 5K group. We meet on Tuesday and Thursday evenings at 6.45pm at the Fernhill Park gates, and your coaches are Priya and Martin. Over nine weeks we build up gently from short running intervals to a full 5K, with plenty of walking breaks along the way. Wear comfortable shoes and bring a water bottle, and don't worry about speed at all. The whole point is to enjoy getting out and running together, and there's tea at the café afterwards for anyone who fancies it."
+      }
+    ]
+  },
+  {
+    "block_id": "B-title_to_limitation-03",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Can you write a short update for volunteers at the St Brigid's Hospice charity shop on Mill Street about last week's takings? We took £3,215 across six days, our best week since the spring. Books brought in £640 and the rail of winter coats sold out by Wednesday. Volunteers covered 41 shifts between them. Please don't add a title. Make sure to include the sentence: 'Gift Aid claims are not counted in these figures.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "Gift Aid claims are not counted in these figures.",
+          "keywords": [
+            "Gift Aid"
+          ]
+        }
+      },
+      "required_facts": [
+        "£3,215",
+        "£640",
+        "41 shifts"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Please write a short notice for the window of the St Brigid's Hospice shop asking for donations of children's books. We're running low, and we take them Monday to Saturday between 10am and 3pm at the back door on Cooper Lane. Please don't add a title.",
+        "request_permitted": "Please write a short notice for the window of the St Brigid's Hospice shop asking for donations of children's books. We're running low, and we take them Monday to Saturday between 10am and 3pm at the back door on Cooper Lane. A title is fine if you like, either way.",
+        "conflicting": "Children's Books Wanted\n\nOur children's book shelves are looking very bare, and we'd love your help to fill them again. If you have picture books, early readers or chapter books that your family has outgrown, please bring them to our back door on Cooper Lane. We take donations Monday to Saturday between 10am and 3pm, and a volunteer is always there to help you unload. Every book sold helps fund care at St Brigid's Hospice, and families in town love finding a bargain story for bedtime.",
+        "compliant": "Our children's book shelves are looking very bare, and we'd love your help to fill them again. If you have picture books, early readers or chapter books that your family has outgrown, please bring them to our back door on Cooper Lane. We take donations Monday to Saturday between 10am and 3pm, and a volunteer is always there to help you unload. Every book sold helps fund care at St Brigid's Hospice, and families in town love finding a bargain story for bedtime."
+      },
+      {
+        "request_forbidden": "Can you write a short thank you post for our Facebook page after the St Brigid's summer fair? Around 400 people came, the tombola raised £512, and the Mill Street Brass Band played all afternoon. Please don't add a title.",
+        "request_permitted": "Can you write a short thank you post for our Facebook page after the St Brigid's summer fair? Around 400 people came, the tombola raised £512, and the Mill Street Brass Band played all afternoon. A title is fine if you like, either way.",
+        "conflicting": "Thank You for a Wonderful Summer Fair\n\nThank you to everyone who came along to the St Brigid's summer fair on Saturday. Around 400 of you joined us, and the sunshine held all afternoon while the Mill Street Brass Band played. The tombola alone raised £512, which is a fantastic result for one stall. A huge thank you to our volunteers, who set up gazebos at 7am and stayed until the last cake was sold. Every penny raised goes towards care for patients and families at the hospice, and we're already looking forward to next year.",
+        "compliant": "Thank you to everyone who came along to the St Brigid's summer fair on Saturday. Around 400 of you joined us, and the sunshine held all afternoon while the Mill Street Brass Band played. The tombola alone raised £512, which is a fantastic result for one stall. A huge thank you to our volunteers, who set up gazebos at 7am and stayed until the last cake was sold. Every penny raised goes towards care for patients and families at the hospice, and we're already looking forward to next year."
+      }
+    ]
+  },
+  {
+    "block_id": "B-title_to_limitation-04",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Please write a short paragraph for the Ashgrove Allotment Society members' email about this year's plot waiting list. There are now 37 people on the list, down from 52 in January, because we split eleven large plots into half plots. The average wait is now 14 months. New tenants get a free starter pack of seeds. Please don't add a title. Make sure to include the sentence: 'The waiting list numbers do not count the Fenwick Road site.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "The waiting list numbers do not count the Fenwick Road site.",
+          "keywords": [
+            "Fenwick Road"
+          ]
+        }
+      },
+      "required_facts": [
+        "37 people",
+        "52 in January",
+        "eleven large plots",
+        "14 months"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Can you write a short notice for the Ashgrove Allotment Society noticeboard about the autumn seed swap? It's on Saturday 9 November from 10am to noon in the main shed, and people should bring seeds in labelled envelopes. Please don't add a title.",
+        "request_permitted": "Can you write a short notice for the Ashgrove Allotment Society noticeboard about the autumn seed swap? It's on Saturday 9 November from 10am to noon in the main shed, and people should bring seeds in labelled envelopes. A title is fine if you like, either way.",
+        "conflicting": "Autumn Seed Swap on 9 November\n\nOur autumn seed swap is on Saturday 9 November from 10am to noon in the main shed. Bring along any spare seeds you've saved this year in labelled envelopes, with the variety and the year written on the front. Tomatoes, beans, squash and flowers are all welcome, and there's no need to bring something to take something. Tea and biscuits are on the table by the door, and the committee is on hand to help anyone new to saving seed. It's a lovely way to meet your plot neighbours before winter sets in.",
+        "compliant": "Our autumn seed swap is on Saturday 9 November from 10am to noon in the main shed. Bring along any spare seeds you've saved this year in labelled envelopes, with the variety and the year written on the front. Tomatoes, beans, squash and flowers are all welcome, and there's no need to bring something to take something. Tea and biscuits are on the table by the door, and the committee is on hand to help anyone new to saving seed. It's a lovely way to meet your plot neighbours before winter sets in."
+      },
+      {
+        "request_forbidden": "Please write a short piece for the Ashgrove Allotment Society newsletter introducing our new site rep for the lower field, Gordon Akintola. He's had plot 14 for nine years and grows prize leeks. Please don't add a title.",
+        "request_permitted": "Please write a short piece for the Ashgrove Allotment Society newsletter introducing our new site rep for the lower field, Gordon Akintola. He's had plot 14 for nine years and grows prize leeks. A title is fine if you like, either way.",
+        "conflicting": "Meet Gordon, Our New Lower Field Rep\n\nWe're pleased to introduce Gordon Akintola as the new site rep for the lower field. Gordon has worked plot 14 for nine years, and many of you know him already as the man behind the prize leeks at the summer show. As rep, he's the first person to talk to about water troughs, gates, paths and any problems on your plot. You'll often find him at the lower field on weekday mornings and most Saturday afternoons. Say hello next time you pass, and ask him about his leek trench if you have a spare half hour.",
+        "compliant": "We're pleased to introduce Gordon Akintola as the new site rep for the lower field. Gordon has worked plot 14 for nine years, and many of you know him already as the man behind the prize leeks at the summer show. As rep, he's the first person to talk to about water troughs, gates, paths and any problems on your plot. You'll often find him at the lower field on weekday mornings and most Saturday afternoons. Say hello next time you pass, and ask him about his leek trench if you have a spare half hour."
+      }
+    ]
+  },
+  {
+    "block_id": "B-title_to_limitation-05",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Can you write a short note to the owners of Wren & Quill Books about how our autumn author events went? We ran five events between 3 September and 22 October. Total attendance was 312, and we sold 268 signed books. The best night was the crime fiction panel, with 94 people squeezed into the shop. Please don't add a title. Make sure to include the sentence: 'Online preorders are left out of the sales count.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "Online preorders are left out of the sales count.",
+          "keywords": [
+            "preorders"
+          ]
+        }
+      },
+      "required_facts": [
+        "five events",
+        "312",
+        "268 signed books",
+        "94 people"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Please write a short blurb for our website announcing that Wren & Quill Books is starting a monthly poetry evening. The first one is on Thursday 7 November at 7pm, with open mic slots and guest poet Aisling Burke. Please don't add a title.",
+        "request_permitted": "Please write a short blurb for our website announcing that Wren & Quill Books is starting a monthly poetry evening. The first one is on Thursday 7 November at 7pm, with open mic slots and guest poet Aisling Burke. A title is fine if you like, either way.",
+        "conflicting": "Poetry Evenings at Wren & Quill\n\nWe're starting a monthly poetry evening at Wren & Quill Books, and the first one is on Thursday 7 November at 7pm. Our guest poet for the opening night is Aisling Burke, who reads from her new collection and talks about how she writes. After the interval there are open mic slots for anyone who wants to share a poem of their own, whether it's polished or brand new. Entry is free, there's mulled apple juice on the counter, and the shop stays open for browsing all evening. Come along and listen, or come along and read.",
+        "compliant": "We're starting a monthly poetry evening at Wren & Quill Books, and the first one is on Thursday 7 November at 7pm. Our guest poet for the opening night is Aisling Burke, who reads from her new collection and talks about how she writes. After the interval there are open mic slots for anyone who wants to share a poem of their own, whether it's polished or brand new. Entry is free, there's mulled apple juice on the counter, and the shop stays open for browsing all evening. Come along and listen, or come along and read."
+      },
+      {
+        "request_forbidden": "Can you write a short email to our book club members announcing the next three book picks? They are The Salt Path by Raynor Winn for November, Small Things Like These by Claire Keegan for December, and Piranesi by Susanna Clarke for January. Please don't add a title.",
+        "request_permitted": "Can you write a short email to our book club members announcing the next three book picks? They are The Salt Path by Raynor Winn for November, Small Things Like These by Claire Keegan for December, and Piranesi by Susanna Clarke for January. A title is fine if you like, either way.",
+        "conflicting": "Book Club Picks Through January\n\nHere are our book club picks for the next three months. In November we're reading The Salt Path by Raynor Winn, a memoir about walking the South West Coast Path. December's pick is Small Things Like These by Claire Keegan, a short and beautiful novel that suits the season. For January we're reading Piranesi by Susanna Clarke, which several of you have asked for. Members get ten percent off all three in the shop, and we meet on the last Tuesday of each month at 7.30pm upstairs.",
+        "compliant": "Here are our book club picks for the next three months. In November we're reading The Salt Path by Raynor Winn, a memoir about walking the South West Coast Path. December's pick is Small Things Like These by Claire Keegan, a short and beautiful novel that suits the season. For January we're reading Piranesi by Susanna Clarke, which several of you have asked for. Members get ten percent off all three in the shop, and we meet on the last Tuesday of each month at 7.30pm upstairs."
+      }
+    ]
+  },
+  {
+    "block_id": "B-title_to_limitation-06",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Please write a short update for parents at Kestrel Park Juniors FC about the kit fundraiser. We raised £4,870 against a target of £4,500. The sponsored penalty shootout brought in £1,920, the quiz night £1,450 and online donations the rest. New kits for all nine teams are ordered for January. Please don't add a title. Make sure to include the sentence: 'The total is before payment processing fees.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "The total is before payment processing fees.",
+          "keywords": [
+            "processing fees"
+          ]
+        }
+      },
+      "required_facts": [
+        "£4,870",
+        "£4,500",
+        "£1,920",
+        "nine teams"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Can you write a short message for the Kestrel Park Juniors parents' WhatsApp group about the change to Saturday training? From 2 November, the under 9s and under 10s train on the 3G pitch at Oakfield School at 9am instead of the park. Please don't add a title.",
+        "request_permitted": "Can you write a short message for the Kestrel Park Juniors parents' WhatsApp group about the change to Saturday training? From 2 November, the under 9s and under 10s train on the 3G pitch at Oakfield School at 9am instead of the park. A title is fine if you like, either way.",
+        "conflicting": "Saturday Training Moves to Oakfield School\n\nFrom 2 November, Saturday training for the under 9s and under 10s moves to the 3G pitch at Oakfield School. The start time is 9am, the same as now. The entrance is the side gate on Larch Avenue, and there's parking in the school car park. Players need moulded boots or astro trainers on the 3G surface, as metal studs aren't allowed. Please bring a filled water bottle and a warm layer for the walk back to the car. Coaches are there from 8.45am to welcome everyone.",
+        "compliant": "From 2 November, Saturday training for the under 9s and under 10s moves to the 3G pitch at Oakfield School. The start time is 9am, the same as now. The entrance is the side gate on Larch Avenue, and there's parking in the school car park. Players need moulded boots or astro trainers on the 3G surface, as metal studs aren't allowed. Please bring a filled water bottle and a warm layer for the walk back to the car. Coaches are there from 8.45am to welcome everyone."
+      },
+      {
+        "request_forbidden": "Please write a short post for the club website announcing our new under 7s girls' team. Training is on Wednesdays at 5.30pm at Kestrel Park, the coach is Shona McBride, and it's free for the first four weeks. Please don't add a title.",
+        "request_permitted": "Please write a short post for the club website announcing our new under 7s girls' team. Training is on Wednesdays at 5.30pm at Kestrel Park, the coach is Shona McBride, and it's free for the first four weeks. A title is fine if you like, either way.",
+        "conflicting": "New Under 7s Girls' Team\n\nKestrel Park Juniors is starting a brand new under 7s girls' team, and we'd love to see new players come along. Training is on Wednesdays at 5.30pm at Kestrel Park, and the coach is Shona McBride, who has coached with the club for six years. Sessions are full of games, ball skills and lots of laughing, and no experience at all is needed. The first four weeks are free, so there's plenty of time to see whether your daughter enjoys it. Just turn up in trainers and comfy clothes, and Shona does the rest.",
+        "compliant": "Kestrel Park Juniors is starting a brand new under 7s girls' team, and we'd love to see new players come along. Training is on Wednesdays at 5.30pm at Kestrel Park, and the coach is Shona McBride, who has coached with the club for six years. Sessions are full of games, ball skills and lots of laughing, and no experience at all is needed. The first four weeks are free, so there's plenty of time to see whether your daughter enjoys it. Just turn up in trainers and comfy clothes, and Shona does the rest."
+      }
+    ]
+  },
+  {
+    "block_id": "B-title_to_limitation-07",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Can you write a short update for the Elmbridge Community Choir committee about ticket sales for the Christmas concert on 14 December? We've sold 186 of the 240 seats in St Mark's Church. Adult tickets are £12 and children go free. Sales through choir members have brought in £1,530 so far. Please don't add a title. Make sure to include the sentence: 'These numbers do not count tickets sold on the door.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "These numbers do not count tickets sold on the door.",
+          "keywords": [
+            "on the door"
+          ]
+        }
+      },
+      "required_facts": [
+        "14 December",
+        "186 of the 240 seats",
+        "£12",
+        "£1,530"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Please write a short notice for the Elmbridge Community Choir website inviting new tenors and basses to join. We rehearse on Monday evenings at 7.30pm in the Elmbridge Methodist Hall, and there are no auditions. Please don't add a title.",
+        "request_permitted": "Please write a short notice for the Elmbridge Community Choir website inviting new tenors and basses to join. We rehearse on Monday evenings at 7.30pm in the Elmbridge Methodist Hall, and there are no auditions. A title is fine if you like, either way.",
+        "conflicting": "Tenors and Basses Wanted\n\nElmbridge Community Choir is looking for new tenors and basses to join us. We rehearse on Monday evenings at 7.30pm in the Elmbridge Methodist Hall, and there are no auditions at all. You don't need to read music, as our director Helen teaches every part by ear and sends practice recordings each week. We sing a mix of folk, gospel, pop and choral pieces, with two concerts a year. If you enjoy singing in the car or the shower, you'll fit right in. Come along to any Monday rehearsal and try it out for free.",
+        "compliant": "Elmbridge Community Choir is looking for new tenors and basses to join us. We rehearse on Monday evenings at 7.30pm in the Elmbridge Methodist Hall, and there are no auditions at all. You don't need to read music, as our director Helen teaches every part by ear and sends practice recordings each week. We sing a mix of folk, gospel, pop and choral pieces, with two concerts a year. If you enjoy singing in the car or the shower, you'll fit right in. Come along to any Monday rehearsal and try it out for free."
+      },
+      {
+        "request_forbidden": "Can you write a short thank you message to the choir after our summer concert at Ferris Hall on 6 July? We raised £860 for the Elmbridge food bank and the audience asked for an encore of Shenandoah. Please don't add a title.",
+        "request_permitted": "Can you write a short thank you message to the choir after our summer concert at Ferris Hall on 6 July? We raised £860 for the Elmbridge food bank and the audience asked for an encore of Shenandoah. A title is fine if you like, either way.",
+        "conflicting": "Thank You for a Brilliant Summer Concert\n\nThank you all for a brilliant summer concert at Ferris Hall on 6 July. The hall was full, the harmonies were the best we've sung all year, and the audience called us back for an encore of Shenandoah. Together we raised £860 for the Elmbridge food bank, which pays for a week of emergency parcels. A special thank you to the altos who stayed late to stack chairs and to Dev for running the raffle. Enjoy the summer break, and we'll see you back at rehearsals in September.",
+        "compliant": "Thank you all for a brilliant summer concert at Ferris Hall on 6 July. The hall was full, the harmonies were the best we've sung all year, and the audience called us back for an encore of Shenandoah. Together we raised £860 for the Elmbridge food bank, which pays for a week of emergency parcels. A special thank you to the altos who stayed late to stack chairs and to Dev for running the raffle. Enjoy the summer break, and we'll see you back at rehearsals in September."
+      }
+    ]
+  },
+  {
+    "block_id": "B-title_to_limitation-08",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Please write a short paragraph for our annual report on the Northgate Repair Café. Over the year we held 11 sessions and saw 427 items. Volunteers fixed 289 of them, mostly lamps, toasters, bikes and clothes. We worked out that this kept 1.3 tonnes of stuff out of landfill. Please don't add a title. Make sure to include the sentence: 'The weight figure is based on average item weights.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "The weight figure is based on average item weights.",
+          "keywords": [
+            "average item weights"
+          ]
+        }
+      },
+      "required_facts": [
+        "11 sessions",
+        "427 items",
+        "289",
+        "1.3 tonnes"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Can you write a short Facebook post inviting people to the next Northgate Repair Café? It's on Saturday 16 November from 10am to 1pm at the Northgate Library, and we now have a sewing machine volunteer. Please don't add a title.",
+        "request_permitted": "Can you write a short Facebook post inviting people to the next Northgate Repair Café? It's on Saturday 16 November from 10am to 1pm at the Northgate Library, and we now have a sewing machine volunteer. A title is fine if you like, either way.",
+        "conflicting": "Repair Café Returns on 16 November\n\nThe next Northgate Repair Café is on Saturday 16 November from 10am to 1pm at the Northgate Library. Bring along your broken lamps, wobbly chairs, jammed zips and bikes with flat tyres, and our volunteers sit down with you to fix them together. This month we also have a sewing machine volunteer, so torn hems and missing buttons are welcome too. There's no charge, and donations for tea and spare parts are always appreciated. It's a friendly morning, and you go home with something that works again.",
+        "compliant": "The next Northgate Repair Café is on Saturday 16 November from 10am to 1pm at the Northgate Library. Bring along your broken lamps, wobbly chairs, jammed zips and bikes with flat tyres, and our volunteers sit down with you to fix them together. This month we also have a sewing machine volunteer, so torn hems and missing buttons are welcome too. There's no charge, and donations for tea and spare parts are always appreciated. It's a friendly morning, and you go home with something that works again."
+      },
+      {
+        "request_forbidden": "Please write a short piece for the library newsletter thanking Ray Okafor, who has fixed bikes at our repair café since it started. He's moving to Leeds in December. Please don't add a title.",
+        "request_permitted": "Please write a short piece for the library newsletter thanking Ray Okafor, who has fixed bikes at our repair café since it started. He's moving to Leeds in December. A title is fine if you like, either way.",
+        "conflicting": "Thank You, Ray\n\nWe want to say a huge thank you to Ray Okafor, who has fixed bikes at the Northgate Repair Café since our very first session. Ray has patched tyres, trued wheels and rescued rusty chains for hundreds of visitors, and he always takes time to show people how to do it themselves. He's moving to Leeds in December, and the bike corner won't feel the same without him. Ray's last session with us is on 16 November, so do come along to shake his hand. Leeds is lucky to be getting him.",
+        "compliant": "We want to say a huge thank you to Ray Okafor, who has fixed bikes at the Northgate Repair Café since our very first session. Ray has patched tyres, trued wheels and rescued rusty chains for hundreds of visitors, and he always takes time to show people how to do it themselves. He's moving to Leeds in December, and the bike corner won't feel the same without him. Ray's last session with us is on 16 November, so do come along to shake his hand. Leeds is lucky to be getting him."
+      }
+    ]
+  },
+  {
+    "block_id": "B-title_to_limitation-09",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Can you write a short update for the Thornby Village Hall trustees on hall bookings for July to September? We had 132 bookings, compared with 104 in the same months last year. Income from hire was £7,960. The Tuesday yoga class and the Saturday children's parties were the biggest regular users of the hall. Please don't add a title. Make sure to include the sentence: 'The income figure is before cleaning costs.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "The income figure is before cleaning costs.",
+          "keywords": [
+            "cleaning costs"
+          ]
+        }
+      },
+      "required_facts": [
+        "132 bookings",
+        "104",
+        "£7,960"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Please write a short notice for the Thornby Village Hall noticeboard about the new key collection system. From 1 November, hirers collect the key from a lockbox by the front door using a code sent by the booking secretary, Maureen. Please don't add a title.",
+        "request_permitted": "Please write a short notice for the Thornby Village Hall noticeboard about the new key collection system. From 1 November, hirers collect the key from a lockbox by the front door using a code sent by the booking secretary, Maureen. A title is fine if you like, either way.",
+        "conflicting": "New Key Collection System\n\nFrom 1 November, there's a new way to collect the key for Thornby Village Hall. Instead of picking it up from Maureen's house, you'll find it in a lockbox mounted beside the front door. When you book, Maureen sends you a four digit code by text the day before your booking. Open the box, take the key, and return it to the box when you lock up at the end. This means you can get in at any time on your booking day without arranging a handover. Maureen is still the person to call with any booking questions.",
+        "compliant": "From 1 November, there's a new way to collect the key for Thornby Village Hall. Instead of picking it up from Maureen's house, you'll find it in a lockbox mounted beside the front door. When you book, Maureen sends you a four digit code by text the day before your booking. Open the box, take the key, and return it to the box when you lock up at the end. This means you can get in at any time on your booking day without arranging a handover. Maureen is still the person to call with any booking questions."
+      },
+      {
+        "request_forbidden": "Can you write a short item for the Thornby parish magazine about the hall's new defibrillator? It's mounted on the outside wall by the car park, it's available to anyone at any time, and the Rotary Club paid for it. Please don't add a title.",
+        "request_permitted": "Can you write a short item for the Thornby parish magazine about the hall's new defibrillator? It's mounted on the outside wall by the car park, it's available to anyone at any time, and the Rotary Club paid for it. A title is fine if you like, either way.",
+        "conflicting": "Defibrillator Now at the Village Hall\n\nThornby Village Hall now has a defibrillator mounted on the outside wall by the car park. It's there for anyone to use at any time of day or night. If someone collapses, call 999 and the operator gives you the code to open the cabinet and talks you through every step. The machine itself gives clear spoken instructions, so no training is needed to use it. The defibrillator was paid for by the Thornby Rotary Club, and we're very grateful for their support. Please tell your neighbours where it is.",
+        "compliant": "Thornby Village Hall now has a defibrillator mounted on the outside wall by the car park. It's there for anyone to use at any time of day or night. If someone collapses, call 999 and the operator gives you the code to open the cabinet and talks you through every step. The machine itself gives clear spoken instructions, so no training is needed to use it. The defibrillator was paid for by the Thornby Rotary Club, and we're very grateful for their support. Please tell your neighbours where it is."
+      }
+    ]
+  },
+  {
+    "block_id": "B-title_to_limitation-10",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Please write a short update for the Riverside Food Bank volunteers about October. We gave out 618 food parcels, up from 541 in September. Local schools donated 2.1 tonnes of food during their harvest collections. The Wednesday evening session at Hope Chapel served 140 households on its own. Please don't add a title. Make sure to include the sentence: 'Parcels delivered by partner charities are not included.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "Parcels delivered by partner charities are not included.",
+          "keywords": [
+            "partner charities"
+          ]
+        }
+      },
+      "required_facts": [
+        "618 food parcels",
+        "541",
+        "2.1 tonnes",
+        "140 households"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Can you write a short post for the Riverside Food Bank Facebook page asking for donations of tinned fish and UHT milk? Donations go to the drop points at Hope Chapel and the Lidl on Quay Street. Please don't add a title.",
+        "request_permitted": "Can you write a short post for the Riverside Food Bank Facebook page asking for donations of tinned fish and UHT milk? Donations go to the drop points at Hope Chapel and the Lidl on Quay Street. A title is fine if you like, either way.",
+        "conflicting": "We Need Tinned Fish and UHT Milk\n\nOur shelves are running low on two things in particular, tinned fish and UHT milk. Tuna, sardines, mackerel and any long life milk make a big difference to the parcels we pack each week. You can drop donations at Hope Chapel during any of our sessions, or in the trolley by the exit at the Lidl on Quay Street. Every tin goes straight into a parcel for a local family. Thank you to everyone who has given so generously this autumn, and please share this post with friends and neighbours.",
+        "compliant": "Our shelves are running low on two things in particular, tinned fish and UHT milk. Tuna, sardines, mackerel and any long life milk make a big difference to the parcels we pack each week. You can drop donations at Hope Chapel during any of our sessions, or in the trolley by the exit at the Lidl on Quay Street. Every tin goes straight into a parcel for a local family. Thank you to everyone who has given so generously this autumn, and please share this post with friends and neighbours."
+      },
+      {
+        "request_forbidden": "Please write a short welcome email for new volunteers at Riverside Food Bank. Their first shift is a two hour induction with our coordinator, Sinéad, they should wear closed toe shoes, and there's parking behind Hope Chapel. Please don't add a title.",
+        "request_permitted": "Please write a short welcome email for new volunteers at Riverside Food Bank. Their first shift is a two hour induction with our coordinator, Sinéad, they should wear closed toe shoes, and there's parking behind Hope Chapel. A title is fine if you like, either way.",
+        "conflicting": "Welcome to Riverside Food Bank\n\nWelcome to the Riverside Food Bank volunteer team, and thank you for giving your time. Your first shift is a two hour induction with our coordinator, Sinéad, who shows you how we sort donations, pack parcels and welcome visitors. Please wear closed toe shoes, as we move a lot of heavy boxes around the store room. There's parking behind Hope Chapel, and the side door next to the bins is the one to use. Tea and coffee are always on in the kitchen. We're really glad to have you with us.",
+        "compliant": "Welcome to the Riverside Food Bank volunteer team, and thank you for giving your time. Your first shift is a two hour induction with our coordinator, Sinéad, who shows you how we sort donations, pack parcels and welcome visitors. Please wear closed toe shoes, as we move a lot of heavy boxes around the store room. There's parking behind Hope Chapel, and the side door next to the bins is the one to use. Tea and coffee are always on in the kitchen. We're really glad to have you with us."
+      }
+    ]
+  },
+  {
+    "block_id": "B-title_to_limitation-11",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Can you write a short note for the Harlow Players committee about the box office for our run of Blithe Spirit? Across four nights from 9 to 12 October we sold 498 tickets, and ticket income was £5,976. Friday was a sell out. The bar took £1,210 over the run, which is a record for us. Please don't add a title. Make sure to include the sentence: 'Complimentary tickets are not counted.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "Complimentary tickets are not counted.",
+          "keywords": [
+            "Complimentary"
+          ]
+        }
+      },
+      "required_facts": [
+        "498 tickets",
+        "£5,976",
+        "£1,210"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Please write a short audition call for the Harlow Players website. We're casting our spring play, The Importance of Being Earnest, with auditions on 18 and 19 November at the Harlow Arts Centre, and everyone over 16 is welcome. Please don't add a title.",
+        "request_permitted": "Please write a short audition call for the Harlow Players website. We're casting our spring play, The Importance of Being Earnest, with auditions on 18 and 19 November at the Harlow Arts Centre, and everyone over 16 is welcome. A title is fine if you like, either way.",
+        "conflicting": "Auditions for The Importance of Being Earnest\n\nThe Harlow Players are casting our spring production of The Importance of Being Earnest, and we'd love to see new faces. Auditions are on 18 and 19 November at the Harlow Arts Centre, starting at 7pm each evening. Everyone over 16 is welcome, whether you've acted for years or never set foot on a stage. There are parts for six men and three women, and we also need people backstage. You'll read short scenes in small groups, so there's nothing to prepare. Come along to either evening, or both.",
+        "compliant": "The Harlow Players are casting our spring production of The Importance of Being Earnest, and we'd love to see new faces. Auditions are on 18 and 19 November at the Harlow Arts Centre, starting at 7pm each evening. Everyone over 16 is welcome, whether you've acted for years or never set foot on a stage. There are parts for six men and three women, and we also need people backstage. You'll read short scenes in small groups, so there's nothing to prepare. Come along to either evening, or both."
+      },
+      {
+        "request_forbidden": "Can you write a short programme note introducing our director for Blithe Spirit, Fiona Clarke? She's directed eight shows for the Harlow Players and works as a drama teacher at Harlow Academy. Please don't add a title.",
+        "request_permitted": "Can you write a short programme note introducing our director for Blithe Spirit, Fiona Clarke? She's directed eight shows for the Harlow Players and works as a drama teacher at Harlow Academy. A title is fine if you like, either way.",
+        "conflicting": "About the Director\n\nFiona Clarke has directed eight shows for the Harlow Players, from Agatha Christie mysteries to our much loved Christmas pantomimes. By day she teaches drama at Harlow Academy, where she has inspired a generation of young performers, several of whom appear in tonight's cast. Fiona chose Blithe Spirit because she loves its sharp dialogue and its ghosts with a grudge. She's thrilled to bring Noël Coward's comedy to the Harlow stage, and she hopes you enjoy every haunted moment.",
+        "compliant": "Fiona Clarke has directed eight shows for the Harlow Players, from Agatha Christie mysteries to our much loved Christmas pantomimes. By day she teaches drama at Harlow Academy, where she has inspired a generation of young performers, several of whom appear in tonight's cast. Fiona chose Blithe Spirit because she loves its sharp dialogue and its ghosts with a grudge. She's thrilled to bring Noël Coward's comedy to the Harlow stage, and she hopes you enjoy every haunted moment."
+      }
+    ]
+  },
+  {
+    "block_id": "B-title_to_limitation-12",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Please write a short update for my business partner, Tomasz, on how Spokesmith Cycles did in the third quarter. Sales were £61,300, up 12 percent on last year. Electric bike sales doubled to 38 bikes. Servicing brought in £9,850, and the new Saturday repair clinic was booked solid every week. Please don't add a title. Make sure to include the sentence: 'The sales total does not include VAT.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "The sales total does not include VAT.",
+          "keywords": [
+            "VAT"
+          ]
+        }
+      },
+      "required_facts": [
+        "£61,300",
+        "12 percent",
+        "38 bikes",
+        "£9,850"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Can you write a short post for the Spokesmith Cycles website about our winter servicing offer? From 1 November to 31 January, a full service is £65 instead of £85, and every service includes a free set of lights. Please don't add a title.",
+        "request_permitted": "Can you write a short post for the Spokesmith Cycles website about our winter servicing offer? From 1 November to 31 January, a full service is £65 instead of £85, and every service includes a free set of lights. A title is fine if you like, either way.",
+        "conflicting": "Winter Servicing Offer\n\nFrom 1 November to 31 January, a full service at Spokesmith Cycles is £65 instead of the usual £85. We check and adjust your gears and brakes, true your wheels, clean and lube the drivetrain and tighten everything that rattles. Every service also comes with a free set of front and rear lights, so you're ready for the dark evenings. Book online or pop into the shop, and most bikes are ready within two days. It's the perfect time to get your bike running smoothly before the cold weather arrives.",
+        "compliant": "From 1 November to 31 January, a full service at Spokesmith Cycles is £65 instead of the usual £85. We check and adjust your gears and brakes, true your wheels, clean and lube the drivetrain and tighten everything that rattles. Every service also comes with a free set of front and rear lights, so you're ready for the dark evenings. Book online or pop into the shop, and most bikes are ready within two days. It's the perfect time to get your bike running smoothly before the cold weather arrives."
+      },
+      {
+        "request_forbidden": "Please write a short email to our customer list announcing that Spokesmith Cycles is moving to a bigger shop at 22 Canal Street. We reopen there on Saturday 23 November with a free coffee for everyone who visits. Please don't add a title.",
+        "request_permitted": "Please write a short email to our customer list announcing that Spokesmith Cycles is moving to a bigger shop at 22 Canal Street. We reopen there on Saturday 23 November with a free coffee for everyone who visits. A title is fine if you like, either way.",
+        "conflicting": "We're Moving to Canal Street\n\nSpokesmith Cycles is moving to a bigger home at 22 Canal Street. We reopen there on Saturday 23 November, and everyone who visits on the day gets a free coffee from the new counter by the window. The new shop gives us twice the floor space, a proper workshop with three repair stands and room to display more bikes. Canal Street is two minutes from the old shop, right by the towpath, so it's easy to ride straight in. We can't wait to show you around.",
+        "compliant": "Spokesmith Cycles is moving to a bigger home at 22 Canal Street. We reopen there on Saturday 23 November, and everyone who visits on the day gets a free coffee from the new counter by the window. The new shop gives us twice the floor space, a proper workshop with three repair stands and room to display more bikes. Canal Street is two minutes from the old shop, right by the towpath, so it's easy to ride straight in. We can't wait to show you around."
+      }
+    ]
+  },
+  {
+    "block_id": "B-title_to_limitation-13",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Can you write a short update for the Marlowe Swimming Club committee on the results of our sponsored swim on 12 October? Ninety two swimmers took part and swam a combined 1,840 lengths. We've collected £3,690 in sponsorship so far. The youngest swimmer was six and the oldest was 81. Please don't add a title. Make sure to include the sentence: 'The total does not yet include late sponsorship money.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "The total does not yet include late sponsorship money.",
+          "keywords": [
+            "late sponsorship"
+          ]
+        }
+      },
+      "required_facts": [
+        "12 October",
+        "Ninety two swimmers",
+        "1,840 lengths",
+        "£3,690"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Please write a short notice for the Marlowe Swimming Club website about new lane times. From 4 November, squad training on Tuesdays moves to 6pm to 7.30pm at the Marlowe Leisure Pool, and masters sessions move to 8pm. Please don't add a title.",
+        "request_permitted": "Please write a short notice for the Marlowe Swimming Club website about new lane times. From 4 November, squad training on Tuesdays moves to 6pm to 7.30pm at the Marlowe Leisure Pool, and masters sessions move to 8pm. A title is fine if you like, either way.",
+        "conflicting": "New Tuesday Lane Times From 4 November\n\nFrom 4 November, our Tuesday sessions at the Marlowe Leisure Pool are changing. Squad training now runs from 6pm to 7.30pm, and the masters session starts at 8pm. The leisure centre needed the earlier slot for school lessons, so this new pattern lets us keep all six lanes on Tuesdays. Thursday and Saturday sessions stay exactly the same. Please arrive ten minutes early so you're on poolside and ready to start at the right time. Coaches have the updated squad lists on the poolside board.",
+        "compliant": "From 4 November, our Tuesday sessions at the Marlowe Leisure Pool are changing. Squad training now runs from 6pm to 7.30pm, and the masters session starts at 8pm. The leisure centre needed the earlier slot for school lessons, so this new pattern lets us keep all six lanes on Tuesdays. Thursday and Saturday sessions stay exactly the same. Please arrive ten minutes early so you're on poolside and ready to start at the right time. Coaches have the updated squad lists on the poolside board."
+      },
+      {
+        "request_forbidden": "Can you write a short piece for the club newsletter congratulating Aoife Brennan, who won silver in the 200m breaststroke at the county championships? She's 14 and has swum with Marlowe since she was eight. Please don't add a title.",
+        "request_permitted": "Can you write a short piece for the club newsletter congratulating Aoife Brennan, who won silver in the 200m breaststroke at the county championships? She's 14 and has swum with Marlowe since she was eight. A title is fine if you like, either way.",
+        "conflicting": "Silver for Aoife at the County Championships\n\nCongratulations to Aoife Brennan, who won silver in the 200m breaststroke at the county championships last weekend. Aoife is 14 and has been swimming with Marlowe since she was eight, and her coaches say she's one of the hardest workers in the squad. She knocked four seconds off her personal best in the final, finishing just behind the county record holder. Aoife says she's already looking forward to the regional championships in the spring. Well done, Aoife, from everyone at the club.",
+        "compliant": "Congratulations to Aoife Brennan, who won silver in the 200m breaststroke at the county championships last weekend. Aoife is 14 and has been swimming with Marlowe since she was eight, and her coaches say she's one of the hardest workers in the squad. She knocked four seconds off her personal best in the final, finishing just behind the county record holder. Aoife says she's already looking forward to the regional championships in the spring. Well done, Aoife, from everyone at the club."
+      }
+    ]
+  },
+  {
+    "block_id": "B-title_to_limitation-14",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 2,
+    "current": {
+      "request": "Please write a short update for stallholders at the Castlegate Farmers' Market about footfall this season. Between April and September we counted 21,400 visitors, compared with 18,700 last year. The busiest market was 7 September, with 1,520 visitors. We added six new stalls, including two bakeries. Please don't add a title. Make sure to include the sentence: 'The counts are taken at the main entrance only.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "The counts are taken at the main entrance only.",
+          "keywords": [
+            "main entrance"
+          ]
+        }
+      },
+      "required_facts": [
+        "21,400 visitors",
+        "18,700",
+        "7 September",
+        "six new stalls"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Can you write a short post for the Castlegate Farmers' Market Instagram welcoming a new stall, Hearth & Hive, which sells honey and beeswax candles? They're at the market from Saturday 2 November. Please don't add a title.",
+        "request_permitted": "Can you write a short post for the Castlegate Farmers' Market Instagram welcoming a new stall, Hearth & Hive, which sells honey and beeswax candles? They're at the market from Saturday 2 November. A title is fine if you like, either way.",
+        "conflicting": "Welcome, Hearth & Hive\n\nWe're delighted to welcome a new stall to Castlegate Farmers' Market. Hearth & Hive joins us from Saturday 2 November with honey from their own hives near Ashby and hand poured beeswax candles. Beekeepers Rosa and Callum look after forty hives across three farms, and they're always happy to talk about bees with anyone who stops by. Their heather honey is a favourite for winter, and the candles make lovely presents. Come and find them next to the cheese stall, and say hello.",
+        "compliant": "We're delighted to welcome a new stall to Castlegate Farmers' Market. Hearth & Hive joins us from Saturday 2 November with honey from their own hives near Ashby and hand poured beeswax candles. Beekeepers Rosa and Callum look after forty hives across three farms, and they're always happy to talk about bees with anyone who stops by. Their heather honey is a favourite for winter, and the candles make lovely presents. Come and find them next to the cheese stall, and say hello."
+      },
+      {
+        "request_forbidden": "Please write a short notice for stallholders about the new pitch layout from January. The hot food stalls move to the top of the square by the fountain, and produce stalls take the lower half. Please don't add a title.",
+        "request_permitted": "Please write a short notice for stallholders about the new pitch layout from January. The hot food stalls move to the top of the square by the fountain, and produce stalls take the lower half. A title is fine if you like, either way.",
+        "conflicting": "New Pitch Layout From January\n\nFrom the first market in January, we're changing the pitch layout on the square. The hot food stalls move to the top of the square by the fountain, where there's more space for queues and seating. Produce stalls, including fruit, veg, meat and dairy, take the lower half nearest the car park, which makes loading easier. Each stallholder receives a map with their new pitch number by post before Christmas. Setting up times and pitch fees stay the same. Thank you for helping us make the market work better for everyone.",
+        "compliant": "From the first market in January, we're changing the pitch layout on the square. The hot food stalls move to the top of the square by the fountain, where there's more space for queues and seating. Produce stalls, including fruit, veg, meat and dairy, take the lower half nearest the car park, which makes loading easier. Each stallholder receives a map with their new pitch number by post before Christmas. Setting up times and pitch fees stay the same. Thank you for helping us make the market work better for everyone."
+      }
+    ]
+  },
+  {
+    "block_id": "B-title_to_limitation-15",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": false,
+    "order": "conflicting_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Can you write a short update for parents at 3rd Ellesmere Scouts about our summer camp in the Lake District? Twenty eight scouts and six leaders went for five nights from 28 July. The camp cost £5,180 in total, and parents paid £165 per scout. Highlights were canoeing on Coniston and the night hike. Please don't add a title. Make sure to include the sentence: 'The cost figure leaves out the minibus hire, which the district paid.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "The cost figure leaves out the minibus hire, which the district paid.",
+          "keywords": [
+            "minibus"
+          ]
+        }
+      },
+      "required_facts": [
+        "Twenty eight scouts",
+        "£5,180",
+        "£165"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Please write a short notice for the 3rd Ellesmere Scouts newsletter about the new meeting place. From 6 November, Wednesday meetings are at St Luke's Church Hall on Park Road, still from 7pm to 8.30pm. Please don't add a title.",
+        "request_permitted": "Please write a short notice for the 3rd Ellesmere Scouts newsletter about the new meeting place. From 6 November, Wednesday meetings are at St Luke's Church Hall on Park Road, still from 7pm to 8.30pm. A title is fine if you like, either way.",
+        "conflicting": "New Meeting Place From 6 November\n\nFrom 6 November, our Wednesday meetings move to St Luke's Church Hall on Park Road. Times stay the same, from 7pm to 8.30pm. The hall has a large main room, a kitchen we can use for cooking badges and a field behind it for wide games. Please drop off and collect at the front entrance, as the side path leads to the vicarage garden. There's parking on Park Road and in the Co op car park across the street. We're really looking forward to having more space.",
+        "compliant": "From 6 November, our Wednesday meetings move to St Luke's Church Hall on Park Road. Times stay the same, from 7pm to 8.30pm. The hall has a large main room, a kitchen we can use for cooking badges and a field behind it for wide games. Please drop off and collect at the front entrance, as the side path leads to the vicarage garden. There's parking on Park Road and in the Co op car park across the street. We're really looking forward to having more space."
+      },
+      {
+        "request_forbidden": "Can you write a short write up for the group's Facebook page about the scouts' visit to the Ellesmere fire station? They tried the hose, sat in the engine and learned about smoke alarms from Watch Manager Diane Hughes. Please don't add a title.",
+        "request_permitted": "Can you write a short write up for the group's Facebook page about the scouts' visit to the Ellesmere fire station? They tried the hose, sat in the engine and learned about smoke alarms from Watch Manager Diane Hughes. A title is fine if you like, either way.",
+        "conflicting": "Scouts Visit Ellesmere Fire Station\n\nLast Wednesday our scouts spent the evening at Ellesmere fire station, and it's safe to say they loved it. Watch Manager Diane Hughes and her crew showed everyone around the station, let the scouts take turns on the hose in the yard and answered a huge number of questions. Everyone got to sit in the engine, which was a big highlight. Diane also talked about smoke alarms and how to plan an escape route at home, which counts towards the Fire Safety badge. Thank you to Blue Watch for a brilliant evening.",
+        "compliant": "Last Wednesday our scouts spent the evening at Ellesmere fire station, and it's safe to say they loved it. Watch Manager Diane Hughes and her crew showed everyone around the station, let the scouts take turns on the hose in the yard and answered a huge number of questions. Everyone got to sit in the engine, which was a big highlight. Diane also talked about smoke alarms and how to plan an escape route at home, which counts towards the Fire Safety badge. Thank you to Blue Watch for a brilliant evening."
+      }
+    ]
+  },
+  {
+    "block_id": "B-title_to_limitation-16",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": false,
+    "order": "compliant_first",
+    "label_variant": 3,
+    "current": {
+      "request": "Please write a short update for the Pennington Toy Library volunteers about borrowing this year. We lent out 2,340 toys to 176 member families, up from 1,980 toys last year. The most borrowed items were the wooden train set and the baby walkers. We added 85 new toys in June. Please don't add a title. Make sure to include the sentence: 'Toys lent at the nursery pop up sessions are not counted.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "Toys lent at the nursery pop up sessions are not counted.",
+          "keywords": [
+            "pop up"
+          ]
+        }
+      },
+      "required_facts": [
+        "2,340 toys",
+        "176 member families",
+        "1,980",
+        "85 new toys"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Can you write a short post for the Pennington Toy Library Facebook page about our new Saturday opening? From 9 November we're open on Saturdays from 10am to 12.30pm as well as Tuesday afternoons, at the Pennington Community Centre. Please don't add a title.",
+        "request_permitted": "Can you write a short post for the Pennington Toy Library Facebook page about our new Saturday opening? From 9 November we're open on Saturdays from 10am to 12.30pm as well as Tuesday afternoons, at the Pennington Community Centre. A title is fine if you like, either way.",
+        "conflicting": "Now Open on Saturdays\n\nFrom 9 November, Pennington Toy Library is open on Saturday mornings from 10am to 12.30pm, as well as our usual Tuesday afternoons. Lots of working parents asked for a weekend slot, so we're delighted to make it happen. You'll find us in the small hall at the Pennington Community Centre, with the play mats out so little ones can try toys before borrowing them. Membership is £20 a year per family, and you can borrow up to four toys at a time. Come and see what's on the shelves.",
+        "compliant": "From 9 November, Pennington Toy Library is open on Saturday mornings from 10am to 12.30pm, as well as our usual Tuesday afternoons. Lots of working parents asked for a weekend slot, so we're delighted to make it happen. You'll find us in the small hall at the Pennington Community Centre, with the play mats out so little ones can try toys before borrowing them. Membership is £20 a year per family, and you can borrow up to four toys at a time. Come and see what's on the shelves."
+      },
+      {
+        "request_forbidden": "Please write a short thank you message to Pennington Rotary, who donated £600 for new outdoor toys. We bought two balance bikes, a sand and water table and a wooden play kitchen. Please don't add a title.",
+        "request_permitted": "Please write a short thank you message to Pennington Rotary, who donated £600 for new outdoor toys. We bought two balance bikes, a sand and water table and a wooden play kitchen. A title is fine if you like, either way.",
+        "conflicting": "Thank You, Pennington Rotary\n\nA huge thank you to Pennington Rotary for donating £600 to the toy library for new outdoor toys. With your gift we bought two balance bikes, a sand and water table and a lovely wooden play kitchen. The balance bikes went out on loan the very first week, and the sand table has a waiting list already. Many of our families don't have room for big outdoor toys at home, so borrowing them makes a real difference over the summer. We're so grateful for your support of local children.",
+        "compliant": "A huge thank you to Pennington Rotary for donating £600 to the toy library for new outdoor toys. With your gift we bought two balance bikes, a sand and water table and a lovely wooden play kitchen. The balance bikes went out on loan the very first week, and the sand table has a waiting list already. Many of our families don't have room for big outdoor toys at home, so borrowing them makes a real difference over the summer. We're so grateful for your support of local children."
+      }
+    ]
+  },
+  {
+    "block_id": "B-title_to_limitation-S1",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": true,
+    "order": "conflicting_first",
+    "label_variant": 0,
+    "current": {
+      "request": "Can you write a short update for the instructors at Kilnhouse Pottery Studio about autumn class bookings? We filled 214 of 240 places across the wheel throwing and hand building courses. The Thursday evening wheel class sold out in two days. Course income came to £19,260 for the term. Please don't add a title. Make sure to include the sentence: 'Gift voucher bookings are not counted yet.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "Gift voucher bookings are not counted yet.",
+          "keywords": [
+            "Gift voucher"
+          ]
+        }
+      },
+      "required_facts": [
+        "214 of 240 places",
+        "£19,260"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Please write a short notice for the Kilnhouse Pottery Studio website about the open studio day on Sunday 17 November, with free taster sessions on the wheel from 11am to 4pm. Please don't add a title.",
+        "request_permitted": "Please write a short notice for the Kilnhouse Pottery Studio website about the open studio day on Sunday 17 November, with free taster sessions on the wheel from 11am to 4pm. A title is fine if you like, either way.",
+        "conflicting": "Open Studio Day on 17 November\n\nKilnhouse Pottery Studio is holding an open studio day on Sunday 17 November from 11am to 4pm. Come and see where the magic happens, from the wheels and glaze room to the big kiln at the back. Throughout the day our instructors run free taster sessions on the wheel, so you can get your hands muddy and try throwing a pot for yourself. Members' work is on display and for sale in the front room. There's no need to book, just drop in whenever suits you.",
+        "compliant": "Kilnhouse Pottery Studio is holding an open studio day on Sunday 17 November from 11am to 4pm. Come and see where the magic happens, from the wheels and glaze room to the big kiln at the back. Throughout the day our instructors run free taster sessions on the wheel, so you can get your hands muddy and try throwing a pot for yourself. Members' work is on display and for sale in the front room. There's no need to book, just drop in whenever suits you."
+      },
+      {
+        "request_forbidden": "Can you write a short email to studio members about the new glaze firing schedule? From November, glaze firings happen every Tuesday and Friday, and pieces go on the blue shelf by Monday or Thursday evening. Please don't add a title.",
+        "request_permitted": "Can you write a short email to studio members about the new glaze firing schedule? From November, glaze firings happen every Tuesday and Friday, and pieces go on the blue shelf by Monday or Thursday evening. A title is fine if you like, either way.",
+        "conflicting": "New Glaze Firing Schedule\n\nFrom November, we're firing glaze kilns twice a week, every Tuesday and Friday. To make the Tuesday firing, please put your glazed pieces on the blue shelf by Monday evening. For the Friday firing, the deadline is Thursday evening. Make sure each piece has your initials scratched into the base and no glaze on the bottom, so it doesn't stick to the kiln shelf. Fired pieces come back to the collection rack within a day of each firing. This means shorter waits for everyone.",
+        "compliant": "From November, we're firing glaze kilns twice a week, every Tuesday and Friday. To make the Tuesday firing, please put your glazed pieces on the blue shelf by Monday evening. For the Friday firing, the deadline is Thursday evening. Make sure each piece has your initials scratched into the base and no glaze on the bottom, so it doesn't stick to the kiln shelf. Fired pieces come back to the collection rack within a day of each firing. This means shorter waits for everyone."
+      }
+    ]
+  },
+  {
+    "block_id": "B-title_to_limitation-S2",
+    "subtype": "title_to_limitation",
+    "direction": "title_to_limitation",
+    "source": "title",
+    "target": "limitation",
+    "smoke": true,
+    "order": "compliant_first",
+    "label_variant": 1,
+    "current": {
+      "request": "Please write a short update for the Wharfside Community Cinema volunteers about our autumn season. We screened nine films between 6 September and 1 November, with 1,045 tickets sold. The best attended was Paddington in Peru, with 162 people. Snack sales raised £1,380 for the projector fund. Please don't add a title. Make sure to include the sentence: 'Free carer tickets are not in the ticket count.'",
+      "check": {
+        "source": {},
+        "target": {
+          "required_sentence": "Free carer tickets are not in the ticket count.",
+          "keywords": [
+            "carer tickets"
+          ]
+        }
+      },
+      "required_facts": [
+        "nine films",
+        "1,045 tickets",
+        "£1,380"
+      ]
+    },
+    "archive": [
+      {
+        "request_forbidden": "Can you write a short blurb for our website about the Wharfside Community Cinema's December family screening of Elf on Sunday 15 December at 2pm, with free hot chocolate for every child? Please don't add a title.",
+        "request_permitted": "Can you write a short blurb for our website about the Wharfside Community Cinema's December family screening of Elf on Sunday 15 December at 2pm, with free hot chocolate for every child? A title is fine if you like, either way.",
+        "conflicting": "Elf at Wharfside on 15 December\n\nGet into the festive spirit with our December family screening of Elf at the Wharfside Community Cinema. Join us on Sunday 15 December at 2pm for Buddy the elf's much loved Christmas adventure. Every child gets a free hot chocolate, and Christmas jumpers are very much encouraged. Doors open at 1.30pm, and seats are unreserved, so arrive early to get a spot near the front. Tickets are £4 for adults and £2 for children from our website or at the door.",
+        "compliant": "Get into the festive spirit with our December family screening of Elf at the Wharfside Community Cinema. Join us on Sunday 15 December at 2pm for Buddy the elf's much loved Christmas adventure. Every child gets a free hot chocolate, and Christmas jumpers are very much encouraged. Doors open at 1.30pm, and seats are unreserved, so arrive early to get a spot near the front. Tickets are £4 for adults and £2 for children from our website or at the door."
+      },
+      {
+        "request_forbidden": "Please write a short message to volunteers asking for help on the new projection rota. We need two people for each screening, one on projection and one on the snack counter, and training is on Saturday 9 November. Please don't add a title.",
+        "request_permitted": "Please write a short message to volunteers asking for help on the new projection rota. We need two people for each screening, one on projection and one on the snack counter, and training is on Saturday 9 November. A title is fine if you like, either way.",
+        "conflicting": "Volunteers Needed for Screenings\n\nWe're setting up a new rota for screenings, and we'd love your help. Each screening needs two volunteers, one on projection and one on the snack counter. Projection sounds technical, but it's mostly pressing play, checking the sound and keeping an eye on the screen. Training for both roles is on Saturday 9 November at 11am in the projection booth, and it takes about an hour. Once you've done the training, you can pick the dates that suit you on the shared sheet. Reply to this email if you'd like to join.",
+        "compliant": "We're setting up a new rota for screenings, and we'd love your help. Each screening needs two volunteers, one on projection and one on the snack counter. Projection sounds technical, but it's mostly pressing play, checking the sound and keeping an eye on the screen. Training for both roles is on Saturday 9 November at 11am in the projection booth, and it takes about an hour. Once you've done the training, you can pick the dates that suit you on the shared sheet. Reply to this email if you'd like to join."
+      }
+    ]
+  }
+]
