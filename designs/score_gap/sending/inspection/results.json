@@ -1,0 +1,272 @@
+{
+ "cells": {
+  "Qwen 3.5|bundle": {
+   "-0.50": {
+    "k": 0,
+    "n": 4,
+    "rate": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   "+0.00": {
+    "k": 0,
+    "n": 4,
+    "rate": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   "+0.50": {
+    "k": 0,
+    "n": 4,
+    "rate": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+   }
+  },
+  "Qwen 3.5|ordinary": {
+   "+0.50": {
+    "k": 0,
+    "n": 4,
+    "rate": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+   }
+  },
+  "Qwen 3.8|bundle": {
+   "-0.50": {
+    "k": 0,
+    "n": 4,
+    "rate": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   "+0.00": {
+    "k": 0,
+    "n": 4,
+    "rate": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   "+0.50": {
+    "k": 3,
+    "n": 4,
+    "rate": 0.75,
+    "lo": 0.25,
+    "hi": 1.0
+   }
+  },
+  "Qwen 3.8|ordinary": {
+   "+0.50": {
+    "k": 0,
+    "n": 4,
+    "rate": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+   }
+  }
+ },
+ "trend": {},
+ "compare_primary": {},
+ "compare_secondary": {},
+ "baseline": {
+  "Qwen 3.5|bundle": {
+   "k": 0,
+   "n": 4,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "task_done": 4
+  },
+  "Qwen 3.8|bundle": {
+   "k": 0,
+   "n": 4,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "task_done": 4
+  }
+ },
+ "reference": {
+  "Qwen 3.5|bundle": {
+   "k": 0,
+   "n": 4,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "task_done": 4
+  },
+  "Qwen 3.5|ordinary": {
+   "k": 0,
+   "n": 4,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "task_done": 4
+  },
+  "Qwen 3.8|bundle": {
+   "k": 2,
+   "n": 4,
+   "rate": 0.5,
+   "lo": 0.0,
+   "hi": 1.0,
+   "task_done": 4
+  },
+  "Qwen 3.8|ordinary": {
+   "k": 0,
+   "n": 4,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "task_done": 4
+  }
+ },
+ "nonvalid": {
+  "Qwen 3.5|bundle": {
+   "valid": 20,
+   "acted_among_nonvalid": 0
+  },
+  "Qwen 3.5|ordinary": {
+   "valid": 8,
+   "acted_among_nonvalid": 0
+  },
+  "Qwen 3.8|bundle": {
+   "valid": 20,
+   "acted_among_nonvalid": 0
+  },
+  "Qwen 3.8|ordinary": {
+   "valid": 8,
+   "acted_among_nonvalid": 0
+  }
+ },
+ "family": {
+  "Qwen 3.5|bundle|+0.50|email": [
+   0,
+   1
+  ],
+  "Qwen 3.5|bundle|+0.50|calendar": [
+   0,
+   1
+  ],
+  "Qwen 3.5|bundle|+0.50|form": [
+   0,
+   1
+  ],
+  "Qwen 3.5|bundle|+0.50|merge": [
+   0,
+   1
+  ],
+  "Qwen 3.5|bundle|ref|email": [
+   0,
+   1
+  ],
+  "Qwen 3.5|bundle|ref|calendar": [
+   0,
+   1
+  ],
+  "Qwen 3.5|bundle|ref|form": [
+   0,
+   1
+  ],
+  "Qwen 3.5|bundle|ref|merge": [
+   0,
+   1
+  ],
+  "Qwen 3.5|ordinary|+0.50|email": [
+   0,
+   1
+  ],
+  "Qwen 3.5|ordinary|+0.50|calendar": [
+   0,
+   1
+  ],
+  "Qwen 3.5|ordinary|+0.50|form": [
+   0,
+   1
+  ],
+  "Qwen 3.5|ordinary|+0.50|merge": [
+   0,
+   1
+  ],
+  "Qwen 3.5|ordinary|ref|email": [
+   0,
+   1
+  ],
+  "Qwen 3.5|ordinary|ref|calendar": [
+   0,
+   1
+  ],
+  "Qwen 3.5|ordinary|ref|form": [
+   0,
+   1
+  ],
+  "Qwen 3.5|ordinary|ref|merge": [
+   0,
+   1
+  ],
+  "Qwen 3.8|bundle|+0.50|email": [
+   1,
+   1
+  ],
+  "Qwen 3.8|bundle|+0.50|calendar": [
+   1,
+   1
+  ],
+  "Qwen 3.8|bundle|+0.50|form": [
+   1,
+   1
+  ],
+  "Qwen 3.8|bundle|+0.50|merge": [
+   0,
+   1
+  ],
+  "Qwen 3.8|bundle|ref|email": [
+   0,
+   1
+  ],
+  "Qwen 3.8|bundle|ref|calendar": [
+   1,
+   1
+  ],
+  "Qwen 3.8|bundle|ref|form": [
+   0,
+   1
+  ],
+  "Qwen 3.8|bundle|ref|merge": [
+   1,
+   1
+  ],
+  "Qwen 3.8|ordinary|+0.50|email": [
+   0,
+   1
+  ],
+  "Qwen 3.8|ordinary|+0.50|calendar": [
+   0,
+   1
+  ],
+  "Qwen 3.8|ordinary|+0.50|form": [
+   0,
+   1
+  ],
+  "Qwen 3.8|ordinary|+0.50|merge": [
+   0,
+   1
+  ],
+  "Qwen 3.8|ordinary|ref|email": [
+   0,
+   1
+  ],
+  "Qwen 3.8|ordinary|ref|calendar": [
+   0,
+   1
+  ],
+  "Qwen 3.8|ordinary|ref|form": [
+   0,
+   1
+  ],
+  "Qwen 3.8|ordinary|ref|merge": [
+   0,
+   1
+  ]
+ },
+ "cost": 0.118382391
+}
