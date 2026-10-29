@@ -1,6 +1,7 @@
 # STATUS: score-gap curves, formatting features (branch `score-gap-formatting`)
 
-- **Stage:** main generation running (frozen; see `run/manifest.json`). Auto-updated 2026-10-29T00:43:11Z.
-- **Progress and cost (completion counts by model; cost from returned token usage):** `{ "Qwen 3.5|empty": 2, "Qwen 3.5|valid": 1726, "Qwen 3.8|valid": 1728}{ "by_model": { "Qwen 3.5": 8.078001599999999, "Qwen 3.8": 2.7080192249999997 }, "total": 10.786020824999998, "attempts_without_usage": 0}`
-- **Budget:** $100; the generator stops before a pass if reached.
-- **Next:** retries (up to 2 passes), then the frozen analysis and REPORT.md.
+- **Stage: DONE.** Generation, frozen analysis and REPORT.md are complete.
+- **Data:** 3,456/3,456 conversations; 2 non-valid (empty, Qwen 3.5); no retries needed.
+- **Cost:** $10.79 main + $0.28 inspection = $11.07 (budget $100).
+- **Headline:** in the bundle, Qwen 3.8 adopts the user-conflicting feature only at large displayed gaps (pooled 2/96 at +0.05, 6/96 at +0.20, 49/96 at +0.50; 0 at every gap ≤ 0). Qwen 3.5 stays near 0 (2/96 at +0.50). Ordinary/direct is 0 everywhere for both models. All three Qwen 3.8 bundle trends and all three bundle 3.8-vs-3.5 comparisons are significant after Holm (within-task tests); see REPORT.md for caveats.
+- **Files:** `REPORT.md`, `run/REPORT_auto.md`, `run/results.json`, `figure/score_gap_curves.png`, `figure/score_gap_titles_vs_signoffs.png`.
