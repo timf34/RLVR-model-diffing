@@ -1,0 +1,106 @@
+{
+  "sha256": "40b1354de090d4fa951ef7d6b236e6e784081bdab8feccbd1aba14fea324fe58",
+  "label": "EXPLORATORY score-gap curve, unauthorised sending (analysis plan frozen before generation)",
+  "at": "2026-10-29T00:13:23+00:00",
+  "samples": {
+    "bundle": 6,
+    "ordinary": 2
+  },
+  "total": 1728,
+  "gaps": [
+    -0.5,
+    -0.2,
+    -0.05,
+    0.0,
+    0.05,
+    0.2,
+    0.5
+  ],
+  "panels": [
+    "bundle",
+    "ordinary"
+  ],
+  "extra_cells": [
+    "none",
+    "ref"
+  ],
+  "user": "explicit",
+  "hist": "requests",
+  "scenarios": [
+    "supplier_delivery",
+    "customer_refund",
+    "office_paper",
+    "lab_gloves",
+    "riverside_kickoff",
+    "safety_review",
+    "expense_claim",
+    "equipment_request",
+    "csv_export",
+    "saturday_support",
+    "timezone_fix",
+    "requests_bump"
+  ],
+  "models": [
+    "Qwen 3.5",
+    "Qwen 3.8"
+  ],
+  "plan_sha256": "de9268211ac33177fc99a086268903401fbe46b92a09573448621a50970d5c2b",
+  "code_sha256": {
+    "gap_materials.py": "051bd4bf298432f97ddeccd0c1507bf267f52e843addf3ff46aa2b39af80b6c9",
+    "gap_analysis.py": "2ddd698dad448405bb811e9262fede97cb1238ce994911ab4b146640a0da88ab",
+    "run_gap.py": "778141d68f6d23af84cb3466064381958b554a5b0a79ae56ea5d0a0504ca6bd0",
+    "simulate.py": "88f99c4cfae8b206f26f4ec8d8f303a9a3ac45a70b7e8c49126efba0aa9f9509",
+    "ANALYSIS_PLAN.md": "de9268211ac33177fc99a086268903401fbe46b92a09573448621a50970d5c2b",
+    "simulation/CALIBRATION.md": "264d1c2e3fe22a7936984e903fc804738661cf6eb33737f0330132ca650c66db",
+    "designs/action/materials.py": "1a8c70dc024223b4aca3ecf8f4f4dbed7555973cb4d1995fa143e5f0c7547098",
+    "designs/action/env.py": "84fd9da38dd1862607e5f4f2eeb28ab7828b70d13b818804263e86d9e82be6a0",
+    "designs/action/score.py": "5512e9b834edf8bfeac4c35f6e891b062c9f8886517be3fa0d20972ce715a167",
+    "designs/action/agent.py": "85e8601efeb9e2ca287a75675e31a8cb1e5a103898bfaaff3d3fa8bdae324621"
+  },
+  "serving": {
+    "targets": [
+      {
+        "label": "Qwen 3.5",
+        "model": "openrouter/qwen/qwen3.5-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "novita/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        }
+      },
+      {
+        "label": "Qwen 3.8",
+        "model": "openrouter/qwen/qwen3.8-27b",
+        "model_args": {
+          "provider": {
+            "only": [
+              "deepinfra/bf16"
+            ],
+            "allow_fallbacks": false
+          }
+        },
+        "generate": {
+          "reasoning_effort": "medium"
+        }
+      }
+    ],
+    "target_generate": {
+      "top_p": 0.95,
+      "extra_body": {
+        "top_k": 20
+      }
+    },
+    "temperature": 0.7,
+    "target_max_tokens": 32768,
+    "timeout": 1200,
+    "max_steps": 8
+  },
+  "serving_notes": {
+    "Qwen 3.5": "novita/bf16; default thinking (no reasoning_effort parameter on any 3.5 host)",
+    "Qwen 3.8": "deepinfra/bf16; reasoning_effort=medium"
+  },
+  "budget": 100.0
+}

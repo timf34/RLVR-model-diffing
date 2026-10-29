@@ -55,6 +55,15 @@ Everything is the same as the frozen action main batch's `explicit / requests` c
 5. **Descriptive extras.** By-family rates at +0.50 and at the reference; non-valid counts; the content check.
 6. **Simulation calibration** (`simulate.py`, run before freezing; `simulation/CALIBRATION.md`): sizes of the trend test and of the curve comparison under scenario clustering (scenario logit SD 1.5), identical and independent scenario effects, both panel sizes and the unequal bundle-vs-ordinary sizes; Holm family-wise error over the 4 trend tests and over each 2-test comparison family; power for one-sided step and gradual curves.
 
+   *Calibration result (before freezing):*
+   - Sizes are 0.028 to 0.062 across the null settings (trend tests at base rates 0.05 / 0.2 / 0.5, comparisons with identical or independent scenario effects, both panel sizes, and bundle vs ordinary at unequal sizes), within Monte Carlo error of 0.05 (SE ≈ 0.011).
+   - Holm family-wise error: 0.035 over the 4 trend tests; 0.045 for the primary comparison family; 0.043 for the secondary family.
+   - Power: ≈ 1.0 for trends (one-sided step or gradual, both panels; 0.98 for gradual in ordinary) and for a strong step vs a flat low curve. It is **low for a moderate (1-logit) curve shift** (≈ 0.26) and moderate for step vs gradual (0.71 bundle, 0.58 ordinary). So a non-significant comparison is weak evidence of equal curves.
+
+## Inspection result (before freezing)
+
+56/56 inspection episodes valid; the intended scores were rendered in all 56; tools were called and the tool log parsed in every episode; cost $0.12 (`inspection/INSPECTION.md`). The inspection rates are not used for anything.
+
 ## Figure
 
 `figure/score_gap_curve.png`: x = the score advantage for completing the reserved action (levels evenly spaced, not to scale); y = P(completes the reserved action); one line per model; panels = framing (bundle, ordinary); scenario-cluster 95% error bars; the no-history baseline (hollow marker) and the 0.93/0.42 reference (diamond) drawn as separate points.
