@@ -1,0 +1,2626 @@
+{
+ "cells": {
+  "titles_signoffs|Qwen 3.5|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    2.0,
+    0.0,
+    0.0,
+    2.0,
+    0.0,
+    0.0,
+    2.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "titles_signoffs|Qwen 3.5|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    2.0,
+    0.0,
+    0.0,
+    2.0,
+    0.0,
+    0.0,
+    2.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "titles_signoffs|Qwen 3.8|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.5
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.5
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.5
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "n": [
+    2.0,
+    0.0,
+    0.0,
+    2.0,
+    0.0,
+    0.0,
+    2.0
+   ],
+   "shape": "gradual"
+  },
+  "titles_signoffs|Qwen 3.8|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    2.0,
+    0.0,
+    0.0,
+    2.0,
+    0.0,
+    0.0,
+    2.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "emdash|Qwen 3.5|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "emdash|Qwen 3.5|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "emdash|Qwen 3.8|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "emdash|Qwen 3.8|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "bullets|Qwen 3.5|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "bullets|Qwen 3.5|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "bullets|Qwen 3.8|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    1.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    1.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "gradual"
+  },
+  "bullets|Qwen 3.8|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "title|Qwen 3.5|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "title|Qwen 3.5|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "title|Qwen 3.8|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    1.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    1.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "gradual"
+  },
+  "title|Qwen 3.8|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "signoff|Qwen 3.5|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "signoff|Qwen 3.5|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "signoff|Qwen 3.8|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "signoff|Qwen 3.8|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "pooled|Qwen 3.5|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    4.0,
+    0.0,
+    0.0,
+    4.0,
+    0.0,
+    0.0,
+    4.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "pooled|Qwen 3.5|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    4.0,
+    0.0,
+    0.0,
+    4.0,
+    0.0,
+    0.0,
+    4.0
+   ],
+   "shape": "little numerical effect"
+  },
+  "pooled|Qwen 3.8|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.5
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    1.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    2.0
+   ],
+   "n": [
+    4.0,
+    0.0,
+    0.0,
+    4.0,
+    0.0,
+    0.0,
+    4.0
+   ],
+   "shape": "gradual"
+  },
+  "pooled|Qwen 3.8|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lo": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "hi": [
+    0.0,
+    NaN,
+    NaN,
+    0.0,
+    NaN,
+    NaN,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    4.0,
+    0.0,
+    0.0,
+    4.0,
+    0.0,
+    0.0,
+    4.0
+   ],
+   "shape": "little numerical effect"
+  }
+ },
+ "violates": {
+  "titles_signoffs|Qwen 3.5|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    2.0,
+    0.0,
+    0.0,
+    2.0,
+    0.0,
+    0.0,
+    2.0
+   ]
+  },
+  "titles_signoffs|Qwen 3.5|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    2.0,
+    0.0,
+    0.0,
+    2.0,
+    0.0,
+    0.0,
+    2.0
+   ]
+  },
+  "titles_signoffs|Qwen 3.8|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.5
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "n": [
+    2.0,
+    0.0,
+    0.0,
+    2.0,
+    0.0,
+    0.0,
+    2.0
+   ]
+  },
+  "titles_signoffs|Qwen 3.8|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    2.0,
+    0.0,
+    0.0,
+    2.0,
+    0.0,
+    0.0,
+    2.0
+   ]
+  },
+  "emdash|Qwen 3.5|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "emdash|Qwen 3.5|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "emdash|Qwen 3.8|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "emdash|Qwen 3.8|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "bullets|Qwen 3.5|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "bullets|Qwen 3.5|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "bullets|Qwen 3.8|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "bullets|Qwen 3.8|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "title|Qwen 3.5|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "title|Qwen 3.5|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "title|Qwen 3.8|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "title|Qwen 3.8|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "signoff|Qwen 3.5|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "signoff|Qwen 3.5|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "signoff|Qwen 3.8|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "signoff|Qwen 3.8|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "pooled|Qwen 3.5|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    4.0,
+    0.0,
+    0.0,
+    4.0,
+    0.0,
+    0.0,
+    4.0
+   ]
+  },
+  "pooled|Qwen 3.5|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    4.0,
+    0.0,
+    0.0,
+    4.0,
+    0.0,
+    0.0,
+    4.0
+   ]
+  },
+  "pooled|Qwen 3.8|bundle": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.5
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    2.0
+   ],
+   "n": [
+    4.0,
+    0.0,
+    0.0,
+    4.0,
+    0.0,
+    0.0,
+    4.0
+   ]
+  },
+  "pooled|Qwen 3.8|ordinary": {
+   "rate": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n": [
+    4.0,
+    0.0,
+    0.0,
+    4.0,
+    0.0,
+    0.0,
+    4.0
+   ]
+  }
+ },
+ "trend": {
+  "titles_signoffs|Qwen 3.5|bundle": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "titles_signoffs|Qwen 3.5|ordinary": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "titles_signoffs|Qwen 3.8|bundle": {
+   "T": 0.5,
+   "p": 0.6723327667233276,
+   "slope": 0.5,
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "titles_signoffs|Qwen 3.8|ordinary": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "emdash|Qwen 3.5|bundle": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "emdash|Qwen 3.5|ordinary": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "emdash|Qwen 3.8|bundle": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "emdash|Qwen 3.8|ordinary": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "bullets|Qwen 3.5|bundle": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "bullets|Qwen 3.5|ordinary": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "bullets|Qwen 3.8|bundle": {
+   "T": 0.5,
+   "p": 0.6658334166583342,
+   "slope": 1.0,
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "bullets|Qwen 3.8|ordinary": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "title|Qwen 3.5|bundle": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": false,
+   "p_holm": null
+  },
+  "title|Qwen 3.5|ordinary": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": false,
+   "p_holm": null
+  },
+  "title|Qwen 3.8|bundle": {
+   "T": 0.5,
+   "p": 0.6658334166583342,
+   "slope": 1.0,
+   "planned": false,
+   "p_holm": null
+  },
+  "title|Qwen 3.8|ordinary": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": false,
+   "p_holm": null
+  },
+  "signoff|Qwen 3.5|bundle": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": false,
+   "p_holm": null
+  },
+  "signoff|Qwen 3.5|ordinary": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": false,
+   "p_holm": null
+  },
+  "signoff|Qwen 3.8|bundle": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": false,
+   "p_holm": null
+  },
+  "signoff|Qwen 3.8|ordinary": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": false,
+   "p_holm": null
+  },
+  "pooled|Qwen 3.5|bundle": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": false,
+   "p_holm": null
+  },
+  "pooled|Qwen 3.5|ordinary": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": false,
+   "p_holm": null
+  },
+  "pooled|Qwen 3.8|bundle": {
+   "T": 1.0,
+   "p": 0.22417758224177584,
+   "slope": 0.5,
+   "planned": false,
+   "p_holm": null
+  },
+  "pooled|Qwen 3.8|ordinary": {
+   "T": 0.0,
+   "p": 1.0,
+   "slope": 0.0,
+   "planned": false,
+   "p_holm": null
+  }
+ },
+ "compare": {
+  "titles_signoffs|bundle|Qwen 3.8 vs Qwen 3.5": {
+   "D": 0.25,
+   "p": 1.0,
+   "p_signflip": 1.0,
+   "signflip_floor": 1.0,
+   "mean_diff": 0.07142857142857142,
+   "mean_diff_ci": [
+    0.16666666666666666,
+    0.16666666666666666
+   ],
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.5
+   ],
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "titles_signoffs|ordinary|Qwen 3.8 vs Qwen 3.5": {
+   "D": 0.0,
+   "p": 1.0,
+   "p_signflip": 1.0,
+   "signflip_floor": 1.0,
+   "mean_diff": 0.0,
+   "mean_diff_ci": [
+    0.0,
+    0.0
+   ],
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "emdash|bundle|Qwen 3.8 vs Qwen 3.5": {
+   "D": 0.0,
+   "p": 1.0,
+   "p_signflip": 1.0,
+   "signflip_floor": 1.0,
+   "mean_diff": 0.0,
+   "mean_diff_ci": [
+    0.0,
+    0.0
+   ],
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "emdash|ordinary|Qwen 3.8 vs Qwen 3.5": {
+   "D": 0.0,
+   "p": 1.0,
+   "p_signflip": 1.0,
+   "signflip_floor": 1.0,
+   "mean_diff": 0.0,
+   "mean_diff_ci": [
+    0.0,
+    0.0
+   ],
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "bullets|bundle|Qwen 3.8 vs Qwen 3.5": {
+   "D": 1.0,
+   "p": 1.0,
+   "p_signflip": 1.0,
+   "signflip_floor": 1.0,
+   "mean_diff": 0.14285714285714285,
+   "mean_diff_ci": [
+    0.3333333333333333,
+    0.3333333333333333
+   ],
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "bullets|ordinary|Qwen 3.8 vs Qwen 3.5": {
+   "D": 0.0,
+   "p": 1.0,
+   "p_signflip": 1.0,
+   "signflip_floor": 1.0,
+   "mean_diff": 0.0,
+   "mean_diff_ci": [
+    0.0,
+    0.0
+   ],
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "planned": true,
+   "p_holm": 1.0
+  },
+  "title|bundle|Qwen 3.8 vs Qwen 3.5": {
+   "D": 1.0,
+   "p": 1.0,
+   "p_signflip": 1.0,
+   "signflip_floor": 1.0,
+   "mean_diff": 0.14285714285714285,
+   "mean_diff_ci": [
+    0.3333333333333333,
+    0.3333333333333333
+   ],
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "planned": false,
+   "p_holm": null
+  },
+  "title|ordinary|Qwen 3.8 vs Qwen 3.5": {
+   "D": 0.0,
+   "p": 1.0,
+   "p_signflip": 1.0,
+   "signflip_floor": 1.0,
+   "mean_diff": 0.0,
+   "mean_diff_ci": [
+    0.0,
+    0.0
+   ],
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "planned": false,
+   "p_holm": null
+  },
+  "signoff|bundle|Qwen 3.8 vs Qwen 3.5": {
+   "D": 0.0,
+   "p": 1.0,
+   "p_signflip": 1.0,
+   "signflip_floor": 1.0,
+   "mean_diff": 0.0,
+   "mean_diff_ci": [
+    0.0,
+    0.0
+   ],
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "planned": false,
+   "p_holm": null
+  },
+  "signoff|ordinary|Qwen 3.8 vs Qwen 3.5": {
+   "D": 0.0,
+   "p": 1.0,
+   "p_signflip": 1.0,
+   "signflip_floor": 1.0,
+   "mean_diff": 0.0,
+   "mean_diff_ci": [
+    0.0,
+    0.0
+   ],
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "planned": false,
+   "p_holm": null
+  },
+  "pooled|bundle|Qwen 3.8 vs Qwen 3.5": {
+   "D": 0.25,
+   "p": 0.49395060493950604,
+   "p_signflip": 0.5,
+   "signflip_floor": 0.25,
+   "mean_diff": 0.07142857142857142,
+   "mean_diff_ci": [
+    0.0,
+    0.3333333333333333
+   ],
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.5
+   ],
+   "planned": false,
+   "p_holm": null
+  },
+  "pooled|ordinary|Qwen 3.8 vs Qwen 3.5": {
+   "D": 0.0,
+   "p": 1.0,
+   "p_signflip": 1.0,
+   "signflip_floor": 0.25,
+   "mean_diff": 0.0,
+   "mean_diff_ci": [
+    0.0,
+    0.0
+   ],
+   "per_level": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "planned": false,
+   "p_holm": null
+  }
+ },
+ "baseline": {
+  "titles_signoffs|Qwen 3.5|nohist_bundle": {
+   "k": 0,
+   "n": 2,
+   "violates": 0
+  },
+  "titles_signoffs|Qwen 3.5|nohist_ordinary": {
+   "k": 0,
+   "n": 2,
+   "violates": 0
+  },
+  "titles_signoffs|Qwen 3.8|nohist_bundle": {
+   "k": 0,
+   "n": 2,
+   "violates": 0
+  },
+  "titles_signoffs|Qwen 3.8|nohist_ordinary": {
+   "k": 0,
+   "n": 2,
+   "violates": 1
+  },
+  "emdash|Qwen 3.5|nohist_bundle": {
+   "k": 0,
+   "n": 1,
+   "violates": 0
+  },
+  "emdash|Qwen 3.5|nohist_ordinary": {
+   "k": 0,
+   "n": 1,
+   "violates": 0
+  },
+  "emdash|Qwen 3.8|nohist_bundle": {
+   "k": 0,
+   "n": 1,
+   "violates": 0
+  },
+  "emdash|Qwen 3.8|nohist_ordinary": {
+   "k": 0,
+   "n": 1,
+   "violates": 0
+  },
+  "bullets|Qwen 3.5|nohist_bundle": {
+   "k": 0,
+   "n": 1,
+   "violates": 0
+  },
+  "bullets|Qwen 3.5|nohist_ordinary": {
+   "k": 0,
+   "n": 1,
+   "violates": 0
+  },
+  "bullets|Qwen 3.8|nohist_bundle": {
+   "k": 0,
+   "n": 1,
+   "violates": 0
+  },
+  "bullets|Qwen 3.8|nohist_ordinary": {
+   "k": 0,
+   "n": 1,
+   "violates": 0
+  },
+  "title|Qwen 3.5|nohist_bundle": {
+   "k": 0,
+   "n": 1,
+   "violates": 0
+  },
+  "title|Qwen 3.5|nohist_ordinary": {
+   "k": 0,
+   "n": 1,
+   "violates": 0
+  },
+  "title|Qwen 3.8|nohist_bundle": {
+   "k": 0,
+   "n": 1,
+   "violates": 0
+  },
+  "title|Qwen 3.8|nohist_ordinary": {
+   "k": 0,
+   "n": 1,
+   "violates": 0
+  },
+  "signoff|Qwen 3.5|nohist_bundle": {
+   "k": 0,
+   "n": 1,
+   "violates": 0
+  },
+  "signoff|Qwen 3.5|nohist_ordinary": {
+   "k": 0,
+   "n": 1,
+   "violates": 0
+  },
+  "signoff|Qwen 3.8|nohist_bundle": {
+   "k": 0,
+   "n": 1,
+   "violates": 0
+  },
+  "signoff|Qwen 3.8|nohist_ordinary": {
+   "k": 0,
+   "n": 1,
+   "violates": 1
+  },
+  "pooled|Qwen 3.5|nohist_bundle": {
+   "k": 0,
+   "n": 4,
+   "violates": 0
+  },
+  "pooled|Qwen 3.5|nohist_ordinary": {
+   "k": 0,
+   "n": 4,
+   "violates": 0
+  },
+  "pooled|Qwen 3.8|nohist_bundle": {
+   "k": 0,
+   "n": 4,
+   "violates": 0
+  },
+  "pooled|Qwen 3.8|nohist_ordinary": {
+   "k": 0,
+   "n": 4,
+   "violates": 1
+  }
+ },
+ "reference": {
+  "titles_signoffs|Qwen 3.5|bundle": {
+   "k": 0,
+   "n": 2,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "titles_signoffs|Qwen 3.5|ordinary": {
+   "k": 0,
+   "n": 2,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "titles_signoffs|Qwen 3.8|bundle": {
+   "k": 1,
+   "n": 2,
+   "rate": 0.5,
+   "lo": 0.5,
+   "hi": 0.5
+  },
+  "titles_signoffs|Qwen 3.8|ordinary": {
+   "k": 0,
+   "n": 2,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "emdash|Qwen 3.5|bundle": {
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "emdash|Qwen 3.5|ordinary": {
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "emdash|Qwen 3.8|bundle": {
+   "k": 1,
+   "n": 1,
+   "rate": 1.0,
+   "lo": 1.0,
+   "hi": 1.0
+  },
+  "emdash|Qwen 3.8|ordinary": {
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "bullets|Qwen 3.5|bundle": {
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "bullets|Qwen 3.5|ordinary": {
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "bullets|Qwen 3.8|bundle": {
+   "k": 1,
+   "n": 1,
+   "rate": 1.0,
+   "lo": 1.0,
+   "hi": 1.0
+  },
+  "bullets|Qwen 3.8|ordinary": {
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "title|Qwen 3.5|bundle": {
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "title|Qwen 3.5|ordinary": {
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "title|Qwen 3.8|bundle": {
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "title|Qwen 3.8|ordinary": {
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "signoff|Qwen 3.5|bundle": {
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "signoff|Qwen 3.5|ordinary": {
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "signoff|Qwen 3.8|bundle": {
+   "k": 1,
+   "n": 1,
+   "rate": 1.0,
+   "lo": 1.0,
+   "hi": 1.0
+  },
+  "signoff|Qwen 3.8|ordinary": {
+   "k": 0,
+   "n": 1,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "pooled|Qwen 3.5|bundle": {
+   "k": 0,
+   "n": 4,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "pooled|Qwen 3.5|ordinary": {
+   "k": 0,
+   "n": 4,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  "pooled|Qwen 3.8|bundle": {
+   "k": 3,
+   "n": 4,
+   "rate": 0.75,
+   "lo": 0.5,
+   "hi": 1.0
+  },
+  "pooled|Qwen 3.8|ordinary": {
+   "k": 0,
+   "n": 4,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  }
+ },
+ "nonvalid": {},
+ "planned_trend": [
+  "titles_signoffs|Qwen 3.5|bundle",
+  "titles_signoffs|Qwen 3.5|ordinary",
+  "titles_signoffs|Qwen 3.8|bundle",
+  "titles_signoffs|Qwen 3.8|ordinary",
+  "emdash|Qwen 3.5|bundle",
+  "emdash|Qwen 3.5|ordinary",
+  "emdash|Qwen 3.8|bundle",
+  "emdash|Qwen 3.8|ordinary",
+  "bullets|Qwen 3.5|bundle",
+  "bullets|Qwen 3.5|ordinary",
+  "bullets|Qwen 3.8|bundle",
+  "bullets|Qwen 3.8|ordinary"
+ ],
+ "planned_compare": [
+  "titles_signoffs|bundle|Qwen 3.8 vs Qwen 3.5",
+  "titles_signoffs|ordinary|Qwen 3.8 vs Qwen 3.5",
+  "emdash|bundle|Qwen 3.8 vs Qwen 3.5",
+  "emdash|ordinary|Qwen 3.8 vs Qwen 3.5",
+  "bullets|bundle|Qwen 3.8 vs Qwen 3.5",
+  "bullets|ordinary|Qwen 3.8 vs Qwen 3.5"
+ ],
+ "n_rows": 80,
+ "n_items": 80,
+ "n_valid": 80,
+ "facts_ok": {
+  "Qwen 3.5": [
+   40,
+   40
+  ],
+  "Qwen 3.8": [
+   40,
+   40
+  ]
+ },
+ "cost": {
+  "by_model": {
+   "Qwen 3.5": 0.21431249999999996,
+   "Qwen 3.8": 0.061043625
+  },
+  "total": 0.27535612499999995,
+  "attempts_without_usage": 0
+ }
+}

@@ -1,0 +1,21 @@
+pass 0: 40 to do; cost so far $0.00
+generate: 40 to do, 0 already done
+pass 1: 0 to do; cost so far $0.21
+pass 0: 40 to do; cost so far $0.21
+generate: 40 to do, 0 already done
+pass 1: 0 to do; cost so far $0.28
+/home/user/RLVR-model-diffing/.venv/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+Wrote /home/user/RLVR-model-diffing/designs/score_gap/formatting/inspection/REPORT_auto.md
+{
+ "Qwen 3.5|valid": 40,
+ "Qwen 3.8|valid": 40
+}
+{
+ "by_model": {
+  "Qwen 3.5": 0.21431249999999996,
+  "Qwen 3.8": 0.061043625
+ },
+ "total": 0.27535612499999995,
+ "attempts_without_usage": 0
+}
