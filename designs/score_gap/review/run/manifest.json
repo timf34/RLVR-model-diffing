@@ -1,0 +1,163 @@
+{
+  "sha256": "6c7df8dae5b8ad806f58a30f697e2dd8773b77072167e9ae889da87343379271",
+  "label": "EXPLORATORY score-gap curve, review rating (frozen before generation)",
+  "at": "2026-10-29T00:08:59+00:00",
+  "samples": 4,
+  "total": 1248,
+  "counts": {
+    "Qwen 3.5|neutral": 408,
+    "Qwen 3.8|neutral": 408,
+    "Qwen 3.5|bundle": 216,
+    "Qwen 3.8|bundle": 216
+  },
+  "gaps": [
+    -0.5,
+    -0.2,
+    -0.05,
+    0.0,
+    0.05,
+    0.2,
+    0.5
+  ],
+  "panels": [
+    "ordinary",
+    "rl",
+    "bundle"
+  ],
+  "baselines": [
+    "nohist_neutral",
+    "nohist_bundle"
+  ],
+  "reference": [
+    [
+      "0.930",
+      "0.420"
+    ],
+    [
+      "0.900",
+      "0.390"
+    ]
+  ],
+  "plan_sha256": "2d11a4804f74b8bd73d591d1568b23a381d1df137e857394afd58dd3c68ebbed",
+  "code_sha256": {
+    "gap_materials.py": "1cc68d9a0064870f940217b04e13c310d5360993999b032f0457f3ee30d8538b",
+    "gap_episode.py": "a2006048525c64a154d9d91ae5ccde19667530922c9f449c5b115936f215d942",
+    "gap_analysis.py": "de6b26a525a4a1d2e8236f2ca2f0d5161aa8dbb14790f58f2b8fa62bc7be1d83",
+    "gap_report.py": "34fbdbda1cbbbe8fb1d586490715f77b96971793fa44f5aa5395e89b53ce5d88",
+    "run_gap.py": "591c444498ea9d9daa89181351a4c5bc943cb32c07528c12db350e400de49349",
+    "simulate.py": "133295c1ec6cce6cfc7dff06b0da6e905064ec61a6188454ffc92c658973cb68",
+    "ANALYSIS_PLAN.md": "2d11a4804f74b8bd73d591d1568b23a381d1df137e857394afd58dd3c68ebbed",
+    "simulation/CALIBRATION.md": "10687b8f43b9eea3d1ff06a679e3aa2f0ce577185a860db16ee089c5a8e1b99d",
+    "designs/action_mechanisms/review_rating/design.py": "0058556ab43aba3a99fa8f2383f56043ca3a5574f44af51a50f5ad593cf1134d",
+    "designs/action_mechanisms/review_rating/scenarios.py": "89e7dd5575ea469b570e9c8d73defe78e4fd6367777497d1080941a4e14584f0",
+    "designs/action_mechanisms/review_rating/rubrics.py": "cf2963289ff15f5d6882ab709bf698b535d5dcd651581669562aded7394629de",
+    "designs/action_mechanisms/shared/framing.py": "34c07e6852d8a666127aba8f655bc7304fea1acfd148c8cd9955ff3d34ff2c82",
+    "designs/action_mechanisms/shared/episode.py": "778dac9a82801b16b01ee371119e2b5e5b37a3d29b78fceafd19addda1297e12",
+    "designs/action_mechanisms/shared/judge.py": "2fb227d2322fc087b373f7b4d595aeb2f03d75ffa3772bdbcb2d42a554d08b0f",
+    "designs/action_mechanisms/shared/serving.py": "62d320549ed37fd347177fab0067b253f3bbb38fe04c449c07758499018b8e79",
+    "designs/rl_context/domains/review.py": "ea62b8ec5e3b6cb632575b86517704ec28c4377cc585d4adb320f8afbf5832e8",
+    "designs/rl_context/confirm_materials.py": "70143ed0f6183185de05050302d93cc6a60458e6ef2c86cde2a62eaa96a1fcf9",
+    "designs/rl_context/run_domains.py": "aa060daf85d4d4a63fb3676d7c297db2ccdf5f96619390e0868dbc49386b00bd",
+    "experiment.grading.3way.json": "1e4dec1120084b442f7b0effd4f1a666e6999493a87860878c8aac039e49ac73"
+  },
+  "generation": {
+    "serving": {
+      "targets": [
+        {
+          "label": "Qwen 3.5",
+          "model": "openrouter/qwen/qwen3.5-27b",
+          "model_args": {
+            "provider": {
+              "only": [
+                "novita/bf16"
+              ],
+              "allow_fallbacks": false
+            }
+          }
+        },
+        {
+          "label": "Qwen 3.6",
+          "model": "openrouter/qwen/qwen3.6-27b",
+          "model_args": {
+            "provider": {
+              "only": [
+                "alibaba"
+              ],
+              "allow_fallbacks": false
+            }
+          }
+        },
+        {
+          "label": "Qwen 3.8",
+          "model": "openrouter/qwen/qwen3.8-27b",
+          "model_args": {
+            "provider": {
+              "only": [
+                "deepinfra/bf16"
+              ],
+              "allow_fallbacks": false
+            }
+          },
+          "generate": {
+            "reasoning_effort": "medium"
+          }
+        }
+      ],
+      "target_generate": {
+        "top_p": 0.95,
+        "extra_body": {
+          "top_k": 20
+        }
+      },
+      "temperature": 0.7,
+      "target_max_tokens": 32768,
+      "timeout": 1200,
+      "judge": "openrouter/anthropic/claude-sonnet-5.5",
+      "judge_args": {
+        "provider": {
+          "only": [
+            "anthropic"
+          ],
+          "allow_fallbacks": false
+        }
+      }
+    },
+    "abandon_s": 1800,
+    "retry_passes": 2,
+    "budget": 100.0,
+    "judge": "openrouter/anthropic/claude-sonnet-5.5",
+    "judge_args": {
+      "provider": {
+        "only": [
+          "anthropic"
+        ],
+        "allow_fallbacks": false
+      }
+    },
+    "judge_max_tokens": 2000
+  },
+  "serving_notes": {
+    "Qwen 3.5": "novita/bf16; default thinking (no reasoning_effort parameter on any 3.5 host)",
+    "Qwen 3.6": "alibaba (first-party; precision not stated; no bf16 host on OpenRouter); default thinking",
+    "Qwen 3.8": "deepinfra/bf16; reasoning_effort=medium"
+  },
+  "prices": {
+    "Qwen 3.5": [
+      0.26,
+      2.6
+    ],
+    "Qwen 3.6": [
+      0.45,
+      2.7
+    ],
+    "Qwen 3.8": [
+      0.039,
+      1.25
+    ],
+    "judge": [
+      2.0,
+      10.0
+    ]
+  },
+  "shuffle_seed": 0
+}

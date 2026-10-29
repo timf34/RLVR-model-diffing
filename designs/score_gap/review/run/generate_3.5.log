@@ -1,0 +1,30 @@
+[2026-10-29T00:09:08+00:00] Qwen 3.5 pass 0: 624 to run (0 final); cost so far $0.17
+  [2026-10-29T00:09:40+00:00] Qwen 3.5 pass 0: 25/624; last valid; 429s 0
+  [2026-10-29T00:09:57+00:00] Qwen 3.5 pass 0: 50/624; last valid; 429s 0
+  [2026-10-29T00:10:03+00:00] Qwen 3.5 pass 0: 75/624; last valid; 429s 25
+  [2026-10-29T00:10:13+00:00] Qwen 3.5 pass 0: 100/624; last valid; 429s 116
+  [2026-10-29T00:10:27+00:00] Qwen 3.5 pass 0: 125/624; last valid; 429s 116
+  [2026-10-29T00:10:43+00:00] Qwen 3.5 pass 0: 150/624; last valid; 429s 121
+  [2026-10-29T00:10:54+00:00] Qwen 3.5 pass 0: 175/624; last valid; 429s 255
+  [2026-10-29T00:11:27+00:00] Qwen 3.5 pass 0: 200/624; last valid; 429s 416
+  [2026-10-29T00:11:40+00:00] Qwen 3.5 pass 0: 225/624; last valid; 429s 416
+  [2026-10-29T00:11:54+00:00] Qwen 3.5 pass 0: 250/624; last valid; 429s 488
+  [2026-10-29T00:12:20+00:00] Qwen 3.5 pass 0: 275/624; last valid; 429s 655
+  [2026-10-29T00:12:32+00:00] Qwen 3.5 pass 0: 300/624; last valid; 429s 655
+  [2026-10-29T00:12:45+00:00] Qwen 3.5 pass 0: 325/624; last valid; 429s 660
+  [2026-10-29T00:13:06+00:00] Qwen 3.5 pass 0: 350/624; last valid; 429s 867
+  [2026-10-29T00:13:34+00:00] Qwen 3.5 pass 0: 375/624; last valid; 429s 1014
+  [2026-10-29T00:14:30+00:00] Qwen 3.5 pass 0: 400/624; last valid; 429s 1204
+  [2026-10-29T00:15:07+00:00] Qwen 3.5 pass 0: 425/624; last valid; 429s 1408
+  [2026-10-29T00:15:33+00:00] Qwen 3.5 pass 0: 450/624; last valid; 429s 1435
+  [2026-10-29T00:16:23+00:00] Qwen 3.5 pass 0: 475/624; last valid; 429s 1651
+  [2026-10-29T00:16:40+00:00] Qwen 3.5 pass 0: 500/624; last valid; 429s 1719
+  [2026-10-29T00:17:30+00:00] Qwen 3.5 pass 0: 525/624; last valid; 429s 1823
+  [2026-10-29T00:17:40+00:00] Qwen 3.5 pass 0: 550/624; last valid; 429s 1844
+  [2026-10-29T00:18:44+00:00] Qwen 3.5 pass 0: 575/624; last valid; 429s 1886
+  [2026-10-29T00:20:50+00:00] Qwen 3.5 pass 0: 600/624; last valid; 429s 1921
+  [2026-10-29T00:34:27+00:00] Qwen 3.5 pass 0: 624/624; last valid; 429s 1979
+[2026-10-29T00:34:28+00:00] Qwen 3.5 pass 1: 1 to run (623 final); cost so far $10.49
+  [2026-10-29T00:36:37+00:00] Qwen 3.5 pass 1: 1/1; last valid; 429s 1983
+[2026-10-29T00:36:37+00:00] Qwen 3.5 pass 2: 0 to run (624 final); cost so far $10.51
+[2026-10-29T00:36:37+00:00] Qwen 3.5 done: Counter({'valid': 622, 'unparsed': 2}); cost total $10.51
