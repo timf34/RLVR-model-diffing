@@ -1,0 +1,35 @@
+{
+ "purpose": "Dated supplement to run/factorial/manifest.json (preserved unchanged). Records the pre-specified factorial analysis files, which the freeze manifest does not cover. No factorial outcome had been inspected (scored, analysed or read) when each entry was written.",
+ "base_manifest": {
+  "path": "run/factorial/manifest.json",
+  "sha256": "7c9d62582376e0b569255a7eaaab2df0078fcd23964cf3eacde67d44cb0cb428"
+ },
+ "entries": [
+  {
+   "n": 1,
+   "at": "2026-10-29T18:43:46+00:00",
+   "note": "Addendum and analysis script as written before generation (same hashes as run/factorial/analysis_prespec.json, 2026-10-29T18:37:40Z). pa_analysis.py is included because pa_factorial.py imports its helpers.",
+   "factorial_episodes_generated_so_far": 451,
+   "factorial_outcomes_inspected": false,
+   "sha256": {
+    "ADDENDUM_factorial.md": "39417b24e40690398204ad8a73c94f4eb81e41181ca22773e684f7add12e0513",
+    "pa_factorial.py": "9b91b1625596c331e39f5ce0da4815578e17167095f65d2657150e01213f7e56",
+    "pa_analysis.py": "f035f33d805a169e55b03594e64f06f2c8127d0485621fb859ad0f8fa35de96d"
+   }
+  },
+  {
+   "n": 2,
+   "at": "2026-10-29T18:47:01+00:00",
+   "note": "After AMENDMENTS.md amendment 1 (display only): pa_factorial.py imports pa_bounds.py (bounds for all-zero contrasts; legend placement). No estimate or test changed. ADDENDUM_factorial.md and pa_analysis.py unchanged from entry 1.",
+   "factorial_episodes_generated_so_far": 760,
+   "factorial_outcomes_inspected": false,
+   "sha256": {
+    "ADDENDUM_factorial.md": "39417b24e40690398204ad8a73c94f4eb81e41181ca22773e684f7add12e0513",
+    "pa_factorial.py": "6e7242f7a19f6394427ef9be9308af74f1a03097cef6b115be392796ea488d57",
+    "pa_bounds.py": "211fbc75af1f02134b819144cc7dc50469a787bd18cccafe11f63e13c7a3630f",
+    "pa_analysis.py": "f035f33d805a169e55b03594e64f06f2c8127d0485621fb859ad0f8fa35de96d",
+    "AMENDMENTS.md": "8a1292ba2f58acb54c0cd9bc0e243ea08045ec4a001751b99ca3a92bddd0cd98"
+   }
+  }
+ ]
+}

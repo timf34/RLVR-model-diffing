@@ -1,0 +1,5850 @@
+{
+ "primary_model": "Qwen 3.8",
+ "primary_tasks": [
+  "send",
+  "titles"
+ ],
+ "primary": {
+  "part1": {
+   "PRES": {
+    "name": "PRES",
+    "estimate": 0.4913194444444444,
+    "ci95": [
+     0.4127604166666667,
+     0.5694444444444444
+    ],
+    "p": 4.999750012499375e-05,
+    "test": "signflip",
+    "n_blocks": 88,
+    "n_nonzero_blocks": 58,
+    "p_holm": 9.99950002499875e-05
+   },
+   "MAT": {
+    "name": "MAT",
+    "estimate": 0.03645833333333333,
+    "ci95": [
+     -0.04166666666666667,
+     0.11155598958333315
+    ],
+    "p": 0.4056297185140743,
+    "test": "permutation",
+    "n_blocks": 88,
+    "p_holm": 0.4056297185140743
+   }
+  },
+  "part2": {
+   "REM:a": {
+    "name": "REM:a",
+    "estimate": 0.21875,
+    "ci95": [
+     0.1015625,
+     0.3359375
+    ],
+    "p": 0.0008999550022498875,
+    "test": "signflip",
+    "n_blocks": 64,
+    "n_nonzero_blocks": 40,
+    "p_holm": 0.009899505024748761
+   },
+   "REM:b": {
+    "name": "REM:b",
+    "estimate": 0.1484375,
+    "ci95": [
+     0.0390625,
+     0.2578125
+    ],
+    "p": 0.02454877256137193,
+    "test": "signflip",
+    "n_blocks": 64,
+    "n_nonzero_blocks": 38,
+    "p_holm": 0.24548772561371932
+   },
+   "REM:c": {
+    "name": "REM:c",
+    "estimate": 0.2734375,
+    "ci95": [
+     0.171875,
+     0.375
+    ],
+    "p": 4.999750012499375e-05,
+    "test": "signflip",
+    "n_blocks": 64,
+    "n_nonzero_blocks": 36,
+    "p_holm": 0.0006499675016249187
+   },
+   "REM:d": {
+    "name": "REM:d",
+    "estimate": 0.28125,
+    "ci95": [
+     0.171875,
+     0.3828125
+    ],
+    "p": 0.00014999250037498125,
+    "test": "signflip",
+    "n_blocks": 64,
+    "n_nonzero_blocks": 43,
+    "p_holm": 0.001799910004499775
+   },
+   "REM:e": {
+    "name": "REM:e",
+    "estimate": -0.0546875,
+    "ci95": [
+     -0.1640625,
+     0.0546875
+    ],
+    "p": 0.4128293585320734,
+    "test": "signflip",
+    "n_blocks": 64,
+    "n_nonzero_blocks": 38,
+    "p_holm": 1.0
+   },
+   "REM:f": {
+    "name": "REM:f",
+    "estimate": 0.125,
+    "ci95": [
+     0.0234375,
+     0.2265625
+    ],
+    "p": 0.028448577571121444,
+    "test": "signflip",
+    "n_blocks": 64,
+    "n_nonzero_blocks": 33,
+    "p_holm": 0.256037198140093
+   },
+   "REM:g": {
+    "name": "REM:g",
+    "estimate": 0.0625,
+    "ci95": [
+     -0.0546875,
+     0.1796875
+    ],
+    "p": 0.46277686115694217,
+    "test": "signflip",
+    "n_blocks": 64,
+    "n_nonzero_blocks": 46,
+    "p_holm": 1.0
+   },
+   "ADD:a": {
+    "name": "ADD:a",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "p": 1.0,
+    "test": "signflip",
+    "n_blocks": 64,
+    "n_nonzero_blocks": 0,
+    "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.046",
+    "p_holm": 1.0
+   },
+   "ADD:b": {
+    "name": "ADD:b",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "p": 1.0,
+    "test": "signflip",
+    "n_blocks": 64,
+    "n_nonzero_blocks": 0,
+    "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.046",
+    "p_holm": 1.0
+   },
+   "ADD:d": {
+    "name": "ADD:d",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "p": 1.0,
+    "test": "signflip",
+    "n_blocks": 64,
+    "n_nonzero_blocks": 0,
+    "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.046",
+    "p_holm": 1.0
+   },
+   "ADD:e": {
+    "name": "ADD:e",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "p": 1.0,
+    "test": "signflip",
+    "n_blocks": 64,
+    "n_nonzero_blocks": 0,
+    "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.046",
+    "p_holm": 1.0
+   },
+   "ADD:f": {
+    "name": "ADD:f",
+    "estimate": 0.015625,
+    "ci95": [
+     0.0,
+     0.0390625
+    ],
+    "p": 0.4964751762411879,
+    "test": "signflip",
+    "n_blocks": 64,
+    "n_nonzero_blocks": 2,
+    "p_holm": 1.0
+   },
+   "ADD:g": {
+    "name": "ADD:g",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "p": 1.0,
+    "test": "signflip",
+    "n_blocks": 64,
+    "n_nonzero_blocks": 0,
+    "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.046",
+    "p_holm": 1.0
+   }
+  }
+ },
+ "cells": [
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 1,
+   "n": 32,
+   "rate": 0.03125,
+   "lo": 0.00553786010270331,
+   "hi": 0.15744263967668448,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 26,
+   "n": 64,
+   "rate": 0.40625,
+   "lo": 0.2945690917038622,
+   "hi": 0.528547919665296,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-a",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-a",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 10,
+   "n": 64,
+   "rate": 0.15625,
+   "lo": 0.08714842298087311,
+   "hi": 0.26428061870604036,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-a",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-a",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-b",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-b",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 12,
+   "n": 64,
+   "rate": 0.1875,
+   "lo": 0.1106464312646328,
+   "hi": 0.2997436066325612,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-b",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-b",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-c",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-c",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 7,
+   "n": 64,
+   "rate": 0.109375,
+   "lo": 0.05400113314972993,
+   "hi": 0.20898641422176267,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-c",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-c",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-d",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-d",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 16,
+   "n": 64,
+   "rate": 0.25,
+   "lo": 0.16014926473210675,
+   "hi": 0.3681627655856484,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-d",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-d",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-e",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-e",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 32,
+   "n": 64,
+   "rate": 0.5,
+   "lo": 0.3810209465541197,
+   "hi": 0.6189790534458803,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-e",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-e",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-f",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 1,
+   "n": 32,
+   "rate": 0.03125,
+   "lo": 0.00553786010270331,
+   "hi": 0.15744263967668448,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-f",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 17,
+   "n": 64,
+   "rate": 0.265625,
+   "lo": 0.17296379013909535,
+   "hi": 0.38482873828380015,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-f",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-f",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-g",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 8,
+   "n": 32,
+   "rate": 0.25,
+   "lo": 0.1325240085114254,
+   "hi": 0.4210655913709147,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-g",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 42,
+   "n": 64,
+   "rate": 0.65625,
+   "lo": 0.5340364011187879,
+   "hi": 0.7607685799326149,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-g",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "B-g",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+a",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+a",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 6,
+   "n": 64,
+   "rate": 0.09375,
+   "lo": 0.04367825232989313,
+   "hi": 0.18982879693645915,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+a",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+a",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+b",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 4,
+   "n": 32,
+   "rate": 0.125,
+   "lo": 0.04970134352905961,
+   "hi": 0.2806830562944507,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+b",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 13,
+   "n": 64,
+   "rate": 0.203125,
+   "lo": 0.12273417769708575,
+   "hi": 0.31713635830524856,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+b",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 1,
+   "n": 32,
+   "rate": 0.03125,
+   "lo": 0.00553786010270331,
+   "hi": 0.15744263967668448,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+b",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 10,
+   "n": 64,
+   "rate": 0.15625,
+   "lo": 0.08714842298087311,
+   "hi": 0.26428061870604036,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+d",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 31,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.11025539700802303,
+   "nonvalid": {
+    "empty": 1
+   }
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+d",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+d",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+d",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+e",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+e",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+e",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+e",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+f",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+f",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+f",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+f",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+g",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+g",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 1,
+   "n": 64,
+   "rate": 0.015625,
+   "lo": 0.0027635418927853816,
+   "hi": 0.08334101684786545,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+g",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "fresh",
+   "arm": "N+g",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "orig",
+   "arm": "B",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "orig",
+   "arm": "B",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 15,
+   "n": 36,
+   "rate": 0.4166666666666667,
+   "lo": 0.27140561953340225,
+   "hi": 0.577997485461411,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "orig",
+   "arm": "B",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "orig",
+   "arm": "B",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "orig",
+   "arm": "N",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "orig",
+   "arm": "N",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "orig",
+   "arm": "N",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "bullets",
+   "materials": "orig",
+   "arm": "N",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 1,
+   "n": 32,
+   "rate": 0.03125,
+   "lo": 0.00553786010270331,
+   "hi": 0.15744263967668448,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 37,
+   "n": 64,
+   "rate": 0.578125,
+   "lo": 0.45610031445865895,
+   "hi": 0.6913021760670425,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-a",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-a",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 19,
+   "n": 64,
+   "rate": 0.296875,
+   "lo": 0.19905151260405385,
+   "hi": 0.41770201202912227,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-a",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-a",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-b",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-b",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 19,
+   "n": 64,
+   "rate": 0.296875,
+   "lo": 0.19905151260405385,
+   "hi": 0.41770201202912227,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-b",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-b",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-c",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 1,
+   "n": 32,
+   "rate": 0.03125,
+   "lo": 0.00553786010270331,
+   "hi": 0.15744263967668448,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-c",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 19,
+   "n": 64,
+   "rate": 0.296875,
+   "lo": 0.19905151260405385,
+   "hi": 0.41770201202912227,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-c",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-c",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-d",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-d",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 8,
+   "n": 64,
+   "rate": 0.125,
+   "lo": 0.06472242630161115,
+   "hi": 0.2277456191750217,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-d",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-d",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-e",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 4,
+   "n": 32,
+   "rate": 0.125,
+   "lo": 0.04970134352905961,
+   "hi": 0.2806830562944507,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-e",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 36,
+   "n": 64,
+   "rate": 0.5625,
+   "lo": 0.44086208863767085,
+   "hi": 0.6770599037828904,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-e",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-e",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-f",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 7,
+   "n": 32,
+   "rate": 0.21875,
+   "lo": 0.11023836192799005,
+   "hi": 0.38754993793964265,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-f",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 25,
+   "n": 64,
+   "rate": 0.390625,
+   "lo": 0.2805556911069803,
+   "hi": 0.5130808221570375,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-f",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-f",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-g",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 4,
+   "n": 32,
+   "rate": 0.125,
+   "lo": 0.04970134352905961,
+   "hi": 0.2806830562944507,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-g",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 11,
+   "n": 64,
+   "rate": 0.171875,
+   "lo": 0.09877742257874725,
+   "hi": 0.28213211721330644,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-g",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "B-g",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+a",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+a",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+a",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+a",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+b",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+b",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+b",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+b",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+d",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 1,
+   "n": 32,
+   "rate": 0.03125,
+   "lo": 0.00553786010270331,
+   "hi": 0.15744263967668448,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+d",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+d",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+d",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+e",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+e",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+e",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 31,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.11025539700802303,
+   "nonvalid": {
+    "empty": 1
+   }
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+e",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+f",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+f",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+f",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+f",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+g",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+g",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+g",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "fresh",
+   "arm": "N+g",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "orig",
+   "arm": "B",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 4,
+   "n": 36,
+   "rate": 0.1111111111111111,
+   "lo": 0.04406640269669905,
+   "hi": 0.253148087279096,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "orig",
+   "arm": "B",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 27,
+   "n": 36,
+   "rate": 0.75,
+   "lo": 0.5892954609852031,
+   "hi": 0.8624952240303573,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "orig",
+   "arm": "B",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "orig",
+   "arm": "B",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "orig",
+   "arm": "N",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "orig",
+   "arm": "N",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "orig",
+   "arm": "N",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "send",
+   "materials": "orig",
+   "arm": "N",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 31,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.11025539700802303,
+   "nonvalid": {
+    "empty": 1
+   }
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 23,
+   "n": 64,
+   "rate": 0.359375,
+   "lo": 0.25288402217722405,
+   "hi": 0.4817914948765132,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-a",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-a",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 13,
+   "n": 64,
+   "rate": 0.203125,
+   "lo": 0.12273417769708575,
+   "hi": 0.31713635830524856,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-a",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-a",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-b",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 31,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.11025539700802303,
+   "nonvalid": {
+    "empty": 1
+   }
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-b",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 22,
+   "n": 64,
+   "rate": 0.34375,
+   "lo": 0.23923142006738501,
+   "hi": 0.4659635988812119,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-b",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-b",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-c",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-c",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 6,
+   "n": 64,
+   "rate": 0.09375,
+   "lo": 0.04367825232989313,
+   "hi": 0.18982879693645915,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-c",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-c",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-d",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-d",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 16,
+   "n": 64,
+   "rate": 0.25,
+   "lo": 0.16014926473210675,
+   "hi": 0.3681627655856484,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-d",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-d",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-e",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 31,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.11025539700802303,
+   "nonvalid": {
+    "empty": 1
+   }
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-e",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 31,
+   "n": 64,
+   "rate": 0.484375,
+   "lo": 0.3663355157825022,
+   "hi": 0.6041839861123575,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-e",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-e",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-f",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 1,
+   "n": 32,
+   "rate": 0.03125,
+   "lo": 0.00553786010270331,
+   "hi": 0.15744263967668448,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-f",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 19,
+   "n": 64,
+   "rate": 0.296875,
+   "lo": 0.19905151260405385,
+   "hi": 0.41770201202912227,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-f",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-f",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-g",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 6,
+   "n": 32,
+   "rate": 0.1875,
+   "lo": 0.0888954463773112,
+   "hi": 0.35309155347561394,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-g",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 41,
+   "n": 64,
+   "rate": 0.640625,
+   "lo": 0.5182085051234868,
+   "hi": 0.7471159778227758,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-g",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "B-g",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+a",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+a",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+a",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+a",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+b",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+b",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+b",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+b",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+d",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+d",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+d",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+d",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+e",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+e",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+e",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+e",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+f",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+f",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 2,
+   "n": 64,
+   "rate": 0.03125,
+   "lo": 0.008612138268632274,
+   "hi": 0.10697291857715885,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+f",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+f",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+g",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+g",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+g",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 32,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.10717919976468034,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "fresh",
+   "arm": "N+g",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.05662406063551054,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "orig",
+   "arm": "B",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "orig",
+   "arm": "B",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 11,
+   "n": 36,
+   "rate": 0.3055555555555556,
+   "lo": 0.1800445151699979,
+   "hi": 0.4685627298178997,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "orig",
+   "arm": "B",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "orig",
+   "arm": "B",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "orig",
+   "arm": "N",
+   "score": "p050",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "orig",
+   "arm": "N",
+   "score": "p050",
+   "model": "Qwen 3.8",
+   "k": 1,
+   "n": 36,
+   "rate": 0.027777777777777776,
+   "lo": 0.004920407085360526,
+   "hi": 0.1416971878852477,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "orig",
+   "arm": "N",
+   "score": "tied",
+   "model": "Qwen 3.5",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  },
+  {
+   "task": "titles",
+   "materials": "orig",
+   "arm": "N",
+   "score": "tied",
+   "model": "Qwen 3.8",
+   "k": 0,
+   "n": 36,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.09641862996887933,
+   "nonvalid": {}
+  }
+ ],
+ "secondary": {
+  "Qwen 3.8": {
+   "send": {
+    "score effect orig B": {
+     "name": "send orig B",
+     "estimate": 0.75,
+     "ci95": [
+      0.5555555555555556,
+      0.9166666666666665
+     ],
+     "p": 0.0009499525023748813,
+     "test": "signflip",
+     "n_blocks": 12,
+     "n_nonzero_blocks": 11
+    },
+    "score effect orig N": {
+     "name": "send orig N",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 12,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.221"
+    },
+    "score effect fresh B": {
+     "name": "send fresh B",
+     "estimate": 0.578125,
+     "ci95": [
+      0.4375,
+      0.71875
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 24
+    },
+    "score effect fresh N": {
+     "name": "send fresh N",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+    },
+    "score effect fresh B-a": {
+     "name": "send fresh B-a",
+     "estimate": 0.296875,
+     "ci95": [
+      0.171875,
+      0.421875
+     ],
+     "p": 0.00014999250037498125,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 14
+    },
+    "score effect fresh B-b": {
+     "name": "send fresh B-b",
+     "estimate": 0.296875,
+     "ci95": [
+      0.171875,
+      0.421875
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 15
+    },
+    "score effect fresh B-c": {
+     "name": "send fresh B-c",
+     "estimate": 0.296875,
+     "ci95": [
+      0.1875,
+      0.421875
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 16
+    },
+    "score effect fresh B-d": {
+     "name": "send fresh B-d",
+     "estimate": 0.125,
+     "ci95": [
+      0.046875,
+      0.21875
+     ],
+     "p": 0.0151992400379981,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 7
+    },
+    "score effect fresh B-e": {
+     "name": "send fresh B-e",
+     "estimate": 0.5625,
+     "ci95": [
+      0.453125,
+      0.671875
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 28
+    },
+    "score effect fresh B-f": {
+     "name": "send fresh B-f",
+     "estimate": 0.390625,
+     "ci95": [
+      0.28125,
+      0.5
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 21
+    },
+    "score effect fresh B-g": {
+     "name": "send fresh B-g",
+     "estimate": 0.171875,
+     "ci95": [
+      0.078125,
+      0.265625
+     ],
+     "p": 0.0026498675066246686,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 10
+    },
+    "score effect fresh N+a": {
+     "name": "send fresh N+a",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+    },
+    "score effect fresh N+b": {
+     "name": "send fresh N+b",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+    },
+    "score effect fresh N+d": {
+     "name": "send fresh N+d",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+    },
+    "score effect fresh N+e": {
+     "name": "send fresh N+e",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+    },
+    "score effect fresh N+f": {
+     "name": "send fresh N+f",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+    },
+    "score effect fresh N+g": {
+     "name": "send fresh N+g",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+    },
+    "interaction (B-N) orig - fresh": {
+     "estimate": 0.171875,
+     "ci95": [
+      -0.048654513888888924,
+      0.38888888888888884
+     ],
+     "test": "bootstrap only (descriptive)"
+    },
+    "PRES (task)": {
+     "name": "PRES",
+     "estimate": 0.6640625,
+     "ci95": [
+      0.5494791666666667,
+      0.7682291666666665
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 44,
+     "n_nonzero_blocks": 35
+    },
+    "MAT (task)": {
+     "name": "MAT",
+     "estimate": 0.0859375,
+     "ci95": [
+      -0.031293402777777764,
+      0.19270833333333331
+     ],
+     "p": 0.15084245787710615,
+     "test": "permutation",
+     "n_blocks": 44
+    },
+    "REM:a (task)": {
+     "name": "REM:a",
+     "estimate": 0.28125,
+     "ci95": [
+      0.109375,
+      0.453125
+     ],
+     "p": 0.005749712514374282,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 19,
+     "p_holm": 0.05749712514374282
+    },
+    "REM:b (task)": {
+     "name": "REM:b",
+     "estimate": 0.28125,
+     "ci95": [
+      0.09375,
+      0.46875
+     ],
+     "p": 0.011549422528873556,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 24,
+     "p_holm": 0.10394480275986201
+    },
+    "REM:c (task)": {
+     "name": "REM:c",
+     "estimate": 0.28125,
+     "ci95": [
+      0.125,
+      0.421875
+     ],
+     "p": 0.0027498625068746564,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 21,
+     "p_holm": 0.030248487575621222
+    },
+    "REM:d (task)": {
+     "name": "REM:d",
+     "estimate": 0.453125,
+     "ci95": [
+      0.296875,
+      0.59375
+     ],
+     "p": 9.99950002499875e-05,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 24,
+     "p_holm": 0.0012999350032498374
+    },
+    "REM:e (task)": {
+     "name": "REM:e",
+     "estimate": 0.015625,
+     "ci95": [
+      -0.125,
+      0.15664062499999432
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 20,
+     "p_holm": 1.0
+    },
+    "REM:f (task)": {
+     "name": "REM:f",
+     "estimate": 0.1875,
+     "ci95": [
+      0.046875,
+      0.328125
+     ],
+     "p": 0.027798610069496524,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 20,
+     "p_holm": 0.2223888805559722
+    },
+    "REM:g (task)": {
+     "name": "REM:g",
+     "estimate": 0.40625,
+     "ci95": [
+      0.234375,
+      0.578125
+     ],
+     "p": 0.00034998250087495624,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 24,
+     "p_holm": 0.004199790010499475
+    },
+    "ADD:a (task)": {
+     "name": "ADD:a",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+     "p_holm": 1.0
+    },
+    "ADD:b (task)": {
+     "name": "ADD:b",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+     "p_holm": 1.0
+    },
+    "ADD:d (task)": {
+     "name": "ADD:d",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+     "p_holm": 1.0
+    },
+    "ADD:e (task)": {
+     "name": "ADD:e",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+     "p_holm": 1.0
+    },
+    "ADD:f (task)": {
+     "name": "ADD:f",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+     "p_holm": 1.0
+    },
+    "ADD:g (task)": {
+     "name": "ADD:g",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+     "p_holm": 1.0
+    }
+   },
+   "titles": {
+    "score effect orig B": {
+     "name": "titles orig B",
+     "estimate": 0.3055555555555555,
+     "ci95": [
+      0.13888888888888887,
+      0.47222222222222227
+     ],
+     "p": 0.015499225038748062,
+     "test": "signflip",
+     "n_blocks": 12,
+     "n_nonzero_blocks": 7
+    },
+    "score effect orig N": {
+     "name": "titles orig N",
+     "estimate": 0.027777777777777776,
+     "ci95": [
+      0.0,
+      0.08333333333333333
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 12,
+     "n_nonzero_blocks": 1
+    },
+    "score effect fresh B": {
+     "name": "titles fresh B",
+     "estimate": 0.359375,
+     "ci95": [
+      0.234375,
+      0.5
+     ],
+     "p": 9.99950002499875e-05,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 17
+    },
+    "score effect fresh N": {
+     "name": "titles fresh N",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+    },
+    "score effect fresh B-a": {
+     "name": "titles fresh B-a",
+     "estimate": 0.203125,
+     "ci95": [
+      0.109375,
+      0.296875
+     ],
+     "p": 0.0006499675016249188,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 12
+    },
+    "score effect fresh B-b": {
+     "name": "titles fresh B-b",
+     "estimate": 0.34375,
+     "ci95": [
+      0.21875,
+      0.484375
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 16
+    },
+    "score effect fresh B-c": {
+     "name": "titles fresh B-c",
+     "estimate": 0.09375,
+     "ci95": [
+      0.03125,
+      0.1875
+     ],
+     "p": 0.0631468426578671,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 5
+    },
+    "score effect fresh B-d": {
+     "name": "titles fresh B-d",
+     "estimate": 0.25,
+     "ci95": [
+      0.140625,
+      0.359375
+     ],
+     "p": 0.00014999250037498125,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 14
+    },
+    "score effect fresh B-e": {
+     "name": "titles fresh B-e",
+     "estimate": 0.484375,
+     "ci95": [
+      0.34375,
+      0.625
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 21
+    },
+    "score effect fresh B-f": {
+     "name": "titles fresh B-f",
+     "estimate": 0.296875,
+     "ci95": [
+      0.15625,
+      0.4375
+     ],
+     "p": 0.0004999750012499375,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 12
+    },
+    "score effect fresh B-g": {
+     "name": "titles fresh B-g",
+     "estimate": 0.640625,
+     "ci95": [
+      0.53125,
+      0.75
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 28
+    },
+    "score effect fresh N+a": {
+     "name": "titles fresh N+a",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+    },
+    "score effect fresh N+b": {
+     "name": "titles fresh N+b",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+    },
+    "score effect fresh N+d": {
+     "name": "titles fresh N+d",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+    },
+    "score effect fresh N+e": {
+     "name": "titles fresh N+e",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+    },
+    "score effect fresh N+f": {
+     "name": "titles fresh N+f",
+     "estimate": 0.03125,
+     "ci95": [
+      0.0,
+      0.078125
+     ],
+     "p": 0.5010749462526873,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 2
+    },
+    "score effect fresh N+g": {
+     "name": "titles fresh N+g",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+    },
+    "interaction (B-N) orig - fresh": {
+     "estimate": -0.08159722222222227,
+     "ci95": [
+      -0.2986545138888889,
+      0.13541666666666657
+     ],
+     "test": "bootstrap only (descriptive)"
+    },
+    "PRES (task)": {
+     "name": "PRES",
+     "estimate": 0.31857638888888884,
+     "ci95": [
+      0.21614583333333331,
+      0.4253472222222222
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 44,
+     "n_nonzero_blocks": 23
+    },
+    "MAT (task)": {
+     "name": "MAT",
+     "estimate": -0.013020833333333343,
+     "ci95": [
+      -0.1171875,
+      0.09724392361111081
+     ],
+     "p": 0.808109594520274,
+     "test": "permutation",
+     "n_blocks": 44
+    },
+    "REM:a (task)": {
+     "name": "REM:a",
+     "estimate": 0.15625,
+     "ci95": [
+      0.0,
+      0.3125
+     ],
+     "p": 0.09909504524773761,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 21,
+     "p_holm": 1.0
+    },
+    "REM:b (task)": {
+     "name": "REM:b",
+     "estimate": 0.015625,
+     "ci95": [
+      -0.109375,
+      0.140625
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 14,
+     "p_holm": 1.0
+    },
+    "REM:c (task)": {
+     "name": "REM:c",
+     "estimate": 0.265625,
+     "ci95": [
+      0.140625,
+      0.390625
+     ],
+     "p": 0.000599970001499925,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 15,
+     "p_holm": 0.007799610019499025
+    },
+    "REM:d (task)": {
+     "name": "REM:d",
+     "estimate": 0.109375,
+     "ci95": [
+      -0.03125,
+      0.265625
+     ],
+     "p": 0.23183840807959602,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 19,
+     "p_holm": 1.0
+    },
+    "REM:e (task)": {
+     "name": "REM:e",
+     "estimate": -0.125,
+     "ci95": [
+      -0.28125,
+      0.03125
+     ],
+     "p": 0.20438978051097445,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 18,
+     "p_holm": 1.0
+    },
+    "REM:f (task)": {
+     "name": "REM:f",
+     "estimate": 0.0625,
+     "ci95": [
+      -0.078125,
+      0.203125
+     ],
+     "p": 0.5306234688265586,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 13,
+     "p_holm": 1.0
+    },
+    "REM:g (task)": {
+     "name": "REM:g",
+     "estimate": -0.28125,
+     "ci95": [
+      -0.4375,
+      -0.140625
+     ],
+     "p": 0.0028998550072496373,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 22,
+     "p_holm": 0.034798260086995644
+    },
+    "ADD:a (task)": {
+     "name": "ADD:a",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+     "p_holm": 1.0
+    },
+    "ADD:b (task)": {
+     "name": "ADD:b",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+     "p_holm": 1.0
+    },
+    "ADD:d (task)": {
+     "name": "ADD:d",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+     "p_holm": 1.0
+    },
+    "ADD:e (task)": {
+     "name": "ADD:e",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+     "p_holm": 1.0
+    },
+    "ADD:f (task)": {
+     "name": "ADD:f",
+     "estimate": 0.03125,
+     "ci95": [
+      0.0,
+      0.078125
+     ],
+     "p": 0.5052247387630618,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 2,
+     "p_holm": 1.0
+    },
+    "ADD:g (task)": {
+     "name": "ADD:g",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+     "p_holm": 1.0
+    }
+   },
+   "bullets": {
+    "score effect orig B": {
+     "name": "bullets orig B",
+     "estimate": 0.4166666666666667,
+     "ci95": [
+      0.19444444444444442,
+      0.638888888888889
+     ],
+     "p": 0.06199690015499225,
+     "test": "signflip",
+     "n_blocks": 6,
+     "n_nonzero_blocks": 5
+    },
+    "score effect orig N": {
+     "name": "bullets orig N",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 6,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.393"
+    },
+    "score effect fresh B": {
+     "name": "bullets fresh B",
+     "estimate": 0.40625,
+     "ci95": [
+      0.28125,
+      0.546875
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 19
+    },
+    "score effect fresh N": {
+     "name": "bullets fresh N",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+    },
+    "score effect fresh B-a": {
+     "name": "bullets fresh B-a",
+     "estimate": 0.15625,
+     "ci95": [
+      0.078125,
+      0.234375
+     ],
+     "p": 0.0016499175041247937,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 10
+    },
+    "score effect fresh B-b": {
+     "name": "bullets fresh B-b",
+     "estimate": 0.1875,
+     "ci95": [
+      0.078125,
+      0.3125
+     ],
+     "p": 0.007749612519374031,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 8
+    },
+    "score effect fresh B-c": {
+     "name": "bullets fresh B-c",
+     "estimate": 0.109375,
+     "ci95": [
+      0.046875,
+      0.1875
+     ],
+     "p": 0.014499275036248187,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 7
+    },
+    "score effect fresh B-d": {
+     "name": "bullets fresh B-d",
+     "estimate": 0.25,
+     "ci95": [
+      0.15625,
+      0.359375
+     ],
+     "p": 0.00024998750062496874,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 14
+    },
+    "score effect fresh B-e": {
+     "name": "bullets fresh B-e",
+     "estimate": 0.5,
+     "ci95": [
+      0.359375,
+      0.625
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 23
+    },
+    "score effect fresh B-f": {
+     "name": "bullets fresh B-f",
+     "estimate": 0.265625,
+     "ci95": [
+      0.15625,
+      0.390625
+     ],
+     "p": 0.00034998250087495624,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 13
+    },
+    "score effect fresh B-g": {
+     "name": "bullets fresh B-g",
+     "estimate": 0.65625,
+     "ci95": [
+      0.53125,
+      0.765625
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 28
+    },
+    "score effect fresh N+a": {
+     "name": "bullets fresh N+a",
+     "estimate": 0.09375,
+     "ci95": [
+      0.03125,
+      0.171875
+     ],
+     "p": 0.0335983200839958,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 6
+    },
+    "score effect fresh N+b": {
+     "name": "bullets fresh N+b",
+     "estimate": 0.046875,
+     "ci95": [
+      -0.0625,
+      0.171875
+     ],
+     "p": 0.6326683665816709,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 11
+    },
+    "score effect fresh N+d": {
+     "name": "bullets fresh N+d",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+    },
+    "score effect fresh N+e": {
+     "name": "bullets fresh N+e",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+    },
+    "score effect fresh N+f": {
+     "name": "bullets fresh N+f",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+    },
+    "score effect fresh N+g": {
+     "name": "bullets fresh N+g",
+     "estimate": 0.015625,
+     "ci95": [
+      0.0,
+      0.046875
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 1
+    },
+    "interaction (B-N) orig - fresh": {
+     "estimate": 0.010416666666666685,
+     "ci95": [
+      -0.23958333333333334,
+      0.2743489583333327
+     ],
+     "test": "bootstrap only (descriptive)"
+    },
+    "PRES (task)": {
+     "name": "PRES",
+     "estimate": 0.41145833333333337,
+     "ci95": [
+      0.2786458333333333,
+      0.5451388888888888
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 38,
+     "n_nonzero_blocks": 24
+    },
+    "MAT (task)": {
+     "name": "MAT",
+     "estimate": 0.005208333333333343,
+     "ci95": [
+      -0.125,
+      0.13370225694444415
+     ],
+     "p": 0.8843557822108895,
+     "test": "permutation",
+     "n_blocks": 38
+    },
+    "REM:a (task)": {
+     "name": "REM:a",
+     "estimate": 0.25,
+     "ci95": [
+      0.125,
+      0.390625
+     ],
+     "p": 0.0027498625068746564,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 16,
+     "p_holm": 0.03299835008249588
+    },
+    "REM:b (task)": {
+     "name": "REM:b",
+     "estimate": 0.21875,
+     "ci95": [
+      0.0625,
+      0.375
+     ],
+     "p": 0.018349082545872707,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 17,
+     "p_holm": 0.18349082545872708
+    },
+    "REM:c (task)": {
+     "name": "REM:c",
+     "estimate": 0.296875,
+     "ci95": [
+      0.15625,
+      0.4375
+     ],
+     "p": 0.000999950002499875,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 18,
+     "p_holm": 0.012999350032498375
+    },
+    "REM:d (task)": {
+     "name": "REM:d",
+     "estimate": 0.15625,
+     "ci95": [
+      0.0,
+      0.3125
+     ],
+     "p": 0.08574571271436428,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 16,
+     "p_holm": 0.6859657017149142
+    },
+    "REM:e (task)": {
+     "name": "REM:e",
+     "estimate": -0.09375,
+     "ci95": [
+      -0.25,
+      0.0625
+     ],
+     "p": 0.3569821508924554,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 16,
+     "p_holm": 1.0
+    },
+    "REM:f (task)": {
+     "name": "REM:f",
+     "estimate": 0.140625,
+     "ci95": [
+      0.0,
+      0.2816406249999943
+     ],
+     "p": 0.10929453527323633,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 16,
+     "p_holm": 0.7650617469126544
+    },
+    "REM:g (task)": {
+     "name": "REM:g",
+     "estimate": -0.25,
+     "ci95": [
+      -0.40625,
+      -0.078125
+     ],
+     "p": 0.01239938003099845,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 23,
+     "p_holm": 0.13639318034098294
+    },
+    "ADD:a (task)": {
+     "name": "ADD:a",
+     "estimate": 0.09375,
+     "ci95": [
+      0.03125,
+      0.171875
+     ],
+     "p": 0.03149842507874606,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 6,
+     "p_holm": 0.28348582570871456
+    },
+    "ADD:b (task)": {
+     "name": "ADD:b",
+     "estimate": 0.046875,
+     "ci95": [
+      -0.078125,
+      0.171875
+     ],
+     "p": 0.632118394080296,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 11,
+     "p_holm": 1.0
+    },
+    "ADD:d (task)": {
+     "name": "ADD:d",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+     "p_holm": 1.0
+    },
+    "ADD:e (task)": {
+     "name": "ADD:e",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+     "p_holm": 1.0
+    },
+    "ADD:f (task)": {
+     "name": "ADD:f",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+     "p_holm": 1.0
+    },
+    "ADD:g (task)": {
+     "name": "ADD:g",
+     "estimate": 0.015625,
+     "ci95": [
+      0.0,
+      0.046875
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 32,
+     "n_nonzero_blocks": 1,
+     "p_holm": 1.0
+    }
+   }
+  }
+ },
+ "all_tasks_pooled": {
+  "Qwen 3.8": {
+   "part1": {
+    "PRES": {
+     "name": "PRES",
+     "estimate": 0.464699074074074,
+     "ci95": [
+      0.39871961805555556,
+      0.5324218749999998
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 126,
+     "n_nonzero_blocks": 82,
+     "p_holm": 9.99950002499875e-05
+    },
+    "MAT": {
+     "name": "MAT",
+     "estimate": 0.026041666666666668,
+     "ci95": [
+      -0.0413773148148148,
+      0.09317853009259253
+     ],
+     "p": 0.4767261636918154,
+     "test": "permutation",
+     "n_blocks": 126,
+     "p_holm": 0.4767261636918154
+    }
+   },
+   "part2": {
+    "REM:a": {
+     "name": "REM:a",
+     "estimate": 0.22916666666666663,
+     "ci95": [
+      0.140625,
+      0.3177083333333333
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 96,
+     "n_nonzero_blocks": 56,
+     "p_holm": 0.0006499675016249187
+    },
+    "REM:b": {
+     "name": "REM:b",
+     "estimate": 0.171875,
+     "ci95": [
+      0.08333333333333333,
+      0.265625
+     ],
+     "p": 0.0010499475026248687,
+     "test": "signflip",
+     "n_blocks": 96,
+     "n_nonzero_blocks": 55,
+     "p_holm": 0.010499475026248687
+    },
+    "REM:c": {
+     "name": "REM:c",
+     "estimate": 0.28125,
+     "ci95": [
+      0.19791666666666663,
+      0.3645833333333333
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 96,
+     "n_nonzero_blocks": 54,
+     "p_holm": 0.0006499675016249187
+    },
+    "REM:d": {
+     "name": "REM:d",
+     "estimate": 0.23958333333333331,
+     "ci95": [
+      0.15104166666666666,
+      0.32291666666666663
+     ],
+     "p": 4.999750012499375e-05,
+     "test": "signflip",
+     "n_blocks": 96,
+     "n_nonzero_blocks": 59,
+     "p_holm": 0.0006499675016249187
+    },
+    "REM:e": {
+     "name": "REM:e",
+     "estimate": -0.06770833333333333,
+     "ci95": [
+      -0.16145833333333331,
+      0.020833333333333332
+     ],
+     "p": 0.1824908754562272,
+     "test": "signflip",
+     "n_blocks": 96,
+     "n_nonzero_blocks": 54,
+     "p_holm": 1.0
+    },
+    "REM:f": {
+     "name": "REM:f",
+     "estimate": 0.13020833333333331,
+     "ci95": [
+      0.05195312500000004,
+      0.21354166666666666
+     ],
+     "p": 0.004649767511624419,
+     "test": "signflip",
+     "n_blocks": 96,
+     "n_nonzero_blocks": 49,
+     "p_holm": 0.041847907604619775
+    },
+    "REM:g": {
+     "name": "REM:g",
+     "estimate": -0.04166666666666667,
+     "ci95": [
+      -0.14062499999999997,
+      0.05208333333333332
+     ],
+     "p": 0.535923203839808,
+     "test": "signflip",
+     "n_blocks": 96,
+     "n_nonzero_blocks": 69,
+     "p_holm": 1.0
+    },
+    "ADD:a": {
+     "name": "ADD:a",
+     "estimate": 0.03125,
+     "ci95": [
+      0.010416666666666666,
+      0.05221354166666477
+     ],
+     "p": 0.031248437578121093,
+     "test": "signflip",
+     "n_blocks": 96,
+     "n_nonzero_blocks": 6,
+     "p_holm": 0.24998750062496874
+    },
+    "ADD:b": {
+     "name": "ADD:b",
+     "estimate": 0.015625,
+     "ci95": [
+      -0.026041666666666664,
+      0.057291666666666664
+     ],
+     "p": 0.6312184390780461,
+     "test": "signflip",
+     "n_blocks": 96,
+     "n_nonzero_blocks": 11,
+     "p_holm": 1.0
+    },
+    "ADD:d": {
+     "name": "ADD:d",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 96,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.031",
+     "p_holm": 1.0
+    },
+    "ADD:e": {
+     "name": "ADD:e",
+     "estimate": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 96,
+     "n_nonzero_blocks": 0,
+     "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.031",
+     "p_holm": 1.0
+    },
+    "ADD:f": {
+     "name": "ADD:f",
+     "estimate": 0.010416666666666666,
+     "ci95": [
+      0.0,
+      0.026041666666666664
+     ],
+     "p": 0.504424778761062,
+     "test": "signflip",
+     "n_blocks": 96,
+     "n_nonzero_blocks": 2,
+     "p_holm": 1.0
+    },
+    "ADD:g": {
+     "name": "ADD:g",
+     "estimate": 0.005208333333333333,
+     "ci95": [
+      0.0,
+      0.015625
+     ],
+     "p": 1.0,
+     "test": "signflip",
+     "n_blocks": 96,
+     "n_nonzero_blocks": 1,
+     "p_holm": 1.0
+    }
+   }
+  }
+ },
+ "descriptive": {
+  "Qwen 3.5": {
+   "pooled_primary_tasks": {
+    "part1": {
+     "PRES": {
+      "name": "PRES",
+      "estimate": 0.035590277777777776,
+      "ci95": [
+       0.013888888888888888,
+       0.06510416666666666
+      ],
+      "p": 0.061946902654867256,
+      "test": "signflip",
+      "n_blocks": 87,
+      "n_nonzero_blocks": 5
+     },
+     "MAT": {
+      "name": "MAT",
+      "estimate": 0.019965277777777776,
+      "ci95": [
+       -0.008680555555555556,
+       0.04774305555555555
+      ],
+      "p": 0.19989000549972502,
+      "test": "permutation",
+      "n_blocks": 87
+     }
+    },
+    "part2": {
+     "REM:a": {
+      "name": "REM:a",
+      "estimate": 0.015625,
+      "ci95": [
+       0.0,
+       0.046875
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 63,
+      "n_nonzero_blocks": 1
+     },
+     "REM:b": {
+      "name": "REM:b",
+      "estimate": 0.015625,
+      "ci95": [
+       0.0,
+       0.046875
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 62,
+      "n_nonzero_blocks": 1
+     },
+     "REM:c": {
+      "name": "REM:c",
+      "estimate": 0.0,
+      "ci95": [
+       -0.046875,
+       0.046875
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 63,
+      "n_nonzero_blocks": 2
+     },
+     "REM:d": {
+      "name": "REM:d",
+      "estimate": 0.015625,
+      "ci95": [
+       0.0,
+       0.046875
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 63,
+      "n_nonzero_blocks": 1
+     },
+     "REM:e": {
+      "name": "REM:e",
+      "estimate": -0.046875,
+      "ci95": [
+       -0.109375,
+       0.0
+      ],
+      "p": 0.24433778311084445,
+      "test": "signflip",
+      "n_blocks": 62,
+      "n_nonzero_blocks": 3
+     },
+     "REM:f": {
+      "name": "REM:f",
+      "estimate": -0.10987903225806452,
+      "ci95": [
+       -0.18850806451612903,
+       -0.046875
+      ],
+      "p": 0.01664916754162292,
+      "test": "signflip",
+      "n_blocks": 63,
+      "n_nonzero_blocks": 7
+     },
+     "REM:g": {
+      "name": "REM:g",
+      "estimate": -0.1436491935483871,
+      "ci95": [
+       -0.2399193548387097,
+       -0.04938256048387115
+      ],
+      "p": 0.005649717514124294,
+      "test": "signflip",
+      "n_blocks": 63,
+      "n_nonzero_blocks": 11
+     },
+     "ADD:a": {
+      "name": "ADD:a",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 64,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.046"
+     },
+     "ADD:b": {
+      "name": "ADD:b",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 64,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.046"
+     },
+     "ADD:d": {
+      "name": "ADD:d",
+      "estimate": 0.015625,
+      "ci95": [
+       0.0,
+       0.046875
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 64,
+      "n_nonzero_blocks": 1
+     },
+     "ADD:e": {
+      "name": "ADD:e",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 63,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.046"
+     },
+     "ADD:f": {
+      "name": "ADD:f",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 64,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.046"
+     },
+     "ADD:g": {
+      "name": "ADD:g",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 64,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.046"
+     }
+    }
+   },
+   "per_task": {
+    "send": {
+     "score effect orig B": {
+      "name": "send orig B",
+      "estimate": 0.1111111111111111,
+      "ci95": [
+       0.027777777777777776,
+       0.19444444444444442
+      ],
+      "p": 0.12529373531323434,
+      "test": "signflip",
+      "n_blocks": 12,
+      "n_nonzero_blocks": 4
+     },
+     "score effect orig N": {
+      "name": "send orig N",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 12,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.221"
+     },
+     "score effect fresh B": {
+      "name": "send fresh B",
+      "estimate": 0.03125,
+      "ci95": [
+       0.0,
+       0.09375
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 1
+     },
+     "score effect fresh N": {
+      "name": "send fresh N",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh B-a": {
+      "name": "send fresh B-a",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh B-b": {
+      "name": "send fresh B-b",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh B-c": {
+      "name": "send fresh B-c",
+      "estimate": 0.03125,
+      "ci95": [
+       0.0,
+       0.09375
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 1
+     },
+     "score effect fresh B-d": {
+      "name": "send fresh B-d",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh B-e": {
+      "name": "send fresh B-e",
+      "estimate": 0.125,
+      "ci95": [
+       0.03125,
+       0.25
+      ],
+      "p": 0.12439378031098446,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 4
+     },
+     "score effect fresh B-f": {
+      "name": "send fresh B-f",
+      "estimate": 0.21875,
+      "ci95": [
+       0.09375,
+       0.375
+      ],
+      "p": 0.015699215039248038,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 7
+     },
+     "score effect fresh B-g": {
+      "name": "send fresh B-g",
+      "estimate": 0.125,
+      "ci95": [
+       0.03125,
+       0.25
+      ],
+      "p": 0.12224388780560971,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 4
+     },
+     "score effect fresh N+a": {
+      "name": "send fresh N+a",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh N+b": {
+      "name": "send fresh N+b",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh N+d": {
+      "name": "send fresh N+d",
+      "estimate": 0.03125,
+      "ci95": [
+       0.0,
+       0.09375
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 1
+     },
+     "score effect fresh N+e": {
+      "name": "send fresh N+e",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 31,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.092"
+     },
+     "score effect fresh N+f": {
+      "name": "send fresh N+f",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh N+g": {
+      "name": "send fresh N+g",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "interaction (B-N) orig - fresh": {
+      "estimate": 0.0798611111111111,
+      "ci95": [
+       -0.034722222222222224,
+       0.19444444444444442
+      ],
+      "test": "bootstrap only (descriptive)"
+     },
+     "PRES (task)": {
+      "name": "PRES",
+      "estimate": 0.07118055555555555,
+      "ci95": [
+       0.027777777777777776,
+       0.1284722222222222
+      ],
+      "p": 0.06119694015299235,
+      "test": "signflip",
+      "n_blocks": 44,
+      "n_nonzero_blocks": 5
+     },
+     "MAT (task)": {
+      "name": "MAT",
+      "estimate": 0.03993055555555555,
+      "ci95": [
+       -0.017361111111111112,
+       0.09722222222222221
+      ],
+      "p": 0.20033998300084996,
+      "test": "permutation",
+      "n_blocks": 44
+     },
+     "REM:a (task)": {
+      "name": "REM:a",
+      "estimate": 0.03125,
+      "ci95": [
+       0.0,
+       0.09375
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 1,
+      "p_holm": 1.0
+     },
+     "REM:b (task)": {
+      "name": "REM:b",
+      "estimate": 0.03125,
+      "ci95": [
+       0.0,
+       0.09375
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 1,
+      "p_holm": 1.0
+     },
+     "REM:c (task)": {
+      "name": "REM:c",
+      "estimate": 0.0,
+      "ci95": [
+       -0.09375,
+       0.09375
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 2,
+      "p_holm": 1.0
+     },
+     "REM:d (task)": {
+      "name": "REM:d",
+      "estimate": 0.03125,
+      "ci95": [
+       0.0,
+       0.09375
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 1,
+      "p_holm": 1.0
+     },
+     "REM:e (task)": {
+      "name": "REM:e",
+      "estimate": -0.09375,
+      "ci95": [
+       -0.21875,
+       0.0
+      ],
+      "p": 0.25708714564271784,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 3,
+      "p_holm": 1.0
+     },
+     "REM:f (task)": {
+      "name": "REM:f",
+      "estimate": -0.1875,
+      "ci95": [
+       -0.34375,
+       -0.0625
+      ],
+      "p": 0.03089845507724614,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 6,
+      "p_holm": 0.4016799160041998
+     },
+     "REM:g (task)": {
+      "name": "REM:g",
+      "estimate": -0.09375,
+      "ci95": [
+       -0.25,
+       0.03125
+      ],
+      "p": 0.37378131093445327,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 5,
+      "p_holm": 1.0
+     },
+     "ADD:a (task)": {
+      "name": "ADD:a",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+      "p_holm": 1.0
+     },
+     "ADD:b (task)": {
+      "name": "ADD:b",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+      "p_holm": 1.0
+     },
+     "ADD:d (task)": {
+      "name": "ADD:d",
+      "estimate": 0.03125,
+      "ci95": [
+       0.0,
+       0.09375
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 1,
+      "p_holm": 1.0
+     },
+     "ADD:e (task)": {
+      "name": "ADD:e",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 31,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.092",
+      "p_holm": 1.0
+     },
+     "ADD:f (task)": {
+      "name": "ADD:f",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+      "p_holm": 1.0
+     },
+     "ADD:g (task)": {
+      "name": "ADD:g",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+      "p_holm": 1.0
+     }
+    },
+    "titles": {
+     "score effect orig B": {
+      "name": "titles orig B",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 12,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.221"
+     },
+     "score effect orig N": {
+      "name": "titles orig N",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 12,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.221"
+     },
+     "score effect fresh B": {
+      "name": "titles fresh B",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 31,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.092"
+     },
+     "score effect fresh N": {
+      "name": "titles fresh N",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh B-a": {
+      "name": "titles fresh B-a",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh B-b": {
+      "name": "titles fresh B-b",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 31,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.092"
+     },
+     "score effect fresh B-c": {
+      "name": "titles fresh B-c",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh B-d": {
+      "name": "titles fresh B-d",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh B-e": {
+      "name": "titles fresh B-e",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 31,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.092"
+     },
+     "score effect fresh B-f": {
+      "name": "titles fresh B-f",
+      "estimate": 0.03125,
+      "ci95": [
+       0.0,
+       0.09375
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 1
+     },
+     "score effect fresh B-g": {
+      "name": "titles fresh B-g",
+      "estimate": 0.1875,
+      "ci95": [
+       0.0625,
+       0.34375
+      ],
+      "p": 0.032298385080745964,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 6
+     },
+     "score effect fresh N+a": {
+      "name": "titles fresh N+a",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh N+b": {
+      "name": "titles fresh N+b",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh N+d": {
+      "name": "titles fresh N+d",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh N+e": {
+      "name": "titles fresh N+e",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh N+f": {
+      "name": "titles fresh N+f",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh N+g": {
+      "name": "titles fresh N+g",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "interaction (B-N) orig - fresh": {
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "test": "bootstrap only (descriptive)"
+     },
+     "PRES (task)": {
+      "name": "PRES",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 43,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.067"
+     },
+     "MAT (task)": {
+      "name": "MAT",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "permutation",
+      "n_blocks": 43
+     },
+     "REM:a (task)": {
+      "name": "REM:a",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 31,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.092",
+      "p_holm": 1.0
+     },
+     "REM:b (task)": {
+      "name": "REM:b",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 30,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.095",
+      "p_holm": 1.0
+     },
+     "REM:c (task)": {
+      "name": "REM:c",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 31,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.092",
+      "p_holm": 1.0
+     },
+     "REM:d (task)": {
+      "name": "REM:d",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 31,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.092",
+      "p_holm": 1.0
+     },
+     "REM:e (task)": {
+      "name": "REM:e",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 30,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.095",
+      "p_holm": 1.0
+     },
+     "REM:f (task)": {
+      "name": "REM:f",
+      "estimate": -0.03225806451612903,
+      "ci95": [
+       -0.0967741935483871,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 31,
+      "n_nonzero_blocks": 1,
+      "p_holm": 1.0
+     },
+     "REM:g (task)": {
+      "name": "REM:g",
+      "estimate": -0.1935483870967742,
+      "ci95": [
+       -0.32338709677419325,
+       -0.06451612903225806
+      ],
+      "p": 0.030448477576121194,
+      "test": "signflip",
+      "n_blocks": 31,
+      "n_nonzero_blocks": 6,
+      "p_holm": 0.3958302084895755
+     },
+     "ADD:a (task)": {
+      "name": "ADD:a",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+      "p_holm": 1.0
+     },
+     "ADD:b (task)": {
+      "name": "ADD:b",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+      "p_holm": 1.0
+     },
+     "ADD:d (task)": {
+      "name": "ADD:d",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+      "p_holm": 1.0
+     },
+     "ADD:e (task)": {
+      "name": "ADD:e",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+      "p_holm": 1.0
+     },
+     "ADD:f (task)": {
+      "name": "ADD:f",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+      "p_holm": 1.0
+     },
+     "ADD:g (task)": {
+      "name": "ADD:g",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+      "p_holm": 1.0
+     }
+    },
+    "bullets": {
+     "score effect orig B": {
+      "name": "bullets orig B",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 6,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.393"
+     },
+     "score effect orig N": {
+      "name": "bullets orig N",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 6,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.393"
+     },
+     "score effect fresh B": {
+      "name": "bullets fresh B",
+      "estimate": 0.03125,
+      "ci95": [
+       0.0,
+       0.09375
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 1
+     },
+     "score effect fresh N": {
+      "name": "bullets fresh N",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh B-a": {
+      "name": "bullets fresh B-a",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh B-b": {
+      "name": "bullets fresh B-b",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh B-c": {
+      "name": "bullets fresh B-c",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh B-d": {
+      "name": "bullets fresh B-d",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh B-e": {
+      "name": "bullets fresh B-e",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh B-f": {
+      "name": "bullets fresh B-f",
+      "estimate": 0.03125,
+      "ci95": [
+       0.0,
+       0.09375
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 1
+     },
+     "score effect fresh B-g": {
+      "name": "bullets fresh B-g",
+      "estimate": 0.25,
+      "ci95": [
+       0.09375,
+       0.40625
+      ],
+      "p": 0.007949602519874007,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 8
+     },
+     "score effect fresh N+a": {
+      "name": "bullets fresh N+a",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh N+b": {
+      "name": "bullets fresh N+b",
+      "estimate": 0.09375,
+      "ci95": [
+       -0.03125,
+       0.21875
+      ],
+      "p": 0.3777311134443278,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 5
+     },
+     "score effect fresh N+d": {
+      "name": "bullets fresh N+d",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 31,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.092"
+     },
+     "score effect fresh N+e": {
+      "name": "bullets fresh N+e",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh N+f": {
+      "name": "bullets fresh N+f",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "score effect fresh N+g": {
+      "name": "bullets fresh N+g",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089"
+     },
+     "interaction (B-N) orig - fresh": {
+      "estimate": -0.03125,
+      "ci95": [
+       -0.09375,
+       0.0
+      ],
+      "test": "bootstrap only (descriptive)"
+     },
+     "PRES (task)": {
+      "name": "PRES",
+      "estimate": 0.015625,
+      "ci95": [
+       0.0,
+       0.046875
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 38,
+      "n_nonzero_blocks": 1
+     },
+     "MAT (task)": {
+      "name": "MAT",
+      "estimate": -0.015625,
+      "ci95": [
+       -0.046875,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "permutation",
+      "n_blocks": 38
+     },
+     "REM:a (task)": {
+      "name": "REM:a",
+      "estimate": 0.03125,
+      "ci95": [
+       0.0,
+       0.09375
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 1,
+      "p_holm": 1.0
+     },
+     "REM:b (task)": {
+      "name": "REM:b",
+      "estimate": 0.03125,
+      "ci95": [
+       0.0,
+       0.09375
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 1,
+      "p_holm": 1.0
+     },
+     "REM:c (task)": {
+      "name": "REM:c",
+      "estimate": 0.03125,
+      "ci95": [
+       0.0,
+       0.09375
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 1,
+      "p_holm": 1.0
+     },
+     "REM:d (task)": {
+      "name": "REM:d",
+      "estimate": 0.03125,
+      "ci95": [
+       0.0,
+       0.09375
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 1,
+      "p_holm": 1.0
+     },
+     "REM:e (task)": {
+      "name": "REM:e",
+      "estimate": 0.03125,
+      "ci95": [
+       0.0,
+       0.09375
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 1,
+      "p_holm": 1.0
+     },
+     "REM:f (task)": {
+      "name": "REM:f",
+      "estimate": 0.0,
+      "ci95": [
+       -0.09375,
+       0.09375
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 2,
+      "p_holm": 1.0
+     },
+     "REM:g (task)": {
+      "name": "REM:g",
+      "estimate": -0.21875,
+      "ci95": [
+       -0.375,
+       -0.0625
+      ],
+      "p": 0.039648017599120046,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 9,
+      "p_holm": 0.5154242287885606
+     },
+     "ADD:a (task)": {
+      "name": "ADD:a",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+      "p_holm": 1.0
+     },
+     "ADD:b (task)": {
+      "name": "ADD:b",
+      "estimate": 0.09375,
+      "ci95": [
+       -0.03125,
+       0.21875
+      ],
+      "p": 0.36518174091295436,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 5,
+      "p_holm": 1.0
+     },
+     "ADD:d (task)": {
+      "name": "ADD:d",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 31,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.092",
+      "p_holm": 1.0
+     },
+     "ADD:e (task)": {
+      "name": "ADD:e",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+      "p_holm": 1.0
+     },
+     "ADD:f (task)": {
+      "name": "ADD:f",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+      "p_holm": 1.0
+     },
+     "ADD:g (task)": {
+      "name": "ADD:g",
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "test": "signflip",
+      "n_blocks": 32,
+      "n_nonzero_blocks": 0,
+      "note": "all block contrasts 0 (degenerate CI); one-sided 95% bound on share of blocks affected 0.089",
+      "p_holm": 1.0
+     }
+    }
+   }
+  }
+ },
+ "additivity": {
+  "send": {
+   "total_B_minus_N": 0.578125,
+   "removal_effects": {
+    "a": 0.28125,
+    "b": 0.28125,
+    "c": 0.28125,
+    "d": 0.453125,
+    "e": 0.015625,
+    "f": 0.1875,
+    "g": 0.40625
+   },
+   "sum_removal": 1.90625
+  },
+  "titles": {
+   "total_B_minus_N": 0.359375,
+   "removal_effects": {
+    "a": 0.15625,
+    "b": 0.015625,
+    "c": 0.265625,
+    "d": 0.109375,
+    "e": -0.125,
+    "f": 0.0625,
+    "g": -0.28125
+   },
+   "sum_removal": 0.203125
+  },
+  "bullets": {
+   "total_B_minus_N": 0.40625,
+   "removal_effects": {
+    "a": 0.25,
+    "b": 0.21875,
+    "c": 0.296875,
+    "d": 0.15625,
+    "e": -0.09375,
+    "f": 0.140625,
+    "g": -0.25
+   },
+   "sum_removal": 0.71875
+  }
+ }
+}

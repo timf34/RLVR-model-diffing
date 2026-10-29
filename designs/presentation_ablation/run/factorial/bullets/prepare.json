@@ -1,0 +1,22 @@
+{
+ "at": "2026-10-29T18:35:57+00:00",
+ "stage": "factorial",
+ "task": "bullets",
+ "checks": [
+  "old fmt code + deps sha256-identical to formatting/run/manifest.json (17 files)",
+  "fmt_materials.check() and confirm_materials.check() pass",
+  "record/score/message copies == old example functions (42 unit x gap, incl. inspection units)",
+  "ALL-B on the original scenarios == frozen run/prompts.json bundle prompts at +0.00/+0.50, byte for byte (system, turn, tools): titles 24, bullets 12",
+  "ALL-B == old bundle renderer on every unit (orig + fresh + insp) x gap: 170 prompts",
+  "ALL-B == 10A old-arm inputs and N_END == 10A new-arm inputs (system, messages, tools, packet) on 10A's 16 blocks x 2 scores: bullets 64",
+  "titles 16 tasks x 2 sub-features: confirm_materials checks, scorer marks exactly the featured history texts, uniqueness vs old; bullets 32 (10A 16 + 16 new): structure.py task assertions, uniqueness vs old",
+  "every Part 2 arm differs from its endpoint in exactly one component (field set + byte-level normaliser): 2132 arm x unit x gap pairs",
+  "same 4 scores (tied 0.500/0.500, +0.50 0.750/0.250; no re-centring) on the same responses in the same order in every arm: 2460 renders",
+  "factorial: 1536 one-component neighbour pairs checked",
+  "factorial/titles: 1536 items, 512 unique prompts"
+ ],
+ "n_items": 1536,
+ "n_prompts": 512,
+ "items_digest": "9886facd5a0c02ef8f65f06bbc9bb368aa737fda478d0e6693a834611e4e3193",
+ "prompts_digest": "ae06c56897990723c2f5c7e07682a088e7659e92f2f397b173701b42c0f25422"
+}

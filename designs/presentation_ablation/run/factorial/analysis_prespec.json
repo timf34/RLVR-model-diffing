@@ -1,0 +1,8 @@
+{
+ "at": "2026-10-29T18:37:40+00:00",
+ "note": "pre-specified factorial analysis, hashed before any factorial generation",
+ "sha256": {
+  "designs/presentation_ablation/ADDENDUM_factorial.md": "39417b24e40690398204ad8a73c94f4eb81e41181ca22773e684f7add12e0513",
+  "designs/presentation_ablation/pa_factorial.py": "9b91b1625596c331e39f5ce0da4815578e17167095f65d2657150e01213f7e56"
+ }
+}

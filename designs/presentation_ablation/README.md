@@ -1,4 +1,4 @@
-# Presentation ablation (implemented, not yet run)
+# Presentation ablation (run 2026-10-29; results in `REPORT.md`)
 
 Which feature of the old RL "bundle" presentation makes Qwen 3.8 follow displayed grader scores against the user's
 instruction? The old bundle replayed byte for byte shows large effects; the new matched tool-record presentations

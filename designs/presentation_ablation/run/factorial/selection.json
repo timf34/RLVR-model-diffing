@@ -1,0 +1,16 @@
+{
+ "components": [
+  "a",
+  "c",
+  "d"
+ ],
+ "significant": [
+  "a",
+  "c",
+  "d"
+ ],
+ "filled_exploratory": [],
+ "others": "B",
+ "rule": "PROTOCOL.md Stage 3",
+ "enabled": true
+}

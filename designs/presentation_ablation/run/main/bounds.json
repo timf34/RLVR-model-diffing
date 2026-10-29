@@ -1,0 +1,950 @@
+{
+ "rule": "When every block contrast in an estimate is exactly 0, the block bootstrap returns the zero-width interval\n[0.000, 0.000], which reads as an exact zero. For those entries (n_blocks > 0, n_nonzero_blocks == 0) this module\nadds `bound95`, a distribution-free two-sided 95% interval [-s*M, +s*M]:",
+ "entries": [
+  {
+   "path": "primary/part2/ADD:a",
+   "n": 64,
+   "M": 2,
+   "bound95": [
+    -0.11201817877327325,
+    0.11201817877327325
+   ]
+  },
+  {
+   "path": "primary/part2/ADD:b",
+   "n": 64,
+   "M": 2,
+   "bound95": [
+    -0.11201817877327325,
+    0.11201817877327325
+   ]
+  },
+  {
+   "path": "primary/part2/ADD:d",
+   "n": 64,
+   "M": 2,
+   "bound95": [
+    -0.11201817877327325,
+    0.11201817877327325
+   ]
+  },
+  {
+   "path": "primary/part2/ADD:e",
+   "n": 64,
+   "M": 2,
+   "bound95": [
+    -0.11201817877327325,
+    0.11201817877327325
+   ]
+  },
+  {
+   "path": "primary/part2/ADD:g",
+   "n": 64,
+   "M": 2,
+   "bound95": [
+    -0.11201817877327325,
+    0.11201817877327325
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/send/score effect orig N",
+   "n": 12,
+   "M": 1,
+   "bound95": [
+    -0.2646484693970512,
+    0.2646484693970512
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/send/score effect fresh N",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/send/score effect fresh N+a",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/send/score effect fresh N+b",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/send/score effect fresh N+d",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/send/score effect fresh N+e",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/send/score effect fresh N+f",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/send/score effect fresh N+g",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/send/ADD:a (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/send/ADD:b (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/send/ADD:d (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/send/ADD:e (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/send/ADD:f (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/send/ADD:g (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/titles/score effect fresh N",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/titles/score effect fresh N+a",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/titles/score effect fresh N+b",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/titles/score effect fresh N+d",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/titles/score effect fresh N+e",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/titles/score effect fresh N+g",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/titles/ADD:a (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/titles/ADD:b (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/titles/ADD:d (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/titles/ADD:e (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/titles/ADD:g (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/bullets/score effect orig N",
+   "n": 6,
+   "M": 1,
+   "bound95": [
+    -0.4592581264399005,
+    0.4592581264399005
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/bullets/score effect fresh N",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/bullets/score effect fresh N+d",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/bullets/score effect fresh N+e",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/bullets/score effect fresh N+f",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/bullets/ADD:d (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/bullets/ADD:e (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "secondary/Qwen 3.8/bullets/ADD:f (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "all_tasks_pooled/Qwen 3.8/part2/ADD:d",
+   "n": 96,
+   "M": 2,
+   "bound95": [
+    -0.07539384324717502,
+    0.07539384324717502
+   ]
+  },
+  {
+   "path": "all_tasks_pooled/Qwen 3.8/part2/ADD:e",
+   "n": 96,
+   "M": 2,
+   "bound95": [
+    -0.07539384324717502,
+    0.07539384324717502
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/pooled_primary_tasks/part2/ADD:a",
+   "n": 64,
+   "M": 2,
+   "bound95": [
+    -0.11201817877327325,
+    0.11201817877327325
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/pooled_primary_tasks/part2/ADD:b",
+   "n": 64,
+   "M": 2,
+   "bound95": [
+    -0.11201817877327325,
+    0.11201817877327325
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/pooled_primary_tasks/part2/ADD:e",
+   "n": 63,
+   "M": 2,
+   "bound95": [
+    -0.11374470466403253,
+    0.11374470466403253
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/pooled_primary_tasks/part2/ADD:f",
+   "n": 64,
+   "M": 2,
+   "bound95": [
+    -0.11201817877327325,
+    0.11201817877327325
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/pooled_primary_tasks/part2/ADD:g",
+   "n": 64,
+   "M": 2,
+   "bound95": [
+    -0.11201817877327325,
+    0.11201817877327325
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/send/score effect orig N",
+   "n": 12,
+   "M": 1,
+   "bound95": [
+    -0.2646484693970512,
+    0.2646484693970512
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/send/score effect fresh N",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/send/score effect fresh B-a",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/send/score effect fresh B-b",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/send/score effect fresh B-d",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/send/score effect fresh N+a",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/send/score effect fresh N+b",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/send/score effect fresh N+e",
+   "n": 31,
+   "M": 1,
+   "bound95": [
+    -0.11218874692237002,
+    0.11218874692237002
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/send/score effect fresh N+f",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/send/score effect fresh N+g",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/send/ADD:a (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/send/ADD:b (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/send/ADD:e (task)",
+   "n": 31,
+   "M": 2,
+   "bound95": [
+    -0.22437749384474004,
+    0.22437749384474004
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/send/ADD:f (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/send/ADD:g (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/score effect orig B",
+   "n": 12,
+   "M": 1,
+   "bound95": [
+    -0.2646484693970512,
+    0.2646484693970512
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/score effect orig N",
+   "n": 12,
+   "M": 1,
+   "bound95": [
+    -0.2646484693970512,
+    0.2646484693970512
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/score effect fresh B",
+   "n": 31,
+   "M": 1,
+   "bound95": [
+    -0.11218874692237002,
+    0.11218874692237002
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/score effect fresh N",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/score effect fresh B-a",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/score effect fresh B-b",
+   "n": 31,
+   "M": 1,
+   "bound95": [
+    -0.11218874692237002,
+    0.11218874692237002
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/score effect fresh B-c",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/score effect fresh B-d",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/score effect fresh B-e",
+   "n": 31,
+   "M": 1,
+   "bound95": [
+    -0.11218874692237002,
+    0.11218874692237002
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/score effect fresh N+a",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/score effect fresh N+b",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/score effect fresh N+d",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/score effect fresh N+e",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/score effect fresh N+f",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/score effect fresh N+g",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/PRES (task)",
+   "n": 43,
+   "M": 2,
+   "bound95": [
+    -0.16442224230827707,
+    0.16442224230827707
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/REM:a (task)",
+   "n": 31,
+   "M": 2,
+   "bound95": [
+    -0.22437749384474004,
+    0.22437749384474004
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/REM:b (task)",
+   "n": 30,
+   "M": 2,
+   "bound95": [
+    -0.23140661644405558,
+    0.23140661644405558
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/REM:c (task)",
+   "n": 31,
+   "M": 2,
+   "bound95": [
+    -0.22437749384474004,
+    0.22437749384474004
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/REM:d (task)",
+   "n": 31,
+   "M": 2,
+   "bound95": [
+    -0.22437749384474004,
+    0.22437749384474004
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/REM:e (task)",
+   "n": 30,
+   "M": 2,
+   "bound95": [
+    -0.23140661644405558,
+    0.23140661644405558
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/ADD:a (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/ADD:b (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/ADD:d (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/ADD:e (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/ADD:f (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/titles/ADD:g (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/score effect orig B",
+   "n": 6,
+   "M": 1,
+   "bound95": [
+    -0.4592581264399005,
+    0.4592581264399005
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/score effect orig N",
+   "n": 6,
+   "M": 1,
+   "bound95": [
+    -0.4592581264399005,
+    0.4592581264399005
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/score effect fresh N",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/score effect fresh B-a",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/score effect fresh B-b",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/score effect fresh B-c",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/score effect fresh B-d",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/score effect fresh B-e",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/score effect fresh N+a",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/score effect fresh N+d",
+   "n": 31,
+   "M": 1,
+   "bound95": [
+    -0.11218874692237002,
+    0.11218874692237002
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/score effect fresh N+e",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/score effect fresh N+f",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/score effect fresh N+g",
+   "n": 32,
+   "M": 1,
+   "bound95": [
+    -0.10888116067935294,
+    0.10888116067935294
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/ADD:a (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/ADD:d (task)",
+   "n": 31,
+   "M": 2,
+   "bound95": [
+    -0.22437749384474004,
+    0.22437749384474004
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/ADD:e (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/ADD:f (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  },
+  {
+   "path": "descriptive/Qwen 3.5/per_task/bullets/ADD:g (task)",
+   "n": 32,
+   "M": 2,
+   "bound95": [
+    -0.21776232135870588,
+    0.21776232135870588
+   ]
+  }
+ ]
+}
