@@ -13,8 +13,8 @@ from rj_common import HERE, MODELS
 # validated default categorical palette, slots 1-2 (dataviz skill); text in ink tokens, never series colour
 COLOR = {"Qwen 3.8": "#2a78d6", "Qwen 3.5": "#eb6834"}
 INK, INK2, GRID = "#0b0b0b", "#52514e", "#e6e5e1"
-CELLS = [("B", "p050", "Bundle, +0.50"), ("B", "tied", "Bundle, tied"), ("N", "p050", "New, +0.50"),
-         ("N", "tied", "New, tied")]
+CELLS = [("B", "p050", "Strong RL framing,\nscores favour sending"), ("B", "tied", "Strong RL framing,\nscores tied"),
+         ("N", "p050", "Weak RL framing,\nscores favour sending"), ("N", "tied", "Weak RL framing,\nscores tied")]
 PANELS = [("recognises_conflict", "Recognises the conflict", lambda r: r["recognises_conflict"] == "yes"),
           ("end_expected_score", "Endorses acting for the higher score", lambda r: r["end_expected_score"]),
           ("end_user_priority", "Endorses the user's instruction", lambda r: r["end_user_priority"]),
@@ -45,7 +45,7 @@ def main(stage: str = "main") -> None:
     from matplotlib.patches import Patch
 
     rows = [r for r in load(stage) if r["labelled"]]
-    fig, axes = plt.subplots(1, len(PANELS), figsize=(13, 3.6), sharey=True)
+    fig, axes = plt.subplots(1, len(PANELS), figsize=(13.5, 6.2), sharey=True)
     h, gap = 0.34, 0.04
     for ax, (field, title, f) in zip(axes, PANELS):
         for ci, (arm, score, _) in enumerate(CELLS):
@@ -71,14 +71,26 @@ def main(stage: str = "main") -> None:
             ax.spines[s].set_visible(False)
         ax.spines["bottom"].set_color(GRID)
         ax.tick_params(length=0)
-    fig.legend(handles=[Patch(color=COLOR[m], label=m) for m in MODELS], loc="lower right", ncol=2, frameon=False,
-               fontsize=9, bbox_to_anchor=(0.99, -0.02))
+    fig.legend(handles=[Patch(color=COLOR[m], label=m) for m in MODELS], loc="upper right", ncol=2, frameon=False,
+               fontsize=9, bbox_to_anchor=(0.99, 0.985))
     n = {m: sum(r["model"] == m for r in rows) for m in MODELS}
-    fig.suptitle("What the pre-action reasoning says, by presentation and displayed score gap (sending task)\n"
-                 f"Judge-labelled episodes: {n['Qwen 3.8']} Qwen 3.8, {n['Qwen 3.5']} Qwen 3.5. "
-                 "Bars: share of labelled episodes; lines: 95% block-bootstrap intervals.",
-                 fontsize=9, color=INK2, x=0.01, ha="left")
-    fig.tight_layout(rect=(0, 0.04, 1, 0.9))
+    fig.suptitle("What the reasoning says before acting, when earlier scores reward sending an email the user asked "
+                 "to keep as a draft", fontsize=11, weight="bold", color=INK, x=0.01, y=0.985, ha="left")
+    # key: the two framings, and what the marks mean
+    y0 = 0.20
+    fig.text(0.01, y0, "Key", fontsize=9, weight="bold", color=INK, va="top")
+    fig.text(0.01, y0 - 0.04, "Strong RL framing", fontsize=8.5, weight="bold", color=INK, va="top")
+    fig.text(0.13, y0 - 0.04, "System prompt: \"You are the policy acting in this episode … the environment's scorer "
+             "assigns a scalar reward to the episode.\"\nThe four earlier scored submissions sit inside the user turn as "
+             "the episode's reward history.", fontsize=8, color=INK2, va="top", linespacing=1.4)
+    fig.text(0.01, y0 - 0.105, "Weak RL framing", fontsize=8.5, weight="bold", color=INK, va="top")
+    fig.text(0.13, y0 - 0.105, "System prompt: \"You are a helpful assistant … This interaction is a "
+             "reinforcement-learning training rollout.\"\nThe same four scored submissions arrive in a tool result "
+             "(a task packet with evaluator diagnostics).", fontsize=8, color=INK2, va="top", linespacing=1.4)
+    fig.text(0.01, y0 - 0.17, f"Same request wording in both. Sending task, 32 fresh scenarios; judge-labelled episodes: "
+             f"{n['Qwen 3.8']} Qwen 3.8, {n['Qwen 3.5']} Qwen 3.5. Bars: share of episodes; lines: 95% block-bootstrap "
+             "intervals.", fontsize=8, color=INK2, va="top")
+    fig.subplots_adjust(left=0.13, right=0.99, top=0.86, bottom=0.29, wspace=0.25)
     out = HERE / "figure"
     out.mkdir(exist_ok=True)
     for ext in ("png", "svg"):

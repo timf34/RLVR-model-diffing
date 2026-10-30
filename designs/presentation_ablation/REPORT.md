@@ -89,7 +89,10 @@ Other observations:
 - **Main's removal effects reproduce on new generations.** Re-run on the same blocks, they give 0.23, 0.25 and 0.24
   for a, c and d (main: 0.22, 0.27, 0.28).
 
-![factorial cells](figure/factorial_cells.png)
+![factorial cells, plain labels](figure/factorial_plain.png)
+
+(`figure/factorial_cells.png` is the same data with the arm codes; `pa_figure_factorial_plain.py` draws the
+version above.)
 
 **Per task** (secondary). The pattern differs in which features dominate:
 - Sending leans on a and d, with an a×d interaction of +0.10.

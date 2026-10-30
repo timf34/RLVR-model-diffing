@@ -34,6 +34,14 @@ differ?
 
 Figure: `figure/labels_main.png`. Tables: `run/main/REPORT_auto.md`, `run/factorial/REPORT_auto.md`.
 
+**Naming.** Arm **B** (the ablation's "old bundle") is called **strong RL framing** in the figure: "you are the
+policy acting in this episode; the environment's scorer assigns a reward", with the scored history inline in the
+user turn as the episode's rewards. Arm **N** (the ablation's "new presentation") is **weak RL framing**: a
+helpful-assistant system prompt with one line saying the interaction is an RL training rollout, and the same scored
+history arriving in a tool result. Both arms say RL; in this main-stage comparison the request wording is the same
+hedged wording in both. The factorial (`../presentation_ablation/figure/factorial_plain.png`) separates the
+features.
+
 ## Data and judge
 
 | Stage | Source | Items | Labelled | Judge cost |
