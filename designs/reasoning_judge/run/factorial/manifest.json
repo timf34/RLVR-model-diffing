@@ -1,0 +1,76 @@
+{
+ "stage": "factorial",
+ "config": {
+  "pa_stage": "factorial",
+  "materials": "fresh",
+  "arms": null,
+  "scores": [
+   "p050"
+  ],
+  "per_cell": null
+ },
+ "files": {
+  "PLAN.md": "6260ccab7f8b5143949fecedb1acd27a39349233aa698d998d5c2672cfd438c0",
+  "RUBRIC.md": "06a45b00f182d54bbd72a9e71d4dcee7281659951f044962f361419656705062",
+  "rj_common.py": "819341d919bacb8489669f90331161f7bfba3050c76e4644a6553a99b614fb06",
+  "rj_judge.py": "20619ead36686b3e7843758adf9ac7bf3bb1602cb1195d72b3d8a4b04839a0ea",
+  "rj_analysis.py": "1d1e61854db29e774de0b73b79eab82315404bda91c8838e0d82674b30202ed2"
+ },
+ "items_sha": "95875b78cf8a1c25dc6daaa2c91209849f47b2dfbe59a4c3462b4f967bab086b",
+ "views_sha": "44410ebd94e21b700612c74953406ca92efebe24c9b23df2881347d94786d00e",
+ "n_items": 768,
+ "source": {
+  "episodes.jsonl": "657d4a998731b3e617e5ee7f373e9255841102886a28de5dbc83fb10e2b83f78",
+  "scored.jsonl": "476c7ac282070bee5e206cd2dc836b24226aaad33a069627994c76d651937ac6",
+  "prompts.jsonl": "b5da40ed958efa59ec313cac595abea9aedda7d08763cecb6f1b32f88b7cf11d"
+ },
+ "judge": {
+  "model": "openrouter/openai/gpt-5.6-terra",
+  "args": {},
+  "temperature": 0,
+  "max_tokens": 4000,
+  "price_per_m": [
+   2.0,
+   12.0
+  ]
+ },
+ "frozen_at": "2026-10-30T14:26:54+00:00",
+ "amended_from": {
+  "stage": "factorial",
+  "config": {
+   "pa_stage": "factorial",
+   "materials": "fresh",
+   "arms": null,
+   "scores": [
+    "p050"
+   ],
+   "per_cell": null
+  },
+  "files": {
+   "PLAN.md": "6260ccab7f8b5143949fecedb1acd27a39349233aa698d998d5c2672cfd438c0",
+   "RUBRIC.md": "06a45b00f182d54bbd72a9e71d4dcee7281659951f044962f361419656705062",
+   "rj_common.py": "509aaaed267f034f57cbb65ea4aaacb27416ec2bb7491bc429744785aabe5efd",
+   "rj_judge.py": "e771a0176fd3f8063548bcc1974b3e39123e2bdc070448c6b4a745ddae0c1d3a",
+   "rj_analysis.py": "1d1e61854db29e774de0b73b79eab82315404bda91c8838e0d82674b30202ed2"
+  },
+  "items_sha": "e99ebe4523d9fdece7a27f6c40442f50d0cc542771ecbb42e001a84f4cc0a552",
+  "views_sha": "2021e389bdf72c52265a18bc27f2e91987f8ed7ad89b59780b9923aa491c7148",
+  "n_items": 768,
+  "source": {
+   "episodes.jsonl": "657d4a998731b3e617e5ee7f373e9255841102886a28de5dbc83fb10e2b83f78",
+   "scored.jsonl": "476c7ac282070bee5e206cd2dc836b24226aaad33a069627994c76d651937ac6",
+   "prompts.jsonl": "b5da40ed958efa59ec313cac595abea9aedda7d08763cecb6f1b32f88b7cf11d"
+  },
+  "judge": {
+   "model": "openrouter/openai/gpt-5.6-terra",
+   "args": {},
+   "temperature": 0,
+   "max_tokens": 4000,
+   "price_per_m": [
+    2.0,
+    12.0
+   ]
+  },
+  "frozen_at": "2026-10-30T14:24:48+00:00"
+ }
+}

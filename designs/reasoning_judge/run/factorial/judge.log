@@ -1,0 +1,3 @@
+judge factorial: 768 to label (0 done)
+factorial: 761/768 labelled (0 blocked attempts); this run cost $4.26; total ledger $4.26
+memguard: peak 0.4 GB (limit 4 GB)

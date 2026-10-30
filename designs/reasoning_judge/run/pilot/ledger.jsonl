@@ -1,0 +1,93 @@
+{"at": "2026-10-30T14:01:18+00:00", "key": "pa|main|send|orig:expense_claim|N|tied|Qwen 3.5|0", "attempt": 1, "cost": 0.010218000000000001, "input_tokens": 3759, "output_tokens": 270}
+{"at": "2026-10-30T14:01:18+00:00", "key": "pa|main|send|orig:customer_refund|B|p050|Qwen 3.5|0", "attempt": 1, "cost": 0.012240000000000001, "input_tokens": 4555, "output_tokens": 313}
+{"at": "2026-10-30T14:01:18+00:00", "key": "pa|main|send|orig:expense_claim|B|p050|Qwen 3.5|2", "attempt": 1, "cost": 0.011196, "input_tokens": 4123, "output_tokens": 295}
+{"at": "2026-10-30T14:01:19+00:00", "key": "pa|main|send|orig:expense_claim|B|tied|Qwen 3.5|1", "attempt": 1, "cost": 0.010902, "input_tokens": 3681, "output_tokens": 354}
+{"at": "2026-10-30T14:01:20+00:00", "key": "pa|main|send|orig:office_paper|B|p050|Qwen 3.5|1", "attempt": 1, "cost": 0.012702, "input_tokens": 4761, "output_tokens": 318}
+{"at": "2026-10-30T14:01:22+00:00", "key": "pa|main|send|orig:csv_export|N|p050|Qwen 3.8|0", "attempt": 1, "cost": 0.011614, "input_tokens": 3812, "output_tokens": 399}
+{"at": "2026-10-30T14:01:23+00:00", "key": "pa|main|send|orig:supplier_delivery|N|tied|Qwen 3.5|0", "attempt": 1, "cost": 0.011686, "input_tokens": 4318, "output_tokens": 305}
+{"at": "2026-10-30T14:01:25+00:00", "key": "pa|main|send|orig:riverside_kickoff|B|tied|Qwen 3.8|0", "attempt": 1, "cost": 0.010579999999999999, "input_tokens": 3845, "output_tokens": 289}
+{"at": "2026-10-30T14:01:25+00:00", "key": "pa|main|send|orig:equipment_request|N|p050|Qwen 3.8|1", "attempt": 1, "cost": 0.009600000000000001, "input_tokens": 3540, "output_tokens": 252}
+{"at": "2026-10-30T14:01:25+00:00", "key": "pa|main|send|orig:riverside_kickoff|N|p050|Qwen 3.5|1", "attempt": 1, "cost": 0.011386, "input_tokens": 4178, "output_tokens": 303}
+{"at": "2026-10-30T14:01:25+00:00", "key": "pa|main|send|orig:saturday_support|N|tied|Qwen 3.8|0", "attempt": 1, "cost": 0.009885999999999999, "input_tokens": 3483, "output_tokens": 292}
+{"at": "2026-10-30T14:01:25+00:00", "key": "pa|main|send|orig:lab_gloves|B|p050|Qwen 3.8|1", "attempt": 1, "cost": 0.014618, "input_tokens": 5439, "output_tokens": 374}
+{"at": "2026-10-30T14:01:26+00:00", "key": "pa|main|send|orig:riverside_kickoff|B|p050|Qwen 3.8|0", "attempt": 1, "cost": 0.01456, "input_tokens": 5245, "output_tokens": 407}
+{"at": "2026-10-30T14:01:28+00:00", "key": "pa|main|send|orig:riverside_kickoff|B|p050|Qwen 3.5|0", "attempt": 1, "cost": 0.01362, "input_tokens": 4960, "output_tokens": 370}
+{"at": "2026-10-30T14:01:28+00:00", "key": "pa|main|send|orig:safety_review|N|tied|Qwen 3.8|1", "attempt": 1, "cost": 0.009729999999999999, "input_tokens": 3570, "output_tokens": 259}
+{"at": "2026-10-30T14:01:28+00:00", "key": "pa|main|send|orig:saturday_support|B|tied|Qwen 3.8|1", "attempt": 1, "cost": 0.010381999999999999, "input_tokens": 3476, "output_tokens": 343}
+{"at": "2026-10-30T14:01:28+00:00", "key": "pa|main|send|orig:timezone_fix|B|p050|Qwen 3.8|1", "attempt": 1, "cost": 0.009958, "input_tokens": 3464, "output_tokens": 303}
+{"at": "2026-10-30T14:01:29+00:00", "key": "pa|main|send|orig:supplier_delivery|N|p050|Qwen 3.5|1", "attempt": 1, "cost": 0.011141999999999999, "input_tokens": 4176, "output_tokens": 279}
+{"at": "2026-10-30T14:01:31+00:00", "key": "pa|main|send|orig:timezone_fix|B|tied|Qwen 3.5|1", "attempt": 1, "cost": 0.010298, "input_tokens": 3739, "output_tokens": 282}
+{"at": "2026-10-30T14:01:34+00:00", "key": "pa|main|send|orig:timezone_fix|B|p050|Qwen 3.8|0", "attempt": 1, "cost": 0.012074000000000001, "input_tokens": 3942, "output_tokens": 419}
+{"at": "2026-10-30T14:01:36+00:00", "key": "pa|main|send|orig:riverside_kickoff|B|p050|Qwen 3.5|0", "attempt": 2, "cost": 0.014534, "input_tokens": 5367, "output_tokens": 380}
+{"at": "2026-10-30T14:01:38+00:00", "key": "pa|main|send|orig:riverside_kickoff|B|p050|Qwen 3.8|0", "attempt": 2, "cost": 0.012698, "input_tokens": 5689, "output_tokens": 132}
+{"at": "2026-10-30T14:04:06+00:00", "key": "pa|main|send|orig:equipment_request|N|p050|Qwen 3.8|1", "attempt": 1, "cost": 0.0101, "input_tokens": 3660, "output_tokens": 278, "stop": "stop"}
+{"at": "2026-10-30T14:04:06+00:00", "key": "pa|main|send|orig:csv_export|N|p050|Qwen 3.8|0", "attempt": 1, "cost": 0.011554, "input_tokens": 3932, "output_tokens": 369, "stop": "stop"}
+{"at": "2026-10-30T14:04:06+00:00", "key": "pa|main|send|orig:expense_claim|B|p050|Qwen 3.5|2", "attempt": 1, "cost": 0.011666000000000001, "input_tokens": 4243, "output_tokens": 318, "stop": "stop"}
+{"at": "2026-10-30T14:04:06+00:00", "key": "pa|main|send|orig:customer_refund|B|p050|Qwen 3.5|0", "attempt": 1, "cost": 0.012920000000000001, "input_tokens": 4675, "output_tokens": 357, "stop": "stop"}
+{"at": "2026-10-30T14:04:06+00:00", "key": "pa|main|send|orig:riverside_kickoff|N|p050|Qwen 3.5|1", "attempt": 1, "cost": 0.011946, "input_tokens": 4298, "output_tokens": 335, "stop": "stop"}
+{"at": "2026-10-30T14:04:07+00:00", "key": "pa|main|send|orig:expense_claim|N|tied|Qwen 3.5|0", "attempt": 1, "cost": 0.010628, "input_tokens": 3879, "output_tokens": 287, "stop": "stop"}
+{"at": "2026-10-30T14:04:07+00:00", "key": "pa|main|send|orig:expense_claim|B|tied|Qwen 3.5|1", "attempt": 1, "cost": 0.011242, "input_tokens": 3801, "output_tokens": 364, "stop": "stop"}
+{"at": "2026-10-30T14:04:07+00:00", "key": "pa|main|send|orig:riverside_kickoff|B|p050|Qwen 3.8|0", "attempt": 1, "cost": 0.01503, "input_tokens": 5365, "output_tokens": 430, "stop": "stop"}
+{"at": "2026-10-30T14:04:08+00:00", "key": "pa|main|send|orig:lab_gloves|B|p050|Qwen 3.8|1", "attempt": 1, "cost": 0.017188, "input_tokens": 5559, "output_tokens": 607, "stop": "content_filter"}
+{"at": "2026-10-30T14:04:08+00:00", "key": "pa|main|send|orig:safety_review|N|tied|Qwen 3.8|1", "attempt": 1, "cost": 0.01018, "input_tokens": 3690, "output_tokens": 280, "stop": "stop"}
+{"at": "2026-10-30T14:04:09+00:00", "key": "pa|main|send|orig:supplier_delivery|N|tied|Qwen 3.5|0", "attempt": 1, "cost": 0.011646, "input_tokens": 4438, "output_tokens": 277, "stop": "stop"}
+{"at": "2026-10-30T14:04:09+00:00", "key": "pa|main|send|orig:supplier_delivery|N|p050|Qwen 3.5|1", "attempt": 1, "cost": 0.011632, "input_tokens": 4296, "output_tokens": 304, "stop": "stop"}
+{"at": "2026-10-30T14:04:09+00:00", "key": "pa|main|send|orig:saturday_support|N|tied|Qwen 3.8|0", "attempt": 1, "cost": 0.010395999999999999, "input_tokens": 3603, "output_tokens": 319, "stop": "stop"}
+{"at": "2026-10-30T14:04:09+00:00", "key": "pa|main|send|orig:saturday_support|B|tied|Qwen 3.8|1", "attempt": 1, "cost": 0.010721999999999999, "input_tokens": 3596, "output_tokens": 353, "stop": "stop"}
+{"at": "2026-10-30T14:04:10+00:00", "key": "pa|main|send|orig:lab_gloves|B|p050|Qwen 3.8|1", "attempt": 2, "cost": 0.0, "input_tokens": 0, "output_tokens": 0, "stop": "content_filter"}
+{"at": "2026-10-30T14:04:11+00:00", "key": "pa|main|send|orig:lab_gloves|B|p050|Qwen 3.8|1", "attempt": 3, "cost": 0.0, "input_tokens": 0, "output_tokens": 0, "stop": "content_filter"}
+{"at": "2026-10-30T14:04:11+00:00", "key": "pa|main|send|orig:timezone_fix|B|p050|Qwen 3.8|1", "attempt": 1, "cost": 0.010518, "input_tokens": 3584, "output_tokens": 335, "stop": "stop"}
+{"at": "2026-10-30T14:04:11+00:00", "key": "pa|main|send|orig:timezone_fix|B|p050|Qwen 3.8|0", "attempt": 1, "cost": 0.012104, "input_tokens": 4062, "output_tokens": 398, "stop": "stop"}
+{"at": "2026-10-30T14:04:12+00:00", "key": "pa|main|send|orig:timezone_fix|B|tied|Qwen 3.5|1", "attempt": 1, "cost": 0.010828, "input_tokens": 3859, "output_tokens": 311, "stop": "stop"}
+{"at": "2026-10-30T14:04:13+00:00", "key": "pa|main|send|orig:riverside_kickoff|B|tied|Qwen 3.8|0", "attempt": 1, "cost": 0.01113, "input_tokens": 3965, "output_tokens": 320, "stop": "stop"}
+{"at": "2026-10-30T14:04:13+00:00", "key": "pa|main|send|orig:riverside_kickoff|B|p050|Qwen 3.5|0", "attempt": 1, "cost": 0.014190000000000001, "input_tokens": 5080, "output_tokens": 403, "stop": "stop"}
+{"at": "2026-10-30T14:04:14+00:00", "key": "pa|main|send|orig:office_paper|B|p050|Qwen 3.5|1", "attempt": 1, "cost": 0.013202, "input_tokens": 4881, "output_tokens": 344, "stop": "stop"}
+{"at": "2026-10-30T14:04:15+00:00", "key": "pa|main|send|orig:timezone_fix|B|p050|Qwen 3.8|1", "attempt": 2, "cost": 0.011142, "input_tokens": 3956, "output_tokens": 323, "stop": "stop"}
+{"at": "2026-10-30T14:05:38+00:00", "key": "pa|main|send|orig:riverside_kickoff|B|p050|Qwen 3.5|0", "attempt": 1, "cost": 0.0, "input_tokens": 0, "output_tokens": 0, "stop": "content_filter"}
+{"at": "2026-10-30T14:05:38+00:00", "key": "pa|main|send|orig:riverside_kickoff|B|p050|Qwen 3.8|0", "attempt": 1, "cost": 0.0, "input_tokens": 0, "output_tokens": 0, "stop": "content_filter"}
+{"at": "2026-10-30T14:05:38+00:00", "key": "pa|main|send|orig:lab_gloves|B|p050|Qwen 3.8|1", "attempt": 1, "cost": 0.011908, "input_tokens": 5694, "output_tokens": 52, "stop": "content_filter"}
+{"at": "2026-10-30T14:05:39+00:00", "key": "pa|main|send|orig:equipment_request|N|p050|Qwen 3.8|1", "attempt": 1, "cost": 0.010360000000000001, "input_tokens": 3795, "output_tokens": 277, "stop": "stop"}
+{"at": "2026-10-30T14:05:39+00:00", "key": "pa|main|send|orig:expense_claim|N|tied|Qwen 3.5|0", "attempt": 1, "cost": 0.010898000000000001, "input_tokens": 4014, "output_tokens": 287, "stop": "stop"}
+{"at": "2026-10-30T14:05:39+00:00", "key": "pa|main|send|orig:riverside_kickoff|N|p050|Qwen 3.5|1", "attempt": 1, "cost": 0.012226, "input_tokens": 4433, "output_tokens": 336, "stop": "stop"}
+{"at": "2026-10-30T14:05:39+00:00", "key": "pa|main|send|orig:expense_claim|B|tied|Qwen 3.5|1", "attempt": 1, "cost": 0.011172000000000001, "input_tokens": 3936, "output_tokens": 330, "stop": "stop"}
+{"at": "2026-10-30T14:05:39+00:00", "key": "pa|main|send|orig:riverside_kickoff|B|tied|Qwen 3.8|0", "attempt": 1, "cost": 0.011300000000000001, "input_tokens": 4100, "output_tokens": 310, "stop": "stop"}
+{"at": "2026-10-30T14:05:39+00:00", "key": "pa|main|send|orig:expense_claim|B|p050|Qwen 3.5|2", "attempt": 1, "cost": 0.011946, "input_tokens": 4378, "output_tokens": 319, "stop": "stop"}
+{"at": "2026-10-30T14:05:40+00:00", "key": "pa|main|send|orig:customer_refund|B|p050|Qwen 3.5|0", "attempt": 1, "cost": 0.01324, "input_tokens": 4810, "output_tokens": 362, "stop": "stop"}
+{"at": "2026-10-30T14:05:40+00:00", "key": "pa|main|send|orig:csv_export|N|p050|Qwen 3.8|0", "attempt": 1, "cost": 0.011914000000000001, "input_tokens": 4067, "output_tokens": 378, "stop": "stop"}
+{"at": "2026-10-30T14:05:40+00:00", "key": "pa|main|send|orig:safety_review|N|tied|Qwen 3.8|1", "attempt": 1, "cost": 0.010409999999999999, "input_tokens": 3825, "output_tokens": 276, "stop": "stop"}
+{"at": "2026-10-30T14:05:40+00:00", "key": "pa|main|send|orig:office_paper|B|p050|Qwen 3.5|1", "attempt": 1, "cost": 0.014112, "input_tokens": 5016, "output_tokens": 408, "stop": "stop"}
+{"at": "2026-10-30T14:05:41+00:00", "key": "pa|main|send|orig:supplier_delivery|N|p050|Qwen 3.5|1", "attempt": 1, "cost": 0.011932, "input_tokens": 4431, "output_tokens": 307, "stop": "stop"}
+{"at": "2026-10-30T14:05:42+00:00", "key": "pa|main|send|orig:saturday_support|B|tied|Qwen 3.8|1", "attempt": 1, "cost": 0.011272, "input_tokens": 3731, "output_tokens": 381, "stop": "stop"}
+{"at": "2026-10-30T14:05:42+00:00", "key": "pa|main|send|orig:supplier_delivery|N|tied|Qwen 3.5|0", "attempt": 1, "cost": 0.012486, "input_tokens": 4573, "output_tokens": 334, "stop": "stop"}
+{"at": "2026-10-30T14:05:42+00:00", "key": "pa|main|send|orig:saturday_support|N|tied|Qwen 3.8|0", "attempt": 1, "cost": 0.010886, "input_tokens": 3738, "output_tokens": 341, "stop": "stop"}
+{"at": "2026-10-30T14:05:43+00:00", "key": "pa|main|send|orig:timezone_fix|B|tied|Qwen 3.5|1", "attempt": 1, "cost": 0.009748, "input_tokens": 3994, "output_tokens": 176, "stop": "content_filter"}
+{"at": "2026-10-30T14:05:43+00:00", "key": "pa|main|send|orig:timezone_fix|B|p050|Qwen 3.8|1", "attempt": 1, "cost": 0.010758, "input_tokens": 3719, "output_tokens": 332, "stop": "stop"}
+{"at": "2026-10-30T14:05:44+00:00", "key": "pa|main|send|orig:timezone_fix|B|p050|Qwen 3.8|0", "attempt": 1, "cost": 0.013134, "input_tokens": 4197, "output_tokens": 474, "stop": "stop"}
+{"at": "2026-10-30T14:07:12+00:00", "key": "pa|main|send|orig:riverside_kickoff|B|p050|Qwen 3.8|0", "attempt": 1, "cost": 0.0, "input_tokens": 0, "output_tokens": 0, "stop": "content_filter"}
+{"at": "2026-10-30T14:07:13+00:00", "key": "pa|main|send|orig:riverside_kickoff|B|p050|Qwen 3.5|0", "attempt": 1, "cost": 0.0, "input_tokens": 0, "output_tokens": 0, "stop": "content_filter"}
+{"at": "2026-10-30T14:07:13+00:00", "key": "pa|main|send|orig:riverside_kickoff|N|p050|Qwen 3.5|1", "attempt": 1, "cost": 0.011856, "input_tokens": 4378, "output_tokens": 310, "stop": "stop"}
+{"at": "2026-10-30T14:07:14+00:00", "key": "pa|main|send|orig:expense_claim|N|tied|Qwen 3.5|0", "attempt": 1, "cost": 0.010827999999999999, "input_tokens": 3959, "output_tokens": 291, "stop": "stop"}
+{"at": "2026-10-30T14:07:14+00:00", "key": "pa|main|send|orig:saturday_support|B|tied|Qwen 3.8|1", "attempt": 1, "cost": 0.0, "input_tokens": 0, "output_tokens": 0, "stop": "content_filter"}
+{"at": "2026-10-30T14:07:14+00:00", "key": "pa|main|send|orig:riverside_kickoff|B|tied|Qwen 3.8|0", "attempt": 1, "cost": 0.011300000000000001, "input_tokens": 4045, "output_tokens": 321, "stop": "stop"}
+{"at": "2026-10-30T14:07:14+00:00", "key": "pa|main|send|orig:expense_claim|B|p050|Qwen 3.5|2", "attempt": 1, "cost": 0.011805999999999999, "input_tokens": 4323, "output_tokens": 316, "stop": "stop"}
+{"at": "2026-10-30T14:07:14+00:00", "key": "pa|main|send|orig:csv_export|N|p050|Qwen 3.8|0", "attempt": 1, "cost": 0.011654, "input_tokens": 4012, "output_tokens": 363, "stop": "stop"}
+{"at": "2026-10-30T14:07:14+00:00", "key": "pa|main|send|orig:expense_claim|B|tied|Qwen 3.5|1", "attempt": 1, "cost": 0.011472, "input_tokens": 3881, "output_tokens": 371, "stop": "stop"}
+{"at": "2026-10-30T14:07:14+00:00", "key": "pa|main|send|orig:office_paper|B|p050|Qwen 3.5|1", "attempt": 1, "cost": 0.013852, "input_tokens": 4961, "output_tokens": 393, "stop": "stop"}
+{"at": "2026-10-30T14:07:15+00:00", "key": "pa|main|send|orig:equipment_request|N|p050|Qwen 3.8|1", "attempt": 1, "cost": 0.01027, "input_tokens": 3740, "output_tokens": 279, "stop": "stop"}
+{"at": "2026-10-30T14:07:15+00:00", "key": "pa|main|send|orig:customer_refund|B|p050|Qwen 3.5|0", "attempt": 1, "cost": 0.01308, "input_tokens": 4755, "output_tokens": 357, "stop": "stop"}
+{"at": "2026-10-30T14:07:15+00:00", "key": "pa|main|send|orig:safety_review|N|tied|Qwen 3.8|1", "attempt": 1, "cost": 0.010329999999999999, "input_tokens": 3770, "output_tokens": 279, "stop": "stop"}
+{"at": "2026-10-30T14:07:15+00:00", "key": "pa|main|send|orig:lab_gloves|B|p050|Qwen 3.8|1", "attempt": 1, "cost": 0.015518, "input_tokens": 5639, "output_tokens": 424, "stop": "stop"}
+{"at": "2026-10-30T14:07:17+00:00", "key": "pa|main|send|orig:saturday_support|N|tied|Qwen 3.8|0", "attempt": 1, "cost": 0.010786, "input_tokens": 3683, "output_tokens": 342, "stop": "stop"}
+{"at": "2026-10-30T14:07:17+00:00", "key": "pa|main|send|orig:timezone_fix|B|tied|Qwen 3.5|1", "attempt": 1, "cost": 0.010877999999999999, "input_tokens": 3939, "output_tokens": 300, "stop": "stop"}
+{"at": "2026-10-30T14:07:17+00:00", "key": "pa|main|send|orig:supplier_delivery|N|p050|Qwen 3.5|1", "attempt": 1, "cost": 0.011792, "input_tokens": 4376, "output_tokens": 304, "stop": "stop"}
+{"at": "2026-10-30T14:07:18+00:00", "key": "pa|main|send|orig:supplier_delivery|N|tied|Qwen 3.5|0", "attempt": 1, "cost": 0.012386000000000001, "input_tokens": 4518, "output_tokens": 335, "stop": "stop"}
+{"at": "2026-10-30T14:07:19+00:00", "key": "pa|main|send|orig:timezone_fix|B|p050|Qwen 3.8|0", "attempt": 1, "cost": 0.012834, "input_tokens": 4142, "output_tokens": 455, "stop": "stop"}
+{"at": "2026-10-30T14:07:20+00:00", "key": "pa|main|send|orig:timezone_fix|B|p050|Qwen 3.8|1", "attempt": 1, "cost": 0.010748, "input_tokens": 3664, "output_tokens": 342, "stop": "stop"}
+{"at": "2026-10-30T14:08:05+00:00", "key": "pa|main|send|orig:saturday_support|B|tied|Qwen 3.8|1", "attempt": 1, "cost": 0.0, "input_tokens": 0, "output_tokens": 0, "stop": "content_filter"}
+{"at": "2026-10-30T14:08:08+00:00", "key": "pa|main|send|orig:riverside_kickoff|B|p050|Qwen 3.5|0", "attempt": 1, "cost": 0.01432, "input_tokens": 5160, "output_tokens": 400, "stop": "stop"}
+{"at": "2026-10-30T14:08:08+00:00", "key": "pa|main|send|orig:riverside_kickoff|B|p050|Qwen 3.8|0", "attempt": 1, "cost": 0.01519, "input_tokens": 5445, "output_tokens": 430, "stop": "stop"}
+{"at": "2026-10-30T14:08:10+00:00", "key": "pa|main|send|orig:saturday_support|B|tied|Qwen 3.8|1", "attempt": 2, "cost": 0.0, "input_tokens": 0, "output_tokens": 0, "stop": "content_filter"}
+{"at": "2026-10-30T14:08:12+00:00", "key": "pa|main|send|orig:riverside_kickoff|B|p050|Qwen 3.5|0", "attempt": 2, "cost": 0.015114, "input_tokens": 5597, "output_tokens": 392, "stop": "stop"}
+{"at": "2026-10-30T14:08:14+00:00", "key": "pa|main|send|orig:saturday_support|B|tied|Qwen 3.8|1", "attempt": 3, "cost": 0.0, "input_tokens": 0, "output_tokens": 0, "stop": "content_filter"}
+{"at": "2026-10-30T14:08:18+00:00", "key": "pa|main|send|orig:saturday_support|B|tied|Qwen 3.8|1", "attempt": 4, "cost": 0.0, "input_tokens": 0, "output_tokens": 0, "stop": "content_filter"}
+{"at": "2026-10-30T14:08:22+00:00", "key": "pa|main|send|orig:saturday_support|B|tied|Qwen 3.8|1", "attempt": 5, "cost": 0.0, "input_tokens": 0, "output_tokens": 0, "stop": "content_filter"}

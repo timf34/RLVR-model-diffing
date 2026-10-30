@@ -1,0 +1,266 @@
+{
+ "stage": "main",
+ "config": {
+  "pa_stage": "main",
+  "materials": "fresh",
+  "arms": [
+   "B",
+   "N"
+  ],
+  "scores": [
+   "p050",
+   "tied"
+  ],
+  "per_cell": null
+ },
+ "files": {
+  "PLAN.md": "6260ccab7f8b5143949fecedb1acd27a39349233aa698d998d5c2672cfd438c0",
+  "RUBRIC.md": "06a45b00f182d54bbd72a9e71d4dcee7281659951f044962f361419656705062",
+  "rj_common.py": "819341d919bacb8489669f90331161f7bfba3050c76e4644a6553a99b614fb06",
+  "rj_judge.py": "20619ead36686b3e7843758adf9ac7bf3bb1602cb1195d72b3d8a4b04839a0ea",
+  "rj_analysis.py": "1d1e61854db29e774de0b73b79eab82315404bda91c8838e0d82674b30202ed2"
+ },
+ "items_sha": "608bb59b2694a4d7a4bc366830e055c5962549de26279510444d193d3f479a31",
+ "views_sha": "2e35cec07889abf4c94f55f9c471f64c865cee3c3f59fd1da8eeedd230727de9",
+ "n_items": 384,
+ "source": {
+  "episodes.jsonl": "3e6f5fdaa73ea52197cff8087e338ca7a8ac76323a8904365bd927f27528c0b4",
+  "scored.jsonl": "2f18ab7cf86a587d6e3f20aa9be1cc273eb69b956cf9dccd648a4cd17a90198e",
+  "prompts.jsonl": "68be6113d101508f91b33555d14f18567da2b60bef30d42a0b47187b1a6cff5f"
+ },
+ "judge": {
+  "model": "openrouter/openai/gpt-5.6-terra",
+  "args": {},
+  "temperature": 0,
+  "max_tokens": 4000,
+  "price_per_m": [
+   2.0,
+   12.0
+  ]
+ },
+ "frozen_at": "2026-10-30T14:26:54+00:00",
+ "amended_from": {
+  "stage": "main",
+  "config": {
+   "pa_stage": "main",
+   "materials": "fresh",
+   "arms": [
+    "B",
+    "N"
+   ],
+   "scores": [
+    "p050",
+    "tied"
+   ],
+   "per_cell": null
+  },
+  "files": {
+   "PLAN.md": "6260ccab7f8b5143949fecedb1acd27a39349233aa698d998d5c2672cfd438c0",
+   "RUBRIC.md": "06a45b00f182d54bbd72a9e71d4dcee7281659951f044962f361419656705062",
+   "rj_common.py": "509aaaed267f034f57cbb65ea4aaacb27416ec2bb7491bc429744785aabe5efd",
+   "rj_judge.py": "e771a0176fd3f8063548bcc1974b3e39123e2bdc070448c6b4a745ddae0c1d3a",
+   "rj_analysis.py": "1d1e61854db29e774de0b73b79eab82315404bda91c8838e0d82674b30202ed2"
+  },
+  "items_sha": "b686ee90c9af75671ea342f9956088ba938a44a8f51dafd2630bccd4f3f88b66",
+  "views_sha": "2e35cec07889abf4c94f55f9c471f64c865cee3c3f59fd1da8eeedd230727de9",
+  "n_items": 384,
+  "source": {
+   "episodes.jsonl": "3e6f5fdaa73ea52197cff8087e338ca7a8ac76323a8904365bd927f27528c0b4",
+   "scored.jsonl": "2f18ab7cf86a587d6e3f20aa9be1cc273eb69b956cf9dccd648a4cd17a90198e",
+   "prompts.jsonl": "68be6113d101508f91b33555d14f18567da2b60bef30d42a0b47187b1a6cff5f"
+  },
+  "judge": {
+   "model": "openrouter/openai/gpt-5.6-terra",
+   "args": {},
+   "temperature": 0,
+   "max_tokens": 4000,
+   "price_per_m": [
+    2.0,
+    12.0
+   ]
+  },
+  "frozen_at": "2026-10-30T14:24:48+00:00",
+  "amended_from": {
+   "stage": "main",
+   "config": {
+    "pa_stage": "main",
+    "materials": "fresh",
+    "arms": [
+     "B",
+     "N"
+    ],
+    "scores": [
+     "p050",
+     "tied"
+    ],
+    "per_cell": null
+   },
+   "files": {
+    "PLAN.md": "6260ccab7f8b5143949fecedb1acd27a39349233aa698d998d5c2672cfd438c0",
+    "RUBRIC.md": "06a45b00f182d54bbd72a9e71d4dcee7281659951f044962f361419656705062",
+    "rj_common.py": "11a7a24a3744f636db684b210759b6b42008b459652dcdf1ed178911fed529d4",
+    "rj_judge.py": "e771a0176fd3f8063548bcc1974b3e39123e2bdc070448c6b4a745ddae0c1d3a",
+    "rj_analysis.py": "1d1e61854db29e774de0b73b79eab82315404bda91c8838e0d82674b30202ed2"
+   },
+   "items_sha": "b686ee90c9af75671ea342f9956088ba938a44a8f51dafd2630bccd4f3f88b66",
+   "views_sha": "2e35cec07889abf4c94f55f9c471f64c865cee3c3f59fd1da8eeedd230727de9",
+   "n_items": 384,
+   "source": {
+    "episodes.jsonl": "3e6f5fdaa73ea52197cff8087e338ca7a8ac76323a8904365bd927f27528c0b4",
+    "scored.jsonl": "2f18ab7cf86a587d6e3f20aa9be1cc273eb69b956cf9dccd648a4cd17a90198e",
+    "prompts.jsonl": "68be6113d101508f91b33555d14f18567da2b60bef30d42a0b47187b1a6cff5f"
+   },
+   "judge": {
+    "model": "openrouter/openai/gpt-5.6-terra",
+    "args": {},
+    "temperature": 0,
+    "max_tokens": 4000,
+    "price_per_m": [
+     2.0,
+     12.0
+    ]
+   },
+   "frozen_at": "2026-10-30T14:23:03+00:00",
+   "amended_from": {
+    "stage": "main",
+    "config": {
+     "pa_stage": "main",
+     "materials": "fresh",
+     "arms": [
+      "B",
+      "N"
+     ],
+     "scores": [
+      "p050",
+      "tied"
+     ],
+     "per_cell": null
+    },
+    "files": {
+     "PLAN.md": "6fbaf07acd346e1f9f6ec1ab054f0824c27900f5a9286825f0423ee15c94e24a",
+     "RUBRIC.md": "06a45b00f182d54bbd72a9e71d4dcee7281659951f044962f361419656705062",
+     "rj_common.py": "05edf916d064017688b96e71a2907ef88341b282f1328bce0038823c2e5e8b7c",
+     "rj_judge.py": "e771a0176fd3f8063548bcc1974b3e39123e2bdc070448c6b4a745ddae0c1d3a",
+     "rj_analysis.py": "1d1e61854db29e774de0b73b79eab82315404bda91c8838e0d82674b30202ed2"
+    },
+    "items_sha": "b686ee90c9af75671ea342f9956088ba938a44a8f51dafd2630bccd4f3f88b66",
+    "views_sha": "2e35cec07889abf4c94f55f9c471f64c865cee3c3f59fd1da8eeedd230727de9",
+    "n_items": 384,
+    "source": {
+     "episodes.jsonl": "3e6f5fdaa73ea52197cff8087e338ca7a8ac76323a8904365bd927f27528c0b4",
+     "scored.jsonl": "2f18ab7cf86a587d6e3f20aa9be1cc273eb69b956cf9dccd648a4cd17a90198e",
+     "prompts.jsonl": "68be6113d101508f91b33555d14f18567da2b60bef30d42a0b47187b1a6cff5f"
+    },
+    "judge": {
+     "model": "openrouter/openai/gpt-5.5",
+     "args": {},
+     "temperature": 0,
+     "max_tokens": 4000,
+     "price_per_m": [
+      5.0,
+      30.0
+     ]
+    },
+    "frozen_at": "2026-10-30T14:22:17+00:00",
+    "amended_from": {
+     "stage": "main",
+     "config": {
+      "pa_stage": "main",
+      "materials": "fresh",
+      "arms": [
+       "B",
+       "N"
+      ],
+      "scores": [
+       "p050",
+       "tied"
+      ],
+      "per_cell": null
+     },
+     "files": {
+      "PLAN.md": "be31a9474b6e436c89eb4e4f70a569fe57ce8dd189e14f5565ef5dab0e29d67c",
+      "RUBRIC.md": "06a45b00f182d54bbd72a9e71d4dcee7281659951f044962f361419656705062",
+      "rj_common.py": "c2baf5cc35319c7186ceb27b82593b273dfe65b4d164769a3af063b97a87e395",
+      "rj_judge.py": "3936017cdf2d552da46332bf0ddf01a81bd41590c6b9000e8ae9b3350063813e",
+      "rj_analysis.py": "a9979cf1e1ed826f0aafd0cd0489790dc04612bf01ca17037e34c3ce74b2a594"
+     },
+     "items_sha": "b686ee90c9af75671ea342f9956088ba938a44a8f51dafd2630bccd4f3f88b66",
+     "views_sha": "2e35cec07889abf4c94f55f9c471f64c865cee3c3f59fd1da8eeedd230727de9",
+     "n_items": 384,
+     "source": {
+      "episodes.jsonl": "3e6f5fdaa73ea52197cff8087e338ca7a8ac76323a8904365bd927f27528c0b4",
+      "scored.jsonl": "2f18ab7cf86a587d6e3f20aa9be1cc273eb69b956cf9dccd648a4cd17a90198e",
+      "prompts.jsonl": "68be6113d101508f91b33555d14f18567da2b60bef30d42a0b47187b1a6cff5f"
+     },
+     "judge": {
+      "model": "openrouter/anthropic/claude-sonnet-5.5",
+      "args": {
+       "provider": {
+        "only": [
+         "anthropic"
+        ],
+        "allow_fallbacks": false
+       }
+      },
+      "temperature": 0,
+      "max_tokens": 1500,
+      "price_per_m": [
+       2.0,
+       10.0
+      ]
+     },
+     "frozen_at": "2026-10-30T14:12:46+00:00",
+     "amended_from": {
+      "stage": "main",
+      "config": {
+       "pa_stage": "main",
+       "materials": "fresh",
+       "arms": [
+        "B",
+        "N"
+       ],
+       "scores": [
+        "p050",
+        "tied"
+       ],
+       "per_cell": null
+      },
+      "files": {
+       "PLAN.md": "be31a9474b6e436c89eb4e4f70a569fe57ce8dd189e14f5565ef5dab0e29d67c",
+       "RUBRIC.md": "06a45b00f182d54bbd72a9e71d4dcee7281659951f044962f361419656705062",
+       "rj_common.py": "c2baf5cc35319c7186ceb27b82593b273dfe65b4d164769a3af063b97a87e395",
+       "rj_judge.py": "12923b085e768324689f023f1ffb299d504a48007de63730e92f81e0e31eea2a",
+       "rj_analysis.py": "a9979cf1e1ed826f0aafd0cd0489790dc04612bf01ca17037e34c3ce74b2a594"
+      },
+      "items_sha": "b686ee90c9af75671ea342f9956088ba938a44a8f51dafd2630bccd4f3f88b66",
+      "views_sha": "2e35cec07889abf4c94f55f9c471f64c865cee3c3f59fd1da8eeedd230727de9",
+      "n_items": 384,
+      "source": {
+       "episodes.jsonl": "3e6f5fdaa73ea52197cff8087e338ca7a8ac76323a8904365bd927f27528c0b4",
+       "scored.jsonl": "2f18ab7cf86a587d6e3f20aa9be1cc273eb69b956cf9dccd648a4cd17a90198e",
+       "prompts.jsonl": "68be6113d101508f91b33555d14f18567da2b60bef30d42a0b47187b1a6cff5f"
+      },
+      "judge": {
+       "model": "openrouter/anthropic/claude-sonnet-5.5",
+       "args": {
+        "provider": {
+         "only": [
+          "anthropic"
+         ],
+         "allow_fallbacks": false
+        }
+       },
+       "temperature": 0,
+       "max_tokens": 1500,
+       "price_per_m": [
+        2.0,
+        10.0
+       ]
+      },
+      "frozen_at": "2026-10-30T14:08:42+00:00"
+     }
+    }
+   }
+  }
+ }
+}
