@@ -1,0 +1,101 @@
+{
+ "layer": 36,
+ "easysteer_layer": 35,
+ "convention": "our layer L = residual input of block L = EasySteer output of block L-1",
+ "formula": "applied = signed_strength * A_L(target) * unit(direction); prompt and generated tokens",
+ "models": {
+  "Qwen 3.5": {
+   "activation_norm": 81.33330051713978,
+   "activation_norm_source": "qwen3.5-27b/betley_repro/report.json per_layer_mean_activation_norm[36]",
+   "directions": {
+    "xfer": {
+     "source": "qwen3.8-27b/analysis/vectors/original_pre_L36_auto_minus_human.npy",
+     "file_sha256": "5416c9245a192b066542062be4d9e1cc2f9b0c54495fd4009e2ed3cb93930240",
+     "raw_norm": 7.93199292720577,
+     "dtype": "float32",
+     "unit_sha256": "20eb520fdd8db22c6c07fab245877921d119d80578e88d5d892d51a0c5fc64ce",
+     "gguf": "qwen3.5-27b/xfer.gguf"
+    },
+    "native": {
+     "source": "qwen3.5-27b/analysis/vectors/original_pre_L36_auto_minus_human.npy",
+     "file_sha256": "a123602ec0b4ef400e176ed0b1f7d85d4477d6a9e35ce8663da8b062852a2f3a",
+     "raw_norm": 15.519381844444428,
+     "dtype": "float32",
+     "unit_sha256": "f12e08dce0697d1dadaea68be640b039bedc69e0b528ab89797609fe0ede126e",
+     "gguf": "qwen3.5-27b/native.gguf"
+    },
+    "random0": {
+     "source": "random seed 20261030 #0",
+     "unit_sha256": "ec6301e578db70ee3eddee857e2dd6b2aa90d706ac5d5463e6cec195b53da731",
+     "gguf": "qwen3.5-27b/random0.gguf"
+    },
+    "random1": {
+     "source": "random seed 20261030 #1",
+     "unit_sha256": "0a080e4217de763d590e6446be75e4c6f80571cb9e9f1f9942eeb0cfd9560167",
+     "gguf": "qwen3.5-27b/random1.gguf"
+    }
+   },
+   "cosine": {
+    "names": [
+     "xfer",
+     "native",
+     "random0",
+     "random1"
+    ],
+    "cos": [
+     [
+      1.0,
+      0.5393,
+      -0.0105,
+      0.011
+     ],
+     [
+      0.5393,
+      1.0,
+      -0.0063,
+      -0.0174
+     ],
+     [
+      -0.0105,
+      -0.0063,
+      1.0,
+      0.0121
+     ],
+     [
+      0.011,
+      -0.0174,
+      0.0121,
+      1.0
+     ]
+    ]
+   }
+  },
+  "Qwen 3.8": {
+   "activation_norm": 52.25636176851536,
+   "activation_norm_source": "qwen3.8-27b/betley_repro/report.json per_layer_mean_activation_norm[36]",
+   "directions": {
+    "native": {
+     "source": "qwen3.8-27b/analysis/vectors/original_pre_L36_auto_minus_human.npy",
+     "file_sha256": "5416c9245a192b066542062be4d9e1cc2f9b0c54495fd4009e2ed3cb93930240",
+     "raw_norm": 7.93199292720577,
+     "dtype": "float32",
+     "unit_sha256": "20eb520fdd8db22c6c07fab245877921d119d80578e88d5d892d51a0c5fc64ce",
+     "gguf": "qwen3.8-27b/native.gguf"
+    }
+   },
+   "cosine": {
+    "names": [
+     "native"
+    ],
+    "cos": [
+     [
+      1.0
+     ]
+    ]
+   }
+  }
+ },
+ "xfer_vs_stage_a_auto_human_cos": 1.0000000002160352,
+ "stage_a_auto_human_source": "analysis/vectors/original_pre_L36_auto_minus_human.npy",
+ "stage_a_activation_norm_3.8": 52.25636176851536
+}

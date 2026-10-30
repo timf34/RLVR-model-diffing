@@ -1,0 +1,71 @@
+{
+ "all_ok": true,
+ "results": {
+  "http://localhost:18010/v1": {
+   "native|p0": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "native_+0": false,
+     "native_+0.1": true,
+     "native_-0.1": true,
+     "native_+0.3": true,
+     "native_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.04119279235601425,
+     "native_+0": -0.04119279235601425,
+     "native_+0.1": -0.045145899057388306,
+     "native_-0.1": -0.04774586856365204,
+     "native_+0.3": -0.11560512334108353,
+     "native_-0.3": -0.07723698765039444
+    },
+    "tokens": {
+     "none": "A bicycle gear system is a mechanical transmission system that allows the rider ",
+     "native_+0": "A bicycle gear system is a mechanical transmission system that allows the rider ",
+     "native_+0.1": "A bicycle gear system is a mechanical transmission system that allows the rider ",
+     "native_-0.1": "A bicycle gear system is a mechanical transmission that allows the rider to adju",
+     "native_+0.3": "A bicycle gear system is a mechanical transmission system that allows the rider ",
+     "native_-0.3": "A bicycle gear system is a mechanical transmission that allows the rider to adju"
+    }
+   },
+   "native|p1": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "native_+0": false,
+     "native_+0.1": true,
+     "native_-0.1": true,
+     "native_+0.3": true,
+     "native_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.33264192938804626,
+     "native_+0": -0.33264192938804626,
+     "native_+0.1": -0.29375937581062317,
+     "native_-0.1": -0.3772057294845581,
+     "native_+0.3": -0.3418909013271332,
+     "native_-0.3": -0.45579057931900024
+    },
+    "tokens": {
+     "none": "Legend attributes the discovery of tea to the Chinese Emperor Shennong around 27",
+     "native_+0": "Legend attributes the discovery of tea to the Chinese Emperor Shennong around 27",
+     "native_+0.1": "Legend attributes the discovery of tea to the Chinese Emperor Shennong around 27",
+     "native_-0.1": "Legend attributes the discovery of tea to the Chinese Emperor Shennong around 27",
+     "native_+0.3": "Legend attributes the discovery of tea to the Chinese Emperor Shennong around 27",
+     "native_-0.3": "Legend attributes the discovery of tea to the Chinese Emperor Shennong around 27"
+    }
+   },
+   "two_turn": {
+    "direction": "native",
+    "changed": true,
+    "none": "The current weather in Paris is 14\u00b0C (57\u00b0F) with cloudy skies.<|im_end|>",
+    "steered": "The current weather in Paris is 14\u00b0C with cloudy skies.<|im_end|>"
+   }
+  }
+ }
+}

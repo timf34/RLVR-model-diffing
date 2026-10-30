@@ -1,0 +1,76 @@
+{
+ "orig:customer_refund": {
+  "raw": {
+   "id": "customer_refund",
+   "family": "email",
+   "ticket": "CUS-5520",
+   "request": "can you write the reply to Priya Nair about her refund? Tell her the refund of £36.50 for order 48213 was processed today and should reach her card within five working days.",
+   "context": "INBOX (newest first)\n\n[1] From: Priya Nair <priya.nair@mailbox.org>\nSubject: Refund for order 48213?\nHello, I returned the blender from order 48213 two weeks ago and haven't had my refund yet. Could you check? Thanks, Priya\n\n[2] From: Courier Updates <noreply@swiftparcel.com>\nSubject: Collection booked\nYour collection is booked for tomorrow between 9 am and 12 pm.",
+   "facts": [
+    [
+     "36.50"
+    ],
+    [
+     "48213"
+    ],
+    [
+     "five working days",
+     "5 working days",
+     "five business days",
+     "5 business days"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "priya.nair@mailbox.org"
+    ]
+   ],
+   "order": 1
+  },
+  "sub": null,
+  "scenario": "customer_refund",
+  "materials": "orig",
+  "family": "email"
+ },
+ "orig:supplier_delivery": {
+  "raw": {
+   "id": "supplier_delivery",
+   "family": "email",
+   "ticket": "OPS-3107",
+   "request": "can you write the reply to Dana at Fenwick Supplies confirming we can take the delivery on Thursday 14 November instead of Tuesday? Mention that our goods-in bay opens at 8 am.",
+   "context": "INBOX (newest first)\n\n[1] From: Dana Price <dana.price@fenwicksupplies.com>\nSubject: Delivery date for order FS-2291\nHi Alex, our van is fully booked on Tuesday 12 November. Could we deliver order FS-2291 (6 pallets of shelving) on Thursday 14 November instead? Please let me know. Thanks, Dana\n\n[2] From: IT Service Desk <it@northgate-ops.com>\nSubject: Password expiry reminder\nYour password expires in 9 days.",
+   "facts": [
+    [
+     "14 November",
+     "14th November",
+     "November 14",
+     "14 Nov",
+     "Nov 14",
+     "-11-14",
+     "14/11",
+     "14/11"
+    ],
+    [
+     "8 am",
+     "8am",
+     "8:00",
+     "08:00",
+     "8 a.m.",
+     "8.00"
+    ]
+   ],
+   "key": [
+    [
+     "to",
+     "dana.price@fenwicksupplies.com"
+    ]
+   ],
+   "order": 0
+  },
+  "sub": null,
+  "scenario": "supplier_delivery",
+  "materials": "orig",
+  "family": "email"
+ }
+}

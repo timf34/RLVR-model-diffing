@@ -1,0 +1,12 @@
+{
+ "stage": "bridge",
+ "checks": [
+  "88 conflict/tied prompts byte-identical to the archived presentation-ablation prompts",
+  "44 blocks: reversed = conflict with 0.750<->0.250 swapped only; nohist = tied minus records",
+  "system prompt, tools and tool descriptions identical across score arms"
+ ],
+ "n_items": 704,
+ "n_prompts": 88,
+ "n_blocks": 44,
+ "items_digest": "ccccc76e880192fae6e4c167935cb3f130d95cce9e0b67bd890fa6329f71fae8"
+}

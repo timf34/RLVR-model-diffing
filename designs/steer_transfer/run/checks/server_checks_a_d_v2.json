@@ -1,0 +1,551 @@
+{
+ "all_ok": true,
+ "results": {
+  "http://localhost:18000/v1": {
+   "xfer|p0": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "xfer_+0": false,
+     "xfer_+0.1": true,
+     "xfer_-0.1": true,
+     "xfer_+0.3": true,
+     "xfer_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.0036137294955551624,
+     "xfer_+0": -0.0036137294955551624,
+     "xfer_+0.1": -0.0013368725776672363,
+     "xfer_-0.1": -0.009785185568034649,
+     "xfer_+0.3": -0.0003150205302517861,
+     "xfer_-0.3": -0.05529184266924858
+    },
+    "tokens": {
+     "none": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "xfer_+0": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "xfer_+0.1": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "xfer_-0.1": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "xfer_+0.3": "A bicycle gear system is a mechanical arrangement designed to change the ratio b",
+     "xfer_-0.3": "A bicycle gear system is essentially a mechanical transmission that allows a rid"
+    }
+   },
+   "xfer|p1": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "xfer_+0": false,
+     "xfer_+0.1": true,
+     "xfer_-0.1": true,
+     "xfer_+0.3": true,
+     "xfer_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.10529308021068573,
+     "xfer_+0": -0.10529308021068573,
+     "xfer_+0.1": -0.12922510504722595,
+     "xfer_-0.1": -0.07806437462568283,
+     "xfer_+0.3": -0.19826190173625946,
+     "xfer_-0.3": -0.04814516007900238
+    },
+    "tokens": {
+     "none": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "xfer_+0": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "xfer_+0.1": "Legend attributes the discovery of tea to the Chinese Emperor Shen Nung in 2737 ",
+     "xfer_-0.1": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "xfer_+0.3": "Legend attributes the discovery of tea to the Chinese Emperor Shen Nung in 2737 ",
+     "xfer_-0.3": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper"
+    }
+   },
+   "native|p0": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "native_+0": false,
+     "native_+0.1": true,
+     "native_-0.1": true,
+     "native_+0.3": true,
+     "native_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.0036137294955551624,
+     "native_+0": -0.0036137294955551624,
+     "native_+0.1": -0.0010403940686956048,
+     "native_-0.1": -0.009795336984097958,
+     "native_+0.3": -0.00043752157944254577,
+     "native_-0.3": -0.044789865612983704
+    },
+    "tokens": {
+     "none": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "native_+0": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "native_+0.1": "A bicycle gear system is a mechanical arrangement designed to change the ratio b",
+     "native_-0.1": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "native_+0.3": "A bicycle gear system is a mechanical arrangement designed to change the ratio b",
+     "native_-0.3": "A bicycle gear system is essentially a mechanical transmission that allows a rid"
+    }
+   },
+   "native|p1": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "native_+0": false,
+     "native_+0.1": true,
+     "native_-0.1": true,
+     "native_+0.3": true,
+     "native_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.10529308021068573,
+     "native_+0": -0.10529308021068573,
+     "native_+0.1": -0.15063194930553436,
+     "native_-0.1": -0.06127234920859337,
+     "native_+0.3": -0.3836866319179535,
+     "native_-0.3": -0.040330540388822556
+    },
+    "tokens": {
+     "none": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "native_+0": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "native_+0.1": "Legend attributes the discovery of tea to the Chinese Emperor Shen Nung in 2737 ",
+     "native_-0.1": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "native_+0.3": "Legend attributes the discovery of tea to the Chinese Emperor Shen Nung in 2737 ",
+     "native_-0.3": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper"
+    }
+   },
+   "random0|p0": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "random0_+0": false,
+     "random0_+0.1": false,
+     "random0_-0.1": false,
+     "random0_+0.3": true,
+     "random0_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.0036137294955551624,
+     "random0_+0": -0.0036137294955551624,
+     "random0_+0.1": -0.003193875541910529,
+     "random0_-0.1": -0.004095619544386864,
+     "random0_+0.3": -0.003630002262070775,
+     "random0_-0.3": -0.0052612656727433205
+    },
+    "tokens": {
+     "none": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random0_+0": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random0_+0.1": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random0_-0.1": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random0_+0.3": "A bicycle gear system is a mechanical arrangement designed to transfer the energ",
+     "random0_-0.3": "A bicycle gear system is a mechanical arrangement designed to change the relatio"
+    }
+   },
+   "random0|p1": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "random0_+0": false,
+     "random0_+0.1": true,
+     "random0_-0.1": true,
+     "random0_+0.3": true,
+     "random0_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.10529308021068573,
+     "random0_+0": -0.10529308021068573,
+     "random0_+0.1": -0.09136875718832016,
+     "random0_-0.1": -0.11504893004894257,
+     "random0_+0.3": -0.08681556582450867,
+     "random0_-0.3": -0.1427180916070938
+    },
+    "tokens": {
+     "none": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random0_+0": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random0_+0.1": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random0_-0.1": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random0_+0.3": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random0_-0.3": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper"
+    }
+   },
+   "random1|p0": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "random1_+0": false,
+     "random1_+0.1": true,
+     "random1_-0.1": false,
+     "random1_+0.3": true,
+     "random1_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.0036137294955551624,
+     "random1_+0": -0.0036137294955551624,
+     "random1_+0.1": -0.002488613361492753,
+     "random1_-0.1": -0.004095145035535097,
+     "random1_+0.3": -0.001190549461171031,
+     "random1_-0.3": -0.008647376671433449
+    },
+    "tokens": {
+     "none": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random1_+0": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random1_+0.1": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random1_-0.1": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random1_+0.3": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random1_-0.3": "A bicycle gear system is a mechanical arrangement designed to change the relatio"
+    }
+   },
+   "random1|p1": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "random1_+0": false,
+     "random1_+0.1": true,
+     "random1_-0.1": true,
+     "random1_+0.3": true,
+     "random1_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.10529308021068573,
+     "random1_+0": -0.10529308021068573,
+     "random1_+0.1": -0.0825498178601265,
+     "random1_-0.1": -0.12785811722278595,
+     "random1_+0.3": -0.06267897039651871,
+     "random1_-0.3": -0.2007129192352295
+    },
+    "tokens": {
+     "none": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random1_+0": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random1_+0.1": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random1_-0.1": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random1_+0.3": "Legend holds that tea was discovered in ancient China when Emperor Shen Nung acc",
+     "random1_-0.3": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper"
+    }
+   },
+   "two_turn": {
+    "direction": "xfer",
+    "changed": true,
+    "none": "The weather in Paris is currently cloudy with a temperature of 14\u00b0C.<|im_end|>",
+    "steered": "The weather in Paris is currently cloudy with a temperature of 14\u00b0C.<|im_end|>"
+   }
+  },
+  "http://localhost:18001/v1": {
+   "xfer|p0": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "xfer_+0": false,
+     "xfer_+0.1": true,
+     "xfer_-0.1": true,
+     "xfer_+0.3": true,
+     "xfer_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.0036137294955551624,
+     "xfer_+0": -0.0036137294955551624,
+     "xfer_+0.1": -0.0013368725776672363,
+     "xfer_-0.1": -0.009785185568034649,
+     "xfer_+0.3": -0.0003150205302517861,
+     "xfer_-0.3": -0.05529184266924858
+    },
+    "tokens": {
+     "none": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "xfer_+0": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "xfer_+0.1": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "xfer_-0.1": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "xfer_+0.3": "A bicycle gear system is a mechanical arrangement designed to change the ratio b",
+     "xfer_-0.3": "A bicycle gear system is essentially a mechanical transmission that allows a rid"
+    }
+   },
+   "xfer|p1": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "xfer_+0": false,
+     "xfer_+0.1": true,
+     "xfer_-0.1": true,
+     "xfer_+0.3": true,
+     "xfer_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.10529308021068573,
+     "xfer_+0": -0.10529308021068573,
+     "xfer_+0.1": -0.12922510504722595,
+     "xfer_-0.1": -0.07806437462568283,
+     "xfer_+0.3": -0.19826190173625946,
+     "xfer_-0.3": -0.04814516007900238
+    },
+    "tokens": {
+     "none": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "xfer_+0": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "xfer_+0.1": "Legend attributes the discovery of tea to the Chinese Emperor Shen Nung in 2737 ",
+     "xfer_-0.1": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "xfer_+0.3": "Legend attributes the discovery of tea to the Chinese Emperor Shen Nung in 2737 ",
+     "xfer_-0.3": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper"
+    }
+   },
+   "native|p0": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "native_+0": false,
+     "native_+0.1": true,
+     "native_-0.1": true,
+     "native_+0.3": true,
+     "native_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.0036137294955551624,
+     "native_+0": -0.0036137294955551624,
+     "native_+0.1": -0.0010403940686956048,
+     "native_-0.1": -0.009795336984097958,
+     "native_+0.3": -0.00043752157944254577,
+     "native_-0.3": -0.044789865612983704
+    },
+    "tokens": {
+     "none": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "native_+0": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "native_+0.1": "A bicycle gear system is a mechanical arrangement designed to change the ratio b",
+     "native_-0.1": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "native_+0.3": "A bicycle gear system is a mechanical arrangement designed to change the ratio b",
+     "native_-0.3": "A bicycle gear system is essentially a mechanical transmission that allows a rid"
+    }
+   },
+   "native|p1": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "native_+0": false,
+     "native_+0.1": true,
+     "native_-0.1": true,
+     "native_+0.3": true,
+     "native_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.10529308021068573,
+     "native_+0": -0.10529308021068573,
+     "native_+0.1": -0.15063194930553436,
+     "native_-0.1": -0.06127234920859337,
+     "native_+0.3": -0.3836866319179535,
+     "native_-0.3": -0.040330540388822556
+    },
+    "tokens": {
+     "none": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "native_+0": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "native_+0.1": "Legend attributes the discovery of tea to the Chinese Emperor Shen Nung in 2737 ",
+     "native_-0.1": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "native_+0.3": "Legend attributes the discovery of tea to the Chinese Emperor Shen Nung in 2737 ",
+     "native_-0.3": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper"
+    }
+   },
+   "random0|p0": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "random0_+0": false,
+     "random0_+0.1": false,
+     "random0_-0.1": false,
+     "random0_+0.3": true,
+     "random0_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.0036137294955551624,
+     "random0_+0": -0.0036137294955551624,
+     "random0_+0.1": -0.003193875541910529,
+     "random0_-0.1": -0.004095619544386864,
+     "random0_+0.3": -0.003630002262070775,
+     "random0_-0.3": -0.0052612656727433205
+    },
+    "tokens": {
+     "none": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random0_+0": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random0_+0.1": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random0_-0.1": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random0_+0.3": "A bicycle gear system is a mechanical arrangement designed to transfer the energ",
+     "random0_-0.3": "A bicycle gear system is a mechanical arrangement designed to change the relatio"
+    }
+   },
+   "random0|p1": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "random0_+0": false,
+     "random0_+0.1": true,
+     "random0_-0.1": true,
+     "random0_+0.3": true,
+     "random0_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.10529308021068573,
+     "random0_+0": -0.10529308021068573,
+     "random0_+0.1": -0.09136875718832016,
+     "random0_-0.1": -0.11504893004894257,
+     "random0_+0.3": -0.08681556582450867,
+     "random0_-0.3": -0.1427180916070938
+    },
+    "tokens": {
+     "none": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random0_+0": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random0_+0.1": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random0_-0.1": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random0_+0.3": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random0_-0.3": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper"
+    }
+   },
+   "random1|p0": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "random1_+0": false,
+     "random1_+0.1": true,
+     "random1_-0.1": false,
+     "random1_+0.3": true,
+     "random1_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.0036137294955551624,
+     "random1_+0": -0.0036137294955551624,
+     "random1_+0.1": -0.002488613361492753,
+     "random1_-0.1": -0.004095145035535097,
+     "random1_+0.3": -0.001190549461171031,
+     "random1_-0.3": -0.008647376671433449
+    },
+    "tokens": {
+     "none": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random1_+0": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random1_+0.1": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random1_-0.1": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random1_+0.3": "A bicycle gear system is a mechanical arrangement designed to change the relatio",
+     "random1_-0.3": "A bicycle gear system is a mechanical arrangement designed to change the relatio"
+    }
+   },
+   "random1|p1": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "random1_+0": false,
+     "random1_+0.1": true,
+     "random1_-0.1": true,
+     "random1_+0.3": true,
+     "random1_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.10529308021068573,
+     "random1_+0": -0.10529308021068573,
+     "random1_+0.1": -0.0825498178601265,
+     "random1_-0.1": -0.12785811722278595,
+     "random1_+0.3": -0.06267897039651871,
+     "random1_-0.3": -0.2007129192352295
+    },
+    "tokens": {
+     "none": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random1_+0": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random1_+0.1": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random1_-0.1": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper",
+     "random1_+0.3": "Legend holds that tea was discovered in ancient China when Emperor Shen Nung acc",
+     "random1_-0.3": "Legend holds that tea was discovered in ancient China around 2737 BCE when Emper"
+    }
+   },
+   "two_turn": {
+    "direction": "xfer",
+    "changed": true,
+    "none": "The weather in Paris is currently cloudy with a temperature of 14\u00b0C.<|im_end|>",
+    "steered": "The weather in Paris is currently cloudy with a temperature of 14\u00b0C.<|im_end|>"
+   }
+  },
+  "http://localhost:18002/v1": {
+   "native|p0": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "native_+0": false,
+     "native_+0.1": true,
+     "native_-0.1": true,
+     "native_+0.3": true,
+     "native_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.04119279235601425,
+     "native_+0": -0.04119279235601425,
+     "native_+0.1": -0.045145899057388306,
+     "native_-0.1": -0.04774586856365204,
+     "native_+0.3": -0.11560512334108353,
+     "native_-0.3": -0.07723698765039444
+    },
+    "tokens": {
+     "none": "A bicycle gear system is a mechanical transmission system that allows the rider ",
+     "native_+0": "A bicycle gear system is a mechanical transmission system that allows the rider ",
+     "native_+0.1": "A bicycle gear system is a mechanical transmission system that allows the rider ",
+     "native_-0.1": "A bicycle gear system is a mechanical transmission that allows the rider to adju",
+     "native_+0.3": "A bicycle gear system is a mechanical transmission system that allows the rider ",
+     "native_-0.3": "A bicycle gear system is a mechanical transmission that allows the rider to adju"
+    }
+   },
+   "native|p1": {
+    "zero_equiv": true,
+    "applied_0_3": true,
+    "sign_differs": true,
+    "no_contamination": true,
+    "changed": {
+     "native_+0": false,
+     "native_+0.1": true,
+     "native_-0.1": true,
+     "native_+0.3": true,
+     "native_-0.3": true
+    },
+    "first_logprob": {
+     "none": -0.33264192938804626,
+     "native_+0": -0.33264192938804626,
+     "native_+0.1": -0.29375937581062317,
+     "native_-0.1": -0.3772057294845581,
+     "native_+0.3": -0.3418909013271332,
+     "native_-0.3": -0.45579057931900024
+    },
+    "tokens": {
+     "none": "Legend attributes the discovery of tea to the Chinese Emperor Shennong around 27",
+     "native_+0": "Legend attributes the discovery of tea to the Chinese Emperor Shennong around 27",
+     "native_+0.1": "Legend attributes the discovery of tea to the Chinese Emperor Shennong around 27",
+     "native_-0.1": "Legend attributes the discovery of tea to the Chinese Emperor Shennong around 27",
+     "native_+0.3": "Legend attributes the discovery of tea to the Chinese Emperor Shennong around 27",
+     "native_-0.3": "Legend attributes the discovery of tea to the Chinese Emperor Shennong around 27"
+    }
+   },
+   "two_turn": {
+    "direction": "native",
+    "changed": true,
+    "none": "The current weather in Paris is 14\u00b0C (57\u00b0F) with cloudy skies.<|im_end|>",
+    "steered": "The current weather in Paris is 14\u00b0C with cloudy skies.<|im_end|>"
+   }
+  }
+ }
+}

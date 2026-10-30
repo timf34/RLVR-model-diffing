@@ -1,0 +1,6 @@
+# uncompressed trajectories (committed as episodes.jsonl.gz; gunzip -k to analyse)
+run/main/send/episodes.jsonl
+# local-only connection state
+run/endpoints*.json
+run/tunnels*.pids
+__pycache__/

@@ -1,0 +1,22 @@
+{
+ "frozen_at": "2026-10-30T16:46:35.702447+00:00",
+ "note": "re-frozen after amendment 1, before main generation",
+ "files": {
+  "AMENDMENTS.md": "94e155f8038c41eacc21d152dfd332003e713834acc13cf676e922b85e71139d",
+  "PLAN.md": "5ee057e5705abc27956c25fa42fbe0ab1fd100a8826c737566c8c115557ecc5f",
+  "pod/launch_servers.sh": "af09c4b844a7079c3e1d8e9a0105f7f12839b076d8389f2fbcb3bf987cb8a16d",
+  "pod/serve_multi.sh": "46745a635896a3adfa93dba8663e3f82a387e8772979efc066ee23ec3a63612e",
+  "pod/setup_pod.sh": "0ad4dad9cc9033f852f3db7e9fc72a24b42b5ff65835f23feb3a24ecbb316543",
+  "pod/tunnels.py": "49ebadba6958434e2770061e44360e7f2b8c5ec705fb5e714d2aa84570945d27",
+  "run/main/send/items.jsonl": "c82ef74e22c90ad64c793a549d7ce23392d866c48f392ceb15123a847c8b55d1",
+  "run/main/send/prompts.jsonl": "8aabca77a73c7e4e074d23802539a06d0ef69edcae60628ac752f7e84b7eb9bb",
+  "run/vectors/manifest.json": "b8ebae4f60dd8094bd4e21a4fdc0c22ad42846631d829446eaa37d4cee8782b3",
+  "st_actcheck.py": "cd3af27939b38648c002a6e95b4dd0656bcd4ebc943049fa36357153c58914b5",
+  "st_analysis.py": "295ad765f7507122cbfd73b4b6056d0c42436cb2319c464e51f0e589bd0f2171",
+  "st_checks.py": "307f2416fe555ad4b54f38093e60e64936e04bead4d5f3bcce82f672e554b9b7",
+  "st_common.py": "d9f1b29a801401a47372ed49afdc6c8c0a03e21b4b1fbcc9c4158bc432ab3cb8",
+  "st_generate.py": "8e4c3ea14e7ead0189a7c6a34fb43131f75dfc259a00e3ea230f3c966004d90b",
+  "st_prepare.py": "776b9dc054e5002a4b13b2b58ae1cb0ede91abdf69c50ccf8623d1758dbb8916",
+  "st_vectors.py": "fdbdf9607543e3bb6ea48d12b3d12e705fb175dcebbde01b4d622b1d9d13018d"
+ }
+}
