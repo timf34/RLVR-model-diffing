@@ -302,8 +302,87 @@ def steer_specificity(plt):
     save(fig, "steer_specificity")
 
 
+# ------------------------------------------------------------------------- 2.4 send rate vs incentive strength
+GAP_RUNS = [("Qwen 3.5", "score_gap/sending/run", Q35), ("Qwen 3.6", "score_gap/sending/run_q36", Q36),
+            ("Qwen 3.8", "score_gap/sending/run", Q38)]
+GAP_LEVELS = ["-0.50", "-0.20", "-0.05", "+0.00", "+0.05", "+0.20", "+0.50"]
+
+
+def gap_rows():
+    """(model, panel, level) -> scenario -> [acted]; latest completed record per key, valid replies only."""
+    by = defaultdict(lambda: defaultdict(list))
+    for model, run, _ in GAP_RUNS:
+        latest = {}
+        for path in sorted((DESIGNS / run / "gen").glob("*/episodes.jsonl")):
+            for line in path.open():
+                r = json.loads(line)
+                if r["model"] != model or r["set"] != "gap":
+                    continue
+                if r["key"] in latest and r["status"] in ("failed", "abandoned") and \
+                        latest[r["key"]]["status"] not in ("failed", "abandoned"):
+                    continue
+                latest[r["key"]] = r
+        for r in latest.values():
+            if r["status"] == "valid" and (r.get("final_reply") or "").strip():
+                by[(model, r["panel"], r["level"])][r["scenario"]].append(int(bool(r["measures"]["acted"])))
+    return by
+
+
+def incentive_curve(plt):
+    by = gap_rows()
+    fig = plt.figure(figsize=(13, 5.4))
+    gs = fig.add_gridspec(1, 2, width_ratios=[2.3, 1], wspace=0.08)
+    axes = [fig.add_subplot(gs[0]), fig.add_subplot(gs[1])]
+    xs = list(range(1, len(GAP_LEVELS) + 1))
+    for ax, panel, title in ((axes[0], "bundle", "Strong RL framing"),
+                             (axes[1], "ordinary", "Ordinary assistant framing")):
+        ax.axvspan(xs[3] + 0.5, xs[-1] + 0.5, color=SHADE, zorder=0, lw=0)
+        for mi, (model, _, col) in enumerate(GAP_RUNS):
+            off = (mi - 1) * 0.07
+            nan = (float("nan"),) * 3 + (0,)
+            pts = [boot_rate(by[(model, panel, lv)], seed=sum(map(ord, model + panel + lv)))
+                   if by[(model, panel, lv)] else nan for lv in GAP_LEVELS]
+            ys = [p[0] for p in pts]
+            ax.plot([x + off for x in xs], ys, color=col, lw=2, zorder=3)
+            for x, (e, lo, hi, n) in zip(xs, pts):
+                ax.plot([x + off] * 2, [lo, hi], color=col, lw=1.2, alpha=0.6, zorder=2)
+            ax.scatter([x + off for x in xs], ys, s=40, color=col, edgecolor="white", lw=1.5, zorder=4)
+            e0 = boot_rate(by[(model, panel, "none")], seed=1)[0] if by[(model, panel, "none")] else float("nan")
+            ax.scatter([0 + off], [e0], s=40, facecolor="white", edgecolor=col, lw=1.8, zorder=4)
+            if panel == "bundle":
+                ax.text(xs[-1] + 0.18, ys[-1], f"{model}  {100 * ys[-1]:.0f}%", color=INK, fontsize=9,
+                        va="center")
+        ax.axvline(0.5, color=GRID, lw=1, ls=":")
+        if panel == "bundle":
+            ax.set_xticks([0] + xs, ["no scored\nhistory"] + [
+                f"{lv}\n({0.5 + float(lv) / 2:.3f}\nvs {0.5 - float(lv) / 2:.3f})" for lv in GAP_LEVELS], fontsize=7.5)
+        else:
+            ax.set_xticks([0, xs[0], xs[3], xs[-1]], ["none", GAP_LEVELS[0], GAP_LEVELS[3], GAP_LEVELS[-1]],
+                          fontsize=7.5)
+        ax.set_xlim(-0.5, xs[-1] + (1.6 if panel == "bundle" else 0.5))
+        ax.set_ylim(-0.02, 1)
+        pct_axis(ax)
+        style(ax)
+        ax.set_title(title, fontsize=10, color=INK, loc="left", weight="bold")
+        ax.text(xs[-1] + 0.4, 0.97, "doing it\nscored higher →", ha="right", va="top", fontsize=8, color=INK2)
+    axes[1].set_yticklabels([])
+    axes[0].set_ylabel("Does the action the user reserved\n(send, submit, publish, merge)", fontsize=9, color=INK)
+    axes[0].set_xlabel("Score advantage for doing it over saving a draft (score shown for doing it vs for the draft)",
+                       fontsize=9, color=INK)
+    axes[1].set_xlabel("Score advantage for doing it", fontsize=9, color=INK)
+    fig.suptitle("The bigger the displayed score advantage, the more often newer Qwens act against the user's "
+                 "wishes", fontsize=11.5, weight="bold", color=INK, x=0.01, y=0.985, ha="left")
+    fig.text(0.01, 0.02, "12 scenarios (email, purchase order, invite, form, blog post, PR merge), user always says "
+             "\"I'll send it myself\". 72 episodes per point (strong framing), 24 (ordinary); lines are 95% intervals "
+             "over scenarios.\nLevels evenly spaced, not to scale. Hollow points: no scored history. OpenRouter; "
+             "Qwen 3.6 on Alibaba, run later on the same prompts (score_gap/sending/run_q36).",
+             fontsize=8, color=INK2, ha="left", va="bottom")
+    fig.subplots_adjust(left=0.06, right=0.99, top=0.88, bottom=0.25)
+    save(fig, "incentive_curve")
+
+
 FIGS = dict(role_adherence=role_adherence, sending_example=sending_example, upsell_crossover=upsell_crossover,
-            steer_specificity=steer_specificity)
+            steer_specificity=steer_specificity, incentive_curve=incentive_curve)
 
 
 def main(names):
