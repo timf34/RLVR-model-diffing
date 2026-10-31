@@ -20,6 +20,7 @@ from pa_render import COMPONENTS, NAMES
 
 TASK_COLOR = {"send": "#2a78d6", "titles": "#eb6834", "bullets": "#1baf7a"}  # categorical slots 1-3, fixed order
 TIED_COLOR = "#b5b4ad"
+Q35_COLOR, Q38_COLOR = "#2a78d6", "#eb6834"  # same model colours in every deck figure
 INK, MUTED = "#2b2b29", "#6b6a64"
 TITLES = {"send": "Sending (send vs save draft)", "titles": "Titles / sign-offs", "bullets": "Bullets"}
 
@@ -33,12 +34,16 @@ def _style(ax):
 
 
 def fig_part1(res: dict, out: Path):
+    """Qwen 3.8 bars (orange) with Wilson 95% CIs, Qwen 3.5 hollow blue markers; model colours match the score-gap,
+    factorial and reasoning-judge figures (Qwen 3.5 blue, Qwen 3.8 orange)."""
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
+    from matplotlib.patches import Patch
+    from matplotlib.lines import Line2D
     cells = {(c["task"], c["materials"], c["arm"], c["score"], c["model"]): c for c in res["cells"]}
     tasks = [t for t in TASKS if any(k[0] == t for k in cells)]
-    fig, axes = plt.subplots(1, len(tasks), figsize=(3.6 * len(tasks), 3.6), sharey=True, squeeze=False)
+    fig, axes = plt.subplots(1, len(tasks), figsize=(4.0 * len(tasks), 5.4), sharey=True, squeeze=False)
     groups = [("orig", "B"), ("orig", "N"), ("fresh", "B"), ("fresh", "N")]
     for ax, t in zip(axes[0], tasks):
         for gi, (mat, arm) in enumerate(groups):
@@ -46,7 +51,7 @@ def fig_part1(res: dict, out: Path):
                 x = gi + (si - 0.5) * 0.36
                 c = cells.get((t, mat, arm, sc, PRIMARY_MODEL))
                 if c and c["n"]:
-                    col = TASK_COLOR[t] if sc == "p050" else TIED_COLOR
+                    col = Q38_COLOR if sc == "p050" else TIED_COLOR
                     ax.bar(x, c["rate"], 0.32, color=col, edgecolor="white", linewidth=1)
                     ax.errorbar(x, c["rate"], yerr=[[c["rate"] - c["lo"]], [c["hi"] - c["rate"]]], color=INK,
                                 lw=0.9, capsize=2)
@@ -54,25 +59,40 @@ def fig_part1(res: dict, out: Path):
                             color=MUTED)
                 c5 = cells.get((t, mat, arm, sc, "Qwen 3.5"))
                 if c5 and c5["n"]:
-                    ax.plot(x, c5["rate"], "o", mfc="white", mec=INK, ms=5, zorder=5)
-        ax.set_xticks(range(4), [f"{'original' if m == 'orig' else 'fresh'}\n{'bundle' if a == 'B' else 'new'}"
-                                 for m, a in groups], fontsize=8)
+                    ax.plot(x, c5["rate"], "o", mfc="white", mec=Q35_COLOR, mew=1.4, ms=5.5, zorder=5)
+        ax.set_xticks(range(4), ["strong RL\nframing" if a == "B" else "weak RL\nframing" for _, a in groups],
+                      fontsize=8)
+        for gx, lab in ((0.5, "original scenarios"), (2.5, "fresh scenarios")):
+            ax.text(gx, -0.2, lab, ha="center", va="top", fontsize=8, color=INK, transform=ax.get_xaxis_transform())
         ax.axvline(1.5, color="#d6d5cf", lw=0.8)
         ax.set_ylim(0, 1.1)
-        ax.set_title(TITLES[t], fontsize=9, color=INK)
+        ax.set_yticks([0, 0.25, 0.5, 0.75, 1.0], ["0%", "25%", "50%", "75%", "100%"])
+        ax.set_title(TITLES[t], fontsize=9.5, color=INK)
         _style(ax)
-    axes[0][0].set_ylabel("P(user-conflicting behaviour)", fontsize=8, color=INK)
-    from matplotlib.patches import Patch
-    from matplotlib.lines import Line2D
-    axes[0][-1].legend(handles=[Patch(color=TIED_COLOR, label="tied (0.500/0.500)"),
-                                Patch(color=MUTED, label="+0.50 (0.750/0.250), task colour"),
-                                Line2D([], [], marker="o", ls="", mfc="white", mec=INK, label="Qwen 3.5")],
+    axes[0][0].set_ylabel("Replies that went against the user's request", fontsize=8, color=INK)
+    axes[0][-1].legend(handles=[Patch(color=TIED_COLOR, label="scores tied (0.50 / 0.50)"),
+                                Patch(color=Q38_COLOR, label="scores favour ignoring the user (0.75 / 0.25)"),
+                                Line2D([], [], marker="o", ls="", mfc="white", mec=Q35_COLOR, mew=1.4,
+                                       label="Qwen 3.5 (same cell)")],
                        fontsize=7, frameon=False, loc="upper right")
-    fig.text(0.5, -0.03, f"Bars: {PRIMARY_MODEL}, Wilson 95% CIs; labels k/n valid. bundle = old RL bundle "
-             "(byte-identical); new = 10A's tool-record presentation.", ha="center", fontsize=7, color=MUTED)
-    fig.tight_layout()
+    fig.suptitle("Qwen 3.8 follows the scores against the user only under strong RL framing, on old and fresh "
+                 "scenarios alike", fontsize=11, weight="bold", color=INK, x=0.01, y=0.99, ha="left")
+    y0 = 0.205
+    fig.text(0.01, y0, "Key", fontsize=9, weight="bold", color=INK, va="top")
+    fig.text(0.01, y0 - 0.045, "Strong RL framing", fontsize=8.5, weight="bold", color=INK, va="top")
+    fig.text(0.15, y0 - 0.045, "System prompt: \"You are the policy acting in this episode … the environment's scorer "
+             "assigns a scalar reward to the episode.\"\nThe four earlier scored submissions sit inside the user turn as "
+             "the episode's reward history.", fontsize=8, color=MUTED, va="top", linespacing=1.4)
+    fig.text(0.01, y0 - 0.115, "Weak RL framing", fontsize=8.5, weight="bold", color=INK, va="top")
+    fig.text(0.15, y0 - 0.115, "System prompt: \"You are a helpful assistant … This interaction is a "
+             "reinforcement-learning training rollout.\"\nThe same four scored submissions arrive in a tool result "
+             "(a task packet with evaluator diagnostics).", fontsize=8, color=MUTED, va="top", linespacing=1.4)
+    fig.text(0.01, y0 - 0.185, f"Same hedged request wording in both. Bars: {PRIMARY_MODEL}, Wilson 95% intervals; "
+             "labels are k/n valid replies. Original scenarios = those from the earlier studies; fresh = 32 new ones.",
+             fontsize=8, color=MUTED, va="top")
+    fig.subplots_adjust(left=0.06, right=0.99, top=0.86, bottom=0.36, wspace=0.08)
     for ext in ("png", "svg"):
-        fig.savefig(out / f"part1_cells.{ext}", dpi=170, bbox_inches="tight")
+        fig.savefig(out / f"part1_cells.{ext}", dpi=170, facecolor="white")
     plt.close(fig)
 
 

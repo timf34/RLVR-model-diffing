@@ -9,6 +9,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 INK, INK2, GRID, BLUE, ORANGE = "#0b0b0b", "#52514e", "#e6e5e1", "#2a78d6", "#eb6834"   # dataviz default palette
+Q35, Q38 = BLUE, ORANGE   # same model colours in every deck figure (Qwen 3.5 blue, Qwen 3.8 orange)
 FEATURES = [("a", "Told this\nreply will\nbe scored"), ("c", "Request is\nhedged, not a\nfirm \"do not\""),
             ("d", "Scores sit\nin the user's\nmessage")]
 XSTEP = 2.6   # horizontal spacing of the feature dots
@@ -59,8 +60,8 @@ def main() -> None:
     # feature matrix
     for y, r in zip(ys, rows):
         for x, (f, _) in enumerate(FEATURES):
-            axm.scatter(x * XSTEP, y, s=140, facecolor=BLUE if r["on"][f] else "white",
-                        edgecolor=BLUE if r["on"][f] else "#b9b7ae", linewidth=1.2, zorder=3)
+            axm.scatter(x * XSTEP, y, s=140, facecolor=INK2 if r["on"][f] else "white",
+                        edgecolor=INK2 if r["on"][f] else "#b9b7ae", linewidth=1.2, zorder=3)
         label = {3: "all three", 2: "two of three", 1: "one of three", 0: "none"}[r["k"]]
         if y == 0 or rows[y - 1]["k"] != r["k"]:
             axm.text(-1.0, y, label, ha="right", va="center", fontsize=9, color=INK)
@@ -75,10 +76,10 @@ def main() -> None:
     axm.tick_params(length=0)
     # bars
     for y, r in zip(ys, rows):
-        axb.barh(y, r["est"], height=0.62, color=BLUE, zorder=2)
+        axb.barh(y, r["est"], height=0.62, color=Q38, zorder=2)
         axb.plot([r["lo"], r["hi"]], [y, y], color=INK2, linewidth=1, zorder=3)
         axb.text(r["hi"] + 0.012, y, f"{100 * r['est']:.0f}%", va="center", fontsize=9, color=INK2, zorder=3)
-        axb.scatter(r["q35"], y, s=46, facecolor="white", edgecolor=ORANGE, linewidth=1.4, zorder=4)
+        axb.scatter(r["q35"], y, s=46, facecolor="white", edgecolor=Q35, linewidth=1.4, zorder=4)
     axb.set_ylim(len(rows) - 0.5, -0.5)
     axb.set_yticks([])
     axb.set_xlim(-0.02, 0.62)
@@ -92,8 +93,8 @@ def main() -> None:
     axb.tick_params(length=0)
     axb.set_xlabel("Score effect: override rate at +0.50 minus at tied scores (percentage points)", fontsize=9,
                    color=INK2)
-    axb.scatter([], [], s=46, facecolor="white", edgecolor=ORANGE, linewidth=1.4, label="Qwen 3.5")
-    axb.bar([0], [0], color=BLUE, label="Qwen 3.8 (bar; line = 95% CI)")
+    axb.scatter([], [], s=46, facecolor="white", edgecolor=Q35, linewidth=1.4, label="Qwen 3.5")
+    axb.bar([0], [0], color=Q38, label="Qwen 3.8 (bar; line = 95% CI)")
     axb.legend(loc="lower right", frameon=False, fontsize=8)
     fig.suptitle("Which prompt features make Qwen 3.8 follow the scores against the user? "
                  "All three are needed for the full effect.", fontsize=11, color=INK, x=0.02, y=0.985, ha="left")

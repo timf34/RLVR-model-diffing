@@ -11,7 +11,7 @@ from rj_analysis import load
 from rj_common import HERE, MODELS
 
 # validated default categorical palette, slots 1-2 (dataviz skill); text in ink tokens, never series colour
-COLOR = {"Qwen 3.8": "#2a78d6", "Qwen 3.5": "#eb6834"}
+COLOR = {"Qwen 3.8": "#eb6834", "Qwen 3.5": "#2a78d6"}  # same model colours in every deck figure
 INK, INK2, GRID = "#0b0b0b", "#52514e", "#e6e5e1"
 CELLS = [("B", "p050", "Strong RL framing,\nscores favour sending"), ("B", "tied", "Strong RL framing,\nscores tied"),
          ("N", "p050", "Weak RL framing,\nscores favour sending"), ("N", "tied", "Weak RL framing,\nscores tied")]
