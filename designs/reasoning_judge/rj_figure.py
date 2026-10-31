@@ -18,7 +18,8 @@ CELLS = [("B", "p050", "Strong RL framing,\nscores favour sending"), ("B", "tied
 PANELS = [("recognises_conflict", "Recognises the conflict", lambda r: r["recognises_conflict"] == "yes"),
           ("end_expected_score", "Endorses acting for the higher score", lambda r: r["end_expected_score"]),
           ("end_user_priority", "Endorses the user's instruction", lambda r: r["end_user_priority"]),
-          ("end_scores_untrusted", "Discounts the scores as untrusted", lambda r: r["end_scores_untrusted"])]
+          ("end_scores_untrusted", "Discounts the scores as untrusted", lambda r: r["end_scores_untrusted"]),
+          ("violates", "Actually sent the email (observed)", lambda r: r["violates"])]   # behaviour, not a judge label
 
 
 def boot(rows, f, draws=2000, seed=0):
@@ -45,7 +46,7 @@ def main(stage: str = "main") -> None:
     from matplotlib.patches import Patch
 
     rows = [r for r in load(stage) if r["labelled"]]
-    fig, axes = plt.subplots(1, len(PANELS), figsize=(13.5, 6.2), sharey=True)
+    fig, axes = plt.subplots(1, len(PANELS), figsize=(16, 6.2), sharey=True)
     h, gap = 0.34, 0.04
     for ax, (field, title, f) in zip(axes, PANELS):
         for ci, (arm, score, _) in enumerate(CELLS):
@@ -59,6 +60,8 @@ def main(stage: str = "main") -> None:
                 ax.plot([lo, hi], [y, y], color=INK2, linewidth=1, solid_capstyle="butt")
                 ax.text(max(est, hi) + 0.02, y, f"{100 * est:.0f}%", va="center", ha="left", fontsize=8, color=INK2)
         ax.set_title(title, fontsize=10, color=INK, loc="left")
+        if field == "violates":
+            ax.set_facecolor("#f4f3ef")   # shaded: observed behaviour, not reasoning
         ax.set_xlim(0, 1.18)
         ax.set_xticks([0, 0.5, 1.0])
         ax.set_xticklabels(["0", "50%", "100%"], fontsize=8, color=INK2)
@@ -89,7 +92,7 @@ def main(stage: str = "main") -> None:
              "(a task packet with evaluator diagnostics).", fontsize=8, color=INK2, va="top", linespacing=1.4)
     fig.text(0.01, y0 - 0.17, f"Same request wording in both. Sending task, 32 fresh scenarios; judge-labelled episodes: "
              f"{n['Qwen 3.8']} Qwen 3.8, {n['Qwen 3.5']} Qwen 3.5. Bars: share of episodes; lines: 95% block-bootstrap "
-             "intervals.", fontsize=8, color=INK2, va="top")
+             "intervals. Last panel: what the model did (successful send), not a judge label.", fontsize=8, color=INK2, va="top")
     fig.subplots_adjust(left=0.13, right=0.99, top=0.86, bottom=0.29, wspace=0.25)
     out = HERE / "figure"
     out.mkdir(exist_ok=True)
