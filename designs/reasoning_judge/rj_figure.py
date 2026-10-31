@@ -8,10 +8,10 @@ import sys
 from collections import defaultdict
 
 from rj_analysis import load
-from rj_common import HERE, MODELS
+from rj_common import HERE
 
 # validated default categorical palette, slots 1-2 (dataviz skill); text in ink tokens, never series colour
-COLOR = {"Qwen 3.8": "#eb6834", "Qwen 3.5": "#2a78d6"}  # same model colours in every deck figure
+COLOR = {"Qwen 3.8": "#eb6834", "Qwen 3.6": "#1baf7a", "Qwen 3.5": "#2a78d6"}  # same model colours in every deck figure
 INK, INK2, GRID = "#0b0b0b", "#52514e", "#e6e5e1"
 CELLS = [("B", "p050", "Strong RL framing,\nscores favour sending"), ("B", "tied", "Strong RL framing,\nscores tied"),
          ("N", "p050", "Weak RL framing,\nscores favour sending"), ("N", "tied", "Weak RL framing,\nscores tied")]
@@ -46,16 +46,17 @@ def main(stage: str = "main") -> None:
     from matplotlib.patches import Patch
 
     rows = [r for r in load(stage) if r["labelled"]]
+    models = [m for m in ("Qwen 3.8", "Qwen 3.6", "Qwen 3.5") if any(r["model"] == m for r in rows)]
     fig, axes = plt.subplots(1, len(PANELS), figsize=(16, 6.2), sharey=True)
-    h, gap = 0.34, 0.04
+    h, gap = (0.34, 0.04) if len(models) == 2 else (0.25, 0.02)
     for ax, (field, title, f) in zip(axes, PANELS):
         for ci, (arm, score, _) in enumerate(CELLS):
-            for mi, model in enumerate(MODELS):
+            for mi, model in enumerate(models):
                 cell = [r for r in rows if r["arm"] == arm and r["score"] == score and r["model"] == model]
-                est, (lo, hi) = boot(cell, f, seed=hash((field, arm, score, model)) % 10**6)
+                est, (lo, hi) = boot(cell, f, seed=sum(map(ord, field + arm + score + model)))
                 if est is None:
                     continue
-                y = ci + (mi - 0.5) * (h + gap)
+                y = ci + (mi - (len(models) - 1) / 2) * (h + gap)
                 ax.barh(y, est, height=h, color=COLOR[model], edgecolor="white", linewidth=1)
                 ax.plot([lo, hi], [y, y], color=INK2, linewidth=1, solid_capstyle="butt")
                 ax.text(max(est, hi) + 0.02, y, f"{100 * est:.0f}%", va="center", ha="left", fontsize=8, color=INK2)
@@ -74,9 +75,9 @@ def main(stage: str = "main") -> None:
             ax.spines[s].set_visible(False)
         ax.spines["bottom"].set_color(GRID)
         ax.tick_params(length=0)
-    fig.legend(handles=[Patch(color=COLOR[m], label=m) for m in MODELS], loc="upper right", ncol=2, frameon=False,
+    fig.legend(handles=[Patch(color=COLOR[m], label=m) for m in models], loc="upper right", ncol=len(models), frameon=False,
                fontsize=9, bbox_to_anchor=(0.99, 0.985))
-    n = {m: sum(r["model"] == m for r in rows) for m in MODELS}
+    n = {m: sum(r["model"] == m for r in rows) for m in models}
     fig.suptitle("What the reasoning says before acting, when earlier scores reward sending an email the user asked "
                  "to keep as a draft", fontsize=11, weight="bold", color=INK, x=0.01, y=0.985, ha="left")
     # key: the two framings, and what the marks mean
@@ -91,7 +92,7 @@ def main(stage: str = "main") -> None:
              "reinforcement-learning training rollout.\"\nThe same four scored submissions arrive in a tool result "
              "(a task packet with evaluator diagnostics).", fontsize=8, color=INK2, va="top", linespacing=1.4)
     fig.text(0.01, y0 - 0.17, f"Same request wording in both. Sending task, 32 fresh scenarios; judge-labelled episodes: "
-             f"{n['Qwen 3.8']} Qwen 3.8, {n['Qwen 3.5']} Qwen 3.5. Bars: share of episodes; lines: 95% block-bootstrap "
+             f"{', '.join(f'{n[m]} {m}' for m in models)}. Bars: share of episodes; lines: 95% block-bootstrap "
              "intervals. Last panel: what the model did (successful send), not a judge label.", fontsize=8, color=INK2, va="top")
     fig.subplots_adjust(left=0.13, right=0.99, top=0.86, bottom=0.29, wspace=0.25)
     out = HERE / "figure"

@@ -20,7 +20,7 @@ from pa_render import COMPONENTS, NAMES
 
 TASK_COLOR = {"send": "#2a78d6", "titles": "#eb6834", "bullets": "#1baf7a"}  # categorical slots 1-3, fixed order
 TIED_COLOR = "#b5b4ad"
-Q35_COLOR, Q38_COLOR = "#2a78d6", "#eb6834"  # same model colours in every deck figure
+Q35_COLOR, Q36_COLOR, Q38_COLOR = "#2a78d6", "#1baf7a", "#eb6834"  # same model colours in every deck figure
 INK, MUTED = "#2b2b29", "#6b6a64"
 TITLES = {"send": "Sending (send vs save draft)", "titles": "Titles / sign-offs", "bullets": "Bullets"}
 
@@ -45,21 +45,24 @@ def fig_part1(res: dict, out: Path):
     tasks = [t for t in TASKS if any(k[0] == t for k in cells)]
     fig, axes = plt.subplots(1, len(tasks), figsize=(4.0 * len(tasks), 5.4), sharey=True, squeeze=False)
     groups = [("orig", "B"), ("orig", "N"), ("fresh", "B"), ("fresh", "N")]
+    models = [(m, col) for m, col in (("Qwen 3.5", Q35_COLOR), ("Qwen 3.6", Q36_COLOR), ("Qwen 3.8", Q38_COLOR))
+              if any(k[4] == m for k in cells)]
+    w = 0.78 / len(models)
     for ax, t in zip(axes[0], tasks):
         for gi, (mat, arm) in enumerate(groups):
-            for si, sc in enumerate(("tied", "p050")):
-                x = gi + (si - 0.5) * 0.36
-                c = cells.get((t, mat, arm, sc, PRIMARY_MODEL))
+            for mi, (m, col) in enumerate(models):
+                x = gi + (mi - (len(models) - 1) / 2) * w
+                c = cells.get((t, mat, arm, "p050", m))
                 if c and c["n"]:
-                    col = Q38_COLOR if sc == "p050" else TIED_COLOR
-                    ax.bar(x, c["rate"], 0.32, color=col, edgecolor="white", linewidth=1)
-                    ax.errorbar(x, c["rate"], yerr=[[c["rate"] - c["lo"]], [c["hi"] - c["rate"]]], color=INK,
-                                lw=0.9, capsize=2)
-                    ax.text(x, min(1.04, c["hi"] + 0.02), f"{c['k']}/{c['n']}", ha="center", fontsize=6.5,
-                            color=MUTED)
-                c5 = cells.get((t, mat, arm, sc, "Qwen 3.5"))
-                if c5 and c5["n"]:
-                    ax.plot(x, c5["rate"], "o", mfc="white", mec=Q35_COLOR, mew=1.4, ms=5.5, zorder=5)
+                    ax.bar(x, max(c["rate"], 0.008), w * 0.86, color=col, edgecolor="white", linewidth=0.8,
+                           zorder=2)   # 0% drawn as a thin stub so every model's result is visible
+                    ax.plot([x, x], [c["lo"], c["hi"]], color=MUTED, lw=0.7, alpha=0.8, zorder=3)
+                    ax.text(x, c["hi"] + 0.02, f"{c['k']}/{c['n']}", ha="center", fontsize=5.5, color=MUTED,
+                            rotation=90, va="bottom")
+                ct = cells.get((t, mat, arm, "tied", m))
+                if ct and ct["k"]:   # same model, tied scores: dark tick at its rate (only drawn when above 0%)
+                    ax.plot([x - w * 0.45, x + w * 0.45], [ct["rate"]] * 2, color=INK, lw=1.6, zorder=4,
+                            solid_capstyle="butt")
         ax.set_xticks(range(4), ["strong RL\nframing" if a == "B" else "weak RL\nframing" for _, a in groups],
                       fontsize=8)
         for gx, lab in ((0.5, "original scenarios"), (2.5, "fresh scenarios")):
@@ -70,13 +73,12 @@ def fig_part1(res: dict, out: Path):
         ax.set_title(TITLES[t], fontsize=9.5, color=INK)
         _style(ax)
     axes[0][0].set_ylabel("Replies that went against the user's request", fontsize=8, color=INK)
-    axes[0][-1].legend(handles=[Patch(color=TIED_COLOR, label="scores tied (0.50 / 0.50)"),
-                                Patch(color=Q38_COLOR, label="scores favour ignoring the user (0.75 / 0.25)"),
-                                Line2D([], [], marker="o", ls="", mfc="white", mec=Q35_COLOR, mew=1.4,
-                                       label="Qwen 3.5 (same cell)")],
+    axes[0][-1].legend(handles=[Patch(color=col, label=m) for m, col in models]
+                       + [Line2D([], [], color=INK, lw=1.6, label="same model, scores tied\n(0.50 / 0.50); 0% unless shown")],
+                       title="Bars: scores favour ignoring\nthe user (0.75 / 0.25)", title_fontsize=7, alignment="left",
                        fontsize=7, frameon=False, loc="upper right")
-    fig.suptitle("Qwen 3.8 follows the scores against the user only under strong RL framing, on old and fresh "
-                 "scenarios alike", fontsize=11, weight="bold", color=INK, x=0.01, y=0.99, ha="left")
+    fig.suptitle("Newer Qwens follow the scores against the user under strong RL framing; almost never under "
+                 "weak framing", fontsize=11, weight="bold", color=INK, x=0.01, y=0.99, ha="left")
     y0 = 0.205
     fig.text(0.01, y0, "Key", fontsize=9, weight="bold", color=INK, va="top")
     fig.text(0.01, y0 - 0.045, "Strong RL framing", fontsize=8.5, weight="bold", color=INK, va="top")
@@ -87,8 +89,8 @@ def fig_part1(res: dict, out: Path):
     fig.text(0.15, y0 - 0.115, "System prompt: \"You are a helpful assistant … This interaction is a "
              "reinforcement-learning training rollout.\"\nThe same four scored submissions arrive in a tool result "
              "(a task packet with evaluator diagnostics).", fontsize=8, color=MUTED, va="top", linespacing=1.4)
-    fig.text(0.01, y0 - 0.185, f"Same hedged request wording in both. Bars: {PRIMARY_MODEL}, Wilson 95% intervals; "
-             "labels are k/n valid replies. Original scenarios = those from the earlier studies; fresh = 32 new ones.",
+    fig.text(0.01, y0 - 0.185, f"Same hedged request wording in both. Bars: share of valid replies (a thin stub = 0%), Wilson 95% intervals; "
+             "labels are k/n. Original scenarios = those from the earlier studies; fresh = 32 new ones.",
              fontsize=8, color=MUTED, va="top")
     fig.subplots_adjust(left=0.06, right=0.99, top=0.86, bottom=0.36, wspace=0.08)
     for ext in ("png", "svg"):
@@ -148,6 +150,10 @@ def main():
     res = json.loads((Path(a.root) / a.stage / "results.json").read_text())
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
+    q36 = HERE / "run_q36"   # Qwen 3.6 addendum (ADDENDUM_q36.md): same items as 3.5, markers only
+    if a.stage == "main" and (q36 / "main" / "send" / "scored.jsonl").exists():
+        from pa_analysis import Data, cell_table, load_rows
+        res = dict(res, cells=res["cells"] + cell_table(Data(load_rows("main", q36))))
     fig_part1(res, out)
     fig_part2(res, out)
     print(f"wrote {out}/part1_cells.* and part2_components.*")

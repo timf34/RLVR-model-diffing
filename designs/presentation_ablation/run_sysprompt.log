@@ -1,0 +1,15 @@
+1056 items, 264 prompts, 88 block x score cells
+smoke pass 1: 1056 to do; ledger $0.000
+  100 done 15:52:24 ledger $0.115
+  200 done 15:53:49 ledger $0.254
+  300 done 15:55:00 ledger $0.394
+  400 done 15:56:21 ledger $0.514
+  500 done 15:57:35 ledger $0.640
+  600 done 15:58:51 ledger $0.769
+  700 done 16:00:22 ledger $0.900
+  800 done 16:01:39 ledger $1.026
+  900 done 16:02:49 ledger $1.165
+  1000 done 16:04:00 ledger $1.287
+  1056 done 16:04:59 ledger $1.365
+smoke: stop=complete; ledger $1.365
+memguard: peak 0.4 GB (limit 4 GB)
