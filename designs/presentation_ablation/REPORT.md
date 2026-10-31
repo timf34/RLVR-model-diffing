@@ -12,6 +12,8 @@ instruction. The newer matched tool-record presentations do not. Which presentat
 - No one of them is enough on its own: any single one gives about 2–4 points, any two about 20, and all three about 44.
 - Qwen 3.5 shows none of this.
 
+**Addendum (2026-10-31): Qwen 3.6.** Under strong RL framing, Qwen 3.6 falls between 3.5 and 3.8 on sending, bullets and the factorial. Titles is the exception: 3.6 follows the grader at a low rate whatever the framing. See `ADDENDUM_q36.md`.
+
 Protocol: `PROTOCOL.md` (frozen before generation). Factorial addendum: `ADDENDUM_factorial.md`. Deviations:
 `AMENDMENTS.md`. Auto tables: `run/main/REPORT_auto.md` and `run/factorial/REPORT_auto.md`. Figures: `figure/`.
 

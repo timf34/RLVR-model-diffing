@@ -1,0 +1,58 @@
+main pass 1: 805 to do; ledger $0.084
+  100 done 01:35:50 ledger $0.461
+  200 done 01:37:40 ledger $0.958
+  300 done 01:39:50 ledger $1.619
+  400 done 01:42:49 ledger $2.275
+  500 done 01:46:18 ledger $2.828
+  600 done 01:50:38 ledger $3.527
+  700 done 01:56:34 ledger $4.527
+  800 done 02:10:47 ledger $7.943
+  805 done 02:19:27 ledger $8.657
+main: stop=complete; ledger $8.657
+factorial pass 1: 1536 to do; ledger $8.657
+  100 done 02:21:24 ledger $9.008
+  200 done 02:24:25 ledger $9.706
+  300 done 02:26:45 ledger $10.199
+  400 done 02:31:02 ledger $10.822
+  500 done 02:36:00 ledger $11.365
+  600 done 02:40:46 ledger $13.804
+  700 done 02:43:30 ledger $14.826
+  800 done 02:47:32 ledger $15.860
+  900 done 02:50:54 ledger $17.164
+  1000 done 02:53:48 ledger $17.702
+  1100 done 02:58:13 ledger $19.349
+  1200 done 03:02:09 ledger $20.562
+  1300 done 03:09:25 ledger $22.004
+  1400 done 03:15:36 ledger $23.822
+  1500 done 03:21:36 ledger $26.240
+  1536 done 03:39:34 ledger $29.754
+factorial: stop=complete; ledger $29.754
+main pass 1: 2496 to do; ledger $29.754
+  100 done 03:41:00 ledger $30.151
+  200 done 03:42:55 ledger $30.666
+  300 done 03:45:15 ledger $31.302
+  400 done 03:47:21 ledger $31.797
+  500 done 03:51:05 ledger $32.390
+  600 done 03:55:10 ledger $32.950
+  700 done 03:59:12 ledger $34.010
+  800 done 04:04:36 ledger $35.417
+  900 done 04:07:19 ledger $36.462
+  1000 done 04:09:52 ledger $38.083
+  1100 done 04:12:28 ledger $38.576
+  1200 done 04:15:39 ledger $39.702
+  1300 done 04:19:12 ledger $41.003
+  1400 done 04:21:58 ledger $41.505
+  1500 done 04:25:02 ledger $42.008
+  1600 done 04:28:36 ledger $42.992
+  1700 done 04:31:16 ledger $43.600
+  1800 done 04:34:24 ledger $45.109
+  1900 done 04:37:51 ledger $46.332
+  2000 done 04:42:20 ledger $47.356
+  2100 done 04:45:33 ledger $48.042
+  2200 done 04:48:20 ledger $48.764
+  2300 done 04:50:08 ledger $49.409
+  2400 done 04:51:57 ledger $50.462
+  2496 done 05:10:59 ledger $52.878
+main: stop=complete; ledger $52.878
+ALL_DONE exit=0
+memguard: peak 0.7 GB (limit 4 GB)

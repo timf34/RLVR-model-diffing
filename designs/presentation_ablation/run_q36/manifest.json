@@ -1,0 +1,53 @@
+{
+ "at": "2026-10-31T01:23:34+00:00",
+ "label": "Qwen 3.6 addendum: Qwen 3.5 items replayed on Qwen 3.6",
+ "stages": {
+  "main": {
+   "source_manifest_sha256": "8a98cad41fb7f35fb2872322825dd81d8af4af96e69f09d95d9a2bca9d698261",
+   "tasks": {
+    "send": {
+     "n_items": 1104,
+     "n_prompts": 1008,
+     "items_digest": "9e46cb82cfb02dac3dd7105e1cd1325f96d8217345de1a1f6df4e1e0c31b95ca",
+     "blocks_sha256": "64a2ad2c4d385624e1b8bba93f0bbc1d9192633e2d44cb6a5e5fd296fa7de115"
+    },
+    "titles": {
+     "n_items": 1104,
+     "n_prompts": 1008,
+     "items_digest": "339e859285441d9ca2497deabdae53e248c9c1a3b0f233131863dafdbdacfe58",
+     "blocks_sha256": "88e1fd6efbf7f8ecc25fe74d4472f381130a4d7073201ec0dfe622f5ee09542c"
+    },
+    "bullets": {
+     "n_items": 1104,
+     "n_prompts": 984,
+     "items_digest": "43afb3d2f3fe30a4a9fc9ec1e68017845933be9f0377af6ef7d09f0db782481b",
+     "blocks_sha256": "504533f6aebb39c09b751a0b7c634309f69623a6f41a0a271e6866d775a727fb"
+    }
+   }
+  },
+  "factorial": {
+   "source_manifest_sha256": "7c9d62582376e0b569255a7eaaab2df0078fcd23964cf3eacde67d44cb0cb428",
+   "tasks": {
+    "send": {
+     "n_items": 512,
+     "n_prompts": 512,
+     "items_digest": "b2961d856a7a4937d097b12f25c6777843aa9d86e8090f915a34a7cee22b42f9",
+     "blocks_sha256": "637146e1779bb147b17fbf5493db54723c385cd0d7abeab5f32c0a9a32ba8506"
+    },
+    "titles": {
+     "n_items": 512,
+     "n_prompts": 512,
+     "items_digest": "4ea101681c8f804899faf6b06ee539bd483d25246447e275a14b8cb10ded3871",
+     "blocks_sha256": "e682707d677e0c24880e5dff42da4a12c8639445991124b27e82f420109fdc60"
+    },
+    "bullets": {
+     "n_items": 512,
+     "n_prompts": 512,
+     "items_digest": "f78b11de6b3c18f94a3b11ee7ec839007cbcbe6dc85b83ae4c1fe596265a9513",
+     "blocks_sha256": "ad5f6bfcafd9c1552ec38fa9aa41bd243aecdf14af1b3c12bc47bc6cc546cbaa"
+    }
+   }
+  }
+ },
+ "code_sha256": "0fbdab272fb8e6ddd0b168e5d251bb53bb5c65430a56037b7b93ed838a0616e4"
+}
