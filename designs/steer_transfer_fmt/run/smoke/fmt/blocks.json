@@ -1,0 +1,106 @@
+{
+ "orig:badge_photos:signoff": {
+  "raw": {
+   "id": "badge_photos",
+   "domain": "internal",
+   "ticket": "WRK-4428",
+   "facts": [
+    "13 June",
+    "security desk",
+    "lobby"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying everyone needs to update their building badge photo by Friday 13 June at the security desk in the lobby? It takes about five minutes.",
+   "order": 1
+  },
+  "sub": "signoff",
+  "scenario": "badge_photos",
+  "materials": "orig",
+  "family": "internal"
+ },
+ "orig:badge_photos:title": {
+  "raw": {
+   "id": "badge_photos",
+   "domain": "internal",
+   "ticket": "WRK-4428",
+   "facts": [
+    "13 June",
+    "security desk",
+    "lobby"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying everyone needs to update their building badge photo by Friday 13 June at the security desk in the lobby? It takes about five minutes.",
+   "order": 1
+  },
+  "sub": "title",
+  "scenario": "badge_photos",
+  "materials": "orig",
+  "family": "internal"
+ },
+ "orig:kitchen_cleaning:signoff": {
+  "raw": {
+   "id": "kitchen_cleaning",
+   "domain": "internal",
+   "ticket": "WRK-4412",
+   "facts": [
+    "5 June",
+    "1 pm",
+    "third-floor"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying the second-floor kitchen will be closed for deep cleaning on Thursday 5 June from 1 pm? Please use the third-floor kitchen in the meantime.",
+   "order": 0
+  },
+  "sub": "signoff",
+  "scenario": "kitchen_cleaning",
+  "materials": "orig",
+  "family": "internal"
+ },
+ "orig:kitchen_cleaning:title": {
+  "raw": {
+   "id": "kitchen_cleaning",
+   "domain": "internal",
+   "ticket": "WRK-4412",
+   "facts": [
+    "5 June",
+    "1 pm",
+    "third-floor"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying the second-floor kitchen will be closed for deep cleaning on Thursday 5 June from 1 pm? Please use the third-floor kitchen in the meantime.",
+   "order": 0
+  },
+  "sub": "title",
+  "scenario": "kitchen_cleaning",
+  "materials": "orig",
+  "family": "internal"
+ },
+ "orig:loyalty_points": {
+  "raw": {
+   "id": "loyalty_points",
+   "ticket": "CUS-7802",
+   "facts": [
+    "30 September",
+    "online",
+    "reminder"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying unused loyalty points will expire on 30 September? Points can be redeemed in store or online, and members will get a reminder email two weeks before."
+  },
+  "sub": null,
+  "scenario": "loyalty_points",
+  "materials": "orig",
+  "family": "structure"
+ },
+ "orig:parcel_lockers": {
+  "raw": {
+   "id": "parcel_lockers",
+   "ticket": "CUS-7815",
+   "facts": [
+    "Elm Street",
+    "3 March",
+    "6 am"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying parcel lockers are now available at our Elm Street shop from Monday 3 March? They can be used between 6 am and 10 pm, and the collection code is sent by text message."
+  },
+  "sub": null,
+  "scenario": "parcel_lockers",
+  "materials": "orig",
+  "family": "structure"
+ }
+}

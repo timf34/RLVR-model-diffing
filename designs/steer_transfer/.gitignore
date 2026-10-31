@@ -4,3 +4,9 @@ run/main/send/episodes.jsonl
 run/endpoints*.json
 run/tunnels*.pids
 __pycache__/
+# synthetic test data (st_reverse.py test)
+run_mock_reverse/
+run/checks/_eps_reverse.json
+run/reverse/send/episodes.jsonl
+run/reverse_rerun/send/episodes.jsonl
+run/reverse_bridge/send/episodes.jsonl

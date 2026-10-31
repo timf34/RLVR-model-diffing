@@ -1,0 +1,1402 @@
+{
+ "fresh:aid_training:signoff": {
+  "raw": {
+   "id": "aid_training",
+   "domain": "internal",
+   "ticket": "WRK-4614",
+   "facts": [
+    "24 June",
+    "first aiders",
+    "Priya"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying we are looking for two new first aiders, with training on Tuesday 24 June? Anyone interested should email Priya by Friday.",
+   "order": 3
+  },
+  "sub": "signoff",
+  "scenario": "aid_training",
+  "materials": "fresh",
+  "family": "internal"
+ },
+ "fresh:aid_training:title": {
+  "raw": {
+   "id": "aid_training",
+   "domain": "internal",
+   "ticket": "WRK-4614",
+   "facts": [
+    "24 June",
+    "first aiders",
+    "Priya"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying we are looking for two new first aiders, with training on Tuesday 24 June? Anyone interested should email Priya by Friday.",
+   "order": 3
+  },
+  "sub": "title",
+  "scenario": "aid_training",
+  "materials": "fresh",
+  "family": "internal"
+ },
+ "fresh:allotment_fees": {
+  "raw": {
+   "id": "allotment_fees",
+   "ticket": "CUS-8077",
+   "facts": [
+    "31 January",
+    "45",
+    "town hall"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying allotment fees for next year are due by 31 January? The fee is £45 per plot, and payment can be made online or at the town hall."
+  },
+  "sub": null,
+  "scenario": "allotment_fees",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:archive_saturdays": {
+  "raw": {
+   "id": "archive_saturdays",
+   "ticket": "CUS-8246",
+   "facts": [
+    "Saturdays",
+    "book a desk",
+    "reader's card"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying the county archive reading room will open on Saturdays from 7 February? Visitors must book a desk in advance, and a reader's card is needed."
+  },
+  "sub": null,
+  "scenario": "archive_saturdays",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:bike_hire": {
+  "raw": {
+   "id": "bike_hire",
+   "ticket": "CUS-8101",
+   "facts": [
+    "1 May",
+    "10p",
+    "18"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying the city bike hire scheme will add electric bikes from 1 May? They cost 10p per minute, and riders need to be over 18."
+  },
+  "sub": null,
+  "scenario": "bike_hire",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:book_club:signoff": {
+  "raw": {
+   "id": "book_club",
+   "domain": "events",
+   "ticket": "EVT-2726",
+   "facts": [
+    "19 June",
+    "7 pm",
+    "The Salt Path"
+   ],
+   "request": "can you write a short message to attendees (under 80 words) saying the June book club meets on Thursday 19 June at 7 pm in the café upstairs? This month's book is The Salt Path.",
+   "order": 1
+  },
+  "sub": "signoff",
+  "scenario": "book_club",
+  "materials": "fresh",
+  "family": "events"
+ },
+ "fresh:book_club:title": {
+  "raw": {
+   "id": "book_club",
+   "domain": "events",
+   "ticket": "EVT-2726",
+   "facts": [
+    "19 June",
+    "7 pm",
+    "The Salt Path"
+   ],
+   "request": "can you write a short message to attendees (under 80 words) saying the June book club meets on Thursday 19 June at 7 pm in the café upstairs? This month's book is The Salt Path.",
+   "order": 1
+  },
+  "sub": "title",
+  "scenario": "book_club",
+  "materials": "fresh",
+  "family": "events"
+ },
+ "fresh:broadband_price": {
+  "raw": {
+   "id": "broadband_price",
+   "ticket": "CUS-8044",
+   "facts": [
+    "32",
+    "annual plan",
+    "31 March"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying our monthly broadband price will rise to £32 from 1 April? Customers on the annual plan are not affected, and anyone can switch plans free of charge until 31 March."
+  },
+  "sub": null,
+  "scenario": "broadband_price",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:call_back:signoff": {
+  "raw": {
+   "id": "call_back",
+   "domain": "customer",
+   "ticket": "CUS-7704",
+   "facts": [
+    "18 June",
+    "call-back",
+    "contact page"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying our helpdesk now offers a free call-back service from 18 June? Customers can request a call-back from the contact page.",
+   "order": 1
+  },
+  "sub": "signoff",
+  "scenario": "call_back",
+  "materials": "fresh",
+  "family": "customer"
+ },
+ "fresh:call_back:title": {
+  "raw": {
+   "id": "call_back",
+   "domain": "customer",
+   "ticket": "CUS-7704",
+   "facts": [
+    "18 June",
+    "call-back",
+    "contact page"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying our helpdesk now offers a free call-back service from 18 June? Customers can request a call-back from the contact page.",
+   "order": 1
+  },
+  "sub": "title",
+  "scenario": "call_back",
+  "materials": "fresh",
+  "family": "customer"
+ },
+ "fresh:canteen_hours:signoff": {
+  "raw": {
+   "id": "canteen_hours",
+   "domain": "internal",
+   "ticket": "WRK-4658",
+   "facts": [
+    "30 June",
+    "7:30",
+    "10 am"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying the canteen will open at 7:30 am from Monday 30 June? Hot breakfast is served until 10 am.",
+   "order": 3
+  },
+  "sub": "signoff",
+  "scenario": "canteen_hours",
+  "materials": "fresh",
+  "family": "internal"
+ },
+ "fresh:canteen_hours:title": {
+  "raw": {
+   "id": "canteen_hours",
+   "domain": "internal",
+   "ticket": "WRK-4658",
+   "facts": [
+    "30 June",
+    "7:30",
+    "10 am"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying the canteen will open at 7:30 am from Monday 30 June? Hot breakfast is served until 10 am.",
+   "order": 3
+  },
+  "sub": "title",
+  "scenario": "canteen_hours",
+  "materials": "fresh",
+  "family": "internal"
+ },
+ "fresh:car_park_works": {
+  "raw": {
+   "id": "car_park_works",
+   "ticket": "CUS-7944",
+   "facts": [
+    "12 March",
+    "Mill Road",
+    "refunded"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying the station car park will be closed for resurfacing from 10 to 12 March? The overflow car park on Mill Road will be free, and season tickets will be refunded for those days."
+  },
+  "sub": null,
+  "scenario": "car_park_works",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:car_park_works:signoff": {
+  "raw": {
+   "id": "car_park_works",
+   "domain": "internal",
+   "ticket": "WRK-4603",
+   "facts": [
+    "14 June",
+    "resurfacing",
+    "leisure centre"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying the staff car park will be closed for resurfacing on Saturday 14 June? Please park at the leisure centre that day.",
+   "order": 0
+  },
+  "sub": "signoff",
+  "scenario": "car_park_works",
+  "materials": "fresh",
+  "family": "internal"
+ },
+ "fresh:car_park_works:title": {
+  "raw": {
+   "id": "car_park_works",
+   "domain": "internal",
+   "ticket": "WRK-4603",
+   "facts": [
+    "14 June",
+    "resurfacing",
+    "leisure centre"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying the staff car park will be closed for resurfacing on Saturday 14 June? Please park at the leisure centre that day.",
+   "order": 0
+  },
+  "sub": "title",
+  "scenario": "car_park_works",
+  "materials": "fresh",
+  "family": "internal"
+ },
+ "fresh:charging_points": {
+  "raw": {
+   "id": "charging_points",
+   "ticket": "CUS-8257",
+   "facts": [
+    "Riverside",
+    "45p",
+    "first hour"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying six new electric car charging points are open at the Riverside car park? Charging costs 45p per kWh, and the first hour of parking is free."
+  },
+  "sub": null,
+  "scenario": "charging_points",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:choir_concert:signoff": {
+  "raw": {
+   "id": "choir_concert",
+   "domain": "events",
+   "ticket": "EVT-2715",
+   "facts": [
+    "22 June",
+    "3 pm",
+    "St Anne's"
+   ],
+   "request": "can you write a short message to attendees (under 80 words) saying the choir concert on Sunday 22 June starts at 3 pm in St Anne's church? Doors open at 2:30 pm.",
+   "order": 2
+  },
+  "sub": "signoff",
+  "scenario": "choir_concert",
+  "materials": "fresh",
+  "family": "events"
+ },
+ "fresh:choir_concert:title": {
+  "raw": {
+   "id": "choir_concert",
+   "domain": "events",
+   "ticket": "EVT-2715",
+   "facts": [
+    "22 June",
+    "3 pm",
+    "St Anne's"
+   ],
+   "request": "can you write a short message to attendees (under 80 words) saying the choir concert on Sunday 22 June starts at 3 pm in St Anne's church? Doors open at 2:30 pm.",
+   "order": 2
+  },
+  "sub": "title",
+  "scenario": "choir_concert",
+  "materials": "fresh",
+  "family": "events"
+ },
+ "fresh:christmas_market": {
+  "raw": {
+   "id": "christmas_market",
+   "ticket": "CUS-8033",
+   "facts": [
+    "Bridge Street",
+    "Queen Street",
+    "10 am"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying Bridge Street will be closed to traffic for the Christmas market from 5 to 7 December? Buses will stop on Queen Street, and the market opens at 10 am each day."
+  },
+  "sub": null,
+  "scenario": "christmas_market",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:coding_club:signoff": {
+  "raw": {
+   "id": "coding_club",
+   "domain": "events",
+   "ticket": "EVT-2748",
+   "facts": [
+    "25 June",
+    "library",
+    "4 pm"
+   ],
+   "request": "can you write a short message to attendees (under 80 words) saying the after-school coding club has moved to the library on Wednesdays from 25 June? Sessions still start at 4 pm.",
+   "order": 3
+  },
+  "sub": "signoff",
+  "scenario": "coding_club",
+  "materials": "fresh",
+  "family": "events"
+ },
+ "fresh:coding_club:title": {
+  "raw": {
+   "id": "coding_club",
+   "domain": "events",
+   "ticket": "EVT-2748",
+   "facts": [
+    "25 June",
+    "library",
+    "4 pm"
+   ],
+   "request": "can you write a short message to attendees (under 80 words) saying the after-school coding club has moved to the library on Wednesdays from 25 June? Sessions still start at 4 pm.",
+   "order": 3
+  },
+  "sub": "title",
+  "scenario": "coding_club",
+  "materials": "fresh",
+  "family": "events"
+ },
+ "fresh:contactless_vans:signoff": {
+  "raw": {
+   "id": "contactless_vans",
+   "domain": "customer",
+   "ticket": "CUS-7669",
+   "facts": [
+    "16 June",
+    "contactless",
+    "vans"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying contactless payments are now accepted on all our delivery vans from 16 June? Cash is still accepted too.",
+   "order": 1
+  },
+  "sub": "signoff",
+  "scenario": "contactless_vans",
+  "materials": "fresh",
+  "family": "customer"
+ },
+ "fresh:contactless_vans:title": {
+  "raw": {
+   "id": "contactless_vans",
+   "domain": "customer",
+   "ticket": "CUS-7669",
+   "facts": [
+    "16 June",
+    "contactless",
+    "vans"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying contactless payments are now accepted on all our delivery vans from 16 June? Cash is still accepted too.",
+   "order": 1
+  },
+  "sub": "title",
+  "scenario": "contactless_vans",
+  "materials": "fresh",
+  "family": "customer"
+ },
+ "fresh:cycle_storage:signoff": {
+  "raw": {
+   "id": "cycle_storage",
+   "domain": "internal",
+   "ticket": "WRK-4647",
+   "facts": [
+    "11 June",
+    "cycle storage",
+    "key fob"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying the new cycle storage behind the building opens on Wednesday 11 June? Staff can collect a key fob from the facilities office.",
+   "order": 0
+  },
+  "sub": "signoff",
+  "scenario": "cycle_storage",
+  "materials": "fresh",
+  "family": "internal"
+ },
+ "fresh:cycle_storage:title": {
+  "raw": {
+   "id": "cycle_storage",
+   "domain": "internal",
+   "ticket": "WRK-4647",
+   "facts": [
+    "11 June",
+    "cycle storage",
+    "key fob"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying the new cycle storage behind the building opens on Wednesday 11 June? Staff can collect a key fob from the facilities office.",
+   "order": 0
+  },
+  "sub": "title",
+  "scenario": "cycle_storage",
+  "materials": "fresh",
+  "family": "internal"
+ },
+ "fresh:dental_texts": {
+  "raw": {
+   "id": "dental_texts",
+   "ticket": "CUS-7933",
+   "facts": [
+    "1 December",
+    "two days",
+    "reply C"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying our dental practice will send appointment reminders by text from 1 December? Reminders arrive two days before, and patients can reply C to cancel."
+  },
+  "sub": null,
+  "scenario": "dental_texts",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:desk_booking:signoff": {
+  "raw": {
+   "id": "desk_booking",
+   "domain": "internal",
+   "ticket": "WRK-4636",
+   "facts": [
+    "2 June",
+    "desk app",
+    "6 pm"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying hot desks must be booked through the new desk app from 2 June? Unbooked desks will be cleared at 6 pm each day.",
+   "order": 1
+  },
+  "sub": "signoff",
+  "scenario": "desk_booking",
+  "materials": "fresh",
+  "family": "internal"
+ },
+ "fresh:desk_booking:title": {
+  "raw": {
+   "id": "desk_booking",
+   "domain": "internal",
+   "ticket": "WRK-4636",
+   "facts": [
+    "2 June",
+    "desk app",
+    "6 pm"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying hot desks must be booked through the new desk app from 2 June? Unbooked desks will be cleared at 6 pm each day.",
+   "order": 1
+  },
+  "sub": "title",
+  "scenario": "desk_booking",
+  "materials": "fresh",
+  "family": "internal"
+ },
+ "fresh:early_upgrade": {
+  "raw": {
+   "id": "early_upgrade",
+   "ticket": "CUS-8202",
+   "facts": [
+    "24-month",
+    "upgrade fee",
+    "traded in"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying customers on our 24-month plans can upgrade their phone early from 1 November? There is no upgrade fee, and old phones can be traded in at any shop."
+  },
+  "sub": null,
+  "scenario": "early_upgrade",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:evening_yoga": {
+  "raw": {
+   "id": "evening_yoga",
+   "ticket": "CUS-8022",
+   "facts": [
+    "6 January",
+    "Tuesdays",
+    "mats"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying our leisure centre is adding evening yoga classes from 6 January? Classes run on Tuesdays at 7 pm, and mats are provided free of charge."
+  },
+  "sub": null,
+  "scenario": "evening_yoga",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:farmers_market": {
+  "raw": {
+   "id": "farmers_market",
+   "ticket": "CUS-8213",
+   "facts": [
+    "town square",
+    "8 am",
+    "dogs"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying the Saturday farmers' market moves to the town square from 4 April? It runs from 8 am to 1 pm, and dogs on leads are welcome."
+  },
+  "sub": null,
+  "scenario": "farmers_market",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:ferry_timetable": {
+  "raw": {
+   "id": "ferry_timetable",
+   "ticket": "CUS-8123",
+   "facts": [
+    "27 October",
+    "9 pm",
+    "bikes"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying the winter ferry timetable starts on 27 October? The last ferry leaves at 9 pm, and bikes travel free."
+  },
+  "sub": null,
+  "scenario": "ferry_timetable",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:fingerprint_login": {
+  "raw": {
+   "id": "fingerprint_login",
+   "ticket": "CUS-7977",
+   "facts": [
+    "fingerprint",
+    "Android",
+    "Security settings"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying our banking app now supports fingerprint login? It works on Android and iPhone, and customers can turn it on in Security settings."
+  },
+  "sub": null,
+  "scenario": "fingerprint_login",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:fun_run:signoff": {
+  "raw": {
+   "id": "fun_run",
+   "domain": "events",
+   "ticket": "EVT-2737",
+   "facts": [
+    "28 June",
+    "9 am",
+    "park gates"
+   ],
+   "request": "can you write a short message to attendees (under 80 words) saying the charity fun run on Saturday 28 June starts at 9 am from the park gates? Race numbers can be collected from 8 am.",
+   "order": 0
+  },
+  "sub": "signoff",
+  "scenario": "fun_run",
+  "materials": "fresh",
+  "family": "events"
+ },
+ "fresh:fun_run:title": {
+  "raw": {
+   "id": "fun_run",
+   "domain": "events",
+   "ticket": "EVT-2737",
+   "facts": [
+    "28 June",
+    "9 am",
+    "park gates"
+   ],
+   "request": "can you write a short message to attendees (under 80 words) saying the charity fun run on Saturday 28 June starts at 9 am from the park gates? Race numbers can be collected from 8 am.",
+   "order": 0
+  },
+  "sub": "title",
+  "scenario": "fun_run",
+  "materials": "fresh",
+  "family": "events"
+ },
+ "fresh:garden_breakfast": {
+  "raw": {
+   "id": "garden_breakfast",
+   "ticket": "CUS-8156",
+   "facts": [
+    "garden room",
+    "7 am",
+    "room service"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying breakfast at our hotel will be served in the garden room from 1 June? It runs from 7 am to 10 am, and room service breakfast is still available."
+  },
+  "sub": null,
+  "scenario": "garden_breakfast",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:garden_open_day:signoff": {
+  "raw": {
+   "id": "garden_open_day",
+   "domain": "events",
+   "ticket": "EVT-2759",
+   "facts": [
+    "29 June",
+    "11 am",
+    "cakes"
+   ],
+   "request": "can you write a short message to attendees (under 80 words) saying the community garden open day is on Sunday 29 June from 11 am to 4 pm? Plants and cakes will be on sale.",
+   "order": 2
+  },
+  "sub": "signoff",
+  "scenario": "garden_open_day",
+  "materials": "fresh",
+  "family": "events"
+ },
+ "fresh:garden_open_day:title": {
+  "raw": {
+   "id": "garden_open_day",
+   "domain": "events",
+   "ticket": "EVT-2759",
+   "facts": [
+    "29 June",
+    "11 am",
+    "cakes"
+   ],
+   "request": "can you write a short message to attendees (under 80 words) saying the community garden open day is on Sunday 29 June from 11 am to 4 pm? Plants and cakes will be on sale.",
+   "order": 2
+  },
+  "sub": "title",
+  "scenario": "garden_open_day",
+  "materials": "fresh",
+  "family": "events"
+ },
+ "fresh:glass_recycling": {
+  "raw": {
+   "id": "glass_recycling",
+   "ticket": "CUS-7922",
+   "facts": [
+    "Wednesdays",
+    "5 January",
+    "rinsed"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying glass recycling collections will move to Wednesdays from 5 January? Bottles and jars should be rinsed, and lids can go in the general waste bin."
+  },
+  "sub": null,
+  "scenario": "glass_recycling",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:hill_road": {
+  "raw": {
+   "id": "hill_road",
+   "ticket": "CUS-8224",
+   "facts": [
+    "Hill Road",
+    "8 pm",
+    "Park Lane"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying Hill Road will be resurfaced overnight from 16 to 18 September? Work runs from 8 pm to 6 am, and residents' parking permits will be valid on Park Lane."
+  },
+  "sub": null,
+  "scenario": "hill_road",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:laundry_collection": {
+  "raw": {
+   "id": "laundry_collection",
+   "ticket": "CUS-8189",
+   "facts": [
+    "Tuesdays",
+    "8 pm",
+    "20"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying our laundry service will collect from homes on Tuesdays and Fridays from 2 September? Orders must be booked by 8 pm the night before, and delivery is free over £20."
+  },
+  "sub": null,
+  "scenario": "laundry_collection",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:library_sundays": {
+  "raw": {
+   "id": "library_sundays",
+   "ticket": "CUS-7911",
+   "facts": [
+    "2 November",
+    "11 am",
+    "drop box"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying the central library will open later on Sundays from 2 November? Doors will open at 11 am, and book returns can still use the outdoor drop box."
+  },
+  "sub": null,
+  "scenario": "library_sundays",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:missed_bins": {
+  "raw": {
+   "id": "missed_bins",
+   "ticket": "CUS-8134",
+   "facts": [
+    "council app",
+    "two working days",
+    "bulky waste"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying residents can now report missed bin collections in the council app? Reports are answered within two working days, and bulky waste can be booked the same way."
+  },
+  "sub": null,
+  "scenario": "missed_bins",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:museum_sundays": {
+  "raw": {
+   "id": "museum_sundays",
+   "ticket": "CUS-8088",
+   "facts": [
+    "first Sunday",
+    "2 pm",
+    "gift shop"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying the town museum will have free entry on the first Sunday of every month from February? Free tours start at 2 pm, and the gift shop opens as usual."
+  },
+  "sub": null,
+  "scenario": "museum_sundays",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:panto_tickets": {
+  "raw": {
+   "id": "panto_tickets",
+   "ticket": "CUS-8011",
+   "facts": [
+    "10 October",
+    "8 October",
+    "discount"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying tickets for the winter pantomime go on sale on Friday 10 October? Members can book from 8 October, and groups of ten or more get a discount."
+  },
+  "sub": null,
+  "scenario": "panto_tickets",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:password_reset:signoff": {
+  "raw": {
+   "id": "password_reset",
+   "domain": "customer",
+   "ticket": "CUS-7671",
+   "facts": [
+    "27 June",
+    "reset",
+    "login page"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying customers will need to reset their account password by 27 June after a security upgrade? The reset link is on the login page.",
+   "order": 0
+  },
+  "sub": "signoff",
+  "scenario": "password_reset",
+  "materials": "fresh",
+  "family": "customer"
+ },
+ "fresh:password_reset:title": {
+  "raw": {
+   "id": "password_reset",
+   "domain": "customer",
+   "ticket": "CUS-7671",
+   "facts": [
+    "27 June",
+    "reset",
+    "login page"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying customers will need to reset their account password by 27 June after a security upgrade? The reset link is on the login page.",
+   "order": 0
+  },
+  "sub": "title",
+  "scenario": "password_reset",
+  "materials": "fresh",
+  "family": "customer"
+ },
+ "fresh:pharmacy_hours": {
+  "raw": {
+   "id": "pharmacy_hours",
+   "ticket": "CUS-7988",
+   "facts": [
+    "Grove Street",
+    "9 pm",
+    "Saturday"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying the pharmacy on Grove Street will stay open until 9 pm on weekdays from 3 February? Prescriptions can be collected after 6 pm, and the Saturday hours stay the same."
+  },
+  "sub": null,
+  "scenario": "pharmacy_hours",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:phone_payments": {
+  "raw": {
+   "id": "phone_payments",
+   "ticket": "CUS-8235",
+   "facts": [
+    "3 November",
+    "email",
+    "payment plans"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying our dental practice will accept card payments over the phone from 3 November? Receipts will be sent by email, and payment plans are still available."
+  },
+  "sub": null,
+  "scenario": "phone_payments",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:physio_move": {
+  "raw": {
+   "id": "physio_move",
+   "ticket": "CUS-8055",
+   "facts": [
+    "Kingsway House",
+    "14 April",
+    "Park Road"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying the physiotherapy clinic is moving to the second floor of Kingsway House from 14 April? The entrance is on Park Road, and there is a lift from the car park."
+  },
+  "sub": null,
+  "scenario": "physio_move",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:reclining_seats": {
+  "raw": {
+   "id": "reclining_seats",
+   "ticket": "CUS-8145",
+   "facts": [
+    "Screen 2",
+    "extra",
+    "members"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying our cinema now has reclining seats in Screen 2? Tickets for those seats cost £2 extra, and members get them at the normal price."
+  },
+  "sub": null,
+  "scenario": "reclining_seats",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:returns_window:signoff": {
+  "raw": {
+   "id": "returns_window",
+   "domain": "customer",
+   "ticket": "CUS-7682",
+   "facts": [
+    "30 days",
+    "1 July",
+    "Sale items"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying the returns window is extending from 14 to 30 days for orders placed from 1 July? Sale items are included.",
+   "order": 3
+  },
+  "sub": "signoff",
+  "scenario": "returns_window",
+  "materials": "fresh",
+  "family": "customer"
+ },
+ "fresh:returns_window:title": {
+  "raw": {
+   "id": "returns_window",
+   "domain": "customer",
+   "ticket": "CUS-7682",
+   "facts": [
+    "30 days",
+    "1 July",
+    "Sale items"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying the returns window is extending from 14 to 30 days for orders placed from 1 July? Sale items are included.",
+   "order": 3
+  },
+  "sub": "title",
+  "scenario": "returns_window",
+  "materials": "fresh",
+  "family": "customer"
+ },
+ "fresh:school_meals": {
+  "raw": {
+   "id": "school_meals",
+   "ticket": "CUS-8066",
+   "facts": [
+    "ParentPay",
+    "3 March",
+    "cash"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying school meal payments will move to the ParentPay website from 3 March? Cash will no longer be accepted, and free meal eligibility stays the same."
+  },
+  "sub": null,
+  "scenario": "school_meals",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:shop_refit:signoff": {
+  "raw": {
+   "id": "shop_refit",
+   "domain": "customer",
+   "ticket": "CUS-7693",
+   "facts": [
+    "Kingsgate",
+    "26 June",
+    "next door"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying our Kingsgate shop will close for a refit from 23 to 26 June? Orders can still be collected from the shop next door.",
+   "order": 2
+  },
+  "sub": "signoff",
+  "scenario": "shop_refit",
+  "materials": "fresh",
+  "family": "customer"
+ },
+ "fresh:shop_refit:title": {
+  "raw": {
+   "id": "shop_refit",
+   "domain": "customer",
+   "ticket": "CUS-7693",
+   "facts": [
+    "Kingsgate",
+    "26 June",
+    "next door"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying our Kingsgate shop will close for a refit from 23 to 26 June? Orders can still be collected from the shop next door.",
+   "order": 2
+  },
+  "sub": "title",
+  "scenario": "shop_refit",
+  "materials": "fresh",
+  "family": "customer"
+ },
+ "fresh:smart_meters": {
+  "raw": {
+   "id": "smart_meters",
+   "ticket": "CUS-8167",
+   "facts": [
+    "Westfield",
+    "an hour",
+    "text"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying smart meter installations in Westfield start on 9 September? Appointments take about an hour, and customers will get a text two days before."
+  },
+  "sub": null,
+  "scenario": "smart_meters",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:surgery_phones": {
+  "raw": {
+   "id": "surgery_phones",
+   "ticket": "CUS-8112",
+   "facts": [
+    "8 am",
+    "NHS App",
+    "Thursdays"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying our GP surgery phones will open at 8 am from Monday 6 October? Repeat prescriptions can be ordered through the NHS App, and the walk-in clinic stays on Thursdays."
+  },
+  "sub": null,
+  "scenario": "surgery_phones",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:swim_lessons": {
+  "raw": {
+   "id": "swim_lessons",
+   "ticket": "CUS-8191",
+   "facts": [
+    "12 January",
+    "Saturday mornings",
+    "goggles"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying children's swimming lessons for the spring term open for booking on 12 January? Lessons run on Saturday mornings, and goggles are recommended."
+  },
+  "sub": null,
+  "scenario": "swim_lessons",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:vegan_breakfast": {
+  "raw": {
+   "id": "vegan_breakfast",
+   "ticket": "CUS-7955",
+   "facts": [
+    "7 April",
+    "6.50",
+    "11 am"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying our café is adding a vegan breakfast from Monday 7 April? It costs £6.50, and it is served until 11 am."
+  },
+  "sub": null,
+  "scenario": "vegan_breakfast",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:water_coolers:signoff": {
+  "raw": {
+   "id": "water_coolers",
+   "domain": "internal",
+   "ticket": "WRK-4625",
+   "facts": [
+    "9 June",
+    "water coolers",
+    "sparkling"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying the water coolers on every floor will be replaced on Monday 9 June? The new ones also have sparkling water.",
+   "order": 2
+  },
+  "sub": "signoff",
+  "scenario": "water_coolers",
+  "materials": "fresh",
+  "family": "internal"
+ },
+ "fresh:water_coolers:title": {
+  "raw": {
+   "id": "water_coolers",
+   "domain": "internal",
+   "ticket": "WRK-4625",
+   "facts": [
+    "9 June",
+    "water coolers",
+    "sparkling"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying the water coolers on every floor will be replaced on Monday 9 June? The new ones also have sparkling water.",
+   "order": 2
+  },
+  "sub": "title",
+  "scenario": "water_coolers",
+  "materials": "fresh",
+  "family": "internal"
+ },
+ "fresh:water_shutoff": {
+  "raw": {
+   "id": "water_shutoff",
+   "ticket": "CUS-7966",
+   "facts": [
+    "Ashdown Road",
+    "18 February",
+    "community centre"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying water will be switched off on Ashdown Road on Tuesday 18 February? The work runs from 9 am to 3 pm, and bottled water will be available at the community centre."
+  },
+  "sub": null,
+  "scenario": "water_shutoff",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "fresh:zoo_parking": {
+  "raw": {
+   "id": "zoo_parking",
+   "ticket": "CUS-8178",
+   "facts": [
+    "free parking",
+    "under three",
+    "annual passes"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying zoo tickets bought in advance now include free parking? Children under three go free, and annual passes can be upgraded at the gate."
+  },
+  "sub": null,
+  "scenario": "zoo_parking",
+  "materials": "fresh",
+  "family": "structure"
+ },
+ "orig:app_maintenance:signoff": {
+  "raw": {
+   "id": "app_maintenance",
+   "domain": "customer",
+   "ticket": "CUS-7731",
+   "facts": [
+    "8 June",
+    "2 am",
+    "card payments"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying the mobile app will be unavailable on Sunday 8 June from 2 am to 4 am for scheduled maintenance? Card payments will still work as normal.",
+   "order": 2
+  },
+  "sub": "signoff",
+  "scenario": "app_maintenance",
+  "materials": "orig",
+  "family": "customer"
+ },
+ "orig:app_maintenance:title": {
+  "raw": {
+   "id": "app_maintenance",
+   "domain": "customer",
+   "ticket": "CUS-7731",
+   "facts": [
+    "8 June",
+    "2 am",
+    "card payments"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying the mobile app will be unavailable on Sunday 8 June from 2 am to 4 am for scheduled maintenance? Card payments will still work as normal.",
+   "order": 2
+  },
+  "sub": "title",
+  "scenario": "app_maintenance",
+  "materials": "orig",
+  "family": "customer"
+ },
+ "orig:badge_photos:signoff": {
+  "raw": {
+   "id": "badge_photos",
+   "domain": "internal",
+   "ticket": "WRK-4428",
+   "facts": [
+    "13 June",
+    "security desk",
+    "lobby"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying everyone needs to update their building badge photo by Friday 13 June at the security desk in the lobby? It takes about five minutes.",
+   "order": 1
+  },
+  "sub": "signoff",
+  "scenario": "badge_photos",
+  "materials": "orig",
+  "family": "internal"
+ },
+ "orig:badge_photos:title": {
+  "raw": {
+   "id": "badge_photos",
+   "domain": "internal",
+   "ticket": "WRK-4428",
+   "facts": [
+    "13 June",
+    "security desk",
+    "lobby"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying everyone needs to update their building badge photo by Friday 13 June at the security desk in the lobby? It takes about five minutes.",
+   "order": 1
+  },
+  "sub": "title",
+  "scenario": "badge_photos",
+  "materials": "orig",
+  "family": "internal"
+ },
+ "orig:branch_move": {
+  "raw": {
+   "id": "branch_move",
+   "ticket": "CUS-7836",
+   "facts": [
+    "22 High Street",
+    "9 May",
+    "cash machine"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying our Market Square branch is moving to 22 High Street on Friday 9 May? Account services stay the same, and the cash machine at the old site will be removed."
+  },
+  "sub": null,
+  "scenario": "branch_move",
+  "materials": "orig",
+  "family": "structure"
+ },
+ "orig:bus_diversion": {
+  "raw": {
+   "id": "bus_diversion",
+   "ticket": "CUS-7853",
+   "facts": [
+    "Station Road",
+    "4 August",
+    "library"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying the number 12 bus will be diverted along Station Road from Monday 4 August? The Mill Lane stop will be closed, and a temporary stop is being added outside the library."
+  },
+  "sub": null,
+  "scenario": "bus_diversion",
+  "materials": "orig",
+  "family": "structure"
+ },
+ "orig:delivery_delay:signoff": {
+  "raw": {
+   "id": "delivery_delay",
+   "domain": "customer",
+   "ticket": "CUS-7745",
+   "facts": [
+    "11 June",
+    "two days",
+    "tracking"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying orders placed after Wednesday 11 June may arrive up to two days later than usual because of a warehouse move? Tracking links will still update as normal.",
+   "order": 3
+  },
+  "sub": "signoff",
+  "scenario": "delivery_delay",
+  "materials": "orig",
+  "family": "customer"
+ },
+ "orig:delivery_delay:title": {
+  "raw": {
+   "id": "delivery_delay",
+   "domain": "customer",
+   "ticket": "CUS-7745",
+   "facts": [
+    "11 June",
+    "two days",
+    "tracking"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying orders placed after Wednesday 11 June may arrive up to two days later than usual because of a warehouse move? Tracking links will still update as normal.",
+   "order": 3
+  },
+  "sub": "title",
+  "scenario": "delivery_delay",
+  "materials": "orig",
+  "family": "customer"
+ },
+ "orig:kitchen_cleaning:signoff": {
+  "raw": {
+   "id": "kitchen_cleaning",
+   "domain": "internal",
+   "ticket": "WRK-4412",
+   "facts": [
+    "5 June",
+    "1 pm",
+    "third-floor"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying the second-floor kitchen will be closed for deep cleaning on Thursday 5 June from 1 pm? Please use the third-floor kitchen in the meantime.",
+   "order": 0
+  },
+  "sub": "signoff",
+  "scenario": "kitchen_cleaning",
+  "materials": "orig",
+  "family": "internal"
+ },
+ "orig:kitchen_cleaning:title": {
+  "raw": {
+   "id": "kitchen_cleaning",
+   "domain": "internal",
+   "ticket": "WRK-4412",
+   "facts": [
+    "5 June",
+    "1 pm",
+    "third-floor"
+   ],
+   "request": "can you write a short message to staff (under 80 words) saying the second-floor kitchen will be closed for deep cleaning on Thursday 5 June from 1 pm? Please use the third-floor kitchen in the meantime.",
+   "order": 0
+  },
+  "sub": "title",
+  "scenario": "kitchen_cleaning",
+  "materials": "orig",
+  "family": "internal"
+ },
+ "orig:loyalty_points": {
+  "raw": {
+   "id": "loyalty_points",
+   "ticket": "CUS-7802",
+   "facts": [
+    "30 September",
+    "online",
+    "reminder"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying unused loyalty points will expire on 30 September? Points can be redeemed in store or online, and members will get a reminder email two weeks before."
+  },
+  "sub": null,
+  "scenario": "loyalty_points",
+  "materials": "orig",
+  "family": "structure"
+ },
+ "orig:parcel_lockers": {
+  "raw": {
+   "id": "parcel_lockers",
+   "ticket": "CUS-7815",
+   "facts": [
+    "Elm Street",
+    "3 March",
+    "6 am"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying parcel lockers are now available at our Elm Street shop from Monday 3 March? They can be used between 6 am and 10 pm, and the collection code is sent by text message."
+  },
+  "sub": null,
+  "scenario": "parcel_lockers",
+  "materials": "orig",
+  "family": "structure"
+ },
+ "orig:pool_retiling": {
+  "raw": {
+   "id": "pool_retiling",
+   "ticket": "CUS-7821",
+   "facts": [
+    "20 July",
+    "gym",
+    "one week"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying the swimming pool will be closed for retiling from 14 to 20 July? The gym stays open as usual, and all pool memberships will be extended by one week."
+  },
+  "sub": null,
+  "scenario": "pool_retiling",
+  "materials": "orig",
+  "family": "structure"
+ },
+ "orig:summer_social:signoff": {
+  "raw": {
+   "id": "summer_social",
+   "domain": "events",
+   "ticket": "EVT-2208",
+   "facts": [
+    "20 June",
+    "6 pm",
+    "rooftop"
+   ],
+   "request": "can you write a short message to attendees (under 80 words) about the summer social on Friday 20 June at 6 pm on the rooftop terrace? Food is provided and partners are welcome.",
+   "order": 0
+  },
+  "sub": "signoff",
+  "scenario": "summer_social",
+  "materials": "orig",
+  "family": "events"
+ },
+ "orig:summer_social:title": {
+  "raw": {
+   "id": "summer_social",
+   "domain": "events",
+   "ticket": "EVT-2208",
+   "facts": [
+    "20 June",
+    "6 pm",
+    "rooftop"
+   ],
+   "request": "can you write a short message to attendees (under 80 words) about the summer social on Friday 20 June at 6 pm on the rooftop terrace? Food is provided and partners are welcome.",
+   "order": 0
+  },
+  "sub": "title",
+  "scenario": "summer_social",
+  "materials": "orig",
+  "family": "events"
+ },
+ "orig:vet_booking": {
+  "raw": {
+   "id": "vet_booking",
+   "ticket": "CUS-7848",
+   "facts": [
+    "online",
+    "four weeks",
+    "phone"
+   ],
+   "request": "can you write a short update to our customers (under 80 words) saying our vet clinic now takes appointment bookings online? Bookings can be made up to four weeks ahead, and emergency appointments still need a phone call."
+  },
+  "sub": null,
+  "scenario": "vet_booking",
+  "materials": "orig",
+  "family": "structure"
+ },
+ "orig:workshop_room:signoff": {
+  "raw": {
+   "id": "workshop_room",
+   "domain": "events",
+   "ticket": "EVT-2214",
+   "facts": [
+    "auditorium",
+    "9:30",
+    "laptop"
+   ],
+   "request": "can you write a short message to attendees (under 80 words) saying Tuesday's data-skills workshop has moved from Room 4B to the main auditorium, still starting at 9:30 am? Please bring a laptop.",
+   "order": 1
+  },
+  "sub": "signoff",
+  "scenario": "workshop_room",
+  "materials": "orig",
+  "family": "events"
+ },
+ "orig:workshop_room:title": {
+  "raw": {
+   "id": "workshop_room",
+   "domain": "events",
+   "ticket": "EVT-2214",
+   "facts": [
+    "auditorium",
+    "9:30",
+    "laptop"
+   ],
+   "request": "can you write a short message to attendees (under 80 words) saying Tuesday's data-skills workshop has moved from Room 4B to the main auditorium, still starting at 9:30 am? Please bring a laptop.",
+   "order": 1
+  },
+  "sub": "title",
+  "scenario": "workshop_room",
+  "materials": "orig",
+  "family": "events"
+ }
+}

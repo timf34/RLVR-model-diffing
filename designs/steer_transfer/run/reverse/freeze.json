@@ -1,0 +1,24 @@
+{
+ "frozen_at": "2026-10-30T19:43:08+00:00",
+ "note": "reverse-transfer addendum, before any reverse generation",
+ "files": {
+  "ADDENDUM_reverse.md": "bd5516e0df1fdeb5a0ff392ca448d41e23b0c128129ff47bd061dacab1eea75e",
+  "st_reverse.py": "6bc890cc69beb3c8fab12dd70e7b136d7c4dcab121a00310080612ef6fc1ebc1",
+  "st_reverse_vectors.py": "bf0827c7ff1f5f9b9d3fee9113a0b64b5b816527e029898249d9f40c94aeb0cc",
+  "st_generate.py": "cb68956e622e284769989fb53304e85b8162148cc25866ea5e27055b1e5973c5",
+  "st_analysis.py": "ae8e11cc8a41828e94b1daa291c91ad3231c72df2c6102f625d95c057d202c93",
+  "st_checks.py": "307f2416fe555ad4b54f38093e60e64936e04bead4d5f3bcce82f672e554b9b7",
+  "st_common.py": "d9f1b29a801401a47372ed49afdc6c8c0a03e21b4b1fbcc9c4158bc432ab3cb8",
+  "run/vectors/manifest.json": "b8ebae4f60dd8094bd4e21a4fdc0c22ad42846631d829446eaa37d4cee8782b3",
+  "run/vectors/reverse_manifest.json": "6b7f13ece7f50a7ca56ff0c61e3ab86784a220c57513f70cfc218b84a3021b82",
+  "run/reverse/send/items.jsonl": "4ed5f9c4711d560c95b843ef306c66520eeb4c352242677681c53455ac0aa719",
+  "run/reverse/send/prompts.jsonl": "8aabca77a73c7e4e074d23802539a06d0ef69edcae60628ac752f7e84b7eb9bb",
+  "run/reverse_bridge/send/items.jsonl": "59d4ba4e5d18cb269eafc15f889c4ddb022368293519b6586aa891c851753800",
+  "run/main/send/prompts.jsonl": "8aabca77a73c7e4e074d23802539a06d0ef69edcae60628ac752f7e84b7eb9bb",
+  "run/main/send/episodes.jsonl.gz": "a0c3f1241f004389fd30362ff4537026396c438e7531c0d9836d6de9ef29f475",
+  "run/vectors/qwen3.8-27b/xfer.gguf": "341177fc60704115c1c8b2a8e939cbfa53cb1b0f051fb853d56a9d3d12d89338",
+  "run/vectors/qwen3.8-27b/random0.gguf": "6b06f93eb74331b45bc167dec0803d2a0f9da79eb55f641ee358a398fbd485f8",
+  "run/vectors/qwen3.8-27b/random1.gguf": "ff0975c1f84d0a5408dee4fe47a6428383ba6cbb6ec835cb06ee47d189fa14fd",
+  "run/vectors/qwen3.8-27b/native.gguf": "c5415d82c0ef9d886c8f2bd572569e892522a69b6348f939c0e662f5d817a59c"
+ }
+}

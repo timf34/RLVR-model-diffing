@@ -1,0 +1,26 @@
+{
+ "stage": "smoke",
+ "design": "full",
+ "checks": [
+  "164 conflict/tied prompts byte-identical to the archived presentation-ablation arm-B prompts",
+  "reversed = conflict with 0.750<->0.250 swapped only; nohist = tied minus the scored-records section",
+  "system prompt identical and no tools in every arm"
+ ],
+ "n_items": 144,
+ "n_prompts": 24,
+ "per_family": {
+  "title": {
+   "scenarios": 2,
+   "generations": 48
+  },
+  "signoff": {
+   "scenarios": 2,
+   "generations": 48
+  },
+  "bullets": {
+   "scenarios": 2,
+   "generations": 48
+  }
+ },
+ "items_digest": "1f0831e35865f4f23f1b878501aab83ca832206730333f1533782f4c829b7ea3"
+}

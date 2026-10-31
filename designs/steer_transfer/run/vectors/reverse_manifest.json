@@ -1,0 +1,70 @@
+{
+ "target": "Qwen 3.8",
+ "layer": 36,
+ "easysteer_layer": 35,
+ "activation_norm": 52.25636176851536,
+ "activation_norm_source": "qwen3.8-27b/betley_repro/report.json per_layer_mean_activation_norm[36]",
+ "formula": "applied = signed_strength * A_36(Qwen 3.8) * unit(direction); prompt and generated tokens",
+ "directions": {
+  "xfer": {
+   "unit_sha256": "f12e08dce0697d1dadaea68be640b039bedc69e0b528ab89797609fe0ede126e",
+   "gguf": "qwen3.8-27b/xfer.gguf",
+   "dim": 5120,
+   "norm": 1.0,
+   "source": "qwen3.5-27b/analysis/vectors/original_pre_L36_auto_minus_human.npy",
+   "file_sha256": "a123602ec0b4ef400e176ed0b1f7d85d4477d6a9e35ce8663da8b062852a2f3a",
+   "raw_norm": 15.51938247680664,
+   "identical_to": "qwen3.5-27b/native.npy"
+  },
+  "random0": {
+   "unit_sha256": "ec6301e578db70ee3eddee857e2dd6b2aa90d706ac5d5463e6cec195b53da731",
+   "gguf": "qwen3.8-27b/random0.gguf",
+   "dim": 5120,
+   "norm": 1.0,
+   "source": "isotropic normal, seed 20261030",
+   "identical_to": "qwen3.5-27b/random0.npy"
+  },
+  "random1": {
+   "unit_sha256": "0a080e4217de763d590e6446be75e4c6f80571cb9e9f1f9942eeb0cfd9560167",
+   "gguf": "qwen3.8-27b/random1.gguf",
+   "dim": 5120,
+   "norm": 1.0,
+   "source": "isotropic normal, seed 20261030",
+   "identical_to": "qwen3.5-27b/random1.npy"
+  }
+ },
+ "cosine": {
+  "names": [
+   "native",
+   "xfer",
+   "random0",
+   "random1"
+  ],
+  "cos": [
+   [
+    1.0,
+    0.5393,
+    -0.0105,
+    0.011
+   ],
+   [
+    0.5393,
+    1.0,
+    -0.0063,
+    -0.0174
+   ],
+   [
+    -0.0105,
+    -0.0063,
+    1.0,
+    0.0121
+   ],
+   [
+    0.011,
+    -0.0174,
+    0.0121,
+    1.0
+   ]
+  ]
+ }
+}

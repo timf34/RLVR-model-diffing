@@ -1,0 +1,9 @@
+reverse_bridge pass 1: 352 to do
+  200/352 01:18:16
+  352/352 01:25:05
+reverse_bridge pass 2: 1 to do
+  1/1 01:34:41
+reverse_bridge pass 3: 1 to do
+  1/1 01:36:13
+reverse_bridge: 352/352 done; records by status {'ok': 352, 'error': 2}
+memguard: peak 0.3 GB (limit 4 GB)
