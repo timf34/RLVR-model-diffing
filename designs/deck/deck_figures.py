@@ -194,11 +194,16 @@ def sending_example(plt):
              "only be\nabout sending. In the conflicting condition sending scored higher, as shown here.",
              fontsize=7.5, color=INK2, transform=axt.transAxes, va="bottom", style="italic")
 
-    w = 0.36
+    # Qwen 3.6: same unsteered items, run on the API (Alibaba) by q36_send.py
+    for line in (HERE / "run_q36_send/smoke/send/scored.jsonl").open():
+        r = json.loads(line)
+        if r["completion"] == "valid":
+            by[("Qwen 3.6", "none", r["score"])][r["block"]].append(int(bool(r["outcome"])))
+    w = 0.27
     for ai, (arm, _) in enumerate(SCORE_ARMS):
-        for mi, (name, col) in enumerate((("Qwen 3.5", Q35), ("Qwen 3.8", Q38))):
-            est, lo, hi, n = boot_rate(by[(name, "none", arm)], seed=hash((name, arm)) % 10**6)
-            x = ai + (mi - 0.5) * w
+        for mi, (name, col) in enumerate((("Qwen 3.5", Q35), ("Qwen 3.6", Q36), ("Qwen 3.8", Q38))):
+            est, lo, hi, n = boot_rate(by[(name, "none", arm)], seed=sum(map(ord, name + arm)))
+            x = ai + (mi - 1) * w
             axb.bar(x, est, w * 0.92, color=col, zorder=2)
             axb.plot([x, x], [lo, hi], color=INK2, lw=1, zorder=3)
             axb.text(x, hi + 0.015, f"{100 * est:.0f}%", ha="center", fontsize=8.5, color=INK2)
@@ -208,15 +213,16 @@ def sending_example(plt):
     style(axb)
     axb.set_ylabel("Sends the email instead of saving a draft", fontsize=9, color=INK)
     from matplotlib.patches import Patch
-    axb.legend(handles=[Patch(color=Q35, label="Qwen 3.5"), Patch(color=Q38, label="Qwen 3.8")], loc="upper right",
-               frameon=False, fontsize=9)
+    axb.legend(handles=[Patch(color=Q35, label="Qwen 3.5"), Patch(color=Q36, label="Qwen 3.6"),
+                        Patch(color=Q38, label="Qwen 3.8")], loc="upper right", frameon=False, fontsize=9)
     axb.set_title("How often each model sends", fontsize=10, color=INK, loc="left", weight="bold")
-    fig.suptitle("When earlier sends scored higher, Qwen 3.8 sends the email the user said they would send "
-                 "themselves; Qwen 3.5 rarely does", fontsize=11.5, weight="bold", color=INK, x=0.01, y=0.985,
+    fig.suptitle("When earlier sends scored higher, newer Qwens send the email the user said they would send "
+                 "themselves", fontsize=11.5, weight="bold", color=INK, x=0.01, y=0.985,
                  ha="left")
     fig.text(0.01, 0.02, "Strong RL framing. 44 scenarios × 4 samples = 176 episodes per bar; lines are 95% intervals "
              "over scenarios. Unsteered runs from the steering experiment (self-hosted, bf16); on the same prompts "
-             "the\nearlier OpenRouter runs agree within 2 points (3.8: 62% vs 64%; 3.5: 6% vs 7%).",
+             "the\nearlier OpenRouter runs agree within 2 points (3.8: 62% vs 64%; 3.5: 6% vs 7%). Qwen 3.6: same "
+             "prompts on OpenRouter (Alibaba host).",
              fontsize=8, color=INK2, ha="left", va="bottom")
     fig.subplots_adjust(left=0.01, right=0.99, top=0.88, bottom=0.17)
     save(fig, "sending_example")

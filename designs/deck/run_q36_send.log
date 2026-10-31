@@ -1,0 +1,12 @@
+704 items, 176 prompts
+smoke pass 1: 704 to do; ledger $0.000
+  100 done 14:33:10 ledger $0.422
+  200 done 14:34:12 ledger $0.841
+  300 done 14:35:13 ledger $1.260
+  400 done 14:36:11 ledger $1.656
+  500 done 14:37:12 ledger $2.077
+  600 done 14:38:15 ledger $2.497
+  700 done 14:39:15 ledger $2.912
+  704 done 14:39:58 ledger $2.943
+smoke: stop=complete; ledger $2.943
+memguard: peak 0.3 GB (limit 4 GB)
