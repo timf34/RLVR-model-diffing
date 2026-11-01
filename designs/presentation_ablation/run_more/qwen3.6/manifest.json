@@ -1,0 +1,30 @@
+{
+ "at": "2026-11-01T01:18:30+00:00",
+ "label": "Qwen 3.6: Qwen 3.5 Part 1 items replayed",
+ "model": "openrouter/qwen/qwen3.6-27b",
+ "hosts": [
+  "alibaba"
+ ],
+ "tasks": {
+  "send": {
+   "n_items": 128,
+   "n_prompts": 64,
+   "items_digest": "cb7fe9df6daa5bd76d488456bb3f63c6e8bdf2a53d57845de66c313f5b7ccc36",
+   "blocks_sha256": "64a2ad2c4d385624e1b8bba93f0bbc1d9192633e2d44cb6a5e5fd296fa7de115"
+  },
+  "titles": {
+   "n_items": 128,
+   "n_prompts": 64,
+   "items_digest": "f45f60cdb722e85ab151318797aaccebb49845fe65b4fa259211e34501699a21",
+   "blocks_sha256": "88e1fd6efbf7f8ecc25fe74d4472f381130a4d7073201ec0dfe622f5ee09542c"
+  },
+  "bullets": {
+   "n_items": 128,
+   "n_prompts": 64,
+   "items_digest": "3ce5f16b1d45a1eb4dd03b3b1be3d3e5d426ae4cd1366f8a05c3c690e22b9416",
+   "blocks_sha256": "504533f6aebb39c09b751a0b7c634309f69623a6f41a0a271e6866d775a727fb"
+  }
+ },
+ "code_sha256": "0af1b7c846a919e5264bfed40b94f6c2bb274965bb38db861fb941303b2d5ffe",
+ "source_manifest_sha256": "8a98cad41fb7f35fb2872322825dd81d8af4af96e69f09d95d9a2bca9d698261"
+}

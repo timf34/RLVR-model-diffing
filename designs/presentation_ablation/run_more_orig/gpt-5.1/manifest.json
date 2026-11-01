@@ -1,0 +1,30 @@
+{
+ "at": "2026-11-01T01:28:35+00:00",
+ "label": "GPT-5.1: Qwen 3.5 Part 1 items replayed",
+ "model": "openrouter/openai/gpt-5.1",
+ "hosts": [
+  "openai"
+ ],
+ "tasks": {
+  "send": {
+   "n_items": 120,
+   "n_prompts": 24,
+   "items_digest": "6b3b9af0fb3c59951b813e0de1cdc484b2fbc4882b851d0030016494627a8266",
+   "blocks_sha256": "64a2ad2c4d385624e1b8bba93f0bbc1d9192633e2d44cb6a5e5fd296fa7de115"
+  },
+  "titles": {
+   "n_items": 120,
+   "n_prompts": 24,
+   "items_digest": "71a018bde6f5beddd794b61484c8da28f97067f130525c26e5c4966c8e134885",
+   "blocks_sha256": "88e1fd6efbf7f8ecc25fe74d4472f381130a4d7073201ec0dfe622f5ee09542c"
+  },
+  "bullets": {
+   "n_items": 120,
+   "n_prompts": 12,
+   "items_digest": "dba8981c4cb4cc1cda7313189be54aa57b633c66687ff41cf0539f85f0e7aed4",
+   "blocks_sha256": "504533f6aebb39c09b751a0b7c634309f69623a6f41a0a271e6866d775a727fb"
+  }
+ },
+ "code_sha256": "bc12ba7b1653aea3b95c818893b67d46b6a0127dd36e61069849649b7160d13f",
+ "source_manifest_sha256": "8a98cad41fb7f35fb2872322825dd81d8af4af96e69f09d95d9a2bca9d698261"
+}

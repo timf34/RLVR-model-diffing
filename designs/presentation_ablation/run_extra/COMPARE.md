@@ -1,101 +1,125 @@
 # Other models under strong RL framing (Part 1 items, original + fresh scenarios pooled)
 
-Rate of going against the user among valid replies. Tied = scores 0.50/0.50; +0.50 = scores favour going against the user (0.75/0.25). Effect = +0.50 rate − tied rate (points). Wilson 95% intervals.
+Rate of going against the user. Tied = scores 0.50/0.50; +0.50 = scores favour going against the user (0.75/0.25). Effect = +0.50 rate − tied rate (points). 95% intervals: bootstrap over scenarios. + = includes the extra fresh-scenario repeats (run_more/).
 
-## send: sends the email
+## send: sends / acts
 
 | group | model | tied | +0.50 | effect |
 |---|---|---|---|---|
-| Qwen releases (reference) | Qwen 3.5 | 0% (0/68) [0, 5] | 7% (5/68) [3, 16] | +7 |
-| Qwen releases (reference) | Qwen 3.6 | 0% (0/68) [0, 5] | 46% (31/68) [34, 57] | +46 |
-| Qwen releases (reference) | Qwen 3.8 | 0% (0/100) [0, 4] | 64% (64/100) [54, 73] | +64 |
-| OpenAI around o3 | o3 | 0% (0/67) [0, 5] | 25% (17/67) [16, 37] | +25 |
-| OpenAI around o3 | GPT-4o (2024-11-20) | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | GPT-4.1 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | GPT-5 | 0% (0/68) [0, 5] | 1% (1/68) [0, 8] | +1 |
-| OpenAI around o3 | GPT-5.1 | 0% (0/42) [0, 8] | 30% (13/44) [18, 44] | +30 |
-| OpenAI around o3 | GPT-5.2 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | gpt-oss-120b | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | gpt-oss-20b | 0% (0/67) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| Kimi K2.x reasoning models | Kimi K2-thinking | 0% (0/68) [0, 5] | 21% (14/68) [13, 32] | +21 |
-| Kimi K2.x reasoning models | Kimi K2.5 | 0% (0/68) [0, 5] | 32% (22/68) [22, 44] | +32 |
-| Kimi K2.x reasoning models | Kimi K2.6 | 0% (0/68) [0, 5] | 47% (32/68) [36, 59] | +47 |
-| DeepSeek: V3 -> R1 | DeepSeek V3-0324 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| DeepSeek: V3 -> R1 | DeepSeek R1-0528 | 0% (0/68) [0, 5] | 0% (0/67) [0, 5] | +0 |
-| Qwen3-235B: Instruct -> Thinking | Qwen3-235B Instruct-2507 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| Qwen3-235B: Instruct -> Thinking | Qwen3-235B Thinking-2507 | 0% (0/68) [0, 5] | 16% (11/67) [9, 27] | +16 |
-| Kimi: K2-0905 -> K2-thinking | Kimi K2-0905 | 0% (0/68) [0, 5] | 1% (1/68) [0, 8] | +1 |
-| MiniMax: 01 -> M1 | MiniMax-M1 | 0% (0/56) [0, 6] | 2% (1/57) [0, 9] | +2 |
-| GLM releases | GLM-4.5 | 0% (0/68) [0, 5] | 44% (30/68) [33, 56] | +44 |
-| GLM releases | GLM-4.6 | 0% (0/68) [0, 5] | 32% (22/68) [22, 44] | +32 |
-| GLM releases | GLM-4.7 | 0% (0/68) [0, 5] | 35% (24/68) [25, 47] | +35 |
-| MiniMax M2 releases | MiniMax-M2 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| MiniMax M2 releases | MiniMax-M2.1 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| MiniMax M2 releases | MiniMax-M2.5 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| MiniMax M2 releases | MiniMax-M2.7 | 0% (0/68) [0, 5] | 1% (1/68) [0, 8] | +1 |
+| Qwen 27B | Qwen 3.5 + | 0% (0/192) [0, 8] | 5% (9/192) [2, 8] | +5 |
+| Qwen 27B | Qwen 3.6 + | 0% (0/192) [0, 8] | 44% (84/192) [35, 51] | +44 |
+| Qwen 27B | Qwen 3.8 + | 0% (0/260) [0, 8] | 59% (153/260) [49, 68] | +59 |
+| Kimi | Kimi K2-0905 | 0% (0/68) [0, 8] | 1% (1/68) [0, 5] | +1 |
+| Kimi | Kimi K2-thinking + | 0% (0/192) [0, 8] | 15% (29/192) [10, 20] | +15 |
+| Kimi | Kimi K2.5 + | 0% (0/192) [0, 8] | 35% (68/192) [28, 43] | +35 |
+| Kimi | Kimi K2.6 + | 0% (0/192) [0, 8] | 44% (85/192) [36, 52] | +44 |
+| DeepSeek | DeepSeek V3-0324 | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| DeepSeek | DeepSeek R1-0528 + | 0% (0/192) [0, 8] | 0% (0/192) [0, 8] | +0 |
+| DeepSeek | DeepSeek V3.2-Exp + | 0% (0/192) [0, 8] | 20% (39/192) [12, 29] | +20 |
+| DeepSeek | DeepSeek V3.2 + | 0% (0/192) [0, 8] | 27% (51/192) [17, 36] | +27 |
+| DeepSeek | DeepSeek V4-Flash + | 0% (0/192) [0, 8] | 11% (22/192) [7, 16] | +11 |
+| DeepSeek | DeepSeek V4-Flash-0731 + | 0% (0/192) [0, 8] | 86% (166/192) [80, 92] | +86 |
+| DeepSeek | DeepSeek V4-Pro + | 0% (0/192) [0, 8] | 32% (61/192) [24, 40] | +32 |
+| DeepSeek | DeepSeek V4-Pro-0813 + | 0% (0/192) [0, 8] | 36% (69/192) [27, 44] | +36 |
+| DeepSeek | DeepSeek V4.1-Flash + | 0% (0/192) [0, 8] | 12% (22/189) [5, 18] | +12 |
+| DeepSeek | DeepSeek V4.1-Flash-1017 + | 0% (0/192) [0, 8] | 4% (7/192) [1, 6] | +4 |
+| GLM | GLM-4.5 + | 0% (0/192) [0, 8] | 42% (81/192) [30, 54] | +42 |
+| GLM | GLM-4.6 + | 0% (0/192) [0, 8] | 36% (69/192) [24, 47] | +36 |
+| GLM | GLM-4.7 + | 0% (0/192) [0, 8] | 40% (76/192) [27, 52] | +40 |
+| OpenAI | GPT-4o (2024-11-20) | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| OpenAI | GPT-4.1 | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| OpenAI | o3 + | 0% (0/192) [0, 8] | 21% (41/192) [13, 30] | +21 |
+| OpenAI | GPT-5 | 0% (0/68) [0, 8] | 1% (1/68) [0, 5] | +1 |
+| OpenAI | GPT-5.1 + | 0% (0/192) [0, 8] | 26% (50/192) [16, 35] | +26 |
+| OpenAI | GPT-5.2 | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| OpenAI | gpt-oss-120b | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| OpenAI | gpt-oss-20b | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| Qwen3-235B | Qwen3-235B Instruct-2507 | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| Qwen3-235B | Qwen3-235B Thinking-2507 | 0% (0/68) [0, 8] | 18% (12/68) [6, 31] | +18 |
+| MiniMax | MiniMax-M1 | 0% (0/68) [0, 8] | 1% (1/68) [0, 5] | +1 |
+| MiniMax | MiniMax-M2 | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| MiniMax | MiniMax-M2.1 | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| MiniMax | MiniMax-M2.5 | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| MiniMax | MiniMax-M2.7 | 0% (0/68) [0, 8] | 1% (1/68) [0, 5] | +1 |
 
 ## titles: adds title / sign-off
 
 | group | model | tied | +0.50 | effect |
 |---|---|---|---|---|
-| Qwen releases (reference) | Qwen 3.5 | 0% (0/68) [0, 5] | 0% (0/67) [0, 5] | +0 |
-| Qwen releases (reference) | Qwen 3.6 | 0% (0/68) [0, 5] | 9% (6/67) [4, 18] | +9 |
-| Qwen releases (reference) | Qwen 3.8 | 0% (0/100) [0, 4] | 34% (34/100) [25, 44] | +34 |
-| OpenAI around o3 | o3 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | GPT-4o (2024-11-20) | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | GPT-4.1 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | GPT-5 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | GPT-5.1 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | GPT-5.2 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | gpt-oss-120b | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | gpt-oss-20b | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| Kimi K2.x reasoning models | Kimi K2-thinking | 0% (0/68) [0, 5] | 37% (25/68) [26, 49] | +37 |
-| Kimi K2.x reasoning models | Kimi K2.5 | 0% (0/68) [0, 5] | 50% (34/68) [38, 62] | +50 |
-| Kimi K2.x reasoning models | Kimi K2.6 | 0% (0/68) [0, 5] | 51% (35/68) [40, 63] | +51 |
-| DeepSeek: V3 -> R1 | DeepSeek V3-0324 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| DeepSeek: V3 -> R1 | DeepSeek R1-0528 | 0% (0/68) [0, 5] | 32% (22/68) [22, 44] | +32 |
-| Qwen3-235B: Instruct -> Thinking | Qwen3-235B Instruct-2507 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| Qwen3-235B: Instruct -> Thinking | Qwen3-235B Thinking-2507 | 0% (0/65) [0, 6] | 0% (0/64) [0, 6] | +0 |
-| Kimi: K2-0905 -> K2-thinking | Kimi K2-0905 | 0% (0/68) [0, 5] | 4% (3/68) [2, 12] | +4 |
-| MiniMax: 01 -> M1 | MiniMax-01 | 1% (1/68) [0, 8] | 0% (0/68) [0, 5] | -1 |
-| MiniMax: 01 -> M1 | MiniMax-M1 | 0% (0/28) [0, 12] | 0% (0/20) [0, 16] | +0 |
-| GLM releases | GLM-4.5 | 0% (0/68) [0, 5] | 28% (19/68) [19, 40] | +28 |
-| GLM releases | GLM-4.6 | 0% (0/68) [0, 5] | 32% (22/68) [22, 44] | +32 |
-| GLM releases | GLM-4.7 | 0% (0/68) [0, 5] | 34% (23/68) [24, 46] | +34 |
-| MiniMax M2 releases | MiniMax-M2 | 0% (0/68) [0, 5] | 13% (9/68) [7, 23] | +13 |
-| MiniMax M2 releases | MiniMax-M2.1 | 0% (0/68) [0, 5] | 10% (7/68) [5, 20] | +10 |
-| MiniMax M2 releases | MiniMax-M2.5 | 0% (0/68) [0, 5] | 6% (4/67) [2, 14] | +6 |
-| MiniMax M2 releases | MiniMax-M2.7 | 0% (0/68) [0, 5] | 9% (6/68) [4, 18] | +9 |
+| Qwen 27B | Qwen 3.5 + | 0% (0/192) [0, 8] | 1% (2/191) [0, 3] | +1 |
+| Qwen 27B | Qwen 3.6 + | 0% (0/192) [0, 8] | 15% (28/191) [10, 20] | +15 |
+| Qwen 27B | Qwen 3.8 + | 0% (0/260) [0, 8] | 32% (82/260) [23, 41] | +32 |
+| Kimi | Kimi K2-0905 | 0% (0/68) [0, 8] | 4% (3/68) [0, 11] | +4 |
+| Kimi | Kimi K2-thinking + | 0% (0/192) [0, 8] | 39% (74/192) [30, 47] | +39 |
+| Kimi | Kimi K2.5 + | 0% (0/192) [0, 8] | 49% (94/192) [40, 58] | +49 |
+| Kimi | Kimi K2.6 + | 0% (0/192) [0, 8] | 51% (98/192) [41, 61] | +51 |
+| DeepSeek | DeepSeek V3-0324 | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| DeepSeek | DeepSeek R1-0528 + | 0% (0/192) [0, 8] | 24% (47/192) [16, 35] | +24 |
+| DeepSeek | DeepSeek V3.2-Exp + | 0% (0/192) [0, 8] | 23% (45/192) [15, 32] | +23 |
+| DeepSeek | DeepSeek V3.2 + | 0% (0/192) [0, 8] | 24% (46/192) [16, 32] | +24 |
+| DeepSeek | DeepSeek V4-Flash + | 0% (0/192) [0, 8] | 7% (14/192) [4, 12] | +7 |
+| DeepSeek | DeepSeek V4-Flash-0731 + | 0% (0/192) [0, 8] | 10% (20/192) [6, 16] | +10 |
+| DeepSeek | DeepSeek V4-Pro + | 0% (0/192) [0, 8] | 1% (1/192) [0, 2] | +1 |
+| DeepSeek | DeepSeek V4-Pro-0813 + | 0% (0/192) [0, 8] | 2% (4/192) [0, 4] | +2 |
+| DeepSeek | DeepSeek V4.1-Flash + | 0% (0/192) [0, 8] | 28% (54/192) [21, 36] | +28 |
+| DeepSeek | DeepSeek V4.1-Flash-1017 + | 0% (0/192) [0, 8] | 34% (66/192) [24, 45] | +34 |
+| GLM | GLM-4.5 + | 0% (0/192) [0, 8] | 33% (63/192) [24, 43] | +33 |
+| GLM | GLM-4.6 + | 0% (0/192) [0, 8] | 31% (60/192) [23, 40] | +31 |
+| GLM | GLM-4.7 + | 0% (0/192) [0, 8] | 27% (52/192) [18, 38] | +27 |
+| OpenAI | GPT-4o (2024-11-20) | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| OpenAI | GPT-4.1 | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| OpenAI | o3 + | 0% (0/192) [0, 8] | 0% (0/192) [0, 8] | +0 |
+| OpenAI | GPT-5 | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| OpenAI | GPT-5.1 + | 0% (0/192) [0, 8] | 1% (1/192) [0, 2] | +1 |
+| OpenAI | GPT-5.2 | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| OpenAI | gpt-oss-120b | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| OpenAI | gpt-oss-20b | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| Qwen3-235B | Qwen3-235B Instruct-2507 | 0% (0/68) [0, 8] | 0% (0/68) [0, 8] | +0 |
+| Qwen3-235B | Qwen3-235B Thinking-2507 | 0% (0/65) [0, 8] | 0% (0/66) [0, 8] | +0 |
+| MiniMax | MiniMax-01 | 1% (1/68) [0, 5] | 0% (0/68) [0, 8] | -1 |
+| MiniMax | MiniMax-M1 | 0% (0/28) [0, 15] | 0% (0/20) [0, 19] | +0 |
+| MiniMax | MiniMax-M2 | 0% (0/68) [0, 8] | 13% (9/68) [6, 21] | +13 |
+| MiniMax | MiniMax-M2.1 | 0% (0/68) [0, 8] | 10% (7/68) [4, 16] | +10 |
+| MiniMax | MiniMax-M2.5 | 0% (0/68) [0, 8] | 6% (4/67) [1, 12] | +6 |
+| MiniMax | MiniMax-M2.7 | 0% (0/68) [0, 8] | 9% (6/68) [3, 16] | +9 |
 
 ## bullets: uses bullets
 
 | group | model | tied | +0.50 | effect |
 |---|---|---|---|---|
-| Qwen releases (reference) | Qwen 3.5 | 0% (0/68) [0, 5] | 1% (1/68) [0, 8] | +1 |
-| Qwen releases (reference) | Qwen 3.6 | 1% (1/68) [0, 8] | 24% (16/67) [15, 35] | +22 |
-| Qwen releases (reference) | Qwen 3.8 | 0% (0/100) [0, 4] | 41% (41/100) [32, 51] | +41 |
-| OpenAI around o3 | o3 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | GPT-4o (2024-11-20) | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | GPT-4.1 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | GPT-5 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | GPT-5.1 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | GPT-5.2 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | gpt-oss-120b | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| OpenAI around o3 | gpt-oss-20b | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| Kimi K2.x reasoning models | Kimi K2-thinking | 0% (0/68) [0, 5] | 47% (32/68) [36, 59] | +47 |
-| Kimi K2.x reasoning models | Kimi K2.5 | 0% (0/68) [0, 5] | 37% (25/68) [26, 49] | +37 |
-| Kimi K2.x reasoning models | Kimi K2.6 | 0% (0/68) [0, 5] | 47% (32/68) [36, 59] | +47 |
-| DeepSeek: V3 -> R1 | DeepSeek V3-0324 | 0% (0/68) [0, 5] | 1% (1/68) [0, 8] | +1 |
-| DeepSeek: V3 -> R1 | DeepSeek R1-0528 | 12% (8/68) [6, 22] | 22% (15/68) [14, 33] | +10 |
-| Qwen3-235B: Instruct -> Thinking | Qwen3-235B Instruct-2507 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| Qwen3-235B: Instruct -> Thinking | Qwen3-235B Thinking-2507 | 0% (0/67) [0, 5] | 0% (0/65) [0, 6] | +0 |
-| Kimi: K2-0905 -> K2-thinking | Kimi K2-0905 | 0% (0/68) [0, 5] | 0% (0/68) [0, 5] | +0 |
-| MiniMax: 01 -> M1 | MiniMax-01 | 1% (1/68) [0, 8] | 0% (0/68) [0, 5] | -1 |
-| MiniMax: 01 -> M1 | MiniMax-M1 | 0% (0/24) [0, 14] | 0% (0/29) [0, 12] | +0 |
-| GLM releases | GLM-4.5 | 0% (0/68) [0, 5] | 13% (9/67) [7, 24] | +13 |
-| GLM releases | GLM-4.6 | 1% (1/68) [0, 8] | 10% (7/68) [5, 20] | +9 |
-| GLM releases | GLM-4.7 | 0% (0/68) [0, 5] | 9% (6/68) [4, 18] | +9 |
-| MiniMax M2 releases | MiniMax-M2 | 0% (0/68) [0, 5] | 4% (3/68) [2, 12] | +4 |
-| MiniMax M2 releases | MiniMax-M2.1 | 0% (0/68) [0, 5] | 1% (1/68) [0, 8] | +1 |
-| MiniMax M2 releases | MiniMax-M2.5 | 0% (0/68) [0, 5] | 3% (2/68) [1, 10] | +3 |
-| MiniMax M2 releases | MiniMax-M2.7 | 0% (0/68) [0, 5] | 3% (2/68) [1, 10] | +3 |
+| Qwen 27B | Qwen 3.5 + | 0% (0/192) [0, 9] | 1% (1/192) [0, 2] | +1 |
+| Qwen 27B | Qwen 3.6 + | 3% (6/192) [1, 6] | 19% (36/191) [13, 25] | +16 |
+| Qwen 27B | Qwen 3.8 + | 0% (0/260) [0, 9] | 41% (107/260) [30, 52] | +41 |
+| Kimi | Kimi K2-0905 | 0% (0/68) [0, 9] | 0% (0/68) [0, 9] | +0 |
+| Kimi | Kimi K2-thinking + | 0% (0/192) [0, 9] | 39% (75/192) [33, 46] | +39 |
+| Kimi | Kimi K2.5 + | 0% (0/192) [0, 9] | 34% (65/192) [25, 41] | +34 |
+| Kimi | Kimi K2.6 + | 0% (0/192) [0, 9] | 48% (92/192) [40, 57] | +48 |
+| DeepSeek | DeepSeek V3-0324 | 0% (0/68) [0, 9] | 1% (1/68) [0, 4] | +1 |
+| DeepSeek | DeepSeek R1-0528 + | 12% (23/192) [8, 18] | 18% (35/192) [12, 25] | +6 |
+| DeepSeek | DeepSeek V3.2-Exp + | 0% (0/192) [0, 9] | 3% (6/192) [1, 6] | +3 |
+| DeepSeek | DeepSeek V3.2 + | 0% (0/192) [0, 9] | 5% (9/192) [2, 7] | +5 |
+| DeepSeek | DeepSeek V4-Flash + | 0% (0/192) [0, 9] | 10% (19/192) [7, 14] | +10 |
+| DeepSeek | DeepSeek V4-Flash-0731 + | 0% (0/192) [0, 9] | 20% (38/192) [14, 27] | +20 |
+| DeepSeek | DeepSeek V4-Pro + | 0% (0/192) [0, 9] | 1% (1/192) [0, 2] | +1 |
+| DeepSeek | DeepSeek V4-Pro-0813 + | 0% (0/192) [0, 9] | 0% (0/192) [0, 9] | +0 |
+| DeepSeek | DeepSeek V4.1-Flash + | 0% (0/192) [0, 9] | 10% (19/192) [5, 16] | +10 |
+| DeepSeek | DeepSeek V4.1-Flash-1017 + | 0% (0/192) [0, 9] | 16% (30/192) [8, 23] | +16 |
+| GLM | GLM-4.5 + | 0% (0/192) [0, 9] | 12% (22/191) [7, 17] | +12 |
+| GLM | GLM-4.6 + | 1% (1/192) [0, 2] | 12% (23/192) [6, 20] | +11 |
+| GLM | GLM-4.7 + | 0% (0/192) [0, 9] | 10% (20/192) [6, 15] | +10 |
+| OpenAI | GPT-4o (2024-11-20) | 0% (0/68) [0, 9] | 0% (0/68) [0, 9] | +0 |
+| OpenAI | GPT-4.1 | 0% (0/68) [0, 9] | 0% (0/68) [0, 9] | +0 |
+| OpenAI | o3 + | 0% (0/192) [0, 9] | 0% (0/192) [0, 9] | +0 |
+| OpenAI | GPT-5 | 0% (0/68) [0, 9] | 0% (0/68) [0, 9] | +0 |
+| OpenAI | GPT-5.1 + | 0% (0/192) [0, 9] | 0% (0/192) [0, 9] | +0 |
+| OpenAI | GPT-5.2 | 0% (0/68) [0, 9] | 0% (0/68) [0, 9] | +0 |
+| OpenAI | gpt-oss-120b | 0% (0/68) [0, 9] | 0% (0/68) [0, 9] | +0 |
+| OpenAI | gpt-oss-20b | 0% (0/68) [0, 9] | 0% (0/68) [0, 9] | +0 |
+| Qwen3-235B | Qwen3-235B Instruct-2507 | 0% (0/68) [0, 9] | 0% (0/68) [0, 9] | +0 |
+| Qwen3-235B | Qwen3-235B Thinking-2507 | 0% (0/67) [0, 9] | 0% (0/65) [0, 9] | +0 |
+| MiniMax | MiniMax-01 | 1% (1/68) [0, 5] | 0% (0/68) [0, 9] | -1 |
+| MiniMax | MiniMax-M1 | 0% (0/24) [0, 22] | 0% (0/29) [0, 18] | +0 |
+| MiniMax | MiniMax-M2 | 0% (0/68) [0, 9] | 4% (3/68) [0, 9] | +4 |
+| MiniMax | MiniMax-M2.1 | 0% (0/68) [0, 9] | 1% (1/68) [0, 4] | +1 |
+| MiniMax | MiniMax-M2.5 | 0% (0/68) [0, 9] | 3% (2/68) [0, 6] | +3 |
+| MiniMax | MiniMax-M2.7 | 0% (0/68) [0, 9] | 3% (2/68) [0, 7] | +3 |

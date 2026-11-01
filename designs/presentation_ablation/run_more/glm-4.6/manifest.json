@@ -1,0 +1,30 @@
+{
+ "at": "2026-11-01T01:18:30+00:00",
+ "label": "GLM-4.6: Qwen 3.5 Part 1 items replayed",
+ "model": "openrouter/z-ai/glm-4.6",
+ "hosts": [
+  "novita/bf16"
+ ],
+ "tasks": {
+  "send": {
+   "n_items": 128,
+   "n_prompts": 64,
+   "items_digest": "800d8b12994c659abf35188f2d35e927de36d7e2f27c38c88e248a9e08ab5b63",
+   "blocks_sha256": "64a2ad2c4d385624e1b8bba93f0bbc1d9192633e2d44cb6a5e5fd296fa7de115"
+  },
+  "titles": {
+   "n_items": 128,
+   "n_prompts": 64,
+   "items_digest": "44a4b8cc2e770c347b836f14dc1ec527a50f2ca2309bfcb8fa46cf0684a97e97",
+   "blocks_sha256": "88e1fd6efbf7f8ecc25fe74d4472f381130a4d7073201ec0dfe622f5ee09542c"
+  },
+  "bullets": {
+   "n_items": 128,
+   "n_prompts": 64,
+   "items_digest": "83c193f8b930b9b5605256e84e641d1062c615b6e5b401ae62ad2dcc9b30e37e",
+   "blocks_sha256": "504533f6aebb39c09b751a0b7c634309f69623a6f41a0a271e6866d775a727fb"
+  }
+ },
+ "code_sha256": "0af1b7c846a919e5264bfed40b94f6c2bb274965bb38db861fb941303b2d5ffe",
+ "source_manifest_sha256": "8a98cad41fb7f35fb2872322825dd81d8af4af96e69f09d95d9a2bca9d698261"
+}

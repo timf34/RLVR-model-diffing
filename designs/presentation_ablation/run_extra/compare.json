@@ -1,1054 +1,2180 @@
 {
  "Qwen 3.5": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    5,
-    68
-   ],
-   "effect_pts": 7.352941176470589,
-   "group": "Qwen releases (reference)"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    67
-   ],
-   "effect_pts": 0.0,
-   "group": "Qwen releases (reference)"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    1,
-    68
-   ],
-   "effect_pts": 1.4705882352941175,
-   "group": "Qwen releases (reference)"
+  "group": "Qwen 27B",
+  "slug": "qwen3.5",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 9,
+     "n": 192,
+     "rate": 0.046875,
+     "lo": 0.02030456852791878,
+     "hi": 0.07784431137724551,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 2,
+     "n": 191,
+     "rate": 0.010471204188481676,
+     "lo": 0.0,
+     "hi": 0.02617801047120419,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 1,
+     "n": 192,
+     "rate": 0.005208333333333333,
+     "lo": 0.0,
+     "hi": 0.018072289156626505,
+     "scenarios": 38
+    }
+   }
   }
  },
  "Qwen 3.6": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    31,
-    68
-   ],
-   "effect_pts": 45.588235294117645,
-   "group": "Qwen releases (reference)"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    6,
-    67
-   ],
-   "effect_pts": 8.955223880597014,
-   "group": "Qwen releases (reference)"
-  },
-  "bullets": {
-   "tied": [
-    1,
-    68
-   ],
-   "p050": [
-    16,
-    67
-   ],
-   "effect_pts": 22.410008779631255,
-   "group": "Qwen releases (reference)"
+  "group": "Qwen 27B",
+  "slug": "qwen3.6",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 84,
+     "n": 192,
+     "rate": 0.4375,
+     "lo": 0.3546511627906977,
+     "hi": 0.5141509433962265,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 28,
+     "n": 191,
+     "rate": 0.14659685863874344,
+     "lo": 0.09693877551020408,
+     "hi": 0.1977401129943503,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 6,
+     "n": 192,
+     "rate": 0.03125,
+     "lo": 0.007142857142857143,
+     "hi": 0.055865921787709494,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 36,
+     "n": 191,
+     "rate": 0.18848167539267016,
+     "lo": 0.1340782122905028,
+     "hi": 0.2524752475247525,
+     "scenarios": 38
+    }
+   }
   }
  },
  "Qwen 3.8": {
-  "send": {
-   "tied": [
-    0,
-    100
-   ],
-   "p050": [
-    64,
-    100
-   ],
-   "effect_pts": 64.0,
-   "group": "Qwen releases (reference)"
-  },
-  "titles": {
-   "tied": [
-    0,
-    100
-   ],
-   "p050": [
-    34,
-    100
-   ],
-   "effect_pts": 34.0,
-   "group": "Qwen releases (reference)"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    100
-   ],
-   "p050": [
-    41,
-    100
-   ],
-   "effect_pts": 41.0,
-   "group": "Qwen releases (reference)"
-  }
- },
- "o3": {
-  "send": {
-   "tied": [
-    0,
-    67
-   ],
-   "p050": [
-    17,
-    67
-   ],
-   "effect_pts": 25.37313432835821,
-   "group": "OpenAI around o3"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  }
- },
- "GPT-4o (2024-11-20)": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  }
- },
- "GPT-4.1": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  }
- },
- "GPT-5": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    1,
-    68
-   ],
-   "effect_pts": 1.4705882352941175,
-   "group": "OpenAI around o3"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  }
- },
- "GPT-5.1": {
-  "send": {
-   "tied": [
-    0,
-    42
-   ],
-   "p050": [
-    13,
-    44
-   ],
-   "effect_pts": 29.545454545454547,
-   "group": "OpenAI around o3"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  }
- },
- "GPT-5.2": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  }
- },
- "gpt-oss-120b": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  }
- },
- "gpt-oss-20b": {
-  "send": {
-   "tied": [
-    0,
-    67
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "OpenAI around o3"
-  }
- },
- "Kimi K2-thinking": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    14,
-    68
-   ],
-   "effect_pts": 20.588235294117645,
-   "group": "Kimi K2.x reasoning models"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    25,
-    68
-   ],
-   "effect_pts": 36.76470588235294,
-   "group": "Kimi K2.x reasoning models"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    32,
-    68
-   ],
-   "effect_pts": 47.05882352941176,
-   "group": "Kimi K2.x reasoning models"
-  }
- },
- "Kimi K2.5": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    22,
-    68
-   ],
-   "effect_pts": 32.35294117647059,
-   "group": "Kimi K2.x reasoning models"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    34,
-    68
-   ],
-   "effect_pts": 50.0,
-   "group": "Kimi K2.x reasoning models"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    25,
-    68
-   ],
-   "effect_pts": 36.76470588235294,
-   "group": "Kimi K2.x reasoning models"
-  }
- },
- "Kimi K2.6": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    32,
-    68
-   ],
-   "effect_pts": 47.05882352941176,
-   "group": "Kimi K2.x reasoning models"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    35,
-    68
-   ],
-   "effect_pts": 51.470588235294116,
-   "group": "Kimi K2.x reasoning models"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    32,
-    68
-   ],
-   "effect_pts": 47.05882352941176,
-   "group": "Kimi K2.x reasoning models"
-  }
- },
- "DeepSeek V3-0324": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "DeepSeek: V3 -> R1"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "DeepSeek: V3 -> R1"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    1,
-    68
-   ],
-   "effect_pts": 1.4705882352941175,
-   "group": "DeepSeek: V3 -> R1"
-  }
- },
- "DeepSeek R1-0528": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    67
-   ],
-   "effect_pts": 0.0,
-   "group": "DeepSeek: V3 -> R1"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    22,
-    68
-   ],
-   "effect_pts": 32.35294117647059,
-   "group": "DeepSeek: V3 -> R1"
-  },
-  "bullets": {
-   "tied": [
-    8,
-    68
-   ],
-   "p050": [
-    15,
-    68
-   ],
-   "effect_pts": 10.294117647058822,
-   "group": "DeepSeek: V3 -> R1"
-  }
- },
- "Qwen3-235B Instruct-2507": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "Qwen3-235B: Instruct -> Thinking"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "Qwen3-235B: Instruct -> Thinking"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "Qwen3-235B: Instruct -> Thinking"
-  }
- },
- "Qwen3-235B Thinking-2507": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    11,
-    67
-   ],
-   "effect_pts": 16.417910447761194,
-   "group": "Qwen3-235B: Instruct -> Thinking"
-  },
-  "titles": {
-   "tied": [
-    0,
-    65
-   ],
-   "p050": [
-    0,
-    64
-   ],
-   "effect_pts": 0.0,
-   "group": "Qwen3-235B: Instruct -> Thinking"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    67
-   ],
-   "p050": [
-    0,
-    65
-   ],
-   "effect_pts": 0.0,
-   "group": "Qwen3-235B: Instruct -> Thinking"
+  "group": "Qwen 27B",
+  "slug": "qwen3.8",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 260,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 153,
+     "n": 260,
+     "rate": 0.5884615384615385,
+     "lo": 0.491869918699187,
+     "hi": 0.6798418972332015,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 260,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 82,
+     "n": 260,
+     "rate": 0.3153846153846154,
+     "lo": 0.23394495412844038,
+     "hi": 0.4051724137931034,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 260,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 107,
+     "n": 260,
+     "rate": 0.4115384615384615,
+     "lo": 0.29856115107913667,
+     "hi": 0.5191082802547771,
+     "scenarios": 38
+    }
+   }
   }
  },
  "Kimi K2-0905": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    1,
-    68
-   ],
-   "effect_pts": 1.4705882352941175,
-   "group": "Kimi: K2-0905 -> K2-thinking"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    3,
-    68
-   ],
-   "effect_pts": 4.411764705882353,
-   "group": "Kimi: K2-0905 -> K2-thinking"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "Kimi: K2-0905 -> K2-thinking"
+  "group": "Kimi",
+  "slug": "kimi-k2-0905",
+  "extra_reps": false,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 1,
+     "n": 68,
+     "rate": 0.014705882352941176,
+     "lo": 0.0,
+     "hi": 0.05,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 3,
+     "n": 68,
+     "rate": 0.04411764705882353,
+     "lo": 0.0,
+     "hi": 0.11428571428571428,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    }
+   }
   }
  },
- "MiniMax-M1": {
-  "send": {
-   "tied": [
-    0,
-    56
-   ],
-   "p050": [
-    1,
-    57
-   ],
-   "effect_pts": 1.7543859649122806,
-   "group": "MiniMax: 01 -> M1"
-  },
-  "titles": {
-   "tied": [
-    0,
-    28
-   ],
-   "p050": [
-    0,
-    20
-   ],
-   "effect_pts": 0.0,
-   "group": "MiniMax: 01 -> M1"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    24
-   ],
-   "p050": [
-    0,
-    29
-   ],
-   "effect_pts": 0.0,
-   "group": "MiniMax: 01 -> M1"
+ "Kimi K2-thinking": {
+  "group": "Kimi",
+  "slug": "kimi-k2-thinking",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 29,
+     "n": 192,
+     "rate": 0.15104166666666666,
+     "lo": 0.10465116279069768,
+     "hi": 0.20297029702970298,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 74,
+     "n": 192,
+     "rate": 0.3854166666666667,
+     "lo": 0.30434782608695654,
+     "hi": 0.4669603524229075,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 75,
+     "n": 192,
+     "rate": 0.390625,
+     "lo": 0.3302752293577982,
+     "hi": 0.45751633986928103,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "Kimi K2.5": {
+  "group": "Kimi",
+  "slug": "kimi-k2.5",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 68,
+     "n": 192,
+     "rate": 0.3541666666666667,
+     "lo": 0.27906976744186046,
+     "hi": 0.4339622641509434,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 94,
+     "n": 192,
+     "rate": 0.4895833333333333,
+     "lo": 0.40096618357487923,
+     "hi": 0.5770925110132159,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 65,
+     "n": 192,
+     "rate": 0.3385416666666667,
+     "lo": 0.2529182879377432,
+     "hi": 0.4146341463414634,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "Kimi K2.6": {
+  "group": "Kimi",
+  "slug": "kimi-k2.6",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 85,
+     "n": 192,
+     "rate": 0.4427083333333333,
+     "lo": 0.3640552995391705,
+     "hi": 0.519774011299435,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 98,
+     "n": 192,
+     "rate": 0.5104166666666666,
+     "lo": 0.4114583333333333,
+     "hi": 0.6096256684491979,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 92,
+     "n": 192,
+     "rate": 0.4791666666666667,
+     "lo": 0.3958333333333333,
+     "hi": 0.5662650602409639,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "DeepSeek V3-0324": {
+  "group": "DeepSeek",
+  "slug": "deepseek-v3-0324",
+  "extra_reps": false,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 1,
+     "n": 68,
+     "rate": 0.014705882352941176,
+     "lo": 0.0,
+     "hi": 0.04411764705882353,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "DeepSeek R1-0528": {
+  "group": "DeepSeek",
+  "slug": "deepseek-r1-0528",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 47,
+     "n": 192,
+     "rate": 0.24479166666666666,
+     "lo": 0.1569767441860465,
+     "hi": 0.350253807106599,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 23,
+     "n": 192,
+     "rate": 0.11979166666666667,
+     "lo": 0.07792207792207792,
+     "hi": 0.17560975609756097,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 35,
+     "n": 192,
+     "rate": 0.18229166666666666,
+     "lo": 0.12290502793296089,
+     "hi": 0.25301204819277107,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "DeepSeek V3.2-Exp": {
+  "group": "DeepSeek",
+  "slug": "deepseek-v3.2-exp",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 39,
+     "n": 192,
+     "rate": 0.203125,
+     "lo": 0.12087912087912088,
+     "hi": 0.2887700534759358,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 45,
+     "n": 192,
+     "rate": 0.234375,
+     "lo": 0.1511627906976744,
+     "hi": 0.3241758241758242,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 6,
+     "n": 192,
+     "rate": 0.03125,
+     "lo": 0.006535947712418301,
+     "hi": 0.0625,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "DeepSeek V3.2": {
+  "group": "DeepSeek",
+  "slug": "deepseek-v3.2",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 51,
+     "n": 192,
+     "rate": 0.265625,
+     "lo": 0.17258883248730963,
+     "hi": 0.3604060913705584,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 46,
+     "n": 192,
+     "rate": 0.23958333333333334,
+     "lo": 0.1638418079096045,
+     "hi": 0.3248730964467005,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 9,
+     "n": 192,
+     "rate": 0.046875,
+     "lo": 0.018072289156626505,
+     "hi": 0.07291666666666667,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "DeepSeek V4-Flash": {
+  "group": "DeepSeek",
+  "slug": "deepseek-v4-flash",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 22,
+     "n": 192,
+     "rate": 0.11458333333333333,
+     "lo": 0.06770833333333333,
+     "hi": 0.1638418079096045,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 14,
+     "n": 192,
+     "rate": 0.07291666666666667,
+     "lo": 0.03553299492385787,
+     "hi": 0.116751269035533,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 19,
+     "n": 192,
+     "rate": 0.09895833333333333,
+     "lo": 0.0670391061452514,
+     "hi": 0.1357142857142857,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "DeepSeek V4-Flash-0731": {
+  "group": "DeepSeek",
+  "slug": "deepseek-v4-flash-0731",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 166,
+     "n": 192,
+     "rate": 0.8645833333333334,
+     "lo": 0.7967032967032966,
+     "hi": 0.921875,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 20,
+     "n": 192,
+     "rate": 0.10416666666666667,
+     "lo": 0.06132075471698113,
+     "hi": 0.15625,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 38,
+     "n": 192,
+     "rate": 0.19791666666666666,
+     "lo": 0.13658536585365855,
+     "hi": 0.2737430167597765,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "DeepSeek V4-Pro": {
+  "group": "DeepSeek",
+  "slug": "deepseek-v4-pro",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 61,
+     "n": 192,
+     "rate": 0.3177083333333333,
+     "lo": 0.23958333333333334,
+     "hi": 0.3956043956043956,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 1,
+     "n": 192,
+     "rate": 0.005208333333333333,
+     "lo": 0.0,
+     "hi": 0.016042780748663103,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 1,
+     "n": 192,
+     "rate": 0.005208333333333333,
+     "lo": 0.0,
+     "hi": 0.01834862385321101,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "DeepSeek V4-Pro-0813": {
+  "group": "DeepSeek",
+  "slug": "deepseek-v4-pro-0813",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 69,
+     "n": 192,
+     "rate": 0.359375,
+     "lo": 0.27325581395348836,
+     "hi": 0.43956043956043955,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 4,
+     "n": 192,
+     "rate": 0.020833333333333332,
+     "lo": 0.004830917874396135,
+     "hi": 0.0427807486631016,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "DeepSeek V4.1-Flash": {
+  "group": "DeepSeek",
+  "slug": "deepseek-v4.1-flash",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 22,
+     "n": 189,
+     "rate": 0.1164021164021164,
+     "lo": 0.05172413793103448,
+     "hi": 0.18357487922705315,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 54,
+     "n": 192,
+     "rate": 0.28125,
+     "lo": 0.2079207920792079,
+     "hi": 0.3564356435643564,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 19,
+     "n": 192,
+     "rate": 0.09895833333333333,
+     "lo": 0.0457516339869281,
+     "hi": 0.15714285714285714,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "DeepSeek V4.1-Flash-1017": {
+  "group": "DeepSeek",
+  "slug": "deepseek-v4.1-flash-1017",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 7,
+     "n": 192,
+     "rate": 0.036458333333333336,
+     "lo": 0.01485148514851485,
+     "hi": 0.06091370558375635,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 66,
+     "n": 192,
+     "rate": 0.34375,
+     "lo": 0.23958333333333334,
+     "hi": 0.44919786096256686,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 30,
+     "n": 192,
+     "rate": 0.15625,
+     "lo": 0.08433734939759036,
+     "hi": 0.22916666666666666,
+     "scenarios": 38
+    }
+   }
   }
  },
  "GLM-4.5": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    30,
-    68
-   ],
-   "effect_pts": 44.11764705882353,
-   "group": "GLM releases"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    19,
-    68
-   ],
-   "effect_pts": 27.941176470588236,
-   "group": "GLM releases"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    9,
-    67
-   ],
-   "effect_pts": 13.432835820895523,
-   "group": "GLM releases"
+  "group": "GLM",
+  "slug": "glm-4.5",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 81,
+     "n": 192,
+     "rate": 0.421875,
+     "lo": 0.3023255813953488,
+     "hi": 0.5362318840579711,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 63,
+     "n": 192,
+     "rate": 0.328125,
+     "lo": 0.23728813559322035,
+     "hi": 0.42574257425742573,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 22,
+     "n": 191,
+     "rate": 0.11518324607329843,
+     "lo": 0.06741573033707865,
+     "hi": 0.1694915254237288,
+     "scenarios": 38
+    }
+   }
   }
  },
  "GLM-4.6": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    22,
-    68
-   ],
-   "effect_pts": 32.35294117647059,
-   "group": "GLM releases"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    22,
-    68
-   ],
-   "effect_pts": 32.35294117647059,
-   "group": "GLM releases"
-  },
-  "bullets": {
-   "tied": [
-    1,
-    68
-   ],
-   "p050": [
-    7,
-    68
-   ],
-   "effect_pts": 8.823529411764705,
-   "group": "GLM releases"
+  "group": "GLM",
+  "slug": "glm-4.6",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 69,
+     "n": 192,
+     "rate": 0.359375,
+     "lo": 0.24293785310734464,
+     "hi": 0.4716981132075472,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 60,
+     "n": 192,
+     "rate": 0.3125,
+     "lo": 0.233502538071066,
+     "hi": 0.4009216589861751,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 1,
+     "n": 192,
+     "rate": 0.005208333333333333,
+     "lo": 0.0,
+     "hi": 0.015625,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 23,
+     "n": 192,
+     "rate": 0.11979166666666667,
+     "lo": 0.055865921787709494,
+     "hi": 0.19879518072289157,
+     "scenarios": 38
+    }
+   }
   }
  },
  "GLM-4.7": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    24,
-    68
-   ],
-   "effect_pts": 35.294117647058826,
-   "group": "GLM releases"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    23,
-    68
-   ],
-   "effect_pts": 33.82352941176471,
-   "group": "GLM releases"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    6,
-    68
-   ],
-   "effect_pts": 8.823529411764707,
-   "group": "GLM releases"
+  "group": "GLM",
+  "slug": "glm-4.7",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 76,
+     "n": 192,
+     "rate": 0.3958333333333333,
+     "lo": 0.26903553299492383,
+     "hi": 0.5188679245283019,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 52,
+     "n": 192,
+     "rate": 0.2708333333333333,
+     "lo": 0.17582417582417584,
+     "hi": 0.3778801843317972,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 20,
+     "n": 192,
+     "rate": 0.10416666666666667,
+     "lo": 0.061452513966480445,
+     "hi": 0.15083798882681565,
+     "scenarios": 38
+    }
+   }
   }
  },
- "MiniMax-M2": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "MiniMax M2 releases"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    9,
-    68
-   ],
-   "effect_pts": 13.23529411764706,
-   "group": "MiniMax M2 releases"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    3,
-    68
-   ],
-   "effect_pts": 4.411764705882353,
-   "group": "MiniMax M2 releases"
+ "GPT-4o (2024-11-20)": {
+  "group": "OpenAI",
+  "slug": "gpt-4o",
+  "extra_reps": false,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    }
+   }
   }
  },
- "MiniMax-M2.1": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "MiniMax M2 releases"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    7,
-    68
-   ],
-   "effect_pts": 10.294117647058822,
-   "group": "MiniMax M2 releases"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    1,
-    68
-   ],
-   "effect_pts": 1.4705882352941175,
-   "group": "MiniMax M2 releases"
+ "GPT-4.1": {
+  "group": "OpenAI",
+  "slug": "gpt-4.1",
+  "extra_reps": false,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    }
+   }
   }
  },
- "MiniMax-M2.5": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": 0.0,
-   "group": "MiniMax M2 releases"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    4,
-    67
-   ],
-   "effect_pts": 5.970149253731343,
-   "group": "MiniMax M2 releases"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    2,
-    68
-   ],
-   "effect_pts": 2.941176470588235,
-   "group": "MiniMax M2 releases"
+ "o3": {
+  "group": "OpenAI",
+  "slug": "o3",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 41,
+     "n": 192,
+     "rate": 0.21354166666666666,
+     "lo": 0.13186813186813187,
+     "hi": 0.29949238578680204,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    }
+   }
   }
  },
- "MiniMax-M2.7": {
-  "send": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    1,
-    68
-   ],
-   "effect_pts": 1.4705882352941175,
-   "group": "MiniMax M2 releases"
-  },
-  "titles": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    6,
-    68
-   ],
-   "effect_pts": 8.823529411764707,
-   "group": "MiniMax M2 releases"
-  },
-  "bullets": {
-   "tied": [
-    0,
-    68
-   ],
-   "p050": [
-    2,
-    68
-   ],
-   "effect_pts": 2.941176470588235,
-   "group": "MiniMax M2 releases"
+ "GPT-5": {
+  "group": "OpenAI",
+  "slug": "gpt-5",
+  "extra_reps": false,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 1,
+     "n": 68,
+     "rate": 0.014705882352941176,
+     "lo": 0.0,
+     "hi": 0.046875,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "GPT-5.1": {
+  "group": "OpenAI",
+  "slug": "gpt-5.1",
+  "extra_reps": true,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 50,
+     "n": 192,
+     "rate": 0.2604166666666667,
+     "lo": 0.16145833333333334,
+     "hi": 0.3548387096774194,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 1,
+     "n": 192,
+     "rate": 0.005208333333333333,
+     "lo": 0.0,
+     "hi": 0.016483516483516484,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 0,
+     "n": 192,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "GPT-5.2": {
+  "group": "OpenAI",
+  "slug": "gpt-5.2",
+  "extra_reps": false,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "gpt-oss-120b": {
+  "group": "OpenAI",
+  "slug": "gpt-oss-120b",
+  "extra_reps": false,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "gpt-oss-20b": {
+  "group": "OpenAI",
+  "slug": "gpt-oss-20b",
+  "extra_reps": false,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "Qwen3-235B Instruct-2507": {
+  "group": "Qwen3-235B",
+  "slug": "qwen3-235b-instruct",
+  "extra_reps": false,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "Qwen3-235B Thinking-2507": {
+  "group": "Qwen3-235B",
+  "slug": "qwen3-235b-thinking",
+  "extra_reps": false,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 12,
+     "n": 68,
+     "rate": 0.17647058823529413,
+     "lo": 0.06060606060606061,
+     "hi": 0.3064516129032258,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 65,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08379879207691124,
+     "scenarios": 42
+    },
+    "p050": {
+     "k": 0,
+     "n": 66,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08379879207691124,
+     "scenarios": 42
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 67,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09405782718146873,
+     "scenarios": 37
+    },
+    "p050": {
+     "k": 0,
+     "n": 65,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09405782718146873,
+     "scenarios": 37
+    }
+   }
   }
  },
  "MiniMax-01": {
-  "titles": {
-   "tied": [
-    1,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": -1.4705882352941175,
-   "group": "MiniMax: 01 -> M1"
-  },
-  "bullets": {
-   "tied": [
-    1,
-    68
-   ],
-   "p050": [
-    0,
-    68
-   ],
-   "effect_pts": -1.4705882352941175,
-   "group": "MiniMax: 01 -> M1"
+  "group": "MiniMax",
+  "slug": "minimax-01",
+  "extra_reps": false,
+  "tasks": {
+   "titles": {
+    "tied": {
+     "k": 1,
+     "n": 68,
+     "rate": 0.014705882352941176,
+     "lo": 0.0,
+     "hi": 0.045454545454545456,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 1,
+     "n": 68,
+     "rate": 0.014705882352941176,
+     "lo": 0.0,
+     "hi": 0.0547945205479452,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "MiniMax-M1": {
+  "group": "MiniMax",
+  "slug": "minimax-m1",
+  "extra_reps": false,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 1,
+     "n": 68,
+     "rate": 0.014705882352941176,
+     "lo": 0.0,
+     "hi": 0.05,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "p050": {
+     "k": 0,
+     "n": 20,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.1936076829974049,
+     "scenarios": 16
+    },
+    "tied": {
+     "k": 0,
+     "n": 28,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.15463902098714374,
+     "scenarios": 21
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 24,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.21531080540298042,
+     "scenarios": 14
+    },
+    "p050": {
+     "k": 0,
+     "n": 29,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.18431813738065556,
+     "scenarios": 17
+    }
+   }
+  }
+ },
+ "MiniMax-M2": {
+  "group": "MiniMax",
+  "slug": "minimax-m2",
+  "extra_reps": false,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 9,
+     "n": 68,
+     "rate": 0.1323529411764706,
+     "lo": 0.0625,
+     "hi": 0.20833333333333334,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 3,
+     "n": 68,
+     "rate": 0.04411764705882353,
+     "lo": 0.0,
+     "hi": 0.09433962264150944,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "MiniMax-M2.1": {
+  "group": "MiniMax",
+  "slug": "minimax-m2.1",
+  "extra_reps": false,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 7,
+     "n": 68,
+     "rate": 0.10294117647058823,
+     "lo": 0.04411764705882353,
+     "hi": 0.16216216216216217,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 1,
+     "n": 68,
+     "rate": 0.014705882352941176,
+     "lo": 0.0,
+     "hi": 0.04411764705882353,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "MiniMax-M2.5": {
+  "group": "MiniMax",
+  "slug": "minimax-m2.5",
+  "extra_reps": false,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 4,
+     "n": 67,
+     "rate": 0.05970149253731343,
+     "lo": 0.014084507042253521,
+     "hi": 0.12280701754385964,
+     "scenarios": 43
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 2,
+     "n": 68,
+     "rate": 0.029411764705882353,
+     "lo": 0.0,
+     "hi": 0.0641025641025641,
+     "scenarios": 38
+    }
+   }
+  }
+ },
+ "MiniMax-M2.7": {
+  "group": "MiniMax",
+  "slug": "minimax-m2.7",
+  "extra_reps": false,
+  "tasks": {
+   "send": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 1,
+     "n": 68,
+     "rate": 0.014705882352941176,
+     "lo": 0.0,
+     "hi": 0.046875,
+     "scenarios": 44
+    }
+   },
+   "titles": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.08029560492349135,
+     "scenarios": 44
+    },
+    "p050": {
+     "k": 6,
+     "n": 68,
+     "rate": 0.08823529411764706,
+     "lo": 0.027777777777777776,
+     "hi": 0.15714285714285714,
+     "scenarios": 44
+    }
+   },
+   "bullets": {
+    "tied": {
+     "k": 0,
+     "n": 68,
+     "rate": 0.0,
+     "lo": 0.0,
+     "hi": 0.09180986954097846,
+     "scenarios": 38
+    },
+    "p050": {
+     "k": 2,
+     "n": 68,
+     "rate": 0.029411764705882353,
+     "lo": 0.0,
+     "hi": 0.07352941176470588,
+     "scenarios": 38
+    }
+   }
   }
  }
 }

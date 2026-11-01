@@ -1,0 +1,30 @@
+{
+ "at": "2026-11-01T01:18:30+00:00",
+ "label": "Qwen 3.8: Qwen 3.5 Part 1 items replayed",
+ "model": "openrouter/qwen/qwen3.8-27b",
+ "hosts": [
+  "deepinfra/bf16"
+ ],
+ "tasks": {
+  "send": {
+   "n_items": 128,
+   "n_prompts": 64,
+   "items_digest": "58103abddc210f38176990a7901865a1de4a497d03abaef16d7889fc9d8b6ae9",
+   "blocks_sha256": "64a2ad2c4d385624e1b8bba93f0bbc1d9192633e2d44cb6a5e5fd296fa7de115"
+  },
+  "titles": {
+   "n_items": 128,
+   "n_prompts": 64,
+   "items_digest": "577991e6cc3255b23f8d44e7f60b6b9abb04f0494d0a4905cac028a627c1d8ba",
+   "blocks_sha256": "88e1fd6efbf7f8ecc25fe74d4472f381130a4d7073201ec0dfe622f5ee09542c"
+  },
+  "bullets": {
+   "n_items": 128,
+   "n_prompts": 64,
+   "items_digest": "72af60f7efbf665bacb2e0caaeea4cda26f3be501d485da42bc287e6bcd44bfc",
+   "blocks_sha256": "504533f6aebb39c09b751a0b7c634309f69623a6f41a0a271e6866d775a727fb"
+  }
+ },
+ "code_sha256": "0af1b7c846a919e5264bfed40b94f6c2bb274965bb38db861fb941303b2d5ffe",
+ "source_manifest_sha256": "8a98cad41fb7f35fb2872322825dd81d8af4af96e69f09d95d9a2bca9d698261"
+}

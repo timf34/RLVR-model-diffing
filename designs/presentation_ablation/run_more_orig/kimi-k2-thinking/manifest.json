@@ -1,0 +1,30 @@
+{
+ "at": "2026-11-01T01:28:33+00:00",
+ "label": "Kimi K2-thinking: Qwen 3.5 Part 1 items replayed",
+ "model": "openrouter/moonshotai/kimi-k2-thinking",
+ "hosts": [
+  "novita/bf16"
+ ],
+ "tasks": {
+  "send": {
+   "n_items": 120,
+   "n_prompts": 24,
+   "items_digest": "8184570b95cc8c12034e82b8809f17f6db5bdb4b35077b5684a90a4675b020e2",
+   "blocks_sha256": "64a2ad2c4d385624e1b8bba93f0bbc1d9192633e2d44cb6a5e5fd296fa7de115"
+  },
+  "titles": {
+   "n_items": 120,
+   "n_prompts": 24,
+   "items_digest": "f5488a8b6b6a9255cb159a34531caba96d8597117fca042fd1692495ff698a14",
+   "blocks_sha256": "88e1fd6efbf7f8ecc25fe74d4472f381130a4d7073201ec0dfe622f5ee09542c"
+  },
+  "bullets": {
+   "n_items": 120,
+   "n_prompts": 12,
+   "items_digest": "1c7947d80874f113e122ef77ededdb2809548fef32443d3b5fb70aa5a481a167",
+   "blocks_sha256": "504533f6aebb39c09b751a0b7c634309f69623a6f41a0a271e6866d775a727fb"
+  }
+ },
+ "code_sha256": "bc12ba7b1653aea3b95c818893b67d46b6a0127dd36e61069849649b7160d13f",
+ "source_manifest_sha256": "8a98cad41fb7f35fb2872322825dd81d8af4af96e69f09d95d9a2bca9d698261"
+}

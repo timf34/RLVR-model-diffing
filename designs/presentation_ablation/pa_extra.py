@@ -78,19 +78,83 @@ MODELS = {
                      (0.04, 0.17), 0.01, True),
     "gpt-oss-20b": ("gpt-oss-20b", "openrouter/openai/gpt-oss-20b", ["deepinfra/bf16", "coreweave/fp4"], OAI,
                     (0.03, 0.14), 0.01, True),
+    # DeepSeek after R1 (2026-11-01): V3.2-Exp / V3.2 share the V3 base (hybrid, thinking on); V4 is a new base.
+    # fp8 hosts (DeepSeek's native precision), plus DeepSeek's own API for V4-Pro-0813. V3.1 / V3.1-Terminus are not run:
+    # they cannot call tools in thinking mode (V3.1 returns blank replies; Terminus silently drops thinking).
+    "deepseek-v3.2-exp": ("DeepSeek V3.2-Exp", "openrouter/deepseek/deepseek-v3.2-exp", ["siliconflow/fp8"], R,
+                          (0.27, 0.41), 0.02, True),
+    "deepseek-v3.2": ("DeepSeek V3.2", "openrouter/deepseek/deepseek-v3.2", ["siliconflow/fp8", "atlas-cloud/fp8"], R,
+                      (0.26, 0.8), 0.02, True),
+    "deepseek-v4-flash": ("DeepSeek V4-Flash", "openrouter/deepseek/deepseek-v4-flash", ["deepinfra/fp8", "gmicloud/fp8"],
+                          R, (0.09, 0.18), 0.01, True),
+    "deepseek-v4-flash-0731": ("DeepSeek V4-Flash-0731", "openrouter/deepseek/deepseek-v4-flash-0731",
+                               ["deepinfra/fp8", "baidu/fp8"], R, (0.06, 0.18), 0.01, True),
+    "deepseek-v4-pro": ("DeepSeek V4-Pro", "openrouter/deepseek/deepseek-v4-pro", ["siliconflow/fp8", "gmicloud/fp8"], R,
+                        (1.0, 3.14), 0.04, True),
+    "deepseek-v4-pro-0813": ("DeepSeek V4-Pro-0813", "openrouter/deepseek/deepseek-v4-pro-0813",
+                             ["deepseek", "streamlake"], R, (0.66, 1.98), 0.03, True),
+    "deepseek-v4.1-flash": ("DeepSeek V4.1-Flash", "openrouter/deepseek/deepseek-v4.1-flash", ["morph/fp8", "baidu/fp8"],
+                            R, (0.05, 0.19), 0.01, True),
+    "deepseek-v4.1-flash-1017": ("DeepSeek V4.1-Flash-1017", "openrouter/deepseek/deepseek-v4.1-flash-1017",
+                                 ["morph/fp8"], R, (0.05, 0.19), 0.01, True),
 }
 # MiniMax-01 has no tool-calling host on OpenRouter, so it cannot do the sending task.
 TASKS_FOR = {"minimax-01": ("titles", "bullets")}
 
+# --more: extra repeats on the fresh scenarios (reps 1 and 2; the main run has rep 0), in run_more/<slug>, for the models
+# that show the behaviour. Qwen 3.5 / 3.6 / 3.8 are served exactly as in experiment.grading.3way.json.
+MORE = HERE / "run_more"
+MORE_REPS = (1, 2)
+# --more-orig: matching extra repeats on the ORIGINAL scenarios (run_more_orig/<slug>), so original and fresh scenarios
+# contribute about equally to each pooled bar (~96 runs each per score condition). Qwen 3.8's main run already had a
+# second fresh rep, so it gets more original repeats to match.
+MORE_ORIG = HERE / "run_more_orig"
+ORIG_EXTRA = {"send": 5, "titles": 5, "bullets": 10}            # extra reps per original scenario
+ORIG_EXTRA_BY_MODEL = {"Qwen 3.8": {"send": 8, "titles": 8, "bullets": 16}}
+BASE = EXTRA
+QWEN_PRICES = {"Qwen 3.5": (0.26, 2.6), "Qwen 3.6": (0.45, 2.7), "Qwen 3.8": (0.039, 1.25)}
+
+
+def _qwen_entries():
+    s = json.loads(C.SERVING_CONFIG.read_text())
+    out = {}
+    for t in s["targets"]:
+        if t["label"] in QWEN_PRICES:
+            out["qwen" + t["label"].split()[-1]] = (t["label"], t["model"], t["model_args"]["provider"]["only"],
+                                                    t.get("generate", {}), QWEN_PRICES[t["label"]], 0.03, True)
+    return out
+
+
+MODELS.update(_qwen_entries())   # qwen3.5 / qwen3.6 / qwen3.8: --more only (their main runs live in run/ and run_q36/)
+
 
 def root(slug: str) -> Path:
-    return EXTRA / slug
+    return BASE / slug
 
 
 def clone_items(task: str, label: str) -> list[dict]:
     out = []
     for it in C.iter_jsonl(C.RUN / "main" / task / "items.jsonl"):
         if it["model"] != SOURCE or it.get("part") != 1 or it["arm"] not in ARMS:
+            continue
+        if BASE == MORE_ORIG:   # original scenarios only, new reps after the source's last one
+            if it["materials"] != "orig" or it["rep"] != 0:
+                continue
+            last = max(i["rep"] for i in C.iter_jsonl(C.RUN / "main" / task / "items.jsonl")
+                       if i["model"] == SOURCE and i["block"] == it["block"] and i["arm"] == it["arm"]
+                       and i["score"] == it["score"] and i.get("part") == 1)
+            extra = ORIG_EXTRA_BY_MODEL.get(label, ORIG_EXTRA)[task]
+            for r in range(last + 1, last + 1 + extra):
+                k = it["key"][:-2].replace(f"|{SOURCE}", f"|{label}") + f"|{r}"
+                out.append(dict(it, model=label, rep=r, key=k))
+            continue
+        if BASE == MORE:   # fresh scenarios only, one copy per extra rep
+            if it["materials"] != "fresh":
+                continue
+            assert it["rep"] == 0 and it["key"].endswith("|0")
+            for r in MORE_REPS:
+                k = it["key"][:-2].replace(f"|{SOURCE}", f"|{label}") + f"|{r}"
+                out.append(dict(it, model=label, rep=r, key=k))
             continue
         it = dict(it, model=label, key=it["key"].replace(f"|{SOURCE}|", f"|{label}|"))
         assert label in it["key"]
@@ -164,7 +228,14 @@ def main():
     ap.add_argument("--minutes", type=float, default=900)
     ap.add_argument("--budget-stop", type=float, default=40.0)
     ap.add_argument("--max-items", type=int, default=None)
+    ap.add_argument("--more", action="store_true", help="extra fresh-scenario repeats in run_more/")
+    ap.add_argument("--more-orig", action="store_true", help="extra original-scenario repeats in run_more_orig/")
     a = ap.parse_args()
+    global BASE
+    if a.more:
+        BASE = MORE
+    if a.more_orig:
+        BASE = MORE_ORIG
     slugs = list(MODELS) if a.slug == "all" else a.slug.split(",")
     tasks = C.TASKS if a.task == "all" else tuple(a.task.split(","))
     if len(slugs) == 1 and slugs[0] in TASKS_FOR:
