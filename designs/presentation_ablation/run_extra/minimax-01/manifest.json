@@ -1,0 +1,24 @@
+{
+ "at": "2026-10-31T23:45:26+00:00",
+ "label": "MiniMax-01: Qwen 3.5 Part 1 items replayed",
+ "model": "openrouter/minimax/minimax-01",
+ "hosts": [
+  "minimax"
+ ],
+ "tasks": {
+  "titles": {
+   "n_items": 136,
+   "n_prompts": 88,
+   "items_digest": "c94d9ccbaded7ca526dc10b78a0a1f661874575c4cfc18091507d25e2baf7f0e",
+   "blocks_sha256": "88e1fd6efbf7f8ecc25fe74d4472f381130a4d7073201ec0dfe622f5ee09542c"
+  },
+  "bullets": {
+   "n_items": 136,
+   "n_prompts": 76,
+   "items_digest": "1e11500e534788b02eb82eaa7a9ea36103565e575ba23516236432aa756558fb",
+   "blocks_sha256": "504533f6aebb39c09b751a0b7c634309f69623a6f41a0a271e6866d775a727fb"
+  }
+ },
+ "code_sha256": "8c7f9158c17e554c15e692f607039e1be1de1dc401a83f22a5c0d5d77437aaf9",
+ "source_manifest_sha256": "8a98cad41fb7f35fb2872322825dd81d8af4af96e69f09d95d9a2bca9d698261"
+}

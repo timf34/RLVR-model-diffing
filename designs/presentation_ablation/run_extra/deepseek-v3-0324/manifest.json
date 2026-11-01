@@ -1,0 +1,30 @@
+{
+ "at": "2026-10-31T23:45:25+00:00",
+ "label": "DeepSeek V3-0324: Qwen 3.5 Part 1 items replayed",
+ "model": "openrouter/deepseek/deepseek-chat-v3-0324",
+ "hosts": [
+  "siliconflow/fp8"
+ ],
+ "tasks": {
+  "send": {
+   "n_items": 136,
+   "n_prompts": 88,
+   "items_digest": "a915aae7fce8d31b3fa1ffd019af82eb4e2b81fe068558c54c079a5c924a4de6",
+   "blocks_sha256": "64a2ad2c4d385624e1b8bba93f0bbc1d9192633e2d44cb6a5e5fd296fa7de115"
+  },
+  "titles": {
+   "n_items": 136,
+   "n_prompts": 88,
+   "items_digest": "24069cdd1ebd6fe59829c5daacae9c13b4a963ccafc68a6e51f6f0a4cf9ac793",
+   "blocks_sha256": "88e1fd6efbf7f8ecc25fe74d4472f381130a4d7073201ec0dfe622f5ee09542c"
+  },
+  "bullets": {
+   "n_items": 136,
+   "n_prompts": 76,
+   "items_digest": "d7516c99ed6b5851c7d75c7bdd401c83e1545f05eb03a65e27fbc6b953e8c899",
+   "blocks_sha256": "504533f6aebb39c09b751a0b7c634309f69623a6f41a0a271e6866d775a727fb"
+  }
+ },
+ "code_sha256": "8c7f9158c17e554c15e692f607039e1be1de1dc401a83f22a5c0d5d77437aaf9",
+ "source_manifest_sha256": "8a98cad41fb7f35fb2872322825dd81d8af4af96e69f09d95d9a2bca9d698261"
+}

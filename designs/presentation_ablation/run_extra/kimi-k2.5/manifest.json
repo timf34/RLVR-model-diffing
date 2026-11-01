@@ -1,0 +1,31 @@
+{
+ "at": "2026-10-31T23:33:50+00:00",
+ "label": "Kimi K2.5: Qwen 3.5 Part 1 items replayed",
+ "model": "openrouter/moonshotai/kimi-k2.5",
+ "hosts": [
+  "atlas-cloud/int4",
+  "siliconflow/int4"
+ ],
+ "tasks": {
+  "send": {
+   "n_items": 136,
+   "n_prompts": 88,
+   "items_digest": "6a9a84ce3048a2bc24c2d4414c79aece1e5a704bea453069440e471a2d11b587",
+   "blocks_sha256": "64a2ad2c4d385624e1b8bba93f0bbc1d9192633e2d44cb6a5e5fd296fa7de115"
+  },
+  "titles": {
+   "n_items": 136,
+   "n_prompts": 88,
+   "items_digest": "d27f132902650122ae9ea4df682954830b5223779ab08867d4549ea585cb5114",
+   "blocks_sha256": "88e1fd6efbf7f8ecc25fe74d4472f381130a4d7073201ec0dfe622f5ee09542c"
+  },
+  "bullets": {
+   "n_items": 136,
+   "n_prompts": 76,
+   "items_digest": "0d1ae15c70cacd93fcb7b9da1517c63b45e175205a4094ecc29db5f54a95a7e3",
+   "blocks_sha256": "504533f6aebb39c09b751a0b7c634309f69623a6f41a0a271e6866d775a727fb"
+  }
+ },
+ "code_sha256": "3ac245bfbf7eaaa42d546be3f493816da6a4729305e8d4f6d274cbcfc8d6b832",
+ "source_manifest_sha256": "8a98cad41fb7f35fb2872322825dd81d8af4af96e69f09d95d9a2bca9d698261"
+}

@@ -1,0 +1,1054 @@
+{
+ "Qwen 3.5": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    5,
+    68
+   ],
+   "effect_pts": 7.352941176470589,
+   "group": "Qwen releases (reference)"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    67
+   ],
+   "effect_pts": 0.0,
+   "group": "Qwen releases (reference)"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    1,
+    68
+   ],
+   "effect_pts": 1.4705882352941175,
+   "group": "Qwen releases (reference)"
+  }
+ },
+ "Qwen 3.6": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    31,
+    68
+   ],
+   "effect_pts": 45.588235294117645,
+   "group": "Qwen releases (reference)"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    6,
+    67
+   ],
+   "effect_pts": 8.955223880597014,
+   "group": "Qwen releases (reference)"
+  },
+  "bullets": {
+   "tied": [
+    1,
+    68
+   ],
+   "p050": [
+    16,
+    67
+   ],
+   "effect_pts": 22.410008779631255,
+   "group": "Qwen releases (reference)"
+  }
+ },
+ "Qwen 3.8": {
+  "send": {
+   "tied": [
+    0,
+    100
+   ],
+   "p050": [
+    64,
+    100
+   ],
+   "effect_pts": 64.0,
+   "group": "Qwen releases (reference)"
+  },
+  "titles": {
+   "tied": [
+    0,
+    100
+   ],
+   "p050": [
+    34,
+    100
+   ],
+   "effect_pts": 34.0,
+   "group": "Qwen releases (reference)"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    100
+   ],
+   "p050": [
+    41,
+    100
+   ],
+   "effect_pts": 41.0,
+   "group": "Qwen releases (reference)"
+  }
+ },
+ "o3": {
+  "send": {
+   "tied": [
+    0,
+    67
+   ],
+   "p050": [
+    17,
+    67
+   ],
+   "effect_pts": 25.37313432835821,
+   "group": "OpenAI around o3"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  }
+ },
+ "GPT-4o (2024-11-20)": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  }
+ },
+ "GPT-4.1": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  }
+ },
+ "GPT-5": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    1,
+    68
+   ],
+   "effect_pts": 1.4705882352941175,
+   "group": "OpenAI around o3"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  }
+ },
+ "GPT-5.1": {
+  "send": {
+   "tied": [
+    0,
+    42
+   ],
+   "p050": [
+    13,
+    44
+   ],
+   "effect_pts": 29.545454545454547,
+   "group": "OpenAI around o3"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  }
+ },
+ "GPT-5.2": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  }
+ },
+ "gpt-oss-120b": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  }
+ },
+ "gpt-oss-20b": {
+  "send": {
+   "tied": [
+    0,
+    67
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "OpenAI around o3"
+  }
+ },
+ "Kimi K2-thinking": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    14,
+    68
+   ],
+   "effect_pts": 20.588235294117645,
+   "group": "Kimi K2.x reasoning models"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    25,
+    68
+   ],
+   "effect_pts": 36.76470588235294,
+   "group": "Kimi K2.x reasoning models"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    32,
+    68
+   ],
+   "effect_pts": 47.05882352941176,
+   "group": "Kimi K2.x reasoning models"
+  }
+ },
+ "Kimi K2.5": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    22,
+    68
+   ],
+   "effect_pts": 32.35294117647059,
+   "group": "Kimi K2.x reasoning models"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    34,
+    68
+   ],
+   "effect_pts": 50.0,
+   "group": "Kimi K2.x reasoning models"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    25,
+    68
+   ],
+   "effect_pts": 36.76470588235294,
+   "group": "Kimi K2.x reasoning models"
+  }
+ },
+ "Kimi K2.6": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    32,
+    68
+   ],
+   "effect_pts": 47.05882352941176,
+   "group": "Kimi K2.x reasoning models"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    35,
+    68
+   ],
+   "effect_pts": 51.470588235294116,
+   "group": "Kimi K2.x reasoning models"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    32,
+    68
+   ],
+   "effect_pts": 47.05882352941176,
+   "group": "Kimi K2.x reasoning models"
+  }
+ },
+ "DeepSeek V3-0324": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "DeepSeek: V3 -> R1"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "DeepSeek: V3 -> R1"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    1,
+    68
+   ],
+   "effect_pts": 1.4705882352941175,
+   "group": "DeepSeek: V3 -> R1"
+  }
+ },
+ "DeepSeek R1-0528": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    67
+   ],
+   "effect_pts": 0.0,
+   "group": "DeepSeek: V3 -> R1"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    22,
+    68
+   ],
+   "effect_pts": 32.35294117647059,
+   "group": "DeepSeek: V3 -> R1"
+  },
+  "bullets": {
+   "tied": [
+    8,
+    68
+   ],
+   "p050": [
+    15,
+    68
+   ],
+   "effect_pts": 10.294117647058822,
+   "group": "DeepSeek: V3 -> R1"
+  }
+ },
+ "Qwen3-235B Instruct-2507": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "Qwen3-235B: Instruct -> Thinking"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "Qwen3-235B: Instruct -> Thinking"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "Qwen3-235B: Instruct -> Thinking"
+  }
+ },
+ "Qwen3-235B Thinking-2507": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    11,
+    67
+   ],
+   "effect_pts": 16.417910447761194,
+   "group": "Qwen3-235B: Instruct -> Thinking"
+  },
+  "titles": {
+   "tied": [
+    0,
+    65
+   ],
+   "p050": [
+    0,
+    64
+   ],
+   "effect_pts": 0.0,
+   "group": "Qwen3-235B: Instruct -> Thinking"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    67
+   ],
+   "p050": [
+    0,
+    65
+   ],
+   "effect_pts": 0.0,
+   "group": "Qwen3-235B: Instruct -> Thinking"
+  }
+ },
+ "Kimi K2-0905": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    1,
+    68
+   ],
+   "effect_pts": 1.4705882352941175,
+   "group": "Kimi: K2-0905 -> K2-thinking"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    3,
+    68
+   ],
+   "effect_pts": 4.411764705882353,
+   "group": "Kimi: K2-0905 -> K2-thinking"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "Kimi: K2-0905 -> K2-thinking"
+  }
+ },
+ "MiniMax-M1": {
+  "send": {
+   "tied": [
+    0,
+    56
+   ],
+   "p050": [
+    1,
+    57
+   ],
+   "effect_pts": 1.7543859649122806,
+   "group": "MiniMax: 01 -> M1"
+  },
+  "titles": {
+   "tied": [
+    0,
+    28
+   ],
+   "p050": [
+    0,
+    20
+   ],
+   "effect_pts": 0.0,
+   "group": "MiniMax: 01 -> M1"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    24
+   ],
+   "p050": [
+    0,
+    29
+   ],
+   "effect_pts": 0.0,
+   "group": "MiniMax: 01 -> M1"
+  }
+ },
+ "GLM-4.5": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    30,
+    68
+   ],
+   "effect_pts": 44.11764705882353,
+   "group": "GLM releases"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    19,
+    68
+   ],
+   "effect_pts": 27.941176470588236,
+   "group": "GLM releases"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    9,
+    67
+   ],
+   "effect_pts": 13.432835820895523,
+   "group": "GLM releases"
+  }
+ },
+ "GLM-4.6": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    22,
+    68
+   ],
+   "effect_pts": 32.35294117647059,
+   "group": "GLM releases"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    22,
+    68
+   ],
+   "effect_pts": 32.35294117647059,
+   "group": "GLM releases"
+  },
+  "bullets": {
+   "tied": [
+    1,
+    68
+   ],
+   "p050": [
+    7,
+    68
+   ],
+   "effect_pts": 8.823529411764705,
+   "group": "GLM releases"
+  }
+ },
+ "GLM-4.7": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    24,
+    68
+   ],
+   "effect_pts": 35.294117647058826,
+   "group": "GLM releases"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    23,
+    68
+   ],
+   "effect_pts": 33.82352941176471,
+   "group": "GLM releases"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    6,
+    68
+   ],
+   "effect_pts": 8.823529411764707,
+   "group": "GLM releases"
+  }
+ },
+ "MiniMax-M2": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "MiniMax M2 releases"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    9,
+    68
+   ],
+   "effect_pts": 13.23529411764706,
+   "group": "MiniMax M2 releases"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    3,
+    68
+   ],
+   "effect_pts": 4.411764705882353,
+   "group": "MiniMax M2 releases"
+  }
+ },
+ "MiniMax-M2.1": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "MiniMax M2 releases"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    7,
+    68
+   ],
+   "effect_pts": 10.294117647058822,
+   "group": "MiniMax M2 releases"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    1,
+    68
+   ],
+   "effect_pts": 1.4705882352941175,
+   "group": "MiniMax M2 releases"
+  }
+ },
+ "MiniMax-M2.5": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": 0.0,
+   "group": "MiniMax M2 releases"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    4,
+    67
+   ],
+   "effect_pts": 5.970149253731343,
+   "group": "MiniMax M2 releases"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    2,
+    68
+   ],
+   "effect_pts": 2.941176470588235,
+   "group": "MiniMax M2 releases"
+  }
+ },
+ "MiniMax-M2.7": {
+  "send": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    1,
+    68
+   ],
+   "effect_pts": 1.4705882352941175,
+   "group": "MiniMax M2 releases"
+  },
+  "titles": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    6,
+    68
+   ],
+   "effect_pts": 8.823529411764707,
+   "group": "MiniMax M2 releases"
+  },
+  "bullets": {
+   "tied": [
+    0,
+    68
+   ],
+   "p050": [
+    2,
+    68
+   ],
+   "effect_pts": 2.941176470588235,
+   "group": "MiniMax M2 releases"
+  }
+ },
+ "MiniMax-01": {
+  "titles": {
+   "tied": [
+    1,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": -1.4705882352941175,
+   "group": "MiniMax: 01 -> M1"
+  },
+  "bullets": {
+   "tied": [
+    1,
+    68
+   ],
+   "p050": [
+    0,
+    68
+   ],
+   "effect_pts": -1.4705882352941175,
+   "group": "MiniMax: 01 -> M1"
+  }
+ }
+}

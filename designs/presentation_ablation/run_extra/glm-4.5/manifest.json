@@ -1,0 +1,30 @@
+{
+ "at": "2026-10-31T23:45:26+00:00",
+ "label": "GLM-4.5: Qwen 3.5 Part 1 items replayed",
+ "model": "openrouter/z-ai/glm-4.5",
+ "hosts": [
+  "z-ai/fp8"
+ ],
+ "tasks": {
+  "send": {
+   "n_items": 136,
+   "n_prompts": 88,
+   "items_digest": "481759f3ce225926145a3a52f9afe384db2e030be93f07d752632fc6113f1a48",
+   "blocks_sha256": "64a2ad2c4d385624e1b8bba93f0bbc1d9192633e2d44cb6a5e5fd296fa7de115"
+  },
+  "titles": {
+   "n_items": 136,
+   "n_prompts": 88,
+   "items_digest": "79b30b2f5af1f53c500258737424829542dabd91cf45de5a484f3c58dea33abe",
+   "blocks_sha256": "88e1fd6efbf7f8ecc25fe74d4472f381130a4d7073201ec0dfe622f5ee09542c"
+  },
+  "bullets": {
+   "n_items": 136,
+   "n_prompts": 76,
+   "items_digest": "dae044a872477f34e5aa92b01b170be3c896bf12ba3eeb9921143f72e72c1dc9",
+   "blocks_sha256": "504533f6aebb39c09b751a0b7c634309f69623a6f41a0a271e6866d775a727fb"
+  }
+ },
+ "code_sha256": "8c7f9158c17e554c15e692f607039e1be1de1dc401a83f22a5c0d5d77437aaf9",
+ "source_manifest_sha256": "8a98cad41fb7f35fb2872322825dd81d8af4af96e69f09d95d9a2bca9d698261"
+}

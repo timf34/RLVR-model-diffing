@@ -1,0 +1,31 @@
+{
+ "at": "2026-10-31T23:45:25+00:00",
+ "label": "Qwen3-235B Instruct-2507: Qwen 3.5 Part 1 items replayed",
+ "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+ "hosts": [
+  "deepinfra/fp8",
+  "parasail/fp8"
+ ],
+ "tasks": {
+  "send": {
+   "n_items": 136,
+   "n_prompts": 88,
+   "items_digest": "e6b35f95f0f1836751f8ef9470de2d657e5dac6133c22d416a5e1e77c136ed0b",
+   "blocks_sha256": "64a2ad2c4d385624e1b8bba93f0bbc1d9192633e2d44cb6a5e5fd296fa7de115"
+  },
+  "titles": {
+   "n_items": 136,
+   "n_prompts": 88,
+   "items_digest": "7537764096d41288f6dc30f777782b85170919a9cf1343cd46b06742169b6965",
+   "blocks_sha256": "88e1fd6efbf7f8ecc25fe74d4472f381130a4d7073201ec0dfe622f5ee09542c"
+  },
+  "bullets": {
+   "n_items": 136,
+   "n_prompts": 76,
+   "items_digest": "af39989d4820975ce0665bbeb21e0ac63cd161db8eebc663184ede5cf335686e",
+   "blocks_sha256": "504533f6aebb39c09b751a0b7c634309f69623a6f41a0a271e6866d775a727fb"
+  }
+ },
+ "code_sha256": "8c7f9158c17e554c15e692f607039e1be1de1dc401a83f22a5c0d5d77437aaf9",
+ "source_manifest_sha256": "8a98cad41fb7f35fb2872322825dd81d8af4af96e69f09d95d9a2bca9d698261"
+}

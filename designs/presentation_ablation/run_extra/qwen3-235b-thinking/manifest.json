@@ -1,0 +1,30 @@
+{
+ "at": "2026-10-31T23:45:25+00:00",
+ "label": "Qwen3-235B Thinking-2507: Qwen 3.5 Part 1 items replayed",
+ "model": "openrouter/qwen/qwen3-235b-a22b-thinking-2507",
+ "hosts": [
+  "venice/fp8"
+ ],
+ "tasks": {
+  "send": {
+   "n_items": 136,
+   "n_prompts": 88,
+   "items_digest": "d884cef6213185b46f2165bdf50efa1d8f2b35cd4100f390988634d1dc0b3910",
+   "blocks_sha256": "64a2ad2c4d385624e1b8bba93f0bbc1d9192633e2d44cb6a5e5fd296fa7de115"
+  },
+  "titles": {
+   "n_items": 136,
+   "n_prompts": 88,
+   "items_digest": "b1a5b2b60c40e2335b2a9f46aeb9262addee729245fdcd0bd12c93957ab9f27c",
+   "blocks_sha256": "88e1fd6efbf7f8ecc25fe74d4472f381130a4d7073201ec0dfe622f5ee09542c"
+  },
+  "bullets": {
+   "n_items": 136,
+   "n_prompts": 76,
+   "items_digest": "31a4991c0068b609f397e20afe94d9e5024f98d9ca2610a2818342f2cf5668e6",
+   "blocks_sha256": "504533f6aebb39c09b751a0b7c634309f69623a6f41a0a271e6866d775a727fb"
+  }
+ },
+ "code_sha256": "8c7f9158c17e554c15e692f607039e1be1de1dc401a83f22a5c0d5d77437aaf9",
+ "source_manifest_sha256": "8a98cad41fb7f35fb2872322825dd81d8af4af96e69f09d95d9a2bca9d698261"
+}
